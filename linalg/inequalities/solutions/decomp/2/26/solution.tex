@@ -1,0 +1,52 @@
+Let $c_1$ and $c_2$ be the column vectors of given matrix $\vec{A}$
+\begin{align}
+c_1 = \myvec{2\\1}\\
+c_2 = \myvec{-6\\-2}
+\end{align}
+We can express the matrix $\vec{A}$ as,
+\begin{align}
+\vec{A}=\vec{QR}
+\end{align}
+Where, $\vec{Q}$ is an orthogonal matrix given as,
+\begin{align}
+\vec{Q} = \myvec{\vec{u_1}&\vec{u_2}}\label{eq:solutions/2/26/orthogonal}
+\end{align}
+and $\vec{R}$ is an upper triangular matrix given as,
+\begin{align}
+\vec{R} = \myvec{k_1&r_1\\0&k_2}
+\label{eq:solutions/2/26/UT}
+\end{align}
+Now, we can express $\alpha$ and $\beta$ as,
+\begin{align}
+c_1 = k_1\vec{u_1}\label{eq:solutions/2/26/alpha}\\
+c_2 = r_1\vec{u_1} +k_2\vec{u_2}\label{eq:solutions/2/26/beta}\\
+\mbox{where, } k_1 = \norm{c_1} = \sqrt{2^2+(1^2} = \sqrt{5}\label{eq:solutions/2/26/k1}
+\end{align} 
+Solving equation \eqref{eq:solutions/2/26/alpha} for $\vec{u_1}$ ,
+\begin{align}
+\vec{u_1} = \frac{c_1}{k_1} = \frac{1}{\sqrt{5}}\myvec{2\\1}\label{eq:solutions/2/26/u1}
+\end{align}
+\begin{align}
+\mbox{Now, } r_1 = \frac{\vec{u_1}^Tc_2}{\norm{\vec{u_1}}^2}\\
+\implies \frac{\frac{1}{\sqrt{5}}\myvec{2&1}\myvec{-6\\-2}}{1}
+\end{align}
+\begin{align}
+\mbox{Hence, } r_1 = -\frac{-14}{\sqrt{5}}
+\label{eq:solutions/2/26/r1}\\
+\vec{u_2} = \frac{c_2-r_1\vec{u_1}}{\norm{c_2-r_1\vec{u_1}}}\\
+\implies \frac{\myvec{-6\\-2} - \brak{\frac{-14}{\sqrt{5}}}\brak{\frac{1}{\sqrt{5}}\myvec{2\\1}}}{\norm{\myvec{-6\\-2} - \brak{-\frac{14}{\sqrt{5}}\frac{1}{\sqrt{5}}\myvec{2\\1}}}} 
+\end{align}
+\begin{align}
+\implies\vec{u_2} = \frac{1}{\sqrt{5}}\myvec{-1\\2}\label{eq:solutions/2/26/u2}
+\end{align}
+\begin{align}
+\mbox{Now, } k_2 = u_2^Tc_2\\
+\implies \frac{1}{\sqrt{5}}\myvec{-1&2}\myvec{-6\\-2}\\\implies k_2 = \frac{2}{\sqrt{5}} \label{eq:solutions/2/26/k2}
+\end{align}
+Hence substituting the values of unknown parameter from equations \eqref{eq:solutions/2/26/k1}, \eqref{eq:solutions/2/26/k2}, \eqref{eq:solutions/2/26/u1}, \eqref{eq:solutions/2/26/u2} and \eqref{eq:solutions/2/26/r1} to equation \eqref{eq:solutions/2/26/orthogonal} and \eqref{eq:solutions/2/26/UT} we get,
+\begin{align}
+\vec{Q} = \frac{1}{\sqrt{5}}\myvec{2&-1\\1&2}
+\end{align} 
+\begin{align}
+\vec{R} = \myvec{\sqrt{5}&\frac{-14}{\sqrt{5}}\\0&\frac{2}{\sqrt{5}}}
+\end{align}

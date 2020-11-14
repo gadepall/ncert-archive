@@ -1,0 +1,24 @@
+Let $\vec{T}_a$ be the matrix for the complex number $\vec{a}$.  $\vec{b}$ is defined to be the multiplicative inverse of $\vec{a}$ if 
+\begin{align}
+\label{eq:3.4.1_Complex_inv}
+\vec{T}_a \vec{T}_b = \vec{T}_b \vec{T}_a = \vec{I}
+\end{align}
+Then, from \eqref{eq:3.4.1_Complex}
+%
+\begin{align}
+\vec{b}=\vec{a}^{-1} &= \myvec{a_1&-a_2\\a_2&a_1}^{-1}\myvec{1\\0}\\
+&=\frac{1}{\norm{\vec{a}}^2}\myvec{a_1\\-a_2}
+\label{eq:3.4.3_comp_inv}
+\end{align}
+Thus, 
+\begin{align}
+\myvec{2\\-3}^{-1}= \frac{1}{13}\myvec{2\\3}
+\end{align}
+The python code for above problem is
+\begin{lstlisting}
+solutions/3/codes/line/comp/comp.py
+\end{lstlisting}
+Note that 
+\begin{align}
+\vec{T}_b = \vec{T}^{-1}_a  = \frac{\vec{T}_a^T}{\norm{\vec{a}^2}}
+\end{align}

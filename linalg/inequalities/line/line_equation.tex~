@@ -1,0 +1,1403 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+ \item Verify whether the following are zeroes of the polynomial, indicated against them. 
+\begin{enumerate}
+\item $ p(x) = 3x + 1, x = \frac{1}{3}$
+\item $ p(x) = 5x -\pi, x = \frac{4}{5}$
+\item $ p(x) = 5lx+m, x = -\frac{m}{l}$
+\item $ p(x) = 2x+1, x = \frac{1}{2}$
+\end{enumerate}
+%
+\solution 
+\input{./solutions/1/chapters/line/line_plane/solution.tex}
+%
+\item Find the zero of the polynomial in each of the following cases: 
+\begin{enumerate}
+\item $p(x) = x + 5 $
+\item $p(x) = x – 5$
+\item $p(x) = 2x + 5$
+\item $p(x) = 3x – 2$
+ \item $p(x) = 3x$
+ \item $p(x) = ax, a \ne 0$
+\item $p(x) = cx + d, c \ne 0, c, d$ are real numbers.
+\end{enumerate}
+\solution 
+\input{./solutions/2/chapters/line_ex/lines_and_planes/solution.tex}
+\item Find two solutions for each of the following equations: 
+\begin{enumerate}
+\item $\myvec{4 & 3}\vec{x} = 12$
+\item $\myvec{ 2 & 5}\vec{x}  = 0 $
+\item $\myvec{ 0 & 3}\vec{x}  = 4$
+\end{enumerate}
+\solution 
+\input{./solutions/3/chapters/line/pointonline/solution.tex}
+
+\item Sketch the following lines
+%
+\begin{enumerate}[itemsep=2pt]
+%\begin{multicols}{2}
+\item
+$
+\myvec{2 & 3 }\vec{x}=9.35
+$
+\item
+$
+\myvec{1 & -\frac{1}{5} }\vec{x}=10
+$
+\item
+$
+\myvec{-2 & 3 }\vec{x}=6
+$
+\item
+$
+\myvec{1 & -3 }\vec{x}=0
+$
+\item
+$
+\myvec{2 & 5 }\vec{x}=0
+$
+\item
+$
+\myvec{3 & 0 }\vec{x}=-2
+$
+\item
+$
+\myvec{0 & 1 }\vec{x}=2
+$
+\item
+$
+\myvec{2 & 0 }\vec{x}=5
+$
+%\end{multicols}
+\end{enumerate}
+%
+\solution 
+\input{./solutions/4/chapters/line/lines_and_plane/solution.tex}
+%
+\item Draw the graphs of the following equations
+\begin{enumerate}[itemsep=2pt]
+\begin{multicols}{2}
+\item $\myvec{1 & 1}\vec{x} = 0$
+\item $\myvec{ 2 & -1}\vec{x}  = 0 $
+\item $\myvec{ 1 & -1}\vec{x}  = 0$
+\item $\myvec{ 2 & -1}\vec{x}  = -1$
+\item $\myvec{ 2 & -1}\vec{x}  = 4$
+\item $\myvec{ 1& -1}\vec{x}  = 4$
+\end{multicols}
+\end{enumerate}
+\solution 
+\input{./solutions/5/chapters/lines/docq11.tex}
+%
+\item Write four solutions for each of the following equations
+\begin{enumerate}
+\item $\myvec{2 & 1}\vec{x} = 7$
+\item $\myvec{ \pi & 1}\vec{x}  = 9 $
+\item $\myvec{ 1 & -4}\vec{x}  = 0$
+\end{enumerate}
+\solution 
+\input{./solutions/6/chapters/line/lines_planes/solution.tex}
+%
+\item Check which of the following are solutions of the equation 
+%
+\begin{align}
+\myvec{1 & -2}\vec{x} &= 4
+\end{align}
+%
+%
+\begin{enumerate}[itemsep=2pt]
+\begin{multicols}{2}
+\item $\myvec{0 \\ 2}$
+\item $\myvec{2 \\ 0}$
+\item $\myvec{4 \\ 0}$
+\item $\myvec{\sqrt{2} \\ 4\sqrt{2}}$
+\item $\myvec{1 \\ 1}$
+\end{multicols}
+\end{enumerate}
+%
+\item Find the value of $k$, if $\myvec{2\\1}$ is a solution of the equation 
+%
+%
+\begin{align}
+\myvec{2 & 3}\vec{x} &= k
+\end{align}
+%
+%
+\item Draw the graphs of the following equations
+\begin{enumerate}[itemsep=2pt]
+%\begin{multicols}{2}
+\item $\myvec{1 & 1}\vec{x} = 4$
+\item $\myvec{ 1 & -1}\vec{x}  = 2 $
+\item $\myvec{ 3 & -1}\vec{x}  = 0$
+\item $\myvec{ 2 & 1}\vec{x}  = 3$
+\item $\myvec{ 1 & -1}\vec{x}  = 0$
+\item $\myvec{ 1& 1}\vec{x}  = 0$
+\item $\myvec{ 2& -1}\vec{x}  = 0$
+\item $\myvec{ 7& -3}\vec{x}  = 2$
+\item $\myvec{ 1& 1}\vec{x}  = 0$
+\item $\myvec{ 1& -1}\vec{x}  = -2$
+\item $\myvec{ 1& 1}\vec{x}  = 2$
+\item $\myvec{ 1& 2}\vec{x}  = 6$
+%\end{multicols}
+\end{enumerate}
+%
+\item Give the equations of two lines passing through \myvec{2 \\ 14}. How many more such lines are there, and why?
+\item If the point \myvec{3 \\ 4} lies on the graph of the equation $3y = ax + 7$, find the value of $a$
+\item Find out whether the lines representing the
+following pairs of linear equations intersect at a point, are parallel or coincident
+%
+\begin{enumerate}[itemsep=2pt]
+%\begin{multicols}{2}
+\item
+\begin{align}
+\begin{split}
+\myvec{5 & -4 }\vec{x}&=-8
+\\
+\myvec{7 & 6 }\vec{x}&=9
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{9 & 3 }\vec{x}&=-12
+\\
+\myvec{18 & 6 }\vec{x}&=-24
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{6 & -3 }\vec{x}&=-10
+\\
+\myvec{2 & -1 }\vec{x}&=-9
+\end{split}
+\end{align}
+%\end{multicols}
+\end{enumerate}
+%
+\item Find out whether the following pair of linear
+equations are consistent, or inconsistent.
+%
+\begin{enumerate}[itemsep=2pt]
+%\begin{multicols}{2}
+\item
+\begin{align}
+\begin{split}
+\myvec{3 & 2 }\vec{x}&=5
+\\
+\myvec{2 & -3 }\vec{x}&=7
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{2 & -3 }\vec{x}&=8
+\\
+\myvec{4 & -6 }\vec{x}&=9
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{\frac{3}{2} & \frac{5}{3} }\vec{x}&=7
+\\
+\myvec{9 & -10 }\vec{x}&=14
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{5 & -3 }\vec{x}&=11
+\\
+\myvec{-10 & 6 }\vec{x}&=-22
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{\frac{4}{3} & 2 }\vec{x}&=8
+\\
+\myvec{2 & 3 }\vec{x}&=12
+\end{split}
+\end{align}
+%\end{multicols}
+\end{enumerate}
+%
+\item Which of the following pairs of linear equations are consistent/inconsistent? If consistent, obtain the solution:
+%
+\begin{enumerate}[itemsep=2pt]
+%\begin{multicols}{2}
+\item
+\begin{align}
+\begin{split}
+\myvec{1 & 1 }\vec{x}&=5
+\\
+\myvec{2 & 2 }\vec{x}&=10
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{1 & -1 }\vec{x}&=8
+\\
+\myvec{3 & -3 }\vec{x}&=16
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{2 & 1 }\vec{x}&=6
+\\
+\myvec{4 & -2 }\vec{x}&=4
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{2 & -2 }\vec{x}&=2
+\\
+\myvec{4 & -4 }\vec{x}&=5
+\end{split}
+\end{align}
+%\end{multicols}
+\end{enumerate}
+%
+\item Given the linear equation $\myvec{2 & 3}\vec{x} – 8 = 0$, write another linear equation in two variables such that the geometrical representation of the pair so formed is: 
+%
+\begin{enumerate}[itemsep=2pt]
+\begin{multicols}{2}
+\item  intersecting lines
+\item parallel lines 
+\item  coincident lines
+\end{multicols}
+\end{enumerate}
+%
+%
+\item Find the intersection of the following lines
+%
+\begin{enumerate}[itemsep=2pt]
+%\begin{multicols}{2}
+\item
+\begin{align}
+\begin{split}
+\myvec{1 & 1 }\vec{x}&=14
+\\
+\myvec{1 & -1 }\vec{x}&=4
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{1 & -1 }\vec{x}&=3
+\\
+\myvec{\frac{1}{3} & \frac{1}{2} }\vec{x}&=6
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{3 & -1 }\vec{x}&=3
+\\
+\myvec{9 & -3 }\vec{x}&=9
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{0.2 & 0.3 }\vec{x}&=1.3
+\\
+\myvec{0.4 & 0.5 }\vec{x}&=2.3
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{\sqrt{2} & \sqrt{3} }\vec{x}&=0
+\\
+\myvec{\sqrt{3} & \sqrt{8} }\vec{x}&=0
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{\frac{3}{2} & -\frac{5}{3} }\vec{x}&=-2
+\\
+\myvec{\frac{1}{3} & \frac{1}{2} }\vec{x}&=\frac{13}{6}
+\end{split}
+\end{align}
+%\end{multicols}
+\end{enumerate}
+%
+\item Find $m$ if 
+\begin{align}
+\begin{split}
+\myvec{2 & 3 }\vec{x}&=11
+\\
+\myvec{2 & -4 }\vec{x}&=-24
+\\
+\myvec{m & -1 }\vec{x}&=-3
+\\
+\end{split}
+\end{align}
+%
+%
+\item Solve the following
+%
+\begin{enumerate}[itemsep=2pt]
+\begin{multicols}{2}
+\item
+\begin{align}
+\begin{split}
+\myvec{1 & 1 }\vec{x}&=5
+\\
+\myvec{2 & -3 }\vec{x}&=4
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{3 & 4 }\vec{x}&=10
+\\
+\myvec{2 & -2 }\vec{x}&=2
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{3 & -5 }\vec{x}&=4
+\\
+\myvec{9 & -2 }\vec{x}&=7
+\end{split}
+\end{align}
+\begin{align}
+\begin{split}
+\myvec{\frac{1}{2} & \frac{2}{3} }\vec{x}&=-1
+\\
+\myvec{{1} & -\frac{1}{3} }\vec{x}&=3
+\end{split}
+\end{align}
+\end{multicols}
+\end{enumerate}
+%
+%
+\item Which of the following pairs of linear equations has a unique solution, no solution, or infinitely many solutions?
+%
+\begin{enumerate}[itemsep=2pt]
+\begin{multicols}{2}
+\item
+\begin{align}
+\begin{split}
+\myvec{1 & -3 }\vec{x}&=3
+\\
+\myvec{3 & -9 }\vec{x}&=2
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{2 & 1 }\vec{x}&=5
+\\
+\myvec{3 & 2 }\vec{x}&=8
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{3 & -5 }\vec{x}&=20
+\\
+\myvec{6 & -10 }\vec{x}&=40
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{1 & -3 }\vec{x}&=7
+\\
+\myvec{3 & -3 }\vec{x}&=15
+\end{split}
+\end{align}
+\end{multicols}
+\end{enumerate}
+%
+\item For which alues of $a$ and $b$ does the following pair of linear equations have an infinite number of solutions?
+\begin{align}
+\begin{split}
+\myvec{2 & 3 }\vec{x}&=7
+\\
+\myvec{a-b & a+b }\vec{x}&=3a+b-2
+\end{split}
+\end{align}
+\item For which value of $k$ will the following pair of linear equations have no solution?
+\begin{align}
+\begin{split}
+\myvec{3 & 1 }\vec{x}&=1
+\\
+\myvec{2k-1 & k-1 }\vec{x}&=2k+1
+\end{split}
+\end{align}
+\\
+\solution
+\input{./solutions/line_plane/21}
+\item Solve the following pair of linear equations
+\begin{align}
+\begin{split}
+\myvec{8 & 5 }\vec{x}&=9
+\\
+\myvec{3 & 2 }\vec{x}&=4
+\end{split}
+\end{align}
+%
+\item Solve the following pair of linear equations
+\begin{align}
+\begin{split}
+\myvec{158 & -378 }\vec{x}&=-74
+\\
+\myvec{-378 & 152 }\vec{x}&=-604
+\end{split}
+\end{align}
+
+\item  Find the slope of a line, which passes through the origin, and the mid-point of the line segment joining the points $\vec{P} = \myvec{0\\ – 4}$ and $\vec{B} = \myvec{8\\ 0}$.
+\item The slope of a line is double of the slope of another line. If the tangent of the angle
+between them is $\frac{1}{3}$, find the slopes of the lines.
+\item Find the slope of the line, which makes an angle of $30\degree$ of y-axis measured anticlockwise.
+\item Write the equations for the x and y axes.
+\item Find the equation of the line satisfying the following conditions 
+\begin{enumerate}
+\item passing through  the point \myvec{-4\\3} with slope $\frac{1}{2}$.
+\item passing through the point \myvec{0\\0} with slope $m$.
+\item passing through the point $\myvec{2\\2\sqrt{3}}$ and inclined with the x-axis at an angle of 75$\degree$.
+\item Intersecting the x-axis at a distance of 3 units to the let of the origin with slope -2.
+\item intersecting the y-axis at a distance of 2 units above the origin and making an angle of $30\degree$ with the positive direction of the x-axis.
+\item passing through the points \myvec{-1\\1} and \myvec{2\\-4}.
+\item perpendicular distance from the origin is 5 and the angle made by the perpendicular with the positive x-axis is 30$\degree$.
+\end{enumerate}
+\item Find the equation of the line passing through \myvec{-3\\5} and perpendicular to the line through the points \myvec{2\\5} and \myvec{-3\\6}.
+\item Find the direction vectors and and y-intercepts  of the following lines 
+\begin{enumerate}
+\item $\myvec{1 & 7}\vec{x} = 0$.
+\item $\myvec{6 & 3}\vec{x} = 5$.
+\item $\myvec{0 & 1}\vec{x} = 0$.
+\end{enumerate}
+\item Find the intercepts of the following  lines on the axes.
+\begin{enumerate}
+\item $\myvec{3 & 2}\vec{x} = 12$.
+\item $\myvec{4 & -3}\vec{x} = 6$.
+\item $\myvec{3 & 2}\vec{x} = 0$.
+\end{enumerate}
+\item Find the perpendicular distances of the following lines from the origin and angle between the perpendicular and the positive x-axis.
+\begin{enumerate}
+\item $\myvec{1 & -\sqrt{3}}\vec{x} = -8$.
+\item $\myvec{0 & 1}\vec{x} = 2$.
+\item $\myvec{1 & -1}\vec{x} = 4$.
+\end{enumerate}
+\item Find the distance of the point \myvec{1\\-1} from the line $\myvec{12 & -5}\vec{x} = -82$.
+\item Find the points on the x-axis, whose distances from the line 
+\begin{align}
+\myvec{4 & 3} \vec{x} = 12
+\end{align}
+are 4 units.
+%
+\item Find the distance between the parallel lines
+%
+\begin{align}
+\myvec{15 & 8}\vec{x} &= 34
+\\
+\myvec{15 & 8}\vec{x} &= -31
+\end{align}
+\item Find the equation of the line parallel to the line 
+\begin{align}
+\myvec{3 & -4}\vec{x} = -2
+\end{align}
+%
+and passing through the point \myvec{-2\\3}.
+\item Find the equation of a line perpendicular to the line 
+\begin{align}
+\myvec{1 & -7}\vec{x} = -5
+\end{align}
+and having x intercept 3.
+\item Find angles between the lines
+\begin{align}
+\myvec{\sqrt{3} & 1}\vec{x} &= 1
+\\
+\myvec{1 & \sqrt{3}}\vec{x} &= 1
+\end{align}
+\item The line through the points $\myvec{h\\3}$ and \myvec{4\\1} intersects the line 
+\begin{align}
+\myvec{7 & -9}\vec{x} = 19
+\end{align}
+at right angle.  Find the value of $h$.
+\item Two lines passing through the point \myvec{2\\3} intersect each other at angle of $60\degree$.  If the slope of one line is 2, find the equation of the other line.
+\item Find the equation of the right bisector of the line segment joining the points \myvec{3\\4} and \myvec{-1\\2}.
+
+\item Find the coordinates of the foot of the perpendicular from the point \myvec{-1\\3} to the line
+%
+\begin{align}
+\myvec{3 & -4}\vec{x} = 16.
+\end{align}
+%
+\\
+\solution
+
+\item The perpendicular from the origin to the line
+\begin{align}
+\myvec{-m & 1}\vec{x} = c
+\end{align}
+%
+meets it at the point \myvec{-1\\2}.  Find the values of $m$ and $c$.
+\item Find $\theta$ and $p$ if 
+%
+\begin{align}
+\myvec{\sqrt{3} & 1}\vec{x} = -2
+\end{align}
+%
+is equivalent to
+%
+\begin{align}
+\myvec{\cos\theta & \sin\theta}\vec{x} = p
+\end{align}
+%
+\item Find the equations of the lines, which cut-off intercepts on the axes whose sum and product are 1 and -6 respectively.
+%
+\item Find the equation of the line parallel to the y-axis whose distance from the line 
+%
+\begin{align}
+\myvec{4 & 3}\vec{x} = 12
+\end{align}
+%
+4 units.
+%
+\item Find the equation of the line parallel to the y-axis drawn through the point of intersection of the lines 
+%
+\begin{align}
+\myvec{1 & -7}\vec{x} &= -5
+\\
+\myvec{3 & 1}\vec{x} &= 0
+\end{align}
+%
+\item Find the alue of $p$ so that the three lines 
+%
+\begin{align}
+\myvec{3 & 1}\vec{x} &= 2
+\\
+\myvec{p & 2}\vec{x} &= 3
+\\
+\myvec{2 & -1}\vec{x} &= 3
+\end{align}
+%
+may intersect at one point.
+%
+\item Find the equation of the lines through the point \myvec{3\\2} which make an angle of $45\degree$ with the line 
+\begin{align}
+\myvec{1 & -2}\vec{x} &= 3.
+\end{align}
+%
+\item Find the equation of the line passing through the point of intersection of the lines 
+%
+\begin{align}
+\myvec{4 & 7}\vec{x} &= 3
+\\
+\myvec{2 & -3}\vec{x} &= -1
+\end{align}
+%
+that has equal intercepts on the axes.
+%
+\item In what ratio is the line joining \myvec{-1\\1} and \myvec{5\\7} divided by the line
+%
+\begin{align}
+\myvec{1 & 1}\vec{x} &= 4
+\end{align}
+%
+\item Find the distance of the line 
+%
+\begin{align}
+\myvec{4 & 7}\vec{x} &= -5
+\end{align}
+%
+from the point \myvec{1\\2} along the line 
+%
+\begin{align}
+\myvec{2 & -1}\vec{x} &= 0.
+\end{align}
+%
+\item Find the direction in which a straight line must be drawn through the point \myvec{-1\\2} so that its point of intersection with the line 
+%
+\begin{align}
+\myvec{1 & 1}\vec{x} &= 4
+\end{align}
+%
+may be at a distance of 3 units from this point.
+\item The hypotenuse of a right angled triangle has its ends at the points \myvec{1\\3} and \myvec{-4\\1}. Find an equation of the legs of the triangle.
+\item Find the image of the point \myvec{3\\8} with respect to the line 
+%
+\begin{align}
+\myvec{1 & 3}\vec{x} &= 7
+\end{align}
+%
+assuming the line to be a plane mirror.
+%
+\item If the lines
+%
+%
+\begin{align}
+\myvec{-3 & 1}\vec{x} &= 1
+\\
+\myvec{-1 & 2}\vec{x} &= 3
+\end{align}
+%
+are equally inclined to the line
+%
+\begin{align}
+\myvec{-m & 1}\vec{x} &= 4,
+\end{align}
+%
+find the value of $m$.
+%
+\item The sum of the perpendicular distances of a variable point $\vec{P}$ from the lines
+%
+\begin{align}
+\myvec{1 & 1}\vec{x} &= 0
+\\
+\myvec{3 & -2}\vec{x} &= -7
+\end{align}
+%
+is always 10.  Show that $\vec{P}$ must move on a line.
+%
+\item Find the equation of the line which is equidistant from parallel lines
+%
+\begin{align}
+\myvec{9 & 7}\vec{x} &= 7
+\\
+\myvec{3 & 2}\vec{x} &= -6.
+\end{align}
+%
+\item A ray of light passing through the point \myvec{1\\2} reflects on the x-axis at point $\vec{A}$ and the reflected ray passes through the point \myvec{5\\3}.  Find the coordinates of $\vec{A}$.
+\item A person standing at the junction of two straight paths represented by the equations 
+%
+\begin{align}
+\myvec{2 & -3}\vec{x} &= 4
+\\
+\myvec{3 & 4}\vec{x} &= 5
+\end{align}
+%
+wants to reach the path whose equation is
+%
+\begin{align}
+\myvec{6 & -7}\vec{x} &= -8
+\end{align}
+%
+in the least time.  Find the equation of the path that he should follow.
+\item Determine the ratio in which the line 
+\begin{align}
+\myvec{2 & 1}\vec{x} - 4 = 0
+\end{align}
+%
+divides the line segment joining the points $\vec{A}=\myvec{2\\-2}, \vec{B}=\myvec{3\\7}$.
+\item A line perpendicular to the line segment joining the points \myvec{1\\0} and \myvec{2\\3} divides it in the ratio $1:n$.  Find the equation of the line.
+\item Find the equation of a line that cuts off equal intercepts on the coordinate axes and passes through the point \myvec{2\\3}.
+\item Find the equation of the line passing through the point \myvec{2\\2} and cutting off intercepts on the axes whose sum is 9.
+\item Find the equation of the line through the point \myvec{0\\2} making an angle $\frac{2\pi}{3}$ with the positive x-axis.  Also, find the equation of the line parallel to it and crossing the y-axis at a distance of 2 units below the origin.
+\item The perpendicular from the origin to a line meets it at a point \myvec{-2\\9}, find the equation of the line.
+\item Find the equation of a line which passes through the point \myvec{1\\2\\3} and is parallel to the vector \myvec{3\\2\\-2}.
+\item Find the equaion off the line that passes through \myvec{2\\-1\\4} and is in the direction \myvec{1\\2\\-1}.
+\item Find the equation of the line which passes through  the point \myvec{-2\\4\\-5} and parallel to the line given by 
+\begin{align}
+\frac{x+3}{3} = \frac{y-4}{5} = \frac{z+8}{6}. 
+\end{align}
+\item Find the equation of the line given by 
+\begin{align}
+\frac{x-5}{3} = \frac{y+4}{7} = \frac{z-6}{2}. 
+\end{align}
+\item Find the equation of the line passing through the origin and the point \myvec{5\\-2\\3}.
+\item Find the equation of the line passing through the points \myvec{3\\-2\\-5}, \myvec{3\\-2\\6}.
+\item Find the angle between the following pair of lines:
+\begin{enumerate}
+\item
+\begin{align}
+L_1: \quad \vec{x} &= \myvec{2\\-5\\1} + \lambda_1\myvec{3 \\ 2 \\6}
+\\
+L_2: \quad \vec{x} &= \myvec{7\\-6\\0} + \lambda_2\myvec{1 \\ 2 \\2}
+\end{align}
+\item
+\begin{align}
+L_1: \quad \vec{x} &= \myvec{3\\1\\-2} + \lambda_1\myvec{1 \\ -1 \\-2}
+\\
+L_2: \quad \vec{x} &= \myvec{2\\-1\\-56} + \lambda_2\myvec{3 \\ -5 \\-4}
+\end{align}
+\end{enumerate}
+\item Find the angle between the following pair of lines
+\begin{enumerate}
+\item 
+\begin{align}
+\frac{x-2}{2} = \frac{y-1}{5} &= \frac{z+3}{-3}, 
+\\
+\frac{x+2}{-1} = \frac{y-4}{8} &= \frac{z-5}{4} 
+\end{align}
+\item 
+\begin{align}
+\frac{x}{2} = \frac{y}{2} &= \frac{z}{1}, 
+\\
+\frac{x-5}{4} = \frac{y-2}{1} &= \frac{z-3}{8} 
+\end{align}
+\end{enumerate}
+\item Find the values of $p$ so that the lines 
+\begin{align}
+\frac{1-x}{3} = \frac{7y-14}{2p} &= \frac{z-3}{2}, 
+\\
+\frac{7-7x}{3p} = \frac{y-5}{1} &= \frac{6-z}{5} 
+\end{align}
+are at right angles.
+\item Show that the lines 
+\begin{align}
+\frac{x-5}{7} = \frac{y+2}{-5} &= \frac{z}{1}, 
+\\
+\frac{x}{1} = \frac{y}{2} &= \frac{z}{3} 
+\end{align}
+%
+are perpendicular to each other.
+\item Find the shortest distance between the lines 
+\begin{align}
+L_1: \quad \vec{x} &= \myvec{1\\2\\1} + \lambda_1\myvec{1 \\ -1 \\1}
+\\
+L_2: \quad \vec{x} &= \myvec{2\\-1\\-1} + \lambda_2\myvec{2 \\ 1 \\2}
+\end{align}
+\item Find the shortest distance between the lines 
+\begin{align}
+\frac{x+1}{7} = \frac{y+1}{-6} &= \frac{z+1}{1}, 
+\\
+\frac{x-3}{1} = \frac{y-5}{-2} &= \frac{z-7}{1} 
+\end{align}
+%
+\item Find the shortest distance between the lines 
+\begin{align}
+L_1: \quad \vec{x} &= \myvec{1\\2\\3} + \lambda_1\myvec{1 \\ -3 \\2}
+\\
+L_2: \quad \vec{x} &= \myvec{4\\5\\6} + \lambda_2\myvec{2 \\ 3 \\1}
+\end{align}
+%
+\item Find the shortest distance between the lines 
+\begin{align}
+L_1: \quad \vec{x} &= \myvec{1-t\\t-2\\3-2t} 
+\\
+L_2: \quad \vec{x} &= \myvec{s+1\\2s-1\\-2s-1}
+\end{align}
+\item In each of the following cases, determine the normal to the plane and the distance from the origin.
+\begin{enumerate}[itemsep=2pt]
+\begin{multicols}{2}
+\item
+$
+\myvec{0 & 0 & 1}\vec{x}=2
+$
+\item
+$
+\myvec{1 & 1 & 1}\vec{x}=1
+$
+\item
+$
+\myvec{0 & 5 & 0}\vec{x}=-8
+$
+\item
+$
+\myvec{2 & 3 & -1}\vec{x}=5
+$
+\end{multicols}
+\end{enumerate}
+\item Find the equation of a plane which is at a distance of 7 units from the origin and normal to \myvec{3\\5\\-6}.
+%
+\item  For the following planes, find the coordinates of the foot of the perpendicular drawn from the origin
+\begin{enumerate}[itemsep=2pt]
+\begin{multicols}{2}
+\item
+$
+\myvec{2 & 3 & 4}\vec{x}=12
+$
+\item
+$
+\myvec{3 & 4 & -6}\vec{x}=0
+$
+\item
+$
+\myvec{1 & 1 & 1}\vec{x}=1
+$
+\item
+$
+\myvec{0 & 5 &0}\vec{x}=-8
+$
+\end{multicols}
+\end{enumerate}
+\item Find the equation of the planes
+\begin{enumerate}
+\item that passes through the point \myvec{1\\0\\-2} and the normal to the plane is \myvec{1\\1\\-1}.
+\item that passes through the point \myvec{1\\4\\6} and the normal vetor the plane is \myvec{1\\-2\\1}.
+\end{enumerate}
+\item Find the equation of the planes that passes through three points
+\begin{enumerate}
+\item \myvec{1\\1\\-1}, \myvec{6\\4\\-5}, \myvec{-4\\-2\\3}
+\item \myvec{1\\1\\0}, \myvec{1\\2\\1}, \myvec{-2\\2\\-1}.
+\end{enumerate}
+\item Find the intercepts cut off by the plane 
+$
+\myvec{2 & 1 & 1}\vec{x}=5.
+$
+\item Find the equaion of the plane with intercept 3 on the y-axis and parallel to ZOX plane.
+\item Find the equation of the plane through the intersection of the planes 
+$
+\myvec{3 & -1 & 2}\vec{x}=4
+$
+ and 
+$
+\myvec{1 & 1 & 1}\vec{x}=-2
+$
+and the pont \myvec{2\\2\\1}.
+%
+\item Find the equation of the plane passing through the intersection of the planes 
+$
+\myvec{2 & 2 & -3}\vec{x}=7
+$
+ and 
+$
+\myvec{2 & 5 & 3}\vec{x}=9
+$
+and the pont \myvec{2\\1\\3}.
+%
+\item  Find the equation of the plane through the intersection of the planes
+$
+\myvec{1 & 1 & 1}\vec{x}=1
+$
+ and 
+$
+\myvec{2 & 3 & 4}\vec{x}=5
+$
+which is perpendicular to the plane 
+$
+\myvec{1 & -1 & 1}\vec{x}=0.
+$
+%
+\item Find the angle between the planes whose equations are
+$
+\myvec{2 & 2 & -3}\vec{x}=5
+$
+ and 
+$
+\myvec{3 & -3 & 5}\vec{x}=3
+$
+%
+\item In the following cases, determine whether the given planes are parallel or perpendicular, and in case they are neither, find the angles between them.
+\begin{enumerate}
+\item 
+$
+\myvec{7 & 5 & 6}\vec{x}=-30
+$
+ and 
+$
+\myvec{3 & -1 & -10}\vec{x}=-4
+$
+%
+\item 
+$
+\myvec{2 & 1 & 3}\vec{x}=2
+$
+ and 
+$
+\myvec{1 & -2 & 5}\vec{x}=0
+$
+%
+\item 
+$
+\myvec{2 & -2 & 4}\vec{x}=-5
+$
+ and 
+$
+\myvec{3 & -3 & 6}\vec{x}=1
+$
+\item 
+$
+\myvec{2 & -1 & 3}\vec{x}=1
+$
+ and 
+$
+\myvec{2 & -1 & 3}\vec{x}=-3
+$
+\item 
+$
+\myvec{4 & 8 & 1}\vec{x}=8
+$
+ and 
+$
+\myvec{0 & 1 & 1}\vec{x}=4
+$
+\end{enumerate}
+\item In the following cases, find the distance of each of the given points from the corresponding plane.
+%\newcounter{rowno}
+%\setcounter{rowno}{0}
+\begin{table}[!h]
+\centering
+%\begin{tabular}{>{\stepcounter{rowno}\therowno.}cl}
+%\multicolumn{1}{r}{No.} & text & abcd\\\hline
+% & first  \\
+% & second \\
+% & third  \\
+% & fourth 
+%\end{tabular}
+\input{./line/tables/3d_ncert.tex}
+\caption{}
+\label{table:3d}
+\end{table}
+%
+\item Show that the line joining the origin to the point \myvec{2\\1\\1} is perpendicular to the line determined by the points \myvec{3\\5\\-1}, \myvec{4\\3\\-1}.
+\item If the coordinates of the points $\bm{A}, \bm{B}, \bm{C}, \bm{D}$ be \myvec{1\\2\\3}, \myvec{4\\5\\7}, \myvec{-4\\3\\-6}, \myvec{2\\9\\2}, then find the angle between the lines $AB$ and $CD$.  
+%
+\item If the lines 
+\begin{align}
+\frac{x-1}{-3} = \frac{y-2}{2k} &= \frac{z-3}{2}, 
+\\
+\frac{x-3}{3k} = \frac{y-1}{1} &= \frac{z-6}{-5} ,
+\end{align}
+find the value of $k$.
+\item Find the  equation of the line passing through \myvec{1\\2\\3} and perpendicular to the plane %
+\begin{align}
+\myvec{1 & 2 & -5}\vec{x}&=-9
+\end{align}
+\item Find the shortest distance between the lines 
+%
+\begin{align}
+\vec{x} = \myvec{6 \\ 2 \\ 2} + \lambda_1 \myvec{1 \\ -2 \\ 2}  \text{ and }
+\\
+\vec{x} = \myvec{-4 \\ 0 \\ -1} + \lambda_2 \myvec{3 \\ -2 \\ -2}  
+\end{align}
+%
+\item Find the coordinates of the point where the line through \myvec{5\\1\\6} and \myvec{3\\4\\1} crosses the YZ-plane.
+\item Find the coordinates of the point where the line through \myvec{5\\1\\6} and \myvec{3\\4\\1} crosses the ZX-plane.
+\item Find the coordinates of the point where the line through \myvec{3\\-4\\-5} and \myvec{\\-3\\1} crosses the plane 
+\begin{align}
+\myvec{2 & 1 & 1}\vec{x}&=7
+\end{align}
+%
+\item Find the equation of the plane passing through the point \myvec{-1\\3\\2} and perpendicular to each of the planes 
+\begin{align}
+\myvec{1 & 2 & 3}\vec{x}&=5
+\\
+\myvec{3 & 3 & 1}\vec{x}&=0
+\end{align}
+\item If the points \myvec{1\\1\\p} and \myvec{-3\\0\\1} be equidistant from the plane 
+\begin{align}
+\myvec{3 & 4 & -12}\vec{x}&=-13,
+\end{align}
+%
+then find the value of $p$.
+\item Find the equation of the plane passing through the line of intersection of the planes 
+\begin{align}
+\myvec{1 & 1 & 1}\vec{x}&=1 \text{ and }
+\\
+\myvec{2 & 3 & -1}\vec{x}&=-4
+\end{align}
+%
+and parallel to the x-axis.
+\item If $\vec{O}$ be the origin and the coordinates of $\vec{P}$ be \myvec{1\\2\\3}, then find the equation of the plane passing through $\vec{P}$ and perpendicular to $OP$.
+%
+\item Find the equation of the plane which contains the line of intersection of the planes 
+%
+\begin{align}
+\myvec{1 & 2 & 3}\vec{x}&=4 
+\\
+\myvec{2 & 1 & -1}\vec{x}&=-5
+\end{align}
+%
+and which is perpendicular to the plane 
+\begin{align}
+\myvec{5 & 3 & -6}\vec{x}&=-8
+\end{align}
+%
+\item Find the distance of the point \myvec{-1\\-5\\-10} from the point of intersection of the line
+%
+\begin{align}
+\vec{x} = \myvec{2 \\ -1 \\ 2} + \lambda \myvec{3 \\ 4 \\ 2}  
+\end{align}
+%
+and the plane
+%
+\begin{align}
+\myvec{1 & -1 & 1}\vec{x}&=5
+\end{align}
+%
+\item Find the vector equation of the line passing through \myvec{1\\2\\3} and parallel to the planes 
+%
+\begin{align}
+\myvec{1 & -1 & 2}\vec{x}&=5
+\\
+\myvec{3 & 1 & 1}\vec{x}&=6
+\end{align}
+%
+\item Find the vector equation of the line passing through the point \myvec{1\\2\\-4} and perpendicular to the two lines
+\begin{align}
+\frac{x-8}{3} = \frac{y+19}{-16} &= \frac{z-10}{7}, 
+\\
+\frac{x-15}{3} = \frac{y-29}{8} &= \frac{z-5}{-5} 
+\end{align}
+%
+\item Distance between the two planes
+%
+\begin{align}
+\myvec{2 & 3 & 4}\vec{x}&=4
+\\
+\myvec{4 & 6 & 8}\vec{x}&=12
+\end{align}
+%
+\begin{enumerate}[itemsep=2pt]
+\begin{multicols}{2}
+\item 2
+\item 4
+\item 8
+\item $\frac{2}{\sqrt{29}}$
+\end{multicols}
+\end{enumerate}
+\item The planes 
+%
+\begin{align}
+\myvec{2 & -1 & 4}\vec{x}&=5
+\\
+\myvec{5 & -\frac{5}{2} & 10}\vec{x}&=6
+\end{align}
+%
+are 
+%
+\begin{enumerate}[itemsep=2pt]
+\begin{multicols}{2}
+\item Perpendicular
+\item Parallel
+\item intersect y-axis
+\item passes through $\myvec{0\\0\\\frac{5}{4}}$
+\end{multicols}
+\end{enumerate}
+%
+\item Find the maximum and minimum values, if any of
+the following functions given by 
+%
+\begin{enumerate}
+\item $f(x) = \abs{x+2}-1$
+\item $f(x) = -\abs{x+1}+3$
+\item $h(x) = x+1, x \in \brak{-1,1}$.
+\end{enumerate}
+%
+\item Using integration find the area of region bounded by the triangle whose vertices are \myvec{1\\ 0}, \myvec{2\\ 2} and \myvec{3\\ 1}.
+%
+\item  Using integration find the area of region bounded by the triangle whose vertices are (– 1, 0), (1, 3) and (3, 2).
+\item  Using integration find the area of the triangular region whose sides have the equations $\myvec{2 & -1 }\vec{x} = -1$, $\myvec{3 & -1 }\vec{x} = -1$ and x = 4.
+%
+\item Find the area of the region bounded by the line $\myvec{3 & -1}\vec{x} = -2$, the x-axis and the ordinates $x = -1, x = 1$.
+\item Find the area bounded by the curve $\abs{x}+\abs{y} = 1$.
+\item Using the method of integration find the area of $\triangle ABC$, whose vertices are $\vec{A} = \myvec{ 2\\0 }, \vec{B} = \myvec{ 4\\5 }, \vec{C} = \myvec{ 6\\3 }$.
+\item  Using integration find the area of the triangular region whose sides have the equations $\myvec{2 & 1 }\vec{x} = 4$, $\myvec{3 & -2 }\vec{x} = 6$ and  $\myvec{1 & -3 }\vec{x} = -5$.
+\item The two equal sides of an isosceles triangle with fixed base $b$ are decreasing at the rate of 3 cm per second. How fast is the area decreasing when the two equal sides are equal to the base ?
+\item A tank with rectangular base and rectangular sides, open at the top is to be constructed so that its depth is 2 m and volume is 8 $m^3$
+. If building of tank costs
+\rupee 70 per sq metres for the base and Rs 45 per square metre for sides. What is the cost of least expensive tank?
+\item A point on the hypotenuse of a triangle is at distance a and b from the sides of the triangle.
+Show that the minimum length of the hypotenuse is
+%
+\begin{align}
+\brak{a^{\frac{2}{3}}+b^{\frac{2}{3}}}^{\frac{3}{2}}
+\end{align}
+%
+\item Prove that the function $f(x) = 5x – 3$ is continuous at $x = 0, at x = – 3$ and at $x = 5$.
+\item Examine the following functions for continuity.
+%
+\begin{enumerate}
+\item $f(x) = x-5$
+\item $f(x) = \abs{x-1}$
+\end{enumerate}
+%
+\item Is the function defined by 
+%
+\begin{align}
+f(x)=
+\begin{cases}
+x, & x \le 1,
+\\
+5, & x > 1
+\end{cases}
+\end{align}
+%
+continuous at $x = 0$? At $x = 1$? At $x = 2$?
+\item Find all points of discontinuity of $f$, where $f$ is defined by
+%
+\begin{enumerate}
+\item 
+$
+\begin{alignedat}[t]{2}
+f(x)=
+\begin{cases}
+2x+3, & x \le 2,
+\\
+2x-3, & x > 2
+\end{cases}
+\end{alignedat}
+$
+%
+\item 
+$
+\begin{alignedat}[t]{2}
+f(x)=
+\begin{cases}
+\abs{x}+3, & x \le -3,
+\\
+-2x, & -3 < x < 3
+\\
+6x+2, & x \ge 2
+\end{cases}
+\end{alignedat}
+$
+\item 
+$
+\begin{alignedat}[t]{2}
+f(x)=
+\begin{cases}
+\frac{\abs{x}}{x}, & x \ne 0,
+\\
+0, & x = 0,
+\end{cases}
+\end{alignedat}
+$
+\item 
+$
+\begin{alignedat}[t]{2}
+f(x)=
+\begin{cases}
+\frac{x}{\abs{x}}, & x < 0,
+\\
+-1, & x \ge 0,
+\end{cases}
+\end{alignedat}
+$
+\end{enumerate}
+%
+\item Is the function defined by 
+%
+\begin{align}
+f(x)=
+\begin{cases}
+x+5, & x \le 1,
+\\
+x-5, & x > 1
+\end{cases}
+\end{align}
+%
+a continuous function?
+\item Discuss the continuity of the function $f$, where $f$ is defined by 
+\begin{enumerate}
+\item 
+$
+\begin{alignedat}[t]{2}
+f(x)=
+\begin{cases}
+3, & 0 \le x \le 1,
+\\
+4, & 0 < x \le 3,
+\\
+5, & 3 \le x \le 10,
+\end{cases}
+\end{alignedat}
+$
+%
+\item 
+$
+\begin{alignedat}[t]{2}
+f(x)=
+\begin{cases}
+2x, & x < 0,
+\\
+0, & 0 \le x \le 1
+\\
+4x, &  x > 1
+\end{cases}
+\end{alignedat}
+$
+\item 
+$
+\begin{alignedat}[t]{2}
+f(x)=
+\begin{cases}
+-2, & x < -1,
+\\
+2x, & -1 \le x \le  1
+\\
+2, & x >  1
+\end{cases}
+\end{alignedat}
+$
+\end{enumerate}
+%
+\item Find the relationship between $a$ and $b$ so that the function defined by 	
+%
+\begin{align}
+f(x)=
+\begin{cases}
+ax+1, & x \le 3,
+\\
+bx+3, & x > 3
+\end{cases}
+\end{align}
+%
+is continuous at $x = 3$
+%
+\item Prove that the function $f(x) = x$ is continuious at every real number.
+\item Is $f(x) = \abs{x}$ a continuous function?
+\item Discuss the continuity of the function $f$ defined by 
+%
+\begin{align}
+f(x)  = 
+\begin{cases}
+x+2 & x \le 1
+\\
+x-2 & x > 1
+\end{cases}
+\end{align}
+
+\item Show that the function defined by $g (x) = x – [x]$ is discontinuous at all integral points. Here $[x]$ denotes the greatest integer less than or equal to $x$.
+\item For what value of $k$ is the following function 
+%
+continuous at the given point.
+\begin{align}
+f(x)=
+\begin{cases}
+kx+1, & x \le 5,
+\\
+3x-5, & x > 5,
+\end{cases}
+\quad x = 5
+\end{align}
+\item Prove that the function $f$ given by 
+\begin{align}
+f(x) = \abs{x-1}, x \in \vec{R}
+\end{align}
+%
+is not differentiable at $x = 1$.
+\item Prove that the greatest integer function defined by 
+\begin{align}
+f(x) = \abs{x}, 0 < x < 3
+\end{align}
+%
+is not differentiable at $x = 1$ and $x = 2$.
+\item Examine if Rolle's theorem is applicable to the following functions
+\begin{enumerate}
+\item 
+\label{prob:line_eq_rolle}
+$
+f(x) = \sbrak{x}, x \in \sbrak{5,9}.
+$
+\item 
+$
+f(x) = \sbrak{x}, x \in \sbrak{-2,2}.
+$
+\end{enumerate}
+Can you say some thing about the converse of Rolle's theorem from this example?
+\item  Examine the applicability of the mean value theorem for all functions in Problem \ref{prob:line_eq_rolle}.
+%
+\item Find $\lim_{x\to 5} x+10$
+\item Find $\lim_{x\to 2} 3x$
+\item Find $\lim_{x\to 0}f(x)$ where
+%
+\begin{align}
+f(x)  = 
+\begin{cases}
+1 & x \le 0
+\\
+2 & x > 0
+\end{cases}
+\end{align}
+\item Find $\lim_{x\to 0}f(x)$ where
+%
+\begin{align}
+f(x)  = 
+\begin{cases}
+x-2 & x < 0
+\\
+0 & x = 0
+\\
+x+2 & x > 0
+\end{cases}
+\end{align}
+\item Evaluate the following limits
+\begin{enumerate}
+\item $\lim_{x\to 3}x+3$
+\item $\lim_{x\to \pi}\brak{x-\frac{22}{7}}$
+\end{enumerate}
+%
+\item Find $\lim_{x\to 0} f(x)$ where
+\begin{align}
+f(x) = 
+\begin{cases}
+\frac{\abs{x}}{x} & x \ne 0
+\\
+0, & x = 0
+\end{cases}
+\end{align}
+%
+\item Find $\lim_{x\to 0} f(x)$ where
+\begin{align}
+f(x) = 
+\begin{cases}
+\frac{x}{\abs{x}} & x \ne 0
+\\
+0, & x = 0
+\end{cases}
+\end{align}
+%
+\item Find $\lim_{x\to 5} \abs{x}-5$.
+%
+\item Suppose
+\begin{align}
+f(x) = 
+\begin{cases}
+a+bx & x \ne 1
+\\
+4, & x = 1
+\\
+b-ax & x > 1
+\end{cases}
+\end{align}
+%
+and if $\lim_{x\to 1}f(x) = f(1)$, what are the possible values of $a$ and $b$?
+%
+\item If
+\begin{align}
+f(x) = 
+\begin{cases}
+\abs{x}+1 & x < 0
+\\
+0, & x = 0
+\\
+\abs{x}-1 & x > 0
+\end{cases}
+\end{align}
+%
+for what value(s) of $a$ does $\lim_{x\to a}f(x)$ exists?
+
+\item Find the derivative of $x$ at $x = 1$.
+\item Find the derivative of $99x$ at $x = 100$.
+
+\item Find the derivative of the following functions:
+%
+\begin{enumerate}
+\item  $-x$
+\item  $x+a$
+\end{enumerate}
+%
+\item Integrate the following as limit of sums:
+\begin{enumerate}[label = (\roman*)]
+\item $\int_{a}^{b}x\, dx$
+\item $\int_{0}^{5}\brak{x+1}\, dx$
+\item $\int_{-1}^{1}\brak{x+1}\, dx$
+\item $\int_{-5}^{5}\abs{x+2}\, dx$
+\item $\int_{2}^{8}\abs{x-5}\, dx$
+\item $\int_{0}^{4}\abs{x-1}\, dx$
+\item $\int_{1}^{4}\sbrak{\abs{x-1}+\abs{x-2}+\abs{x-3}}\, dx$
+\end{enumerate}
+%
+\item Form the differential equation representing the following family of curves 
+\begin{align}
+\myvec{\frac{1}{a} & \frac{1}{b}}\vec{x} = 1
+\end{align}
+%
+
+\end{enumerate}

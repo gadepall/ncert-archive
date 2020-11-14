@@ -1,0 +1,12 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item No of bags having weight more than g Kg = 7
+\\
+tota no of bags = 11
+\begin{align}
+P\left(A\right) &= \frac{7}{11}
+\\
+&=0.636
+\end{align}
+\end{enumerate}

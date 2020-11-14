@@ -1,0 +1,22 @@
+Using  equivalent matrices for the complex numbers and matrix multiplication,
+\begin{multline}
+ =\brak{\myvec{1 & 4 \\ -4 & 1}^{-1} - 2\myvec{2 & -1 \\ 1 & 2}^{-1}}\myvec{3 & 4 \\ -4 & 3}\myvec{5 & -1 \\ 1 & 5}^{-1}\\
+ =\brak{\frac{1}{1^2 + 4^2}\myvec{1 & -4 \\ 4 & 1} - 2\brak{\frac{1}{2^2 + 1^2}}\myvec{2 & 1 \\ -1 & 2}}\myvec{3 & 4\\ -4 & 3}\\
+   \frac{1}{5^2 + 1^2}\myvec{5 & 1 \\ -1 & 5}\\
+ =\brak{\frac{1}{1+16}\myvec{1 & -4 \\ 4 & 1} -\frac{2}{4+1}\myvec{2 & 1 \\ -1 & 2}}\myvec{3 & 4\\ -4 & 3}\\
+    \frac{1}{25+1}\myvec{5 & 1 \\ -1 & 5}\\
+  =\brak{\frac{1}{17}\myvec{1 & -4 \\4 & 1} -\frac{2}{5}\myvec{2 & 1 \\ -1 & 2}}\myvec{3 & 4 \\ -4 & 3}\frac{1}{26}\myvec{5 & 1 \\ -1 & 5}\\
+ =\brak{\myvec{\frac{1}{17} & \frac{-4}{17} \\ \frac{4}{17} & \frac{1}{17}} - \myvec{\frac{4}{5} & \frac{2}{5} \\ \frac{-2}{5} & \frac{4}{5}}}\myvec{3 & 4 \\ -4 & 3}\frac{1}{26}\myvec{5 & 1 \\ -1 & 5}\\
+ =\myvec{\frac{1}{17}-\frac{4}{5} & \frac{-4}{17}-\frac{2}{5} \\ \frac{4}{17}+\frac{2}{5} & \frac{1}{17}-\frac{4}{5}}\myvec{3 & 4 \\ -4 & 3}\frac{1}{26}\myvec{5 & 1 \\ -1 & 5}\\
+ =\myvec{\frac{-63}{85} & \frac{-54}{85} \\ \frac{54}{85} & \frac{-63}{85}}\myvec{3 & 4\\ -4 & 3}\frac{1}{26}\myvec{5 & 1 \\ -1 & 5}\\
+ = \frac{1}{85}\brak{\myvec{-63 & -54 \\ 54 & -63} \myvec{3 & 4 \\-4 & 3}  } \frac{1}{26}\myvec{5 & 1 \\ -1 & 5}\\
+ = \frac{1}{2210}\brak{\myvec{-63 & -54 \\ 54 & -63} \myvec{3 & 4 \\-4 & 3}} \myvec{5 & 1 \\ -1 & 5}\\
+ = \frac{1}{2210}\myvec{-189+216 & -162-252 \\ 162+252 & 216-189}\myvec{5 & 1 \\ -1 & 5}\\
+ =\frac{1}{2210}\myvec{27 & -414 \\ 414 & 27}\myvec{5 & 1 \\ -1 & 5}\\
+ =\frac{1}{2210}\myvec{ 27 & -414 \\  414 & 27} \myvec{5 & 1 \\ -1 & 5}\myvec{1 \\ 0}\\
+ =\frac{1}{2210}\myvec{135+414 & 27-2070 \\ 2070-27 & 414+135}\myvec{1 \\ 0}\\
+ =\frac{1}{2210}\myvec{549 & -2043 \\ 2043 & 549}\myvec{1 \\ 0}\\
+ =\frac{1}{2210}\myvec{549 \\ 2043}\\
+ \implies\vec{z} = \myvec{\frac{549}{2210} \\ \frac{2043}{2210}}
+\end{multline}
+

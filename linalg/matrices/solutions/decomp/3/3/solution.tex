@@ -1,0 +1,194 @@
+
+Given 
+\begin{align}
+L_1 &: & \vec{x}=\myvec{2\\-5\\1}+\lambda_1\myvec{3\\2\\6}\label{eq:solutions/3/3/l1}\\
+L_2 &: & \vec{x}=\myvec{7\\-6\\0}+\lambda_2\myvec{1\\2\\2}\label{eq:solutions/3/3/l2}
+\end{align}
+The above equations \eqref{eq:solutions/3/3/l1}, \eqref{eq:solutions/3/3/l2} are in the form
+\begin{align}
+L_1 &: & \vec{x}=\vec{a_1}+\lambda_1\vec{b_1}\label{eq:solutions/3/3/f1}\\
+L_2 &: & \vec{x}=\vec{a_2}+\lambda_2\vec{b_2}
+%\label{eq:solutions/3/3/l2}
+\end{align}
+Here , 
+\begin{align}
+\vec{a_1}&=\myvec{2\\-5\\1}\label{eq:solutions/3/3/a1}
+\\
+\vec{a_2}&=\myvec{7\\-6\\0}\label{eq:solutions/3/3/a2}\\
+\vec{b_1}&=\myvec{3\\2\\6}\label{eq:solutions/3/3/b1}
+\\
+\vec{b_2}&=\myvec{1\\2\\2}\label{eq:solutions/3/3/b2}
+\end{align}
+
+Now let us assume the lines $L_1$ and $L_2$ are intersecting at a point. Therefore , 
+\begin{align}
+\myvec{2\\-5\\1}+\lambda_1\myvec{3\\2\\6}&=\myvec{7\\-6\\0}+\lambda_2\myvec{1\\2\\2}\\
+\lambda_1\myvec{3\\2\\6}+\lambda_2\myvec{-1\\-2\\-2}&=\myvec{5\\-1\\-1}\\
+\myvec{3 & -1\\2 & -2\\6 & -2}\myvec{\lambda_1 \\ \lambda_2}&=\myvec{5\\-1\\-1}\label{eq:solutions/3/3/eql1l2}
+\end{align}
+The augumented matrix of \eqref{eq:solutions/3/3/eql1l2} is given by 
+\begin{align}
+    &\myvec{3 & -1 &\vrule & 5 \\ 2 & -2 & \vrule& -1\\ 6 & -2 &\vrule & -1}\label{eq:solutions/3/3/eqaug}
+\end{align}
+\begin{align}
+&\myvec{3 & -1 &\vrule & 5 \\ 2 & -2 & \vrule& -1\\ 6 & -2 &\vrule & -1}&\xleftrightarrow{R_2=R_2-\frac{2}{3}R_1}&\myvec{3 & -1 &\vrule & 5 \\ 0 & -\frac{4}{3} & \vrule& -\frac{13}{3}\\ 6 & -2 &\vrule & -1}\\
+&\myvec{3 & -1 &\vrule & 5 \\ 0 & -\frac{4}{3} & \vrule& -\frac{13}{3}\\ 6 & -2 &\vrule & -1}&\xleftrightarrow{R_3=R_3-2R_1}&\myvec{3 & -1 &\vrule & 5 \\ 0 & -\frac{4}{3} & \vrule& -\frac{13}{3}\\ 0 & 0 &\vrule & -11}\label{eq:solutions/3/3/augfin}
+\end{align}
+Since the rank of augmented matrix will be 3. We can say that lines do not intersect.Hence our assumptions is wrong
+
+Equation \eqref{eq:solutions/3/3/eql1l2} can be expressed as 
+\begin{align}
+    \vec{M}\vec{x}&=\vec{b}\label{eq:solutions/3/3/mx=b}
+\end{align}
+By singular value decomposition $\vec{M}$
+can be expressed as 
+\begin{align}
+    \vec{M}&=\vec{U}\vec{S}\vec{V}^T\label{eq:solutions/3/3/main}
+\end{align}
+Where the columns of $\vec{V}$ are the eigenvectors of $\vec{M}^T\vec{M}$ ,the columns of $\vec{U}$ are the eigenvectors of $\vec{M}\vec{M}^T$ and $\vec{S}$ is diagonal matrix of singular value of eigenvalues of $\vec{M}^T\vec{M}$.
+\begin{align}
+\vec{M}^T\vec{M}&=\myvec{49&-19\\-19&9}\label{eq:solutions/3/3/2.0.6}\\
+\vec{M}\vec{M}^T&=\myvec{10&8&20\\8&8&16\\20&16&40}
+\end{align}
+
+The characteristic equation of $\vec{M}^T\vec{M}$ is obtained by evaluating the determinant 
+
+\begin{align}
+   \begin{array}{|cc|}
+49-\lambda & -19 \\ -19 & 9-\lambda
+\end{array}&=0\\
+\implies \lambda^2-58\lambda+80&=0\label{eq:solutions/3/3/eqroots}
+\end{align}
+
+The eigenvalues are the roots of equation \ref{eq:solutions/3/3/eqroots} is given by 
+\begin{align}
+    \lambda_{11}&=29+\sqrt{761}
+\label{eq:solutions/3/3/eqeig1}
+\\
+    \lambda_{12}&=29-\sqrt{761}
+\label{eq:solutions/3/3/eqeig2}
+\end{align}
+The eigen vectors comes out to be , 
+\begin{align}
+    \vec{u_{11}}=\myvec{\frac{-20-\sqrt{761}}{19}\\1},
+    \vec{u_{12}}=\myvec{\frac{-20+\sqrt{761}}{19}\\1}
+\end{align}
+Normalising the eigen vectors, 
+\begin{align}
+    l_{11}&=\sqrt{\left(\frac{-20-\sqrt{761}}{19}\right)^2+1^2}\\
+    \implies l_{11}&=\frac{\sqrt{1522+40\sqrt{761}}}{19}
+\end{align}
+\begin{align}
+    \vec{u_{11}}&=\myvec{\frac{-20-\sqrt{761}}{\sqrt{1522+40\sqrt{761}}}\\\frac{19}{\sqrt{1522+40\sqrt{761}}}}
+\end{align}
+\begin{align}
+    l_{12}&=\sqrt{\left(\frac{-20+\sqrt{761}}{19}\right)^2+1^2}\\
+    \implies l_{12}&=\frac{\sqrt{1522-40\sqrt{761}}}{19}
+\end{align}
+\begin{align}
+    \vec{u_{12}}&=\myvec{\frac{-20+\sqrt{761}}{\sqrt{1522-40\sqrt{761}}}\\\frac{19}{\sqrt{1522-40\sqrt{761}}}}
+\end{align}
+\begin{align}
+    \vec{V}=\myvec{\frac{-20-\sqrt{761}}{\sqrt{1522+40\sqrt{761}}} & \frac{-20+\sqrt{761}}{\sqrt{1522-40\sqrt{761}}}\\\frac{19}{\sqrt{1522+40\sqrt{761}}} & \frac{19}{\sqrt{1522-40\sqrt{761}}}}
+\end{align}
+$\vec{S}$ is given by 
+\begin{align}
+    \vec{S}&=\myvec{\sqrt{29+\sqrt{761}}&0\\0&\sqrt{29-\sqrt{761}}\\0&0}
+\end{align}
+
+The characteristic equation of $\vec{M}\vec{M}^T$ is obtained by evaluating the determinant 
+\begin{align}
+   \begin{array}{|ccc|}
+10-\lambda & 8 & 20 \\ 8 & 8-\lambda & 16\\20 & 16 & 40-\lambda
+\end{array}&=0\\
+\implies \lambda^3-58\lambda^2+80\lambda&=0\label{eq:solutions/3/3/equroots}
+\end{align}
+The eigenvalues are the roots of equation \ref{eq:solutions/3/3/equroots} is given by 
+\begin{align}
+    \lambda_{21}&=29+\sqrt{761}
+%\label{eq:solutions/3/3/eqeig1}
+\\
+    \lambda_{22}&=29-\sqrt{761}
+%\label{eq:solutions/3/3/eqeig2}
+\\
+    \lambda_{23}&=0
+\end{align}
+
+The eigen vectors comes out to be , 
+\begin{align}
+    \vec{u_{21}}=\myvec{\frac{-1}{2}\\\frac{-\sqrt{761}+21}{16}\\-1},
+    \vec{u_{22}}=\myvec{\frac{1}{2}\\\frac{-\sqrt{761}-21}{16}\\1},
+    \vec{u_{23}}=\myvec{-2 \\ 0 \\ 1}
+\end{align}
+Normalising the eigen vectors, 
+\begin{align}
+    l_{21}&=\sqrt{\left(\frac{-1}{2}\right)^2+\left(\frac{21-\sqrt{761}}{16}\right)^2+(-1)^2}\\
+    \implies l_{21}&=\frac{\sqrt{1522-42\sqrt{761}}}{16}
+\end{align}
+\begin{align}
+    \vec{u_{21}}&=\myvec{\frac{-8}{\sqrt{1522-42\sqrt{761}}}\\\frac{21-\sqrt{761}}{\sqrt{1522-42\sqrt{761}}}\\\frac{-16}{\sqrt{1522-42\sqrt{761}}}}
+\end{align}
+\begin{align}
+    l_{22}&=\sqrt{\left(\frac{1}{2}\right)^2+\left(\frac{-21-\sqrt{761}}{16}\right)^2+1^2}\\
+    \implies l_{22}&=\frac{\sqrt{1522+42\sqrt{761}}}{16}
+\end{align}
+\begin{align}
+    \vec{u_{22}}&=\myvec{\frac{8}{\sqrt{1522+42\sqrt{761}}}\\\frac{-21-\sqrt{761}}{\sqrt{1522+42\sqrt{761}}}\\\frac{16}{\sqrt{1522+42\sqrt{761}}}}
+\end{align}
+\begin{align}
+    l_{23}=\sqrt{(-2)^2+1^2}=\sqrt{5}
+\end{align}
+\begin{align}
+    \vec{u_{23}}=\myvec{\frac{-2}{\sqrt{5}}\\0\\\frac{1}{\sqrt{5}}}
+\end{align}
+\begin{align}
+    \vec{U}=\myvec{\frac{-8}{\sqrt{1522-42\sqrt{761}}} & \frac{8}{\sqrt{1522+42\sqrt{761}}}&\frac{-2}{\sqrt{5}} &\\ \frac{21-\sqrt{761}}{\sqrt{1522-42\sqrt{761}}} & \frac{-21-\sqrt{761}}{\sqrt{1522+42\sqrt{761}}}&  0 \\
+   \frac{-16}{\sqrt{1522-42\sqrt{761}}} & \frac{16}{\sqrt{1522+42\sqrt{761}}} &   \frac{1}{\sqrt{5}}}
+\end{align}
+
+From equation \eqref{eq:solutions/3/3/main} we rewrite $\vec{M}$ as follows,
+\begin{align}
+%\begin{multlined}
+\myvec{3&-1\\2&-2\\6&-2}=
+\myvec{\frac{-8}{\sqrt{1522-42\sqrt{761}}} & \frac{8}{\sqrt{1522+42\sqrt{761}}}&\frac{-2}{\sqrt{5}} \\ \frac{21-\sqrt{761}}{\sqrt{1522-42\sqrt{761}}} & \frac{-21-\sqrt{761}}{\sqrt{1522+42\sqrt{761}}}&  0 \\
+   \frac{-16}{\sqrt{1522-42\sqrt{761}}} & \frac{16}{\sqrt{1522+42\sqrt{761}}} &   \frac{1}{\sqrt{5}}}\\&\myvec{\sqrt{29+\sqrt{761}}&0\\0&\sqrt{29-\sqrt{761}}\\0&0}\\&\myvec{\frac{-20-\sqrt{761}}{\sqrt{1522+40\sqrt{761}}} & \frac{-20+\sqrt{761}}{\sqrt{1522-40\sqrt{761}}}\\\frac{19}{\sqrt{1522+40\sqrt{761}}} & \frac{19}{\sqrt{1522-40\sqrt{761}}}}^T
+%\end{multlined}
+\end{align}
+By substituting the equation \eqref{eq:solutions/3/3/main} in equation \eqref{eq:solutions/3/3/mx=b} we get 
+\begin{align}
+\vec{U}\vec{S}\vec{V}^T\vec{x} & = \vec{b}\\
+\implies\vec{x} &= \vec{V}\vec{S_+}\vec{U^T}\vec{b}\label{eq:solutions/3/3/eqX}
+\end{align}
+Where $\vec{S_+}$ is Moore-Penrose Pseudo-Inverse of $\vec{S}$
+
+\begin{align}
+\vec{S_+}=\myvec{\frac{1}{\sqrt{29+\sqrt{761}}}&0&0\\0&\frac{1}{\sqrt{29-\sqrt{761}}}&0}
+\end{align}
+From \eqref{eq:solutions/3/3/eqX} we get,
+\begin{align}
+\vec{U}^T\vec{b}&=\myvec{\frac{\sqrt{761}-45}{\sqrt{1522-42\sqrt{761}}}\\ \frac{45+\sqrt{761}}{\sqrt{1522+42\sqrt{761}}}\\ -\frac{11}{\sqrt{5}}}\\
+\vec{S_+}\vec{U}^T\vec{b}&=\myvec{\frac{761\sqrt{15}-761-45\sqrt{11415}+45\sqrt{761}}{10654}\\ \frac{45\sqrt{11415}+45\sqrt{761}+761\sqrt{15}+761}{10654}}\\
+\vec{x} = \vec{V}\vec{S_+}\vec{U}^T\vec{b} &= \myvec{\frac{11}{20}\\\frac{21}{20}}\label{eq:solutions/3/3/eqXSol1}
+\end{align}
+
+Verifying the solution of \eqref{eq:solutions/3/3/eqXSol1} using,
+\begin{align}
+\vec{M}^T\vec{M}\vec{x} = \vec{M}^T\vec{b}\label{eq:solutions/3/3/eqVerify}
+\end{align}
+Evaluating the R.H.S in \eqref{eq:solutions/3/3/eqVerify} we get,
+\begin{align}
+\vec{M}^T\vec{M}\vec{x} &= \myvec{7\\-1}\\
+\implies\myvec{49&-19\\-19&9}\vec{x} &= \myvec{7\\-1}\label{eq:solutions/3/3/eqMateq}
+\end{align}
+Solving the augmented matrix of \eqref{eq:solutions/3/3/eqMateq} we get,
+\begin{align}
+\myvec{49&-19&7\\-19&9&-1} &\xleftrightarrow{R_2=R_2+\frac{19}{49}R_1}\myvec{49&-19&7\\0&\frac{80}{49}&\frac{12}{7}}\\
+&\xleftrightarrow{R_1=\frac{1}{49}R_1}\myvec{1&\frac{-19}{49}&\frac{7}{49}\\0&\frac{80}{49}&\frac{12}{7}}\\
+&\xleftrightarrow{R_2=\frac{80}{49}R_2}\myvec{1&\frac{-19}{49}&\frac{7}{49}\\0&1&\frac{21}{20}}\\
+&\xleftrightarrow{R_1=R_1+\frac{19}{49}R_2}\myvec{1&0&\frac{11}{20}\\0&1&\frac{21}{20}}
+\end{align}
+Hence, Solution of \eqref{eq:solutions/3/3/eqVerify} is given by,
+\begin{align}
+\vec{x}=\myvec{\frac{11}{20}\\\frac{21}{20}}\label{eq:solutions/3/3/eqX2}
+\end{align}
+Comparing results of $\vec{x}$ from \eqref{eq:solutions/3/3/eqXSol1} and \eqref{eq:solutions/3/3/eqX2} we conclude that the solution is verified.

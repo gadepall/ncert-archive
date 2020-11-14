@@ -1,0 +1,47 @@
+%Code by GVV Sharma
+%December 6, 2019
+%released under GNU GPL
+%Sum of the angles of a right angled triangle 
+
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+%Triangle sides
+\def\a{4}
+\def\c{3}
+
+%Section Ratio
+\def\k{1.2}
+
+
+%Labeling points
+\node (A) at (0,\c)[point,label=above right:$A$] {};
+\node (B) at (0, 0)[point,label=below left:$B$] {};
+\node (C) at (\a, 0)[point,label=below right:$C$] {};
+
+%Translating coordinates
+\node (Y) at ($(A) + (1,0)$)[point,label=above right:$Y$] {};
+\node (X) at ($(A) - (1,0)$)[point,label=above right:$X$] {};
+\node (T) at ($(A) + (0,1)$)[point,label=above right:$T$] {};
+
+%Section formula
+\node (V) at ($ (C)!\k!(A) $)[point,label=above right:$V$] {};
+
+%Drawing triangle ABC
+\draw (A) -- node[left] {$\textrm{c}$} (B) -- node[below] {$\textrm{a}$} (C) -- node[above,xshift=2mm] {$\textrm{b}$} (A);
+
+%Joining other points
+\draw (Y)--(A);
+\draw (X)--(A);
+\draw (T)--(A);
+\draw (V)--(A);
+
+%Drawing and marking angles
+\tkzMarkAngle[fill=orange!40,size=0.5cm,mark=](A,C,B)
+\tkzMarkAngle[fill=orange!40,size=0.5cm,mark=](V,A,X)
+\tkzMarkRightAngle[fill=blue!20,size=.3](A,B,C)
+\tkzMarkRightAngle[fill=blue!20,size=.3](B,A,X)
+\tkzLabelAngle[pos=0.65](A,C,B){$\theta$}
+\tkzLabelAngle[pos=0.65](V,A,X){$\theta$}
+
+\end{tikzpicture}

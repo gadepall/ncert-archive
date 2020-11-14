@@ -1,0 +1,25 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Find values of x, if 
+\begin{enumerate}[itemsep=2pt]
+\begin{multicols}{2}
+\item
+$\begin{vmatrix}
+2 & 4 \\ 5 & 1
+\end{vmatrix} = \begin{vmatrix}
+2x&4\\6&x
+\end{vmatrix}$
+\item
+$\begin{vmatrix}
+2 & 3 \\ 4 & 5
+\end{vmatrix} = \begin{vmatrix}
+x&3\\2x&5
+\end{vmatrix}$
+
+\end{multicols}
+\end{enumerate}
+
+
+\end{enumerate}

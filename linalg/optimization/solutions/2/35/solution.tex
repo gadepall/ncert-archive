@@ -1,0 +1,51 @@
+
+Let $\vec{a}$ and $\vec{b}$ are the column vectors of the given matrix. So,
+\begin{align}
+\vec{a} = \myvec{55\\-60}\\
+\vec{b} = \myvec{-60\\20}
+\end{align}
+$\vec{a}$ and $\vec{b}$ can be expressed as:
+\begin{align}
+\vec{a} = K_1 \vec{u_1}\\
+\vec{b} = r_1\vec{u_1} + K_2\vec{u_2}
+\end{align}
+Where,
+\begin{align}
+K_1= \norm{\vec{a}}\\
+\implies \vec{u_1} = \frac{\vec{a}}{\norm{\vec{a}}}\\
+r_1 = \frac{\vec{u_1}^T \vec{b}}{\norm{\vec{u_1}}^2}\\
+\vec{u_2}= \frac{\vec{b}-r_1\vec{u_1}}{\norm{\vec{b}-r_1\vec{u_1}}}\\
+K_2 = \vec{u_2}^T \vec{b}
+\end{align}
+Then we can express the given matrix as:
+\begin{align}
+\myvec{a & b} = \myvec{u_1 & u_2}\myvec{K_1 & r_1\\0 & K_2}\\
+\text{or,} \myvec{a & b} = \vec{Q}\vec{R}
+\end{align}
+Now, 
+\begin{align}
+K_1 =\norm{\vec{a}}= \sqrt{55^2 + (-60)^2} = 5\sqrt{265}\\
+\vec{u_1} = \frac{\vec{a}}{5\sqrt{265}} = \frac{1}{\sqrt{265}}\myvec{11\\-12}\\
+\norm{\vec{u_1}} = 1\\
+r_1= \vec{u_1}^T \vec{b} = \frac{1}{\sqrt{265}}\myvec{11 & -12}\myvec{-60\\20}\\
+\implies r_1=-\frac{900}{\sqrt{265}}
+\end{align}
+So,
+\begin{align}
+r_1 \vec{u_1}= -\frac{900}{\sqrt{265}} \frac{1}{\sqrt{265}}\myvec{11\\-12}\\
+\implies r_1 \vec{u_1}=\myvec{-\frac{1980}{53}\\\frac{2160}{53}}\\
+\vec{b} - r_1 \vec{u_1}= \myvec{-60\\20} - \myvec{-\frac{1980}{53}\\\frac{2160}{53}}\\
+\implies \vec{b} - r_1 \vec{u_1} = -\frac{100}{53}\myvec{12\\11}\\
+\norm{\vec{b} - r_1 \vec{u_1}} = \frac{100\sqrt{5}}{\sqrt{53}}
+\end{align}
+Similarly, we can obtain:
+\begin{align}
+\vec{u_2}= -\frac{1}{\sqrt{265}}\myvec{12\\11}=\myvec{-\frac{12}{\sqrt{265}}\\-\frac{11}{\sqrt{265}}}\\
+K_2 = \vec{u_2}^T \vec{b}= -\frac{1}{\sqrt{265}}\myvec{12 & 11}\myvec{-60\\20} \\
+= \frac{500}{\sqrt{265}}
+\end{align}
+Now, after QR decomposition of the given matrix we can get:
+\begin{align}
+\myvec{55 & -60\\-60 & 20} = \myvec{\frac{11}{\sqrt{265}} & \frac{-12}{\sqrt{265}}\\\frac{-12}{\sqrt{265}} & \frac{-11}{\sqrt{265}}} \myvec{5\sqrt{265} & \frac{-900}{\sqrt{265}}\\0 & \frac{500}{\sqrt{265}}}
+\end{align}
+

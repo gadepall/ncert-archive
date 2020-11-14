@@ -1,0 +1,105 @@
+
+Let consider we have a triangle $\triangle$ABC. There are two altitudes BE and CF being  drawn from the vertices B and C respectively. And we have ,
+ \begin{align}
+ 	\norm{\vec{E - B}} = \norm{\vec{F - C}} \label{eq:solutions/1/31/eq2.1}
+ \end{align}
+Let $\textbf{m}_{AB}$ and $\textbf{m}_{CF}$ are the direction vectors of AB and CF respectively. Since AB $\perp$ CF hence,
+\begin{align}
+ \textbf{m}_{AB} \textbf{m}_{CF} = 0
+\end{align}
+
+\begin{align}
+ \vec{\left( B - E\right)^T \left(A - C \right)} =\vec{ 0}
+\end{align}
+\begin{align}
+\vec{\left( B -  A + A - C + C - E\right)^T \left(A - C \right)} = \vec{0}
+\end{align}
+
+  \begin{align}
+ \vec{ \left( B -  A \right)^T \left(A - C \right)} + \norm{\vec {A - C}}^{2} + \vec{\left(C - F\right)^T \left(A - C \right)} = \vec{0} \label{eq:solutions/1/31/2.5}
+  \end{align}
+Similarly, AC $\perp$ BE hence,  
+
+
+ \begin{align}
+ \textbf{m}_{AC} \textbf{m}_{BE} = 0
+ \end{align}
+ 
+ \begin{align}
+ \vec{\left( C - F\right)^T \left(A - B \right)} =\vec{ 0}
+ \end{align}
+ \begin{align}
+ \vec{\left( C -  A + A - B + B - F\right)^T \left(A - B \right)} = \vec{0}
+ \end{align}
+ 
+ \begin{align}
+ \vec{ \left( C-  A \right)^T \left(A - B \right)} + \norm{\vec {A - B}}^{2} + \vec{\left(B - F\right)^T \left(A - B \right)} = \vec{0} \label{eq:solutions/1/31/2.9}
+ \end{align}
+   
+\begin{figure}[!htb]
+	\centering
+	\resizebox{\columnwidth}{!}{\input{./solutions/1/31/figure.tex}}
+	\caption{Isosceles triangle ABC}
+\end{figure}
+  
+  
+  
+  
+  
+
+  
+   In $\triangle$ABC, taking inner product of sides  AB and AC we can write :
+  
+ \begin{align}
+\implies \cos\angle BAC = \frac{\left( \vec{ B - A} \right)^T  \left( \vec{A - C } \right)}{\norm{\vec{ B - A}} \norm{\vec{A - C}}} \label{eq:solutions/1/31/2.11}
+\end{align}  
+  and,
+   \begin{align}
+  \left( \vec{C - A} \right)^T \left( \vec{A - B} \right) = \norm{\vec{C - A}} \norm{\vec{ A - B}} \cos\angle ABC \label{eq:solutions/1/31/2.13}
+  \end{align}
+  
+  From equation \ref{eq:solutions/1/31/2.11}, and \ref{eq:solutions/1/31/2.13}, we have ,
+  \begin{multline} 
+    \left( \vec{ B - A} \right)^T\left( \vec{A - C } \right) =  \left( \vec{ C - A} \right)^T  \left( \vec{A - B } \right) \label{eq:solutions/1/31/2.14}
+   \end{multline} 
+ using equation \ref{eq:solutions/1/31/2.14} in \ref{eq:solutions/1/31/2.5} and \ref{eq:solutions/1/31/2.9} we can write,
+   \begin{multline} 
+   \norm{\vec{A-C}}^2 + \left ( \vec{ C-E}\right)^T \left( \vec{A - C} \right) =  \norm{\vec{A - B}}^2 \\ + \vec{\left (  B - F\right)^{T} \left( A - B \right)}
+    \end{multline} 
+   
+  \begin{multline} 
+\norm{\vec{A - C}}^2 + \left ( \vec{ C - E }\right)^T \left( \vec{A - C} \right)  =  \norm{\vec{A - B}}^2 \\ + \vec{\left (  B - F\right)^{T} \left( A - B \right)}
+ \end{multline}   
+   
+    \begin{multline} 
+  \norm{\vec{A - C}}^2 + \left ( \vec{ C - A + A - B +B - E }\right)^T \left( \vec{A - C} \right)  =  \\ \norm{\vec{A - B}}^2 + \vec{\left (  B - A + A - C + C - F\right)^{T} \left( A - B \right)}
+   \end{multline}   
+  
+ \begin{multline} 
+\norm{\vec{A - C}}^2 +  \norm{\vec{A - C}}^2 + \left ( \vec{  A - B  }\right)^T \left( \vec{A - C} \right) + \left ( \vec{   B - E }\right)^T \\ \left( \vec{A - C} \right) =   \norm{\vec{A - B}}^2 + \norm{\vec{A - B}}^2 + \vec{\left ( A - C \right)^{T} \left( A - B \right)}  \\ +  \vec{\left (  C - F\right)^{T} \left( A - B \right)} \label{eq:solutions/1/31/2.18}
+ \end{multline}    
+  
+since BE $\perp$ AC and CF $\perp$ AB, hence :
+\begin{align}
+ \left ( \vec{   B - E }\right)^T \left( \vec{A - C} \right) = \vec{0}
+ \end{align}
+  and, 
+  \begin{align}
+   \vec{\left (  C - F\right)^{T} \left( A - B \right)} = \vec{0}
+\end{align}
+Now equation \ref{eq:solutions/1/31/2.18} become :
+ \begin{multline}
+2\norm{\vec{A - C}}^2 + \left ( \vec{  A - B  }\right)^T \left( \vec{A - C} \right)    =  \\ 2 \norm{\vec{A - B}}^2 + \vec{\left ( A - C \right)^{T} \left( A - B \right)} \label{eq:solutions/1/31/2.21}
+ \end{multline} 
+
+  Using equation \ref{eq:solutions/1/31/2.14} in equation \ref{eq:solutions/1/31/2.21},
+  
+  \begin{align}
+  \norm{\vec{A - C} } = \norm {\vec{A - B}}
+  \end{align}
+  
+  
+  
+  
+  
+  

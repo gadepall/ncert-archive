@@ -1,0 +1,12 @@
+
+\begin{tikzpicture}[scale=2]%,cap=round,>=latex]
+
+\coordinate [label=left:$B$] (A) at (-1.5cm,-1.0cm);
+\coordinate [label=right:$C$] (C) at (1.5cm,-1.0cm);
+\coordinate [label=above:$A$] (B) at (1.5cm,1.0cm);
+\draw (A) -- node[sloped,above] {$\textrm{c}$} (B) -- node[above,xshift=2mm] {$\textrm{b}$} (C) -- node[below] {$\textrm{a}$} (A);
+
+\draw (1.25cm,-1.0cm) rectangle (1.5cm,-0.75cm);
+\tkzMarkAngle[size=0.5cm,color=black,mark=](C,A,B) 
+\tkzLabelAngle[pos=0.65](C,A,B){$\theta$}
+\end{tikzpicture}

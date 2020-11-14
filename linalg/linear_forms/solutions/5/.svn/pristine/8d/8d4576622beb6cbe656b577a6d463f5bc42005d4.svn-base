@@ -1,0 +1,45 @@
+\subsection{Problem}
+\newcommand{\RE}{\mathrm{Re}}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+	\item Triangle Inequality : Show that $\norm{\vec{\vec{x}+\vec{y}}}\leq\norm{\vec{x}}+\norm{\vec{y}}$\\
+	\solution
+	\begin{align}
+		\norm{\vec{x}+\vec{y}}^2 &= \brak{\vec{x}+\vec{y}}^T\brak{\vec{x}+\vec{y}}\\
+		\norm{\vec{x}+\vec{y}}^2 &= \brak{\vec{x}^T+\vec{y}^T}\brak{\vec{x}+\vec{y}}\\
+		\norm{\vec{x}+\vec{y}}^2 &= \vec{x^Tx}+\vec{x^Ty}+\vec{y^Tx}+\vec{y^Ty}\\
+		\norm{\vec{x}+\vec{y}}^2 &= \norm{\vec{x}}^2+\vec{x^Ty}+\vec{y^Tx}+\norm{\vec{y}}^2
+	\end{align}
+	$\because \vec{x^Ty}=\vec{y^Tx}$
+	\begin{align}
+		\norm{\vec{x}+\vec{y}}^2 &= \norm{\vec{x}}^2+2\vec{x^Ty}+\norm{\vec{y}}^2\\
+		\norm{\vec{x}+\vec{y}}^2 &= \norm{\vec{x}}^2+2\norm{\vec{x}}\norm{\vec{y}}\cos \theta+\norm{\vec{y}}^2
+	\end{align}
+	where $\theta$ is the angle between $\vec{x}$ and $\vec{y}$. Since the maximum value of $\cos \theta$ is 1,
+	\begin{align}
+		\norm{\vec{x}+\vec{y}}^2 \leq \norm{\vec{x}}^2+2\norm{\vec{x}}\norm{\vec{y}}+\norm{\vec{y}}^2\\
+		\norm{\vec{x}+\vec{y}}^2 \leq \brak{\norm{\vec{x}} + \norm{\vec{y}}}^2\\
+		\implies \norm{\vec{x}+\vec{y}} = \norm{\vec{x}} + \norm{\vec{y}}
+	\end{align}
+	
+	
+\begin{comment}
+\begin{align}\norm{\vec{x}+\vec{y}}^2 = \langle \vec{x}+\vec{y} , \vec{x}+\vec{y} \rangle
+\\
+\norm{\vec{x}+\vec{y}}^2 = \langle \vec{x} , \vec{x}+\vec{y} \rangle + \langle \vec{y} , \vec{x}+\vec{y} \rangle\\
+\norm{\vec{x}+\vec{y}}^2 = \langle \vec{x} , \vec{x} \rangle + \langle \vec{x} , \vec{y} \rangle + \langle \vec{y} , \vec{x} \rangle + \langle \vec{y} , \vec{y} \rangle\\
+\norm{\vec{x}+\vec{y}}^2 = \norm{\vec{x}}^2 + \langle \vec{x} , \vec{y} \rangle + \overline{\langle \vec{x} , \vec{y} \rangle} + \norm{\vec{y}}^2\\
+\norm{\vec{x}+\vec{y}}^2 = \norm{\vec{x}}^2 + 2\RE{\langle \vec{x} , \vec{y} \rangle} + \norm{\vec{y}}^2\\
+\norm{\vec{x}+\vec{y}}^2 \leq \norm{\vec{x}}^2 + 2|\langle \vec{x} , \vec{y} \rangle| + \norm{\vec{y}}^2
+\end{align}
+Using Cauchy-Schwarz Inequality
+\begin{align}
+\norm{\vec{x}+\vec{y}}^2 \leq \norm{\vec{x}}^2 + 2\norm{\vec{x}}\norm{\vec{y}}  + \norm{\vec{y}}^2
+\\
+\norm{\vec{x}+\vec{y}}^2 \leq \brak{\norm{\vec{x}} + \norm{\vec{y}}}^2
+\\
+\implies \norm{\vec{x}+\vec{y}} = \norm{\vec{x}} + \norm{\vec{y}}
+\end{comment}
+
+\end{enumerate}

@@ -1,0 +1,26 @@
+\begin{align}
+\vec{A^T}\vec{B}= 0\label{eq:sol_line_exam_661}\\
+\vec{A}^T\vec{B}=\brak{\vec{a}+\vec{b}}^T\brak{\vec{a}-\vec{b}}
+\end{align}
+The transpose of a sum is the sum of transposes so,
+\begin{align}
+\brak{\vec{a}+\vec{b}}^T = \brak{\vec{a}^T+\vec{b}^T} \\
+    \vec{A}^T\vec{B} = \brak{\vec{a}^T+ \vec{b}^T}\brak{\vec{a}-\vec{b}}\\
+    \vec{a}^T\brak{\vec{a}-\vec{b}}+\vec{b}^T\brak{\vec{a}-\vec{b}}\\
+    \implies\vec{a}^T\vec{a}-\vec{a}^T\vec{b}+\vec{b}^T\vec{a}-\vec{b}^T\vec{b}\\
+    \because\vec{a}^T\vec{a}= \norm{\vec{a}}^2\label{eq:sol_line_exam_66es17btech11002_1}\\
+    \because\vec{b}^T\vec{b}= \norm{\vec{b}}^2\label{eq:sol_line_exam_66es17btech11002_2}\\
+    \because\vec{a}^T\vec{b}=\vec{b}^T\vec{a}\label{eq:sol_line_exam_66es17btech11002_3}
+\end{align}
+Using \eqref{eq:sol_line_exam_66es17btech11002_1}, \eqref{eq:sol_line_exam_66es17btech11002_2}  and \eqref{eq:sol_line_exam_66es17btech11002_3}
+\begin{align}
+    \vec{A}^T\vec{B}= \norm{\vec{a}}^2-\vec{a}^T\vec{b}+\vec{a}^T\vec{b}-\norm{\vec{b}}^T\\
+    \norm{\vec{a}}^2= 5^2+(-1)^2+(-3)^2= 35\label{eq:sol_line_exam_66es17btech11002_4}\\ 
+    \norm{\vec{b}}^2= 1^2+(3)^2+(-5)^2= 35\label{eq:sol_line_exam_66es17btech11002_5}\\ 
+    \vec{A}^T\vec{B}= \norm{\vec{a}}^2-\norm{\vec{b}}^2
+\end{align}
+Using \eqref{eq:sol_line_exam_66es17btech11002_4}  and \eqref{eq:sol_line_exam_66es17btech11002_5} \\ 
+\begin{align}
+   \implies\vec{A}^T\vec{B}= 35-35 = 0 
+\end{align}
+Thus the direction vectors of the two lines satisfies the equation \ref{eq:sol_line_exam_661}, hence proved that the lines are \textbf{perpendicular}.

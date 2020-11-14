@@ -1,0 +1,35 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Solve the following pair of linear equations
+%
+\begin{enumerate}[itemsep=2pt]
+\begin{multicols}{2}
+\item
+\begin{align}
+\begin{split}
+\myvec{p & q }\vec{x}&=p-q
+\\
+\myvec{q & -p }\vec{x}&=p+q
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{a & b }\vec{x}&=c
+\\
+\myvec{b & a }\vec{x}&=1+c
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{\frac{1}{a} & -\frac{1}{b} }\vec{x}&=0
+\\
+\myvec{a & b }\vec{x}&=a^2+b^2
+\end{split}
+\end{align}
+%
+\end{multicols}
+\end{enumerate}

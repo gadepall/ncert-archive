@@ -1,0 +1,42 @@
+%Code by GVV Sharma
+%December 12, 2019
+%released under GNU GPL
+%Drawing a quadrilateral given 4 sides and a diagonal.
+
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+
+%Quadrilateral sides BC, CD, AD, AB, BD
+\tikzmath{\a = 4.5; \b = 5.5; \c = 4; \d = 6; \e = 7; }
+%Rotation angles DBC and ABD
+\tikzmath{\t1=51.75338012165502; \t2=34.7719440319486; }
+%
+%Labeling points
+\node (B) at (0, 0)[point,label=below left:$B$] {};
+\node (C) at (\a, 0)[point,label=below right:$C$] {};
+\node (A) at ({\t1+\t2}:\d)[point,label=above right:$A$] {};
+\node (D) at (\t1:\e)[point,label=above right:$D$] {};
+\node (A1) at (\t2:\d)[point,label=above right:$A_{1}$] {};
+\node (D1) at (\e,0)[point,label=above right:$D_{1}$] {};
+
+%Foot of perpendicular
+
+\draw (A) --  node[left] {$\textrm{d}$}(B) --  node[below] {$\textrm{a}$}(C) --  node[right] {$\textrm{b}$}(D) --  node[above] {$\textrm{c}$}(A);
+\draw (B) -- node[above left] {$\textrm{e}$}(D);
+\draw [dashed] (C) -- (D1) -- (A1) -- (B);
+
+
+%Drawing circles
+\draw (B) circle (\e);
+\draw (B) circle (\d);
+
+%Drawing and marking angles
+\tkzMarkAngle[fill=orange!50,size=0.5cm,mark=](C,B,D)
+\tkzMarkAngle[fill=green!50,size=0.4cm,mark=](D,B,A)
+\tkzMarkAngle[mark=](D1,B,A1)
+\tkzLabelAngle[pos=0.65](C,B,D){$\theta_1$}
+\tkzLabelAngle[pos=0.65](D,B,A){$\theta_2$}
+\tkzLabelAngle[pos=1.5](D1,B,A1){$\theta_1$}
+
+\end{tikzpicture}

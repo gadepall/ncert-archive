@@ -1,0 +1,30 @@
+\begin{tikzpicture}
+[scale =2,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt},]
+
+\def\rad{3}
+\coordinate [point, label={right: $P$ }] (P) at (0, 0);
+\draw (P) circle (\rad);
+\node (A) at (-2.24,-2)[point,label=below left :$A$] {};
+\node (C) at (2.24,-2)[point,label=below right :$C$] {};
+\node (B) at (2.24,2)[point,label=above :$B$] {};
+\node (D) at (-2.24,2)[point,label=below :$D$] {};
+
+\draw (A)--(B);
+\draw (C)--(D);
+\draw [thick,dashed] (A)--(C);
+\draw [thick,dashed] (B)--(D);
+\tkzMarkAngle[size=0.3](P,D,B)
+\tkzMarkAngle[size=0.3](D,B,P)
+\tkzMarkAngle[size=0.3](B,P,D)
+\tkzMarkAngle[size=0.3](A,P,C)
+\tkzMarkAngle[size=0.3](C,A,P)
+\tkzMarkAngle[size=0.3](P,C,A)
+
+\draw (1.8,1.8) node{$\alpha$};
+\draw (-1.84,1.84) node{$\beta$};
+\draw (-1.8,-1.9) node{$\beta$};
+\draw (1.8,-1.9) node{$\alpha$};
+\draw (0,0.4) node{$\theta$};
+\draw (0,-0.4) node{$\theta$};
+
+\end{tikzpicture}

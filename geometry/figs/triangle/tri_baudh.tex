@@ -1,0 +1,53 @@
+%Code by GVV Sharma
+%December 7, 2019
+%released under GNU GPL
+%Proof of Baudhyana Theorem
+
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+%Triangle sides
+\def\a{4}
+\def\c{3}
+\def\b{sqrt(\a^2+\c^2)}
+
+%Trigonometric ratios
+\def\ct{\a/\b}
+\def\st{\c/\b}
+
+%perp distance
+\def\r{\a*\st}
+
+%Section Ratio
+\def\k{1.2}
+
+
+%Labeling points
+\node (A) at (0,\c)[point,label=above right:$A$] {};
+\node (B) at (0, 0)[point,label=below left:$B$] {};
+\node (C) at (\a, 0)[point,label=below right:$C$] {};
+
+%Foot of perpendicular
+
+\node (D) at ($({\r*\st}, {\r*\ct})$)[point,label=above right:$D$] {};
+
+
+%Drawing triangle ABC
+\draw (A) -- node[left] {$\textrm{c}$} (B) -- node[below] {$\textrm{a}$} (C) -- node[above,xshift=2mm] {$\textrm{b}$} (A);
+
+%Joining BD
+\draw (B)--(D);
+
+%Drawing and marking angles
+\tkzMarkAngle[fill=orange!40,size=0.5cm,mark=](A,C,B)
+\tkzMarkAngle[fill=orange!40,size=0.4cm,mark=](D,B,A)
+\tkzMarkAngle[fill=green!40,size=0.5cm,mark=](B,A,C)
+\tkzMarkAngle[fill=green!40,size=0.5cm,mark=](C,B,D)
+\tkzMarkRightAngle[fill=blue!20,size=.2](A,B,C)
+\tkzMarkRightAngle[fill=blue!20,size=.2](B,D,A)
+\tkzLabelAngle[pos=0.65](A,C,B){$\theta$}
+\tkzLabelAngle[pos=0.65](A,B,D){$\theta$}
+\tkzLabelAngle[pos=1](B,A,C){\rotatebox{-45}{$\alpha = 90\degree -\theta$}}
+\tkzLabelAngle[pos=0.65](C,B,D){$\alpha$}
+
+\end{tikzpicture}

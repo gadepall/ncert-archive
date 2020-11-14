@@ -1,0 +1,9 @@
+This folder contains solutions to problem 3 of the unsolved exercises of Linear Algebra manual.
+It contains the following topics:
+1.Triangle
+2.Quadrilateral
+3.Line
+4.Circle
+5.Conics
+All python codes are in the folder codes 
+All .tex files used in the document are in the folder chapters

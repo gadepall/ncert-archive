@@ -1,0 +1,29 @@
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+
+
+\node (A) at (0, 3)[point,label=above :$A$]{};
+\node (B) at (-3, 0)[point,label=below left:$B$]{};
+\node (C) at (3, 0)[point,label=below right:$C$]{};
+\node (D) at (0,0)[point,label=below :$D$] {};
+%\node (a) at (0,-0.2) [point,label=below :$a$] {};
+
+
+\draw (B)--(A);
+\draw (A)--(C);
+\draw (C)--(B);
+\draw (A)--(D);
+
+\node [above] at (-1.5,-.7) {$a/2$};
+\node [above] at (1.5,-.7) {$a/2$};
+\node [above] at (-1.7,1.7) {$c$};
+\node [above] at (1.7,1.7) {$b$}; 
+\node [below] at (0,-0.3) {$a$}; 
+
+\tkzMarkAngle[size=.3](A,D,B);
+\tkzMarkAngle[size=.4](C,D,A);
+\draw (-.5,0.1) node{$\theta$};
+\draw (.7,0.1) node{180 - $\theta$};
+
+\end{tikzpicture}

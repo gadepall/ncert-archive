@@ -1,0 +1,97 @@
+ \begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./solutions/1/18/figure.tex}}
+\caption{figure}
+\label{eq:solutions/1/18/fig1}
+\end{figure}
+\begin{enumerate}
+    \item Here, the following information is given:
+    \begin{align}
+    \norm{\vec{P}-\vec{B}}=\norm{\vec{P}-\vec{C}} \label{eq:solutions/1/18/eq2.1}
+    \end{align}
+    \item The lines $PB$ is the perpendicular to line $AB$ and 
+    $PC$ is the perpendicular to line $AC$:
+    \begin{align}
+    \myvec{\vec{P}-\vec{B}}^T\myvec{\vec{A}-\vec{B}}=0 \label{eq:solutions/1/18/eq2.2}
+    \implies \cos\angle PBA=0 
+    \end{align}
+    \begin{align}
+    \myvec{\vec{P}-\vec{C}}^T\myvec{\vec{A}-\vec{C}}=0 \label{eq:solutions/1/18/eq2.3}
+    \implies \cos\angle PCA=0 
+    \end{align}
+\end{enumerate}
+We know that 
+\begin{align}
+\norm{\vec{P-A}}^2=(\vec{P}-\vec{A})^T(\vec{P}-\vec{A})
+\end{align}
+\begin{align}
+ \begin{split}
+(\vec{P}-\vec{A})^T(\vec{P}-\vec{A})=(\vec{P}-\vec{B}+\vec{B}-\vec{A})^T(\vec{P}-\vec{B}+\vec{B}-\vec{A})
+\end{split}
+\end{align}
+\begin{align}
+ \begin{split}
+\norm{\vec{P-A}}^2=\norm{\vec{P-B}}^2+\norm{\vec{B-A}}^2\\ 
++2\norm{\vec{A}-\vec{P}}\norm{\vec{B}-\vec{A}}\cos\angle PBA \\
+\end{split}
+\end{align}
+using \eqref{eq:solutions/1/18/eq2.2}
+\begin{align}
+ \begin{split}
+ \implies \norm{\vec{P-A}}^2=\norm{\vec{P-B}}^2+\norm{\vec{B-A}}^2 \label{eq:solutions/1/18/eq2.4} \\
+ \end{split}
+\end{align}
+Similarly
+\begin{align}
+ \begin{split}
+(\vec{P}-\vec{A})^T(\vec{P}-\vec{A})=(\vec{P}-\vec{C}+\vec{C}-\vec{A})^T(\vec{P}-\vec{C}+\vec{C}-\vec{A})
+\end{split}
+\end{align}
+\begin{align}
+ \begin{split}
+\norm{\vec{P-A}}^2=\norm{\vec{P-C}}^2+\norm{\vec{C-A}}^2\\ 
++2\norm{\vec{A}-\vec{P}}\norm{\vec{C}-\vec{A}}\cos\angle PCA \\
+\end{split}
+\end{align}
+using \eqref{eq:solutions/1/18/eq2.3}
+\begin{align}
+ \begin{split}
+ \implies \norm{\vec{P-A}}^2=\norm{\vec{P-C}}^2+\norm{\vec{C-A}}^2 \label{eq:solutions/1/18/eq2.5}
+ \end{split}
+\end{align}
+From \eqref{eq:solutions/1/18/eq2.4} and \eqref{eq:solutions/1/18/eq2.5} and substituting \eqref{eq:solutions/1/18/eq2.1}
+\begin{align}
+\norm{\vec{P-C}}^2+\norm{\vec{C-A}}^2=\norm{\vec{P-B}}^2+\norm{\vec{B-A}}^2 \\
+\implies \norm{\vec{C-A}}^2=\norm{\vec{B-A}}^2
+\implies \norm{\vec{C-A}}=\norm{\vec{B-A}} \label{eq:solutions/1/18/eq2.6}
+\end{align}
+We know that 
+\begin{align}
+ \cos\angle BAP=
+   \frac{(\vec P -\vec A)^T(\vec{A}-\vec{B})}{\norm{\vec{P}-\vec{A}} \norm{\vec{A}-\vec{B}} } \\
+   =  \frac{(\vec P -\vec{B} +\vec{B} -\vec A)^T(\vec{A}-\vec{B})}{\norm{\vec{P}-\vec{A}} \norm{\vec{A}-\vec{B}} } \\
+   =\frac{(\vec P -\vec B)^T (\vec{A}-\vec{B})- \norm{\vec{B-A}}^2}{\norm{\vec{P}-\vec{A}} \norm{\vec{A}-\vec{B}} }
+\end{align}
+Using \eqref{eq:solutions/1/18/eq2.2}
+\begin{align}
+\cos\angle BAP=  \frac{\norm{\vec{B-A}}}{\norm{\vec{P}-\vec{A}}  }\label{eq:solutions/1/18/eq2.7}
+\end{align}
+Similarly,
+\begin{align}
+ \cos\angle CAP =
+ \frac{(\vec P -\vec A)^T(\vec{A}-\vec{C})}{\norm{\vec{P}-\vec{A}} \norm{\vec{A}-\vec{C}} } \\
+   =  \frac{(\vec P -\vec{C} +\vec{C} -\vec A)^T(\vec{A}-\vec{C})}{\norm{\vec{P}-\vec{A}} \norm{\vec{A}-\vec{C}} } \\
+   =\frac{(\vec P -\vec C)^T (\vec{A}-\vec{C})- \norm{\vec{C-A}}^2}{\norm{\vec{P}-\vec{A}} \norm{\vec{A}-\vec{C}} }
+\end{align}
+Using \eqref{eq:solutions/1/18/eq2.3}
+\begin{align}
+\cos\angle CAP=  \frac{\norm{\vec{C-A}}}{\norm{\vec{P}-\vec{A}}  }\label{eq:solutions/1/18/eq2.8}
+  \end{align}
+Using \eqref{eq:solutions/1/18/eq2.6} in \eqref{eq:solutions/1/18/eq2.7} and \eqref{eq:solutions/1/18/eq2.8},
+\begin{align}
+\cos\angle BAP=\cos\angle CAP \\
+\implies \angle BAP=\angle CAP
+\end{align}
+The line AP bisects the angle between them.
+
+

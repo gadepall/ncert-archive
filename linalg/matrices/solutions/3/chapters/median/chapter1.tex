@@ -1,0 +1,83 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Let the medians $BE$ and $CF$ in Fig. \ref{fig:3.12.3_ch1_two_median} intersect at $O$, such that
+\begin{equation}
+\begin{split}
+\frac{OB}{OE} &= k_1
+\\
+\frac{OC}{OF} &= k_2
+\end{split}
+\end{equation}
+%Then  $k_1 = k_2 = 2$.
+%
+\begin{figure}[!h]
+\centering
+\resizebox {\columnwidth} {!} {
+\input{./solutions/3/figs/chapter1/ch1_two_median.tex}
+}
+\caption{Medians $BE$ and $CF$}
+\label{fig:3.12.3_ch1_two_median}
+\end{figure}
+%Let the coordinates of $A$, $B$ and $C$ be $\brak{a,b}$, $\brak{0,0}$ and $\brak{c,0}$ respectively. 
+Using \eqref{eq:line_section_form},
+%
+\begin{align}
+E &= \frac{\vec{A}+\vec{C}}{2} 
+\\
+F &= \frac{\vec{A}+\vec{B}}{2} 
+\label{eq:3.12.3_ch1_ratio_ef}
+\end{align}
+%
+Similarly, since $O$ divides $BE$ in the ratio $k_1:1$ and $CF$ in the ratio $k_2:1$.
+ %
+\begin{align}
+O = \frac{k_1\vec{E}+\vec{B}}{k_1+1} &=  \frac{k_2\vec{F}+\vec{C}}{k_2+1} 
+\\
+\implies \frac{k_1\brak{\frac{\vec{A}+\vec{C}}{2}} +B}{k_1+1} &=  \frac{k_2\brak{\frac{\vec{A}+\vec{B}}{2} }+C}{k_2+1} 
+\label{eq:3.12.3_ch1_ratio_2}
+\end{align}
+upon substituting from \eqref{eq:3.12.3_ch1_ratio_ef}.
+Simplifying \eqref{eq:3.12.3_ch1_ratio_2},
+\begin{align}
+\frac{k_1\brak{\vec{A}+\vec{C}} +2\vec{B}}{k_1+1} =  \frac{k_2\brak{\vec{A}+\vec{B}}+2\vec{C}}{k_2+1} 
+\end{align}
+which can be expressed as
+\begin{multline}
+\implies \sbrak{k_1\brak{k_2+1}-k_2\brak{k_1+1}}\vec{A}
+\\
+ +\sbrak{2\brak{k_2+1}-k_2\brak{k_1+1}}\vec{B}
+\\ +  \sbrak{k_1\brak{k_2+1} -2\brak{k_1+1}}\vec{C} = 0
+\end{multline}
+resulting in 
+\begin{align}
+\vec{B} = \frac{\brak{k_1-k_2}\vec{A}+\brak{k_1k_2 -k_1 -2}}{k_1k_2 -k_2 -2}
+\end{align}
+%
+If the above equation has a solution, then $\vec{A}, \vec{B}$ and $\vec{C}$ lie on a straight line.  Since that is not the case, the only possibility is 
+\begin{align}
+k_1-k_2 &= 0
+\\
+k_1k_2 -k_1 -2 &= 0
+\\
+k_1k_2 -k_2 -2 &= 0
+\\
+\implies k_1=k_2&=2
+\end{align}
+{\em If $\vec{A}, \vec{B}, \vec{C}$ lie on a triangle, they are linearly independent.}    In which case, 
+\begin{align}
+x_1\vec{A}+ x_2\vec{B}+x_3\vec{C} &= 0
+\\
+\implies x_1 = x_2=x_3 = 0,
+\end{align}
+Else, they are linearly dependent and lie on a straight line.
+\item In Fig. \ref{fig:3.12.3_ch1_two_median},
+\begin{align}
+\vec{E} &=  \frac{\vec{A}+\vec{C}}{2} \quad \text{and}
+\\
+\vec{O}&= \frac{\vec{B}+2\vec{E}}{3}
+\\
+&= \frac{\vec{A}+\vec{B}+\vec{C}}{3}
+\end{align}
+\end{enumerate}
+	

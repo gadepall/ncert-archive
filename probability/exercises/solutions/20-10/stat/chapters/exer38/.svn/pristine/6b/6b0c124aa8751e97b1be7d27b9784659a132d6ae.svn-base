@@ -1,0 +1,9 @@
+ The following data on the number of girls (to the nearest ten) per thousand boys in different sections of Indian society is given below.\\
+ \begin{table}[ht!]
+\centering
+\input{./stat/tables/exer38/inp38.tex}
+\caption{Number of girls per 1000 boys}
+\label{table:input_36}
+\end{table}
+(i) Represent the information above by a bar graph.\\
+(ii) In the classroom discuss what conclusions can be arrived at from the graph.\\

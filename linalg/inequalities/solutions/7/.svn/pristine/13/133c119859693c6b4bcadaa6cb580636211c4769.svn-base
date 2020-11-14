@@ -1,0 +1,16 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Since the two matrices have equal number of rows and columns, they are summable. Every element of a matrix gets added to its corresponding element in other matrix.
+
+\item So
+\begin{align}
+A+B &= \myvec{\sqrt{3}+2&\sqrt{5}+1&0\\0&6&\frac{1}{2}}
+\end{align}
+
+\item The python code for matrix addition can be downloaded from
+\begin{lstlisting}
+codes/line/matrix/matrix_add.py
+\end{lstlisting}
+
+\end{enumerate}

@@ -1,0 +1,47 @@
+The matrix $\vec{A}$ can be written as,
+\begin{align}
+\vec{A}=\myvec{\vec{a}&\vec{b}}
+\end{align}
+where $\vec{a}$ and $\vec{b}$ are column vectors. 
+%From \eqref{eq:solutions/2/30/1}
+\begin{align}
+\vec{a}=\myvec{2\\1}\label{eq:solutions/2/30/2}\\
+\vec{b}=\myvec{5\\4}\label{eq:solutions/2/30/3}
+\end{align}
+The QR decomposition of the given matrix is given by
+\begin{align}
+\vec{A}=\vec{Q}\vec{R} \label{eq:solutions/2/30/4}
+\end{align}
+here $\vec{R}$ is a upper triangular matrix and Q is a orthogonal matrix.
+\begin{align}
+\vec{Q^T}\vec{Q}=\vec{I}
+\end{align}
+where
+\begin{align}
+\vec{Q}=\myvec{\vec{q_1}&\vec{q_2}}\quad
+\vec{R}=\myvec{r_1&r_2\\0&r_3} \label{eq:solutions/2/30/5}
+\end{align}
+The above values are given by,
+\begin{align}
+r_1 = \norm{\vec{a}}\\
+\vec{q_1}=\frac{\vec{a}}{r_1}\\
+r_2 = \frac{\vec{q_1^T}\vec{b}}{\norm{q_1}^2}\\
+\vec{q_2}=\frac{\vec{b}-r_2\vec{q_1}}{\norm{\vec{b}-r_2\vec{q_1}}}\\
+r_3 = \vec{q_2^T}\vec{b}
+\end{align}
+Substituting \eqref{eq:solutions/2/30/2} and \eqref{eq:solutions/2/30/3} we get
+\begin{align}
+r_1= \sqrt{2^2+1^2}= \sqrt{5}\\
+\vec{q_1}= \frac{1}{\sqrt{5}}\myvec{2\\1}=\myvec{\frac{2}{\sqrt{5}}\\\frac{1}{\sqrt{5}}}\\
+r_2=\frac{1}{\brak{\sqrt{\frac{4}{5}+\frac{1}{5}}}^2}\myvec{\frac{2}{\sqrt{5}}&\frac{1}{\sqrt{5}}}\myvec{5\\4}= \frac{14}{\sqrt{5}}\\
+\vec{q_2}=\frac{\sqrt{5}}{3}\brak{ \myvec{5\\4}-\frac{14}{\sqrt{5}}\myvec{\frac{2}{\sqrt{5}}\\\frac{1}{\sqrt{5}}}}= \myvec{\frac{-1}{\sqrt{5}}\\\frac{2}{\sqrt{5}}}\\
+r_3 = \myvec{\frac{-1}{\sqrt{5}}&\frac{2}{\sqrt{5}}}\myvec{5\\4}= \frac{3}{\sqrt{5}}
+\end{align}
+Hence substituting these values in \eqref{eq:solutions/2/30/5} and then back in \eqref{eq:solutions/2/30/4} we get,
+\begin{align}
+\vec{A}= \myvec{\frac{2}{\sqrt{5}}&\frac{-1}{\sqrt{5}}\\\frac{1}{\sqrt{5}}&\frac{2}{\sqrt{5}}}\myvec{\sqrt{5}&\frac{14}{\sqrt{5}}\\0&\frac{3}{\sqrt{5}}}
+\end{align}
+Hence QR decomposition is,
+\begin{align}
+\myvec{2&5\\1&4}=\myvec{\frac{2}{\sqrt{5}}&\frac{-1}{\sqrt{5}}\\\frac{1}{\sqrt{5}}&\frac{2}{\sqrt{5}}}\myvec{\sqrt{5}&\frac{14}{\sqrt{5}}\\0&\frac{3}{\sqrt{5}}}
+\end{align}

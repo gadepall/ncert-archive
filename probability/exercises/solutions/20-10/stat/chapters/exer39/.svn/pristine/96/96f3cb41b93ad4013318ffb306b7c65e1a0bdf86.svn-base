@@ -1,0 +1,8 @@
+(i) The bar graph representing the above data is shown in figure \ref{fig:bar39_py}\\
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./codes/pyfigs/exer39.eps}
+\caption{Seats won by different political parties}
+\label{fig:bar39_py}
+\end{figure}
+(ii)From the graph in \ref{fig:bar39_py}, Political party A won the maximum seats

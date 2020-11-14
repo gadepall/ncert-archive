@@ -1,0 +1,119 @@
+%
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item	In Fig. \ref{fig:tri_med_centroid}, $BE$ and $CF$ are the medians. Show that $\triangle GEF \sim \triangle GBC$.
+%
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_med_centroid.tex}}
+	\end{center}
+	\caption{$\frac{GB}{GE} = \frac{GC}{GF} = 2$}
+	\label{fig:tri_med_centroid}	
+\end{figure}
+\\
+\solution $\because EF \parallel BC$, alternate interior angles are equal.  Hence, corresponding angles of both triangles are equal and the triangles are similar.
+\item Show that
+
+%	Using Fig. \ref{ch2_median_ratio_val}, 
+	\begin{align}
+\label{eq:tri_med_centroid_ratio}
+	\frac{GB}{GE} = \frac{GC}{GF} = 2
+	\end{align}
+%
+\solution $\because \triangle GEF \sim \triangle GBC$ and $\frac{EF}{BC} =2$, \eqref{eq:tri_med_centroid_ratio} follows.
+%
+\item In Fig. \ref{fig:tri_med_meet}, AG is extended to meet $BC$ at $D$.	Show that 
+	\begin{align}
+\label{eq:tri_med_centroid_ratio_AD}
+\frac{GA}{GD} = 2
+	\end{align}
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_med_meet.tex}}
+	\end{center}
+	\caption{$\frac{GA}{GD} =2$}
+	\label{fig:tri_med_meet}	
+\end{figure}
+
+\solution  From Theorem \ref{them:tri_med_bpt}, $ EF || BC$.  Hence,
+%
+\begin{align}
+\triangle APE &\sim \triangle ADC \quad (AAA)
+\\
+\implies AP &= PD = \frac{AD}{2}
+\\
+\implies  AG - GP &= GP + GD 
+\\
+\text{or, }  GP=\frac{AG - GD}{2} 
+\label{eq:tri_med_centroid_ratio_AD1}
+\end{align}
+%
+Similarly, 
+%
+\begin{align}
+\triangle PGE &\sim \triangle BGD  \quad (AAA)
+\\
+\implies \frac{GP}{GD} &= \frac{GE}{GB} = \frac{1}{2}
+\\
+\text{or, }  GP=\frac{GD}{2} 
+\label{eq:tri_med_centroid_ratio_AD2}
+\end{align}
+using \eqref{eq:tri_med_centroid_ratio}. From \eqref{eq:tri_med_centroid_ratio_AD1}
+and \eqref{eq:tri_med_centroid_ratio_AD2},
+%
+\begin{align}
+GP=\frac{GA - GD}{2} &=\frac{GD}{2}  
+\\
+\implies  \frac{GA}{GD} &=2
+\end{align}
+%%
+\item In Fig. 	\ref{fig:tri_med_meet_proof}, $BE$ is a median and 
+%
+\begin{align}
+\frac{GA}{GD} &=2
+\end{align}
+%
+Show that
+%
+\begin{align}
+\label{eq:tri_med_final}
+BD = DC
+\end{align}
+%%
+%
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_med_meet_proof.tex}}
+	\end{center}
+	\caption{$AD$ is also a median. }
+	\label{fig:tri_med_meet_proof}	
+\end{figure}
+%
+\\
+\solution 	In Fig. \ref{fig:tri_med_meet_proof},
+%
+\begin{align}
+\triangle GDE \sim \triangle GAB \quad (SAS)
+\end{align}
+%
+Hence, all angles of both the above triangles are equal resulting in $DE\parallel AB$. As a consequence, 
+%
+\begin{align}
+\triangle DDE \sim \triangle CAB \quad (AAA)
+\end{align}
+%
+resulting in \eqref{eq:tri_med_final}
+
+\item Medians of a triangle meet at a point.
+\label{them:tri_med_meet}
+\item The centroid divides the median in the ratio $2:1$.
+\label{them:tri_med_ratio}
+%
+\item Show that 
+%
+\begin{align}
+\vec{G} = \frac{\vec{A}+\vec{B}+\vec{C}}{3}
+\end{align}
+\end{enumerate}

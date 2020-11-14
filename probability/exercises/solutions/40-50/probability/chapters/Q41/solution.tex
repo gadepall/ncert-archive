@@ -1,0 +1,34 @@
+Let $X \in \cbrak{0,1}$ where 0 represents black.
+
+\begin{enumerate}
+\item Probability of picking a black ball 
+\begin{align}
+\pr{X=0}= \frac{10}{18} = \frac{5}{9}
+\end{align}
+\item Probability of picking a red ball 
+\begin{align}
+\pr{X=1} = 1-\pr{X=0}=  \frac{4}{9}
+\end{align}
+\item Two balls are drawn with replacement. So each event is independent of each other. 
+ Probability that both balls are red 
+\begin{align}
+\pr{X_1 = 1, X_2 = 1} &= \brak{\frac{4}{9}}^2
+\\
+&=\frac{16}{81}
+\end{align}
+\item Probability that first ball is black and second is red
+\begin{align}
+\pr{X_1 = 0, X_2 = 1}&= \frac{5}{9}\times\frac{4}{9}\\
+&= \frac{20}{81}
+\end{align}
+\item Probability that one ball is black and other is red 
+\begin{multline}
+\pr{X_1 = 0, X_2 = 1}+\pr{X_1 = 1, X_2 = 0}
+\\
+= \frac{16}{81}+\frac{20}{81}= \frac{4}{9}
+\end{multline}
+\item The python code for finding probability using a sample size of 10000 can be downloaded from
+\begin{lstlisting}
+solutions/40-50/probability/codes/Q41.py
+\end{lstlisting}
+\end{enumerate}

@@ -1,0 +1,22 @@
+
+From \eqref{eq:constr_a},\vec{A} &= \myvec{x_a\\h} 
+\\
+Let \\vec{B} &= \myvec{x_b\\h}
+\begin{align}
+a^2 &=\norm{\vec{A}-\vec{B}}^2 = \norm{\vec{A}-\vec{B}}^T\norm{\vec{A}-\vec{B}}  
+\\
+&= \vec{A}^T\vec{A}+\vec{B}^T\vec{B}-\vec{A}^T\vec{B} - \vec{B}^T\vec{A} 
+\\
+&= \norm{\vec{A}}^2 + \norm{\vec{B}}^2 - 2\vec{A}^T\vec{B} \quad \brak{\because \vec{A}^T\vec{B} = \vec{B}^T\vec{A} } 
+\label{eq:tri_const_norm_ac}
+\\
+&= x_a^2+h^2+x_b^2+h^2-2(x_a x_b + h^2)
+\\
+&= \brak{x_a-x_b}^2
+\\
+x_b = x_a + h
+\\
+\vec{B} &= \myvec{{x_a + a}\\h} = \myvec{8\\3}
+\end{align}
+%
+

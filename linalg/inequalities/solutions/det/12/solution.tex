@@ -1,0 +1,17 @@
+Applying transformation:
+\begin{align}
+\Delta =\mydet{1&bc&a(b+c)\\1&ca&b(c+a)\\1&ab&c(a+b)}\\
+= \mydet{1&bc&ab+ac\\1&ca&bc+ab\\1&ab&ac+bc}\\
+\xleftrightarrow[]{C_3 \leftarrow C_3+ C_2 } 
+\mydet{1&bc&ab+ac+bc\\1&ca&bc+ab+ca\\1&ab&ac+bc+ab}
+\end{align}
+Taking (ab+bc+ac) common from C3:
+\begin{align}
+    \Delta =(ab+bc+ac)\mydet{1&bc&1\\1&ca&1\\1&ab&1}
+\end{align}
+If any two row or column of determinant is same, then the value of determinant is zero:
+\begin{align}
+    \Delta =(ab+bc+ac)\mydet{1&bc&1\\1&ca&1\\1&ab&1}=0\\
+    \therefore \mydet{1&bc&a(b+c)\\1&ca&b(c+a)\\1&ab&c(a+b)}=0
+\end{align}
+Hence proved.

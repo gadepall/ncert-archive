@@ -1,0 +1,18 @@
+\begin{tikzpicture}
+[scale =2,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt},]
+
+
+\node (O) at (0,3)[point,label=above :$O$] {};
+\node (P) at (0,0)[point,label=below :$P$] {};
+\node (P_1) at (-1.5,0)[point,label=below :$P_1$] {};
+\node (P_2) at (-3,0)[point,label=below :$P_2$] {};
+\node (X) at (2,0)[point,label=right :$X$] {};
+\node (Y) at (-4,0)[point,label=left :$Y$] {};
+\draw (O)--(P);
+\draw (X)--(Y);
+\draw (O)--(P_1);
+\draw (O)--(P_2);
+
+\tkzMarkRightAngle[size=.2](O,P,X);
+
+\end{tikzpicture}

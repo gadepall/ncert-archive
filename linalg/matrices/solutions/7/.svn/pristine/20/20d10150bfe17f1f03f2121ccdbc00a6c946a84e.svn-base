@@ -1,0 +1,11 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsubsection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+ \item  Find the modulus and argument of the complex numbers:
+\begin{enumerate}
+\item $\frac{\myvec{1\\1}}{\myvec{1\\-1}}$
+\item $ \frac{1}{\myvec{1\\1}}$
+
+\end{enumerate}
+\end{enumerate}

@@ -1,0 +1,36 @@
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./solutions/5/39/figs/step3.tex}}
+\caption{Circle by Latex-Tikz}
+\label{fig:8.5.39_stepthreetex}	
+\end{figure}
+\item {\em Construction: } In Fig. \ref{fig:8.5.39_stepthreetex}, 
+\begin{align}
+   \vec{O}&= \myvec{0\\0}
+\\
+   \vec{B}&= r\myvec{\cos{\theta_1}\\\sin{\theta_1}}
+\\
+  \vec{A}&=r\myvec{\cos{\theta_2}\\\sin{\theta_2}}
+\\
+   \vec{D}&= r\myvec{\cos{\theta_3}\\\sin{\theta_3}}
+\end{align}
+are the input parameters.
+\subitem From the given information, 
+\begin{align}
+\norm{\vec{A}-\vec{B}}^2 &= \norm{\vec{C}-\vec{D}}^2
+\\
+\implies \vec{A}^T\vec{B} &= \vec{C}^T\vec{D}
+\\
+\implies \theta_2-\theta_1 = \pm\brak{\theta_3-\theta_4}\label{eq:8.5.39_theta4}
+\end{align}
+where
+\begin{align}
+\vec{C}=\myvec{r\cos{\theta _4 }\\r\sin{\theta _4}}
+\end{align}
+From \eqref{eq:8.5.39_theta4}, $\vec{C}$ can be obtained.
+\subitem $\vec{X}$ can then be obtained as the intersection of $AB$ and $CD$.
+\begin{align}
+\vec{M} &= \frac{\vec{A}+\vec{B}}{2}
+\\
+\vec{N} &= \frac{\vec{C}+\vec{D}}{2}
+\end{align}

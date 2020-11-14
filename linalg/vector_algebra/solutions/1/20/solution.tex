@@ -1,0 +1,56 @@
+
+We have to prove that $P$ is equidistant from $A$ and $B$ i.e. length of lines $AP$ and $BP$ are equal. 
+
+Let $DP$ be the perpendicular bisector of line $AB$. So,
+\begin{align}
+    \vec{A}-\vec{D} = \vec{D} - \vec{B} \\
+    \norm{\vec{A}-\vec{D}} = \norm{\vec{D} - \vec{B}} = k \\
+    \norm{\vec{D}-\vec{P}} = l
+\end{align}
+
+%\renewcommand{\thefigure}{1}
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./solutions/1/20/figure.tex}}
+\caption{$PD \perp AB$ by Latex-Tikz}
+\label{fig:solutions/1/20/perp_bisector}
+\end{figure}
+
+
+Finding the length of line $AP$, 
+\begin{multline}
+    (\vec{A}-\vec{P})^T(\vec{A}-\vec{P}) = (\vec{A}- \vec{D}+\vec{D}-\vec{P})^T(\vec{A}-\vec{D}+\vec{D}-\vec{P}) \\
+    =[(\vec{A}-\vec{D})^T+(\vec{D}-\vec{P})^T][(\vec{A}-\vec{D})+(\vec{D}-\vec{P})] \\
+    =(\vec{A}-\vec{D})^T(\vec{A}-\vec{D}) + (\vec{A}-\vec{D})^T(\vec{D}-\vec{P}) + \\ (\vec{D}-\vec{P})^T(\vec{A}-\vec{D}) + (\vec{D}-\vec{P})^T(\vec{D}-\vec{P})
+\end{multline}
+
+Since, line $AB$ is perpendicular to line $DP$ the inner product is zero. 
+\begin{align}
+    (\vec{A}-\vec{D})^T(\vec{D}-\vec{P}) = (\vec{D}-\vec{P})^T(\vec{A}-\vec{D}) = 0
+\end{align}
+Thus, 
+\begin{multline} \label{eq:solutions/1/20/len_ap}
+    (\vec{A}-\vec{P})^T(\vec{A}-\vec{P}) = (\vec{A}-\vec{D})^T(\vec{A}-\vec{D}) + (\vec{D}-\vec{P})^T(\vec{D}-\vec{P}) \\
+  \implies\norm{\vec{A}-\vec{P}}^2 = \norm{\vec{A}-\vec{D}}^2 + \norm{\vec{D}-\vec{P}}^2 \\
+  \implies\norm{\vec{A}-\vec{P}} = \sqrt{k^2+l^2}
+\end{multline}
+
+Next finding the length of line $BP$,
+\begin{multline}
+    (\vec{B}-\vec{P})^T(\vec{B}-\vec{P}) = (\vec{B}- \vec{D}+\vec{D}-\vec{P})^T(\vec{B}-\vec{D}+\vec{D}-\vec{P}) \\
+    =[(\vec{B}-\vec{D})^T+(\vec{D}-\vec{P})^T][(\vec{B}-\vec{D})+(\vec{D}-\vec{P})] \\
+    =(\vec{B}-\vec{D})^T(\vec{B}-\vec{D}) + (\vec{B}-\vec{D})^T(\vec{D}-\vec{P}) + \\ (\vec{D}-\vec{P})^T(\vec{B}-\vec{D}) + (\vec{D}-\vec{P})^T(\vec{D}-\vec{P})
+\end{multline}
+Again since the inner product of lines $AB$ and $DP$ is zero, 
+\begin{multline} \label{eq:solutions/1/20/len_bp}
+  \implies(\vec{B}-\vec{P})^T(\vec{B}-\vec{P}) = (\vec{B}-\vec{D})^T(\vec{B}-\vec{D}) + (\vec{D}-\vec{P})^T(\vec{D}-\vec{P}) \\
+  \implies\norm{\vec{B}-\vec{P}}^2 = \norm{\vec{B}-\vec{D}}^2 + \norm{\vec{D}-\vec{P}}^2 \\
+  \implies\norm{\vec{B}-\vec{P}} = \sqrt{k^2+l^2}
+\end{multline}
+
+From equations \eqref{eq:solutions/1/20/len_ap} and \eqref{eq:solutions/1/20/len_bp} we get, 
+\begin{align}
+    \norm{\vec{A}-\vec{P}} = \norm{\vec{B}-\vec{P}}
+\end{align}
+Lengths of line $AP$ and $BP$ are equal. Hence, $P$ is equidistant from $A$ and $B$. 
+

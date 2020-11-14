@@ -1,0 +1,128 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+    \item Solve $30x < 200$ when
+    \begin{enumerate} 
+    \item  x is a natural number,
+    \item x is an integer.
+\end{enumerate}
+\solution From the given information, 
+\begin{align}
+30x < 200 \implies x < \frac{20}{3}
+\label{eq:lineq_nat}
+\end{align}
+If $x$ is a natural number, $x \in \cbrak{1, 2, 3, 4, 5, 6}$. If $x$ is an integer, then the solution set includes 0 as well as all negative integers.
+    \item Solve $5x-3 < 3x+1$ when
+    \begin{enumerate} 
+\item  x is an integer,
+    \item x is a real number.
+\end{enumerate}
+\solution 
+\begin{align}
+5x-3 < 3x+1 \implies x < 2
+\label{eq:lineq_real}
+\end{align}
+%
+If $x$ is real, then $x \in \brak{-\infty, 2}$. 
+%Fig.  provides a graphical solution using the following python code
+%\begin{lstlisting}
+%\end{lstlisting}
+    \item Solve the following system of linear inequalities graphically.
+\begin{align}
+\label{eq:line_two_ineq}
+\begin{split}
+    x+y &\geq 5
+\\
+    x-y &\leq 3
+\end{split}
+\end{align}
+\solution  Let $u_1 \ge 0, u_2 \ge 0$.  This may be expressed as
+\begin{align}
+\vec{u} = \myvec{u_1\\u_2}\succeq \vec{0}
+\end{align}
+%
+\eqref{eq:line_two_ineq} can then be expressed as
+\begin{align}
+\begin{split}
+    x+y &\geq 5
+\\
+    -x+y &\geq -3
+\end{split}
+%
+\\
+\implies 
+\myvec{1 & 1 \\ -1 & 1}\vec{x}  &\succeq \myvec{5\\-3}
+\\
+\myvec{1 & 1 \\ -1 & 1}\vec{x}  -\vec{u}&=\myvec{5\\-3}
+\\
+\text{or, }
+\myvec{1 & 1 \\ -1 & 1}\vec{x} &= \myvec{5\\-3} +\vec{u}
+\end{align}
+%
+resulting in 
+\begin{align}
+\vec{x} &= \myvec{1 & 1 \\ -1 & 1}^{-1}\myvec{5\\-3} +\myvec{1 & 1 \\ -1 & 1}^{-1}\vec{u}
+\\
+\text{or, } \vec{x} &= \myvec{4\\1} +\frac{1}{2}\myvec{1 & -1 \\ 1 & 1}\vec{u}
+\end{align}
+%
+after obtaining the  inverse.
+%
+ Fig. \ref{fig:line_ineq} generated using the following python code shows the region satisfying \eqref{eq:line_two_ineq}
+
+\begin{lstlisting}
+codes/line/line_ineq.py
+\end{lstlisting}
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_ineq.eps}
+\caption{}
+\label{fig:line_ineq}
+\end{figure}
+%
+\item Solve 
+\begin{align}
+\begin{split}
+2x+y \geq 4
+\\ 
+x+y \leq 3
+\\ 
+2x-3y \leq 6
+\end{split}
+\label{eq:line_mult_ineq}
+\end{align}
+%
+\\
+\solution  Fig. \ref{fig:line_ineq_mult} generated using the following python code shows the region satisfying \eqref{eq:line_mult_ineq}
+
+\begin{lstlisting}
+codes/line/line_ineq_mult.py
+\end{lstlisting}
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_ineq_mult.eps}
+\caption{}
+\label{fig:line_ineq_mult}
+\end{figure}
+%
+\item   Solve    $x+y < 5$ graphically.
+\\
+\solution 
+\input{./solutions/5/chapters/lines/docq6.tex}
+%
+    \item Solve 
+\begin{align}
+\myvec{3 & 2 \\ 1 & 4 \\ 1 & 0 \\ 0 & -1 \\ -1 & 0} \vec{x}\preceq \myvec{150\\80\\15\\0\\0}
+%3x+2y \leq 150
+%\\ 
+%x+4y \leq 80
+%\\ 
+%x \leq 15
+%\\ 
+%y \geq 0
+%\\
+%x \geq 0 
+\end{align}
+%
+   
+    \end{enumerate}

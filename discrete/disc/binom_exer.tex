@@ -1,0 +1,318 @@
+%\documentclass[journal,12pt,twocolumn]{IEEEtran}
+%\usepackage{setspace}
+%\usepackage{gensymb}
+%\usepackage{caption}
+%%\usepackage{multirow}
+%%\usepackage{multicolumn}
+%%\usepackage{subcaption}
+%%\doublespacing
+%\singlespacing
+%\usepackage{csvsimple}
+%\usepackage{amsmath}
+%\usepackage{multicol}
+%%\usepackage{enumerate}
+%\usepackage{amssymb}
+%%\usepackage{graphicx}
+%\usepackage{newfloat}
+%%\usepackage{syntax}
+%\usepackage{listings}
+%%\usepackage{iithtlc}
+%\usepackage{color}
+%\usepackage{tikz}
+%\usetikzlibrary{shapes,arrows}
+%
+%
+%
+%%\usepackage{graphicx}
+%%\usepackage{amssymb}
+%%\usepackage{relsize}
+%%\usepackage[cmex10]{amsmath}
+%%\usepackage{mathtools}
+%%\usepackage{amsthm}
+%%\interdisplaylinepenalty=2500
+%%\savesymbol{iint}
+%%\usepackage{txfonts}
+%%\restoresymbol{TXF}{iint}
+%%\usepackage{wasysym}
+%\usepackage{amsthm}
+%\usepackage{mathrsfs}
+%\usepackage{txfonts}
+%\usepackage{stfloats}
+%\usepackage{cite}
+%\usepackage{cases}
+%\usepackage{mathtools}
+%\usepackage{caption}
+%\usepackage{enumerate}	
+%\usepackage{enumitem}
+%\usepackage{amsmath}
+%%\usepackage{xtab}
+%\usepackage{longtable}
+%\usepackage{multirow}
+%%\usepackage{algorithm}
+%%\usepackage{algpseudocode}
+%\usepackage{enumitem}
+%\usepackage{mathtools}
+%\usepackage{hyperref}
+%%\usepackage[framemethod=tikz]{mdframed}
+%\usepackage{listings}
+%    %\usepackage[latin1]{inputenc}                                 %%
+%    \usepackage{color}                                            %%
+%    \usepackage{array}                                            %%
+%    \usepackage{longtable}                                        %%
+%    \usepackage{calc}                                             %%
+%    \usepackage{multirow}                                         %%
+%    \usepackage{hhline}                                           %%
+%    \usepackage{ifthen}                                           %%
+%  %optionally (for landscape tables embedded in another document): %%
+%    \usepackage{lscape}     
+%
+%
+%\usepackage{url}
+%\def\UrlBreaks{\do\/\do-}
+%
+%
+%%\usepackage{stmaryrd}
+%
+%
+%%\usepackage{wasysym}
+%%\newcounter{MYtempeqncnt}
+%\DeclareMathOperator*{\Res}{Res}
+%%\renewcommand{\baselinestretch}{2}
+%\renewcommand\thesection{\arabic{section}}
+%\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+%\renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}
+%
+%\renewcommand\thesectiondis{\arabic{section}}
+%\renewcommand\thesubsectiondis{\thesectiondis.\arabic{subsection}}
+%\renewcommand\thesubsubsectiondis{\thesubsectiondis.\arabic{subsubsection}}
+%
+%% correct bad hyphenation here
+%\hyphenation{op-tical net-works semi-conduc-tor}
+%
+%%\lstset{
+%%language=C,
+%%frame=single, 
+%%breaklines=true
+%%}
+%
+%%\lstset{
+%	%%basicstyle=\small\ttfamily\bfseries,
+%	%%numberstyle=\small\ttfamily,
+%	%language=Octave,
+%	%backgroundcolor=\color{white},
+%	%%frame=single,
+%	%%keywordstyle=\bfseries,
+%	%%breaklines=true,
+%	%%showstringspaces=false,
+%	%%xleftmargin=-10mm,
+%	%%aboveskip=-1mm,
+%	%%belowskip=0mm
+%%}
+%
+%%\surroundwithmdframed[width=\columnwidth]{lstlisting}
+%\def\inputGnumericTable{}                                 %%
+%\lstset{
+%%language=C,
+%frame=single, 
+%breaklines=true,
+%columns=fullflexible
+%}
+% 
+%
+%\begin{document}
+%%
+%\tikzstyle{block} = [rectangle, draw,
+%    text width=3em, text centered, minimum height=3em]
+%\tikzstyle{sum} = [draw, circle, node distance=3cm]
+%\tikzstyle{input} = [coordinate]
+%\tikzstyle{output} = [coordinate]
+%\tikzstyle{pinstyle} = [pin edge={to-,thin,black}]
+%
+%\theoremstyle{definition}
+%\newtheorem{theorem}{Theorem}[section]
+%\newtheorem{problem}{Problem}
+%\newtheorem{proposition}{Proposition}[section]
+%\newtheorem{lemma}{Lemma}[section]
+%\newtheorem{corollary}[theorem]{Corollary}
+%\newtheorem{example}{Example}[section]
+%\newtheorem{definition}{Definition}[section]
+%%\newtheorem{algorithm}{Algorithm}[section]
+%%\newtheorem{cor}{Corollary}
+%\newcommand{\BEQA}{\begin{eqnarray}}
+%\newcommand{\EEQA}{\end{eqnarray}}
+%\newcommand{\define}{\stackrel{\triangle}{=}}
+%
+%\bibliographystyle{IEEEtran}
+%%\bibliographystyle{ieeetr}
+%
+%\providecommand{\nCr}[2]{\,^{#1}C_{#2}} % nCr
+%\providecommand{\nPr}[2]{\,^{#1}P_{#2}} % nPr
+%\providecommand{\mbf}{\mathbf}
+%\providecommand{\pr}[1]{\ensuremath{\Pr\left(#1\right)}}
+%\providecommand{\qfunc}[1]{\ensuremath{Q\left(#1\right)}}
+%\providecommand{\sbrak}[1]{\ensuremath{{}\left[#1\right]}}
+%\providecommand{\lsbrak}[1]{\ensuremath{{}\left[#1\right.}}
+%\providecommand{\rsbrak}[1]{\ensuremath{{}\left.#1\right]}}
+%\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+%\providecommand{\lbrak}[1]{\ensuremath{\left(#1\right.}}
+%\providecommand{\rbrak}[1]{\ensuremath{\left.#1\right)}}
+%\providecommand{\cbrak}[1]{\ensuremath{\left\{#1\right\}}}
+%\providecommand{\lcbrak}[1]{\ensuremath{\left\{#1\right.}}
+%\providecommand{\rcbrak}[1]{\ensuremath{\left.#1\right\}}}
+%\theoremstyle{remark}
+%\newtheorem{rem}{Remark}
+%\newcommand{\sgn}{\mathop{\mathrm{sgn}}}
+%\providecommand{\abs}[1]{\left\vert#1\right\vert}
+%\providecommand{\res}[1]{\Res\displaylimits_{#1}} 
+%\providecommand{\norm}[1]{\left\Vert#1\right\Vert}
+%\providecommand{\mtx}[1]{\mathbf{#1}}
+%\providecommand{\mean}[1]{E\left[ #1 \right]}
+%\providecommand{\fourier}{\overset{\mathcal{F}}{ \rightleftharpoons}}
+%%\providecommand{\hilbert}{\overset{\mathcal{H}}{ \rightleftharpoons}}
+%\providecommand{\system}{\overset{\mathcal{H}}{ \longleftrightarrow}}
+%	%\newcommand{\solution}[2]{\textbf{Solution:}{#1}}
+%\newcommand{\solution}{\noindent \textbf{Solution: }}
+%\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+%\providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
+%\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+%%\numberwithin{equation}{section}
+%%\numberwithin{problem}{subsection}
+%%\numberwithin{definition}{subsection}
+%\makeatletter
+%\@addtoreset{figure}{section}
+%\makeatother
+%
+%\let\StandardTheFigure\thefigure
+%%\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
+%\renewcommand{\thefigure}{\thesection}
+%
+%
+%%\numberwithin{figure}{subsection}
+%
+%%\numberwithin{equation}{subsection}
+%%\numberwithin{equation}{section}
+%%\numberwithin{equation}{problem}
+%%\numberwithin{problem}{subsection}
+%\numberwithin{problem}{section}
+%%%\numberwithin{definition}{subsection}
+%%\makeatletter
+%%\@addtoreset{figure}{problem}
+%%\makeatother
+%\makeatletter
+%\@addtoreset{table}{section}
+%\makeatother
+%
+%\let\StandardTheFigure\thefigure
+%\let\StandardTheTable\thetable
+%\let\vec\mathbf
+%%%\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
+%%\renewcommand{\thefigure}{\theproblem}
+%
+%%%\numberwithin{figure}{section}
+%
+%%%\numberwithin{figure}{subsection}
+%
+%
+%
+%\def\putbox#1#2#3{\makebox[0in][l]{\makebox[#1][l]{}\raisebox{\baselineskip}[0in][0in]{\raisebox{#2}[0in][0in]{#3}}}}
+%     \def\rightbox#1{\makebox[0in][r]{#1}}
+%     \def\centbox#1{\makebox[0in]{#1}}
+%     \def\topbox#1{\raisebox{-\baselineskip}[0in][0in]{#1}}
+%     \def\midbox#1{\raisebox{-0.5\baselineskip}[0in][0in]{#1}}
+%
+%\vspace{3cm}
+%
+%\title{ 
+%%	\logo{
+%BINOMIAL THEOREM
+%%	}
+%}
+%
+%\author{ G V V Sharma$^{*}$% <-this % stops a space
+%	\thanks{*The author is with the Department
+%		of Electrical Engineering, Indian Institute of Technology, Hyderabad
+%		502285 India e-mail:  gadepall@iith.ac.in. All content in this manual is released under GNU GPL.  Free and open source.}
+%	
+%}	
+%
+%\maketitle
+%
+%%\tableofcontents
+%
+%\bigskip
+%
+%\renewcommand{\thefigure}{\theenumi}
+%\renewcommand{\thetable}{\theenumi}
+%\textbf{Expand each of the expression in the question number 1 to 5 }
+%
+%
+%\begin{enumerate}[label=\arabic*]
+%\numberwithin{equation}{enumi}
+%
+%
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item $(1-2x)^5$\\
+\item $(\frac{2}{x} - \frac{x}{2})^5$\\
+\item $(2x - 3)^6$\\
+\item $(\frac{x}{3} + \frac{1}{x})^5$\\
+\item $(x + \frac{1}{x})^6$\\
+\\
+
+
+\textbf{Using binomial theorem,evaluate each of the following:}\\
+
+\item $(96)^3$\\
+\item $(102)^5$\\
+\item $(101)^4$\\
+\item $(99)^5$\\
+
+\item Using Binomial Theorem ,indicate which number is larger $(1.1)^{10000}$ or 1000.\\
+\item Find $(a+b)^4 - (a-b)^4.$ Hence evaluate \\
+$(\sqrt{3} + \sqrt{2})^4$ - $(\sqrt{3} - \sqrt{2})^4.$\\
+\item Find $(x + 1)^6 + (x - 1)^6.$ Hence or otherwise evaluate $(\sqrt{2} + 1)^6 + (\sqrt{2} - 1)^6.$\\
+\item Show that $9^{n+1} - 8n - 9$ is divisible by 64, whenever n is a positive integer.\\
+\item Prove that $ \sum \limits_{r=0}^{n}\ 3^r$ $ ^nC_r\ = 4 ^n$.\\
+
+
+
+
+
+
+\textbf{Find the coefficient of}\\
+
+
+\item $x^5$ in $(x+3)^8$\\
+\item $a^5b^7$ in $(a - 2b)^{12}.$\\
+
+\textbf {Write the general term in the expansion of}\\
+\item $(x^2 - y)^6$\\
+\item $(x^2 - yx)^{12}, x \neq 0.$\\
+\item Find the $4^{th}$ term in the expansion of $(x - 2y)^{12}.$\\
+\item Find the $13^{th}$ term in the expansion of $ (9x - \frac{1}{3\sqrt{x}})^{18}$,$ x \neq 0.$\\
+
+\textbf{Find the middle terms in the expansions of }\\
+\item $(3 - \frac{x^3}{6})^7$\\
+\item $(\frac{x}{3} + 9y)^{10}$\\
+\item In the expansion of $(1 + a)^{m+n}$,prove that coefficients of $a^m$ and $a^n$ are equal.\\
+\item The coefficients of the $(r - 1)^{th},r^{th}$ and $(r + 1)^{th}$ terms in the expansion of $(x + 1)^n$ are in the ratio 1 : 3: 5.Find n and r.\\
+\item Prove that the coefficient of $x^n$ in the expansion of $(1 + x)^{2n}$ is twice the coefficient of $x^n$ in the expansion of $(1 + x)^{2n - 1}.$\\
+\item Find the positive value of m for which the coefficient of $x^2$ in the expansion $(1 + x)^m$ is 6.\\
+\item Find a,b and n in the expansion of $(a + b)^n$ if the first three terms of the expansion are 729,7290 and 30375,respectively.\\
+\item Find the coefficient of $x^5$ in the product $(1 + 2x)^6 (1 - x)^7$ using binomial theorem.\\
+\item Find a if the coefficients of $x^2$ and $x^3$ in the expansion of $(3 + ax)^9$ are equal.\\
+\item If a and b are distinct integers, prove that a - b is a factor of $a^n - b^n$,whenever n is a positive integer.\\
+\textbf{Hint} write $a^n = (a - b + b)^n$ and expand\\
+\item Evaluate $(\sqrt{3} + \sqrt{2})^6$ - $(\sqrt{3} - \sqrt{2})^6$\\
+\item Find the value of $(a^2 + \sqrt{a^2 - 1})^4$ + $(a^2 - \sqrt{a^2 - 1})^4.$\\
+\item Find an approximation of $(0.99)^5$ using the first three terms of its expansion.\\
+\item Find n, if the ratio of the fifth term from the beginning to the fifth term from the end in the expansion of $(\sqrt[4]{2} + \frac{1}{\sqrt[4]{3}})^n$ is $\sqrt{6} : 1$\\
+\item Expand using BinomialTheorem $(1 + \frac{x}{2} - \frac{2}{x})^4$, $x \neq 0.$\\
+\item Find the expansion of $(3x^2 - 2ax + 3a^2)^3$ using binomial theorem.
+
+
+
+
+\end{enumerate}
+%\end{document}

@@ -1,0 +1,36 @@
+%
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item In Fig. \ref{fig:tri_med_centroid}, show that 
+%
+\begin{align}
+\label{eq:tri_med_area}
+\begin{split}
+ar\brak{\triangle ABE} &= ar \brak{\triangle EBC}
+\\
+ar\brak{\triangle AFC} &= ar \brak{\triangle BFC}
+\\
+ar\brak{\triangle BCF} = ar \brak{\triangle EBC}
+\end{split}
+\end{align}
+%
+\solution We have
+%
+\begin{align}
+ar \brak{\triangle EBC} &= \frac{1}{2}\brak{\frac{b}{2}}a \sin C =  \frac{1}{4}ab \sin C 
+\\
+&= \frac{1}{2}ar\brak{\triangle ABC}
+\\
+ar \brak{\triangle BCF} &= \frac{1}{2}\brak{\frac{c}{2}}a \sin B =  \frac{1}{4}ac \sin B 
+\\
+&= \frac{1}{2}ar\brak{\triangle ABC}
+\end{align}
+%
+Using the sine formula, $b \sin C = c \sin B$ we obtain \ref{eq:tri_med_area}
+%
+\item The median divides a triangle into two triangles that have equal area.
+\item Triangles on the same base between two parallel lines have the same area.
+%
+\end{enumerate}

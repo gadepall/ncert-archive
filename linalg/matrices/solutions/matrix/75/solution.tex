@@ -1,0 +1,22 @@
+If  
+ \begin{align}
+ \vec A = \myvec{\alpha&\beta\\\gamma&-\alpha},\
+  \vec A^2 = I\label{eq:solutions/matrix/75/eq1}
+ \end{align}
+The characteristic equation is 
+\begin{align}
+    \vec{|A - \lambda I|} = 0 
+    \implies \det\myvec{\alpha -\lambda & \beta \\ \gamma & -\alpha -\lambda} = 0  
+    \\\implies (\alpha -\lambda)(-\alpha -\lambda)-\gamma\beta = 0
+ \\\implies \lambda^2-\alpha^2-\gamma\beta = 0 \label{eq:solutions/matrix/75/eq2}
+\end{align}
+By the Cayley-Hamilton theorem, every square matrix satisfies its own characteristic equation.
+\\Hence,on substituting from \eqref{eq:solutions/matrix/75/eq1} in \eqref{eq:solutions/matrix/75/eq2}
+\begin{align}
+\implies\vec{A^2-\alpha^2-\gamma\beta} =0.
+\\
+\implies \vec{I-\alpha^2-\gamma\beta} = 0
+\end{align}
+Hence, (c) is the correct answer
+
+

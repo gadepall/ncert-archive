@@ -1,0 +1,21 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item The following distribution shows the daily pocket allowance of children of a locality.
+The mean pocket allowance is Rs 18. Find the missing frequency f.
+\begin{table}
+
+
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+	\hline
+	 pocket allowance &11-13&13-15&15-17&17-19\\
+	\hline
+	Number of children&7&6&9&13\\
+	\hline
+	 pocket allowance &19-21&21-23&23-25&\\
+	\hline
+	Number of children&f&5&4&\\
+	\hline
+\end{tabular}\\
+\end{table}
+\end{enumerate}

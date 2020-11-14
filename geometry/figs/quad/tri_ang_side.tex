@@ -1,0 +1,27 @@
+%Code by GVV Sharma
+%December 14, 2019
+%released under GNU GPL
+%Drawing a triangle given 3 sides
+
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+%Triangle sides
+\def\a{6}
+\def\b{5}
+\def\c{4}
+ 
+%Coordinates of A
+%\def\p{{\a^2+\c^2-\b^2}/{(2*\a)}}
+\def\p{2.25}
+\def\q{{sqrt(\c^2-\p^2)}}
+
+%Labeling points
+\node (A) at (\p,\q)[point,label=above right:$A$] {};
+\node (B) at (0, 0)[point,label=below left:$B$] {};
+\node (C) at (\a, 0)[point,label=below right:$C$] {};
+
+
+%Drawing triangle ABC
+\draw (A) -- node[left] {$\textrm{c}$} (B) -- node[below] {$\textrm{a}$} (C) -- node[above,xshift=2mm] {$\textrm{b}$} (A);
+\end{tikzpicture}

@@ -1,0 +1,41 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usetkzobj{all}
+%\usepackage{amsmath}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+
+\begin{document}
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+\node (E) at (1.5, 1.5)[point,label=above :$E$] {};
+\node (F) at (-1.5, 1.5)[point,label=above :$F$] {};
+\node (A) at (0, 3)[point,label=above :$A$]{};
+\node (B) at (-3, 0)[point,label=below left:$B$]{};
+\node (C) at (3, 0)[point,label=below right:$C$]{};
+\node (D) at (0,0)[point,label=below :$D$] {};
+\node (O) at (0,1)[point,label=above right :$O$] {};
+
+
+\draw (B)--(A);
+\draw (A)--(C);
+\draw (B)--(C);
+\draw (B)--(E);
+\draw (C)--(O);
+\draw (A)--(D);
+\draw [thick,dashed] (O) -- (F);
+
+\node [above] at (1.7,1.7) {$b$};
+\node [above] at (2.5,.75) {$b/2$};
+\node [above] at (1,2.1) {$b/2$};
+\node [above] at (-1.5,-0.3){$a/2$};
+\node [above] at (1.5,-0.3){$a/2$};
+\tkzMarkRightAngle[size=.16](B,F,O)
+\tkzMarkRightAngle[size=.16](C,E,O)
+\tkzMarkRightAngle[size=.2](A,D,C)
+\draw   -- (4.3,1.7) node[midway] {$\parallel$};
+\draw   -- (1.6,4.4) node[midway] {$\parallel$};
+
+\end{tikzpicture}
+\end{document}

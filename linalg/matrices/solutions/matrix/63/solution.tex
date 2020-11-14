@@ -1,0 +1,17 @@
+The above problem can be proven by the method of induction
+\begin{align} 
+A^2 = AA = \myvec{3 & 3 &3 \\3 & 3 &3\\3 & 3 &3}=\myvec{3^1 & 3^1 &3^1 \\3^1 & 3^1 &3^1\\3^1 & 3^1 &3^1}\\
+A^3 = A^2A = \myvec{3^2 & 3^2 &3^2 \\3^2 & 3^2 &3^2\\3^2 & 3^2 &3^2}
+\end{align}
+let this be true for n=k,then
+\begin{align} 
+A^{k}  = \myvec{3^{k-1} & 3^{k-1} &3^{k-1} \\3^{k-1} & 3^{k-1} &3^{k-1}\\3^{k-1} & 3^{k-1} &3^{k-1}}\\
+A^{k+1} = A^{k}A= \myvec{3^{k-1} & 3^{k-1} &3^{k-1} \\3^{k-1} & 3^{k-1} &3^{k-1}\\3^{k-1} & 3^{k-1} &3^{k-1}}\myvec{1 & 1 &1 \\1 & 1 &1\\1 & 1 &1}\\
+A^{k+1} =\myvec{3.3^{k-1} & 3.3^{k-1} &3.3^{k-1} \\3.3^{k-1} & 3.3^{k-1} &3.3^{k-1}\\3.3^{k-1} & 3.3^{k-1} &3.3^{k-1}} \\A^{k+1}  = \myvec{3^{k} & 3^{k} &3^{k} \\3^{k} & 3^{k} &3^{k}\\3^{k} & 3^{k} &3^{k}}
+\end{align}
+therefore it holds for all n$\in \mathbb{N}$
+\begin{align}
+A^n = \myvec{3^{n-1} & 3^{n-1} &3^{n-1} \\3^{n-1} & 3^{n-1} &3^{n-1}\\3^{n-1} & 3^{n-1} &3^{n-1}}, n \in \mathbb{N}
+\end{align}
+
+

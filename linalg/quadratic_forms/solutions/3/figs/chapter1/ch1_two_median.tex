@@ -1,0 +1,20 @@
+\begin{tikzpicture}
+  [
+    scale=2,
+    >=stealth,
+    point/.style = {draw, circle,  fill = black, inner sep = 0.5pt},
+    dot/.style   = {draw, circle,  fill = black, inner sep = .2pt},
+  ]
+  \coordinate [point, label={below left:$B$ $(0, 0)$}] (B) at (0, 0);
+    \node (A) at +(60:{2*sqrt(3)}) [point, label = above:$A$ ${(a,b)}$  ] {};
+  \coordinate [point, label={below left:$(c,0)$ $C$ }] (C) at ($ (3,0) + sqrt(3)*(1,0) $);
+
+  \draw  (A) -- (C) -- (B) -- (A);
+  \node (E) at ($(A)!0.5!(C)$) [point, label = {right:$E$}]{};
+  \node (F) at ($(A)!0.5!(B)$) [point, label = {left:$F$}]{};
+  \path
+     (B)    edge  node[sloped, anchor=center, below, text width=2.0cm] { $k_1:1$}     (E)  
+	 (C)    edge  node[sloped, anchor=east, below, text width=2.0cm] { $1:k_2$}     (F);
+  \node (O) at ($(B)!0.67!(E)$) [point, label = {below:$O$}]{};  
+\end{tikzpicture}
+

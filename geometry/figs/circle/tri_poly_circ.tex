@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+[scale =2,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt},]
+
+\node (A) at (0,3)[point,label=above :$A$] {};
+\node (B) at (-3,0)[point,label=below :$B$] {};
+\node (C) at (3,0)[point,label=below :$C$] {};
+\draw (A)--(B);
+\draw (C)--(B);
+\draw (A)--(C);
+
+\tkzMarkAngle[size=.2](B,A,C);
+\node [above] at (0.05,2.5){$\frac{2\pi}{n}$};
+\node [above] at (-1.6,1.5){$r$};
+\node [above] at (1.6,1.5){$r$};
+\end{tikzpicture}

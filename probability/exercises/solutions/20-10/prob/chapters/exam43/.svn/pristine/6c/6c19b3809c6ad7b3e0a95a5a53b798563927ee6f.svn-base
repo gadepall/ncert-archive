@@ -1,0 +1,15 @@
+Coloured balls are distributed in four boxes as shown in the following table:\\
+\\$\begin{tabular}{||c c c c c||} 
+ \hline
+ Box & Black & White & Red & Blue \\
+ \hline\hline
+ I & 3 & 4 & 5 & 6 \\
+ \hline
+ II & 2 & 2 & 2 & 2 \\
+ \hline
+ III & 1 & 2 & 3 & 1 \\
+ \hline
+ IV & 4 & 3 & 1 & 5 \\
+ \hline
+\end{tabular}$\\
+\\A box is selected at random and then a ball is randomly drawn from the selected box. The colour of the ball is black, what is the probability that ball drawn is from the box III?

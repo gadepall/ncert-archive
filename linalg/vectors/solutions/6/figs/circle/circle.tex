@@ -1,0 +1,12 @@
+\begin{tikzpicture}[scale = 1.5,>=stealth,point/.style={draw,circle,fill=black, inner sep=0.5pt},]
+
+\node (A) at (4, 1)[point,label=above right:$A$] {};
+\node (B) at (6, 5)[point,label=above right:$B$] {};
+\node (O) at (3, 4)[point,label=above:$O$] {};
+
+\draw (3,4) circle(3.162277cm);
+
+\draw[dotted] (O) -- node[below=5pt]{}(A);
+\draw[dotted] (O) -- node[below=5pt]{}(B);
+
+\end{tikzpicture}

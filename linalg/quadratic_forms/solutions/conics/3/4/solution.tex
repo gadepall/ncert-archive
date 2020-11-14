@@ -1,0 +1,112 @@
+
+
+%
+The matrix $\vec{M}$ of dimensions $(m \times n)$ can be decomposed using SVD as 
+\begin{align}
+\vec{M}=\vec{U}\vec{S}\vec{V}^T\label{eq:solutions/3/4/1}
+\end{align}
+where,columns of $\vec{U}_{(m \times m)}$ are eigen vectors of $\vec{M}\vec{M}^T$\\
+columns of $\vec{V}_{(n \times n)}$ are eigen vectors of $\vec{M}^T\vec{M}$\\
+$\vec{S}$ is a diagonal matrix containing singular values of $\vec{M}$. Also, $\vec{U}$ and $\vec{V}$ are orthogonal matrices
+\begin{align}
+    \vec{U}\vec{U}^T=\vec{U}^T\vec{U}=\vec{I}\\
+     \vec{V}\vec{V}^T=\vec{V}^T\vec{V}=\vec{I}
+\end{align}
+Given line equations intersect if
+\begin{align}
+ \myvec{2\\-5\\1}+\lambda_1\myvec{3\\2\\6}=\myvec{7\\-6\\0}+\lambda_2\myvec{1\\2\\2}
+\end{align}
+This can be written as 
+\begin{align}
+    \myvec{3&1\\2&2\\6&2}\vec{x}=\myvec{5\\-1\\-1}\\
+    \vec{M}\vec{x}=\vec{b}\\
+    \text{where, }\vec{x}=\myvec{\lambda_1\\-\lambda_2}
+\end{align}
+The augmented matrix is 
+\begin{align}
+    \myvec{3&1&5\\2&2&-1\\6&2&-1}\xleftrightarrow[R_2\leftarrow R_2-R_1\times \frac{2}{3}]{R_3\leftarrow R_3-2\times R_1}\myvec{3&1&5\\0&\frac{5}{3}&-\frac{13}{3}\\0&0&-11}
+\end{align}
+So, the given pair of lines do not intersect and also their direction vectors are not parallel. Hence they are skew lines.\\
+To find $\vec{U}$,
+\begin{align}
+    \vec{M}\vec{M}^T= \myvec{3&1\\2&2\\6&2}\myvec{3&2&6\\1&2&2}=\myvec{10&8&20\\8&8&16\\20&16&40}
+    \end{align}
+    To calculate its Eigen values,
+    \begin{align}
+    \mydet{10-\lambda&8&20\\8&8-\lambda&16\\20&16&40-\lambda}=0\\
+    \implies \lambda^3+58\lambda^2+80\lambda=0\\
+    \lambda_1=29-\sqrt{761},\lambda_2=29+\sqrt{761},\lambda_3=0
+\end{align}
+with corresponding Eigen vectors as 
+\begin{align}
+\vec{u_1}=\frac{1}{\sqrt{\left(\frac{1}{2}\right)^2+1+\left(\frac{21+\sqrt{761}}{16}\right)^2}}\myvec{\frac{1}{2}\\\frac{-21-\sqrt{761}}{16}\\1}\\
+\vec{u_2}=\frac{1}{\sqrt{\left(\frac{1}{2}\right)^2+1+\left(\frac{-21+\sqrt{761}}{16}\right)^2}}\myvec{\frac{1}{2}\\\frac{-21+\sqrt{761}}{16}\\1}\\
+\vec{u_3}=\frac{1}{\sqrt{(-2)^2+1}}\myvec{-2\\0\\1}
+\end{align}
+Solving, the $\vec{U}$ matrix becomes
+\begin{align}
+    \vec{U}=\myvec{\frac{8}{\sqrt{1522+42\sqrt{761}}}&\frac{8}{\sqrt{1522-42\sqrt{761}}}&-\frac{2}{\sqrt{5}}\\\frac{-21-\sqrt{761}}{\sqrt{1522+42\sqrt{761}}}&\frac{-21+\sqrt{761}}{\sqrt{1522-42\sqrt{761}}}&0\\\frac{16}{\sqrt{1522+42\sqrt{761}}}&\frac{16}{\sqrt{1522-42\sqrt{761}}}&\frac{1}{\sqrt{5}}}
+\end{align}
+Also, from the obtained Eigen values,the $\vec{S}$ matrix becomes
+\begin{align}
+    \vec{S}=\myvec{\sqrt{29-\sqrt{761}}&0\\0&\sqrt{29+\sqrt{761}}\\0&0}
+\end{align}
+The Moore-Penrose pseudo inverse of $\vec{S}$ is given by
+\begin{align}
+    \vec{S}_+=\myvec{\frac{1}{\sqrt{29-\sqrt{761}}}&0&0\\0&\frac{1}{\sqrt{29+\sqrt{761}}}&0}\label{eq:solutions/3/4/2}
+\end{align}
+Now to find $\vec{V}$,\\
+Rewriting \eqref{eq:solutions/3/4/1}
+\begin{align}
+    \vec{V}=(\vec{M}^T\vec{U})\vec{S_+}^T\label{eq:solutions/3/4/3}
+    \end{align}
+    $ \vec{M}^T\vec{U}$ becomes
+    \begin{align}
+   \myvec{3&2&6\\1&2&2}\\\myvec{\frac{8}{\sqrt{1522+42\sqrt{761}}}&\frac{8}{\sqrt{1522-42\sqrt{761}}}&-\frac{2}{\sqrt{5}}\\\frac{-21-\sqrt{761}}{\sqrt{1522+42\sqrt{761}}}&\frac{-21+\sqrt{761}}{\sqrt{1522-42\sqrt{761}}}&0\\\frac{16}{\sqrt{1522+42\sqrt{761}}}&\frac{16}{\sqrt{1522-42\sqrt{761}}}&\frac{1}{\sqrt{5}}}\\
+   =\myvec{\frac{78-2\sqrt{761}}{\sqrt{1522+42\sqrt{761}}}&\frac{78+2\sqrt{761}}{\sqrt{1522-42\sqrt{761}}}&0\\\frac{-2-2\sqrt{761}}{\sqrt{1522+42\sqrt{761}}}&\frac{-2+2\sqrt{761}}{\sqrt{1522-42\sqrt{761}}}&0}\label{eq:solutions/3/4/4}
+\end{align}
+Therefore from \eqref{eq:solutions/3/4/2},\eqref{eq:solutions/3/4/3},\eqref{eq:solutions/3/4/4},
+\begin{align}
+ \vec{V}=\myvec{\frac{78-2\sqrt{761}}{\sqrt{1522+42\sqrt{761}}\sqrt{29-\sqrt{761}}}&\frac{78+2\sqrt{761}}{\sqrt{1522-42\sqrt{761}}\sqrt{29+\sqrt{761}}}\\\frac{-2-2\sqrt{761}}{\sqrt{1522+42\sqrt{761}}\sqrt{29-\sqrt{761}}}&\frac{-2+2\sqrt{761}}{\sqrt{1522-42\sqrt{761}}\sqrt{29+\sqrt{761}}}}   
+\end{align}
+Now, to calculate $\vec{x}$
+\begin{align}
+  \vec{M}\vec{x}=\vec{b}\\
+  \implies \vec{U}\vec{S}\vec{V}^T\vec{x}=\vec{b}\\
+  \implies \vec{S}\vec{V}^T\vec{x}=\vec{U}^T\vec{b}\\
+  \implies \vec{x}=\vec{V}(\vec{S_+}(\vec{U}^T\vec{b}))
+\end{align}
+Calculating $\vec{U}^T\vec{b}$, we have
+\begin{align}
+  \myvec{\frac{45+\sqrt{761}}{\sqrt{1522+42\sqrt{761}}}\\\frac{45-\sqrt{761}}{\sqrt{1522-42\sqrt{761}}}} \\
+ \vec{S_+}(\vec{U}^T\vec{b})=\myvec{\frac{45+\sqrt{761}}{\sqrt{1522+42\sqrt{761}}\sqrt{29-\sqrt{761}}}\\\frac{45-\sqrt{761}}{\sqrt{1522-42\sqrt{761}}\sqrt{29+\sqrt{761}}}}
+ \end{align}
+ $\vec{V}(\vec{S_+}(\vec{U}^T\vec{b}))$
+ \begin{align}
+ =\myvec{\frac{78-2\sqrt{761}}{\sqrt{1522+42\sqrt{761}}\sqrt{29-\sqrt{761}}}&\frac{78+2\sqrt{761}}{\sqrt{1522-42\sqrt{761}}\sqrt{29+\sqrt{761}}}\\\frac{-2-2\sqrt{761}}{\sqrt{1522+42\sqrt{761}}\sqrt{29-\sqrt{761}}}&\frac{-2+2\sqrt{761}}{\sqrt{1522-42\sqrt{761}}\sqrt{29+\sqrt{761}}}} \\
+ \myvec{\frac{45+\sqrt{761}}{\sqrt{1522+42\sqrt{761}}\sqrt{29-\sqrt{761}}}\\\frac{45-\sqrt{761}}{\sqrt{1522-42\sqrt{761}}\sqrt{29+\sqrt{761}}}}
+\end{align}
+Solving, 
+\begin{align}
+  \vec{x}=\myvec{\frac{8371}{15220}\\\frac{-15981}{15220}}=\myvec{\frac{11}{20}\\\frac{-21}{20}}  
+\end{align}
+Verifying the solution,
+\begin{align}
+    \vec{M}\vec{x}=\vec{b}\\
+    \implies \vec{M}^T\vec{M}\vec{x}=\vec{M}^T\vec{b}\label{eq:solutions/3/4/5}\\
+    \vec{M}^T\vec{b}=\myvec{3&2&6\\1&2&2}\myvec{5\\-1\\-1}\\
+    =\myvec{7\\1}\\
+    \vec{M}^T\vec{M}=\myvec{3&2&6\\1&2&2}\myvec{3&1\\2&2\\6&2}\\
+    =\myvec{49&19\\19&9}\\
+\text{From, $\eqref{eq:solutions/3/4/5}$ }
+\myvec{49&19\\19&9}\vec{x}= \myvec{7\\1} 
+\end{align}
+Solving for $\vec{x}$
+\begin{align}
+  \myvec{49&19&7\\19&9&1}\xleftrightarrow[]{R_2\leftarrow R_2- R_1\times \frac{19}{49}}\myvec{49&19&7\\0&\frac{80}{49}&\frac{-84}{49}}\\
+  \xleftrightarrow[]{R_1\leftarrow R_1\times \frac{1}{49}}\myvec{1&\frac{19}{49}&\frac{7}{49}\\0&\frac{80}{49}&\frac{-84}{49}}
+  \\\xleftrightarrow[]{R_1\leftarrow R_1- R_2\times \frac{19}{80}}\myvec{1&0&\frac{11}{20}\\0&\frac{80}{49}&\frac{-84}{49}}\\
+  \xleftrightarrow[]{R_2\leftarrow R_2\times \frac{49}{80}}\myvec{1&0&\frac{11}{20}\\0&1&\frac{-21}{20}}
+  \\ \implies \vec{x}=\myvec{\frac{11}{20}\\\frac{-21}{20}}
+\end{align}
+

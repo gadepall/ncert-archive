@@ -1,0 +1,14 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.stats import bernoulli
+import seaborn as sns
+#%matplotlib inline
+sns.set(color_codes=True)
+# settings for seaborn plot sizes
+sns.set(rc={'figure.figsize':(4.5,3)})
+data_bern = bernoulli.rvs(size=10000,p=0.3)
+ax= sns.distplot(data_bern,
+                 kde=False,
+                 color="skyblue",
+                 hist_kws={"linewidth": 15,'alpha':1})
+ax.set(xlabel='Bernoulli', ylabel='Frequency')

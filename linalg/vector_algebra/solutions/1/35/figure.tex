@@ -1,0 +1,16 @@
+\begin{tikzpicture}
+\coordinate (P) at (8,4);
+\coordinate (Q) at (6,0);
+\coordinate (R) at (10,0);
+\coordinate (N) at (8,0);
+\coordinate (A) at (2,4);
+\coordinate (B) at (0,0);
+\coordinate (C) at (4,0);
+\coordinate (M) at (2,0);
+\draw [black, thick](A)node[above]{$A$}--(B)node[below]{$B$}--(C)node[below]{$C$}--cycle;
+\draw[black, thick] (P)node[above]{$P$}--(Q)node[below]{$Q$}--(R)node[below]{$R$}--cycle;
+\draw[black, thick](M)node[below]{$M$}--(A)node[above]{$A$};
+\draw[black, thick](N)node[below]{$N$}--(P)node[above]{$P$};
+\tkzMarkRightAngle(A,M,B)
+\tkzMarkRightAngle(P,N,Q)
+\end{tikzpicture}

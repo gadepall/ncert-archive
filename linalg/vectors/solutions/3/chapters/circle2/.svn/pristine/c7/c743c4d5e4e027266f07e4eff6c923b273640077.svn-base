@@ -1,0 +1,12 @@
+Sketch the circles with
+\begin{align}
+\brak{a}centre \myvec{0\\2}, radius 2
+\\
+\brak{b}centre \myvec{-2\\32}, radius 4
+\\
+\brak{c}centre \myvec{\frac{1}{2}\\\frac{1}{4}}, radius \frac{1}{12}
+\\
+\brak{d}centre \myvec{1\\1}, radius \sqrt{2}
+\\
+\brak{e}centre \myvec{-a\\-b}, radius \sqrt{a^2-b^2}
+\end{align}

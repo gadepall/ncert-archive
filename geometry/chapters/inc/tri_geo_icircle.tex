@@ -1,0 +1,36 @@
+%%
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item In Fig. \ref{fig:tri_icentre}, points $\vec{D}, \vec{E}, \vec{F}$  are at a distance $r$ from $\vec{I}$.  The circle with centre $\vec{I}$ through these points is known as the {\em incircle}. Draw the incircle of $\triangle ABC$.
+%
+\\
+\solution This is done by the following python code
+%
+\begin{lstlisting}
+codes/circle/tri_icircle.py
+\end{lstlisting}
+%
+and the equivalent latex-tikz code to draw Fig. \ref{fig:tri_icircle} is
+%
+\begin{lstlisting}
+figs/triangle/tri_icircle.tex
+\end{lstlisting}
+
+\begin{figure}[!ht]
+	\begin{center}
+		
+		\resizebox{\columnwidth}{!}{\input{./figs/circle/tri_icircle.tex}}
+	\end{center}
+	\caption{Circumcircle of $\triangle ABC$}
+	\label{fig:tri_icircle}	
+\end{figure}
+%
+\item Sides $AB, BC$ and $CA$ touch the circle at exactly one point.  Such lines are known as {\em tangents} to the circle.
+\item Tangents to the circle are perpendicular to the radius at the point of contact.
+\item From \eqref{eq:tri_icentre_baudhd}, it is  obvious that tangents to the circle from a given point are equal.
+%
+
+\end{enumerate}
+

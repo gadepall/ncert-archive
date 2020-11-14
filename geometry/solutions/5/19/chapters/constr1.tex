@@ -1,0 +1,101 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Constructing quadrilateral $ABCD$:
+\label{const:table1}
+\\
+\solution  The design parameters for constructing the quadrilateral ABCD are given in the Table. \ref{table:quad1}. 
+%
+\begin{table}[ht!]
+\centering
+%\begin{tabular}{ |p{3cm}|p{3cm}|  }
+%\hline
+% \multicolumn{2}{|c|}{Initial Input Values.} \\
+%\hline
+%a & 4\\
+%\hline
+%b & 3\\
+%\hline
+%$\phase{(ACB)$ & $90^{\circ}$ \\
+%\hline
+%\end{tabular}
+\input{./tables/quad1.tex}
+\caption{Parameters  for Quadrilateral ABCD}
+\label{table:quad1}	
+\end{table}
+
+\begin{align}
+BC &= a = 4.5,  
+CD = b = 5.5, 
+AD c = 4,
+\\  
+AB &= d = 6,
+BD = e = 7 
+\end{align}
+%
+\begin{figure}[!ht]
+	\begin{center}
+			\resizebox{\columnwidth}{!}{\input{./figs/quad1.tex}}
+	\end{center}
+	\caption{QuadrilateralABCD by Latex-Tikz}
+	\label{fig:quad1}	
+\end{figure}
+%
+\\
+\solution The angles $\theta_1$ and $\theta_2$ in Fig. 	\ref{fig:quad_sss}	
+are calculated using the cosine formula as
+\begin{align}
+\label{eq:tri_rot_ang}
+\cos \theta_1 = \frac{a^2+e^2-b^2}{2ae}
+\\
+\cos \theta_2 = \frac{d^2+e^2-c^2}{2de}
+\end{align}
+%
+The coordinates are then obtained as
+\begin{multline}
+\label{eq:tri_basic_new}
+\vec{A} = d\myvec{\cos \brak{\theta_1+\theta_2}\\ \sin \brak{\theta_1+\theta_2}}, \vec{B} = \myvec{0\\0}, \vec{C} = \myvec{a\\0}, 
+\\
+\vec{D} = e\myvec{\cos \theta_1\\ \sin \theta_1}
+\end{multline}
+%
+\item The values of A,B,C,D are shown in the Table .\ref{table:table2}
+
+\begin{table}[ht!]
+\centering
+%\begin{tabular}{ |p{3cm}|p{3cm}|  }
+%\hline
+% \multicolumn{2}{|c|}{Derived Values.} \\
+%\hline
+%$\vec{M}$ & $$\begin{pmatrix}2\\1.5\end{pmatrix}$$\\						
+%\hline
+%$\vec{D}$ & $$\begin{pmatrix}4\\3\end{pmatrix} $$\\
+%\hline
+\input{./tables/inp.tex}
+\caption{Vertices A,B,C,D}
+\label{table:table2}
+
+\end{table}
+
+\item Draw Fig. \ref{fig:quadri_py}.	
+\\
+\solution The  following Python code generates Fig. \ref{fig:quadri_py}
+%
+\begin{lstlisting}
+codes/quad1.py
+\end{lstlisting}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./figs/quad1.eps}
+\caption{QuadrilateralABCD generated using python}
+\label{fig:quadri_py}
+\end{figure}
+and the equivalent latex-tikz code is
+%
+\begin{lstlisting}
+figs/quad1.tex
+\end{lstlisting}
+%
+
+\end{enumerate}

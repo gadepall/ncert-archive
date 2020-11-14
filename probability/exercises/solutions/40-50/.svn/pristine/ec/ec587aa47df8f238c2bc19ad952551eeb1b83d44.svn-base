@@ -1,0 +1,23 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item First we need to make the class intervals continuous. For this we need to subtract and add 0.5 to lower class limit and upper class limit respectively. The continuous class intervals are represented in \ref{table:Q43sol}.
+\begin{table}[!ht]
+\centering
+\input{./statistics/tables/Q43/sol.tex}
+\caption{Continuous class intervals of given data}
+\label{table:Q43sol}	
+\end{table}
+\item The frequency polygons of given data set is represented in fig. \ref{fig:freqpoly2}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width= \columnwidth]{./statistics/figs/Q43.eps}
+\caption{Frequency polygon of Team A and Team B}
+\label{fig:freqpoly2}
+\end{figure}
+\item The python code for the plot can be downloaded from
+\begin{lstlisting}
+statistics/codes/Q43.py
+\end{lstlisting}
+
+\end{enumerate}

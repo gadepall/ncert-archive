@@ -1,0 +1,40 @@
+Let $\vec{a}$ and $\vec{b}$ be the column vectors of the given matrix.
+\begin{align}
+\vec{a}&=\myvec{2\\3}\\
+\vec{b}&=\myvec{3\\-4}
+\end{align}
+The column vectors can be expressed as follows,
+\begin{align}
+\vec{a}&=k_1\vec{u}_1\label{eq:solutions/2/15/eqQR1}\\
+\vec{b}&=r_1\vec{u}_1+k_2\vec{u}_2\label{eq:solutions/2/15/eqQR2}
+\end{align}
+Here, 
+\begin{align}
+k_1 &= \norm{\vec{a}}\label{eq:solutions/2/15/eq1}\\
+\vec{u}_1 &= \frac{\vec{a}}{k_1}\\
+r_1 &= \frac{\vec{u}_1^T\vec{b}}{\norm{\vec{u}_1}^2}\\
+\vec{u}_2 &= \frac{\vec{b} - r_1 \vec{u}_1}{\norm{\vec{b} - r_1 \vec{u}_1}}\\
+k_2 &= {\vec{u}_2^T\vec{b}}\label{eq:solutions/2/15/eq2}
+\end{align}
+The \eqref{eq:solutions/2/15/eqQR1} and \eqref{eq:solutions/2/15/eqQR2} can be written as, 
+\begin{align}
+\myvec{\vec{a} & \vec{b}} &= \myvec{\vec{u}_1 & \vec{u}_2}\myvec{k_1 & r_1 \\ 0 & k_2}\\
+\myvec{\vec{a} & \vec{b}} &= \vec{Q}\vec{R}\label{eq:solutions/2/15/QRMain}
+\end{align}
+Now, $\vec{R}$ is an upper triangular matrix and also,
+\begin{align}
+\vec{Q}^T\vec{Q}=\vec{I}
+\end{align}
+Now using equations \eqref{eq:solutions/2/15/eq1} to \eqref{eq:solutions/2/15/eq2} we get, 
+\begin{align}
+k_1 &= \sqrt{2^2+3^2} = \sqrt{13}\label{eq:solutions/2/15/eqval1}\\ 
+\vec{u}_1 &= \frac{1}{\sqrt{13}}\myvec{2\\3}\\
+r_1 &= \myvec{\frac{2}{\sqrt{13}}&\frac{3}{\sqrt{13}}}\myvec{3\\-4} = -\frac{6}{\sqrt{13}}\\ 
+\vec{u}_2 &= \frac{1}{\sqrt{13}}\myvec{3\\-2}\\
+k_2 &= \myvec{\frac{3}{\sqrt{13}}&-\frac{2}{\sqrt{13}}}\myvec{3\\-4} = \frac{17}{\sqrt{13}}\label{eq:solutions/2/15/eqval2} 
+\end{align}
+Thus putting the values from \eqref{eq:solutions/2/15/eqval1} to \eqref{eq:solutions/2/15/eqval2} in \eqref{eq:solutions/2/15/QRMain} we obtain QR decomposition,
+\begin{align}
+\myvec{2&3\\3&-4}=\myvec{\frac{2}{\sqrt{13}}&\frac{3}{\sqrt{13}}\\\frac{3}{\sqrt{13}}&-\frac{2}{\sqrt{13}}}\myvec{\sqrt{13}&-\frac{6}{\sqrt{13}}\\0&\frac{17}{\sqrt{13}}}
+\end{align}
+

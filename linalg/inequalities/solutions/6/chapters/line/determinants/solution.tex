@@ -1,0 +1,29 @@
+%
+\begin{align}
+\myvec{1 & 1 & -2\\
+2 & 1 & -3\\
+5 & 4 & -9
+}
+&\xleftrightarrow[]{R_2 \leftarrow R_2 - 2R_1}
+\myvec{1 & 1 & -2\\
+0 & -1 & 1\\
+5 & 4 & -9
+}\\
+\xleftrightarrow[]{R_3 \leftarrow R_3 - 5R_1}
+\myvec{1 & 1 & -2\\
+0 & -1 & 1\\
+0 & -1 & 1
+}
+&\xleftrightarrow[]{R_3 \leftarrow R_3 - R_2}
+\myvec{1 & 1 & -2\\
+0 & -1 & 1\\
+0 & 0 & 0
+}
+\\
+\implies \mydet{\vec{A}} = 0&
+\end{align}
+This is verified by the  following python code
+\begin{lstlisting}
+codes/line/determinants/det.py
+\end{lstlisting}
+

@@ -1,0 +1,111 @@
+From the given information	
+	\begin{equation}\label{eq:solution_point_vector_15_1}
+		\vec{d}^{T}\vec{a} = 0
+	\end{equation} 		
+
+	Similarly, as $\vec{d}\perp\vec{b}$
+ 
+	\begin{equation}\label{eq:solution_point_vector_15_3}
+		\vec{d}^{T}\vec{b} = 0 
+	\end{equation}
+
+
+	It is given that
+	
+	\begin{equation}\label{eq:solution_point_vector_15_5}
+		\vec{d}^{T}\vec{c} = 15 
+	\end{equation}
+
+	
+    Using equations \ref{eq:solution_point_vector_15_1}, \ref{eq:solution_point_vector_15_3}, \ref{eq:solution_point_vector_15_5}, we can represent them in a Matrix Representation of Linear Equations $A$$x$=$B$ form as:
+ 
+    	\begin{align} \label{eq:solution_point_vector_15_6}
+    		\myvec{
+    			\vec{a}^{T} \\
+    			\vec{b}^{T} \\
+    			\vec{c}^{T} 
+    		}
+    		\vec{d}
+    		=
+    		\myvec{
+    			0 \\ 0 \\ 15
+    		}
+    	\end{align}
+    	
+    
+     
+Numerically, using $\vec{a}$, $\vec{b}$, $\vec{c}$ the above equation \ref{eq:solution_point_vector_15_6} can be written as,
+
+     
+\begin{align}
+	\myvec{
+		1 & 4 & 2 \\
+		3 & -2 & 7 \\
+		2 & -1 & 4 
+	}
+	\vec{d}
+	=
+	\myvec{
+		0 \\ 0 \\ 15
+	}
+\end{align}
+
+    
+    we can use Guassian Elimination Method in order to find the coordinate values of $\vec{d}$.
+    
+    
+
+	\begin{align}
+		\myvec{
+			1 & 4 & 2 & \vrule & 0 \\
+			3 & -2 & 7 & \vrule & 0 \\
+			2 & -1 & 4 & \vrule & 15 \\
+		}
+		\\
+		\xleftrightarrow[R_2 \leftarrow R_2-3R_1]{R_3 \leftarrow R_3 - 2R_1}
+		\myvec{
+			1 & 4 & 2 & \vrule & 0 \\
+			0 & -14 & 1 & \vrule & 0 \\
+			0 & -9 & 0 & \vrule & 15
+		}
+		\\
+		\xleftrightarrow[]{R_3\leftarrow R_3-\frac{9}{14}R_2}
+		\myvec{
+			1 & 4 & 2 & \vrule & 0 \\
+			0 & -14 & 1 & \vrule & 0 \\
+			0 & 0 & \frac{-9}{14} & \vrule & 15
+		}\\
+		\xleftrightarrow[R_2 \leftarrow \frac{-1}{14}R_2]{R_3 \leftarrow \frac{-14}{9}R_2}
+		\myvec{
+			1 & 4 & 2 & \vrule & 0 \\[0.2cm]
+			0 & 1 & \frac{-1}{14} & \vrule & 0 \\[0.2cm]
+			0 & 0 & 1 & \vrule & \frac{-210}{9}
+		}\\
+		\xleftrightarrow[]{R_1 \leftarrow R_1+\frac{1}{14}R_3}
+		\myvec{
+			1 & 4 & 2 & \vrule & 0 \\[0.2cm]
+			0 & 1 & 0 & \vrule & \frac{-210}{126} \\[0.2cm]
+			0 & 0 & 1 & \vrule & \frac{-210}{9}
+		}
+	\end{align}
+
+
+	\begin{align}
+		\xleftrightarrow[]{R_1 \leftarrow R_1-4R_3}
+		\myvec{
+			1 & 0 & 2 & \vrule & \frac{840}{126} \\[0.2cm]
+			0 & 1 & 0 & \vrule & \frac{-210}{126} \\[0.2cm]
+			0 & 0 & 1 & \vrule & \frac{-210}{9}
+		}\\
+		\xleftrightarrow[]{R_1 \leftarrow R_1-2R_3}
+		\myvec{
+			1 & 0 & 0 & \vrule & \frac{6720}{126} \\[0.2cm]
+			0 & 1 & 0 & \vrule & \frac{-210}{126} \\[0.2cm]
+			0 & 0 & 1 & \vrule & \frac{-210}{9}
+		}
+\end{align}
+
+
+By using Guassian Elimination Method, we were able to get the vector $\vec{d}$ as
+	$\myvec{\frac{6720}{126} \\[0.2cm]\frac{-210}{126} \\[0.2cm]\frac{-210}{9}}$\\[0.5cm]
+	

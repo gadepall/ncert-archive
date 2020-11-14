@@ -1,0 +1,116 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Draw quadrilateral $ABCD$ with 
+\begin{align}
+BC &= a = 4.5,  
+CD = b = 5.5, 
+AD c = 4,
+\\  
+AB &= d = 6,
+BD = e = 7 
+\end{align}
+%
+\begin{figure}[!ht]
+	\begin{center}
+			\resizebox{\columnwidth}{!}{\input{./figs/quad/quad_sss.tex}}
+	\end{center}
+	\caption{Drawing a quadrilateral given 4 sides and a diagonal}
+	\label{fig:quad_sss}	
+\end{figure}
+%
+\\
+\solution The angles $\theta_1$ and $\theta_2$ in Fig. 	\ref{fig:quad_sss}	
+are calculated using the cosine formula as
+\begin{align}
+\label{eq:tri_rot_ang}
+\cos \theta_1 = \frac{a^2+e^2-b^2}{2ae}
+\\
+\cos \theta_2 = \frac{d^2+e^2-c^2}{2de}
+\end{align}
+%
+The coordinates are then obtained as
+\begin{multline}
+\label{eq:tri_basic_new}
+\vec{A} = d\myvec{\cos \brak{\theta_1+\theta_2}\\ \sin \brak{\theta_1+\theta_2}}, \vec{B} = \myvec{0\\0}, \vec{C} = \myvec{a\\0}, 
+\\
+\vec{D} = e\myvec{\cos \theta_1\\ \sin \theta_1}
+\end{multline}
+%
+The python code for Fig. \ref{fig:quad_sss}	is available in 
+%
+\begin{lstlisting}
+codes/quad/quad_sss.py
+\end{lstlisting}
+and the equivalent latex-tikz code is
+%
+\begin{lstlisting}
+figs/quad/quad_sss.tex
+\end{lstlisting}
+%
+\item Fig. 	\ref{fig:tri_rot} shows that the quadrilateral $ABCD$ can also be drawn by drawing $\triangle A_1BD_1$ and rotating it by $\theta_2$. Show that 
+
+\begin{align}
+\label{eq:tri_rot_trans}
+\vec{D} = \vec{P}\vec{D}_1
+\\
+\vec{A} = \vec{P}\vec{A}_1
+\end{align}
+%
+where 
+\begin{align}
+\label{eq:tri_rot_mat}
+\vec{P} = \myvec{\cos\theta_2 & -\sin \theta_2\\ \sin \theta_2 & \cos \theta_2}
+\end{align}
+%
+is known as the {\em rotation matrix}.
+\begin{figure}[!ht]
+	\begin{center}
+			\resizebox{\columnwidth}{!}{\input{./figs/quad/tri_rot.tex}}
+	\end{center}
+	\caption{Drawing a quadrilateral given 4 sides and a diagonal}
+	\label{fig:tri_rot}	
+\end{figure}
+%
+\item Draw $\triangle ABC$ if $AB = 3, AC = 5$ and $\angle C = 30 \degree$.
+%
+\\
+\solution From the cosine formula,
+\begin{align}
+\cos C = \frac{a^2+b^2-c^2}{2ab}
+\end{align}
+%
+which can be expressed as
+\begin{align}
+\label{eq:quad_eq}
+a^2 -2ab\cos C +b^2-c^2 = 0.
+\end{align}
+\begin{align}
+\because \brak{a-b\cos C}^2 = a^2+b^2\cos^2C -2ab\cos C,
+\end{align}
+\eqref{eq:quad_eq} can be expressed as 
+\begin{align}
+\brak{a-b\cos C}^2 -b^2\cos^2C+b^2-c^2 = 0
+\\
+\implies \brak{a-b\cos C}^2 = b^2\brak{1-\cos^2C}-c^2
+\\
+\text{or}, a = b\cos C \pm \sqrt{b^2\brak{1-\cos^2C}-c^2}
+\label{eq:tri_quad_sol}
+\end{align}
+%
+Choose the value(s) for which $a > 0$.
+\item The solution of a quadratic equation
+\begin{align}
+\label{eq:tri_quad_eq}
+\alpha x^2 + \beta x + \gamma = 0
+\end{align}
+is given by 
+\begin{align}
+\label{eq:tri_quad_eq_sol}
+x = \frac{-\beta \pm \sqrt{\beta^2 - 4\alpha\gamma}}{2\alpha}.
+\end{align}
+Verify \eqref{eq:tri_quad_sol} using \eqref{eq:tri_quad_eq_sol}.
+
+\end{enumerate}
+%

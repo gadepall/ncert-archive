@@ -1,0 +1,27 @@
+The total number of elements in a matrix is $m\ x\ n$. \\
+\begin{enumerate}
+\item If the total number of elements is $24$. The possible orders are:
+\begin{align}
+1 x 24 &= 24\\
+24 x 1 &= 24\\
+2 x 12 &= 24\\
+12 x 2 &= 24\\
+3 x 8 &= 24\\
+8 x 3 &= 24\\
+4 x 6 &= 24\\
+6 x 4 &= 24
+\end{align}
+
+\item If the total number of elements is $13$. The possible orders are:
+\begin{align}
+1 x 13 &= 13\\
+13 x 1 &= 13
+\end{align}
+\end{enumerate}
+
+The  following Python code generates all possible dimensions for any matrix size:
+\begin{lstlisting}
+codes/line_ex/matrix/matrix.py
+\end{lstlisting}
+
+

@@ -1,0 +1,24 @@
+Finding scalar product between line $OM$ and $AD$
+$$(\vec{M} - \vec{O})^T(\vec{D} - \vec{A})$$
+$$(\myvec{0\\-5})^T(\myvec{2\sqrt{74}\\0} = 0$$
+$$ \implies OM \perp AD $$
+
+$\triangle OMB \cong \triangle OMC$ by RHS congruency because:\begin{enumerate}
+\item $\angle{OMB} = \angle{OMC} = 90\degree$
+\item $OB = OC = 7$ (Radius of circle 1) 
+\item $OM = OM$ ( Common side)
+\end{enumerate}
+$$\implies BM = CM$$ \label{eq:soln a}
+
+$\triangle OMA \cong \triangle OMD$ by RHS congruency because:
+\begin{enumerate}
+\item $\angle{OMA} = \angle{OMD} = 90\degree$
+\item $OA = OD = 10$ (Radius of circle 2) 
+\item $OM = OM$ ( Common side)
+\end{enumerate}
+$$\implies AM = DM$$ \label{eq:soln b}
+
+$\because BM = CM$ and $AM = DM$,
+$$\implies AB = CD$$
+
+Hence proved.

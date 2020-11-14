@@ -1,0 +1,11 @@
+ A survey conducted by an organisation for the cause of illness and death among the women between the ages 15 - 44 (in years) worldwide, found the following figures (in $\%$):\\
+\begin{table}[ht!]
+\centering
+\input{./stat/tables/exer37/femalefatality.tex}
+\caption{Illness and fatality rate amongst women}
+\label{table:input_37}
+\end{table}
+(i) Represent the information given above graphically.\\
+(ii) Which condition is the major cause of women’s ill health and death worldwide?\\
+(iii) Try to find out, with the help of your teacher, any two factors which play a major role in the cause in (ii) above being the major cause.\\
+  \item The following data on the number of girls (to the nearest ten) per thousand boys in different sections of Indian society is given below.\\

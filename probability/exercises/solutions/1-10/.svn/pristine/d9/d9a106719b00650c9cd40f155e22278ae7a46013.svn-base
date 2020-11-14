@@ -1,0 +1,17 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Three coins are tossed simultaneously 200 times with the following frequencies of different outcomes:\\
+
+\resizebox{\columnwidth}{20pt}{%
+	\begin{tabular}{ |c|c|c|c|c| } 
+		\hline
+		\textbf{Outcome} &3 heads &2 heads &1 head &No head\\ 
+		\hline
+		\textbf{Frequency}  &23 &72 &77 &28\\ 
+		\hline
+	\end{tabular}%\\
+}\\
+
+If the three coins are simultaneously tossed again, compute the probability of 2 heads coming up.
+\end{enumerate}

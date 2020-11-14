@@ -1,0 +1,16 @@
+\begin{tikzpicture}
+[scale =2,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt},]
+
+\def\rad{2}
+\coordinate [point, label={above: $O$ }] (O) at (0, 2);
+\draw (O) circle (\rad);
+\node (P) at (-5,0)[point,label=below :$P$] {};
+\node (C) at (-1.65,0.9)[point,label=below :$C$] {};
+\node (A) at (-2,2.3)[point,label=left :$A$] {};
+\node (B) at (0.3,4)[point,label=above :$B$] {};
+\node (D) at (2,2)[point,label=right :$D$] {};
+\draw (C)--(D);
+\draw (A)--(B);
+\draw (A)--(P);
+\draw (P)--(C);
+\end{tikzpicture}

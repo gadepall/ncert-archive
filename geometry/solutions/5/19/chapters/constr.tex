@@ -1,0 +1,47 @@
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./solutions/5/19/figs/quad.tex}}
+\caption{}
+\label{fig:8.5.19_8.5.19_quadrilateral}	
+\end{figure}
+\item {\em Construction: } See Fig. \ref{fig:8.5.19_8.5.19_quadrilateral}.  For drawing $ABCD$, 
+\begin{align}
+\vec{B} &= \myvec{0\\0}
+\\
+\vec{A} &= d\myvec{\cos \theta\\ \sin \theta}
+\\
+\vec{C} &= \myvec{a \\0}
+\\
+\vec{D} &= \myvec{d_1 \\d_2}, \quad d_1  < a, d_2 > d \sin \theta
+\end{align}
+%
+where 
+\begin{align}
+\theta = \phase{ABC}
+\end{align}
+%
+The direction vector of the angle bisector $BE$ is given by 
+\begin{align}
+\frac{\vec{A}-\vec{B}}{\norm{A-B}}+\frac{\vec{C}-\vec{B}}{\norm{C-B}}
+\end{align}
+%
+Thus, 
+\begin{align}
+BE:\quad \vec{x} = \vec{B}+ \lambda_1\brak{\frac{\vec{A}-\vec{B}}{\norm{A-B}}+\frac{\vec{C}-\vec{B}}{\norm{C-B}}}
+\label{eq:8.5.19_constr_a}
+\end{align}
+Similarly,
+\begin{align}
+\label{eq:8.5.19_constr_b}
+CE:\quad \vec{x} &= \vec{C}+ \lambda_2\brak{\frac{\vec{C}-\vec{D}}{\norm{C-D}}+\frac{\vec{C}-\vec{B}}{\norm{C-B}}}
+\\
+\label{eq:8.5.19_constr_c}
+DG:\quad \vec{x} &= \vec{D} + \lambda_3\brak{\frac{\vec{A}-\vec{D}}{\norm{A-D}}+\frac{\vec{C}-\vec{D}}{\norm{C-D}}}
+\\
+\label{eq:8.5.19_constr_d}
+AG:\quad \vec{x} &= \vec{A} + \lambda_4\brak{\frac{\vec{A}-\vec{D}}{\norm{A-D}}+\frac{\vec{A}-\vec{B}}{\norm{A-B}}}
+\end{align}
+\eqref{eq:8.5.19_constr_a}-\eqref{eq:8.5.19_constr_d} can be used to find the points $\vec{E}, \vec{F}, \vec{G}, \vec{H}$, any three of  which can be used to draw the circle and verify the fourth point lies on this circle.
+
+
+

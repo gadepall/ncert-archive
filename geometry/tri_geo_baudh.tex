@@ -1,0 +1,218 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item 	In Fig. \ref{fig:tri_sum_angle}, the sum of all the angles on the top or bottom side of the straight line $XY$ is $180\degree$.
+
+
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_sum_angle.tex}}
+	\end{center}
+	\caption{Sum of angles of a triangle}
+	\label{fig:tri_sum_angle}	
+\end{figure}
+
+
+
+\item
+In Fig. \ref{fig:tri_sum_angle}, the straight line making an angle of $90\degree$ to the side $AB$ is said to be parallel to the side $BC$. Note there is an angle at $A$ that is equal to $\theta$.  This is one property of parallel lines.  Thus, $\angle YAZ = 90\degree$.
+
+
+\item
+	Show that $\angle VAZ = 90\degree - \theta$
+		
+	\solution Considering the line $XAZ$,
+	\begin{align}
+	\theta + 90\degree + \angle VAZ &= 180\degree \\
+	\Rightarrow  \angle VAZ =  90\degree - \theta
+	\end{align}
+
+\item
+	\label{prob:tri_compl_angle}
+	Show that $\angle BAC = 90\degree - \theta$.
+	
+	\solution Consider the line $VAB$ and and use the approach in the previous problem.  Note that this implies that $\angle VAZ = \angle BAC$.  Such angles are known as vertically opposite angles. 
+	 
+\item
+Sum of the angles of a triangle is equal to $180\degree$.
+%
+\item Draw Fig. \ref{fig:tri_sum_angle} for $a = 4, c =3$.
+%
+\\
+\solution Problem \ref{const:tri_right_angle} is used to draw $\triangle ABC$.  The remaining points are obtained as
+
+\begin{align}
+\vec{Y} &= \vec{A} + \myvec{1\\0} = \myvec{1\\3}
+\\
+\vec{X} &= \vec{A} - \myvec{1\\0} = \myvec{-1\\3}
+\\
+\vec{T} &= \vec{A} + \myvec{0\\1} = \myvec{0\\4}
+\end{align}
+%
+and 
+\begin{align}
+\frac{VC}{AC} &= k+1
+\\
+\label{eq:tri_section_formula}
+\implies \vec{A} &= \frac{k\vec{C} + \vec{V}}{k+1}  
+\\
+\implies \vec{V} &= \frac{\brak{k+1}\vec{A} - k\vec{C}}{k}  
+\end{align}
+%
+for $k = 0.2$. \eqref{eq:tri_section_formula} is known as the {\em section formula}.
+%
+The python code for  Fig. \ref{fig:tri_sum_angle} is
+\begin{lstlisting}
+codes/triangle/tri_sum_angle.py
+\end{lstlisting}
+%
+and the equivalent latex-tikz code is
+%
+\begin{lstlisting}
+figs/triangle/tri_sum_angle.tex
+\end{lstlisting}
+\end{enumerate}
+\subsection{Baudhayana Theorem}
+Use Fig. \ref{fig:tri_baudh} for all problems in this section.
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+
+
+\item  Show that
+	\begin{equation}
+	\cos \theta = \sin \brak{90\degree - \theta}
+	\end{equation}
+
+
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_baudh.tex}}
+	\end{center}
+	\caption{Baudhayana Theorem}
+	\label{fig:tri_baudh}	
+\end{figure}
+
+
+\solution From Problem \ref{prob:tri_compl_angle} and  \eqref{eq:tri_trig_defs}
+%
+\begin{multline}
+\label{eq:tri_90-ang}
+\cos \angle BAC = \cos \alpha =	\cos \brak{90\degree-\theta} = \frac{c}{b} 
+\\
+= \sin \angle ABC = \sin \theta
+\end{multline}
+%
+\item
+Show that 
+%
+\begin{equation}
+\label{ch1_budh_basic}
+b = a \cos \theta + c \sin \theta
+\end{equation}
+%
+\solution We observe that
+%
+\begin{align}
+BD &= a \cos \theta \\
+AD &= c \cos\alpha = c \sin \theta \quad \brak{\text{From} \quad \eqref{eq:tri_90-ang}
+}
+\end{align}
+%
+Thus,
+\begin{equation}
+BD + AD = b = a \cos \theta + c \sin \theta
+\end{equation}
+\item
+From \eqref{ch1_budh_basic}, show that
+%
+\begin{equation}
+%
+\label{eq:tri_sin_cos_id}
+\sin ^2 \theta + \cos ^2 \theta = 1
+\end{equation}
+
+
+%
+\solution Dividing both sides of \eqref{ch1_budh_basic} by $b$, 
+\begin{align}
+1 &= \frac{a}{b}\cos\theta + \frac{c}{b}\sin\theta\\
+\Rightarrow &\sin ^2 \theta + \cos ^2 \theta = 1 \quad \brak{\text{from} \quad \eqref{eq:tri_trig_defs}}
+\end{align}
+
+\item
+	Using \eqref{ch1_budh_basic}, show that
+	\begin{equation}
+	\label{eq:tri_baudh}
+	c^2 = a^2 + b^2
+	\end{equation}
+	\eqref{eq:tri_baudh} is known as the Baudhayana theorem.  It is also known as the Pythagoras theorem.
+
+\solution From \eqref{ch1_budh_basic},
+\begin{align}
+c &= a\frac{a}{c} + b \frac{b}{c} \quad \brak{\text{from} \quad \eqref{eq:tri_trig_defs}}\\
+\Rightarrow c^2 &= a^2 + b^2
+\end{align}
+%
+%
+\item Draw Fig. \ref{fig:tri_baudh} for $a = 4, c =3$.
+\label{const:tri_baudh}
+%
+\\
+\solution Problem \ref{const:tri_right_angle} is used to draw $\triangle ABC$.
+%
+Using Problem \ref{prob:tri_polar},
+\begin{align}
+\vec{D} &= BD\myvec{\cos \alpha\\  \sin \alpha} 
+&= a \sin \theta \myvec{ \sin \theta \\ \cos \theta } 
+\label{eq:tri_baudh_foot}
+\end{align}
+%
+Using \eqref{eq:tri_baudh_foot}, the python code for  Fig. \ref{fig:tri_baudh} is
+\begin{lstlisting}
+codes/triangle/tri_baudh.py
+\end{lstlisting}
+%
+and the equivalent latex-tikz code is
+%
+\begin{lstlisting}
+figs/triangle/tri_baudh.tex
+\end{lstlisting}
+%
+\item Using 	\eqref{eq:tri_baudh}, for $a = 4, c = 3$,
+%
+\begin{align}
+b = \sqrt{a^2+c^2} = \sqrt{4^2+3^2} = 5
+\end{align}
+%
+\item For  point $\vec{D} = \myvec{d_1\\d_2}$, its {\em norm} is defined as
+%
+\begin{align}
+OD = d_1^2+d_2^2 = \norm{\vec{D}} \define \sqrt{\vec{D}^T\vec{D}}, 
+\label{eq:tri_norm_def}
+\end{align}
+%
+where 
+%
+\begin{align}
+\label{eq:tri_transpose_def}
+ \vec{D}^T  \define \myvec{d_1 & d_2},
+\\
+\vec{D}^T\vec{D} \define \myvec{d_1 & d_2} \myvec{d_1 \\ d_2} = d_1^2+d_2^2
+\end{align}
+%
+\eqref{eq:tri_transpose_def} is the definition of {\em transpose}. $\vec{D}$ is defined to be a {\em column vector} and $\vec{D}^T$  is the corresponding {\em row vector} representing the same point.
+
+\item Also, it is easy to verify that
+%
+\begin{align}
+\label{eq:tri_norm_dist}
+AC \define  \norm{\vec{A}-\vec{C}} =  \norm{\myvec{4\\-3}} = \sqrt{3^2+4^2} = 5
+\end{align}
+%
+This is known as the {\em distance formula}.
+%
+\item Prove the distance formula in \eqref{eq:tri_norm_dist} using Baudhayana theorem.
+
+\end{enumerate}

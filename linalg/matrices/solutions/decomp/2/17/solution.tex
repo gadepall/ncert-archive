@@ -1,0 +1,48 @@
+The QR decomposition  of a matrix is a decomposition of the matrix into an orthogonal matrix and an upper triangular matrix. A QR decomposition of a real square matrix A is a decomposition of A as
+\begin{align}
+    \vec{A}&=\vec{Q}\vec{R}
+\end{align}
+where $\vec{Q}$ is an orthogonal matrix and $\vec{R}$ is an upper triangular matrix
+Given 
+\begin{align}
+    \vec{A}=\myvec{4&3\\5&-2}
+\end{align}
+Let $\vec{a}$ and $\vec{b}$ be the column vectors of the given matrix
+\begin{align}
+\vec{a}&=\myvec{4\\5}\label{eq:solutions/2/17/a}\\
+\vec{b}&=\myvec{3\\-2}\label{eq:solutions/2/17/b}
+\end{align}
+The above column vectors \eqref{eq:solutions/2/17/a} ,\eqref{eq:solutions/2/17/b} can be expressed as ,
+\begin{align}
+\vec{a}&=t_1\vec{u}_1\label{eq:solutions/2/17/a1}\\
+\vec{b}&=s_1\vec{u}_1+t_2\vec{u}_2\label{eq:solutions/2/17/a2}
+\end{align}
+Where, 
+\begin{align}
+t_1 &= \norm{\vec{a}}\label{eq:solutions/2/17/start}\\
+\vec{u}_1 &= \frac{\vec{a}}{t_1}\\
+s_1 &= \frac{\vec{u}_1^T\vec{b}}{\norm{\vec{u}_1}^2}\\
+\vec{u}_2 &= \frac{\vec{b} - s_1 \vec{u}_1}{\norm{\vec{b} - s_1 \vec{u}_1}}\\
+t_2 &= {\vec{u}_2^T\vec{b}}\label{eq:solutions/2/17/end}
+\end{align}
+The \eqref{eq:solutions/2/17/a1} and \eqref{eq:solutions/2/17/a2} can be written as, 
+\begin{align}
+\myvec{\vec{a} & \vec{b}} &= \myvec{\vec{u}_1 & \vec{u}_2}\myvec{t_1 & s_1 \\ 0 & t_2}\\
+\myvec{\vec{a} & \vec{b}} &= \vec{Q}\vec{R}\label{eq:solutions/2/17/final}
+\end{align}
+Here, $\vec{R}$ is an upper triangular matrix and $\vec{Q}$ is an orthogonal matrix such that
+\begin{align}
+\vec{Q}^T\vec{Q}=\vec{I}
+\end{align}
+Now using equations from \eqref{eq:solutions/2/17/start} to \eqref{eq:solutions/2/17/end} we get, 
+\begin{align}
+t_1 &= \sqrt{4^2+5^2} = \sqrt{41}\label{eq:solutions/2/17/t1}\\ 
+\vec{u}_1 &= \frac{1}{\sqrt{41}}\myvec{4\\5}\\
+s_1 &= \myvec{\frac{4}{\sqrt{41}}&\frac{5}{\sqrt{41}}}\myvec{3\\-2} = \frac{2}{\sqrt{41}}\\ 
+\vec{u}_2 &= \frac{1}{\sqrt{41}}\myvec{5\\-4}\\
+t_2 &= \myvec{\frac{5}{\sqrt{41}}&\frac{-4}{\sqrt{41}}}\myvec{3\\-2} = \frac{23}{\sqrt{41}}\label{eq:solutions/2/17/t2} 
+\end{align}
+Substituting the values from \eqref{eq:solutions/2/17/t1} to \eqref{eq:solutions/2/17/t2} in \eqref{eq:solutions/2/17/final} we obtain QR decomposition as,
+\begin{align}
+\myvec{4&3\\5&-2}=\myvec{\frac{4}{\sqrt{41}}&\frac{5}{\sqrt{41}}\\\frac{5}{\sqrt{41}}&\frac{-4}{\sqrt{41}}}\myvec{\sqrt{41}&\frac{2}{\sqrt{41}}\\0&\frac{23}{\sqrt{41}}}
+\end{align}

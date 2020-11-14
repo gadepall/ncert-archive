@@ -1,0 +1,6 @@
+\begin{flushleft}
+Find the center and radius of the circle
+\begin{align}
+\vec{x}^T\vec{x} + \myvec{8\\10}\vec{x} - 8 = 0
+\end{align}
+\end{flushleft}

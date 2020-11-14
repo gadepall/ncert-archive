@@ -1,0 +1,29 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item 
+\begin{align}
+\begin{vmatrix}3A\end{vmatrix} = 3\begin{bmatrix}
+1 & 0 & 1 
+\\
+0 & 1 & 2
+\\
+0 & 0 & 4
+\end{bmatrix} = \begin{bmatrix}
+3 & 0 & 3 
+\\
+0 & 3 & 6
+\\
+0 & 0 & 12
+\end{bmatrix}
+\\
+\begin{vmatrix}3A\end{vmatrix} = 108
+\\
+\begin{vmatrix}A\end{vmatrix} = 4
+\\
+\begin{vmatrix}3A\end{vmatrix} = 27\begin{vmatrix}A\end{vmatrix}
+\end{align}
+hence proved
+
+\end{enumerate}

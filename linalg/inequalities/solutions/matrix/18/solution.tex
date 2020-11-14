@@ -1,0 +1,28 @@
+Let,
+\begin{align} \label{eq:solutions/matrix/18y}
+    Y = \myvec{ 3 & 2 \\ 1 & 4 } = M 
+\end{align}
+\begin{align} \label{eq:solutions/matrix/182xplusy}
+    2X+ Y = \myvec{1 & 0 \\ -3 & 2} = N
+\end{align}
+Expressing the matrices \eqref{eq:solutions/matrix/18y}, \eqref{eq:solutions/matrix/182xplusy} in the vector form, 
+\begin{align}
+    \myvec{0 & I }\myvec{X \\Y} &= M \\
+    \myvec{2I & I}\myvec{X \\ Y} &= N
+\end{align}
+Combining both the equations into a single matrix equation and constructing the augmented matrix, 
+\begin{align} \label{eq:solutions/matrix/18augmented}
+    \myvec{0 & I & M \\ 2I & I &  N}
+\end{align}
+Transforming \eqref{eq:solutions/matrix/18augmented} using row reduction, 
+\begin{align}
+    \myvec{0 & I & M \\ 2I & I &  N} \xleftrightarrow[]{R1\xleftrightarrow{}R2}\myvec{2I & I & N\\ 0 & I & M}
+\end{align}
+
+\begin{align} \label{eq:solutions/matrix/18row_reduced}
+    \xleftrightarrow{R1 \xleftarrow[]{} R1-R2}\myvec{2I & 0 & N-M \\ 0 & I & M} \xleftrightarrow{R1 \xleftarrow[]{} \frac{R1}{2}} \myvec{I & 0 & \frac{N-M}{2} \\ 0 & I & M }
+\end{align}
+From \eqref{eq:solutions/matrix/18row_reduced}, 
+\begin{align}
+    X = \frac{ N -M }{2} &= \myvec{-1 & -1 \\ -2 & -1}
+\end{align}

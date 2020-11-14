@@ -1,0 +1,11 @@
+
+\begin{align}
+\mydet{b+c & q+r & y+z\\c+a & r+p & z+x\\a+b & p+q & x+y}\\ 
+    \xleftrightarrow[]{R_1\leftarrow R_1+R_2+R_3}\\
+    2 \mydet{(a+b+c) & (p+q+r) & (x+y+z) \\c+a & r+p & z+x \\a+b & p+q & x+y}\\ 
+    \xleftrightarrow[R_2 \leftarrow R_2-R_1]{R_3\leftarrow R_3-R_1}
+    2 \mydet{(a+b+c) & (p+q+r) & (x+y+z) \\-b & -q & -y \\-c & -r & -z}\\ \xleftrightarrow[]{R_1\leftarrow R_1+R_2+R_3}
+    (-1)\times (-1)\times 2 \mydet{a & p & x \\b & q & y \\c & r & z}
+     \end{align}
+
+

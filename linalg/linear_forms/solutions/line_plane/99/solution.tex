@@ -1,0 +1,61 @@
+%\section{Explanation}\label{eq:solutions/line_plane/99/Explanation}
+We know that vector equation of line passing through two points , say A and B is
+\begin{align}
+\vec{x} = \vec{A}+\lambda\myvec{\vec{B}-\vec{A}}\label{eq:solutions/line_plane/99/eq:lineeqn}
+\end{align}
+
+We also know that equation of a plane is 
+\begin{align}
+\vec{n}^T\vec{x}=c\label{eq:solutions/line_plane/99/eq:plane}
+\end{align}
+Substituting \eqref{eq:solutions/line_plane/99/eq:lineeqn} in \eqref{eq:solutions/line_plane/99/eq:plane} as line passes through the plane we can get the point of contact.
+
+
+Let us first findout the equation of line passing through two given points using \eqref{eq:solutions/line_plane/99/eq:lineeqn}
+\begin{align}
+\vec{x}=\myvec{3 \\-4 \\-5}+\lambda 
+\myvec{2-3 \\-3+4 \\1+5}
+\end{align}
+
+\begin{align}
+% \vec{r}=(-\lambda +3)\hat{i}+(\lambda - 4)\hat{j}+(6 \lambda - 5)\hat{k}
+\vec{x}=\myvec{3 \\-4 \\-5}+\lambda 
+\myvec{-1 \\1 \\6}\label{eq:solutions/line_plane/99/eq:lineval}
+\end{align}
+
+
+Now let us construct the equation of plane from the given data.
+Using the values we can construct 
+
+\begin{align}
+%\hat{n}= \dfrac{2\hat{i}+\hat{j}+\hat{k}}{\sqrt{6}}
+\vec{n}=\myvec{ 2\\ 1\\1}\label{eq:solutions/line_plane/99/eq:normal}
+\end{align}
+%\begin{align}\label{eq:solutions/line_plane/99/d}d=\dfrac{|7|}{\sqrt{6}}\end{align}
+
+
+Now using \eqref{eq:solutions/line_plane/99/eq:lineval} , \eqref{eq:solutions/line_plane/99/eq:normal}   in \eqref{eq:solutions/line_plane/99/eq:plane}
+
+\begin{align}
+%\bigg( (-\lambda +3)\hat{i}+(\lambda - 4)\hat{j}+(6 \lambda - 5)\hat{k} \bigg) \cdot \bigg( \dfrac{2\hat{i}+\hat{j}+\hat{k}}{\sqrt{6}} \bigg) = \dfrac{|7|}{\sqrt{6}}
+%\textbf{n}^T\textbf{x}=c
+\myvec{ 2 && 1 && 1} \Bigg( \myvec{3 \\-4 \\-5}+\lambda\myvec{-1 \\1 \\6} \Bigg)=7\label{eq:solutions/line_plane/99/eq4}
+\end{align}
+
+solving \eqref{eq:solutions/line_plane/99/eq4} we get 
+\begin{align}  
+6 -4 -5-2\lambda+ \lambda+ 6 \lambda=7 \\ 
+5 \lambda=10 \\
+\lambda=2 \label{eq:solutions/line_plane/99/eq5} 
+\end{align}
+
+Now substituting the value of $\lambda$ in \eqref{eq:solutions/line_plane/99/eq:lineval} we get the point of contact of line on plane
+
+%\begin{align}
+%\textbf{x}=\myvec{-2+3\\2-4\\12-5 }
+%\end{align}
+%\\Therefore the point of contact of line on plane is
+
+\begin{align}
+\vec{x}=\myvec{1\\-2\\7 }
+\end{align}

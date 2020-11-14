@@ -1,0 +1,16 @@
+Given,
+\begin{align}
+	 \mydet{\vec{A}} = \mydet{x & y & x+y\\ y & x+y & x\\ x+y & x &y}\\
+	\xleftrightarrow{ R_1 \leftarrow R_1 + R_2 + R_3} \mydet{2(x + y) & 2(x + y) & 2(x + y)\\ y & x+y & x\\ x+y & x &y}\\
+	= 2(x + y)\mydet{1 & 1 & 1\\ y & x+y & x\\ x+y & x &y}\\
+	\xleftrightarrow[C_3 \leftarrow C_3 - C_1]{C_2 \leftarrow C_2 - C_1}
+	2(x + y) \mydet{1 & 0 & 0\\ y & x & x-y\\ x+y & -y &-x}\label{eq:solutions/det/76eq1}
+\end{align}
+Expanding the determinant from \eqref{eq:solutions/det/76eq1}, we get
+\begin{align}
+     &= 2\brak{x + y}\sbrak{-x^2 - \cbrak{\brak{-y}\brak{x-y}}}\\
+     &= 2\brak{x + y} \brak{-x^2 + xy - y^2}\\
+     &= -2x^3 + 2x^2y - 2xy^2 - 2x^2y + 2xy^2 - 2y^3\\
+     &= -2\brak{x^3 + y^3}\\
+     \therefore{}&\mydet{x & y & x+y\\ y & x+y & x\\ x+y & x &y} = -2\brak{x^3 + y^3}
+\end{align}

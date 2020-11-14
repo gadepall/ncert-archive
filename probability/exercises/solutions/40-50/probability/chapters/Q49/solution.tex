@@ -1,0 +1,29 @@
+Let $X \in \cbrak{0,1}$ represent student residence, 0 being a hostel residence.  Let $Y \cbrak{0,1}$ represent the grade, 0 being A grade.  The objective is to find
+{\footnotesize
+\begin{multline}
+\pr{X=0|Y=0} 
+\\
+=\frac{\pr{Y=0|X=0}\pr{X=0}}{\pr{Y=0|X=0}\pr{X=0}+\pr{Y=0|X=1}\pr{X=1}}
+\end{multline}
+}
+From the given information,
+\begin{align}
+\pr{Y=0|X=0} &= \frac{3}{10}
+\\
+\pr{Y=0|X=1} &= \frac{2}{10}
+\\
+\pr{X = 0} &=\frac{6}{10}
+\\
+\pr{X = 1} &=\frac{4}{10}
+\end{align}
+Hence,
+\begin{multline}
+\pr{X=0|Y=0} =\frac{\frac{3}{10}\times\frac{6}{10}}{\frac{3}{10}\times\frac{6}{10}+\frac{2}{10}\times\frac{4}{10}}
+\\
+=\frac{9}{13}
+\end{multline}
+
+ The python code for finding probability using a sample size of 10000 can be downloaded from
+\begin{lstlisting}
+probability/codes/Q49.py
+\end{lstlisting}

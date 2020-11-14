@@ -1,0 +1,49 @@
+\begin{equation}\label{eq:solutions/4/1/36/eq1}
+	\text{Let } \vec{V} = \myvec{\vec{c_1} & \vec{c_2}} = \myvec{a & h\\h & b}
+\end{equation}
+Let $\vec{Q}$ be an orthogonal and $\vec{R}$ be an upper triangular matrix such that, 
+\begin{align}
+	\label{eq:solutions/4/1/36/eq2}\vec{V} &= \vec{Q}\vec{R}\\
+	\label{eq:solutions/4/1/36/eq3}&= \myvec{\vec{q_1} & \vec{q_2}}\myvec{r_{11} & r_{12}\\0 & r_{22}}\\
+	\label{eq:solutions/4/1/36/eq4}\myvec{\vec{c_1} & \vec{c_2}} &= \myvec{\vec{q_1}r_{11} & \vec{q_1}r_{12} + \vec{q_2}r_{22}}
+\end{align}
+\begin{align}
+	\label{eq:solutions/4/1/36/eq5}\implies\vec{c_1} &= \vec{q_1}r_{11}\\
+	\label{eq:solutions/4/1/36/eq6}r_{11} &= \norm{\vec{c_1}} = \sqrt{a^2 + h^2}\\
+	\label{eq:solutions/4/1/36/eq7}\vec{q_1} &= \frac{\vec{c_1}}{r_{11}}\\
+	\label{eq:solutions/4/1/36/eq8}\vec{c_2} &= \vec{q_1}r_{12} + \vec{q_2}r_{22}\\
+	\label{eq:solutions/4/1/36/eq9}r_{21} &= \vec{q_1}^Tc_2\\
+	\label{eq:solutions/4/1/36/eq10}r_{22} &= \norm{\vec{c_2} - \vec{q_{1}}r_{12}}\\
+	\label{eq:solutions/4/1/36/eq11}\vec{q_2} &= \frac{\vec{c_2} - \vec{q_{1}}r_{12}}{r_{22}}
+\end{align}
+Given,
+\begin{equation}\label{eq:solutions/4/1/36/eq12}
+	\vec{V} = \myvec{6 & \frac{17}{2}\\ \frac{17}{2} & 12}
+\end{equation}
+From \eqref{eq:solutions/4/1/36/eq6},
+\begin{equation}\label{eq:solutions/4/1/36/eq13}
+	r_{11} = \sqrt{6^2 + \left(\frac{17}{2}\right)^2} = \frac{\sqrt{433}}{2}
+\end{equation}
+Substitute \eqref{eq:solutions/4/1/36/eq13} in \eqref{eq:solutions/4/1/36/eq7}
+\begin{equation}\label{eq:solutions/4/1/36/eq14}
+	\vec{q_1} = \myvec{\frac{12}{\sqrt{433}} \\ \frac{17}{\sqrt{433}}}
+\end{equation}
+Substitute \eqref{eq:solutions/4/1/36/eq14} in \eqref{eq:solutions/4/1/36/eq9}
+\begin{equation}\label{eq:solutions/4/1/36/eq15}
+	r_{21} = \frac{306}{\sqrt{433}}
+\end{equation}
+Substitute \eqref{eq:solutions/4/1/36/eq10} in \eqref{eq:solutions/4/1/36/eq15}
+\begin{equation}\label{eq:solutions/4/1/36/eq16}
+	r_{22} = \frac{\sqrt{433}}{866}
+\end{equation}
+Substitute \eqref{eq:solutions/4/1/36/eq16} in \eqref{eq:solutions/4/1/36/eq11}
+\begin{equation}\label{eq:solutions/4/1/36/eq17}
+	\vec{q_2} = \myvec{\frac{17}{\sqrt{433}} \\ -\frac{12}{\sqrt{433}}}
+\end{equation}
+Hence QR decomposition of V is,
+\begin{equation}\label{eq:solutions/4/1/36/eq18}
+	\vec{V} = \myvec{\frac{12}{\sqrt{433}} & \frac{17}{\sqrt{433}}\\
+				\frac{17}{\sqrt{433}} & -\frac{12}{\sqrt{433}}}
+			  \myvec{\frac{\sqrt{433}}{2} & \frac{306}{\sqrt{433}}\\
+			  0 & \frac{\sqrt{433}}{866}}
+\end{equation}

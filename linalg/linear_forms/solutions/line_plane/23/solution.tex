@@ -1,0 +1,43 @@
+Let
+\begin{align}
+\vec{A}&= \myvec{158 & -378 \\ -378 & 152} \\
+\vec{b}&= \myvec{-74 \\ -604}
+\end{align}
+\begin{align}
+\vec{A}&= \myvec{158 & -378 \\ -378 & 152} \\
+\vec{b}&= \myvec{-74 \\ -604} \\
+\vec{R}&= \myvec{  0 & -1 \\ 1 & 0} \\
+\vec{R}\vec{A}\vec{R}\vec{A}\vec{x}&= \vec{R}\vec{A}\vec{R}\vec{b} \label{eq:solutions/line_plane/231}\\
+\vec{R}\vec{A}\vec{R}\vec{A}&= k \vec{I}
+\end{align}
+I is the Identity Matrix and k is the constant which is equal to 118868 which is shown below
+\begin{align}
+k\vec{I}\vec{x}&= \vec{R}\vec{A}\vec{R}\vec{b} \\
+k\vec{x}&= \vec{R}\vec{A}\vec{R}\vec{b}
+\end{align}
+Finally divide the LHS and RHS by constant k in order to get the value of x.
+So, by putting the values of $\vec{R}, \vec{A}$ and $\vec{b}$ in equation \ref{eq:solutions/line_plane/231} we can easily find out the value of x as follows:
+\begin{align}
+\myvec{0 & -1 \\ -1 & 0}
+\myvec{158 & -378 \\ -378 & -152}
+\myvec{0 & -1 \\ -1 & 0}
+\myvec{158 & -378 \\ -378 & -152}\vec{x} \nonumber \\
+=\myvec{0 & -1 \\ -1 & 0}
+\myvec{158 & -378 \\ -378 & -152}
+\myvec{0 & -1 \\ -1 & 0}
+\myvec{-74 \\ -604}
+\end{align}
+After doing matrix multiplication in LHS and RHS,
+\begin{align}
+\myvec{118868 & 0 \\ 0 & 118868}\vec{x}&=
+\myvec{239560 \\ 123404}
+\end{align}
+Now, divide both the rows by 118868:
+\begin{align}
+\myvec{1 & 0 \\ 0 & 1}\vec{x}&=
+\myvec{239560/118868 \\ 123404/118868}
+\end{align}
+After further calculations in the fractional result:
+\begin{align}
+\myvec{x_1 \\ x_2}&= \myvec{59890/29717 \\ 30851/29717}
+\end{align}

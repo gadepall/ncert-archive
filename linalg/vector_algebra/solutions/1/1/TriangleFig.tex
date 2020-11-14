@@ -1,0 +1,23 @@
+\begin{tikzpicture}
+
+\draw (0,0) node[anchor=north]{$A$}-- (4,6.9282) node[anchor=west]{$B$}-- (8,0) node[anchor=north]{$C$}-- cycle;
+
+\draw (0,0) (0:0.75cm) arc (0:60:0.75cm);
+
+\draw (30:1.15cm) node{ 60 \degree};
+
+\begin{scope}[shift={(8,0)}]
+
+\draw (0,0) (180:0.75cm) arc (180:120:0.75cm); \draw (150:1.15cm)node{ 60 \degree};
+
+\end{scope}
+
+\begin{scope}[shift={(4,6.9282)}]
+
+\draw (0,0) (-120:0.75cm) arc (-120:-60:0.75cm);
+
+\draw (-90:1.15cm)node{ 60 \degree};
+
+\end{scope}
+
+\end{tikzpicture}

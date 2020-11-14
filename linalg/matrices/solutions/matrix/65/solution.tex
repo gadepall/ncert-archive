@@ -1,0 +1,43 @@
+Characteristic equation of A is $\lambda^2 - 2\lambda + 1 = 0$.
+By using Cayley Hamolton theorem, given matrix A is a solution of its own characteristic equation. So $A^2 - 2A + I = 0$.
+\begin {align}
+	A^2 &= 2A - I  \\
+	A^3 &= 3A - 2I \\
+        A^4 &= 4A - 3I \\
+	A^5 &= 5A - 4I
+\end{align}
+ By the substitution, 
+\begin {align}
+	A^n &= nA - (n-1)I 
+\end{align}
+\begin{enumerate}
+\item Proving above equation is true for n=2,
+\begin {align}
+A^2 = 2A -I
+\end {align}
+
+\item Assume it is true for n = k
+ \begin {align}
+A^k = kA -(k-1)I
+\end {align}
+
+\item Proving it is true for n = k+1
+ \begin {align}
+A^{k+1} &= A^k A \\
+        &= (kA -(k-1)I)A \\  
+        &= kA^2 - (k-1)A \\
+        &= k(2A -I) - (k-1)A \\
+        &= (2k-k+1)A - kI \\
+        &= (k+1)A - kI 
+\end {align}
+\end{enumerate}
+ So, $A^n = nA - (n-1)I$ 
+
+Substituting matrix A = \myvec{ 3 & -4 \\ 1 & -1 } in the equation5,
+\begin {align}
+	A^n &= n\myvec{ 3 & -4 \\ 1 & -1 } - (n-1)\myvec{ 1 & 0 \\ 0 & 1 } \\
+	    &=\myvec{ 3n & -4n \\ n & -n } - \myvec{ (n-1) & 0 \\ 0 & (n-1)} \\
+	    &=\myvec{ 2n+1 & -4n \\ n & 1-2n }  
+\end{align}
+So, $A^n =\myvec{ 2n+1 & -4n \\ n & 1-2n }$  
+

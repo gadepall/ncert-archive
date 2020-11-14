@@ -1,0 +1,57 @@
+import matplotlib.pyplot as plt 
+import numpy as np 
+from coeffs import *
+import subprocess
+import shlex
+
+A = np.array([2,0])
+B = np.array([5,0])
+C = np.array([3,2])
+D = np.array([4,2])
+E = np.array([0,0])
+F = np.array([7,0])
+G = np.array([0,2])
+H = np.array([7,2])
+M = np.array([3,0])
+N = np.array([4,0])
+
+x_AB = line_gen(A,B)
+x_AC = line_gen(A,C)
+x_BC = line_gen(B,C)
+x_AD = line_gen(A,D)
+x_BD = line_gen(B,D)
+x_EF = line_gen(E,F)
+x_GH = line_gen(G,H)
+x_CM = line_gen(C,M)
+x_DN = line_gen(D,N)
+
+plt.plot(x_AB[0,:],x_AB[1,:],label='$AB$')
+plt.plot(x_AC[0,:],x_AC[1,:],label='$AC$')
+plt.plot(x_BC[0,:],x_BC[1,:],label='$BC$')
+plt.plot(x_AD[0,:],x_AD[1,:],label='$AD$')
+plt.plot(x_BD[0,:],x_BD[1,:],label='$BD$')
+plt.plot(x_EF[0,:],x_EF[1,:])
+plt.plot(x_GH[0,:],x_GH[1,:])
+plt.plot(x_CM[0,:],x_CM[1,:],linestyle='dotted',label='$CM$')
+plt.plot(x_DN[0,:],x_DN[1,:],linestyle='dotted',label='$DN$')
+
+plt.plot(A[0], A[1], 'o')
+plt.text(A[0], A[1] - 0.2 , 'A')
+plt.plot(B[0], B[1], 'o')
+plt.text(B[0], B[1] - 0.2 , 'B')
+plt.plot(C[0], C[1], 'o')
+plt.text(C[0], C[1] + 0.1 , 'C')
+plt.plot(D[0], D[1], 'o')
+plt.text(D[0], D[1] + 0.1 , 'D')
+plt.plot(M[0], M[1], 'o')
+plt.text(M[0], M[1] - 0.2 , 'M')
+plt.plot(N[0], N[1], 'o')
+plt.text(N[0], N[1] - 0.2 , 'N')
+
+plt.title('Triangles with same base and between same parallels')
+plt.xlabel('$x$')
+plt.ylabel('$y$')
+plt.legend(loc='best')
+plt.grid() 
+plt.axis('equal')
+plt.show()

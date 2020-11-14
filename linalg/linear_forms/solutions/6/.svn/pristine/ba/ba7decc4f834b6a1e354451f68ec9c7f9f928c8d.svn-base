@@ -1,0 +1,78 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsubsection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+\item $\vec{x}$ are randomly chosen and substituted in the equation and solutions are found. 
+\begin{enumerate}
+\item \begin{equation} \label{eq_1}
+\myvec{2&1}\vec{x} = 7
+\end{equation}
+\solution Let $\vec{x}$ = $\myvec{a\\0}$
+Substituting in equation \ref{eq_1},
+$\myvec{2&1}\myvec{a\\0} = 7$ \\
+$\implies a=\frac{7}{2}$ 
+
+Let $\vec{x}$ = $\myvec{0\\b}$
+Substituting in equation \ref{eq_1},
+$\myvec{2&1}\myvec{0\\b} = 7$ \\
+$\implies b=7$
+
+Let $\vec{x}$ = $\myvec{c\\1}$
+Substituting in equation \ref{eq_1},
+$\myvec{2&1}\myvec{c\\1} = 7$ \\
+$\implies c=3$  
+
+Let $\vec{x}$ = $\myvec{1\\d}$
+Substituting in equation \ref{eq_1},
+$\myvec{2&1}\myvec{1\\d} = 7$ \\
+$\implies d=5$ 
+
+\item \begin{equation} \label{eq_2}
+\myvec{\pi&1}\vec{x} = 9
+\end{equation}
+\solution Let $\vec{x}$ = $\myvec{a\\0}$
+Substituting in equation \ref{eq_2},
+$\myvec{\pi&1}\myvec{a\\0} = 9$ \\
+$\implies a=\frac{9}{\pi}$ 
+
+Let $\vec{x}$ = $\myvec{0\\b}$
+Substituting in equation \ref{eq_2},
+$\myvec{\pi&1}\myvec{0\\b} = 9$ \\
+$\implies b=9$
+
+Let $\vec{x}$ = $\myvec{c\\1}$
+Substituting in equation \ref{eq_2},
+$\myvec{\pi&1}\myvec{c\\1} = 9$ \\
+$\implies c=\frac{8}{\pi}$  
+
+Let $\vec{x}$ = $\myvec{1\\d}$
+Substituting in equation \ref{eq_2},
+$\myvec{\pi&1}\myvec{1\\d} = 9$ \\
+$\implies d=9-\pi$
+
+\item \begin{equation} \label{eq_3}
+\myvec{1&-4}\vec{x} = 0
+\end{equation}
+\solution Let $\vec{x}$ = $\myvec{a\\0}$
+Substituting in equation \ref{eq_3},
+$\myvec{1&-4}\myvec{a\\0} = 0$ \\
+$\implies a=0$ 
+
+Let $\vec{x}$ = $\myvec{0\\b}$
+Substituting in equation \ref{eq_3},
+$\myvec{1&-4}\myvec{0\\b} = 0$ \\
+$\implies b=0$
+
+Let $\vec{x}$ = $\myvec{c\\1}$
+Substituting in equation \ref{eq_3},
+$\myvec{1&-4}\myvec{c\\1} = 0$ \\
+$\implies c=4$  
+
+Let $\vec{x}$ = $\myvec{1\\d}$
+Substituting in equation \ref{eq_3},
+$\myvec{1&-4}\myvec{1\\d} = 0$ \\
+$\implies d=\frac{1}{4}$
+
+\end{enumerate}
+
+\end{enumerate}

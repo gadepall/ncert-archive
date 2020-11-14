@@ -1,0 +1,7 @@
+(i) The bar graph representing the above data is shown in figure \ref{fig:bar38_py}\\
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./codes/pyfigs/exer38.eps}
+\caption{Number of girls per 1000 boys in different sections of indian society}
+\label{fig:bar38_py}
+\end{figure}

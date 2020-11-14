@@ -1,0 +1,12 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Find the distance between $\vec{P} =\myvec{x_1 \\ y_1}$ and $\vec{Q} = \myvec{x_2\\y_2}$ when 
+\begin{enumerate}
+\item PQ is parallel to the y-axis. 
+\item PQ is parallel to the x-axis.
+\end{enumerate}
+
+
+\end{enumerate}

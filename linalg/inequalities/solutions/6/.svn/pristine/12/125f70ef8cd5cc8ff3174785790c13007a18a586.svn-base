@@ -1,0 +1,9 @@
+\begin{tikzpicture}[scale = 2,>=stealth,point/.style={draw,circle,fill=black, inner sep=0.5pt},]
+
+\node (A) at (2,3)[point,label=above:$A$] {};
+\node (B) at (-1,0)[point,label=below left:$B$] {};
+\node (C) at (2,-4)[point,label=above right:$C$] {};
+
+\draw (A) -- node[below=5pt]{}(B) -- (C) -- (A);
+
+\end{tikzpicture}

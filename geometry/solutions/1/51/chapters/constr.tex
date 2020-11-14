@@ -1,0 +1,42 @@
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./solutions/1/51/figs/constructionpic.tex}}
+\caption{}
+\label{fig:8.1.51_similar}	
+\end{figure}
+\item {\em Construction: }
+See Fig. \ref{fig:8.1.51_similar}. The input values are
+\begin{align}
+     \vec{B}= \myvec{0\\0}
+    \vec{C}=\myvec{a\\0}
+    \vec{A}=\myvec{p\\q}
+\end{align}
+
+\subitem The point inside $\triangle ABC$ is generated as
+\begin{align}
+\vec{O} &= \lambda_1 \brak{\vec{B}-\vec{A}} +  \lambda_2 \brak{\vec{B}-\vec{C}}
+\\
+0 &< \lambda_1  < 1,
+\\
+0 &< \lambda_2  < 1,
+\\
+0 &< \lambda_1+\lambda_2  < 1,
+\end{align}
+%
+by choosing appropriate values of $\lambda_1, \lambda_2$.
+\subitem Determination of points D,E and F.
+\begin{align}
+\vec{D} = \frac{k\vec{A} + \vec{O}}{k+1}, \quad 0 < k < 1
+\end{align}
+%
+where $k$ is an input parameter.
+\begin{align}
+\because DE &\parallel OB, DF \parallel OC,
+\\
+\begin{split}
+\vec{E} &= \frac{k\vec{A} + \vec{B}}{k+1}, 
+\\
+\vec{F} &= \frac{k\vec{A} + \vec{C}}{k+1}, 
+\end{split}
+\label{eq:8.1.51_ef}
+\end{align}

@@ -1,0 +1,25 @@
+\documentclass[11pt]{article}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usetikzlibrary{arrows}
+\begin{document}
+
+\begin{tikzpicture}[scale=1.5,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+      
+%Labeling points
+\node (A) at (0, 0)[point,label=below left:$A$] {};
+\node (B) at (10, 0)[point,label=below right:$B$] {};
+\node (C) at (7, 2.5)[point,label=above right:$C$] {};
+
+%Drawing quad ABCD
+\draw (A) -- node[below]{$a$}(B) -- (C) -- (A);
+
+%marking line segment
+\tkzMarkAngle[fill=orange!40,size=0.5cm,mark=](B,A,C)
+\tkzMarkAngle[fill=orange!40,size=0.5cm,mark=](C,B,A)
+\tkzLabelAngle[pos=0.95](B,A,C){$\theta$}
+\tkzLabelAngle[pos=0.75](C,B,A){$\alpha$}
+\end{tikzpicture}
+
+\end{document}
+

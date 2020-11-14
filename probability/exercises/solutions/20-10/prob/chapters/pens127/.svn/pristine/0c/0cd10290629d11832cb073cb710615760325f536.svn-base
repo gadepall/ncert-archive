@@ -1,0 +1,18 @@
+The sample size 
+\begin{align}
+S=132+12=144
+\end{align}
+The number of good pens is 
+\begin{align}
+G=132
+\end{align}
+The probability of taking out a good pen is 
+\begin{align}
+\pr{G} = \frac{G}{S} &= \frac{132}{144}
+\\
+&= \frac{11}{12}
+\end{align}
+The python code for the above solution is
+\begin{lstlisting}
+./prob/codes/pens127.py
+\end{lstlisting}

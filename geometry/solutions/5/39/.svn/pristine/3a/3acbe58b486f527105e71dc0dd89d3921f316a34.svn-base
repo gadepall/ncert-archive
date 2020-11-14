@@ -1,0 +1,39 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\bibstyle{IEEEtran}
+\@writefile{toc}{\contentsline {section}{\numberline {1}\textbf  {Question}}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}\textbf  {Construction}}{1}{section.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Circle by Latex-Tikz\relax }}{1}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:stepthreetex}{{1}{1}{Circle by Latex-Tikz\relax }{figure.caption.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces To construct circle O\relax }}{1}{table.caption.2}\protected@file@percent }
+\newlabel{table:table1}{{I}{1}{To construct circle O\relax }{table.caption.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces To construct circle O\relax }}{2}{table.caption.3}\protected@file@percent }
+\newlabel{table:table2}{{II}{2}{To construct circle O\relax }{table.caption.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}\textbf  {Solution}}{2}{section.3}\protected@file@percent }
+\newlabel{eq:1}{{3.0.1}{2}{\textbf {Solution}}{equation.3.0.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Perpendicular from the center of a circle to a chord bisects the chord\relax }}{2}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:steponetex}{{2}{2}{Perpendicular from the center of a circle to a chord bisects the chord\relax }{figure.caption.5}{}}
+\newlabel{eq:2}{{3.0.2}{2}{\textbf {Solution}}{equation.3.0.2}{}}
+\newlabel{eq:3}{{3.0.4}{2}{\textbf {Solution}}{equation.3.0.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Equal chords of a circle are equidistant from the center\relax }}{3}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:steptwotex}{{3}{3}{Equal chords of a circle are equidistant from the center\relax }{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Circle generated using python\relax }}{3}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:stepthree}{{4}{3}{Circle generated using python\relax }{figure.caption.7}{}}
+\newlabel{eq:4}{{3.0.6}{3}{\textbf {Solution}}{equation.3.0.6}{}}

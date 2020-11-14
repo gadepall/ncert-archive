@@ -1,0 +1,49 @@
+
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./solutions/1/23/figs/quad_fig}}
+\caption{}
+\label{fig:8.1.23_quad}	
+\end{figure}
+ 
+\item {\em Construxtion: }See  Fig. \ref{fig:8.1.23_quad}.  The input parameters are
+%
+\begin{align}
+\vec{A} &=\myvec{0\\0} \label{eq:8.1.23_constr_a}\\
+\vec{C} &= \myvec{a\\0}, \label{eq:8.1.23_constr_c}\\ 
+\vec{D} &= a\myvec{\cos{\theta}\\\sin{\theta}}\label{eq:8.1.23_constr_b}
+\end{align}
+\subitem Let 
+%
+\begin{align}
+\begin{split}
+\vec{P}_1 &= \frac{\vec{C}}{\norm{ \vec{C} }} \\
+\vec{P}_2 &= \frac{\vec{D}}{\norm{ \vec{D}}} 
+\end{split}
+ \label{eq:8.1.23_p1p2} 
+\end{align}
+If $AB$ be the angle bisector, it is easy to show that 
+\begin{align}
+P_1P_2 \perp  AB \\
+\implies \brak{\vec{P}_1 - \vec{P}_2}^T \brak{\vec{B}-\vec{A}}
+ \label{eq:8.1.23_Proofeq1} 
+\end{align}
+However, from  \eqref{eq:8.1.23_p1p2} ,
+\begin{align}
+\norm{ \vec{P}_1} &= \norm{ \vec{P}_2}  = 1\\
+\implies \norm{ \vec{P}_1}^2 &= \norm{ \vec{P}_2}^2 
+\\
+\text{or, }\brak{\vec{P}_1-\vec{P}_2}^T\brak{\vec{P}_1+\vec{P}_2} &= 0 \\
+\implies \vec{P}_1 + \vec{P}_2 \perp  \vec{P}_1-\vec{P}_2 \label{eq:8.1.23_Proofeq2}
+\end{align}
+From \eqref{eq:8.1.23_Proofeq1} and \eqref{eq:8.1.23_Proofeq2}
+\begin{align}
+\vec{B} &= \lambda\brak{\vec{P}_1+\vec{P}_2} 
+\\
+\implies \vec{B} &=  \lambda\brak{\frac{\vec{C}}{\norm{ \vec{C}}}+\frac{\vec{D}}{\norm{ \vec{D}}}}
+\end{align}
+when $\vec{A}$ is at the origin.  In general, 
+\begin{align}
+\vec{B} =  \vec{A} + \lambda\brak{\frac{\vec{C}-\vec{A}}{\norm{ \vec{C}-\vec{A}}}+\frac{\vec{D}-\vec{A}}{\norm{ \vec{D}-\vec{A}}}}
+\end{align}
+\item Using SAS congruence, it is trivial to show that $BC = BD$

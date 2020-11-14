@@ -1,0 +1,157 @@
+Let $X_i \in \cbrak{0,1}$ represent the toss of each coin, with 1 being a head  Let
+\begin{align}
+X = X_1 + X_2 + X_3
+\end{align}
+Then, 
+\begin{align}
+\pr{E} &= \pr{\cbrak{X = 3}+ \cbrak{X = 0} }
+\\
+&= \pr{X = 3}+ \pr{X = 0} 
+\\
+&= \comb{3}{3}\brak{\frac{1}{2}}^3+\comb{3}{0}\brak{\frac{1}{2}}^3 
+\\
+&= \frac{1}{4}
+\end{align}
+\begin{align}
+\pr{F} &= \pr{X \ge 2}
+\\
+&= \comb{3}{2}\brak{\frac{1}{2}}^3+\comb{3}{3}\brak{\frac{1}{2}}^3 
+\\
+&= \frac{1}{2}
+\end{align}
+\begin{align}
+\pr{G} &= \pr{X \le 2}
+\\
+&= 1 - \pr{X > 2}
+\\
+&=1 - \comb{3}{3}\brak{\frac{1}{2}}^3
+\\
+&= \frac{7}{8}
+\end{align}
+Now, 
+\begin{align}
+\pr{EF} &= \pr{\sbrak{\cbrak{X = 3}+\cbrak{X = 0}}\cbrak{X \ge 2}}
+\\
+&= \Pr\lbrak{\cbrak{X = 3}\cbrak{X \ge 2}}
+\\
+&\quad +\rbrak{\cbrak{X = 0}\cbrak{X \ge 2}}
+\\
+&=\pr{X = 3} = \frac{1}{8}
+\label{eq:2122_EF}
+\end{align}
+Similarly,
+\begin{align}
+\pr{EG} &= \pr{\sbrak{\cbrak{X = 3}+\cbrak{X = 0}}\cbrak{X \le 2}}
+\\
+&= \Pr\lbrak{\cbrak{X = 3}\cbrak{X \le 2}}
+\\
+&\quad +\rbrak{\cbrak{X = 0}\cbrak{X \le 2}}
+\\
+&=\pr{X = 0} = \frac{1}{8}
+\label{eq:2122_EG}
+\end{align}
+and
+\begin{align}
+\pr{FG} &= \pr{\cbrak{X \ge 2}\cbrak{X \le 2}}
+\\
+&= \pr{\cbrak{X = 2}}
+\\
+&=\comb{3}{2}\brak{\frac{1}{2}}^3 = \frac{3}{8}
+\label{eq:2122_FG}
+\end{align}
+From the above equations we see that
+\begin{align}
+P\brak{E F} &= P\brak{E}P\brak{F}\\
+P\brak{GF} &\neq P\brak{G}P\brak{F}\\
+P\brak{E G} &\neq P\brak{E}P\brak{G}
+\end{align}
+Hence only the pair (E,F) are independent events. The pairs (F,G) and (G,E) are dependent events.
+
+%The sample size = Possible number of tosses=8
+%\begin{align}
+%\resizebox{\columnwidth}{!}{%
+%\myvec{\bmat{HHH}&\bmat{TTT}&\bmat{HHT}&\bmat{HTT}&\bmat{HTH}&\bmat{TTH}\bmat{THT}&\bmat{THH}}
+%}
+%\end{align}
+%Favourable outcome for event E = three Heads (or) three Tails
+%\begin{align}
+%\myvec{\bmat{HHH}&\bmat{TTT}}
+%\end{align}
+%
+%\begin{align}
+%P\brak{E} = \frac{1}{4}
+%\end{align}
+%
+%
+%Favourable outcome for event F = atleast two Heads 
+%\begin{align}
+%\resizebox{\columnwidth}{!}{%
+%\myvec{\bmat{HHT}&\bmat{HHH}&\bmat{HTH}&\bmat{THH}}
+%}
+%\end{align}
+%
+%\begin{align}
+%P\brak{F} = \frac{1}{2}
+%\end{align}
+%
+%Favourable outcome for event G = atmost two Heads
+%\begin{align}
+%\resizebox{\columnwidth}{!}{%
+%\myvec{\bmat{TTT}&\bmat{HHT}&\bmat{HTT}&\bmat{HTH}&\bmat{TTH}\bmat{THT}&\bmat{THH}}
+%}
+%\end{align}
+%
+%
+%
+%\begin{align}
+%P\brak{G} = \frac{7}{8}
+%\end{align}
+%
+%
+%Favourable outcome for event E$\cap$F
+%\begin{align}
+%\myvec{\bmat{HHH}}
+%\end{align}
+%
+%\begin{align}
+%P\brak{E\cap F} = \frac{1}{8}
+%\end{align}
+%
+%
+%Favourable outcome for event F$\cap$G 
+%\begin{align}
+%\myvec{\bmat{HHH}&\bmat{HTH}&\bmat{THH}}
+%\end{align}
+%
+%\begin{align}
+%P\brak{F\cap G} = \frac{3}{8}
+%\end{align}
+%
+%Favourable outcome for event E$\cap$G
+%\begin{align}
+%\myvec{\bmat{TTT}}
+%\end{align}
+%
+%
+%
+%\begin{align}
+%P\brak{E\cap G} = \frac{1}{8}
+%\end{align}
+%
+%\begin{comment}
+%	\begin{lstlisting}
+%	/codes/triangle/q2py
+%	\end{lstlisting}
+%	
+%	\begin{figure}[!ht]
+%	\centering
+%	\includegraphics[width=\columnwidth]{/figs/triangle/q2pdf}
+%	\caption{Triangle of Q125}
+%	\label{fig:qtwo}	
+%	\end{figure}
+%	
+%
+%\end{comment}	
+%	
+%	
+%\end{enumerate}

@@ -1,0 +1,32 @@
+\begin{tikzpicture}
+[scale =2,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt},]
+
+\def\rad{3}
+\coordinate [point, label={above right: $O$ }] (O) at (0, 0);
+\draw (O) circle (\rad);
+\node (A) at (-2.24,-2)[point,label=below left :$A$] {};
+\node (B) at (2.24,-2)[point,label=below right :$B$] {};
+\node (C) at (0,3)[point,label=above :$C$] {};
+\node (D) at (0,-2)[point,label=below :$D$] {};
+
+\draw (A)--(B);
+\draw (B)--(C);
+\draw (C)--(A);
+\draw (O)--(A);
+\draw (O)--(B);
+\draw [thick,dashed] (C)--(D);
+\tkzMarkAngle[size=0.5](A,C,O)
+\tkzMarkAngle[size=0.56](O,C,B)
+\tkzMarkAngle[size=0.3](A,O,D)
+\tkzMarkAngle[size=0.36](D,O,B)
+
+\draw (-0.1,2.4) node{$\theta_1$};
+\draw (0.15,2.3) node{$\theta_2$};
+
+\node [above] at (-0.1,1){$r$};
+\node [above] at (-1.1,-1){$r$};
+\node [above] at (1.12,-1){$r$};
+\node [above] at (-0.2,-0.5){$\alpha$};
+\node [above] at (0.2,-0.6){$\beta$};
+
+\end{tikzpicture}

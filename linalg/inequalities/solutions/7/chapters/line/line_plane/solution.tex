@@ -1,0 +1,18 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width= \columnwidth]{./figs/line/lines_planes/fig.eps}
+\caption{Line equation: y=(x-4)/2}
+\label{fig:lin_plane}
+\end{figure}
+
+\item Substitute given vectors from options in the above line equation and check which will satisfy it.
+\item Answer = $\myvec{4\\0}$
+\item Also from Fig.\ref{fig:lin_plane}, the line passes through the point $\myvec{4\\0}$.
+\item The python code for the figure 
+\begin{lstlisting}
+codes/line/lines_planes/lines_planes.py
+\end{lstlisting}
+\end{enumerate}

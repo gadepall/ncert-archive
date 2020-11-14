@@ -1,0 +1,42 @@
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./solutions/5/49/figs/circle.tex}}
+\caption{}
+\label{fig:8.5.49_circle}	
+\end{figure}
+%
+\item {\em Construction: }See Fig. \ref{fig:8.5.49_circle}.  The input parameters are
+%
+\begin{align}
+\label{eq:8.5.49_constr_o}
+\vec{O} &= \myvec{0\\0} 
+\\
+\vec{C} &= \myvec{r\\0} 
+\label{eq:8.5.49_constr_c}
+\end{align}
+Then, 
+%
+\begin{align}
+\label{eq:8.5.49_constr_a}
+\vec{A} &= r\myvec{\cos \beta \\ -\sin \beta} 
+\end{align}
+
+\subitem Equal chords subtend equal angles at the centre.  Hence 
+\begin{align}
+\phase{EOC} &= \phase{AOD} = \frac{360 \degree - \alpha -\beta}{2}
+\\
+&= 180\degree - \frac{\alpha+\beta}{2}
+\end{align}
+Thus, 
+\begin{align}
+\vec{D} &= r\myvec{\cos \brak{180^{\circ}-\frac{\alpha+\beta}{2}+\alpha} \\ \sin \brak{180^{\circ}-\frac{\alpha+\beta}{2}+\alpha}} 
+\\
+ &= r\myvec{-\cos \frac{\alpha-\beta}{2} \\ -\sin \frac{\alpha-\beta}{2}}
+\label{eq:8.5.49_constr_d}
+\\
+\vec{E} &= r\myvec{\cos \brak{180^{\circ}-\frac{\alpha+\beta}{2}} \\ \sin \brak{180^{\circ}-\frac{\alpha+\beta}{2}}}
+\\
+ &= r\myvec{-\cos \frac{\alpha+\beta}{2} \\ \sin \frac{\alpha+\beta}{2}}
+\label{eq:8.5.49_constr_e}
+\end{align}
+\subitem $\vec{B}$ can be found as the intersection of $AD$ and $CE$.

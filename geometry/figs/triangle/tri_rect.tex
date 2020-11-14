@@ -1,0 +1,30 @@
+%Code by GVV Sharma
+%December 7, 2019
+%released under GNU GPL
+%Drawing a rectangle
+
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+%Triangle sides
+\def\a{4}
+\def\c{3}
+
+%Marking coordiantes
+\coordinate [label=above:$A$] (A) at (0,\c);
+\coordinate [label=left:$B$] (B) at (0,0);
+\coordinate [label=right:$C$] (C) at (\a,0);
+
+%Drawing triangle ABC
+\draw (A) -- node[left] {$\textrm{c}$} (B) -- node[below] {$\textrm{a}$} (C) -- node[above,,xshift=2mm] {$\textrm{b}$} (A);
+
+\node (D) at (\a, \c)[point,label=above right:$D$] {};
+
+%Joining AD and CD
+\draw (A)--(D);
+\draw (C)--(D);
+
+%Drawing and marking angles
+\tkzMarkRightAngle[fill=blue!20,size=.3](A,B,C)
+\tkzMarkRightAngle[fill=blue!20,size=.3](A,D,C)
+\end{tikzpicture}

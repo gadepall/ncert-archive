@@ -1,0 +1,7 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Eleven bags of wheat flour, each marked 5 kg, actually contained the following weights of flour (in kg):\\
+4.97 5.05 5.08 5.03 5.00 5.06 5.08 4.98 5.04 5.07 5.00\\
+Find the probability that any of these bags chosen at random contains more than 5 kg of flour.
+\end{enumerate}

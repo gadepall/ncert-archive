@@ -1,0 +1,95 @@
+
+#Prob  47 of exercise 8.1
+#code by Krishnaja Kodali
+#proof that a line parallel to parallel sides of a trap  divides the non parallel sides in equal ratio
+import numpy as np
+import matplotlib
+
+matplotlib.use('agg')
+import matplotlib.pyplot as plt
+from coeffs import *
+#using termux
+import subprocess
+import  shlex
+#def destroy(self):
+	#self.close_event()
+#matplotlib.rcParams['backend']= 'cairo'
+#matplotlib.get_backend()
+#matplotlib.rcdefaults()
+#sides of trapezium
+a = 4
+c = 9
+d = 5
+h = 3
+
+#value of k betweeen 0 and h
+k = 1.5
+
+#Coordinates of A
+xA = np.sqrt(d**2-h**2)
+yA = h
+#print("coordinates of pt A are "+ str(xA) )
+
+#coordinates of B
+xB = np.sqrt(d**2-h**2)+a
+yB = h
+
+#Coordinates of E
+xE = (k*xA)/yA
+yE = k
+
+#Coordinates of F
+xF =((xB-c)*k)/h+c
+yF=k
+
+
+#Trapezium vertices
+D = np.array([0,0])
+C = np.array([c,0])
+A = np.array([xA,yA])
+B = np.array([xB,yB])
+E = np.array([xE,yE])
+F = np.array([xF,yF])
+X = np.array([xA,0])
+Y = np.array([xB,0])
+M = np.array([xA,k])
+N = np.array([xB,k])
+
+
+
+#Generating all lines
+x_AB = line_gen(A,B)
+x_BC = line_gen(B,C)
+x_CD = line_gen(C,D)
+x_DA = line_gen(D,A)
+x_EF = line_gen(E,F)
+x_AX = line_gen(A,X)
+x_BY = line_gen(B,Y)
+
+plt.xlabel('$x$')
+plt.ylabel('$y$')
+plt.legend(loc='best')
+plt.grid() # minor
+plt.axis('equal')
+
+plt.savefig('./pyfigs/pyfigs.eps')
+
+#print(3)
+plt.show()
+#print(4)
+length_AE=np.sqrt((xE-xA)**2+(yE-yA)**2)
+length_ED= np.sqrt((xE**2)+(yE**2))
+length_BF= np.sqrt(((xB-xF)**2)+(yB-yF)**2)
+length_FC= np.sqrt(((xF-c)**2)+(yF**2))
+
+print("AE/ED = " + str(length_AE/length_ED))
+print("BF/FC =  "+ str(length_BF/length_FC))
+
+#print(5)
+
+#generating eps file
+#plt.savefig('./figs/prob.pdf')
+#subprocess.run(shlex.split("termux-open ./figs/prob.pdf"))
+
+
+

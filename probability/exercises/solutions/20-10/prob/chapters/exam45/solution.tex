@@ -1,0 +1,22 @@
+Let $X$ be the random variable representing the number of times the shooter hits the target. Let $n$ be the total number of times that the shoter fires. Then from the given information, 
+\begin{align}
+X \sim B\brak{n,p}, p &= \frac{3}{4}
+\\
+\pr{X \geq 1} &\ge 0.99
+\end{align}
+Then from \eqref{eq:exam41_1} probability of hitting target atleast once is
+\begin{align}
+\pr{X \geq 1} &= 1-\pr{X=0} = 1 - \comb{n}{0}\brak{\frac{1}{4}}^{n} 
+\\
+&\ge 0.99
+\\
+\implies 1-\brak{\frac{1}{4}}^{n} &\geq 0.99
+\\
+\implies \brak{\frac{1}{4}}^{n} &\leq 0.01
+\\
+\text{or, } n&=4
+\end{align}
+The python code for the above problem is,
+\begin{lstlisting}
+solutions/20-10/prob/codes/exam45.py
+\end{lstlisting}

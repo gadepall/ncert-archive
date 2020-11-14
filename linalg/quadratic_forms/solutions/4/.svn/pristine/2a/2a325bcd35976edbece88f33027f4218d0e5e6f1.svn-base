@@ -1,0 +1,14 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Construct a 2 x 2 matrix .$\vec A = \left[a_ij\right]$,whose elements  are given by:
+\begin{enumerate}
+	\item $a_{ij} = \frac{(i+j)^2}{2}$
+	\\
+	\item $a_{ij} = \frac{i}{j}$
+	\\
+	\item $a_{ij} = \frac{(i+2j)^2}{2}$
+\end{enumerate}
+
+
+\end{enumerate}

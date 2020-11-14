@@ -1,0 +1,73 @@
+Consider an equilateral triangle \textbf{ABC}. Since, $\triangle$\textbf{ABC} is an equilateral, all of its angles are $60\degree$. Now, The direction vector of all the sides are given as,
+\begin{align}
+\vec{AB}=\norm{\vec{A-B}}
+\end{align}
+\begin{align}
+\vec{BC}=\norm{\vec{B-C}}
+\end{align}  
+\begin{align}
+\vec{AC}=\norm{\vec{A-C}}
+\end{align} 
+Now for an equilateral triangle,
+\begin{align}
+\norm{\vec{A-B}} = \norm{\vec{B-C}} = \norm{\vec{A-C}}
+\label{eq:solutions/1/112}
+\end{align}
+Let, $\vec{B}$ be the origin.Hence, $\vec{B}$ = 0. Hence substituting in the equation \eqref{eq:solutions/1/112} we get,
+\begin{align}
+\norm{\vec{A}} = \norm{\vec{C}} =\norm{\vec{A}-\vec{C}}
+\label{e1}
+\end{align}
+Squaring $\norm{\vec{A}-\vec{C}}$ we get,
+\begin{align}
+\norm{\vec{A}-\vec{C}}^2 = \norm{\vec{A}}^2+\norm{\vec{C}}^2-2\vec{A}^T\vec{C}
+\end{align} 
+Substituting from equation \eqref{e1} in above equation, 
+\begin{align}
+\implies \norm{\vec{A}}^2 = 2\norm{\vec{A}}^2-2\vec{A}^T\vec{C}
+\end{align}
+\begin{align}
+\implies \norm{\vec{A}}^2 = 2\vec{A}^T\vec{C}
+\label{eq:solutions/1/114}
+\end{align}
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./solutions/1/11/figure_assignment_4.tex}}
+\caption{Equilateral Triangle}
+\label{fig:solutions/1/111}
+\end{figure}
+In figure \ref{fig:solutions/1/111}, taking inner products of side $\vec{AB}$ and $\vec{BC}$ we get,
+\begin{align}
+(\vec{AB})^T\vec{BC} = \norm{\vec{AB}}\norm{\vec{BC}}\cos\theta
+\label{eq:solutions/1/113}
+\end{align}
+Substituting these results in \eqref{eq:solutions/1/113} and solving for $\cos\theta$ we get,
+\begin{align}
+\cos\theta = \frac{(\vec{A}-\vec{B})^T(\vec{B}-\vec{C})}{\norm{\vec{A}-\vec{B}}\norm{\vec{B}-\vec{C}}}
+\end{align}
+\begin{align}
+\implies \cos\theta = \frac{\vec{A}^T\vec{C}}{\norm{\vec{A}}\norm{\vec{C}}}
+\label{e2}
+\end{align}
+Imposing the results of \eqref{eq:solutions/1/114} in \eqref{e2} we get,
+\begin{align}
+\implies \cos\theta = \frac{\vec{A}^T\vec{C}}{2\vec{A}^T\vec{C}}
+\end{align}
+\begin{align}
+\implies \cos\theta = \frac{1}{2}
+\end{align}
+$\therefore \theta = 60\degree$
+\begin{align}
+\therefore \cos60\degree = \frac{1}{2}
+\end{align}
+Now using the property,
+\begin{align}
+\cos^2\theta +\sin^2\theta = 1
+\end{align} 
+$\therefore$ at $\theta = 60\degree, $
+\begin{align}
+\implies \sin60\degree = \sqrt{1-\cos^260\degree}
+\end{align}
+\begin{align}
+\implies\sin60\degree = \frac{\sqrt{3}}{2}.
+\end{align}

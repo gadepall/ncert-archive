@@ -1,0 +1,21 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item 100 surnames were randomly picked up from
+a local telephone directory and a frequency
+distribution of the number of letters in the
+English alphabet in the surnames was found
+as follows: 
+\begin{table}[ht!]
+\centering
+\input{./statistics/tables/Q45/prob.tex}
+\label{table:Q45}	
+\end{table}
+\begin{enumerate}
+\item Draw a histogram to depict the given
+information.
+\item Write the class interval in which the
+maximum number of surnames lie.
+\end{enumerate}
+
+\end{enumerate}

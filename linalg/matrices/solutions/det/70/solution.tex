@@ -1,0 +1,45 @@
+
+We first multiply either the rows or the columns, and then try taking the common element out.
+
+\begin{align}
+	\mydet{
+		\cos\alpha \cos\beta & \cos\alpha \sin\beta & -\sin\alpha \\ 
+		-\sin\beta & \cos\beta & 0 \\ 
+		\sin\alpha\cos\beta & \sin\alpha\sin\beta & \cos\alpha
+	} \nonumber
+\xleftrightarrow[C_3 \leftarrow (\sin\alpha) C_3]{C_3 \leftarrow (\cos\alpha) C_3}
+\end{align}
+
+\begin{align}\label{eq:solution/det/701}
+	\left(\frac{1}{\sin\alpha\cos\alpha}\right)
+	\mydet{
+		\cos\alpha \cos\beta &\cos\alpha \sin\beta & -\sin^{2}\alpha \cos\alpha\\ 
+		-\sin\beta & \cos\beta & 0 \\ 
+		\sin\alpha\cos\beta & \sin\alpha\sin\beta & \cos^{2}\alpha\sin\alpha
+	}	
+\end{align}
+
+From \eqref{eq:solution/det/701} $R_1$ we take out common element $\cos\alpha$. 
+And from row $R_2$ we take out common element $\sin\alpha$
+
+\begin{align}\label{eq:solution/det/702}
+	\mydet{
+		\cos\beta & \sin\beta & -\sin^{2}\alpha\\ 
+		-\sin\beta & \cos\beta & 0 \\ 
+		\cos\beta & \sin\beta & \cos^{2}\alpha
+	}\nonumber \xleftrightarrow[]{R_1 \leftarrow R_1 - R_3}	\\
+	\mydet{
+		0 & 0 & -\sin^{2}\alpha - \cos^{2}\alpha\\ 
+		-\sin\beta & \cos\beta & 0 \\ 
+		\cos\beta & \sin\beta & \cos^{2}\alpha
+	}
+\end{align}
+
+Now, we can expand the determinant from row 1 in \eqref{eq:solution/det/702}, and we get
+
+\begin{align}
+	\left(-\sin^{2}\alpha - \cos^{2}\alpha\right) \left(-\sin^{2}\beta - \cos^{2}\beta\right)\nonumber \\
+	\implies \left(\sin^{2}\alpha + \cos^{2}\alpha\right) \left(\sin^{2}\beta + \cos^{2}\beta\right) = 1
+\end{align}
+
+    Therefore, the determinant of the matrix is 1.

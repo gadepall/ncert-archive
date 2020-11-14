@@ -1,0 +1,93 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item First we need to prove that angle subtended by a diameter at a point on circumference is 90\degree. \\
+This can be proved if the scalar product of $\vec{BD}$ and $\vec{AD}$ is 0.
+\begin{align}
+\brak{\vec{D}-\vec{B}}^T.\brak{\vec{D}-\vec{A}} &= \norm{D}^2 - \vec{D}^T.\vec{A} - \vec{B}^T.\vec{D} + \vec{B}^T.\vec{A}
+\end{align}
+Since $\vec{A}$ and $\vec{B}$ are equal in magnitude but opposite in direction , $\vec{A}$ = - $\vec{B}$. Also $\norm{A}$= $\norm{B}$ = $\norm{D}$ = $r$ . On substituting,
+\begin{align}
+ \brak{\vec{D}-\vec{B}}^T.\brak{\vec{D}-\vec{A}} &= 0
+\end{align}
+Hence $\vec{BD} \perp \vec{AD}$; 
+\begin{align}
+\angle BDA = \angle ADE = 90\degree
+\label{eq:angleADE}
+\end{align}
+
+\item To find $\gamma$ ,
+consider the equation
+\begin{align}
+\norm{AC}^2 &=  \brak{\vec{C} - \vec{A}}^T. \brak{\vec{C} - \vec{A}} \\
+ &= \norm{C}^2 + \norm{A}^2  - \vec{C}^T.\vec{A} - \vec{A}^T\vec{C} 
+\end{align}
+\begin{align}
+ &= \norm{C}^2 + \norm{A}^2 - \norm{C^T}\norm{A}\cos\theta - \norm{A^T}.\norm{C}.\cos\theta
+\end{align}
+On sustituting the values, we get 
+\begin{align}
+\norm{AC} &= 1.53
+\label{eq:AC}
+\end{align}
+Similarly 
+\begin{align}
+\norm{AD}^2 &= \brak{\vec{D} - \vec{A}}^T.\brak{\vec{D} - \vec{A}} \\
+ &= \norm{D}^2 + \norm{A}^2  - \vec{D}^T.\vec{A} - \vec{A}^T\vec{D} 
+\end{align}
+\begin{align}
+ &= \norm{D}^2 + \norm{A}^2 - \norm{D^T}\norm{A}\cos\theta_1 - \norm{A^T}.\norm{D}.\cos\theta_1
+\end{align}
+On sustituting the values, we get 
+\begin{align}
+\norm{AD} &= 3.174
+\label{eq:AD}
+\end{align}
+Consider the scalar product of $\vec{AC}$ and $\vec{AD}$,
+\begin{align}
+ \brak{\vec{C} - \vec{A}}^T.\brak{\vec{D} - \vec{A}} &= \norm{AC}\norm{AD}\cos\gamma
+\label{eq:gen}
+\end{align}
+For L.H.S of \eqref{eq:gen} can be expanded as
+\begin{align}
+\brak{\vec{C} - \vec{A}}^T.\brak{\vec{D} - \vec{A}} &= \vec{C}^T.\vec{D} - \vec{C}^T.\vec{A} - \vec{A}^T.\vec{D} + \norm{A}^2 
+\end{align}
+
+\begin{equation}
+ = \norm{C^T}\norm{D}\cos\beta - \norm{C^T}\norm{A}\cos\theta - \norm{A^T}\norm{D}\cos\theta_1 + \norm{A}^2
+\end{equation}
+
+On substituting the values and angles , we get
+\begin{align}
+\brak{\vec{C} - \vec{A}}^T.\brak{\vec{D} - \vec{A}} &= 4.207
+\label{eq: LHS}
+\end{align}
+
+Now substituting values from \eqref{eq: LHS}, \eqref{eq:AD}, \eqref{eq:AC} in \eqref{eq:gen}, we get $\gamma$.
+\begin{align}
+\cos\gamma = 0.866 \\
+\gamma= 30\degree
+\label{eq: gamma}
+\end{align}
+
+
+
+    
+\item Applying the sum of interior angles in $\triangle ADE$ 
+\begin{align}
+\angle ADE + \gamma + \angle AED = 180\degree
+\label{eq:eq_6}
+\end{align}
+Using \eqref{eq:angleADE}, \eqref{eq: gamma}, we get
+\begin{align}
+\angle AED &= 60\degree
+\end{align}
+\begin{align}
+\therefore \angle AEB = 60\degree 
+\end{align}
+    
+Hence proved.
+    
+\end{enumerate}   
+       

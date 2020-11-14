@@ -1,0 +1,304 @@
+%\subsection{Properties}
+%
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+%\item
+%	Fig. \ref{ch4_circle_def} represents a circle, which passes through the vertices $A B, C$ of  $\triangle ABC$ in Fig.  	\eqref{ch3_perp_bisector}	
+% The points in the circle are at a distance $R$ from the {\em centre} $O$.  $R$ is known as the {\em radius}. The line  joining any two points on a circle is known as a {\em chord}.  Thus, the sides of $\triangle ABC$ are chords.
+%
+%\begin{figure}[!ht]
+%	\begin{center}
+%		
+%		%\includegraphics[width=\columnwidth]{./figs/ch4_circle_def}
+%		%\vspace*{-10cm}
+%%		\resizebox{\columnwidth}{!}{\input{./figs/fig_4.0.tex}}
+%		\resizebox{\columnwidth}{!}{\input{./figs/circumcircle.tex}}
+%%		\resizebox{\columnwidth}{!}{\input{./figs/fig_4.0.tex}}
+%	\end{center}
+%	\caption{Circle Definitions}
+%	\label{ch4_circle_def}	
+%\end{figure}
+%\item
+%	In Fig. \ref{ch4_circle_def}, $A$ and $B$ are points on the circle.  The line $AB$ is known as a chord of the circle.
+
+%
+%
+%\item
+%	\label{ch4_prob_circle_subtend}
+%	In Fig. \ref{ch4_circle_subtend}  
+%%Show that $\angle AOB = 2\angle ACB $.
+%
+%\begin{figure}[!ht]
+%	\begin{center}
+%		
+%		%\includegraphics[width=\columnwidth]{./figs/ch4_circle_subtend}
+%		%\vspace*{-10cm}
+%		\resizebox{\columnwidth}{!}{\input{./figs/circumcircle.tex}}
+%%		\resizebox{\columnwidth}{!}{\input{./figs/fig_4.1.tex}}
+%	\end{center}
+%	\caption{Angle subtended by chord $AB$ at the centre $O$ is twice the angle subtended at $P$. }
+%	\label{ch4_circle_subtend}	
+%\end{figure}
+
+%\solution In Fig. \ref{ch4_circle_subtend}, the triangleles $OPA$ and $OPB$ are isosceles. Hence,
+%%
+%\begin{align}
+%\angle OCA = \angle OAC &= \theta_1 \\
+%\angle OCB = \angle OBC &= \theta_2
+%\end{align}
+%%
+%Also, $\alpha$ and $\beta$ are exterior angles corresponding to the triangle $AOC$ and $BOC$ respectively. Hence
+%%
+%\begin{align}
+%\alpha &= 2\theta_1 \\
+%\beta &= 2\theta_2
+%\end{align}
+%%
+%Thus,
+%%
+%\begin{align}
+%\angle AOB &= \alpha + \beta \\
+%&= 2\brak{\theta_1 + \theta_2} \\
+%&= 2\angle ACB
+%\end{align}
+%
+
+%
+\item
+In Fig. \ref{fig:circ_dia_rt}, $AB$ is the diameter and passes through the centre $O$.  show that $\angle APB = 90^{\degree}$ .
+
+%
+\begin{figure}[!ht]
+	\begin{center}
+		
+		%\includegraphics[width=\columnwidth]{./figs/fig:circ_dia_rt}
+		%\vspace*{-10cm}
+		\resizebox{\columnwidth}{!}{\input{./figs/misc/circ_dia_rt.tex}}
+	\end{center}
+	\caption{Diameter of a circle.}
+	\label{fig:circ_dia_rt}	
+\end{figure}
+%
+%\\
+\solution From Theorem \ref{them:tri_ccentre_subtend}, 
+\begin{align}
+\angle APB = \frac{1}{2}\angle AOB = 90\degree
+\end{align}
+%
+\item In  right $\triangle APB$, right angled at $\vec{P}$, the median 
+\begin{align}
+PO = AO = OB
+\end{align}
+%
+\solution See Fig. \ref{fig:circ_dia_rt}. The median $PO$ is a radius of the circle.
+\item
+	In Fig. \ref{fig:circ_chord_prod}, show that 
+	\begin{equation}
+	PA.PB = PC.PD
+	\end{equation}
+\begin{figure}[!ht]
+	\begin{center}
+		
+		%\includegraphics[width=\columnwidth]{./figs/fig:circ_chord_prod}
+		%\vspace*{-10cm}
+		\resizebox{\columnwidth}{!}{\input{./figs/misc/circ_chord_prod.tex}}
+	\end{center}
+	\caption{$PA.PB = PC.PD$}
+	\label{fig:circ_chord_prod}	
+\end{figure}
+
+%
+\solution From Theorem \ref{them:tri_ccentre_subtend}, 
+	\begin{equation}
+	\begin{split}
+\angle ABD &= \angle ACD \\
+\angle CAB &= \angle CDB	
+	\end{split}
+	\end{equation}
+Hence, 
+%
+\begin{align}
+\triangle PAC \sim \triangle  PBD \quad (AAA)
+\end{align}
+%
+and
+%
+\begin{align}
+\frac{PA}{PD} &= \frac{PC}{PB} \\
+\implies PA.PB &= PC.PD
+\end{align}
+%
+%\item
+%	Fig. \ref{fig:incirc_def} touches the sides of $\triangle ABC$ \eqref{ch3_angle_bisector} and is known as  the {\em incircle}.  The sides of the $\triangle$	are known as the {\em tangents} of the circle.
+%
+%\begin{figure}[!ht]
+%	\begin{center}
+%		
+%		%\includegraphics[width=\columnwidth]{./figs/ch4_circle_def}
+%		%\vspace*{-10cm}
+%%		\resizebox{\columnwidth}{!}{\input{./figs/fig_4.0.tex}}
+%		\resizebox{\columnwidth}{!}{\input{./figs/incirc.tex}}
+%%		\resizebox{\columnwidth}{!}{\input{./figs/fig_4.0.tex}}
+%	\end{center}
+%	\caption{Incircle and Tangent}
+%	\label{fig:incirc_def}	
+%\end{figure}
+%%
+%\item Tangents to a circle from any point outside the circle are equal.
+%\\
+%\solution See Fig. \ref{fig:incirc_def} and use \eqref{eq:tang_eq}.
+%
+%\item
+%	Show that 
+%	\begin{equation}
+%	\label{ch5_sin_90}
+%	\sin 90^{\degree} = 1
+%	\end{equation}
+%\solution From 	Prolem \ref{prob:ch2_triang_area}
+%and Problem \ref{prob:tri_area_sin}, the area of the right angled $\triangle ABC$ in Fig. \ref{ch2_sq_ar} is 	
+%	\begin{equation}
+%	\label{ch5_sin_90_der}
+%	\frac{1}{2}ab = \frac{1}{2}ab\sin 90^{\degree} 
+%	\end{equation}
+%%
+%resulting in 	\eqref{ch5_sin_90}.
+%\item
+%	Show that 
+%	\begin{equation}
+%	\label{ch5_cos_90}
+%	\cos 90^{\degree} = 0
+%	\end{equation}
+%
+%\solution 
+%Follows from the fact that $\sin 90\degree = 1$ and \eqref{eq:tri_sin_cos_id}.
+%
+%
+%
+%%
+%% 	
+%\item
+%	The line $PX$ in Fig. \ref{ch4_tangent_def} touches the circle at exactly one  point $P$. 
+%%It is known as the tangent to the circle.
+%%
+%%
+%	Show that $OP \perp PX$.
+%% is the perpendicular to the line $PX$ as shown in the Fig. \ref{ch4_short_dist}. Show that $OP$ is the shortest distance between the point $O$ and the line $PX$. 
+%
+%\solution Without loss of generality, let $0 \le \theta \le 90^{\degree}$. Using the cosine formula in $\triangle OPP_n$,\begin{align}
+%\brak{r+d_n}^2 > r^2,
+%\end{align}
+%%Let $P_1$ be a point on the line $PX$. Then $OPP_1$ is a right angled triangle.  Using Budhayana's theorem,
+%%
+%\begin{figure}[!ht]
+%	\begin{center}
+%		
+%		%\includegraphics[width=\columnwidth]{./figs/ch4_tangent_def}
+%		%\vspace*{-10cm}
+%		\resizebox{\columnwidth}{!}{\input{./figs/fig_4.6.tex}}
+%	\end{center}
+%	\caption{Tangent to a Circle.}
+%	\label{ch4_tangent_def}	
+%\end{figure}
+%%
+%%\begin{figure}[!ht]
+%%	\begin{center}
+%%		
+%%		%\includegraphics[width=\columnwidth]{./figs/ch4_short_dist}
+%%		%\vspace*{-10cm}
+%%		\resizebox{\columnwidth}{!}{\input{./figs/fig_4.6_1.tex}}
+%%	\end{center}
+%%	\caption{Shortest distance from $O$ to line $PX$}
+%%	\label{ch4_short_dist}	
+%%\end{figure}
+%
+%%
+%\begin{align}
+%%\begin{split}
+%\brak{r+d_n}^2 = r^2 + x_n^2 - 2rx_n\cos\theta > r^2 
+%\\
+%\implies  0 <\cos\theta < \frac{x_n}{2r},
+%%OP_1^2 &= OP^2 + PP_1^2 \\
+%%\implies OP_1 > OP
+%%\end{split}
+%\end{align}
+%%
+%where $x_n$ can be made as small as we choose.  Thus, 
+%%
+%\begin{align}
+%\cos \theta = 0 \implies \theta  = 90 ^{\degree}
+%\end{align}
+%from \eqref{ch5_cos_90}.
+%
+%%\solution In Fig. \ref{ch4_tangent_def}, we can see that $OP$ is is the radius of the circle and the length of all line segments from $O$ to the line $PX > r$.  Using the result of the previous 
+%problem, it is obvious that $OP \perp PX$. 
+%
+	%
+\item
+In Fig. \ref{fig:circ_tang_icept} show that 
+%
+\begin{equation}
+\angle PCA = \angle PBC
+\end{equation}
+%
+$O$ is the centre of the circle and $PC$ is the tangent.
+\label{them:tang_icept_ang}
+
+	\begin{figure}[!ht]
+		\begin{center}
+			
+			%\includegraphics[width=\columnwidth]{./figs/fig:circ_tang_icept}
+			%\vspace*{-10cm}
+			\resizebox{\columnwidth}{!}{\input{./figs/misc/circ_tang_icept.tex}}
+		\end{center}
+		\caption{$PA.PB = PC^2$.}
+		\label{fig:circ_tang_icept}	
+	\end{figure}
+	%
+
+%
+\solution Obvious from the figure once we observe that $\triangle OAC$ is isosceles.
+%
+%
+\item
+	In Fig. \ref{fig:circ_tang_icept}, show that $PA.PB = PC^2$.
+\label{them:circ_tang_icept_prod}	
+\solution Using Theorem \ref{them:tang_icept_ang},
+\begin{equation}
+\triangle PAC \sim \triangle PBC \quad (AAA)
+\end{equation}
+ Hence,
+%
+\begin{align}
+\frac{PA}{PC} &= \frac{PC}{PB} \\
+\implies PA.PB &=PC^2
+\end{align}
+%
+%\item
+%Given that $PA.PB = PC^2$, show that $PC$ is a tangent to the circle.
+%
+%
+\item
+	In Fig. \ref{fig:chord_tang_prod}, show that
+\begin{equation}
+	PA.PB = PC.PD
+	\end{equation}
+
+%
+\begin{figure}[!ht]
+	\begin{center}
+		
+		%\includegraphics[width=\columnwidth]{./figs/fig:chord_tang_prod}
+		%\vspace*{-10cm}
+		\resizebox{\columnwidth}{!}{\input{./figs/misc/chord_tang_prod.tex}}
+	\end{center}
+	\caption{$PA.PB = PC^2$.}
+	\label{fig:chord_tang_prod}	
+\end{figure}
+
+\solution From Theorem \ref{them:circ_tang_icept_prod}, if $PT$ be a tangent to the circle, 	
+\begin{equation}
+	PA.PB = PT^2 =PC.PD
+	\end{equation}
+\end{enumerate}

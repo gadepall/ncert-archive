@@ -1,0 +1,17 @@
+Let X be the random variable representing the number of defective eggs from the ten eggs picked.X follows binomial distribution.
+Probability that there is atleast one defective egg is 
+\begin{align}
+\pr{X \geq 1}= 1 - \pr{X=0} 
+\end{align}
+Substituting n=10,p= 0.1 and k=0 in equation \eqref{eq:exam41_1}, 
+\begin{align}
+\pr{X \geq 1}= 1 - \comb{10}{0}0.1^k\brak{0.9}^\brak{10}
+\\
+&=1-{\frac{9}{10}}^{10}
+\\
+&=0.6513215599
+\end{align}
+The python code for the above problem is,
+\begin{lstlisting}
+./prob/codes/exam42.py
+\end{lstlisting}

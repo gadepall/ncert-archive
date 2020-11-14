@@ -1,0 +1,13 @@
+\begin{tikzpicture} 
+        \coordinate (B) at (2.5, -2.5) {};
+        \coordinate (A) at (0, 0) {};
+        \coordinate (P) at (5, 0) {};
+        \coordinate (C) at (2.5, 2.5) {};
+
+        \draw (C)node[above]{$C$}--(A)node[below]{$A$}--(P)node[above]{$P$}--cycle;
+        \draw (P)node[above]{$P$}--(A)node[below]{$A$}--(B)node[below]{$B$}--cycle;
+\tkzMarkRightAngle[size=.2](P,C,A);
+\tkzLabelAngle[dist=.5](P,A,B){};
+\tkzMarkRightAngle[size=.2](P,B,A);
+\tkzLabelAngle[dist=.5](P,A,C){};
+\end{tikzpicture}

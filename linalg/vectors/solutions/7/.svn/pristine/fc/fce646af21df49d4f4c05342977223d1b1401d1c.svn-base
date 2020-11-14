@@ -1,0 +1,98 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item A conic section has the following equation 
+\begin{align}
+Ax^2+Bxy+Cy^2+Dx+Ey+F &= 0
+\label{eq:alg_conic}
+\end{align}
+The equation is expressed in vector form is as follows
+\begin{align}
+\label{eq:vec_conic}
+\vec{x}^T \myvec{A & B/2\\B/2 & C}\vec{x}+ \myvec{D & E}\vec{x}+F &= 0
+\end{align}
+
+\begin{enumerate}
+
+\item 
+$2x^2 - 7x + 3 = 0$ can be expressed as 
+\begin{align}
+\label{eq:vec_conic_a}
+\vec{x}^T \myvec{2 & 0\\0 & 0}\vec{x}+ \myvec{-7 & 0}\vec{x}+3=0
+\end{align}
+If $\myvec{k\\0}$ satisfies \eqref{eq:vec_conic_a} then k is the root of the equation \eqref{eq:vec_conic_a}. \\
+From graph, the roots are the points where the quadratic equation cuts the x-axis. A quadratic equation can have a maximum of two distinct roots.
+\begin{align}
+2k^{2}-7k+3 &= 0 \\
+\brak{k-3}\brak{2k-1} &= 0
+\end{align}
+From the graph in \ref{fig:par1}, the roots are 3 and $\frac{1}{2}$. 
+\begin{figure}[!ht]
+\centering
+\includegraphics[width= \columnwidth]{./figs/conics/parabola1.eps}
+\caption{Roots of $2x^2 - 7x + 3 = 0$}
+\label{fig:par1}
+\end{figure}
+The python code can be downloaded from
+\begin{lstlisting}
+codes/conics/parabola1.py
+\end{lstlisting}
+
+\item 
+$2x^2 + x -4 = 0$ can be expressed as 
+\begin{align}
+\label{eq:vec_conic_b}
+\vec{x}^T \myvec{2 & 0\\0 & 0}\vec{x}+ \myvec{1 & 0}\vec{x} -4=0
+\end{align}
+
+From the \ref{fig:fig2}, the roots are 1.186 and 1.686.
+\begin{figure}[!ht]
+\centering
+\includegraphics[width= \columnwidth]{./figs/conics/parabola2.eps}
+\caption{Roots of $2x^2 + x -4 = 0$ }
+\label{fig:fig2}
+\end{figure}
+The python code can be downloaded from
+\begin{lstlisting}
+codes/conics/parabola2.py
+\end{lstlisting}
+
+\item 
+$4x^2 + 4\sqrt{3}x + 3 = 0$ can be expressed as 
+\begin{align}
+\label{eq:vec_conic_c}
+\vec{x}^T \myvec{4 & 0\\0 & 0}\vec{x}+ \myvec{4\sqrt{3} & 0}\vec{x}+3=0
+\end{align}
+From the graph in \ref{fig:fig3}, the roots are real and equal. The root is $\frac{-\sqrt{3}}{2}$.
+\begin{figure}[!ht]
+\centering
+\includegraphics[width= \columnwidth]{./figs/conics/parabola3.eps}
+\caption{Roots of $4x^2 + 4\sqrt{3}x + 3 = 0$}
+\label{fig:fig3}
+\end{figure}
+The python code can be downloaded from
+\begin{lstlisting}
+codes/conics/parabola3.py
+\end{lstlisting}
+
+\item 
+$2x^2 +x + 4 = 0$ can be expressed as 
+\begin{align}
+\label{eq:vec_conic_d}
+\vec{x}^T \myvec{2 & 0\\0 & 0}\vec{x}+ \myvec{1 & 0}\vec{x}+4=0
+\end{align}
+From the graph \ref{fig:fig4}, the quadratic equation doesn't intersect x-axis. Thus it doesn't have real roots. It has ccomplex and conjugate roots.
+\begin{figure}[!ht]
+\centering
+\includegraphics[width= \columnwidth]{./figs/conics/parabola4.eps}
+\caption{Roots of $2x^2 +x + 4 = 0$ }
+\label{fig:fig4}
+\end{figure}
+The python code can be downloaded from
+\begin{lstlisting}
+codes/conics/parabola4.py
+\end{lstlisting}
+\end{enumerate}
+
+\end{enumerate}

@@ -1,0 +1,8 @@
+import numpy as np
+#orthogonal matrix
+Q = np.array([[2/np.sqrt(5), 1/np.sqrt(5)],[1/np.sqrt(5), -2/np.sqrt(5)]])
+#Upper triangular matrix
+R = np.array([[np.sqrt(5), 0],[0, np.sqrt(5)]])
+#Original matrix
+A = Q@R
+print("Multiplication of Q and R is :",A)

@@ -1,0 +1,38 @@
+Let $\vec{m}$ be a unit vector such that $\vec{m}$ = $\myvec{m_x \\ m_y \\ m_z}$. Let $\vec{e}_1=\myvec{1 \\ 0 \\ 0}$, $\vec{e}_2=\myvec{0 \\ 1 \\ 0}$ and $\vec{e}_3=\myvec{0 \\ 0 \\ 1}$ be the direction vectors of the coordinate axes. 
+
+As $\vec{m}$ is a unit vector, so $\norm{\vec{m}} =1$ and also we are given is that $\vec{m}$ is inclined equally to the coordinate axis,
+\begin{equation}
+\label{eq:solutions/point_vector/141}
+	\vec{e}_1^T\vec{m} =\vec{e}_2^T\vec{m}=\vec{e}_3^T\vec{m}
+\end{equation}
+Now, \ref{eq:solutions/point_vector/141} implies 
+\begin{align}
+	(\vec{e}_1 -\vec{e}_2)^T\vec{m} = 0 \\
+	(\vec{e}_2 -\vec{e}_3)^T\vec{m} = 0 \\
+	(\vec{e}_3 -\vec{e}_1)^T\vec{m} = 0
+\end{align}
+Thus, converting above system of equations into matrix form, we get
+\begin{equation}
+\label{eq:solutions/point_vector/142}
+	\vec{A}\vec{m} = 0
+\end{equation}
+To find the solution of \ref{eq:solutions/point_vector/142}, we find the  echelon form of  $\vec{A}$.
+\begin{align}
+	& \myvec{  1  & -1 &  0 \\  0 &  1 & -1 \\ -1 &  0 &  1 } & \xleftrightarrow[]{r_3 \leftarrow r_1 + r_3}  & \myvec{ 1 & -1 &  0 \\ 0 &  1 & -1 \\ 0 & -1 & 1 } \\
+	& \myvec{1 & -1 & 0 \\ 0 & 1 & -1 \\ 0 & -1 & 1 }  &        \xleftrightarrow[]{r_3 \leftarrow r_2 + r_3}  & \myvec{1 & -1 & 0 \\ 0 & 1 & -1 \\ 0 & 0 & 0 } \\
+	& \myvec{1 &  -1 & 0 \\ 0 & 1 & -1 \\ 0 & 0 & 0 } & \xleftrightarrow[]{r_1 \leftarrow r_1 + r_2}
+	& \myvec{1 &  0 & -1 \\ 0 & 1 & -1 \\ 0 & 0 & 0 }
+\label{eq:solutions/point_vector/143}
+\end{align}
+From \ref{eq:solutions/point_vector/143}, we find out that
+\begin{align}
+	& m_x = m_y = m_z \\
+	& \vec{m} = \myvec{ m_z\\ m_z \\m_z}  \implies \quad \vec{m} = m_z\myvec{ 1\\ 1 \\1}
+\end{align}
+Taking $m_z =1$, then $\norm{\vec{m}} = \frac{1}{\sqrt{3}}$ and for $\vec{m}$ to be a unit vector, we need to divide each element of $\vec{m}$ by $\norm{\vec{m}}$.
+
+Thus, we see that  
+\begin{align}
+	\vec{m} = \myvec{ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}}}
+\end{align}
+is the unit direction vector inclined equally to the coordinate axes.

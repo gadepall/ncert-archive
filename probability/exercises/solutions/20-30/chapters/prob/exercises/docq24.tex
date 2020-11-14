@@ -1,0 +1,21 @@
+Let $X \in \cbrak{0,1}$ where 0 represents an easy question.  Let $Y \in \cbrak{0,1}$ where 1 denotes multiple choice questions.
+From the given information,
+\begin{align}
+\pr{X=0,Y=0} &= \frac{300}{1400} = \frac{3}{14}
+\\
+\pr{X=1,Y=0} &= \frac{200}{1400} = \frac{2}{14}
+\\
+\pr{X=0,Y=1} &= \frac{500}{1400} = \frac{5}{14}
+\\
+\pr{X=1,Y=1} &= \frac{400}{1400} = \frac{4}{14}
+\end{align}
+Then,
+\begin{align}
+\pr{X=0|Y=1} &= \frac{\pr{X=0,Y=1}}{\pr{Y=1}}
+\\
+&= \frac{\pr{X=0,Y=1}}{\sum_{i}\pr{X=i,Y=1}}
+\\
+&=\frac{\frac{5}{14}}{\frac{5}{14}+\frac{4}{14}}
+\\
+&=\frac{5}{9}
+\end{align}

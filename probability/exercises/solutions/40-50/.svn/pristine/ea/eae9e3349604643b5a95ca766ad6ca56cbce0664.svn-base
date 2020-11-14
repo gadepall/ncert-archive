@@ -1,0 +1,10 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Find the mean salary of 60 workers of a factory from the following table:
+\begin{table}[ht!]
+\centering
+\input{./statistics/tables/Q50/prob.tex}
+\label{table:Q50}	
+\end{table}
+\end{enumerate}

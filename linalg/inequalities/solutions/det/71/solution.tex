@@ -1,0 +1,41 @@
+Given,
+\begin{align}
+&\triangle = \mydet{b+c & c+a & a+b\\c+a & a+b & b+c\\a+b&b+c & c+a} \label{eq:solutions/det/71ques}\\
+\xleftrightarrow[]{C_1\leftarrow C_1+C_2+C_3}
+&\mydet{2(a+b+c) & c+a & a+b\\2(a+b+c) & a+b & b+c\\2(a+b+c)&b+c & c+a} \label{eq:solutions/det/71eq_1}\\
+&=2(a+b+c)\mydet{1 & c+a & a+b\\1 & a+b & b+c\\1&b+c & c+a} \label{eq:solutions/det/71eq_2}\\
+\xleftrightarrow[]{R_1\leftarrow R_1-R_2; R_2 \leftarrow R_2-R_3}
+&2(a+b+c)\mydet{0 & c-b & a-c\\0 & a-c & b-a\\1&b+c & c+a} =0 \label{eq:solutions/det/71equ_3}
+\end{align}
+On expanding determinant along first column from equation \eqref{eq:solutions/det/71equ_3},
+\begin{multline*}
+\implies 2(a+b+c)[(c-b)(b-a)-(a-c)^{2}]=0
+\\
+\implies 2(a+b+c)(a^{2}+b^{2}+c^{2}\\
+-ab-bc-ca)=0
+\\
+\implies (a+b+c)(2a^{2}+2b^{2}+2c^{2}\\
+-2ab-2bc-2ca)=0
+\end{multline*}
+\begin{multline}
+\implies (a+b+c)\\
+[(a-b)^{2}+(b-c)^{2}+(c-a)^{2}] = 0 \label{eq:solutions/det/71equ_4}
+\end{multline}
+From equation \eqref{eq:solutions/det/71equ_4} we get 2 equations,
+\begin{align}
+&\implies \boxed{(a+b+c) = 0} \label{eq:solutions/det/71sol_1}
+\end{align}
+or,
+\begin{align}
+&\implies (a-b)^{2}+(b-c)^{2}+(c-a)^{2} = 0 \label{eq:solutions/det/71sol_2}
+\end{align}
+Equation \eqref{eq:solutions/det/71sol_2} is possible only when, $a=b=c$
+\begin{align}
+&\implies \boxed{a=b=c} \label{eq:solutions/det/71sol_3}
+\end{align}
+From equation \eqref{eq:solutions/det/71sol_1} and \eqref{eq:solutions/det/71sol_3} we can say that,
+$\triangle=0$ if $a+b+c=0$ or $a=b=c$.
+
+From equation \eqref{eq:solutions/det/71sol_1} and \eqref{eq:solutions/det/71sol_3} we can say that,
+$\triangle=0$ if $a+b+c=0$ or $a=b=c$.
+

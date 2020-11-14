@@ -1,0 +1,266 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+	%
+\item
+	Show that if
+\begin{equation}
+\label{ch5_sin_increasing}
+\theta_1 < \theta_2, \quad \sin \theta_1 < \sin \theta_2.
+\end{equation}	
+\begin{figure}[!ht]
+	\begin{center}
+		
+		%\includegraphics[width=\columnwidth]{./figs/ch5_sin_theta}
+		%\vspace*{-10cm}
+		\resizebox{\columnwidth}{!}{\input{./figs/fig_sin_ineq.tex}}
+	\end{center}
+	\caption{$\theta_1 < \theta_2 \implies \sin \theta_1 < \sin \theta_2.$}
+	\label{fig:fig_sin_ineq}	
+\end{figure}
+%
+\solution Using Baudhayana's theorem in $\triangle  ABC$ and $\triangle DBC$
+%
+\begin{align}
+l^2 &= x^2+a^2
+\\
+c^2 &= b^2+a^2
+\\
+\implies c > l &\because b > x.
+\label{eq:tri_sin_ineq_hyp}
+\end{align}
+%
+Also, 
+%
+\begin{align}
+a = c \sin \theta_1 &= l \sin \theta_2
+%
+\\
+\implies 
+\frac{\sin \theta_1}{\sin \theta_2} = \frac{l}{c} &< 1 \quad \text{from }\eqref{eq:tri_sin_ineq_hyp}
+\\
+\text{or, } {\sin \theta_1}<{\sin \theta_2}
+\label{eq:tri_sin_ineq}
+\end{align}
+%
+	%
+	\item
+		Show that if
+		\begin{equation}
+		\label{ch5_cos_decreasing}
+		\theta_1 < \theta_2, \cos \theta_1 > \cos \theta_2.
+		\end{equation}	
+%
+\item	Show that in any $\triangle ABC$, $\angle A > \angle B \implies a > b$.
+%
+\\
+\solution Use \eqref{eq:tri_sin_form} and \eqref{eq:tri_sin_ineq}
+%
+\item Show that the sum of any two sides of a triangle is greater than the third side.
+\\
+\solution In Hero's formula in \eqref{eq:tri_hero}, all the factors inside the square root should be positive.  Thus, 
+%
+\begin{align}
+\brak{s-a} > 0, \brak{s-b} > 0\brak{s-c} &> 0
+\end{align}
+%
+\begin{align}
+\\
+\brak{s-a} > 0 \implies \frac{a+b+c}{2} -a &> 0
+\\
+\text{or, } b+c > a
+\end{align}
+%
+Similarly, it can be shown that $a+b>c, c+a>b$.
+
+
+	%
+%\item
+%	In Fig. \ref{ch3_angle_bisector}, $OB$ divides the  $\angle B$ into half, i.e.\begin{equation}
+%	\angle OBC = \angle OBA
+%	\end{equation}
+%	$OB$ is known as an angle bisector.
+%
+%
+%\begin{figure}[!ht]
+%	\begin{center}
+%		
+%		%\includegraphics[width=\columnwidth]{./figs/ch3_angle_bisector}
+%		%\vspace*{-10cm}
+%		\resizebox{\columnwidth}{!}{\input{./figs/fig_3.0.tex}}
+%	\end{center}
+%	\caption{Angle bisectors meet at a point}
+%	\label{ch3_angle_bisector}	
+%\end{figure}
+%
+%	$OB$ and $OC$ are angle bisectors of angles $B$ and $C$. $OA$ is joined and $OD, OF$ and $OE$ are perpendiculars to sides $a,b$ and $c$.
+%\item
+%  Show that $OD = OE = OF$.
+%\solution In $\Delta$s $ODC$ and $OEC$,
+%\begin{align}
+%OD &= OC \sin \frac{C}{2}
+%\\
+%OE &= OC \sin \frac{C}{2} 
+%\\
+%\Rightarrow OD &=OE.
+%\end{align}
+%Similarly,
+%\begin{equation}
+%OD = OF.
+%\end{equation}
+%%
+%\item
+%	Show that OA is the angle bisector of $\angle A$
+%
+%\solution In $\Delta$s $OFA$ and $OEA$,
+%\begin{align}
+%OF &= OE
+%\\
+%\Rightarrow OA \sin OAF &= OA \sin OAE \\
+%\Rightarrow \sin OAF &=  \sin OAE \\
+%\Rightarrow \angle OAF &= \angle OAE
+%\end{align}
+%which proves that $OA$ bisects $\angle A$.
+%{\em Conclusion:} The angle bisectors of a triangle meet at a point.
+%
+%\end{enumerate}
+%\subsection{Congruent Triangles}
+%%
+%\renewcommand{\theequation}{\theenumi}
+%\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+%\numberwithin{equation}{enumi}
+%
+%\item
+%	Show that in $\Delta$s $ODC$ and $OEC$, corresponding sides and angles are equal.
+%
+%\item
+%	Note that    $\Delta$s $ODC$ and $OEC$ are known as congruent triangles.  To show that two triangles are congruent, it is sufficient to show that some angles and sides are equal.
+%
+%\item
+%SSS:	Show that if the corresponding sides of three triangles are equal, the triangles are congruent.
+%
+%\item
+%ASA:	Show that if two angles and any one side  are equal in corresponding triangles, the triangles are congruent.
+%
+%\item
+%SAS:	Show that if two sides and the angle between them are equal in corresponding triangles, the triangles are congruent.
+%
+%\item
+%RHS:	For two right angled triangles, if the hypotenuse and one of the sides are equal, show that the triangles are congruent.
+%\end{enumerate}
+%
+%	%
+%%%
+%\subsection{Perpendicular Bisectors}
+%\renewcommand{\theequation}{\theenumi}
+%\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+%\numberwithin{equation}{enumi}
+%
+%\item
+%	In Fig. \ref{ch3_perp_bisector}, OD $\perp BC$ and $BD=DC$. $OD$ is defined as the perpendicular bisector of $BC$.
+%
+%
+%\item
+%	In Fig. \ref{ch3_perp_bisector}, show that $OA=OB=OC$.
+%
+%%%
+%%%
+%\begin{figure}[!ht]
+%	\begin{center}
+%		
+%		\includegraphics[width=\columnwidth]{./figs/fig_3.8.eps}
+%%		\includegraphics[width=\columnwidth]{./figs/ch3_perp_bisector}
+%		%\vspace*{-10cm}
+%%		\resizebox{\columnwidth}{!}{\input{./figs/fig_3.8.tex}}
+%	\end{center}
+%	\caption{Perpendicular bisectors meet at a point}
+%	\label{ch3_perp_bisector}	
+%\end{figure}
+%%
+%\solution In $\Delta$s $ODB$ and $ODC$, using Budhayana's theorem,
+%%
+%\begin{equation}
+%\begin{split}
+%OB^2 &= OD^2 + BD^2 \\
+%OC^2 &= OD^2 + DC^2 
+%\end{split}
+%\end{equation}
+%%
+%Since $BD = DC = \frac{a}{2}$, $OB = OC$.  Similarly, it can be shown that $OA = OC$.  Thus, $OA=OB=OC$.
+%%
+%\item
+%	In $\Delta AOB$, $OA = OB$.  Such a triangle is known as an isoceles triangle.
+%
+%%
+%\item
+%	Show that $AF = BF$.
+%
+%\solution Trivial using Budhayana's theorem.  This shows that $OF$ is a perpendicular bisector of $AB$. 
+%{\em Conclusion:}  The perpendicular bisectors of a triangle meet at a point.
+%%
+%\end{enumerate}
+%
+%\subsection{Perpendiculars from Vertex to Opposite Side}
+%\renewcommand{\theequation}{\theenumi}
+%\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+%\numberwithin{equation}{enumi}
+%	%
+%	%
+%\item
+%	In Fig. \ref{ch3_perp_triang}, $AD \perp BC$ and $BE \perp AC$. $CF$ passes through $O$ and meets
+%	$AB$ at $F$.  	
+%	Show that 
+%	\begin{align}
+%	OE = c \cos A \cot C
+%	\end{align}
+%
+%	\begin{figure}[!ht]
+%		\begin{center}
+%			
+%			%\includegraphics[width=\columnwidth]{./figs/ch3_perp_triang}
+%			%\vspace*{-10cm}
+%			\resizebox{\columnwidth}{!}{\input{./figs/fig_3.10.tex}}
+%		\end{center}
+%		\caption{Perpendiculars from vertex to opposite side meet at a point}
+%		\label{ch3_perp_triang}	
+%	\end{figure}
+%%
+%\solution In $\Delta$ s $AEB$ and $AEO$,
+%%
+%\begin{align}
+%AE &= c \cos A \\
+%OE &= AE \tan \brak{90^{\degree} - C} \brak{\because ADC \text{ is right angled}} \\
+%&= AE \cot C
+%\end{align}
+%%
+%From both the above, we get the desired result.
+%%
+%\item
+%	Show that $\alpha = A$.
+%
+%\solution In $\Delta OEC$,
+%%
+%\begin{equation}
+%CE = a \cos C \brak{\because BEC \text{ is right angled}}
+%\end{equation}
+%%
+%Hence,
+%%
+%\begin{equation}
+%\begin{split}
+%\tan \alpha &= \frac{CE}{OE} \\
+%&=  \frac{a \cos C}{c \cos A \cot C} \\
+%&=  \frac{a \cos C \sin C}{c \cos A \cos C} \\
+%&= \frac{a \sin C}{c \cos A } \\
+%&= \frac{c \sin A}{c \cos A } \brak{\because \frac{a}{\sin A} = \frac{c}{\sin C}}\\
+%&= \tan A\\
+%\Rightarrow \alpha = A
+%\end{split}
+%\end{equation}
+%%
+%\item
+%	Show that $CF \perp AB$
+%
+%\solution Consider triangle OFB and the result of the previous problem.  $\because$ the sum of the angles of a triangle is $180^{\degree}$, $\angle CFB = 90^{\degree}$.
+%{\em Conclusion: The perperdiculars from the vertex of a triangle to the opposite side meet at a point.}
+\end{enumerate}

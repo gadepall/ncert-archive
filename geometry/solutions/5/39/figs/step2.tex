@@ -1,0 +1,58 @@
+
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+%Triangle sides
+\def\a{5}
+\def\b{6}
+\def\r{2}
+%Coordinates of A
+\def\p{1.414}
+\def\q{-1.414}
+\draw (0,0) circle (2cm);
+%Labeling points
+\node (A) at (\p,\q)[point,label=below right:$A$] {};
+\node (B) at (\p, \p)[point,label=above right:$B$] {};
+\node (X) at (\p, 0)[point,label=right:$X$] {};
+
+\node (C) at (\q,\q)[point,label=below left:$C$] {};
+\node (D) at (\q, \p)[point,label=above left:$D$] {};
+\node (Y) at (\q, 0)[point,label=left:$Y$] {};
+
+\node (O) at (0,0)[point,label=below:$O$]{};
+
+%Drawing triangle ABC
+\draw (A) --  (B) -- node[above] {$\textrm{r}$} (O) -- node[below] {$\textrm{r}$} (A);
+\draw (X)-- (O);
+\draw (C) --  (D) -- node[above] {$\textrm{r}$} (O) -- node[below] {$\textrm{r}$} (C);
+\draw (Y)-- (O);
+%Drawing medians BE and CF
+%\draw (D) -- (E);
+%\draw (D) -- (F);
+%\draw (O) -- (B);
+%\draw (O) -- (C);
+%Drawing EF
+%\draw (E) -- (F);
+
+%Labeling sides
+%\node [right] at ($(A)!0.5!(E)$) {$\frac{b}{2}$};
+%\node [right] at ($(C)!0.5!(E)$) {$\frac{b}{2}$};
+%\node [left] at ($(B)!0.5!(F)$) {$\frac{c}{2}$};
+%\node [left] at ($(A)!0.5!(F)$) {$\frac{c}{2}$};
+
+%Angles
+\tkzMarkRightAngle[fill=green!60,size=.27](O,X,A)
+\tkzMarkRightAngle[fill=orange!60,size=.27](O,Y,C)
+%\tkzMarkAngle[fill=green!60,size=.3](O,B,A)
+%
+%\tkzMarkAngle[fill=red!60,size=.7](A,F,D)
+%\tkzMarkAngle[fill=red!60,size=.7](A,C,O)
+%%
+%\tkzMarkAngle[fill=yellow!60,size=.2](A,D,E)
+%\tkzMarkAngle[fill=yellow!60,size=.2](A,O,B)
+%%
+%\tkzMarkAngle[fill=orange!60,size=.2](F,D,A)
+%\tkzMarkAngle[fill=orange!60,size=.2](C,O,A)
+%
+%\tkzMarkAngle[fill=blue!60,size=.3](E,A,F)
+\end{tikzpicture}

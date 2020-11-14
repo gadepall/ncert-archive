@@ -1,0 +1,94 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Find Hero's formula for the area of a triangle.
+\\
+\solution 
+%In Fig. \ref{fig:rt_triangle}, from Baudhayana's theorem, 
+%\begin{align}
+%\label{eq:tri_geo_baudh}
+%b^2 = a^2+c^2 &
+%\\
+%=b^2\cos^2C+b^2\sin^2C &
+%\\
+%\implies \cos^2C+\sin^2C &= 1
+%\end{align}
+%
+%In Fig. \ref{fig:tri_const_ex_cos_form}, 
+From \eqref{prob:tri_area_sin}, the area of $\triangle ABC$ is 
+{\footnotesize
+\begin{align}
+\label{eq:tri_geo_area_sin_form}
+ \frac{1}{2}ab\sin C
+%\\
+&=\frac{1}{2}ab\sqrt{1-\cos^2C} 
+\quad \brak{\text{from } \eqref{eq:tri_sin_cos_id}
+%\eqref{eq:tri_geo_baudh}
+}
+\\
+&=\frac{1}{2}ab\sqrt{1-\brak{\frac{a^2+b^2-c^2}{2ab}}^2} \brak{\text{from } \eqref{eq:tri_cos_form}
+}
+\\
+&=\frac{1}{4}\sqrt{\brak{2ab}^2-\brak{a^2+b^2-c^2}}
+\\
+&=\frac{1}{4}\sqrt{\brak{2ab+a^2+b^2-c^2}\brak{2ab-a^2-b^2+c^2}}
+\\
+&= \frac{1}{4}\sqrt{\cbrak{\brak{a+b}^2-c^2}\cbrak{c^2-\brak{a-b}^2}}
+\\
+&= \frac{1}{4}\sqrt{\brak{a+b+c}\brak{a+b-c}\brak{a+c-b}\brak{b+c-a}}
+\label{eq:tri_ex_hero_temp}
+\end{align}
+}
+Substituting 
+%
+\begin{align}
+s=\frac{a+b+c}{2}
+\end{align}
+%
+in \eqref{eq:tri_ex_hero_temp}, the area of $\triangle ABC$ is 
+%
+\begin{align}
+\label{eq:tri_area_hero}
+\sqrt{s\brak{s-a}\brak{s-b}\brak{s-c}}
+\end{align}
+%
+This is known as Hero's formula.
+\item Find the area of $\triangle ABC$ in Fig. \ref{fig:tri_rect}.
+\\
+\solution The desired are is computed using \eqref{eq:tri_area_hero} by the following 
+the python code.
+\begin{lstlisting}
+codes/triangle/tri_area_hero.py
+\end{lstlisting}
+%
+
+\item Show that the sum of two sides of a triangle is always greater than the third side.
+\\
+\solution In \eqref{eq:tri_area_hero}, all terms under the square roots should be positive.  Hence,
+%
+\begin{align}
+\label{eq:tri_hero_ineq}
+\begin{split}
+s-a &>0
+\\
+s-b &>0
+\\
+s-c &>0
+\end{split}
+\end{align}
+resulting in 
+%
+\begin{align}
+\begin{split}
+\label{eq:tri_sum_ineq}
+b+c &>a
+\\
+c+a &>b
+\\
+a+b &>c
+\end{split}
+\end{align}
+\end{enumerate}
+
+

@@ -1,0 +1,437 @@
+\subsection{Area of a Circle}
+%
+%
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+%
+\item
+	Using Fig. \ref{ch5_sin_theta}, show that 
+	%
+\begin{equation}
+\label{ch5_sin_theta_eq}
+\sin  \theta_1 = \sin \brak{\theta_1 + \theta_2}\cos \theta_2 - \cos\brak{\theta_1+\theta_2}\sin\theta_2
+\end{equation}	
+	%
+
+\begin{figure}[!ht]
+	\begin{center}
+		
+		%\includegraphics[width=\columnwidth]{./figs/ch5_sin_theta}
+		%\vspace*{-10cm}
+		\resizebox{\columnwidth}{!}{\input{./figs/fig_5.3.tex}}
+	\end{center}
+	\caption{$\sin2\theta = 2\sin\theta\cos\theta$}
+	\label{ch5_sin_theta}	
+\end{figure}
+%
+
+\solution The following equations can be obtained from the figure using the forumula for the area of a triangle
+%
+\begin{align}
+ar \brak{\Delta ABC} &= \frac{1}{2}ac \sin\brak{\theta_1 + \theta_2} \\
+&= ar \brak{\Delta BDC} + ar \brak{\Delta ADB} \\
+&= \frac{1}{2}cl \sin{\theta_1} + \frac{1}{2}al \sin{\theta_2} \\ 
+&= \frac{1}{2}ac \sin{\theta_1} \sec \theta_2 + \frac{1}{2}a^2 \tan{\theta_2} 
+\end{align}
+$\brak{\because
+	l = a \sec \theta_2}$.  From the above,
+\begin{align}
+\Rightarrow \sin\brak{\theta_1 + \theta_2} &=  \sin{\theta_1} \sec \theta_2 + \frac{a}{c} \tan{\theta_2} \\
+\Rightarrow \sin\brak{\theta_1 + \theta_2} &=  \sin{\theta_1} \sec \theta_2 + \cos\brak{\theta_1 + \theta_2} \tan{\theta_2} 
+\end{align}
+Multiplying both sides by $\cos \theta_2$,
+\begin{align}
+\Rightarrow \sin\brak{\theta_1 + \theta_2}\cos{\theta_2} &=  \sin{\theta_1}  + \cos\brak{\theta_1 + \theta_2} \sin\theta_2  
+\end{align}
+%
+resulting in
+\begin{equation}
+\Rightarrow \sin \theta_1 = \sin\brak{\theta_1 + \theta_2}\cos{\theta_2} - \cos\brak{\theta_1 + \theta_2} \sin\theta_2 
+\end{equation}
+\item
+	Prove the following identities 
+	%
+	\begin{enumerate}
+\item 
+\begin{equation}
+		\label{ch5_sin_diff}
+\sin\brak{\alpha - \beta} = \sin \alpha \cos \beta - \cos \alpha \sin \beta.
+\end{equation}
+\item 
+\begin{equation}
+\cos\brak{\alpha + \beta} = \cos \alpha \cos \beta - \sin \alpha \sin \beta.
+		\label{ch5_cos_diff}
+\end{equation}
+
+	\end{enumerate}
+	%
+
+\solution In \eqref{ch5_sin_theta_eq}, let
+%
+\begin{equation}
+\begin{split}
+\theta_1 + \theta_2 &= \alpha \\
+\theta_2 &=  \beta
+\end{split}
+\end{equation}
+%
+This gives \eqref{ch5_sin_diff}.  In \eqref{ch5_sin_diff}, replace $\alpha$ by 
+%
+$90{\degree} - \alpha$.  This results in
+%
+\begin{multline}
+\sin\brak{90{\degree} - \alpha - \beta}
+\\
+=
+\sin \brak{90{\degree} -\alpha} \cos \beta - \cos \brak{90{\degree} -\alpha} \sin \beta \\
+\Rightarrow \cos\brak{\alpha + \beta} = \cos \alpha \cos \beta - \sin \alpha \sin \beta
+\end{multline}
+% 
+\item
+	Using \eqref{ch5_sin_theta_eq} and \eqref{ch5_cos_diff}, show that
+\begin{align}
+\label{ch5_sin_sum}
+\sin\brak{\theta_1 + \theta_2} &= \sin\theta_1  \cos\theta_2 + \cos\theta_1\sin\theta_2
+\\
+\cos\brak{\theta_1 - \theta_2} &= \cos\theta_1  \cos\theta_2  \sin\theta_1\sin\theta_2
+\label{ch5_cos_sum}
+\end{align}
+
+%
+\solution From \eqref{ch5_sin_theta_eq},
+%
+\begin{align}
+ \sin \brak{\theta_1 + \theta_2}\cos \theta_2 =\sin  \theta_1 +\cos\brak{\theta_1+\theta_2}\sin\theta_2 
+\end{align}
+%
+Using \eqref{ch5_cos_diff} in the above,
+%
+\begin{multline}
+\sin \brak{\theta_1 + \theta_2}\cos \theta_2 
+=\sin  \theta_1 +\lbrak{\cos \theta_1\cos\theta_2 }
+\\	
+\rbrak{	- \sin \theta_1\sin\theta_2}\sin\theta_2 
+\end{multline}
+%
+which can be expressed as
+%
+\begin{multline}
+\sin \brak{\theta_1 + \theta_2}\cos \theta_2 
+=\sin  \theta_1 +\cos \theta_1\cos\theta_2 \sin\theta_2 
+\\	
+	- \sin \theta_1\sin^2\theta_2
+\end{multline}
+%
+Since
+%
+\begin{equation}
+\sin^2\theta_2 = 1- \cos^2\theta_2, 
+\end{equation}
+%
+we obtain
+%
+\begin{multline}
+\sin \brak{\theta_1 + \theta_2}\cos \theta_2 
+=\cos \theta_1\cos\theta_2 \sin\theta_2 
+\\	
++ \sin \theta_1\cos^2\theta_2
+\end{multline}
+%
+resulting in
+%
+\begin{equation}
+\sin \brak{\theta_1 + \theta_2}
+=\cos \theta_1 \sin\theta_2 
++ \sin \theta_1\cos\theta_2
+\end{equation}
+%
+after factoring out $\cos \theta_2$.  Using a similar approach, \eqref{ch5_cos_sum} can also be proved.
+%
+\item
+	Show that
+	%
+	\begin{equation}
+	\label{eq:sin2theta}
+	\sin 2\theta = 2 \sin\theta \cos\theta
+	\end{equation}
+	%
+%
+\item
+	Show that
+	%
+	\begin{align}
+	\label{eq:cos2theta_cos_sin}
+	\cos 2\theta &= \cos^2\theta -\sin^2\theta 
+\\
+	\label{eq:cos2theta_sin_sq}
+&= 1 - \sin^2\theta
+\\
+&=2\cos^2\theta -1
+	\label{eq:cos2theta_cos_sq}
+	\end{align}
+	%
+%\item The ratio of the perimeter of a circle to its diameter is $\pi$.
+%\label{prob:circ_peri_dia}
+%\item {\em Radian} is a another unit of the angle defined by
+%%
+%\begin{align}
+%\pi \text{ radians} = 180 \degree
+%\end{align}
+%%
+%\item
+%	In Fig. \ref{ch5_polygon_def}, 6 congruent triangles are arranged in a circular fashion.  Such a figure is known as a regular hexagon.  In general, $n$ number of traingles can be arranged to form a regular polygon.
+%\begin{figure}[!ht]
+%	\begin{center}
+%		
+%		%\includegraphics[width=\columnwidth]{./figs/ch5_polygon_def}
+%		%\vspace*{-10cm}
+%		\resizebox{\columnwidth}{!}{\input{./figs/fig_5.0.tex}}
+%	\end{center}
+%	\caption{Polygon Definition}
+%	\label{ch5_polygon_def}	
+%\end{figure}
+%%
+%\item
+%The angle formed by each of the congruent triangles at the centre of a regular polygon of $n$ sides is $\frac{2\pi}{n} = \frac{2\pi}{n}$ rad.
+%%
+%\item 	The triangle that forms a polygon of $n$ sides is given in Fig. \ref{ch5_polygon_area}. Show that 
+%%
+%\begin{equation}
+%BC = 2r \sin\frac{\pi}{n}
+%\label{eq:circ_chord_len}
+%\end{equation}
+%%
+%
+%\begin{figure}[!ht]
+%	\begin{center}
+%		
+%		%\includegraphics[width=\columnwidth]{./figs/ch5_polygon_area}
+%		%\vspace*{-10cm}
+%		\resizebox{\columnwidth}{!}{\input{./figs/fig_5.1.tex}}
+%	\end{center}
+%	\caption{Triangle that forms a polygon}
+%	\label{ch5_polygon_area}	
+%\end{figure}
+%%
+%%\\
+%\solution Using cosine formula, 
+%%
+%%
+%\begin{align}
+%BC^2 &= 2r^2-2r^2 \cos\frac{2\pi}{n}
+%\\
+%\implies BC^2 &= 2r^2\brak{1-\cos\frac{2\pi}{n}}
+%&= 4r^2\sin^2\frac{\pi}{n}
+%\end{align}
+%%
+%upon substituting from 	\eqref{eq:cos2theta_sin_sq}.  Taking the square root results in \eqref{eq:circ_chord_len}
+%%
+%\item
+%Show that the perimeter of a regular polygon is given by 
+%%
+%\begin{equation}
+%\label{eq:peri_poly_n}
+%2rn \sin\frac{\pi}{n}
+%\end{equation}
+%%
+%\item
+%Show that the area of a regular polygon is given by 
+%%
+%\begin{equation}
+%\frac{n}{2}r^{2}\sin\frac{2\pi}{n}
+%\end{equation}
+%%
+%\solution  From Fig. 	\ref{ch5_polygon_area}	
+%
+%%
+%\begin{equation}
+%\begin{split}
+%ar\brak{polygon} &= n \times ar\brak{\Delta ABC} \\
+%&= \frac{n}{2}r^{2}\sin\frac{2\pi}{n}
+%\end{split}
+%\end{equation}
+%%
+%\item
+%	Using Fig. \ref{ch5_circle_squeeze}, show that
+%%
+%\begin{equation}
+%\label{ch5_circle_squeeze_eq}
+%\frac{n}{2}r^{2}\sin\frac{2\pi}{n} < \text{ area of circle } < nr^{2}\tan\frac{\pi}{n}
+%\end{equation}
+%%
+%The portion of the circle visible in Fig. \ref{ch5_circle_squeeze} is defined to be a sector of the circle.
+%
+%\begin{figure}[!ht]
+%	\begin{center}
+%		
+%		%\includegraphics[width=\columnwidth]{./figs/ch5_circle_squeeze}
+%		%\vspace*{-10cm}
+%		\resizebox{\columnwidth}{!}{\input{./figs/fig_5.2.tex}}
+%	\end{center}
+%	\caption{Circle Area in between Area of Two Polygons}
+%	\label{ch5_circle_squeeze}	
+%\end{figure}
+%%
+%
+%\solution Note that the circle is squeezed between the inner and outer regular polygons.  As we can see from Fig. \ref{ch5_circle_squeeze}, the area of the circle should be in between the areas of the inner and outer polygons.  Since
+%%
+%\begin{align}
+%ar \brak{\Delta OAB} &= \frac{1}{2}r^{2}\sin\frac{2\pi}{n} \\
+%ar \brak{\Delta OPQ} &= 2 \times \frac{1}{2} \times r \tan\frac{2\pi/n}{2} \times r \\
+%&= r^{2}\tan\frac{\pi}{n},
+%\end{align}
+%%
+%we obtain \eqref{ch5_circle_squeeze_eq}.
+%%
+%\item
+%Show that
+%	%
+%	\begin{equation}
+%	\label{ch5_circle_squeeze_simple}
+%\cos^2\frac{\pi}{n} < \frac{\text{ area of circle }}{nr^{2}\tan\frac{\pi}{n}} < 1	\end{equation}
+%	%
+%
+%\solution From \eqref{ch5_circle_squeeze_eq} and \eqref{eq:sin2theta},
+%	%
+%{\small
+%	\begin{align}
+%	\frac{n}{2}r^{2}\sin\frac{2\pi}{n} < \text{ area of circle } 
+%%	\\
+%	< nr^{2}\tan\frac{\pi}{n} 
+%	\\
+%\Rightarrow 	
+%	{n}r^{2}\sin\frac{\pi}{n}\cos\frac{\pi}{n} < \text{ area of circle } 
+%%	\\
+%	< nr^{2}\tan\frac{\pi}{n} 
+%	\end{align}
+%%
+%}
+%which yields 	\eqref{ch5_circle_squeeze_simple} upon making use of the fact that 
+%%
+%\begin{align}
+%\frac{\sin \theta}{\cos \theta} = \tan \theta
+%\end{align}
+%%
+%
+%%
+%\item
+%	Show that 
+%	\begin{equation}
+%	\label{ch5_cos_zero}
+%	\cos 0^{\degree} = 1
+%	\end{equation}
+%
+%\solution Follows from the fact that $\cos 0 \degree = \sin \brak{90\degree -0\degree} = \sin \brak{90\degree }=1$ using \eqref{eq:tri_90-ang}.
+%
+%
+%%From \eqref{ch1_trig_defs}, $\theta \to 0\degree \implies a \to 0 \implies \sin \theta $ and %
+%
+%\item
+%	Show that 
+%	\begin{equation}
+%	\label{ch5_sin_zero}
+%	\sin 0^{\degree} = 0
+%	\end{equation}
+%%\solution Follows from the fact that $\sin 0 = 0$ and \eqref{eq:tri_sin_cos_id}.
+%
+%\item
+%	Show that for large values of $n$
+%	%
+%	\begin{equation}
+%\label{eq:cos_zero_lim}
+%	%
+%\cos^2\frac{\pi}{n} = 1
+%%
+%	\end{equation}	
+%	% 
+%
+%%
+%\solution  As $n \to \infty, \frac{\pi}{n} \to 0$. From \eqref{ch5_cos_zero}, this yields \eqref{eq:cos_zero_lim}.
+%
+%%
+%\item  \eqref{eq:cos_zero_lim} is a {\em limit} and 
+%	 expressed as 
+%%
+%\begin{equation}
+%\label{eq:cos_zero_lim_def}
+%\lim_{n \rightarrow \infty}\cos^2\frac{\pi}{n} = 1
+%\end{equation}
+%%	
+%
+%\item
+%	Show that 
+%	%
+%\begin{equation}
+%\label{ch5_circle_squeeze_tan_n}
+%\text{ area of circle } = r^2\lim_{n \rightarrow \infty}
+%{n\tan\frac{\pi}{n}} 
+%	%
+%\end{equation}	
+%	% 
+%\solution From \eqref{ch5_circle_squeeze_simple} and \eqref{eq:cos_zero_lim_def}, 
+%	%
+%	\begin{align}
+%%	\label{ch5_circle_squeeze_simple}
+%\lim_{n\to \infty}\cos^2\frac{\pi}{n} < \lim_{n\to \infty} \frac{\text{ area of circle }}{nr^{2}\tan\frac{\pi}{n}} < 1	
+%\\
+%1 = \lim_{n\to \infty} \frac{\text{ area of circle }}{nr^{2}\tan\frac{\pi}{n}} < 1	
+%\end{align}
+%	%
+%resulting in \eqref{ch5_circle_squeeze_tan_n}.
+%%
+%
+%%
+%\item Show that 
+%
+%	\begin{equation}
+%\label{eq:peri_poly_tan_n}
+%	\pi = \lim_{n \rightarrow \infty}
+%	{n\tan\frac{\pi}{n}}
+%	\end{equation}
+%\solution From \eqref{prob:circ_peri_dia} and \eqref{eq:peri_poly_n}, the perimeter of the circle is 
+%%
+%\begin{align}
+%\label{eq:peri_poly_sin_n}
+%\lim_{n\to \infty}2rn \sin\frac{\pi}{n} &= 2\pi r
+%\implies \lim_{n\to \infty}n \sin\frac{\pi}{n} &= \pi 
+%\end{align}
+%%
+%Also, from Fig. \eqref{ch5_circle_squeeze}, using the fact that the inner and outer polygons converge into a circle for large $n$,
+%\begin{align}
+%%\label{eq:peri_poly_n}
+%\lim_{n\to \infty} nCD -nAB &= 0
+%\\
+%\implies \lim_{n\to \infty} 2r n\tan\frac{\pi}{n}-2r n\sin\frac{\pi}{n} &= 0
+%\end{align}
+%%
+%from which, we obtain \eqref{eq:peri_poly_tan_n}
+%by substituting from \eqref{eq:peri_poly_sin_n}.
+%
+%
+%\item Show that the area of a circle is $\pi r^2$.
+%\\
+%\solution Use \eqref{eq:peri_poly_tan_n} in \eqref{ch5_circle_squeeze_tan_n}.
+%
+%%\item
+%%	The radian is a unit of angle defined by
+%%\begin{equation}
+%%	1 \text{ radian} = \frac{2\pi}{2\pi}
+%%\end{equation}
+%
+%%
+%%\item
+%%	Show that the circumference of a circle is $2 \pi r$.
+%\item
+%	Show that
+%	\begin{equation}
+%	\lim_{\theta \rightarrow 0} \frac{\sin\theta}{\theta} =
+%	\lim_{\theta \rightarrow 0} \frac{\tan\theta}{\theta} = 1
+%	\end{equation}
+%
+%\item
+%	Show that the area of a sector with angle $\theta$ in radians is $\frac{1}{2}r^2\theta$.
+%
+
+\end{enumerate}

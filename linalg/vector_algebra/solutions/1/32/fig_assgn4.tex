@@ -1,0 +1,8 @@
+\begin{tikzpicture}
+    \coordinate (B) at (0,0);
+    \coordinate (A) at (2,3);
+    \coordinate (C) at (4,0);
+    \coordinate (D) at (2,2);
+    \draw (A)node[above]{$A$}--(B)node[below]{$B$}--(C)node[below]{$C$}--cycle;
+    \draw (D)node[above]{$D$}--(B)node[]{}--(C)node[]{}--cycle;
+\end{tikzpicture}

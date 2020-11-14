@@ -1,0 +1,34 @@
+\documentclass[11pt]{article}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\begin{document}
+
+\begin{tikzpicture}[scale=1.5,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+      
+%Labeling points
+\node (A) at (0, 0)[point,label=below left:$A$] {};
+\node (C) at (5, 0)[point,label=below right:$C$] {};
+\node (B) at (7, 5.9)[point,label=above right:$B$] {};
+\node (D) at (0.86, 4.92)[point,label=above left:$D$] {};
+\node (O) at (1.95, 1.64)[point,label=above left:$O$] {};
+\node (P1) at (1.95, 0)[point,label=below left:$P_1$] {};
+\node (P2) at (0.33, 1.92)[point,label=above left:$P_2$] {};
+
+%Drawing quad ABCD
+\draw (A) -- node[below=5pt]{$\textrm{a}$}(C) -- (B) -- (D) -- (A);
+\draw[dotted] (A) -- (B)(O) -- (P1) -- (P2) -- (O);
+
+%marking angles
+\tkzMarkRightAngle[fill=blue!20, mark=|](C,P1,O)
+\tkzMarkRightAngle[fill=blue!20, mark=|](O,P2,D)
+\tkzMarkAngle[fill=green!20, mark=|](B,A,D)
+\tkzMarkAngle[fill=green!20, mark=|](C,A,B)
+
+%marking lines
+\tkzMarkSegment[color=black,pos=0.5,mark=s||](A,D)
+\tkzMarkSegment[color=black,pos=0.5,mark=s||](A,C)
+
+\end{tikzpicture}
+
+\end{document}
+

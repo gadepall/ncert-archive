@@ -1,0 +1,35 @@
+\begin{tikzpicture}
+[scale =2,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt},]
+
+\def\rad{2}
+\coordinate [point, label={right: $O$ }] (O) at (0, 2);
+\draw (O) circle (\rad);
+\node (P) at (0,0)[point,label=below :$P$] {};
+\node (X) at (2,0)[point,label=right :$X$] {};
+\node (Y) at (-4,0)[point,label=left :$Y$] {};
+\node (P_n) at (-1,0)[point,label=below  :$P_n$] {};
+\node (P_2) at (-2,0)[point,label=below  :$P_2$] {};
+\node (P_1) at (-3,0)[point,label=below  :$P_1$] {};
+
+\draw (O)--(P);
+\draw (X)--(Y);
+\draw (O)--(P_n);
+\draw (O)--(P_2);
+\draw (O)--(P_1);
+
+\tkzMarkAngle[size=.2](O,P,P_1);
+\draw (-0.2,0.2) node{$\theta$};
+
+%\tkzMarkRightAngle[size=.2](O,P,P_1);
+%\node [above] at (-2.3,0.24){\rotatebox{45}{$90-A$}};
+
+\node [above] at (-0.6,0.8){\rotatebox{59}{$r+d_n$}};
+\node [above] at (-1.1,0.8){\rotatebox{45}{$r+d_2$}};
+\node [above] at (-1.35,1){\rotatebox{35}{$r+d_1$}};
+\node [above] at (0.1,0.8){$r$};
+\node [above] at (-0.9,0.8){$\dots$};
+\node [above] at (-0.5,-0.3){$x_n$};
+\node [above] at (-1.6,-0.3){$\dots$};
+\node [above] at (-2.5,-0.3){$x_1$};
+
+\end{tikzpicture}

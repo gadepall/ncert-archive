@@ -1,0 +1,108 @@
+%%
+%\subsection{Perpendicular Bisectors}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Show that 
+\begin{align}
+\label{eq:tri_crad_R}
+\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R.
+\end{align}
+%
+\solution In $\triangle OBC$, using the cosine formula, 
+\begin{align}
+\cos 2A = \frac{R^2+R^2 - a^2}{2R^2} = 1 -\frac{a^2}{2R^2}
+\label{eq:crad_cos2a}
+\end{align}
+%
+Using the sine formula, 
+\begin{align}
+\frac{\sin 2A}{a} &= \frac{\sin \theta_1}{R} = \frac{\sin\brak{90\degree- A}}{R}
+\\
+\implies \sin 2A &= \frac{a\cos A}{R}
+\label{eq:crad_sin2a}
+\end{align}
+%
+from \eqref{eq:tri_ccentre_A1} and \eqref{eq:tri_baudh_comp}.	Using \eqref{eq:tri_sin_cos_id}, 
+\begin{align}
+\cos^2 2A + \sin^2 2A&= 1
+\\
+\implies \brak{1 -\frac{a^2}{2R^2}}^2 + \brak{\frac{a\cos A}{R}}^2 &= 1
+\end{align}
+%
+upon substituting from \eqref{eq:crad_cos2a}  and \eqref{eq:crad_sin2a}.  Letting
+%
+\begin{align}
+\label{eq:tri_crad_x}
+x = \brak{\frac{a}{R}}^2,
+\end{align}
+%
+in the previous equation yields
+%
+\begin{align}
+ \brak{1 -\frac{x}{2}}^2 + x\cos^2 A&= 1
+\\
+\implies 1 - \frac{x^2}{4} -x + x\cos^2 A&= 1
+\\
+\implies x\brak{1-\cos^2 A} - \frac{x^2}{4} &= 0
+\end{align}
+%
+From \eqref{eq:tri_sin_cos_id}, the above equation can be expressed as
+%
+\begin{align}
+x\sin^2 A - \frac{x^2}{4} &= 0
+\\
+\implies x\brak{\sin^2 A - \frac{x}{4}} &= 0
+\\
+\text{or, } \frac{x}{4} - \sin^2 A &=0
+\end{align}
+%
+$\because x \ne 0$.  Thus, substituting from \eqref{eq:tri_crad_x},
+\begin{align}
+x = \brak{\frac{a}{R}}^2 &= 4 \sin^2 A 
+\\
+\implies \frac{a}{R} &= 2\sin A,
+\\
+\text{or, }\quad \frac{a}{\sin A} = 2R
+%\label{eq:circ_chord_len}
+\end{align}
+%
+\item Show that 
+\label{eq:cos2x}
+\begin{align}
+\cos 2A &= 1 -2\sin^2 A = 2\cos^2 A - 1 
+\\
+&= \cos^2 A - \sin^2A \quad \text{ and }
+\\
+\sin 2A &= 2 \sin A \cos A
+\label{eq:sin2x}
+\end{align}
+\item Find $R$.
+\\
+\solution From \eqref{eq:tri_area_sin}, 
+\begin{align}
+ar\brak{\triangle ABC} = \frac{1}{2}bc \sin A = \frac{abc}{4R}&
+\\
+\implies R = \frac{abc}{4s\sqrt{\brak{s-a}\brak{s-b}\brak{s-c}}}&
+\end{align}
+%
+upon substituting from \eqref{eq:tri_crad_R} and using Hero's formula.
+%
+\item Show that
+%
+\begin{align}
+\label{eq:circ_area_chord}
+ar\brak{\triangle OBC} = \frac{1}{2}R^2\sin 2A
+\end{align}
+%
+\item Find the circumradius of $\triangle ABC$ for $a = 5, b = 6, c = 4$.
+%
+\\
+\solution The following python code calculates the circumradius
+\begin{lstlisting}
+codes/circle/tri_cradius.py
+\end{lstlisting}
+
+
+\end{enumerate}

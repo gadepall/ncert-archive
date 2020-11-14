@@ -1,0 +1,24 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Determinant of a $\brak{2 \times 2}$ matrix is calculated as follows
+\begin{align}
+\begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad-bc
+\label{eq:detform}
+\\
+\vec{A}=\myvec{1&2\\4&2}
+\label{eq:det1}
+\\
+\vec{2A}=\myvec{2&4\\8&4}
+\label{eq:det2}
+\end{align}
+Using \ref{eq:detform} ,\ref{eq:det1}, \ref{eq:det2}
+\begin{align}
+|A|=2-8=-6 \implies 4|A|=-24
+\\newline
+|2A|= 8-32=-24
+\\
+\implies |2A|=4|A|
+\end{align}
+\end{enumerate}

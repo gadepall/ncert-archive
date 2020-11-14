@@ -1,0 +1,60 @@
+%Code by GVV Sharma
+%December 11, 2019
+%released under GNU GPL
+%Medians meet at a point
+
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+%Triangle sides
+\def\a{5}
+\def\b{6}
+\def\c{4}
+ 
+%Coordinates of A
+\def\p{2.25}
+\def\q{{sqrt(\c^2-\p^2)}}
+
+%Labeling points
+\node (A) at (\p,\q)[point,label=above right:$A$] {};
+\node (B) at (0, 0)[point,label=below left:$B$] {};
+\node (C) at (\a, 0)[point,label=below right:$C$] {};
+
+%Foot of median
+
+\node (D) at ($(B)!0.5!(C)$)[point,label=below:$D$] {};
+\node (E) at ($(A)!0.5!(C)$)[point,label=right:$E$] {};
+\node (F) at ($(B)!0.5!(A)$)[point,label=left:$F$] {};
+
+%Drawing triangle ABC
+\draw (A) --  (B) -- (C) --  (A);
+
+%Drawing medians AD, BE and CF
+\draw (B) -- (E);
+\draw (D) -- (F);
+\node [above] at ($(F)!0.5!(D)$) {$O$};
+%\draw (C) -- (F);
+%\draw (A) -- (D);
+
+%Drawing EF
+\draw [dashed] (E) -- node[above] {$\frac{a}{2}$}(F);
+\draw [dashed] (E) -- node[right] {$\frac{c}{2}$}(D);
+
+%Centroid
+%\node (G) at ($(B)!0.67!(E)$)[label={[shift={(0.8,-0.5)}]$G$}] {};
+
+%Labeling sides
+\node [right] at ($(A)!0.5!(E)$) {$\frac{b}{2}$};
+\node [right] at ($(C)!0.5!(E)$) {$\frac{b}{2}$};
+\node [left] at ($(B)!0.5!(F)$) {$\frac{c}{2}$};
+\node [left] at ($(A)!0.5!(F)$) {$\frac{c}{2}$};
+\node [below] at ($(B)!0.5!(D)$) {$\frac{a}{2}$};
+\node [below] at ($(D)!0.5!(C)$) {$\frac{a}{2}$};
+%\node [above] at ($(E)!0.5!(G)$) {$p$};
+%\node [below] at ($(B)!0.5!(G)$) {$2p$};
+
+%\node (G) at ($(B)!0.67!(E)$)[label={[shift={(-0.8,-0.5)}]$G_1$}] {};
+
+%
+\end{tikzpicture}
+

@@ -1,0 +1,45 @@
+\subsection{Problem}
+\newcommand{\RE}{\mathrm{Re}}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+	\item Consider the experiment of throwing a die, if a multiple of 3 comes up, throw the die again and if any other number comes, toss a coin. Find the conditional probability of the event
+’the coin shows a tail’, given that ’at least one die shows a 3’.\\
+	\solution Let the event E be ”coin shows a tail” and F the event ”Atleast one die shows a 3”.We need to find the probability of the coin showing a tail, given that atleast one die shows a 3.i.e.$P\brak{\frac{E}{F}}$
+	
+
+Event E is satisfied by the following possibilities =
+\begin{align}
+\myvec{\bmat{1&T}&\bmat{2&T}&\bmat{4&T}&\bmat{5&T}}
+\end{align}
+	
+
+\begin{multline}
+P\brak{E} = P\brak{\bmat{1&T}} + P\brak{\bmat{2&T}}\\ + P\brak{\bmat{4&T}} + P\brak{\bmat{5&T}} 
+\end{multline}
+\begin{multline}
+P\brak{E} = \brak{\frac{1}{6}.\frac{1}{2}} + \brak{\frac{1}{6}.\frac{1}{2}} \\+ \brak{\frac{1}{6}.\frac{1}{2}} + \brak{\frac{1}{6}.\frac{1}{2}}\\
+\end{multline}
+\begin{align}
+P\brak{E} = \frac{4}{12} =\frac{1}{3}
+\end{align}
+	
+
+Event F is satisfied by the following possibilities =	
+\begin{align}
+\myvec{\bmat{3&1}&\bmat{3&2}&\bmat{3&3}&\bmat{3&4}&\bmat{3&5}&\bmat{3&6}&\bmat{6&3}}
+\end{align}
+
+\begin{multline}
+P\brak{E} = P\brak{\bmat{3&1}} + P\brak{\bmat{3&2}} + \\P\brak{\bmat{3&3}} + P\brak{\bmat{3&4}}+ P\brak{\bmat{3&5}} \\+ P\brak{\bmat{3&6}} + P\brak{\bmat{6&3}} 
+\end{multline}
+\begin{multline}
+P\brak{F} = \brak{\frac{1}{6}.\frac{1}{6}} + \brak{\frac{1}{6}.\frac{1}{6}} + \brak{\frac{1}{6}.\frac{1}{6}} \\+ \brak{\frac{1}{6}.\frac{1}{6}}+ \brak{\frac{1}{6}.\frac{1}{6}} + \brak{\frac{1}{6}.\frac{1}{6}} + \brak{\frac{1}{6}.\frac{1}{6}}
+\end{multline}
+\begin{align}
+P\brak{F} &= \frac{7}{36}\\
+Also E \cap F &= \phi\\
+P\brak{E \cap F} &=  0\\
+P\brak{\frac{E}{F}} &= \frac{P\brak{E \cap F}}{P\brak{F}} = 0
+\end{align}
+\end{enumerate}

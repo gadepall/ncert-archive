@@ -1,0 +1,18 @@
+\subsection{Problem}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Find the area of a parallelogram whose adjacent sides are given by the vectors 
+	$\myvec{3\\1\\4}$ and $\myvec{1\\-1\\1}$\\
+	The following python code computes the area of required parallelogram.
+	\begin{lstlisting}
+	./codes/quadrilateral/q3.py
+	\end{lstlisting}
+	
+	\solution The area is given as
+	\begin{align}
+	\frac{1}{2}\norm{\myvec{3\\1\\4}\times\myvec{1\\-1\\1}}
+	\end{align}
+	which is calculated and found as 3.24
+\end{enumerate}

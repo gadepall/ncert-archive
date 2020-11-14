@@ -1,0 +1,55 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item here
+\begin{align}
+\vec{d1} = \vec{R} - \vec{P} = \myvec{0\\4}
+\\
+\vec{d2} = \vec{S} - \vec{Q} = \myvec{-4\\0}
+\\
+\vec P - \vec S =  \myvec{2\\2}
+\\
+ \vec Q - \vec P = \myvec{2\\2}
+\\
+\norm{ \mathbf{\vec{d1}} \times \mathbf{\vec{d2}}} = 
+\norm{ \mathbf{\myvec{5\\1}} \times \mathbf{\myvec{1\\5}}} = 16
+\\
+\norm{ \mathbf{\left(\vec P - \vec S\right)} \times \mathbf{\left(\vec Q - \vec P\right)}} = \norm{ \mathbf{\myvec{2\\2}} \times \mathbf{\myvec{2\\2}}} = 8
+\\
+\frac{1}{2}\norm{ \mathbf{\vec{d1}} \times \mathbf \vec{d2}} = \norm{ \mathbf{\left(\vec P - \vec S\right)} \times \mathbf{\left(\vec Q - \vec P\right)}}= 8
+\end{align}
+from above we can say that tha area of the quadrileteral is equal to the half of the multiplication of its diogonals.thus this is a rhombus.
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\columnwidth]{./figures/line/quads/quad1.eps}
+	\caption{quadrilateral1 }
+	\label{fig:quadrilateral1}
+\end{figure}
+\begin{lstlisting}
+codes/line/quad/quad1.py
+\end{lstlisting}
+
+\item 
+\begin{align}
+\vec{Q} - \vec{P} &= \myvec{6\\-4}
+\\
+\vec{R} - \vec{P} &= \myvec{3\\-2}
+\\
+\vec{Q} - \vec{R} &= \myvec{3\\-2}
+\\
+\left(\vec{Q} - \vec{P}\right) &= \left(\vec{R} - \vec{P}\right) + \left(\vec{Q} - \vec{R}\right) &= \myvec{6\\-4}
+\end{align}
+so from above we can say that $\vec P,\vec Q$ and $\vec R$ are linear so it can not be a quadrilateral.
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\columnwidth]{./figures/line/quads/quad2.eps}
+	\caption{quadrilateral2 }
+	\label{fig:quadrilateral2}
+\end{figure}
+\begin{lstlisting}
+codes/line/quad/quad2.py
+\end{lstlisting}
+\end{enumerate}

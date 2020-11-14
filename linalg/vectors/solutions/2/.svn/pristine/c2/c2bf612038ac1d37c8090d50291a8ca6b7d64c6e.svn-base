@@ -1,0 +1,27 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}
+\numberwithin{equation}{enumi}
+
+\item \begin{flushleft}
+Determinant of a $2 x 2 $ matrix is obtained as follows
+\end{flushleft}
+
+\item \begin{align}
+A &= \mydet{ 
+a_{11}& a_{12}\\
+a_{21}& a_{22}
+} \nonumber \\
+detA &= a_{11}a_{22}-a_{12}a_{21}\label{eq:mat_determinants}
+\end{align}
+\item From \eqref{eq:mat_determinants}:
+\begin{align}
+(i)\ det &= \cos{\theta}^2 + \sin{\theta}^2 = 1 \\
+(ii)\  det &= x^3 - x^2 + 2
+\end{align}
+
+Python code to calculate the deteminant of a matrix:
+\begin{lstlisting}
+codes/line_ex/determinants/det.py
+\end{lstlisting}
+\end{enumerate}
+

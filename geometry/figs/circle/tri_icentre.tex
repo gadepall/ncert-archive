@@ -1,0 +1,67 @@
+%Code by GVV Sharma
+%December 10, 2019
+%released under GNU GPL
+%Locating the incentre
+
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+%Triangle sides
+\def\a{5}
+\def\b{6}
+\def\c{4}
+ 
+%Coordinates of A
+%\def\p{{\a^2+\c^2-\b^2}/{(2*\a)}}
+\def\p{0.5}
+\def\q{{sqrt(\c^2-\p^2)}}
+
+%Labeling points
+\node (A) at (\p,\q)[point,label=above right:$A$] {};
+\node (B) at (0, 0)[point,label=below left:$B$] {};
+\node (C) at (\a, 0)[point,label=below right:$C$] {};
+
+%Circumcentre
+
+\node (I) at (1.5,1.32287566)[point,label=right:$I$] {};
+\node (D) at (1.5,0)[point,label=below:$D$] {};
+\node (E) at (2.375,2.3150324)[point,label=above right:$E$] {};
+\node (F) at (0.1875,1.48823511)[point,label=left:$F$] {};
+
+%Drawing triangle ABC
+\draw (A) -- node[left] {$\textrm{c}$} (B) -- node[below] {$\textrm{a}$} (C) -- node[above,yshift=2mm] {$\textrm{b}$} (A);
+%Drawing OA, OB, OC
+\draw (I) --  (A);
+\draw (I) --  (B);
+\draw (I) --  (C);
+
+%Drawing OD, OE, OF
+\draw (I) -- node[right] {$\textrm{r}$} (D);
+\draw (I) -- node[below] {$\textrm{r}$} (E);
+\draw (I) -- node[below] {$\textrm{r}$} (F);
+
+\tkzMarkAngle[fill=green!60,size=.3](I,B,F)
+\tkzMarkAngle[fill=green!40,size=.3](D,B,I)
+%
+%
+\tkzMarkAngle[fill=red!60,size=.3](F,A,I)
+\tkzMarkAngle[fill=red!40,size=.3](I,A,E)
+
+
+\tkzMarkAngle[fill=orange!60](E,C,I)
+\tkzMarkAngle[fill=orange!40](I,C,D)
+%
+\tkzMarkRightAngle[fill=blue!20,size=.3](A,E,I)
+\tkzMarkRightAngle[fill=blue!20,size=.3](A,F,I)
+\tkzMarkRightAngle[fill=blue!20,size=.3](I,D,C)
+
+%Labeling x,y,z
+\node (x1) at ($(B)!0.5!(D)$)[label=below:$x$] {};
+\node (x2) at ($(B)!0.5!(F)$)[label=left:$x$] {};
+\node (y1) at ($(C)!0.5!(D)$)[label=below:$y$] {};
+\node (y2) at ($(C)!0.5!(E)$)[label=right:$y$] {};
+\node (z1) at ($(A)!0.5!(E)$)[label=right:$z$] {};
+\node (z2) at ($(A)!0.5!(F)$)[label=left:$z$] {};
+
+
+\end{tikzpicture}

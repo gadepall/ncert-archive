@@ -1,0 +1,44 @@
+
+
+Let $\vec{c_1}$ and $\vec{c_2}$ be the column vectors of the given matrix.
+\begin{align}
+    \vec{c_1} &= \myvec{3\\1} \label{eq:solutions/2/16/eq:1}\\
+    \vec{c_2} &= \myvec{2\\4} \label{eq:solutions/2/16/eq:2} 
+\end{align}
+
+The column vectors can be represented as,
+\begin{align}
+\vec{c_1} &=k_1\vec{u}_1 \label{eq:solutions/2/16/eq:3}\\
+\vec{c_2} &=r_1\vec{u}_1+k_2\vec{u}_2 \label{eq:solutions/2/16/eq:4}
+\end{align}
+where, 
+\begin{align}
+k_1 &= \norm{\vec{c_1}}\label{eq:solutions/2/16/eq:5}\\
+\vec{u_1} &= \frac{\vec{c_1}}{k_1} \label{eq:solutions/2/16/eq:6}\\
+r_1 &= \frac{\vec{u}_1^T\vec{c_2}}{\norm{\vec{u}_1}^2} \label{eq:solutions/2/16/eq:7}\\
+\vec{u_2} &= \frac{\vec{c_2} - r_1 \vec{u_1}}{\norm{\vec{c_2} - r_1 \vec{u_1}}} \label{eq:solutions/2/16/eq:8}\\
+k_2 &= {\vec{u_2}^T\vec{c_2}}\label{eq:solutions/2/16/eq:9}
+\end{align}
+
+From \eqref{eq:solutions/2/16/eq:3} and \eqref{eq:solutions/2/16/eq:4}, 
+\begin{align}
+\myvec{\vec{c_1} & \vec{c_2}} &= \myvec{\vec{u}_1 & \vec{u}_2}\myvec{k_1 & r_1 \\ 0 & k_2} \\
+\myvec{\vec{c_1} & \vec{c_2}} &= \vec{Q}\vec{R}
+\end{align}
+Where $\vec{R}$ is an upper triangular matrix and
+\begin{align}
+\vec{Q}^T\vec{Q}&=\vec{I}
+\end{align}
+Using equations \eqref{eq:solutions/2/16/eq:5} to \eqref{eq:solutions/2/16/eq:9} we get, 
+\begin{align}
+    k_1 &= \sqrt{3^2+1^2}=\sqrt{10} \label{eq:solutions/2/16/eq:10}\\
+    \vec{u_1} &= \frac{1}{\sqrt{10}}\myvec{3\\1}= \myvec{\frac{3}{\sqrt{10}} \\ \frac{1}{\sqrt{10}}} \\
+    r_1 &= \myvec{\frac{3}{\sqrt{10}} & \frac{1}{\sqrt{10}}}\myvec{2\\4}=\sqrt{10} \\
+    \vec{u_2} &= \myvec{\frac{-1}{\sqrt{10}} \\ \frac{3}{\sqrt{10}}} \\
+    k_2 &= \myvec{\frac{-1}{\sqrt{10}} & \frac{3}{\sqrt{10}}}\myvec{2\\4} = \sqrt{10} \label{eq:solutions/2/16/eq:11}
+\end{align}
+Now putting the values from \eqref{eq:solutions/2/16/eq:10} to \eqref{eq:solutions/2/16/eq:11}, we obtain the QR decomposition of given matrix, 
+\begin{align}
+    \myvec{3&2\\1&4} &= \myvec{\frac{3}{\sqrt{10}}&\frac{-1}{\sqrt{10}}\\\frac{1}{\sqrt{10}}&\frac{3}{\sqrt{10}}}\myvec{\sqrt{10}&\sqrt{10}\\0&\sqrt{10}}
+\end{align}
+

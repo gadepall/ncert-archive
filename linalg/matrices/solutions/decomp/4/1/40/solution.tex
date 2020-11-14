@@ -1,0 +1,43 @@
+Let $\vec{x}$ and $\vec{y}$ be the column vectors of the given matrix.
+\begin{align}
+    \vec{x} &= \myvec{12 \\\frac{7}{2} }\\
+    \vec{y} &= \myvec{\frac{7}{2} \\ -10}
+\end{align}
+The column vectors can be expressed as follows,
+\begin{align}
+    \vec{x} &= k_1\vec{u}_1\label{eq:solutions/4/1/40/eq_QR1}\\
+    \vec{y} &= r_1\vec{u}_1+k_2\vec{u}_2\label{eq:solutions/4/1/40/eq_QR2}
+\end{align}
+Here, 
+\begin{align}
+    k_1 &= \norm{\vec{x}}\label{eq:solutions/4/1/40/eq1}\\
+    \vec{u}_1 &= \frac{\vec{x}}{k_1}\\
+    r_1 &= \frac{\vec{u}_1^T\vec{y}}{\norm{\vec{u}_1}^2}\\
+    \vec{u}_2 &= \frac{\vec{y} - r_1 \vec{u}_1}{\norm{\vec{y} - r_1 \vec{u}_1}}\\
+    k_2 &= {\vec{u}_2^T\vec{y}}\label{eq:solutions/4/1/40/eq2}
+\end{align}
+The \eqref{eq:solutions/4/1/40/eq_QR1} and \eqref{eq:solutions/4/1/40/eq_QR2} can be written as, 
+\begin{align}
+\myvec{\vec{x} & \vec{y}} &= \myvec{\vec{u}_1 & \vec{u}_2}\myvec{k_1 & r_1 \\ 0 & k_2}\label{eq:solutions/4/1/40/QRMain}\\
+\myvec{\vec{x} & \vec{y}} &= \vec{Q}\vec{R}
+\end{align}
+Now, $\vec{R}$ is an upper triangular matrix and also,
+\begin{align}
+\vec{Q}^T\vec{Q}=\vec{I}
+\end{align}
+Now using equations \eqref{eq:solutions/4/1/40/eq1} to \eqref{eq:solutions/4/1/40/eq2} we get, 
+\begin{align}
+    k_1 &= \sqrt{\left(\frac{7}{2}\right)^2+12^2} = \frac{25}{2}\label{eq:solutions/4/1/40/eqval1}\\ 
+    \vec{u}_1 &= \myvec{\frac{24}{25} \\ \frac{7}{25}} \\
+    r_1 &= \myvec{\frac{24}{25}&\frac{7}{25}}\myvec{\frac{7}{2}\\-10} = \frac{14}{25}\\ 
+    \vec{u}_2 &= \myvec{\frac{7}{25} \\ -\frac{24}{25}} \\
+    k_2 &= \myvec{\frac{7}{25}&-\frac{24}{25}}\myvec{\frac{7}{2}\\-10} = \frac{529}{50}\label{eq:solutions/4/1/40/eqval2} 
+\end{align}
+Thus putting the values from \eqref{eq:solutions/4/1/40/eqval1} to \eqref{eq:solutions/4/1/40/eqval2} in \eqref{eq:solutions/4/1/40/QRMain} we obtain QR decomposition,
+\begin{align}
+    \myvec{12 & \frac{7}{2}\\ \frac{7}{2} & -10} =\myvec{\frac{24}{25}&\frac{7}{25}\\\frac{7}{25}&-\frac{24}{25}}\myvec{\frac{25}{2}&\frac{14}{25}\\0&\frac{529}{50}}
+\end{align}
+which can also be written as,
+\begin{align}
+   \myvec{12 & \frac{7}{2}\\ \frac{7}{2} & -10} =\myvec{-\frac{24}{25}&-\frac{7}{25}\\-\frac{7}{25}&\frac{24}{25}}\myvec{-\frac{25}{2}&-\frac{14}{25}\\0&-\frac{529}{50}}
+\end{align}

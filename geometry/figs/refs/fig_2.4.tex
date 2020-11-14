@@ -1,0 +1,21 @@
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+\node (D) at (0, 0)[point,label=below :$D$] {};
+\node (A) at (0, 3)[point,label=above :$A$]{};
+\node (B) at (-3, 0)[point,label=below left:$B$]{};
+\node (C) at (3, 0)[point,label=below right:$C$]{};
+
+\draw (D)--(B);
+\draw (B)--(A);
+\draw (A)--(C);
+\draw (C)--(D);
+\draw (D)--(A);
+
+\node [below] at (0,-0.3) {$a$};
+\node [below] at (-1.5,0) {$a/2$};
+\node [below] at (1.5, 0) {$a/2$};
+\node [above] at (-1.5,1.5){$c$};
+\node [above] at (1.5,1.5){$b$};
+
+\end{tikzpicture}

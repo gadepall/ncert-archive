@@ -1,0 +1,7 @@
+This directory contains solution for Exercise 8.5 , problem 49 of geometry manual which is a proof for the property of intersecting secants of a circle. 
+The latex code for the document is in the file document.tex. 
+Latex codes of differnt chapters of document are stored in chapters.
+All the latex codes of figures generaed by latex are stored in figs
+All the python codes used are stored in codes
+All the tables in .xlsx format converted to .tex format are stored in tables.
+

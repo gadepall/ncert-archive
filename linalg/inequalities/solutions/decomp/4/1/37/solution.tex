@@ -1,0 +1,45 @@
+Let $\vec{x}$ and $\vec{y}$ be the column vectors of the given matrix.
+\begin{align}
+    \vec{x} &= \myvec{7 \\ 2} \\
+    \vec{y} &= \myvec{3 \\ 4}
+\end{align}
+The column vectors can be expressed as follows,
+\begin{align}
+    \vec{x} &= k_1\vec{u}_1\label{eq:solutions/4/1/37/eq_QR1}\\
+    \vec{y} &= r_1\vec{u}_1+k_2\vec{u}_2\label{eq:solutions/4/1/37/eq_QR2}
+\end{align}
+Here, 
+\begin{align}
+    k_1 &= \norm{\vec{x}}\label{eq:solutions/4/1/37/eq1}\\
+    \vec{u}_1 &= \frac{\vec{x}}{k_1}\\
+    r_1 &= \frac{\vec{u}_1^T\vec{y}}{\norm{\vec{u}_1}^2}\\
+    \vec{u}_2 &= \frac{\vec{y} - r_1 \vec{u}_1}{\norm{\vec{y} - r_1 \vec{u}_1}}\\
+    k_2 &= {\vec{u}_2^T\vec{y}}\label{eq:solutions/4/1/37/eq2}
+\end{align}
+The \eqref{eq:solutions/4/1/37/eq_QR1} and \eqref{eq:solutions/4/1/37/eq_QR2} can be written as, 
+\begin{align}
+\myvec{\vec{x} & \vec{y}} &= \myvec{\vec{u}_1 & \vec{u}_2}\myvec{k_1 & r_1 \\ 0 & k_2}\\
+\myvec{\vec{x} & \vec{y}} &= \vec{Q}\vec{R}\label{eq:solutions/4/1/37/QRMain}
+\end{align}
+Now, $\vec{R}$ is an upper triangular matrix and also,
+\begin{align}
+\vec{Q}^T\vec{Q}=\vec{I}
+\end{align}
+Now using equations \eqref{eq:solutions/4/1/37/eq1} to \eqref{eq:solutions/4/1/37/eq2} we get, 
+\begin{align}
+    k_1 &= \sqrt{7^2+2^2} = \sqrt{53}\label{eq:solutions/4/1/37/eqval1}\\ 
+    \vec{u}_1 &= \frac{1}{\sqrt{53}}\myvec{7\\2}\\
+    \vec{u}_1 &= \myvec{\frac{7}{\sqrt{53}} \\ \frac{2}{\sqrt{53}}} \\
+    r_1 &= \myvec{\frac{7}{\sqrt{53}}&\frac{2}{\sqrt{53}}}\myvec{3\\4} = \frac{29}{\sqrt{53}}\\ 
+    \vec{u}_2 &= \frac{1}{\sqrt{53}}\myvec{2\\-7}\\
+    \vec{u}_2 &= \myvec{\frac{2}{\sqrt{53}} \\ -\frac{7}{\sqrt{53}}} \\
+    k_2 &= \myvec{\frac{2}{\sqrt{53}}&-\frac{7}{\sqrt{53}}}\myvec{3\\4} = -\frac{22}{\sqrt{53}}\label{eq:solutions/4/1/37/eqval2} 
+\end{align}
+Thus putting the values from \eqref{eq:solutions/4/1/37/eqval1} to \eqref{eq:solutions/4/1/37/eqval2} in \eqref{eq:solutions/4/1/37/QRMain} we obtain QR decomposition,
+\begin{align}
+    \myvec{7 & 3 \\ 2 & 4} =\myvec{\frac{7}{\sqrt{53}}&\frac{2}{\sqrt{53}}\\\frac{2}{\sqrt{53}}&-\frac{7}{\sqrt{53}}}\myvec{\sqrt{53}&\frac{29}{\sqrt{53}}\\0&-\frac{22}{\sqrt{53}}}
+\end{align}
+Which can also be written as,
+\begin{align}
+    \myvec{7 & 3 \\ 2 & 4} =\myvec{-\frac{7}{\sqrt{53}}&-\frac{2}{\sqrt{53}}\\-\frac{2}{\sqrt{53}}&\frac{7}{\sqrt{53}}}\myvec{-\sqrt{53}&-\frac{29}{\sqrt{53}}\\0&\frac{22}{\sqrt{53}}}
+\end{align}

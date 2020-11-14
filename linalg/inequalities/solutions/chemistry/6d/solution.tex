@@ -1,0 +1,75 @@
+Let the balanced version of \eqref{eq:solutions/chem/6d1} be:-
+\begin{align}\label{eq:solutions/chem/6d3}
+x_1BaCl_2 + x_2H_2SO_4 \xrightarrow{} x_3BaSO_4 + x_4HCl
+\end{align}
+which results in the following equations:-
+\begin{equation}
+ \begin{aligned}
+    (x_1-x_3)Ba=0\\
+    (x_2-x_4)SO_4=0\\
+    (2x_2-x4)H=0\\
+    (2x_1-x_4)Cl=0
+ \end{aligned}
+\end{equation}
+which can be expressed as:-
+\begin{equation}
+ \begin{aligned}
+    1.x_1 + 0.x_2 - 1.x_3 + 0.x_4=0\\
+    0.x_1 + 1.x_2 + 0.x_3 - 1.x_4=0\\
+    0.x_1 + 2.x_2 + 0.x_3 - 1.x4=0\\
+    2.x_1 + 0.x_2 + 0.x_3 - 1.x_4=0
+ \end{aligned}
+\end{equation}
+resulting in the matrix equation:-
+\begin{align}\label{eq:solutions/chem/6d2}
+    \myvec{1 & 0 & -1 & 0\\0 & 1 & 0 & -1\\0 & 2 & 0 & -1\\2 & 0 & 0 & -1}\vec{x}=\vec{0}
+\end{align}
+where
+\begin{align}
+    \vec{x}=\myvec{x_1\\x_2\\x_3\\x_4}
+\end{align}
+equation \eqref{eq:solutions/chem/6d2} can be row reduced as follows
+\begin{align}
+   \myvec{
+ 1 & 0 & -1 & 0\\  
+ 0 & 1 & -1 & 0\\
+ 0 & 2 & 0 & -1\\
+ 2 & 0 & 0 & -1
+}\xleftrightarrow[]{R4\leftarrow R4-2R1}\myvec{
+1 & 0 & -1 & 0\\
+0 & 1 & -1 & 0\\
+0 & 2 & 0 & -1\\
+0 & 0 & 2 & -1}
+\end{align}
+\begin{align}
+   \myvec{
+1 & 0 & -1 & 0\\
+0 & 1 & -1 & 0\\
+0 & 2 & 0 & -1\\
+0 & 0 & 2 & -1}\xleftrightarrow[]{R3\leftarrow R3-2R2} \myvec{
+1 & 0 & -1 & 0\\
+0 & 1 & -1 & 0\\
+0 & 0 & 2 & -1\\
+0 & 0 & 2 & -1}
+\end{align}
+\begin{align}
+    \myvec{
+1 & 0 & -1 & 0\\
+0 & 1 & -1 & 0\\
+0 & 0 & 2 & -1\\
+0 & 0 & 2 & -1}\xleftrightarrow[]{R4\leftarrow R4-R3} \myvec{
+1 & 0 & -1 & 0\\
+0 & 1 & -1 & 0\\
+0 & 0 & 2 & -1\\
+0 & 0 & 0 & 0}
+\end{align}
+Thus,
+\begin{align}
+    x_1=x_3,x_2=x_3,2x_3=x_4\\
+    \vec{x}=x_3\myvec{1\\1\\1\\2}\label{eq:solutions/chem/6d4}
+\end{align}
+Upon substituting $x_3=1$ in\eqref{eq:solutions/chem/6d4},then \eqref{eq:solutions/chem/6d3} becomes,
+\begin{align}\label{eq:solutions/chem/6d5}
+    \boxed{BaCl_2 + H_2SO_4 \xrightarrow{} BaSO_4 + 2HCl}
+\end{align}
+ \eqref{eq:solutions/chem/6d5} is our required balance equation.

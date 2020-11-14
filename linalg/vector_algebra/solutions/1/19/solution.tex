@@ -1,0 +1,37 @@
+See Fig. \ref{trifig1:solutions/1/19/}
+
+Let $\vec{D}$ divide $BC$ internally in ratio $1:k$ where $0<k<1$. Then
+
+\begin{figure}[!h]
+\resizebox{\columnwidth}{!}{
+\input{./solutions/1/19/trifig.tex}
+}
+        \caption{}  
+\label{trifig1:solutions/1/19/}
+\end{figure}
+
+\begin{align}
+	\vec{D} = \frac{k\vec{B}+\vec{C}}{k+1} 
+\end{align}
+The direction vector along $AD$ is $\vec{D}-\vec{A}$.
+\begin{align}
+	\implies \quad
+	\vec{D-A} &= \frac{k(\vec{B}-\vec{A})+(\vec{C}-\vec{A})}{k+1} 
+	\\
+	\implies \quad
+	\norm{\vec{D-A}}^2 &= \frac{k^2 \norm{\vec{B-A}}^2
+		+ \norm{\vec{C-A}}^2}{(k+1)^2}
+\end{align}
+	Since $\norm{\vec{D-A}} = \norm{\vec{C-A}}$, so that
+\begin{align}
+	\norm{\vec{D-A}}^2 \cbrak{1-\frac{1}{(k+1)^2} } 
+		= \frac{k^2 \norm{\vec{B-A}}^2}{(k+1)^2} 
+	\\
+	\implies \quad
+	\norm{\vec{B-A}}^2 = \cbrak{1+\frac{2}{k}} \norm{\vec{D-A}}^2
+	\\
+	\implies \quad
+	\norm{\vec{B-A}}^2 > \norm{\vec{D-A}}^2
+	\\
+	\implies \quad AB > AD
+\end{align}

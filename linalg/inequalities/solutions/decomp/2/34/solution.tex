@@ -1,0 +1,42 @@
+  Let $\alpha$ and $\beta$ be transpose of column vectors of the given matrix.
+  \begin{align}
+\alpha=\myvec{3\\-4}\\
+\beta=\myvec{1\\1}
+\end{align}
+We can express these as
+\begin{align}
+\alpha=k_1\vec{u}_1\label{eq:solutions/2/34/2.0.3}\\
+\beta=r_1\vec{u}_1+k_2\vec{u}_2\label{eq:solutions/2/34/2.0.4}
+\end{align}
+where 
+\begin{align}
+k_1 = \norm{\alpha}\label{eq:solutions/2/34/2.0.5}\\\vec{u}_1 = \frac{\vec{\alpha}}{k_1} 
+\\
+r_1 = \frac{\vec{u}_1^T\beta}{\norm{\vec{u}_1}^2}\\
+\vec{u}_2 = \frac{\beta - r_1 \vec{u}_1}{\norm{\beta - r_1 \vec{u}_1}}
+\\
+k_2 = {\vec{u}_2^T\beta}\label{eq:solutions/2/34/2.0.9}
+\end{align}
+From \eqref{eq:solutions/2/34/2.0.3} and \eqref{eq:solutions/2/34/2.0.4}, 
+\begin{align}
+\myvec{\alpha & \beta } = \myvec{\vec{u}_1 & \vec{u}_2}\myvec{k_1 & r_1 \\ 0 & k_2} \\
+\myvec{\alpha & \beta } = \vec{Q}\vec{R}
+\end{align}
+From above we can see that $\vec{R}$ is an upper triangular matrix and
+\begin{align}
+\vec{Q}^T\vec{Q}=\vec{I}
+\end{align}
+Now by using equations \eqref{eq:solutions/2/34/2.0.5} to \eqref{eq:solutions/2/34/2.0.9} 
+\begin{align}
+k_1 =5\\ \vec{u}_1 = \frac{1}{5} \myvec{3\\-4},
+\\
+r_1 = \frac{-1}{5}\\ \vec{u}_2 = \frac{5}{7}\myvec{\frac{28}{25}\\[0.1cm] \frac{21}{25}}\\
+k_2 = \frac{7}{5}
+\end{align}
+Thus obtained QR decomposition is
+\begin{align}
+\myvec{3&1\\-4&1}=\myvec{\frac{3}{5}&\frac{4}{5}\\[0.1cm]
+-\frac{4}{5}&\frac{3}{5}}
+\myvec{5&-\frac{1}{5}\\[0.1cm]
+0&\frac{7}{5}}
+\end{align}

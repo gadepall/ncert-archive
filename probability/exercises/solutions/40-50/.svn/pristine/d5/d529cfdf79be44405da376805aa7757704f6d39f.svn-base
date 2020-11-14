@@ -1,0 +1,10 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item The no.of elements in the given data=$n$= 10
+\item Since $n$ is even , the median is given by the average of $\brak{\frac{n}{2}}^{th}$ and$\brak{\frac{n}{2}+1}^{th}$ element.
+\begin{align}
+\frac{x+x+2}{2}&= 63\\
+x&= 62
+\end{align}
+\end{enumerate}

@@ -1,0 +1,121 @@
+
+The lines will intersect if
+\begin{align}
+\myvec{1\\1\\0}+\lambda_1\myvec{2\\-1\\1}=\myvec{2\\1\\-1}+\lambda_2\myvec{3\\-5\\2}\\
+\myvec{2&3\\-1&-5\\1&2}\myvec{x_1\\x_2}=\myvec{1\\0\\-1}\\
+\vec{M}\vec{x}=\vec{b}
+\end{align}
+Since the rank of augmented matrix will be 3. We can say that lines do not intersect.
+\begin{align}
+\vec{M}=\vec{U}\vec{S}\vec{V}^T\label{eq:solutions/3/1/2.0.4}
+\end{align}
+Where the columns of $\vec{V}$ are the eigenvectors of $\vec{A}^T\vec{A}$ ,the columns of $\vec{U}$ are the eigenvectors of $\vec{A}\vec{A}^T$ and $\vec{S}$ is diagonal matrix of singular value of eigenvalues of $\vec{A}^T\vec{A}$.
+\begin{align}
+\vec{M}^T\vec{M}=\myvec{6&13\\13&38}\label{eq:solutions/3/1/2.0.6}\\
+\vec{M}\vec{M}^T=\myvec{13&-17&8\\-17&26&-11\\8&-11&5}
+\end{align}
+Calculating eigen value of $\vec{M}^T\vec{M}$.
+\begin{align}
+\begin{vmatrix}
+6-\lambda&13\\13&38-\lambda
+\end{vmatrix}
+\lambda^2-44\lambda+59=0\\
+\lambda_2=-5\sqrt{17}+22,\lambda_1=5\sqrt{17}+22
+\end{align}
+Eigen vectors of $\vec{M}$$\vec{M}^T.$
+\begin{align}
+\begin{vmatrix}
+13-\lambda&-17&8\\17&26-\lambda&-11\\8&-11&5-\lambda
+\end{vmatrix}
+-\lambda^3+44\lambda^2-59\lambda=0\\
+\lambda_4=-5\sqrt{17}+22,\lambda_3=5\sqrt{17}+22,\lambda_5=0,
+\end{align}
+Hence,The eigenvectors will be
+\begin{align}
+\vec{u}_2=\myvec{\frac{\sqrt{17}+12}{5}\\\frac{3\sqrt{17}+1}{5}\\1}
+\vec{u}_1=\myvec{\frac{-\sqrt{17}+12}{5}\\\frac{-3\sqrt{17}+1}{5}\\1}
+\vec{u}_3=\myvec{\frac{-3}{7}\\\frac{1}{7}\\1}
+\end{align}
+Normalising the eigenvectors
+\begin{align}
+l_1=\sqrt{{\left(\frac{12-\sqrt{17}}{5}\right)}^2+{\left(\frac{1-3\sqrt{17}}{5}\right)}^2+1^2}\\
+\vec{u}_1=\myvec{\frac{-\sqrt{17}+12}{\sqrt{340-30\sqrt{17}}}\\\frac{-3\sqrt{17}+1}{\sqrt{340-30\sqrt{17}}}\\\frac{5}{\sqrt{340-30\sqrt{17}}}}\\
+\end{align}
+\begin{align}
+l_2=\sqrt{\left({\frac{\sqrt{17}+12}{5}}\right)^2+\left({\frac{3\sqrt{17}+1}{5}}\right)^2+1^2}\\
+\vec{u}_2=\frac{5}{\sqrt{340+30\sqrt{7}}}\myvec{\frac{\sqrt{17}+12}{5}\\\frac{3\sqrt{17}+1}{5}\\1}\\
+\vec{u}_2=\myvec{\frac{\sqrt{17}+12}{\sqrt{340+30\sqrt{17}}}\\\frac{3\sqrt{17}+1}{\sqrt{340+30\sqrt{17}}}\\\frac{5}{\sqrt{340+30\sqrt{17}}}}
+\end{align}
+\begin{align}
+l_3=\sqrt{\left({\frac{-3}{7}}\right)^2+\left({\frac{1}{7}}\right)^2+1^2}\\
+\vec{u}_3=\frac{7}{\sqrt{59}}\myvec{\frac{-3}{7}\\\frac{1}{7}}\\
+\vec{u}_3=\myvec{\frac{-3}{\sqrt{59}}\\\frac{1}{\sqrt{59}}\\\frac{7}{\sqrt{59}}\\\frac{7}{\sqrt{59}}}
+\end{align}
+\begin{align}
+\vec{U}=\myvec{\frac{-\sqrt{17}+12}{\sqrt{340-30\sqrt{17}}}&\frac{\sqrt{17}+12}{\sqrt{340+30\sqrt{17}}}&\frac{-3}{\sqrt{59}}\\\frac{-3\sqrt{17}+1}{\sqrt{340-30\sqrt{17}}}&\frac{3\sqrt{17}+1}{\sqrt{340+30\sqrt{17}}}&\frac{1}{\sqrt{59}}\\\frac{5}{\sqrt{340-30\sqrt{17}}}&\frac{5}{\sqrt{340+30\sqrt{17}}}&\frac{7}{\sqrt{59}}}
+\end{align}
+Now,
+\begin{align}
+\vec{S}=\myvec{\sqrt{5\sqrt{17}+22}&0\\0&\sqrt{-5\sqrt{17}+22}\\0&0}
+\end{align}
+Now, $\vec{V}=\vec{M}^T\frac{\vec{u_i}}{\sqrt{\lambda_i}}$
+\begin{align}
+\vec{V}=\myvec{\frac{\sqrt{17}+28}{\sqrt{340-30\sqrt{17}}\sqrt{5\sqrt{17}+22}}&\frac{-\sqrt{17}+28}{\sqrt{340+30\sqrt{17}}\sqrt{-5\sqrt{17}+22}}\\\frac{12\sqrt{17}+41}{\sqrt{340-30\sqrt{17}}\sqrt{5\sqrt{17}+22}}&\frac{-12\sqrt{17}+41}{\sqrt{340+30\sqrt{17}}\sqrt{-5\sqrt{17}+22}}}
+\end{align}
+So,from equation \eqref{eq:solutions/3/1/2.0.4}
+\begin{align}
+%\begin{multlined}
+\myvec{2&3\\-1&-5\\1&2}=\\
+\myvec{\frac{-\sqrt{17}+12}{\sqrt{340-30\sqrt{17}}}&\frac{\sqrt{17}+12}{\sqrt{340+30\sqrt{17}}}&\frac{-3}{\sqrt{59}}\\\frac{-3\sqrt{17}+1}{\sqrt{340-30\sqrt{17}}}&\frac{3\sqrt{17}+1}{\sqrt{340+30\sqrt{17}}}&\frac{1}{\sqrt{59}}\\\frac{5}{\sqrt{340-30\sqrt{17}}}&\frac{5}{\sqrt{340+30\sqrt{17}}}&\frac{7}{\sqrt{59}}}\\\myvec{\sqrt{5\sqrt{17}+22}&0\\0&\sqrt{-5\sqrt{17}+22}\\0&0}\\\myvec{\frac{\sqrt{17}+28}{\sqrt{340-30\sqrt{17}}\sqrt{5\sqrt{17}+22}}&\frac{-\sqrt{17}+28}{\sqrt{340+30\sqrt{17}}\sqrt{-5\sqrt{17}+22}}\\\frac{12\sqrt{17}+41}{\sqrt{340-30\sqrt{17}}\sqrt{5\sqrt{17}+22}}&\frac{-12\sqrt{17}+41}{\sqrt{340+30\sqrt{17}}\sqrt{-5\sqrt{17}+22}}}^T
+%\end{multlined}
+\end{align}
+Now, Finding Moore-Penrose Pseudo inverse of $\vec{S}$
+\begin{align}
+\vec{S}_+=\myvec{\frac{1}{\sqrt{5\sqrt{17}+22}}&0&0\\0&\frac{1}{\sqrt{-5\sqrt{17}+22}}&0}
+\end{align}
+We,know that,
+$\vec{x}=\vec{V}(\vec{S}_+(\vec{U}^T\vec{b}))$
+\begin{align}
+\vec{U}^T\vec{b}=\myvec{\frac{-\sqrt{17}+7}{\sqrt{340-30\sqrt{17}}}\\\frac{\sqrt{17}+7}{\sqrt{340+0\sqrt{17}}}\\\frac{-10}{\sqrt{59}}}\\
+\vec{S}_+(\vec{U}^T\vec{b})=\myvec{\frac{-\sqrt{17}+7}{\sqrt{340-30\sqrt{17}}\sqrt{5\sqrt{17}+22}}\\\frac{\sqrt{17}+7}{\sqrt{340+30\sqrt{17}}\sqrt{-5\sqrt{17}+22}}}\\
+%\begin{multlined}
+\vec{x}=\myvec{\frac{\sqrt{17}+28}{\sqrt{340-30\sqrt{17}}\sqrt{5\sqrt{17}+22}}&\frac{-\sqrt{17}+28}{\sqrt{340+30\sqrt{17}}\sqrt{-5\sqrt{17}+22}}\\\frac{12\sqrt{17}+41}{\sqrt{340-30\sqrt{17}}\sqrt{5\sqrt{17}+22}}&\frac{-12\sqrt{17}+41}{\sqrt{340+30\sqrt{17}}\sqrt{-5\sqrt{17}+22}}}\\
+\myvec{\frac{-\sqrt{17}+7}{\sqrt{340-30\sqrt{17}}\sqrt{5\sqrt{17}+22}}\\\frac{\sqrt{17}+7}{\sqrt{340+30\sqrt{17}}\sqrt{-5\sqrt{17}+22}}}
+%\end{multlined}
+\\
+\vec{x}=\myvec{\frac{2507500}{(4930-1040\sqrt{17})(4930+1040\sqrt{17})}\\\frac{-702100}{(4930-1040\sqrt{17})(4930+1040\sqrt{17})}}
+\end{align}
+Simplifying the values of $x_1$ and $x_2$
+\begin{align}
+x_2=\frac{-702100}{(4930-1040\sqrt{17})(4930+1040\sqrt{17})}\\
+=\frac{-702100}{591700}\\
+=-\frac{7}{59}
+\end{align}
+\begin{align}
+x_1=\frac{2507500}{(4930-1040\sqrt{17})(4930+1040\sqrt{17})}\\
+=\frac{2507500}{591700}\\
+=\frac{25}{59}
+\end{align}
+Now, Verifying the values using
+\begin{align}
+\vec{M}^T\vec{M}\vec{x} = \vec{M}^T\vec{b}
+\end{align}
+Solving R.H.S
+\begin{align}
+\vec{M}^T\vec{M}\vec{x} =\myvec{1\\1}\label{eq:solutions/3/1/2.0.31}
+\end{align}
+Now using equation \eqref{eq:solutions/3/1/2.0.6} in \eqref{eq:solutions/3/1/2.0.31}
+\begin{align}
+\myvec{6&13\\13&38}\myvec{x_1\\x_2}=\myvec{1\\1}
+\end{align}
+Solving the augmented matrix.
+\begin{align}
+\myvec{6&13&1\\13&38&1} \xleftrightarrow{R_2-{\frac{13}{6}}R_1}\myvec{6&13&1\\0&\frac{59}{6}&-\frac{7}{6}}\\
+\frac{59}{6}x_2=-\frac{7}{6}\\
+6x_1+13x_2=1
+\end{align}
+\begin{align}
+x_1= \frac{25}{59},
+x_2=-\frac{7}{59}\\
+\vec{x}=\myvec{\frac{25}{59}\\-\frac{7}{59}}
+\end{align}

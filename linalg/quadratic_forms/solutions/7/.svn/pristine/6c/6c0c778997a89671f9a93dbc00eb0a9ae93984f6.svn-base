@@ -1,0 +1,21 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item If PQ is parallel to y axis then x coordiantes doesn't change. Therefore $x_1 = x_2 = x$. Hence, $\vec{P} = \myvec{x\\y_1}$ and $\vec{Q}= \myvec{x\\y_2}$. Distance between $\vec{P}$ and $\vec{Q}$ is given by
+\begin{align}
+\sqrt{\brak{\vec{P}-\vec{Q}}^T\brak{\vec{P}-\vec{Q}}} \\
+= \sqrt{\myvec{0\\y_1 - y_2}^T\myvec{0\\y_1 - y_2}} \\
+= y_1 - y_2
+\end{align}
+Distance between the points is $y_1 - y_2$
+
+\item If PQ is parallel to x axis then y coordiantes doesn't change. Therefore $y_1 = y_2 = y$. Hence, $\vec{P} = \myvec{x_1\\y}$ and $\vec{Q}= \myvec{x_2\\y}$. Distance between $\vec{P}$ and $\vec{Q}$ is given by
+\begin{align}
+\sqrt{\brak{\vec{P}-\vec{Q}}^T\brak{\vec{P}-\vec{Q}}} \\
+= \sqrt{\myvec{x_1 - x_2\\0}^T\myvec{x-1 - x_2\\0}} \\
+= x_1 - x_2
+\end{align}
+Distance between the points is $x_1 - x_2$
+
+\end{enumerate}

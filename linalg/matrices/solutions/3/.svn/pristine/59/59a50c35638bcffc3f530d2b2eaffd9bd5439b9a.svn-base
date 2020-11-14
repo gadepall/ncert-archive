@@ -1,0 +1,300 @@
+\documentclass{beamer}
+\usepackage{listings}
+\lstset{
+%language=C,
+frame=single,
+breaklines=true,
+columns=fullflexible
+}
+\usepackage{subcaption}
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+%\usetkzobj{all}
+\usetikzlibrary{calc,math}
+\usepackage{float}
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\usepackage[export]{adjustbox}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usetheme{Boadilla}
+
+\title{Parallel line running through a trapezium}
+\author{Krishnaja Kodali}
+\institute{National Institute of Technology, Rourkela.}
+\date{\today}
+\begin{document}
+
+
+\begin{frame}
+\titlepage
+\end{frame}
+\section{Question}
+\begin{frame}
+\frametitle{Question}
+\begin{block}{Exercise 8.1,Q.47}
+ABCD is a trapezium with $AB \parallel DC$. E and F are points on non parallel sides AD and BC respectively such that EF is parallel to AB. Show that:
+$$\frac{AE}{ED} = \frac{BF}{FC}$$
+\begin{figure}
+\begin{subfigure}{0.5\textwidth}
+\centering
+\input{./figs/ques.tex}
+\caption{\tiny Fig 1.Trapezium ABCD}
+\end{subfigure}
+\end{figure}
+\end{block}
+\end{frame}
+
+
+\section{\textbf{Construction:Figures}}
+\subsection*{To Construct:}
+\begin{frame}[fragile]
+\frametitle{Construction:Figures}
+\tiny
+\textbf{Construct AX and BY such that $AX \perp CD$ and $BY \perp CD$. Let AX and BY meet EF at points M and N respectively as shown in the Fig 2 and Fig 3.}
+%figure generated in python
+\begin{figure}
+\centering
+\begin{subfigure}{0.3\textwidth}
+\includegraphics[scale=0.375]{./codes/pyfigs/pyfigs.eps}
+\caption{\tiny Fig 2.Generated using python}
+\end{subfigure}
+
+%figure generated in latex
+\begin{subfigure}{0.3\textwidth}
+\centering
+\input{./figs/prob.tex}
+\caption{\tiny Fig 3. Generated using latex-tikz}
+\end{subfigure}
+\end{figure}
+
+%
+\end{frame}
+
+\subsection*{Codes and constructions}
+\begin{frame}[fragile]
+\footnotesize
+\frametitle{Construction:Codes and inputs}
+\begin{flushleft}
+The Fig 2 is generated using the following python code:
+\begin{lstlisting}
+./codes/prob.py
+\end{lstlisting}
+The following latex-tikz code has been used to construct Fig 3
+\begin{lstlisting}
+./figs/prob.tex
+\end{lstlisting}
+\end{flushleft}.%
+%
+
+The input parameters used contruct the Trapezium are listed in the below table:
+\begin{table}[htbp]
+\centering
+  \resizebox{0.7\textwidth}{!}{\begin{minipage}{\textwidth}
+\begin{tabular}{ |p{3cm}|p{3cm}|  }
+\hline
+ \multicolumn{2}{|c|}{Input parameters and their values} \\
+\hline
+Length of AB (a) & 4\\
+\hline
+Length of DC (c) & 9\\
+\hline
+Length of AD (d) & 5\\
+
+\hline
+Height of the trapezium (h) & 3\\
+\hline
+Height at which EF is drawn (k) & 1.5\\
+\hline
+\end{tabular}
+\end{minipage}}
+\caption{\tiny Input values of $trapezium ABCD$}
+\end{table}
+\end{frame}
+
+
+\begin{frame}{Construction:Finding the Coordinates}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+The coordinates of $trapezium ABCD$ are found below:
+\newline
+\newline
+Vertex D is considered to be lying on the origin. That is,
+$$\vec{D}= \begin{pmatrix}0\\0\end{pmatrix}$$
+If DC is along the x-axis, then coordinates of C are given by,
+$$\vec{C}=\begin{pmatrix}c\\0\end{pmatrix}=\begin{pmatrix}9\\0\end{pmatrix}$$
+
+\end{column}
+\begin{column}{0.5\textwidth}
+To find coordinates of A,
+\newline
+\newline
+Given:
+\newline
+Length of AD = d = 5.
+Also y coordinate of A is same as the height of trapezium.Let the x coordinate be x.
+\newline
+\newline
+Then, by distance formulae
+$$AD = \norm{\vec{D}-\vec{A}} = \sqrt{x^2+h^2} = d$$
+$$\therefore x = \sqrt{d^2-h^2} = \sqrt{5^2-3^2}$$
+$$\vec{A}=\begin{pmatrix}4\\3\end{pmatrix}$$
+
+
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Construction:Finding the Coordinates}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+A and B are parallel to x axis and AB = a = 4. Coordinates of B are given as:
+$$\vec{B}=\begin{pmatrix}8\\3\end{pmatrix}$$
+\newline
+M and X have same x coordinate as A.
+y coordinate of M = k and y coordinate of X is 0 from fig 2.Therefore:
+$$\vec{M}=\begin{pmatrix}4\\1.5\end{pmatrix}$$
+$$\vec{X}=\begin{pmatrix}4\\0\end{pmatrix}$$
+\end{column}
+\begin{column}{0.5\textwidth}
+Similarly,Coordinates of N and Y are given as,
+$$\vec{N}=\begin{pmatrix}8\\1.5\end{pmatrix}\vec{Y}=\begin{pmatrix}8\\0\end{pmatrix}$$
+E lies on line AD whose equation is $3*x =4*y $ and y coordinate of E = k = 1.5.
+$$\vec{E}=\begin{pmatrix}2\\3\end{pmatrix}$$
+Similarly F lies on BC having equation $ 3x + y - 9 = 0$
+$$\vec{F}=\begin{pmatrix}8.5\\3\end{pmatrix}$$
+
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Contstruction:Output coordinates}
+The coordinates derived are tabulated below:
+\begin{table}[htbp]
+\begin{minipage}{0.5\textwidth}
+\centering
+\begin{tabular}{|c|c|}
+\hline
+$\vec{D}$ & $\begin{pmatrix}0\\0\end{pmatrix}$\\
+\hline
+$\vec{C}$ & $\begin{pmatrix}9\\0\end{pmatrix} $\\
+\hline
+$\vec{A}$ & $\begin{pmatrix}4\\3\end{pmatrix}$\\
+\hline
+$\vec{B}$ & $\begin{pmatrix}8\\3\end{pmatrix}$\\
+\hline
+$\vec{E}$ & $\begin{pmatrix}2\\1.5\end{pmatrix}$\\
+\hline
+
+\end{tabular}
+
+\end{minipage}% % no space between the minipages!
+\begin{minipage}{0.5\textwidth}
+\centering
+\begin{tabular}{|c|c|}
+\hline
+$\vec{F}$ & $\begin{pmatrix}8.5\\1.5\end{pmatrix}$\\
+\hline
+$\vec{M}$ & $\begin{pmatrix}4\\1.5\end{pmatrix}$\\
+\hline
+$\vec{N}$ & $\begin{pmatrix}8\\1.5\end{pmatrix}$\\
+\hline
+$\vec{X}$ & $\begin{pmatrix}4\\0\end{pmatrix}$\\
+\hline
+$\vec{Y}$ & $\begin{pmatrix}8\\0\end{pmatrix}$\\
+\hline
+
+\end{tabular}
+
+\end{minipage}
+\end{table}
+\end{frame}
+
+
+\section*{\textbf{Solution}}
+\begin{frame}[fragile]
+\footnotesize
+\frametitle{Solution}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+(i) In $\triangle AME$ and $\triangle AXD$
+\newline
+\newline
+$\angle DAX = \angle EAM $------Same angle
+$\angle AME = \angle AXD $------Right angles
+ $\angle AEM = \angle ADX $------Corresponding angles
+ \newline
+ \newline
+ By AAA criteria for similarity of triangles,
+ \newline
+
+ $$\triangle AME \sim \triangle AXD$$
+\newline
+ In similar triangles, Corresponding sides are in equal ratio.
+ \newline
+$$\therefore \frac{AD} {AE} = \frac{AX} {AM}$$\\
+
+
+
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{equation}
+\implies \frac {AE}{ED} = \frac {AM} {MX}
+\end{equation}
+\leavevmode\newline
+\newline
+Similary
+$$\triangle BNF \sim \triangle BYC$$\\
+\begin{equation}
+ \implies \frac {BF}{FC} = \frac {BN} {NY}
+\end{equation}
+\leavevmode\newline
+In quadrilateral ABNM
+\newline
+\newline
+$AM\perp MN$ and $BN \perp MN$
+\newline
+Also $AB \parallel MN$ and $ AM \parallel BN$
+\newline
+\newline
+So Quadrilateral ABNM is a rectangle
+
+\end{column}
+\end{columns}
+\end{frame}
+
+\section*{\textbf{Solution}}
+\begin{frame}[fragile]
+\footnotesize
+\frametitle{Solution}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+
+As opposite sides of a rectangle are equal, We have
+\newline
+\newline
+$AM = BN$ and $ MX = NY$
+\newline
+\begin{equation}
+\implies \frac{AM}{MX} = \frac {BN}{NY}
+\end{equation}
+\leavevmode\newline
+By equation (1) (2) and (3)
+$$ \frac {AE} {ED} = \frac {AM} {MX} = \frac {BN} {NY}  = \frac {BF} {FC}$$
+\newline
+$$\implies \frac {AE} {ED} = \frac {BF}{FC}  $$
+\newline
+Hence proved
+
+
+\end{column}
+\begin{column}{0.5\textwidth}
+
+
+\end{column}
+\end{columns}
+\end{frame}
+
+\end{document}
+

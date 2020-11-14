@@ -1,0 +1,23 @@
+For a Binomial distribution $X \sim B\brak{n,p}$
+\begin{align}
+\pr{X = 1} &= p,
+\\
+\pr{X = k} &= \comb{n}{k}p^k\brak{1-p}^{n-k}, \quad k = 0,\dots, n
+\label{eq:exam44_1}
+\end{align}
+The mean is given by 
+\begin{align}
+E\sbrak{X}&=\sum_{k=0}^{n} k \pr{X=k}
+\\
+&=\sum_{k=0}^{n} k \comb{n}{k}p^k \brak{1-p}^{n-k}
+\\
+&=np
+\end{align}
+Here $p=\frac{1}{3}$ and $n=4$.  Hence
+\begin{align}
+E\sbrak{X} = \frac{4}{3}
+\end{align}
+The python code for the above problem is,
+\begin{lstlisting}
+solutions/20-10/prob/codes/exam44.py
+\end{lstlisting}

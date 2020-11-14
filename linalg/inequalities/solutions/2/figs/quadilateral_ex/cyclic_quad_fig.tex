@@ -1,0 +1,23 @@
+\begin{tikzpicture}[scale=.5,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+      
+%Labeling points
+\node (A) at (0, 0)[point,label=below left:$A$] {};
+\node (B) at (10, 0)[point,label=below right:$B$] {};
+\node (C) at (4, 16.47)[point,label=above right:$C$] {};
+\node (D) at (-4, 6.93)[point,label=left:$D$] {};
+
+%Drawing quad ABCD
+\draw (A) -- node[below]{$a$}(B) -- (C) -- (D) -- node[left]{$b$}(A);
+\draw[dotted] (A) -- (C);
+\draw[dotted] (B) -- (D);
+
+%marking line segment
+\tkzMarkAngle[fill=orange!40,size=2cm,mark=|](A,D,B)
+\tkzMarkAngle[fill=orange!40,size=2cm,mark=|](A,C,B)
+\tkzMarkAngle[fill=orange!40,size=2cm,mark=](B,A,C)
+\tkzMarkAngle[fill=orange!40,size=2cm,mark=](C,B,A)
+\tkzLabelAngle[pos=3](B,A,C){$\theta$}
+\tkzLabelAngle[pos=3](C,B,A){$\alpha$}
+\tkzLabelAngle[pos=3.5](A,D,B){$\gamma$}
+\tkzLabelAngle[pos=3.5](A,C,B){$\gamma$}
+\end{tikzpicture} 

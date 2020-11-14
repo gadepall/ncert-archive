@@ -1,0 +1,14 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Find the zeroes of the following Quadratic polynomials  and verify the relationship between the zeroes and the coefficients.
+\begin{enumerate}
+	\item$ x^2-2x-8$
+	\item$ 4u^2 + 8u$
+	\item$ 4s^2-4s+1$
+	\item$ t^2-15$
+	\item$ 6x^2-3-7x$
+	\item$ 3x^2-2x-8$
+\end{enumerate}
+\end{enumerate}

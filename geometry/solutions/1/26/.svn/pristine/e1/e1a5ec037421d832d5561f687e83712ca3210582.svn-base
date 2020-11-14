@@ -1,0 +1,107 @@
+%\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+%\numberwithin{equation}{enumi}
+\numberwithin{equation}{subsection}
+\item We need to draw  an angle having   bisector .point A is at the origin .Length of the  sides of the angle are 3 .With help of the polar coardinates and linear algebra we will draw the points and lines.Input values are as given in the following table.
+
+%\renewcommand{\thefigure}{\theenumi.\arabic{figure}}
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./figs/angle.tex}}
+\caption{ angle by Latex-Tikz}
+\label{fig:angle}	
+\end{figure}
+
+\begin{table}[ht!]
+\centering
+\input{./tables/inp.tex}
+\caption{To construct $\angle QAB$}
+\label{table:table1}	
+\end{table}
+
+
+\item Finding out  the coordinates of the various points in Fig. \ref{fig:angle}
+\label{const:angle}
+\\
+ 
+\begin{align}
+\vec{A} &= \myvec{0\\0}
+\end{align}
+here r = 3 and $\theta =$ 0 for  $\vec{P}$
+
+
+\begin{align}
+\\
+\vec{P} &= \myvec{r*\cos{0}\\r*\sin{0}} = \myvec{3\\0}
+\end{align}
+\\
+
+Similarly we can get $\vec{Q}$ for  r = 3 and $\theta = 60$
+\\
+\begin{align}
+\vec{Q} &= \myvec{r*\cos{60}\\r*\sin{60}} = \myvec{1.5\\2.598}
+\end{align}
+\\
+equation for the bisector of the $\angle{\theta}$
+ 
+\begin{align}
+\vec{AB} =  b\left(\frac{\vec{AP}}{\norm{\vec{AP}}} + \frac{\vec{AQ}}{\norm{\vec{AQ}}}\right)
+\end{align}
+\item finding out the point $\vec{B}$
+\\
+\begin{align}
+\myvec{\vec{B} - \vec{P}}^T \myvec{\vec{A} - \vec{P}} = 0
+\\
+\angle{\gamma} = \frac{\angle{\theta}}{2} = 30
+\\
+\myvec{b*\cos{\gamma} - 3 \\ b*\sin{\gamma} - 0}^T \myvec{0 - 3 \\ 0 - 0} = 0
+\\
+3*(b*\cos{\gamma} - 3) = 0
+\\
+b*\cos{\gamma} = 3
+\\
+b = 3.4641
+\\
+\vec{B} = \myvec{3.4641*\cos{30}\\3.4641*\sin{30}} = \myvec{3\\1.732}
+\end{align}
+\begin{table}[ht!]
+	\centering
+	\input{./tables/derived.tex}
+	\caption{To construct $\angle QAB$}
+	\label{table:table1}	
+\end{table}
+\item Drawing  Fig. \ref{fig:angle}.	
+\\
+ The  following Python code generates Fig. \ref{fig:angle}
+ \\
+%
+\begin{lstlisting}
+./codes/angle.py
+\end{lstlisting}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./figs/angle.eps}
+\caption{angles generated using python}
+\label{fig:angle_py}
+\end{figure}
+
+%
+and the equivalent latex-tikz code generating Fig.2.1  is 
+\begin{lstlisting}
+./figs/angle.tex
+\end{lstlisting}
+%
+The above latex code can be compiled as a standalone document as
+\begin{lstlisting}
+./figs/angle_fig.tex
+\end{lstlisting}
+
+%
+
+%
+
+%
+%
+
+\end{enumerate}
+

@@ -1,0 +1,61 @@
+Let $\vec{m}$ be a vector consisting of \myvec{x_1 \\ x_2 \\ x_3 \\ x_4} such that
+\begin{equation}\label{eq:solutions/chem/6b1}
+ x_1NaOH + x_2H_2SO_4 \xrightarrow{} x_3Na_2SO_4  +  x_4H_2O
+\end{equation}
+For balancing the two equations, we need to calculate number of occurences of each element on left hand side and right hand side of \ref{1} and equate the two. Thus,
+\begin{align}
+ & \qquad (x_1 - 2x_3)Na = 0 \label{eq:solutions/chem/6bup1} \\ 
+ & \qquad (x_1+4x_2-4x_3+x_4)O = 0 \label{eq:solutions/chem/6bup2}  \\ 
+ & \qquad (x_1-2x_4)H = 0  \label{eq:solutions/chem/6bup3} \\ 
+ & \qquad (x_2-x_3)S = 0 \label{eq:solutions/chem/6bup4}
+\end{align}
+From \ref{up1},\ref{up2},\ref{up3} and \ref{up4}, we get
+\begin{align}	
+ \quad & x_1  +  2x_2  +  0x_3 - 2x_4 =   0 \label{eq:solutions/chem/6b2} \\
+ \quad & x_1  +  0x_2  - 2x_3 + 0x_4  =  0 \label{eq:solutions/chem/6b3} \\
+ \quad & 0x_1   + x_2 - x_3 + 0x_4   = 0 \label{eq:solutions/chem/6b4} \\
+ \quad & x_1 +  4x_2 - 4x_3 - x_4  = 0 \label{eq:solutions/chem/6b5}
+\end{align}
+Converting, \ref{2}, \ref{3}, \ref{4} and \ref{5} into matrix form we get,
+\begin{equation}\label{eq:solutions/chem/6b6}
+	\vec{A}\vec{m} = 0
+\end{equation}
+The matrix $\vec{A}$ in above is given as:
+\begin{equation}
+	\myvec{&1 &2 &0 &-2 \\ &1 &0 &-2 &0 \\ &0 &1 &-1 &0 \\&1 &4 &-4 &-1}
+\end{equation}
+To find the solution of \ref{6}, we reduce $\vec{A}$ into its Echelon form and solve consequently. The Echolen form of $\vec{A}$ can be found as
+\begin{align}
+ & \myvec{&1 &2 & 0 &-2 \\ &1 &0 &-2 & 0 \\ &0 &1 &-1 &0 \\&1 &4 &-4 &-1} &\xleftrightarrow[]{r_2 \leftarrow r_2 - r_1} &\myvec{&1 &2 &0 &-2 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &0 \\&1 &4 &-4 &-1} \\
+ & \myvec{&1 &2 &0 &-2 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &0 \\&1 &4 &-4 &-1} &\xleftrightarrow[]{r_4 \leftarrow r_4 - r_1}&\myvec{&1 &2 &0 &-2 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &0 \\&0 &2 &-4 &1} \\
+ & \myvec{&1 &2 &0 &-2 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &0 \\&0 &2 &-4 &1} &\xleftrightarrow[]{r_2 \leftarrow r_1 + r_2} &\myvec{&1 &0 &-2 &0 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &0 \\&0 &2 &-4 &1} \\
+ & \myvec{&1 &0 &-2 &0 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &0 \\&0 &2 &-4 &1} &\xleftrightarrow[]{r_2 \leftarrow -r_2/2 } &\myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &1 &-1 &0 \\&0 &2 &-4 &1}\\
+ & \myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &1 &-1 &0 \\&0 &2 &-4 &1}  &\xleftrightarrow[]{r_3 \leftarrow r_3 - r_2} &\myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &0 &-2 &1 \\&0 &2 &-4 &1}\\
+ &\myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &0 &-2 &1 \\&0 &2 &-4 &1} 
+ &\xleftrightarrow[]{r_4 \leftarrow r_4 - 2r_2 } &\myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &0 &-2 &1 \\&0 &0 &-6&3}
+\end{align}
+\begin{align}
+ &\myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &0 &-2 &1 \\&0 &2 &-4 &1} &\xleftrightarrow[]{r_3 \leftarrow -r_3/2} &\myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &0 &1 &-1/2 \\&0 &0 &-6 &3}\\
+ &\myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &0 &-2 &1 \\&0 &2 &-4 &1} 
+ &\xleftrightarrow[]{r_2 \leftarrow r_2 - r_3 } &\myvec{&1 &0 &-2 &0 \\ &0 &1 &0 &-1/2 \\ &0 &0 &1 &-1/2 \\&0 &0 &-6 &3} \\
+ &\myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &0 &-2 &1 \\&0 &2 &-4 &1} 
+ &\xleftrightarrow[]{r_1 \leftarrow r_1 + 2r_3 } &\myvec{&1 &0 &0 &-1 \\ &0 &1 &0 &-1/2 \\ &0 &0 &1 &-1/2 \\&0 &0 &-6 &3} \\
+ &\myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &0 &-2 &1 \\&0 &2 &-4 &1} 
+ &\xleftrightarrow[]{r_4 \leftarrow r_4 + 6r_3 } &\myvec{&1 &0 &0 &-1 \\ &0 &1 &0 &-1/2 \\ &0 &0 &1 &-1/2 \\&0 &0 &0 &0} \label{eq:solutions/chem/6b7}
+\end{align}
+ \ref{7} is the Echelon form of matrix $\vec{A}$ and solving for $\vec{m}$, we get
+ \begin{equation}
+ 	x_1 = x_4,\quad x_2 = \frac{x_4}{2} \quad and \quad x_3 = \frac{x_4}{2} 
+ \end{equation} 
+Hence, we find out that
+\begin{equation}\label{eq:solutions/chem/6b8}
+	\vec{m} = \myvec{x_4 \\ x_4/2 \\ x_4/2 \\ x_4} \quad \implies \vec{m} = x_4 \myvec{1 \\ 1/2 \\ 1/2 \\1}
+\end{equation}
+Taking $x_4 =2$ in \ref{8}, we find out that
+\begin{equation}\label{eq:solutions/chem/6b9}
+	\vec{m} = \myvec{2 \\ 1\\ 1\\ 2}
+\end{equation}
+Thus, by \ref{9} we find out one set of multipliers which balance the given chemical equation and the balanced chemical equation is :
+\begin{align}
+2NaOH + H_2SO_4 \xrightarrow{} Na_2SO_4  +  2H_2O	
+\end{align}

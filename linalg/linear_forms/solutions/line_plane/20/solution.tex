@@ -1,0 +1,109 @@
+Constructing the augmented matrix \\
+$$
+\begin{pmatrix}
+    2 & 3 & 7 \\ 
+    \emph{a}-{b}& \emph{a}+{b} & 3\emph{a}+{b}-2
+\end{pmatrix}
+$$
+Transforming the matrix into row-echelon form \\
+\begin{align}
+\myvec{
+2 & 3 & 7 \\
+\emph{a}-{b} & \emph{a}+{b} & 3\emph{a}+{b}-2
+}
+  \xleftrightarrow[]{R2 \leftarrow R1\times\frac{\emph{a}-{b}}{2} - R2 } \nonumber \\
+\myvec{
+2& 3& 7\\
+0 & \frac{3\emph{a}-{b}}{2}-(\emph{a}-b) & \frac{7\emph{a}-{b}}{2}-(3\emph{a}+b-2)
+}
+\end{align}
+For the linear equations to have infinite  solution, \\
+Rank(Coefficient matrix) =Rank(Augmented matrix) \\
+and both  $\neq$ Rank(Full matrix) \\
+\begin{align}
+\myvec{
+1 & -5 & 0\\
+1 & -9 &-4
+}
+  \xleftrightarrow[]{R2 \leftarrow R2-R1}
+\myvec{
+1& -5& 0\\
+0 & -4 & -4\\
+}
+\end{align}
+\begin{align}
+\myvec{
+1 & -5 & 0\\
+0 & -4 &-4
+}
+  \xleftrightarrow[]{R1 \leftarrow 4\times R1}
+\myvec{
+4& -20& 0\\
+0 & -4 & -4\\
+}
+\end{align}
+
+\begin{align}
+\myvec{
+4& -20 & 0\\
+0 & -4 &-4
+}
+  \xleftrightarrow[]{R2 \leftarrow 5\times R2}
+\myvec{
+4& -20& 0\\
+0 & -20 & -20\\
+}
+\end{align}
+\begin{align}
+\myvec{
+4& -20 & 0\\
+0 & -20&-20
+}
+  \xleftrightarrow[]{R1 \leftarrow R2-R1}
+\myvec{
+-4& 0& -20\\
+0 & -20 & -20\\
+}
+\end{align}
+\begin{align}
+\myvec{
+-4& 0 & -20\\
+0 & -20&-20
+}
+  \xleftrightarrow[]{R1 \leftarrow R1\div -4}
+\myvec{
+1& 0& 5\\
+0 & -20 & -20\\
+}
+\end{align}
+\begin{align}
+\myvec{
+1& 0 & 5\\
+0 & -20&-20
+}
+  \xleftrightarrow[]{R2 \leftarrow R2\div -20}
+\myvec{
+1& 0& 5\\
+0 & 1 & 1\\
+}
+\end{align}
+Now writing matrix in the form AX=B to obtain solution we have
+\begin{align}
+\myvec{
+1 & 0\\
+0& 1
+}
+\myvec{
+{a}& \\
+{b}
+}
+=
+\myvec{
+5&\\
+1
+}
+\end{align}
+Solving the above equation \\ 
+\begin{equation} \label{eq:kvalue}
+\implies \emph{a} = 5\quad \& \quad \emph{b}=1 
+\end{equation}

@@ -1,0 +1,34 @@
+\begin{align}
+\myvec{1\\1} &= \sqrt{2}\myvec{\frac{1}{\sqrt{2}}\\ \frac{1}{\sqrt{2}}}
+\\
+&= \sqrt{2}\myvec{\cos 45\degree \\ \sin 45\degree}
+\label{eq:3.4.7}
+\end{align}
+In the above, the modulus is $\norm{\myvec{1\\1}}=\sqrt{2}$ and the argument is $45 \degree$.
+Similarly, 
+\begin{align}
+\myvec{1\\-1} &= \sqrt{2}\myvec{\cos 45\degree \\ -\sin 45\degree}
+\\
+\implies \myvec{1\\-1}^{-1} &= \frac{1}{\sqrt{2}}\myvec{\cos 45\degree \\ \sin 45\degree}
+\end{align}
+Using the matrix representation, 
+\begin{align}
+\frac{\myvec{1\\1}}{\myvec{1\\-1}} &= \myvec{\cos45\degree&-\sin45\degree\\\sin45\degree&\cos45\degree}
+\nonumber \\
+&\quad \times  \myvec{\cos45\degree&-\sin45\degree\\\sin45\degree&\cos45\degree}
+\myvec{1\\0}
+\\
+ &= \myvec{\cos 90\degree\\ \sin 90\degree}= 1 \phase{90\degree}\end{align}
+%
+In general, if
+\begin{align}
+\vec{z}_1 &= r_1\myvec{\cos\theta_1\\\sin\theta_1}, \vec{z}_2 = r_2\myvec{\cos\theta_2\\\sin\theta_2},
+\\
+\vec{z}_1\vec{z}_2 &= r_1r_2\myvec{\cos(\theta_1+\theta_2)\\\sin(\theta_1+\theta_2)}.
+\end{align}
+Similarly, from \eqref{eq:3.4.7},
+\begin{align}
+\frac{1}{\myvec{1\\1}} &= \frac{1}{\sqrt{2}}\myvec{\cos 45\degree \\ -\sin 45\degree}
+\\
+&= \frac{1}{\sqrt{2}}\phase{-45\degree}
+\end{align}

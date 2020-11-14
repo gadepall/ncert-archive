@@ -1,0 +1,9 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item 2 is the only even prime number which we can get. Therefore, prbability of getting 2 on a die $= P(A) = \frac{1}{6}$.
+\item The number coming up on one die is independent of what comes on the other die.
+\item Probability of getting an even prime number (i.e. 2) on both the die $= P(A)P(A) = \frac{1}{6}\times\frac{1}{6} = \frac{1}{36}$.
+\item Answer = option (d)
+
+\end{enumerate}

@@ -1,0 +1,11 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Two events A and B are independent if 
+\begin{enumerate}
+\item A and B are mutually exclusive.
+\item $P(A'B')= \brak{1-P(A)}\brak{1-P(B)}$
+\item $P(A)=P(B)$
+\item $P(A)+P(B)=1$
+\end{enumerate}
+\end{enumerate}

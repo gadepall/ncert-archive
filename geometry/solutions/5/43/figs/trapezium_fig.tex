@@ -1,0 +1,16 @@
+\begin{tikzpicture}[scale=1.5,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+      
+%Labeling points
+\node (A) at (0, 0)[point,label=below left:$A$] {};
+\node (B) at (5, 0)[point,label=below right:$B$] {};
+\node (C) at (3.9, 3)[point,label=above right:$C$] {};
+\node (D) at (1.1, 3)[point,label=above left:$D$] {};
+\node (O) at (2.5, 0.79)[point,label=below:$O$]{};
+
+%Drawing quad ABCD
+\draw (A) -- node{$>$}(B) -- (C) -- node{$>$}(D) -- (A);
+\draw[dotted] (O) circle(2.62);
+
+%marking line segment
+\tkzMarkSegments[mark=|,size=6pt](A,D C,B)
+\end{tikzpicture}

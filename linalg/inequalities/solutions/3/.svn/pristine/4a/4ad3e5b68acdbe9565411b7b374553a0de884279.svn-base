@@ -1,0 +1,93 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+	
+\item In $\triangle AME \cong \triangle AXD$  
+\begin{enumerate}
+\item $\angle DAX = \angle EAM $------Same angle
+\item $\angle AME = \angle AXD $------Right angles
+\item  $\angle AEM = \angle ADX $------Corresponding angles
+\end{enumerate}
+%
+By AAA criteria for similarity of triangles,
+ $$\triangle AME \sim \triangle AXD$$
+\item  In similar triangles, Corresponding sides are in equal ratio.
+\begin{align}
+\frac{AD} {AE} = \frac{AX} {AM}
+\\
+\implies \frac {AE}{ED} = \frac {AM} {MX}
+\label{eq:sim1}
+\end{align}
+Similary
+$$\triangle BNF \sim \triangle BYC$$\\
+
+\begin{align}
+ \implies \frac {BF}{FC} = \frac {BN} {NY}
+\label{eq:sim2}
+\end{align}
+
+\item From \eqref{eq:constr_a}, \eqref{eq:constr_m} and \eqref{eq:constr_n},
+%
+%
+\begin{align}
+\brak{\vec{A}-\vec{M}}^T
+\brak{\vec{M}-\vec{N}} &= \myvec{0 & (h-k)}\myvec{-a \\ 0} = 0
+\\
+\implies MA \perp MN
+\label{eq:perp1}
+\end{align}
+%
+Similarly from \eqref{eq:constr_b}, \eqref{eq:constr_n} and \eqref{eq:constr_m},
+%
+%
+\begin{align}
+\brak{\vec{B}-\vec{N}}^T
+\brak{\vec{N}-\vec{M}} &= \myvec{0 & (h-k)}\myvec{a \\ 0} = 0
+\\
+\implies NB \perp NM
+\label{eq:perp2}
+\end{align}
+%
+
+
+\item From \eqref{eq:constr_a}, \eqref{eq:constr_b}, \eqref{eq:constr_m} and \eqref{eq:constr_n},
+\begin{align}
+\brak{\vec{B}-\vec{A}} &= \myvec{4.5\\ 0}
+\\
+\brak{\vec{N}-\vec{M}} &= \myvec{4.5 \\ 0}
+\\
+\implies AB \parallel MN
+\label{eq:parallel1}
+\end{align}
+%
+Similarly from \eqref{eq:constr_a}, \eqref{eq:constr_b}, \eqref{eq:constr_m} and \eqref{eq:constr_n},
+\begin{align}
+\brak{\vec{M}-\vec{A}} &= \myvec{0\\ -1.5}
+\\
+\brak{\vec{N}-\vec{B}} &= \myvec{0 \\ -1.5}
+\\
+\implies AM \parallel BN
+\label{eq:parallel2}
+\end{align}
+%
+
+\item From \eqref{eq:perp1}, \eqref{eq:perp2},\eqref{eq:parallel1},\eqref{eq:parallel2}
+
+Quadrilateral ABCD is a rectangle. Also, In a rectangle opposite sides are equal
+\begin{align}
+AM = BN
+\\
+MX = NY
+\label{eq:rect}
+\end{align}
+
+\item From \eqref{eq:sim1}, \eqref{eq:sim2},\eqref{eq:rect}
+\begin{align}
+\frac {AE} {ED} = \frac {AM} {MX} = \frac {BN} {NY}  = \frac {BF} {FC}
+\\
+\implies 
+\frac {AE} {ED} = \frac {BF}{FC}
+\label{eq:soln}
+\end{align}
+Hence proved
+\end{enumerate}

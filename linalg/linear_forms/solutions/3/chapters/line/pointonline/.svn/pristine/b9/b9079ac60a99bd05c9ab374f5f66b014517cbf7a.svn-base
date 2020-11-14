@@ -1,0 +1,11 @@
+Find two solutions for each of the following equations.
+\begin{align}
+\brak{a} \myvec{4&3}\vec{x}=12
+\label{eq:pointonline1}
+\\
+\brak{b} \myvec{2&5}\vec{x}=0
+\label{eq:pointonline2}
+\\
+\brak{c} \myvec{0&3}\vec{x}=4
+\label{eq:pointonline3}
+\end{align}

@@ -1,0 +1,25 @@
+\begin{tikzpicture}
+  [
+    scale=2,
+    >=stealth,
+    point/.style = {draw, circle,  fill = black, inner sep = 0.5pt},
+    dot/.style   = {draw, circle,  fill = black, inner sep = .2pt},
+    every label/.append style={text=black, font=\tiny}
+  ]
+  \coordinate [point, label={below left:$(0,0)$ $B$}] (B) at (0, 0);
+  \coordinate [point, label={above:$A$ $(0,b)$}] (A) at (0, 1);  
+  \coordinate [point, label={below right:$C$ $(c,0)$}] (C) at (1,0);
+
+  \path
+     (A)    edge      (B)  
+	 (B)    edge      (C)
+	 (C)    edge  node[sloped, anchor=center, above, text width=2.0cm] { $\sqrt{b^2+c^2}$}     (A)	 
+	 ;
+  \newcommand{\ranglesize}{0.1cm}
+  \draw (B) -- (0, \ranglesize) -- (\ranglesize, \ranglesize) --(\ranglesize, 0);
+
+
+%  \draw  [line width=0.00mm ] (A) -- (C) -- (B) -- (A);
+
+\end{tikzpicture}
+

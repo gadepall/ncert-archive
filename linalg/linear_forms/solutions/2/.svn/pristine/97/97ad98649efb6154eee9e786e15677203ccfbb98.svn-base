@@ -1,0 +1,11 @@
+\begin{tikzpicture}[scale=.5,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+      
+%Labeling points
+\node (A) at (3, -5){};
+\node (D) at (-4, -5)[point,label=left:$O$] {};
+
+%Drawing quad ABCD
+
+\draw[dotted] (A) --  node[below=5pt]{$\textrm{r}$}(D);
+\draw (D) circle[radius = 7];
+\end{tikzpicture} 	

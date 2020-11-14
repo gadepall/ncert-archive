@@ -1,0 +1,37 @@
+\contentsline {section}{\numberline {1}Baudhayana Theorem}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}The Right Angled Triangle}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Sum of Angles}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Proof of Baudhayana Theorem}{3}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Area of a Triangle}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}From a Rectangle}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Sine and Cosine formula}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Hero's formula}{7}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Circumcentre}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Locating the Circumcentre}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Finding the Circumradius}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Drawing the Circumcircle}{10}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Incentre}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Locating the Incentre}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Drawing the Incircle}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Congruent Triangles}{11}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Medians of a Triangle}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Basic Proportionality Theorem}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Similar Triangles}{12}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Centroid}{12}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Median and Area}{14}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Parallelogram}{14}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Circles}{16}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Area of a Circle}{16}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Miscellaneous Properties}{18}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Miscellaneous}{19}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Trigonometric Identities}{19}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Constructions}{21}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Altitudes of a Triangle}{22}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Exercises}{23}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Triangle Exercises}{23}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Triangle Constructions}{31}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Quadrilateral Exercises}{31}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Quadrilateral Constructions}{34}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Circle Exercises}{35}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Circle Constructions}{43}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}Miscellaneous Exercises}{44}{subsection.8.7}%

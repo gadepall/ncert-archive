@@ -1,0 +1,2522 @@
+%\renewcommand{\theequation}{\theenumi}
+%\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+%\numberwithin{equation}{enumi}
+%
+\item Check whether –2 and 2 are zeroes of the polynomial $x + 2.$
+\\
+\solution Let 
+%
+\begin{align}
+y &= x + 2
+\implies \myvec{-1 & 1}\vec{x} &= 2
+\end{align}
+%
+Thus, 
+%
+\begin{align}
+y &= 0 
+\\
+\implies  x + 2 &=0
+\\
+\text{or, } x &= -2
+\end{align}
+%
+Hence -2 is a zero. This is verified in Fig. \ref{fig:line_zeros}.
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_zeros.eps}
+\caption{}
+\label{fig:line_zeros}
+\end{figure}
+%
+\item Find a zero of the polynomial $p(x) = 2x + 1$.
+\\
+\solution $p\brak{-\frac{1}{2}} = 0$.
+%
+%
+\item Find four different solutions of the equation 
+\label{prob:line_icept}
+%
+\begin{align}
+\label{eq:line_iceptx}
+\myvec{1 & 2}\vec{x} &= 6
+\end{align}
+%
+\solution Let 
+%
+\begin{align}
+\vec{x} = \myvec{a\\0}
+\end{align}
+%
+Substituting in \eqref{eq:line_iceptx}, 
+%
+\begin{align}
+\myvec{1 & 2} \myvec{a\\0}&= 6
+\\
+\implies a &=6
+\end{align}
+%
+Simiarly, substituting 
+%
+\begin{align}
+\vec{x} &= \myvec{0\\b},
+\end{align}
+%
+in \eqref{eq:line_iceptx}, 
+%
+%
+\begin{align}
+b =3
+\end{align}
+%
+More solutions can be obtained in a similar fashion.
+%
+\item Draw the graph of 
+%
+\begin{align}
+\myvec{1 & 1}\vec{x} &= 7
+\end{align}
+%
+\solution The intercepts on the x and y-axis can be obtained from Problem \ref{prob:line_icept}
+as
+%
+\begin{align}
+\vec{A} = \myvec{7\\0}
+\vec{B} = \myvec{0\\7}
+\end{align}
+%
+The following python code can be used to draw the graph in Fig. \ref{fig:line_icept}.
+%
+\begin{lstlisting}
+codes/line/line_icept.py
+\end{lstlisting}
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_icept.eps}
+\caption{}
+\label{fig:line_icept}
+\end{figure}
+%
+%
+\item Two rails are represented by the equations 
+\label{prob:line_mat_eq}
+\begin{align}
+\label{eq:line_mat_eq}
+\begin{split}
+\myvec{1 & 2}\vec{x}  &= 4 \text{ and}
+\\
+\myvec{ 2 & 4}\vec{x} &=  12 . 
+\end{split}
+\end{align}
+%
+Will the rails cross each other?
+%
+\\
+\solution The above equations can be expressed as the matrix equation
+\begin{align}
+\myvec{1 & 2\\2 & 4} \vec{x} = \myvec{4\\12}
+\end{align}
+%
+The augmented matrix for the above equation is row reduced as follows
+\begin{align}
+\myvec{1 & 2 & 4\\2 & 4 & 12} 
+\xleftrightarrow {R_2\leftarrow \frac{R_2}{2}}\myvec{1 & 2 & 4\\1 & 2 & 6} 
+\\
+%\myvec{1 & 2 & 4\\2 & 4 & 12} 
+\xleftrightarrow {R_2\leftarrow R_2 - R_1}\myvec{1 & 2 & 4\\0 & 0 & 2} 
+\label{eq:line_aug}
+\end{align}
+%
+$\because$ row reduction of the $2\times 3$ matrix
+%
+\begin{align}
+\myvec{1 & 2 & 4\\2 & 4 & 12} 
+\end{align}
+%
+results in a matrix with 2 nonzero rows, its rank is 2.  Similarly, the rank of the matrix 
+%
+\begin{align}
+\myvec{1 & 2\\2 & 4} 
+\end{align}
+is 1, from \ref{eq:line_aug}. 
+%
+\begin{align}
+\because rank \myvec{1 & 2\\2 & 4} \ne rank\myvec{1 & 2 & 4\\2 & 4 & 12},  
+\end{align}
+%
+\eqref{eq:line_mat_eq} has no solution.
+%
+The equivalent python code is
+%
+\begin{lstlisting}
+codes/line/line_check_sol.py
+\end{lstlisting}
+%
+which plots Fig. \ref{fig:line_check_sol}, which shows that the rails are parallel.
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_check_sol.eps}
+\caption{}
+\label{fig:line_check_sol}
+\end{figure}
+%
+
+\item Check whether the pair of equations 
+\begin{align}
+\label{eq:line_mat_eq_2}
+\begin{split}
+\myvec{1 & 3}\vec{x}  &= 6 \text{ and}
+\\
+\myvec{ 2 & -3}\vec{x} &= 12 
+\end{split}
+\end{align}
+%
+is consistent. 
+\\
+\solution The above equations can be expressed as the matrix equation
+\begin{align}
+\myvec{1 & 3\\2 & -3} \vec{x} = \myvec{6\\12}
+\end{align}
+%
+The augmented matrix for the above equation is row reduced as follows
+\begin{align}
+\myvec{1 & 3 & 6\\2 & -3 & 12} 
+\xleftrightarrow {R_2\leftarrow \frac{R_2-2R_1}{-9}}
+%\myvec{1 & 3 & 6\\0 & -9 & 0} 
+\\
+\myvec{1 & 3 & 6\\0 & 1 & 0} 
+\xleftrightarrow {R_1\leftarrow R_1 - 3R_2}\myvec{1 & 0 & 6\\0 & 1 & 0} 
+\\
+\implies \vec{x} = \myvec{6\\0}
+\end{align}
+%
+which is the solution of \ref{eq:line_mat_eq}.
+The python code in Problem \ref{prob:line_mat_eq}
+%
+%
+can be used to plot Fig. \ref{fig:line_check_sol2}, which shows that the lines intersect.
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_check_sol2.eps}
+\caption{}
+\label{fig:line_check_sol2}
+\end{figure}
+%
+%
+\item Find whether the following pair of equations has no solution, unique solution or infinitely many solutions: 
+%
+\begin{align}
+\label{eq:line_check_sol3}
+\begin{split}
+\myvec{5 & -8}\vec{x}  &= -1 \text{ and}
+\\
+\myvec{ 3 & -\frac{24}{5}}\vec{x} &= -\frac{3}{5}
+\end{split}
+\end{align}
+%
+\\
+\solution The above equations can be expressed as the matrix equation
+\begin{align}
+\myvec{5 & -8\\3 & -\frac{24}{5}} \vec{x} = -\myvec{1\\ \frac{3}{5}}
+\end{align}
+%
+The augmented matrix for the above equation is row reduced as follows
+\begin{align}
+\myvec{5 & -8 & -1 \\3 & -\frac{24}{5} & -\frac{3}{5}} 
+\xleftrightarrow {R_2\leftarrow 5R_2}\myvec{5 & -8 & 1\\15 & -24 & -3} 
+\\
+%\myvec{5 & -8 & 1\\15 & -24 & -3} 
+\xleftrightarrow {R_2\leftarrow R_2 - 3R_1}\myvec{5 & -8 & 1\\0 & 0 & 0} 
+\end{align}
+%
+%
+\begin{align}
+\because rank \myvec{5 & -8\\3 & -\frac{24}{5}} &= rank \myvec{5 & -8 & 1 \\3 & -\frac{24}{5} & -\frac{3}{5}} 
+\\
+= 1 < dim \myvec{5 & -8\\3 & -\frac{24}{5}} =2,
+\end{align}
+%
+\eqref{eq:line_check_sol3} has infinitely many solutions.
+%
+The python code in Problem \ref{prob:line_mat_eq}
+%
+%
+can be used to plot Fig. \ref{fig:line_check_sol3}, which shows that the lines are the same.
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_check_sol3.eps}
+\caption{}
+\label{fig:line_check_sol3}
+\end{figure}
+%
+%
+\item Solve the following pair of equations
+%
+\begin{align}
+\label{eq:line_check_sol_unique}
+\myvec{7 & -15}\vec{x}  &= 2 
+\\
+\myvec{ 1 & 2}\vec{x} &= 3
+\end{align}
+%
+\\
+\solution The above equations can be expressed as the matrix equation
+\begin{align}
+\myvec{7 & -15\\1 & 2} \vec{x} = \myvec{2\\ 3}
+\end{align}
+%
+The augmented matrix for the above equation is row reduced as follows
+\begin{align}
+\myvec{7 & -15 & 2\\1 & 2 & 3}
+\xleftrightarrow {R_2\leftarrow 7R_2-R_1}\myvec{7 & -15 & 2\\0 & 29 & 19}
+\\
+\xleftrightarrow {R_1\leftarrow \frac{15R_2 29+ 29R_1}{29}}\myvec{7 & 0 & 2\\0 & 29 & 19} 
+\\
+\implies \vec{x} = \myvec{\frac{2}{7}\\\frac{19}{29}}
+\end{align}
+%
+%
+
+The python code in Problem \ref{prob:line_mat_eq}
+%
+%
+can be used to plot Fig. \ref{fig:line_check_sol_unique}, which shows that the lines are the same.
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_check_unique.eps}
+\caption{}
+\label{fig:line_check_sol_unique}
+\end{figure}
+%
+\item Find all possibe solutions of
+\begin{align}
+\label{eq:line_check_sol_nosol}
+\begin{split}
+\myvec{2 & 3 }\vec{x}&=8
+\\
+\myvec{4 & 6 }\vec{x}&=7
+\end{split}
+\end{align}
+%
+\\
+\solution The above equations can be expressed as the matrix equation
+\begin{align}
+\myvec{2 & -3\\4 & 6} \vec{x} = \myvec{8\\ 7}
+\end{align}
+%
+The augmented matrix for the above equation is row reduced as follows
+\begin{align}
+\myvec{2 & 3 & 8\\4 &  6 & 7} 
+\xleftrightarrow {R_2\leftarrow R_2-2R_1}\myvec{2 & -3 & 8\\0 &  0 & -9} 
+\\
+\implies rank \myvec{2 & -3\\4 & 6} \ne \myvec{2 & 3 & 8\\4 &  6 & 7}. 
+\end{align}
+%
+Hence, \eqref{eq:line_check_sol_nosol} has no solution.
+The python code in Problem \ref{prob:line_mat_eq}
+%
+%
+can be used to plot Fig. \ref{fig:line_check_nosol}, which shows that the lines are parallel.
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_check_nosol.eps}
+\caption{}
+\label{fig:line_check_nosol}
+\end{figure}
+
+\item For which values of p does the pair of equations given below has unique solution?
+\begin{align}
+\label{eq:line_det_unique}
+\begin{split}
+\myvec{4 & p }\vec{x}&=-8
+\\
+\myvec{2 & 2 }\vec{x}&=-2
+\end{split}
+\end{align}
+%
+\solution \eqref{eq:line_det_unique} has a unique solution 
+\begin{align}
+\iff \mydet{4 & p \\ 2 & 2} \ne 0
+\\
+\text{or, } p \ne 4
+\end{align}
+%
+\item For what values of $k$ will the following pair of linear equations have infinitely many solutions?
+%
+\begin{align}
+\label{eq:line_det_inf}
+\begin{split}
+\myvec{k & 3 }\vec{x}&=k-3
+\\
+\myvec{12 & k }\vec{x}&=k
+\end{split}
+\end{align}
+%
+\solution The first condition for \eqref{eq:line_det_inf} to have infinite solutions is 
+%
+\begin{align}
+\label{eq:line_det_inf_cond}
+\mydet{k & 3 \\12 & k  } &= 0
+\\
+\implies k^2 = 36, \text{or, } k = \pm 6
+\end{align}
+%
+For $k = 6$, 
+%
+the augmented matrix for the above equation is row reduced as follows
+\begin{align}
+\myvec{6 & 3 & 3\\12 &  6 & 6} 
+\xleftrightarrow {R_2\leftarrow R_2-2R_1}\myvec{6 & 3 & 3\\0 &  0 & 0} 
+\end{align}
+%
+indicating that \eqref{eq:line_det_inf} has infinite number of solutions. For $k = -6$, the augmented matrix is 
+\begin{align}
+\myvec{6 & 3 & -9\\12 &  6 & -6} 
+\xleftrightarrow {R_2\leftarrow R_2-2R_1}\myvec{6 & 3 & -9\\0 &  0 & 12} 
+\end{align}
+indicating that \eqref{eq:line_det_inf} has no solution
+%
+Thus, \eqref{eq:line_det_inf_cond} is a necessary condition but not sufficient.
+%
+%
+%
+
+\item Find the condition for $\vec{x} = \myvec{x_1\\x_2}$ to be equidistant from the points $\myvec{7\\1}, \myvec{3\\5}$.
+\label{prob:line_perp_bisect}
+%
+\\
+\solution From the given information,
+%
+\begin{align}
+\norm{\vec{x}-\myvec{7\\1}}^2&=\norm{\vec{x}-\myvec{3\\5}}^2
+\end{align}
+\begin{multline}
+\implies \norm{\vec{x}}^2 + \norm{\myvec{7\\1}}^2-2\myvec{7&1}\vec{x} 
+\\= 
+ \norm{\vec{x}}^2 + \norm{\myvec{3\\5}}^2-2\myvec{3&5}\vec{x} 
+\end{multline}
+%
+which can be simplified to obtain
+\begin{align}
+\label{eq:line_p_bisect}
+\myvec{1 & -1}\vec{x} = 2
+\end{align}
+%
+which is the desired condition.  
+The following code plots Fig. \ref{fig:line_perp_bisect}clearly showing that the above equation 
+%\eqref{eq:line_p_bisect}
+ is the perpendicular bisector of $AB$.
+
+%
+\begin{lstlisting}
+codes/line/line_perp_bisect.py
+\end{lstlisting}
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_perp_bisect.eps}
+\caption{}
+\label{fig:line_perp_bisect}
+\end{figure}
+%
+
+
+\item Find the direction vectors and slopes of the lines passing through the points
+%
+\begin{enumerate}
+\item \myvec{3\\-2} and \myvec{-1\\4}.
+\item \myvec{3\\-2} and \myvec{7\\-2}.
+\item \myvec{3\\-2} and \myvec{3\\4}.
+\item Making an inclination of $60\degree$ with the positive direction of the x-axis.
+\end{enumerate}
+%
+\solution
+\begin{enumerate}
+\item If the direction vector is 
+\begin{align}
+\myvec{1\\m}, 
+\end{align}
+%
+the slope is $m$. Thus, the direction vector is
+\begin{align}
+\myvec{-1\\4} - \myvec{3\\-2} &= \myvec{-4\\6} = -\frac{1}{4} \myvec{-4\\6} 
+\\
+&=  \myvec{1\\-\frac{3}{2}} \implies m = -\frac{3}{2}
+\end{align}
+%
+\item The direction vector is
+\begin{align}
+\myvec{7\\-2} - \myvec{3\\-2} &= \myvec{4\\0} 
+\\
+&=  \myvec{1\\0} \implies m = 0
+\end{align}
+%
+\item The direction vector is
+\begin{align}
+\myvec{3\\4} - \myvec{3\\-2} &= \myvec{0\\6} 
+\\
+&=  \myvec{1\\ \infty} \implies m = \infty
+\end{align}
+%
+\item The slope is $m = \tan 60 \degree = \sqrt{3}$ and the  direction vector is
+\begin{align}
+\myvec{1\\\sqrt{3}}
+\end{align}
+\end{enumerate}
+\item If the angle between two lines is $\frac{\pi}{4}$ and the slope of one of the lines is $\frac{1}{4}$ find the slope of the other line.
+\\
+\solution The angle $\theta$ between two lines is given by 
+%
+\begin{align}
+\tan \theta &= \frac{m_1-m_2}{1+m_1m_2}
+\\
+\implies 1 &= \frac{m_1-\frac{1}{4}}{1+\frac{m_1}{4}}
+\\
+\text{or } m_1 &= \frac{5}{3} 
+\end{align}
+%
+%
+%\\
+%\solution 
+%%Using \eqref{eq:tri_geo_ex_orth}
+%\begin{align}
+%\cbrak{\myvec{-2\\ 6}-\myvec{4\\8}}^T \cbrak{\myvec{8\\ 12}-\myvec{x\\24}}=  0 
+%\end{align}
+%%
+%which can be used to obtain $x$.
+\item Two positions of time and distance are recorded as, when $T = 0, D = 2$ and when $T = 3, D = 8$. Using the concept of slope, find law of motion, i.e., how distance depends upon time.
+%
+\\
+\solution The equation of the line joining the points $\vec{A}=\myvec{0\\2}$ and $\vec{B}=\myvec{3\\8}$ is obtained as
+%
+\begin{align}
+\label{eq:line_two_pt}
+\vec{x} &= \vec{A}+\lambda\brak{\vec{B}-\vec{A}}
+\\
+\implies \myvec{T\\D} &= \myvec{0\\2}-\lambda\myvec{-3\\-6}
+\end{align}
+%
+which can be expressed as
+\begin{align}
+\myvec{2 & -1}\myvec{T\\D} &= \myvec{2 & -1}\myvec{0\\2}\\
+\implies \myvec{2 & -1}\myvec{T\\D} &= -2
+\\
+\implies D = 2+2T
+\end{align}
+%
+\item Find the equations of the lines parallel to the axes and passing through $\vec{A}=\myvec{-2\\3}$.
+%
+\\
+\solution The line parallel to the x-axis has direction vector $\vec{m}=\myvec{1\\0}$.  Hence,its equation is obtined as
+\begin{align}
+%
+\label{eq:line_dir_vec}
+\vec{x} = \myvec{-2\\3} + \lambda_1\myvec{1\\0}
+\end{align}
+%
+Similarly, the equation of the line parallel to the y-axis can be obtained as
+\begin{align}
+\vec{x} = \myvec{-2\\3} + \lambda_1\myvec{0\\1}
+\end{align}
+%
+The following code plots Fig. \ref{fig:line_parallel_axes}
+%
+\begin{lstlisting}
+codes/line/line_parallel_axes.py
+\end{lstlisting}
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_parallel_axes.eps}
+\caption{}
+\label{fig:line_parallel_axes}
+\end{figure}
+
+\item Find the equation of the line through $\vec{A}=\myvec{– 2\\ 3}$ with slope –4.
+\\
+\solution The direction vector is $\vec{m} = \myvec{1\\-4}$.  Hence, the normal vector
+\begin{align}
+\label{eq:line_norm_dir}
+\vec{n} &= \myvec{0&-1\\1&0}\vec{m} 
+\\
+&= \myvec{4\\1}
+\end{align}
+%
+The equation of the line in terms of the normal vector is then obtained as
+\begin{align}
+\label{eq:line_norm_vec}
+\vec{n}^T\brak{\vec{x}-\vec{A}} &= 0
+\\
+\implies \myvec{4 & 1} \vec{x} &= -5
+\end{align}
+%
+\item Write the equation of the line through the points \myvec{1\\-1} and \myvec{3\\5}.
+%
+\\
+\solution Use \eqref{eq:line_dir_vec}.
+\item Write the equation of the lines for which $\tan \theta = \frac{1}{2}$, where $\theta$ is the inclination of the line and 
+\label{prob:line_intercept}
+\begin{enumerate}
+\item y-intercept is $-\frac{3}{2}$
+\item x-intercept is 4.
+\end{enumerate}
+%
+\solution From the given information, $\tan \theta = \frac{1}{2}=m $.
+\begin{enumerate}
+\item y-intercept is $-\frac{3}{2} \implies $ the line cuts through the y-axis at $\myvec{0\\-\frac{3}{2}}$.
+\item x-intercept is 4 $\implies$ the line cuts through the x-axis at $\myvec{4\\0}$.
+\end{enumerate}
+%
+Use the above information get the equations for the lines.
+%
+\item Find the equation of a line through the point \myvec{5\\2\\-4} and parallel to the vector \myvec{3\\2\\-8}.
+\\
+\solution The equation of the line is 
+\begin{align}
+\vec{x} &= \myvec{5 & 2\\-4} + \lambda \myvec{3\\2\\-8}
+\end{align}
+%
+\item Find the equation of a line passing through the points \myvec{-1\\0\\2} and \myvec{3\\4\\6}.
+\\
+\solution Using  \eqref{eq:line_two_pt}, the desired equation of the line is
+\begin{align}
+\vec{x} &= \myvec{-1 & 0\\2} + \lambda \myvec{4\\4\\4}
+\\
+&= \myvec{-1 & 0\\2} + \lambda \myvec{1\\1\\1}
+\end{align}
+%
+\item If
+\begin{align}
+%
+\label{eq:line_3d}
+\frac{x+3}{2} = \frac{y-5}{4} = \frac{z+6}{2} = \lambda
+\end{align}
+%
+find the equation of the line.
+\label{prob:line_3d}
+\\
+\solution The line can be expressed from \eqref{eq:line_3d} as
+%
+\begin{align}
+%\label{eq:line_3d}
+\myvec{x\\y\\z} &= \myvec{-3+2\lambda\\5+4\lambda\\-6+2\lambda}
+\\
+\implies \vec{x} &= \myvec{-3\\5\\-6} + \lambda \myvec{2\\4\\2}
+\\
+\implies \vec{x} &= \myvec{-3\\5\\-6} + \lambda \myvec{1\\2\\1}
+\end{align}
+%
+\item Find the equation of the line, which makes intercepts -3 and 2 on the x and y axes respectively.
+\\
+\solution See Problem \ref{prob:line_intercept}.  The line passes through the points \myvec{-3\\0} and \myvec{0\\2}.
+
+\item Find the equation of the line whose perpendicular distance from the origin is 4 units and the angle which the normal makes with the positive direction of x-axis is $15\degree$.
+%
+\\
+\solution  In Fig. \ref{fig:line_pt_dist}, the foot of the perpendicular $P$ is the intersection of the lines $L$ and $M$.  Thus, 
+\begin{align}
+\label{eq:line_pt_dist_foot}
+\vec{n}^T\vec{P} &= c
+\\
+\label{eq:line_pt_dist_foot_normal}
+\vec{P} = \vec{A} + \lambda\vec{n}
+\\
+\text{or, } \vec{n}^T\vec{P} = \vec{n}^T\vec{A} + \lambda\norm{\vec{n}}^2 = c
+\\
+\label{eq:line_pt_dist_lam}
+\implies -\lambda = \frac{\vec{n}^T\vec{A}-c}{\norm{\vec{n}}^2}
+\end{align}
+%
+Also, the distance between $\vec{A}$ and $L$ is obtained from 
+%
+\begin{align}
+\vec{P} &= \vec{A} + \lambda\vec{n}
+\\
+\label{eq:line_pt_dist_lam_norm}
+\implies \norm{\vec{P} - \vec{A}}  = \abs{\lambda}\norm{\vec{n}}
+\end{align}
+%
+From \eqref{eq:line_pt_dist_lam}
+and \eqref{eq:line_pt_dist_lam_norm}
+%
+\begin{align}
+\label{eq:line_pt_dist}
+\norm{\vec{P} - \vec{A}}  = \frac{\abs{\vec{n}^T\vec{A}-c}}{\norm{\vec{n}}}
+\end{align}
+%
+
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_pt_dist.eps}
+\caption{}
+\label{fig:line_pt_dist}
+\end{figure}
+%
+\begin{align}
+\vec{n} = \myvec{1\\\tan 15\degree}
+\end{align}
+%
+$\because \vec{A} = \vec{0}$, 
+\begin{align}
+4 = \frac{\abs{ c}}{\norm{\vec{n}}} \implies c &= \pm 4\sqrt{1+\tan^2 15\degree} 
+\\
+&= \pm 4 \sec 15\degree
+\end{align}
+%
+where 
+%
+\begin{align}
+\sec \theta = \frac{1}{\cos \theta}
+\end{align}
+%
+This follows from the fact that
+%
+\begin{align}
+\cos^2 \theta + \sin^2 \theta &= 1
+\\
+\implies 1 + \frac{\sin^2 \theta}{\cos^2 \theta} &= \frac{1}{\cos^2 \theta}
+\end{align}
+%
+It is easy to verify that 
+%
+\begin{align}
+\frac{\sin \theta}{\cos \theta} &= \tan \theta
+\\
+\implies 1 + \tan^2 \theta &= \sec^2 \theta
+\end{align}
+%
+
+Thus, the equation of the line is 
+\begin{align}
+\myvec{1 &\tan 15\degree} \vec{c} = \pm 4 \sec 15\degree
+\end{align}
+\item The Farenheit temperature $F$ and absolute temperature $K$ satisfy a linear equation.  Given $K=273$ when $F=32$ and that $K=373$  when $F=212$, express $K$ in terms of $F$ and find the value of $F$, when $K=0$.
+%
+\\
+\solution Let 
+\begin{align}
+\vec{x}=\myvec{F & K} 
+\end{align}
+%
+Since the relation between $F, K$ is linear, \myvec{273\\32}, \myvec{373\\21} are on a line.  The corresponding equation is obtained from \eqref{eq:line_norm_vec} and \eqref{eq:line_norm_dir} as 
+%
+\begin{align}
+\myvec{11 & -100}\vec{x} &= \myvec{11 & -100}\myvec{273\\32} 
+\\
+\implies \myvec{11 & -100}\vec{x} &= -197
+\end{align}
+%
+If \myvec{F\\0} is a point on the line, 
+%
+\begin{align}
+\myvec{11 & -100}\myvec{F\\0} &= -197
+\implies F = -\frac{197}{11}
+\end{align}
+%
+\item Equation of a line is 
+\begin{align}
+\myvec{3 & – 4}\vec{x} + 10 = 0. 
+\end{align}
+Find its 
+\begin{enumerate}
+\item  slope, 
+\item  x - and y-intercepts.
+\end{enumerate}
+%
+\solution From the given information, 
+%
+\begin{align}
+\vec{n} &= \myvec{3 \\ – 4}, 
+\\
+\vec{m} &= \myvec{4 \\ 3}, 
+\end{align}
+%
+\begin{enumerate}
+\item $m = \frac{3}{4}$
+\item x-intercept is $-\frac{10}{3}$ and y-intercept is $\frac{10}{4} = \frac{5}{2}$.
+\end{enumerate}
+%
+%
+\item Find the angle between two vectors $\vec{a}$ and $\vec{b}$ where 
+%
+\begin{align}
+\norm{\vec{a}} = 1,
+\norm{\vec{b}} = 2,
+\vec{a}^T\vec{b} = 1.
+\end{align}
+%
+\solution In Fig. \ref{fig:line_scalar_prod}, from the cosine formula, 
+%
+\begin{align}
+\cos \theta &= \frac{\norm{\vec{A}-\vec{B}}^2+\norm{\vec{B}-\vec{C}}^2-\norm{\vec{A}-\vec{C}}^2}{2\norm{\vec{A}-\vec{B}}\norm{\vec{B}-\vec{C}}}
+\end{align}
+Letting $\vec{a} = \vec{A}-\vec{B}, \vec{b} = \vec{B}-\vec{C}$, 
+\begin{align}
+\cos \theta &= \frac{\norm{\vec{a}}^2+\norm{\vec{b}}^2-\norm{\vec{a}+\vec{b}}^2}{2\norm{\vec{a}}\norm{\vec{b}}}
+\\
+&= \frac{\norm{\vec{a}}^2+\norm{\vec{b}}^2-\sbrak{\norm{\vec{a}}^2+\norm{\vec{b}}^2-2\vec{a}^T\vec{b}}}{2\norm{\vec{a}}\norm{\vec{b}}}
+\\
+\implies \cos \theta &=\frac{\vec{a}^T\vec{b}}{\norm{\vec{a}}\norm{\vec{b}}}
+\end{align}
+%
+Thus, the angle $\theta$ between two vectors is given by 
+%
+\begin{align}
+\label{eq:line_scalar_prod}
+\cos \theta &= \frac{\vec{a}^T\vec{b}}{\norm{\vec{a}}\norm{\vec{b}}}
+\\
+&=\frac{1}{2}
+\\
+\implies \theta &= 60\degree
+\end{align}
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_scalar_prod.eps}
+\caption{}
+\label{fig:line_scalar_prod}
+\end{figure}
+%
+
+
+\item Find the angle between the lines 
+%
+\begin{align}
+\myvec{1 & – \sqrt{3}}\vec{x}  = 5
+\\
+\myvec{\sqrt{3} & –1}\vec{x}  = -6
+. 
+\end{align}
+%
+\solution The angle between the lines can also be expressed in terms of the normal vectors as
+%
+\begin{align}
+\cos \theta &= \frac{\vec{n}_1\vec{n}_2}{\norm{\vec{n}_1}\norm{\vec{n}_2}}
+\\
+&= \frac{\sqrt{3}}{2} \implies \theta = 30\degree
+\end{align}
+%
+\item Find the equation of a line perpendicular to the line 
+\begin{align}
+\myvec{1 & – 2}\vec{x}  = 3
+\end{align}
+%
+and passes through the point \myvec{1\\-2}.
+%
+\\
+\solution The normal vector of the perpendicular line is 
+%
+\begin{align}
+\myvec{2 \\ 1}
+\end{align}
+%
+Thus, the desired equation of the line is 
+%
+\begin{align}
+\myvec{2 & 1}\brak{\vec{x} - \myvec{1\\-2}} &=0
+\\
+\implies \myvec{2 & 1}\vec{x} =0
+\end{align}
+%
+
+\item Find the distance of the point \myvec{3\\-5} from the line 
+\begin{align}
+\myvec{3 & – 4}\vec{x}  = 26
+\end{align}
+%
+\solution Use \eqref{eq:line_pt_dist}.
+
+\item If the lines 
+\begin{align}
+\myvec{2 & 1}\vec{x}  = 3
+\\
+\myvec{5 & k}\vec{x}  = 3
+\\
+\myvec{3 & -1}\vec{x}  = 2
+\end{align}
+%
+are concurrent, find the value of $k$.
+%
+\\
+\solution If the lines are concurrent, the {\em augmented}  matrix should have a 0 row upon row reduction.  Hence, 
+%
+\begin{align}
+\myvec{
+2 & 1 & 3
+\\
+5 & k & 3
+\\
+3 & -1 & 2
+}
+\xleftrightarrow{R_2\leftrightarrow R_3}
+\myvec{
+2 & 1 & 3
+\\
+3 & -1 & 2
+\\
+5 & k & 3
+}
+\\
+\xleftrightarrow [R_3\leftarrow 2R_3-5R_1]{R_2\leftrightarrow 2R_2-3R_1}
+\myvec{
+2 & 1 & 3
+\\
+0 & -5 & -5
+\\
+0 & 2k-5 & -9
+}
+\\
+\xleftrightarrow []{R_2\leftarrow -\frac{R_2}{5}}
+\myvec{
+2 & 1 & 3
+\\
+0 & 1 & 1
+\\
+0 & 2k-5 & -9
+}
+\\
+\xleftrightarrow []{R_3\leftarrow R_3-\brak{2k-5}R_2}
+\myvec{
+2 & 1 & 3
+\\
+0 & 1 & 1
+\\
+0 & 0 & -2k-4
+}
+\\
+\implies k = -2
+\end{align}
+%
+\item Find the distance of the line
+\begin{align}
+\label{eq:line_L_1}
+L_1: \quad \myvec{4 & 1}\vec{x}  = 0
+\end{align}
+%
+from the point \myvec{4\\1} measured along the line $L_2$ making an angle of $135\degree$ with the positive x-axis.
+%
+\\
+\solution  Let $P$ be the point of intersection of $L_1$ and $L_2$.  The direction vector of $L_2$ is 
+\begin{align}
+\vec{m} = \myvec{1 \\ \tan 135\degree}
+\end{align}
+%
+Since \myvec{4\\1} lies on $L_2$, the equation of $L_2$ is 
+\begin{align}
+\label{eq:line_L_2}
+\vec{x} &= \myvec{4\\1} + \lambda \vec{m} 
+\\
+\label{eq:line_L_2_P}
+\implies \vec{P} &= \myvec{4\\1} + \lambda \vec{m} 
+\\
+\label{eq:line_L_2_P_dist}
+\text{or, } \norm{\vec{P} - \myvec{4\\1}} &= d = \abs{\lambda}\norm{\vec{m} }
+%
+\end{align}
+%
+Since $\vec{P}$ lies on $L_1$, from \eqref{eq:line_L_1},
+%
+\begin{align}
+\myvec{4 & 1}\vec{P}  = 0
+\end{align}
+%
+Substituting from the above in \eqref{eq:line_L_2},
+%
+\begin{align}
+\myvec{4 & 1}\myvec{4\\1} + \lambda \myvec{4 & 1}\vec{m}  &= 0
+\\
+\implies \lambda &= \frac{\myvec{4 & 1}\vec{m}}{17}
+\end{align}
+%
+substituting $\abs{\lambda}$ in \eqref{eq:line_L_2_P_dist} gives the desired answer.
+
+\item Assuming that straight lines work as a plane mirror for a point, find the image of the point \myvec{1\\2} in the line 
+%
+\begin{align}
+\myvec{1 & -3}\vec{x}  = -4.
+\end{align}
+%
+%\item Find $\vec{R}$, the {\em reflection}  of $\vec{P}$ about the line
+%\begin{align}
+%L: \quad \vec{n}^T\vec{x} = c
+%\end{align}
+%
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./line/figs/reflection.eps}
+\caption{}
+\label{fig:line_reflection}
+\end{figure}
+\solution Since $\vec{R}$ is the reflection of $\vec{P}$ and $\vec{Q}$ lies on $L$, $\vec{Q}$ bisects $PR$.  
+This leads to the following equations
+\begin{align}
+\label{eq:reflect_bisect}
+2\vec{Q} &= \vec{P}+\vec{R}
+\\
+\label{eq:reflect_Q}
+\vec{n}^{T}\vec{Q} &= c
+\\
+\label{eq:reflect_R}
+\vec{m}^{T}\vec{R} &= \vec{m}^{T}\vec{P}
+\end{align}
+%
+where $\vec{m}$ is the direction vector of $L$.  From \eqref{eq:reflect_bisect} and \eqref{eq:reflect_Q},
+\begin{align}
+\label{eq:reflect_bisectQ}
+\vec{n}^{T}\vec{R}  &= 2c - \vec{n}^{T}\vec{P}
+\end{align}
+%
+From \eqref{eq:reflect_bisectQ} and \eqref{eq:reflect_R},
+\begin{align}
+\label{eq:reflect_bisectQR}
+\myvec{\vec{m} & \vec{n}}^T\vec{R} &= \myvec{\vec{m} & -\vec{n}}^T\vec{P}+ \myvec{0 \\ 2c}
+\end{align}
+%
+Letting 
+\begin{align}
+\label{eq:reflect_mat}
+\vec{V}=  \myvec{\vec{m} & \vec{n}}
+\end{align}
+with the condition that $\vec{m},\vec{n}$ are orthonormal, i.e.
+\begin{align}
+\label{eq:reflect_ortho}
+\vec{V}^T\vec{V}=  \vec{I}
+\end{align}
+%
+Noting that 
+\begin{align}
+\label{eq:reflect_trans}
+\myvec{\vec{m} & -\vec{n}} &= \myvec{\vec{m} & \vec{n}} \myvec{1 & 0 \\ 0 & -1},
+\end{align}
+\eqref{eq:reflect_bisectQR} can be expressed as
+%
+\begin{align}
+\label{eq:reflect_}
+\vec{V}^T\vec{R} &=  \sbrak{\vec{V}\myvec{1 & 0 \\ 0 & -1}}^T\vec{P}+\myvec{0 \\ 2c}
+\\
+\implies \vec{R} &= \sbrak{\vec{V}\myvec{1 & 0 \\ 0 & -1}\vec{V}^{-1}}^T\vec{P}+ \vec{V}\myvec{0 \\ 2c}
+\\
+ &=\vec{V}\myvec{1 & 0 \\ 0 & -1}\vec{V}^T \vec{P}+2c \vec{n}
+\end{align}
+It can be verified that 
+%\item Show that, for any $\vec{m},\vec{n}$, 
+the reflection is also given by
+\begin{align}
+%\label{eq:reflect_bisect}
+\frac{\vec{R}}{2} = \frac{\vec{m}\vec{m}^T-\vec{n}\vec{n}^T}{\vec{m}^T\vec{m}+\vec{n}^T\vec{n}}\vec{P} + c 
+\frac{\vec{n}}{\norm{\vec{n}}^2}
+\end{align}
+%\solution The reflection of a point $\vec{P}$ about a line 
+%%
+%\begin{align}
+%\vec{n}^T\vec{x}  = c
+%\end{align}
+%%
+%is given by $\vec{R}$, where
+%\begin{align}
+%\label{eq:line_reflect}
+%\frac{\vec{R}}{2} = \frac{\vec{m}\vec{m}^T-\vec{n}\vec{n}^T}{\vec{m}^T\vec{m}+\vec{n}^T\vec{n}}\vec{P} + c \frac{\vec{n}}{\norm{\vec{n}}^2}
+%\end{align}
+%
+The following code plots Fig. \ref{fig:line_reflect} while computing the reflection
+%
+\begin{lstlisting}
+codes/line/line_reflect.py
+\end{lstlisting}
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_reflect.eps}
+\caption{}
+\label{fig:line_reflect}
+\end{figure}
+%
+
+\item A line $L$ is such that its segment between the lines %
+is bisected at the point $\vec{P} = \myvec{1\\5}$.  Obtain its equation.
+\begin{align}
+\label{eq:line_seg}
+L_1: \quad \myvec{5 & -1}\vec{x}  &= -4
+\\
+L_2: \quad \myvec{3 & 4}\vec{x}  &= 4
+\end{align}
+%
+\\
+\solution Let 
+%
+\begin{align}
+L: \quad \vec{x}  &= \vec{P} + \lambda \vec{m}
+\end{align}
+%
+If $L$ intersects $L_1$ and $L_2$ at $\vec{A}$ and $\vec{B}$ respectively, 
+%
+\begin{align}
+\label{eq:line_segA}
+ \vec{A}  &= \vec{P} + \lambda \vec{m}
+\\
+ \vec{B}  &= \vec{P} - \lambda \vec{m}
+\label{eq:line_segB}
+\end{align}
+%
+since $\vec{P}$ bisects $AB$. Note that $\lambda$ is a measure of the distance from $P$  along the line $L$.
+%
+From \eqref{eq:line_seg}, \eqref{eq:line_segA} and \eqref{eq:line_segB},
+%
+\begin{align}
+\myvec{5 & -1} \vec{A}  &= \myvec{5 & -1}\myvec{1\\5} + \lambda \myvec{5 & -1}\vec{m}=-4
+\\
+\myvec{3 & 4} \vec{B}  &= \myvec{3 & 4}\myvec{1\\5} - \lambda \myvec{3 & 4}\vec{m}=4
+\end{align}
+%
+yielding
+%
+\begin{align}
+19\myvec{5 & -1}\vec{m}&=-4 \myvec{3 & 4}\vec{m}
+\\
+\implies \myvec{107 & -3}\vec{m} &= 0
+\\
+\text{or, } \vec{n} = \myvec{107\\-3}
+\end{align}
+%
+after simplification.
+Thus, the equation of the line is 
+\begin{align}
+\vec{n}^T\brak{\vec{x}-\vec{P}} =0
+\end{align}
+\item Show that the path of a moving point such that its distances from two lines
+%
+\begin{align}
+\myvec{3 & -2}\vec{x}  &= 5
+\\
+\myvec{3 & 2}\vec{x}  &= 5
+\end{align}
+%
+are  equal is a straight line.
+%
+\\
+\solution Using \eqref{eq:line_pt_dist} the point $\vec{x}$ satisfies
+%
+\begin{align}
+\frac{\abs{\myvec{3 & -2}\vec{x}  - 5}}{\norm{\myvec{3 \\ -2}}}
+&=\
+\frac{\abs{\myvec{3 & 2}\vec{x}  - 5}}{\norm{\myvec{3 \\ 2}}}
+\\
+\implies \abs{\myvec{3 & -2}\vec{x}  - 5}&=\abs{\myvec{3 & 2}\vec{x}  - 5}
+\end{align}
+%
+resulting in 
+%
+\begin{align}
+\myvec{3 & -2}\vec{x}  - 5=\pm\brak{\myvec{3 & 2}\vec{x}  - 5}
+\end{align}
+%
+leading to the possible lines
+%
+\begin{align}
+L_1: \quad \myvec{0 & 1}\vec{x}  &=0
+\\
+L_2: \quad \myvec{1 & 0}\vec{x}  &=  \frac{5}{3}
+\end{align}
+%
+\item Find the angle between the vectors 
+$\vec{a}=\myvec{1\\1\\-1}$
+  and 
+$\vec{b}=\myvec{1\\-1\\1}$.
+%
+\\
+\solution 
+\input{./solutions/line_exam/63/A1/latex/solution.tex}
+%
+\item Find the angle between the pair of lines given by 
+\begin{align}
+\vec{x} &= \myvec{3\\2\\-4} + \lambda_1\myvec{1 \\ 2 \\2}
+\\
+\vec{x} &= \myvec{5\\-2\\0} + \lambda_2\myvec{3 \\ 2 \\6}
+\end{align}
+%
+\\
+\solution 
+\input{./solutions/line_plane/64/Latex/solution.tex}
+\item Find the angle between the pair of lines
+\begin{align}
+\frac{x+3}{3} = \frac{y-1}{5} &= \frac{z+3}{4}, 
+\\
+\frac{x+1}{1} = \frac{y-4}{1} &= \frac{z-5}{2} 
+\end{align}
+%
+\\
+\solution 
+\input{./solutions/line_exam/65/solution.tex}
+%
+\item Find a unit vector that makes an angle of $90\degree, 60\degree$ and $30\degree$ with the positive x, y and z axis respectively.
+%
+\\
+\solution
+The direction vector is
+%
+\begin{align}
+\label{eq:line_dir_cos}
+\vec{x} &= \myvec{\cos 90\degree\\\cos 60\degree \\ \cos 30\degree} = \myvec{0 \\ \frac{1}{2}\\\frac{\sqrt{3}}{2}}
+\end{align}
+%
+$\because \norm{\vec{x}}=1$, it is the desired unit vector.
+%
+\item Find the 
+distance between the lines 
+\begin{align}
+L_1: \quad \vec{x} &= \myvec{1\\2\\-4} + \lambda_1\myvec{2 \\ 3 \\6}
+\\
+L_2: \quad \vec{x} &= \myvec{3\\3\\-5} + \lambda_2\myvec{2 \\ 3 \\6}
+\end{align}
+\label{prob:line_dist_parallel}
+%
+\solution Both the lines have the same direction vector, so the lines are parallel. 
+The following code plots 
+%
+\begin{lstlisting}
+codes/line/line_dist_parallel.py
+\end{lstlisting}
+Fig. \ref{fig:line_dist_parallel_py} 
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_dist_parallel_py.eps}
+\caption{}
+\label{fig:line_dist_parallel_py}
+\end{figure}
+%
+%
+From Fig. \ref{fig:line_dist_parallel}, the distance is
+%
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./line/figs/line_dist_parallel.eps}
+\caption{}
+\label{fig:line_dist_parallel}
+\end{figure}
+%
+\begin{align}
+\label{eq:line_dist_parallel}
+\vec{\norm{\vec{A}_2-
+\vec{A}_1}}\sin\theta =\frac{\norm{\vec{m}\times \brak{\vec{A}_2-
+\vec{A}_1}}}{\norm{\vec{m}}}
+\end{align}
+%
+where 
+%
+\begin{align}
+\vec{A}_1 = \myvec{1\\2\\-4},
+\vec{A}_2 = \myvec{3\\3\\-5},
+\vec{m}=\myvec{2 \\ 3 \\6}
+\end{align}
+%
+
+\item Find the shortest distance between the lines 
+\begin{align}
+L_1: \quad \vec{x} &= \myvec{1\\1\\0} + \lambda_1\myvec{2 \\ -1 \\1}
+\\
+L_2: \quad \vec{x} &= \myvec{2\\1\\-1} + \lambda_2\myvec{3 \\ -5 \\2}
+\end{align}
+\label{prob:line_dist_skew}
+%
+\solution  In the given  problem
+\begin{align}
+\vec{A}_1= \myvec{1\\1\\0}, \vec{m}_1=\myvec{2 \\ -1 \\1},
+\vec{A}_2= \myvec{2\\1\\-1}, \vec{m}_2 =\myvec{3 \\ -5 \\2}.
+\end{align}
+%
+The lines will intersect if
+%
+\begin{align}
+\myvec{1\\1\\0} + \lambda_1\myvec{2 \\ -1 \\1}
+= \myvec{2\\1\\-1} + \lambda_2\myvec{3 \\ -5 \\2}
+\\
+\implies \lambda_1\myvec{2 \\ -1 \\1} - \lambda_2\myvec{3 \\ -5 \\2} &= \myvec{2\\1\\-1}-\myvec{1\\1\\0}  
+\\
+\implies \myvec{2 & 3 \\ -1 & -5 \\ 1 & 2}\myvec{\lambda_1\\ \lambda_2} = \myvec{1\\0\\-1}
+\end{align}
+%
+Row reducing the augmented matrix,
+%
+\begin{align}
+\myvec{
+2 & 3 & 1 
+\\
+-1 & -5 & 0
+\\
+1 & 2 & -1
+}
+\xleftrightarrow[]{R_3\leftrightarrow R_1}
+\myvec{
+1 & 2 & -1
+\\
+-1 & -5 & 0
+\\
+2 & 3 & 1 
+}
+\\
+\xleftrightarrow[]{\substack{R_2= R_1+R_2\\R_3 = 2R_1-R_3}}
+\myvec{
+1 & 2 & -1
+\\
+0 & -3 & -1
+\\
+0 & 1 & -3 
+}
+\xleftrightarrow[]{R_2\leftrightarrow R_3}
+\myvec{
+1 & 2 & -1
+\\
+0 & 1 & -3 
+\\
+0 & -3 & -1
+}
+\\
+\xleftrightarrow[]{R_3=3R_2+R_3}
+\myvec{
+1 & 2 & -1
+\\
+0 & 1 & -3 
+\\
+0 & 0 & -10
+}
+\end{align}
+%
+The above matrix has $rank = 3$.  Hence, the lines do not intersect.  Note that the lines are not parallel but they  lie on parallel planes.  Such lines are known as {\em skew} lines.  
+The following code plots 
+Fig. \ref{fig:line_dist_skew} 
+%
+\begin{lstlisting}
+codes/line/line_dist_skew.py
+\end{lstlisting}
+%
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./line/figs/line_dist_skew.eps}
+\caption{}
+\label{fig:line_dist_skew}
+\end{figure}
+%
+
+The normal to both the lines (and corresponding planes) is 
+%
+\begin{align}
+\label{eq:line_dist_skew_normal}
+\vec{n} = \vec{m}_1\times\vec{m}_2
+\end{align}
+%
+The equation of the second plane is then obtained as
+%
+\begin{align}
+\label{eq:line_dist_skew_plane2}
+\vec{n}^T \vec{x} = \vec{n}^T \vec{A}_2 
+\end{align}
+%
+The distance from $\vec{A}_1$ to the above line is then obtained using 
+\eqref{eq:line_pt_dist} as
+%
+\begin{align}
+\label{eq:line_dist_skew}
+\frac{\abs{\vec{n}^T\brak{\vec{A}_2-\vec{A}_1}}}{\norm{\vec{n}}}
+=
+\frac{\abs{\brak{\vec{A}_2-\vec{A}_1}^T\brak{\vec{m}_1\times\vec{m}_2}}}{\norm{\vec{m}_1\times\vec{m}_2}}
+\end{align}
+%
+
+\item Find the distance of the plane 
+\begin{align}
+\myvec{2 & -3 & 4}\vec{x}-6  = 0
+\end{align}
+%
+from the origin.
+\\
+\solution From \eqref{eq:line_pt_dist}, the distance is obtained as
+%
+\begin{align}
+\frac{\abs{c}}{\norm{\vec{n}}} &= \frac{6}{\sqrt{2^2+3^2+4^2}}
+\\
+&= \frac{6}{\sqrt{29}}
+\end{align}
+%
+
+\item Find the equation of a plane which is at a distance of $\frac{6}{\sqrt{29}}$ from the origin and has  normal vector $\vec{n}=\myvec{2\\-3\\4}$.
+%
+\\
+\solution From the previous problem, the desired equation is
+%
+\begin{align}
+\myvec{2 & -3 & 4}\vec{x}-6  = 0
+\end{align}
+%
+
+\item Find the unit normal vector of the plane 
+\begin{align}
+\myvec{6 & -3 & -2}\vec{x}  = 1.
+\end{align}
+%
+\solution The normal vector is 
+%
+\begin{align}
+\vec{n} = \myvec{6 & -3 & -2}
+\\
+\because \norm{\vec{n}} = 7,
+\end{align}
+%
+the unit normal vector is 
+%
+\begin{align}
+\frac{\vec{n}}{\norm{\vec{n}}} = \frac{1}{7}\myvec{6 & -3 & -2}
+\end{align}
+%
+\item Find the coordinates of the foot of the perpendicular drawn from the origin to the plane 
+\begin{align}
+\label{eq:line_foot_perp}
+\myvec{2 & -3 & 4}\vec{x}-6  = 0
+\end{align}
+%
+\solution The normal vector is 
+%
+\begin{align}
+\vec{n}=\myvec{2 \\ -3 \\ 4}
+\end{align}
+%
+Hence, the foot of the perpendicular from the origin is $\lambda \vec{n}$.  Substituting in \eqref{eq:line_foot_perp},
+\begin{align}
+\lambda \norm{\vec{n}}^2 = 6  \implies \lambda = \frac{6}{\norm{\vec{n}}^2} = \frac{6}{29}
+\end{align}
+%
+Thus, the foot of the perpendicular is
+%
+\begin{align}
+\frac{6}{29}\myvec{2 \\ -3 \\ 4}
+\end{align}
+%
+\item Find the equation of the plane which passes through the point $\vec{A}=\myvec{5\\2\\-4}$ and perpendicular to the line with direction vector $\vec{n}=\myvec{2\\3\\-1}$.
+%
+\\
+\solution  The normal vector to the plane is $\vec{n}$. Hence from \eqref{eq:line_norm_vec}, the equation of the plane is 
+%
+\begin{align}
+\vec{n}^T\brak{\vec{x}-\vec{A}} &= 0
+\\
+\implies \myvec{2\\3\\-1}\vec{x} &=\myvec{2&3&-1}\myvec{5\\2\\-4}
+\\
+&=20
+\end{align}
+%
+%The following 
+%%
+%\begin{lstlisting}
+%codes/line/plane_3d.py
+%\end{lstlisting}
+%%
+%\begin{figure}[!ht]
+%\includegraphics[width=\columnwidth]{./line/figs/plane_3d.eps}
+%\caption{}
+%\label{fig:plane_3d}
+%\end{figure}
+%
+
+\item Find the equation of the plane passing through 
+$
+\bm{R} = \myvec{2\\5\\-3},
+\bm{S}= \myvec{-2\\-3\\5}
+$ 
+and 
+$
+\bm{T}= \myvec{5\\3\\-3}.
+$
+\label{prob:plane_3pts}
+\\
+\solution  If the equation of the plane be 
+\begin{align}
+\vec{n}^T\vec{x} &= c,
+\\
+\vec{n}^T\vec{R}=\vec{n}^T\vec{S}=\vec{n}^T\vec{T}&= c,
+\\
+\implies \myvec{\vec{R}-\vec{S} & \vec{S}-\vec{T}}^T\vec{n} &= 0
+\end{align}
+%
+after some algebra.
+Using row reduction on the above matrix, 
+\begin{align}
+\myvec{4 & 8 &-8 \\ -7  & -6 & 8} \xleftrightarrow[]{R_1\leftarrow \frac{R_1}{4}}\myvec{1 & 2 &-2 \\ -7  & -6 & 8}
+\\
+\xleftrightarrow[]{R_2\leftarrow R_2 + 7R_1}
+\myvec{
+1 & 2 &-2 
+\\ 
+0  & 8 & -6
+}
+\xleftrightarrow[]{R_2\leftarrow \frac{R_2}{2}}
+\myvec{
+1 & 2 &-2 
+\\ 
+0  & 4 & -3
+}
+\\
+\xleftrightarrow[]{R_1\leftarrow 2R_1-R_2}
+\myvec{
+2 & 0 &-1 
+\\ 
+0  & 4 & -3
+}
+\end{align}
+%
+Thus, 
+\begin{align}
+\vec{n} &= \myvec{\frac{1}{2}\\\frac{3}{4}\\1} = \myvec{2\\3\\4} \text{ and}
+\\
+c = \vec{n}^{T}\vec{T} = 7
+\end{align}
+%
+Thus, the equation of the plane is 
+%
+\begin{align}
+\myvec{2 & 3 & 4}\vec{n} = 7
+\end{align}
+%
+Alternatively, the normal vector to the plane can be obtained as
+%
+\begin{align}
+\vec{n} = \brak{\vec{R}-\vec{S}} \times \brak{\vec{S}-\vec{T}}
+\end{align}
+%
+The equation of the plane is then obtained from \eqref{eq:line_norm_vec} as 
+%
+\begin{align}
+\label{eq:plane_3pts_cross}
+\vec{n}^T\brak{\vec{x}-\vec{T}} = \sbrak{\brak{\vec{R}-\vec{S}} \times \brak{\vec{S}-\vec{T}}}^T\brak{\vec{x}-\vec{T}} = 0
+\end{align}
+%
+
+\item Find the equation of the plane with intercepts 2, 3 and 4 on the x, y and z axis respectively.
+\\
+\solution From the given information, the plane passes through the points \myvec{2\\0\\0}, \myvec{0\\3\\0} and \myvec{0\\0\\4} respectively. The equation can be obtained using Problem \ref{prob:plane_3pts}.
+
+\item Find the equation of the plane passing through the intersection of the planes 
+%
+\begin{align}
+\label{eq:plane_2p_1pt_1}
+\myvec{1 & 1 & 1}\vec{x}&=6  
+\\
+\myvec{2 & 3 & 4}\vec{x}&=-5
+\label{eq:plane_2p_1pt_2}
+\end{align}
+%
+and the point \myvec{1\\1\\1}.
+\\
+\solution The intersection of the planes is obtained by row reducing the augmented matrix as
+%
+\begin{align}
+\myvec{
+1 & 1 & 1 & 6
+\\
+2 & 3 & 4 & -5
+}
+\xleftrightarrow[]{R_2 = R_2 -2R_1}
+\myvec{
+1 & 1 & 1 & 6
+\\
+0 & 1 & 2 & -17
+}
+\\
+\xleftrightarrow[]{R_1 = R_1 -R_2}
+\myvec{
+1 & 0 & -1 & 23
+\\
+0 & 1 & 2 & -17
+}
+\\
+\implies 
+\vec{x} = \myvec{23\\-17\\0}+\lambda\myvec{1\\-2\\1}
+\end{align}
+%
+Thus, \myvec{23\\-17\\0} is another point on the plane.  The normal vector to the plane is then obtained as
+The normal vector to the plane is then obtained as
+%
+\begin{align}
+\brak{ \myvec{1\\1\\1}-\myvec{23\\-17\\0}}\times \myvec{1\\-2\\1} 
+\end{align}
+%
+which can be obtained by row reducing the matrix
+\begin{align}
+\myvec{
+1 & -2 & 1
+\\
+-22 & 18 & 1
+}
+\xleftrightarrow[]{R_2 = R_2+22R_1}
+\myvec{
+1 & -2 & 1
+\\
+0  & -26 & 23
+}
+\\
+\xleftrightarrow[]{R_1 = 13R_1-R_2}
+\myvec{
+13 & 0 & -10
+\\
+0  & -26 & 23
+}
+\\
+\implies \vec{n} = \myvec{\frac{10}{13}\\\frac{23}{26}\\1} = \myvec{20\\23\\26}
+\end{align}
+%
+Since the plane passes through \myvec{1\\1\\1}, using 
+ \eqref{eq:line_norm_vec},
+%
+\begin{align}
+\myvec{20 & 23 & 26}\brak{\vec{x}- \myvec{1\\1\\1}} &= 0
+\\
+\implies 
+\myvec{20 & 23 & 26}\vec{x} &= 69
+\end{align}
+%
+Alternatively, the plane passing through the intersection of \eqref{eq:plane_2p_1pt_1} and 
+\eqref{eq:plane_2p_1pt_2} has the form 
+%
+\begin{align}
+\label{eq:plane_2p_1pt_lam}
+\myvec{1 & 1 & 1}\vec{x} + \lambda \myvec{2 & 3 & 4}\vec{x} &=6 -5\lambda  
+\end{align}
+%
+Substituting \myvec{1\\1\\1} in the above, 
+%
+\begin{align}
+\myvec{1 & 1 & 1}\myvec{1\\1\\1} + \lambda \myvec{2 & 3 & 4}\myvec{1\\1\\1} &=6 -5\lambda  
+\\
+\implies 3 + 9\lambda &= 6-5\lambda
+\\
+\implies &\lambda = \frac{3}{14}
+\end{align}
+%
+Substituting this value of $\lambda $ in \eqref{eq:plane_2p_1pt_lam} yields the equation of the plane.
+
+\item Show that the lines 
+\label{prob:line_coplanar}
+%
+\begin{align}
+\frac{x+3}{-3} = \frac{y-1}{1} &= \frac{z-5}{5}, 
+\\
+\frac{x+1}{-1} = \frac{y-2}{2} &= \frac{z-5}{5} 
+\end{align}
+%
+are coplanar.
+\\
+\solution Since the given lines have different direction vectors, they are not parallel.  From Problem \eqref{prob:line_dist_skew}, the lines are coplanar if the distance between them is 0, i.e. they intersect.  This is possible if 
+%
+\begin{align}
+\label{eq:line_coplanar}
+\brak{\vec{A}_2-\vec{A}_1}^T\brak{\vec{m}_1\times\vec{m}_2} = 0
+\end{align}
+%
+From the given information, 
+%
+\begin{align}
+\vec{A}_2-\vec{A}_1 = \myvec{-3\\1\\5}-\myvec{-1\\2\\5} = \myvec{-2\\-1\\0}
+\end{align}
+%
+$\vec{m}_1\times \vec{m}_2$ is obtained by row reducing the matrix
+%
+\begin{align}
+\myvec{
+-1 & 2 & 5
+\\
+-3 & 1 & 5
+}
+\xleftrightarrow[]{R_2=\frac{R_2-3R_1}{5}}
+\myvec{
+-1 & 2 & 5
+\\
+0 & 1 & 2
+}
+\\
+\xleftrightarrow[]{R_1=-R_1+2R_2}
+\myvec{
+1 & 0 & -1
+\\
+0 & 1 & 2
+}
+\implies \myvec{-1 \\ 2 \\ 5}
+\times \myvec{-3 \\ 1 \\ 5}
+=\myvec{1\\-2\\1}
+\end{align}
+%
+The LHS of \eqref{eq:line_coplanar} is 
+\begin{align}
+\myvec{-2 & -1 & 0}
+\myvec{1\\-2\\1} = 0
+\end{align}
+%
+which completes the proof.  Alternatively, the lines are coplanar if
+%
+\begin{align}
+\mydet{\vec{A}_1-\vec{A}_2 & \vec{m}_1 & \vec{m}_2} = 0
+\end{align}
+%
+
+\item Find the angle between the two planes
+\label{prob:planes_angle}
+\begin{align}
+\myvec{2 & 1 & -2}\vec{x}&=5
+\\
+\myvec{3 &-6 & -2}\vec{x}&=7.
+\end{align}
+%
+\solution The angle between two planes is the same as the angle between their normal vectors.  This can be obtained from \eqref{eq:line_scalar_prod}.
+
+\item Find the angle between the two planes
+\begin{align}
+\myvec{2 & 2 & -2}\vec{x}&=5
+\\
+\myvec{3 &-6 & 2}\vec{x}&=7.
+\end{align}
+%
+\solution See Problem \eqref{prob:planes_angle}.
+%
+\item Find the distance of a point \myvec{2\\5\\-3} from the plane
+\begin{align}
+\myvec{6 & -3 & 2}\vec{x}=4
+\end{align}
+%
+\\
+\solution Use \eqref{eq:line_pt_dist}.
+\item Find the angle between the line 
+%
+\begin{align}
+L: \quad \frac{x+1}{2} = \frac{y}{3} = \frac{z-3}{6} 
+\end{align}
+%
+and
+%
+the plane 
+\begin{align}
+P: \quad \myvec{10 & 2 & -11}\vec{x}=3
+\end{align}
+%
+\label{prob:plane_angle_line}
+%
+\solution The angle between the direction vector of $L$ and normal vector of $P$ is 
+%
+\begin{align}
+\cos \theta &= \frac{\abs{\myvec{10 & 2 & -11}\myvec{2\\3\\6}}}{\sqrt{225}\times \sqrt{49}} = \frac{8}{21}
+\end{align}
+%
+Thus, the desired angle is $90\degree -\theta$.
+\item Find the equation of the plane that contains the point $\myvec{1\\-1\\2}$ and is perpedicular to each of the planes
+\begin{align}
+\myvec{2 & 3 & -2}\vec{x}&=5
+\\
+\myvec{1 & 2 & -3}\vec{x}&=8
+\end{align}
+%
+\solution The normal vector to the desired plane is $\perp$ the normal vectors of both the given planes.  Thus,
+%
+\begin{align}
+\vec{n} = \myvec{2 \\ 3 \\ -2} \times \myvec{1 \\ 2 \\ -3}
+\end{align}
+%
+The equation of the plane is then obtained as
+%
+\begin{align}
+\vec{n}^T\brak{\vec{x}-\vec{A}} = 0
+\end{align}
+%
+\item Find the distance between the point $\vec{P}=\myvec{6\\5\\9}$ and the plane determined by the points $\bm{A}=\myvec{3\\-1\\2}, \bm{B}=\myvec{5\\2\\4}$ and $\bm{C}=\myvec{-1\\-1\\6}$.
+%
+\\
+\solution Find the equation of the plane using Problem \ref{prob:plane_3pts}.  Find the distance using \eqref{eq:line_pt_dist}.
+%
+\item Find the coordinates of the point where the line through the points
+$
+\vec{A}=\myvec{3\\4\\1}, 
+\vec{B}=\myvec{5\\1\\6}
+$
+crosses the XY plane.
+%
+\\
+\solution The equation of the line is 
+%
+\begin{align}
+\vec{x} &= \vec{A}+\lambda\brak{\vec{B}-\vec{A}}
+\\
+&= \myvec{3\\4\\1} + \lambda \myvec{2\\-3\\5}
+\end{align}
+%
+The line  crosses the XY plane for $x_3 = 0 \implies \lambda = -\frac{1}{5}$. Thus, the desired point is
+%
+\begin{align}
+ \myvec{3\\4\\1} -\frac{1}{5}\myvec{2\\-3\\5} = \frac{1}{5}\myvec{13\\23\\0}
+\end{align}
+%
+\item Show that the function given by $f(x) = 7x – 3$ is increasing on $\vec{R}$.
+\\
+\solution A function is said to be increasing if
+\begin{align}
+x_2> x_1 &\implies f(x_2)> f(x_1)
+\\
+\implies \frac{f(x_2)-f(x_1)}{x_2 - x_1}  &> 0
+\label{eq:line_inc_12}
+\end{align}
+%
+Letting $x_1 = x, x_2 = x+h$ in \eqref{eq:line_inc_12}, this results in 
+\begin{align}
+\frac{f(x+h)-f(x)}{h} > 0
+\label{eq:line_slope}
+\end{align}
+In the given problem, 
+\begin{align}
+\frac{f(x+h)-f(x)}{h} = 7 > 0
+\end{align}
+%
+Hence, the given function is increasing.
+%
+%
+\item A funcion $f(x)$ is increasing if 
+\label{them:inc_der_def}
+\begin{align}
+f^{\prime}(x)=\lim_{h\to 0} \frac{f(x+h)-f(x)}{h} & > 0
+\end{align}
+%
+$f^{\prime}(x)$ is defined as the {\em derivative} of $f(x)$.
+The function is decreasing if $f^{\prime}(x) < 0$.  
+%
+\item The funcion $f(x) = ax+b, a \ne 0$ is increasing if $f^{\prime}(x) = a > 0$.  Else, it is decreasing.
+\label{them:line_inc}
+%
+
+\item Find the maximum and minimum values, if any, of the function given by 
+%
+\begin{align}
+\label{eq:line_der_def_prob}
+f(x) = x, x \in \brak{0,1}.
+\end{align}
+%
+\solution It is easy to verify that $f^{\prime}(x) = 1 > 0$ in the given interval.    Hence, the function is increasing.   The maximum value in the given interval is 1 and the minimum value is 0.
+%
+\item Find all points of local maxima and local minima of the function $f$ given by 
+%
+\begin{align}
+\label{eq:line_abs}
+f(x)  = 3 +\abs{x}, \quad x \in \vec{R}
+\end{align}
+%
+\solution \eqref{eq:line_abs} can be expressed as 
+%
+\begin{align}
+\label{eq:line_abs_cases}
+f(x)  = 
+\begin{cases}
+3 +x & x > 0
+\\
+0 & x = 0
+\\
+3- x & < 0
+\end{cases}
+\end{align}
+%
+From Theorem \ref{them:line_inc}, 
+%
+\begin{align}
+%\label{eq:line_abs_cases}
+f^{\prime}(x)  = 
+\begin{cases}
+1 & x > 0
+\\
+-1 & x < 0
+\end{cases}
+\end{align}
+%
+Thus, $f(x)$ is increasing in $\brak{0, \infty}$ and decreasing in $\brak{-\infty, 0}$.  It is obvious that the minimum value of $f(x) = 0$.
+%
+\item Sketch the graph of $y = \abs{x+3}$ and evaluate its area for $-6 \le x \le 0$.
+\\
+\solution Fig.  shows 
+\begin{align}
+\label{eq:tri_area_lim_abs}
+y_1 &= \abs{x+3}, -6 \le x \le 0
+\\
+y_2 &= \abs{x}, -3 \le x \le 3
+\\
+y_3 &= x, 0 < x < 3
+\\
+\implies ar\brak{y_1} &= ar\brak{y_2} = 2ar\brak{y_3}
+\end{align}
+%8
+From Fig. , 
+%
+\begin{align}
+ar\brak{y_3} &= h\brak{h + 2h+ 3h + \dots + nh}, \quad nh = 3
+\\
+&=h^2\brak{1+2+3+\dots n}= h^2\sum_{k=1}^{n}k 
+\label{eq:tri_area_lim}
+\end{align}
+%
+Let 
+%
+\begin{align}
+S_n&=1+2+3+\dots n
+\\
+\implies S_n &= n + n-1 + n-2 + \dots 1
+\end{align}
+\begin{multline}
+\implies 2S_n = \brak{n+1 } + \brak{n+1 }+\dots + \brak{n+1 }  
+\\
+n \text{ times}
+\end{multline}
+\\
+\begin{align}
+\implies 2S_n &= n\brak{n+1}
+\\
+\text{or, } S_n &= \frac{n\brak{n+1}}{2}
+\label{eq:sum_nat_num}
+\end{align}
+%
+Substituting \eqref{eq:sum_nat_num} in \eqref{eq:tri_area_lim},
+\begin{align}
+ar\brak{y_3} &= \frac{nh\brak{nh+h}}{2}
+\\
+&= \frac{3\brak{3+h}}{2}
+\\
+\text{or, } ar\brak{y_3} &= \lim_{h\to 0}ar\brak{y_3} = \frac{9}{2}
+\label{eq:tri_area_lim_y3}
+\end{align}
+%
+This result agrees with the area of a triangle calculated using the base and altitude.
+Thus, from \eqref{eq:tri_area_lim_y3} and \eqref{eq:tri_area_lim_abs},
+\begin{align}
+ar\brak{y_1} = 2ar\brak{y_3}  = 9
+\end{align}
+%
+\item Check the continuity of the function $f$ given by $f(x) = 2x + 3$ at $x = 1$.
+\\
+\solution See Fig. 
+\begin{align}
+\because f(1+h) &= 2\brak{1+h}+3 = 5+h
+\\
+f(1) &= 5
+\\
+f(1-h) &= 2\brak{1+h}+3 = 5-h
+\\
+\lim_{h\to 0}f(1+h) &= f(1) = f(1-h) = 5
+\end{align}
+%
+Hence, the function is continuous.
+%
+\item A function $f(x)$ is defined to be {\em continuous} at $x = a$ if 
+\begin{align}
+\label{eq:continuity}
+\lim_{h\to 0}f(a+h) &= f(a) = f(a-h) 
+\end{align}
+It is possible to draw a continuious function $f(x)$ without lifting a pencil.  
+\item Discuss the continuity of the function $f$ given by $f(x) = \abs{ x}$ at $x = 0$.
+\\
+\solution See Fig. .  It appears to be continuous. To prove this, we note that 
+\begin{align}
+\lim_{h\to 0}f(0+h) &= f(0) = f(0-h)  = 0
+\end{align}
+%
+\item Check the points where the constant function $f(x) = k$ is continuous.
+\\
+\solution $f(x)$ is continuous everywhere.
+%
+\item Find all the points of discontinuity of the function $f$ defined by 
+%
+\begin{align}
+f(x)  = 
+\begin{cases}
+x+2 & x < 1
+\\
+0 & x = 1
+\\
+x-2 & x > 1
+\end{cases}
+\end{align}
+\solution From  Fig. ,  the discontinuity appears to be at $x = 1$ and verified by the fact that
+%
+\begin{align}
+\because f(1-h) = 3 \ne f(1) \ne f(1+h),
+\end{align}
+%
+\item Discuss the continuity of the function $f$ defined by 
+%
+\begin{align}
+f(x)  = 
+\begin{cases}
+x+2 & x < 0
+\\
+-x+2 & x > 0
+\end{cases}
+\end{align}
+%
+The function is not defined at $x = 0$, so it is discontinuous at that point.  At all other points it is continuious.
+\item Show that the function $f$ defined by 
+%
+\begin{align}
+f(x)  = \abs{1-x+\abs{x}},
+\end{align}
+%
+where $x$ is any real number, is a continuous function.
+\\
+\solution The sum of continuous functions is continuous.
+\item If 
+\label{def:dydx}
+%
+\begin{align}
+y = f(x), \frac{dy}{dx} = f^{\prime}\brak{x}
+\end{align}
+%
+\item Find $\frac{dy}{dx}$ if $x-y = \pi$.
+%
+\\
+\solution 
+%
+\begin{align}
+\because y &= f(x) = x -\pi, 
+\end{align}
+%
+from Theorem \ref{them:line_inc},
+%
+\begin{align}
+\frac{dy}{dx} = 1.
+\end{align}
+%
+\item Find the derivative at $x = 2$ of the function $f(x) = 3$.
+\\
+\solution The derivative is 0.
+\item Find the derivative of $f(x) = 3$ at $x = 0$ and $x = 3$.
+\\
+\solution $\frac{dy}{dx}=0$.
+\item Find the derivative of $f(x) = 10x$.
+\\
+\solution $\frac{dy}{dx}=10$.
+\item Find the derivative of $f(x) =a$ for a fixed real number $a$.
+%
+\\
+\solution $\frac{dy}{dx}=0$.
+\item Form the {\em differential equation} representing the family of curves $y = mx$, where, $m$ is an arbitrary constant.
+\solution The desired equation is 
+%
+\begin{align}
+\frac{dy}{dx} = m
+\end{align}
+%
+ \item Verify whether the following are zeroes of the polynomial, indicated against them. 
+\begin{enumerate}
+\item $ p(x) = 3x + 1, x = \frac{1}{3}$
+\item $ p(x) = 5x -\pi, x = \frac{4}{5}$
+\item $ p(x) = 5lx+m, x = -\frac{m}{l}$
+\item $ p(x) = 2x+1, x = \frac{1}{2}$
+\end{enumerate}
+%
+\solution 
+\input{./solutions/1/chapters/line/line_plane/solution.tex}
+%
+\item Find the zero of the polynomial in each of the following cases: 
+\begin{enumerate}
+\item $p(x) = x + 5 $
+\item $p(x) = x – 5$
+\item $p(x) = 2x + 5$
+\item $p(x) = 3x – 2$
+ \item $p(x) = 3x$
+ \item $p(x) = ax, a \ne 0$
+\item $p(x) = cx + d, c \ne 0, c, d$ are real numbers.
+\end{enumerate}
+\solution 
+\input{./solutions/2/chapters/line_ex/lines_and_planes/solution.tex}
+\item Find two solutions for each of the following equations: 
+\begin{enumerate}
+\item $\myvec{4 & 3}\vec{x} = 12$
+\item $\myvec{ 2 & 5}\vec{x}  = 0 $
+\item $\myvec{ 0 & 3}\vec{x}  = 4$
+\end{enumerate}
+\solution 
+\input{./solutions/3/chapters/line/pointonline/solution.tex}
+
+\item Sketch the following lines
+%
+\begin{enumerate}[itemsep=2pt]
+%\begin{multicols}{2}
+\item
+$
+\myvec{2 & 3 }\vec{x}=9.35
+$
+\item
+$
+\myvec{1 & -\frac{1}{5} }\vec{x}=10
+$
+\item
+$
+\myvec{-2 & 3 }\vec{x}=6
+$
+\item
+$
+\myvec{1 & -3 }\vec{x}=0
+$
+\item
+$
+\myvec{2 & 5 }\vec{x}=0
+$
+\item
+$
+\myvec{3 & 0 }\vec{x}=-2
+$
+\item
+$
+\myvec{0 & 1 }\vec{x}=2
+$
+\item
+$
+\myvec{2 & 0 }\vec{x}=5
+$
+%\end{multicols}
+\end{enumerate}
+%
+\solution 
+\input{./solutions/4/chapters/line/lines_and_plane/solution.tex}
+%
+\item Draw the graphs of the following equations
+\begin{enumerate}[itemsep=2pt]
+\begin{multicols}{2}
+\item $\myvec{1 & 1}\vec{x} = 0$
+\item $\myvec{ 2 & -1}\vec{x}  = 0 $
+\item $\myvec{ 1 & -1}\vec{x}  = 0$
+\item $\myvec{ 2 & -1}\vec{x}  = -1$
+\item $\myvec{ 2 & -1}\vec{x}  = 4$
+\item $\myvec{ 1& -1}\vec{x}  = 4$
+\end{multicols}
+\end{enumerate}
+\solution 
+\input{./solutions/5/chapters/lines/docq11.tex}
+%
+\item Write four solutions for each of the following equations
+\begin{enumerate}
+\item $\myvec{2 & 1}\vec{x} = 7$
+\item $\myvec{ \pi & 1}\vec{x}  = 9 $
+\item $\myvec{ 1 & -4}\vec{x}  = 0$
+\end{enumerate}
+\solution 
+\input{./solutions/6/chapters/line/lines_planes/solution.tex}
+\item Find $m$ if 
+\begin{align}
+\begin{split}
+\myvec{2 & 3 }\vec{x}&=11
+\\
+\myvec{2 & -4 }\vec{x}&=-24
+\\
+\myvec{m & -1 }\vec{x}&=-3
+\\
+\end{split}
+\end{align}
+%
+\solution 
+\input{./solutions/line_plane/17/solution.tex}
+\item Solve the following
+%
+\begin{enumerate}[itemsep=2pt]
+\begin{multicols}{2}
+\item
+\begin{align}
+\begin{split}
+\myvec{1 & 1 }\vec{x}&=5
+\\
+\myvec{2 & -3 }\vec{x}&=4
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{3 & 4 }\vec{x}&=10
+\\
+\myvec{2 & -2 }\vec{x}&=2
+\end{split}
+\end{align}
+\item
+\begin{align}
+\begin{split}
+\myvec{3 & -5 }\vec{x}&=4
+\\
+\myvec{9 & -2 }\vec{x}&=7
+\end{split}
+\end{align}
+\begin{align}
+\begin{split}
+\myvec{\frac{1}{2} & \frac{2}{3} }\vec{x}&=-1
+\\
+\myvec{{1} & -\frac{1}{3} }\vec{x}&=3
+\end{split}
+\end{align}
+\end{multicols}
+\end{enumerate}
+%
+\solution 
+\input{./solutions/line_plane/18/chapters/solution.tex}
+
+\item For which values of $a$ and $b$ does the following pair of linear equations have an infinite number of solutions?
+\begin{align}
+\begin{split}
+\myvec{2 & 3 }\vec{x}&=7
+\\
+\myvec{a-b & a+b }\vec{x}&=3a+b-2
+\end{split}
+\end{align}
+\solution 
+\input{./solutions/line_plane/20/solution.tex}
+%
+\item For which value of $k$ will the following pair of linear equations have no solution?
+\begin{align}
+\begin{split}
+\myvec{3 & 1 }\vec{x}&=1
+\\
+\myvec{2k-1 & k-1 }\vec{x}&=2k+1
+\end{split}
+\end{align}
+\\
+\solution
+\input{./solutions/line_plane/21/solution.tex}
+\item Solve the following pair of linear equations
+\begin{align}
+\begin{split}
+\myvec{8 & 5 }\vec{x}&=9
+\\
+\myvec{3 & 2 }\vec{x}&=4
+\end{split}
+\end{align}
+\solution 
+\input{./solutions/line_plane/22/solution.tex}
+%
+\item Solve the following pair of linear equations
+\begin{align}
+\begin{split}
+\myvec{158 & -378 }\vec{x}&=-74
+\\
+\myvec{-378 & 152 }\vec{x}&=-604
+\end{split}
+\end{align}
+\solution 
+\input{./solutions/line_plane/23/solution.tex}
+
+\item  Find the slope of a line, which passes through the origin, and the mid-point of the line segment joining the points $\vec{P} = \myvec{0\\ – 4}$ and $\vec{B} = \myvec{8\\ 0}$.
+\solution 
+\input{./solutions/line_plane/24/solution.tex}
+\item The slope of a line is double of the slope of another line. If the tangent of the angle
+between them is $\frac{1}{3}$, find the slopes of the lines.
+\solution 
+\input{./solutions/line_plane/25/solution.tex}
+\item Find the intercepts of the following  lines on the axes.
+\begin{enumerate}
+\item $\myvec{3 & 2}\vec{x} = 12$.
+\item $\myvec{4 & -3}\vec{x} = 6$.
+\item $\myvec{3 & 2}\vec{x} = 0$.
+\end{enumerate}
+\solution
+\input{./solutions/line_plane/30/solution.tex}
+\item Find the distance of the point \myvec{1\\-1} from the line $\myvec{12 & -5}\vec{x} = -82$.
+\\
+\solution
+\input{./solutions/line_plane/33/solution.tex}
+\item Find the points on the x-axis, whose distances from the line 
+\begin{align}
+\myvec{4 & 3} \vec{x} = 12
+\end{align}
+are 4 units.
+%
+\\
+\solution
+\input{./solutions/line_plane/34/solution.tex}
+\item Find the equation of a line perpendicular to the line 
+\begin{align}
+\myvec{1 & -7}\vec{x} = -5
+\end{align}
+and having x intercept 3.
+\\
+\solution
+\input{./solutions/line_plane/37/A1/latex/solution.tex}
+\item Find angles between the lines
+\begin{align}
+\myvec{\sqrt{3} & 1}\vec{x} &= 1
+\\
+\myvec{1 & \sqrt{3}}\vec{x} &= 1
+\end{align}
+\\
+\solution
+\input{./solutions/line_plane/38/solution.tex}
+\item The line through the points $\myvec{h\\3}$ and \myvec{4\\1} intersects the line 
+\begin{align}
+\myvec{7 & -9}\vec{x} = 19
+\end{align}
+at right angle.  Find the value of $h$.
+\\
+\solution
+\input{./solutions/line_plane/39/solution.tex}
+\item Two lines passing through the point \myvec{2\\3} intersect each other at angle of $60\degree$.  If the slope of one line is 2, find the equation of the other line.
+\\
+\solution
+\input{./solutions/line_plane/40/solution.tex}
+\item Find the equation of the right bisector of the line segment joining the points \myvec{3\\4} and \myvec{-1\\2}.
+\\
+\solution
+\input{./solutions/line_plane/41/solution.tex}
+
+\item Find the coordinates of the foot of the perpendicular from the point \myvec{-1\\3} to the line
+%
+\begin{align}
+\myvec{3 & -4}\vec{x} = 16.
+\end{align}
+%
+\\
+\solution
+\input{./solutions/line_plane/42/solution.tex}
+\item The perpendicular from the origin to the line
+\begin{align}
+\myvec{-m & 1}\vec{x} = c
+\end{align}
+%
+meets it at the point \myvec{-1\\2}.  Find the values of $m$ and $c$.
+\\
+\solution
+\input{./solutions/line_plane/43/solution.tex}
+%
+\item Find the equations of the lines, which cut-off intercepts on the axes whose sum and product are 1 and -6 respectively.
+%
+\\
+\solution
+\input{./solutions/line_plane/45/solution.tex}
+\item What are the points on the y-axis whose distance from the line 
+%
+\begin{align}
+\myvec{4 & 3}\vec{x} = 12
+\end{align}
+%
+4 units.
+\\
+\solution
+\input{./solutions/line_plane/46/solution.tex}
+%%
+\item Find the equation of the line parallel to the y-axis drawn through the point of intersection of the lines 
+%
+\begin{align}
+\myvec{1 & -7}\vec{x} &= -5
+\\
+\myvec{3 & 1}\vec{x} &= 0
+\end{align}
+%
+\\
+\solution
+\input{./solutions/line_plane/47/solution.tex}
+%
+\item Find the equation of the lines through the point \myvec{3\\2} which make an angle of $45\degree$ with the line 
+\begin{align}
+\myvec{1 & -2}\vec{x} &= 3.
+\end{align}
+\\
+\solution
+\input{./solutions/line_plane/49/solution.tex}
+%
+\item Find the equation of the line passing through the point of intersection of the lines 
+%
+\begin{align}
+\myvec{4 & 7}\vec{x} &= 3
+\\
+\myvec{2 & -3}\vec{x} &= -1
+\end{align}
+%
+that has equal intercepts on the axes.
+\\
+\solution
+\input{./solutions/line_plane/50/solution.tex}
+\item In what ratio is the line joining \myvec{-1\\1} and \myvec{5\\7} divided by the line
+%
+\begin{align}
+\myvec{1 & 1}\vec{x} &= 4
+\end{align}
+%
+\\
+\solution
+\input{./solutions/line_plane/51/solution.tex}
+\item Find the distance of the line 
+%
+\begin{align}
+\myvec{4 & 7}\vec{x} &= -5
+\end{align}
+%
+from the point \myvec{1\\2} along the line 
+%
+\begin{align}
+\myvec{2 & -1}\vec{x} &= 0.
+\end{align}
+%
+\\
+\solution
+\input{./solutions/line_plane/52/solution.tex}
+\item Find the direction in which a straight line must be drawn through the point \myvec{-1\\2} so that its point of intersection with the line 
+%
+\begin{align}
+\myvec{1 & 1}\vec{x} &= 4
+\end{align}
+%
+may be at a distance of 3 units from this point.
+\\
+\solution
+\input{./solutions/line_plane/53/solution.tex}
+\item Find the image of the point \myvec{3\\8} with respect to the line 
+%
+\begin{align}
+\myvec{1 & 3}\vec{x} &= 7
+\end{align}
+%
+assuming the line to be a plane mirror.
+%
+\\
+\solution
+\input{./solutions/line_plane/55/solution.tex}
+\item A ray of light passing through the point \myvec{1\\2} reflects on the x-axis at point $\vec{A}$ and the reflected ray passes through the point \myvec{5\\3}.  Find the coordinates of $\vec{A}$.
+\\
+\solution
+\input{./solutions/line_plane/59/solution.tex}
+\item Find the equation of a line which passes through the point \myvec{1\\2\\3} and is parallel to the vector \myvec{3\\2\\-2}.
+\\
+\solution
+\input{./solutions/line_plane/67/solution.tex}
+\item Find the equaion off the line that passes through \myvec{2\\-1\\4} and is in the direction \myvec{1\\2\\-1}.
+\\
+\solution
+\input{./solutions/line_plane/68/solution.tex}
+\item Find the equation of the line given by 
+\begin{align}
+\frac{x-5}{3} = \frac{y+4}{7} = \frac{z-6}{2}. 
+\end{align}
+\\
+\solution
+\input{./solutions/line_plane/70/solution.tex}
+\item Find the equation of the line passing through the origin and the point \myvec{5\\-2\\3}.
+\\
+\solution
+\input{./solutions/line_plane/71/solution.tex}
+\item Find the equation of the line passing through the points \myvec{3\\-2\\-5}, \myvec{3\\-2\\6}.\\
+\solution
+\input{./solutions/line_plane/72/solution.tex}
+\item Find the angle between the following pair of lines:
+\begin{align}
+L_1: \quad \vec{x} &= \myvec{2\\-5\\1} + \lambda_1\myvec{3 \\ 2 \\6}
+\\
+L_2: \quad \vec{x} &= \myvec{7\\-6\\0} + \lambda_2\myvec{1 \\ 2 \\2}
+\end{align}
+\\
+\solution
+\input{./solutions/line_plane/73/solution.tex}
+\item A person standing at the junction of two straight paths represented by the equations 
+%
+\begin{align}
+\myvec{2 & -3}\vec{x} &= 4
+\\
+\myvec{3 & 4}\vec{x} &= 5
+\end{align}
+%
+wants to reach the path whose equation is
+%
+\begin{align}
+\myvec{6 & -7}\vec{x} &= -8
+\end{align}
+%
+in the least time.  Find the equation of the path that he should follow.
+\\
+\solution
+\input{./solutions/line_plane/60/solution.tex}
+\item Find the values of $p$ so that the lines 
+\begin{align}
+\frac{1-x}{3} = \frac{7y-14}{2p} &= \frac{z-3}{2}, 
+\\
+\frac{7-7x}{3p} = \frac{y-5}{1} &= \frac{6-z}{5} 
+\end{align}
+are at right angles.
+\\
+\solution
+\input{./solutions/line_plane/75/solution.tex}
+\item Show that the lines 
+\begin{align}
+\frac{x-5}{7} = \frac{y+2}{-5} &= \frac{z}{1}, 
+\\
+\frac{x}{1} = \frac{y}{2} &= \frac{z}{3} 
+\end{align}
+%
+are perpendicular to each other.
+\\
+\solution
+\input{./solutions/line_plane/76/solution.tex}
+\item Find the shortest distance between the lines 
+\begin{align}
+L_1: \quad \vec{x} &= \myvec{1-t\\t-2\\3-2t} 
+\\
+L_2: \quad \vec{x} &= \myvec{s+1\\2s-1\\-2s-1}
+\end{align}
+\solution
+\input{./solutions/line_plane/80/solution.tex}
+\item In each of the following cases, determine the normal to the plane and the distance from the origin.
+\begin{enumerate}[itemsep=2pt]
+\begin{multicols}{2}
+\item
+$
+\myvec{0 & 0 & 1}\vec{x}=2
+$
+\item
+$
+\myvec{1 & 1 & 1}\vec{x}=1
+$
+\item
+$
+\myvec{0 & 5 & 0}\vec{x}=-8
+$
+\item
+$
+\myvec{2 & 3 & -1}\vec{x}=5
+$
+\end{multicols}
+\end{enumerate}
+\solution
+\input{./solutions/line_plane/81/solution.tex}
+\item Find the coordinates of the point where the line through \myvec{3\\-4\\-5} and \myvec{2\\-3\\1} crosses the plane 
+\begin{align}
+\myvec{2 & 1 & 1}\vec{x}&=7
+\end{align}
+%
+\solution
+\input{./solutions/line_plane/99/solution.tex}
+\item Find the distance of the point \myvec{-1\\-5\\-10} from the point of intersection of the line
+%
+\begin{align}
+\vec{x} = \myvec{2 \\ -1 \\ 2} + \lambda \myvec{3 \\ 4 \\ 2}  
+\end{align}
+%
+and the plane
+%
+\begin{align}
+\myvec{1 & -1 & 1}\vec{x}&=5
+\end{align}
+%
+\\
+\solution
+\input{./solutions/line_plane/107/solution.tex}
+\item Find the vector equation of the line passing through the point \myvec{1\\2\\-4} and perpendicular to the two lines
+\begin{align}
+\frac{x-8}{3} = \frac{y+19}{-16} &= \frac{z-10}{7}, 
+\\
+\frac{x-15}{3} = \frac{y-29}{8} &= \frac{z-5}{-5} 
+\end{align}
+%
+\\
+\solution
+\input{./solutions/line_plane/109/solution.tex}
+\item Distance between the two planes
+%
+\begin{align}
+\myvec{2 & 3 & 4}\vec{x}&=4
+\\
+\myvec{4 & 6 & 8}\vec{x}&=12
+\end{align}
+%
+\solution
+\input{./solutions/line_plane/110/solution.tex}
+\begin{enumerate}[itemsep=2pt]
+\begin{multicols}{2}
+\item 2
+\item 4
+\item 8
+\item $\frac{2}{\sqrt{29}}$
+\end{multicols}
+\end{enumerate}
+%\end{enumerate}

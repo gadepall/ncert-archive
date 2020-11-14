@@ -1,0 +1,113 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Find the area of the region enclosed between the two circles: $\vec{x}^T\vec{x} = 4$ and $\norm{\vec{x}-\myvec{2\\0}} = 2$.
+\item Find the equation of the circle with radius 5 whose centre lies on x-axis and passes through the point \myvec{2\\3}.
+\item Find the equation of the circle passing through \myvec{0\\0} and making intercepts a and b on the coordinate axes.
+\item Find the equation of a circle with centre \myvec{2\\2} and passes through the point \myvec{4\\5}. 
+\item Find the locus of all the unit vectors in the xy-plane.
+%
+\item Find the points on the curve $\vec{x}^T\vec{x}-2\myvec{1 & 0}\vec{x} -3 =0$  at which the tangents are parallel to the x-axis.
+%
+\item  Find the area of the region in the first quadrant enclosed by x-axis, line $\myvec{1 & -\sqrt{3}}\vec{x} =0$ and the circle $\vec{x}^T\vec{x}=4$.
+%
+\item Find the area lying in the first quadrant and bounded by the circle $\vec{x}^T\vec{x}=4$ and the lines $x = 0$ and $x = 2$.
+%
+\item Find the area of the circle $4\vec{x}^T\vec{x}=9$.
+\item  Find the area bounded by curves $\norm{\vec{x}-\myvec{1\\0}} = 1$ and $\norm{\vec{x}}=1$
+\item Find the smaller area enclosed by the circle $\vec{x}^T\vec{x}=4$ and the line $\myvec{1 & 1}\vec{x} = 2$.
+
+
+\item Find the slope of the tangent to the curve $y = \frac{x-1}{x-2}, x\ne 2$ at $x = 10$.
+\item Find a point on the curve $y = (x – 2)^2$ at which the tangent is parallel to the chord joining the points \myvec{2\\ 0} and \myvec{4\\ 4}.
+\item Find the equation of all lines having slope – 1 that are tangents to the curve $\frac{1}
+{x -1}, x \ne 1$
+\item Find the equation of all lines having slope 2 which are tangents to the curve $\frac{1}
+{x - 3} , x \ne 3$.
+%
+\item Find points on the curve 
+$
+\vec{x}^T\myvec{\frac{1}{9} & 0 \\ 0 & \frac{1}{16}}\vec{x} = 1
+$
+%
+at which tangents are
+\begin{enumerate}
+\item  parallel to x-axis
+\item  parallel to y-axis.
+\end{enumerate}
+\item Find the equations of the tangent and normal to the given curves at the indicated points:
+$
+y = x^2
+$
+at \myvec{0\\0}.
+\item Find the equation of the tangent line to the curve $y = x^2-2x+7$
+\begin{enumerate}
+%
+\item  parallel to the line $\myvec{2 & -1}\vec{x}= -9$ 
+\item  perpendicular to the line $\myvec{-15 & 5}\vec{x} = 13$. 
+\end{enumerate}
+\item Find the equation of the tangent to the curve $y = \sqrt{3x - 2}$ which is parallel to the line $\myvec{4 & 2}\vec{x}+ 5 =0$ .
+\item Find the point at which the line $\myvec{-1 & 1}\vec{x} =  1$ is a tangent to the curve $y^2 = 4x$.
+%
+\item The line $\myvec{-m & 1}\vec{x} = 1$ is a tangent to the curve $y^2 = 4x$.  Find the value of $m$.
+\item  Find the normal at the point \myvec{1\\1} on the curve $2y + x^2 = 3$ 
+\item  Find the normal to the curve $x^2=4y$ passing through $\myvec{1\\2}$.
+%
+\item Find the area of the region bounded by the curve $y^2= x$ and the lines $x = 1, x = 4$ and the x-axis in the first quadrant.
+\item  Find the area of the region bounded by $y^2=9x, x=2, x=4$ and the x-axis in the  first quadrant.
+%
+\item Find the area of the region bounded by $x^2 = 4y, y = 2, y = 4$ and the y-axis in the first quadrant.
+\item Find the area of the region bounded by the ellipse 
+$
+\vec{x}^T\myvec{\frac{1}{16} & 0 \\ 0 & \frac{1}{9}}\vec{x} = 1
+$
+
+\item  Find the area of the region bounded by the ellipse 
+$
+\vec{x}^T\myvec{\frac{1}{4} & 0 \\ 0 & \frac{1}{9}}\vec{x} = 1
+$
+\item The area between $x=y^2$ and $x=4$ is divided into two equal parts by the line $x=a$, find the value of $a$.
+\item  Find the area of the region bounded by the parabola $y = x^2$ and $y = \abs{x}$.
+\item  Find the area bounded by the curve $x^2 = 4y$ and the line $\myvec{1 & -1}\vec{x} = -2$.
+\item  Find the area of the region bounded by the curve $y^2 = 4x$ and the line $x = 3$.
+%
+\item Find the area of the region bounded by the curve $y^2 = x$, y-axis and the line $y = 3$.
+%
+\item Find the area of the region bounded by the two parabolas $y = x^2, y^2=x$.
+\item Find the area lying above x-axis and included between the circle $\vec{x}^T\vec{x} -8\myvec{1 & 0}= 0$  and inside of the parabola $y^2 = 4x$.
+%
+\item AOBA is the part of the ellipse 
+$
+\vec{x}^T\myvec{9 & 0 \\ 0 & 1}\vec{x} = 36
+$
+in the first quadrant such that $OA = 2$ and $OB = 6$. Find the area between the arc $AB$ and the chord $AB$.
+\item Find the area lying between the curves $y^2 = 4x$ and $y = 2x$.
+\item  Find the area of the region bounded by the curves $y = x^2+2, y = x, x = 0$ and $ x = 3.$
+%
+\item Find the area under $y = x^2, x = 1, x = 2$ and x-axis.
+\item Find the area between  $y = x^2$ and $y = x$.
+\item Find the area of the region lying in the first quadrant and bounded by $y = 4x^2, x = 0, y = 1$ and $y = 4$.
+\item Find the area enclosed by the parabola $4y = 3x^2$ and the line $\myvec{-3 & 2}\vec{x} = 12$.
+%
+\item Find the area of the smaller region bounded by the ellipse
+$
+\vec{x}^T\myvec{\frac{1}{9} & 0 \\ 0 & \frac{1}{4}}\vec{x} = 1
+$
+and the line 
+$
+\myvec{\frac{1}{a} & \frac{1}{b}}\vec{x} = 1
+$
+\item Find the area of the region enclosed by the parabola $x^2=y$, the line $\myvec{-1 & 1}\vec{x} = 2$ and the x-axis.
+%
+\item Find the area bounded by the curves
+\begin{align}
+\cbrak{\brak{x,y} : y > x^2, y = \abs{x}}
+\end{align}
+%
+\item Find the area of the region
+\begin{align}
+\cbrak{\brak{x,y} : y^2 \le 4x, 4\vec{x}^T\vec{x} = 9}
+\end{align}
+%
+\item Find the area of the circle $\vec{x}^T\vec{x} = 16$ exterior to the parabola $y^2 = 6$.

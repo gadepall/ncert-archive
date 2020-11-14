@@ -1,0 +1,14 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+	\numberwithin{equation}{enumi}
+	\item The following table shows the ages of the patients admitted in a hospital during a year:
+	\begin{tabular}{|c|c|c|c|c|}
+	\hline
+	Age (in years) &5-15&15-25&25-35&35-45&45-55&55-65\\
+	\hline
+	Number of patients&6&11&21&23&145\\
+	\hline
+	\end{tabular}\\
+	Find the mode and the mean of the data given above. Compare and interpret the two
+	measures of central tendency.
+\end{enumerate}

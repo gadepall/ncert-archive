@@ -1,0 +1,18 @@
+\begin{tikzpicture}
+[scale =3,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt},]
+
+\def\rad{2}
+\coordinate [point, label={above : $O$ }] (O) at (0, 0);
+\draw (O) circle (\rad);
+\node (A) at (-2,0)[point,label=above left :$A$] {};
+\node (B) at (2,0)[point,label=above right :$B$] {};
+\node (P) at (0,2)[point,label=above :$P$] {};
+
+
+\draw (A)--(B);
+\draw (P)--(A);
+\draw (P)--(B);
+
+\tkzMarkRightAngle[size=.2](B,P,A)
+
+\end{tikzpicture}

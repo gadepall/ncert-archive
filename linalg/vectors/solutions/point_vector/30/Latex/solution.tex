@@ -1,0 +1,29 @@
+The torque $\vec{T}$ is given by the cross product (vector product) of the position (or distance) vector $\vec{r}$  and the force vector $\vec{F}$.
+\begin{align}
+    \vec{T} = {\vec{r}  \times  \vec{F}}
+\end{align}
+And the vector cross product of vectors 
+\begin{align}
+\vec{a} = \myvec{  a_1 \\  a_2 \\ a_3}
+\\
+\vec{b} = \myvec{  b_1 \\  b_2  \\ b_3}
+\end{align}
+can be expressed as the product of a skew-symmetric matrix and a vector:
+\begin{align}
+\vec{a \times b} = \myvec{0 & -a_3 & a_2\\ a_3& 0 &-a_1 \\ -a_2 & a_1 & 0 } \myvec{b_1\\b_2\\b_3}    
+\end{align}
+
+Torque at the origin is given by,
+\begin{align}
+\vec{F \times r} = \myvec{0 & -1 & -1\\ 1& 0 &-1 \\ 1 & 1 & 0 } \myvec{7\\3\\-5}  
+\\
+\implies\vec{F \times r} = \myvec{(0 \times 7)  +  (-1 \times 3)  +  (-1 \times -5)\\(1 \times 7)  +  (0 \times 3)  +  (-1 \times -5)\\(1 \times 7)  +  (1 \times 3)  + (0 \times -5)} 
+\\
+\implies \vec{T} = \myvec{2 \\  12  \\ 10 }
+\end{align}
+
+
+
+
+
+

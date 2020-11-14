@@ -1,0 +1,34 @@
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./solutions/5/13/figs/C_circle.tex}}
+\caption{ }
+\label{fig:8.5.13_C_circle}	
+\end{figure}
+%
+\item {\em Construction: }See Fig. \ref{fig:8.5.13_C_circle}.  The input parameters are
+% 
+\begin{align}
+\vec{A} &= \myvec{p \\ q}
+\\
+\vec{B} &= \myvec{0 \\ 0}
+\\
+\vec{C} &= \myvec{a\\ 0} 
+\end{align}
+\subitem $\theta_1$ is obtained using
+%
+\begin{align}
+\cos{\theta_1} = \frac{\brak{\vec{A}-\vec{B}}^T\brak{\vec{A}-\vec{C}}}{\norm{\vec{A}-\vec{B}}\norm{\vec{A}-\vec{C}}}
+\end{align}
+\subitem Let 
+\begin{align}
+\vec{D} &= b\myvec{\cos \beta_2\\ b \sin \beta_2} 
+\label{eq:8.5.13_D}
+\end{align}
+From the given information, $\theta_2 = \theta_1$
+\begin{align}
+\implies \frac{b}{\sin\brak{\theta_2 + \beta_2}} = \frac{a}{\sin \theta_2}
+\label{eq:8.5.13_b}
+\end{align}
+%
+Choosing an appropriate value of $\beta_2$, $b$ and $\vec{D}$ can be obtained from \eqref{eq:8.5.13_D} and \eqref{eq:8.5.13_b} respectively.
+\subitem The circumcircle of $\triangle ABC$ can then be drawn and it can be verified that $\vec{D}$ lies on it.

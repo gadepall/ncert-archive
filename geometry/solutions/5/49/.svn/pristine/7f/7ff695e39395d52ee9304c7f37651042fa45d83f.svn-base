@@ -1,0 +1,160 @@
+%
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item The two chords AD and CE of circle with centre $\vec{O}$ and radius r intersect at $\vec{B}$ as shown in the figure \ref{fig:circle}
+
+%\renewcommand{\thefigure}{\theenumi.\arabic{figure}}
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./figs/circle.tex}}
+\caption{Chords of equal length intersecting at B by Latex-Tikz}
+\label{fig:circle}	
+\end{figure}
+%
+
+
+%
+%\renewcommand{\thefigure}{\theenumi}
+%
+\item List the design parameters for construction
+\label{const:table1}
+\\
+\solution See Table. \ref{table:table1} 
+%
+\begin{table}[ht!]
+\centering
+\input{./tables/inp.tex}
+\caption{To construct circle with chords intersecting at an external point}
+\label{table:table1}	
+\end{table}
+
+%\item
+
+\item Find the coordinates of the various points in Fig. \ref{fig:circle}
+\label{const:circle_r}
+\\
+%
+\solution $\vec{O}$ is taken to be the origin and OC is taken to be along the x-axis.
+\begin{align}
+\label{eq:constr_o}
+\vec{O} &= \myvec{0\\0} 
+\\
+\vec{C} &= \myvec{r\\0} 
+\label{eq:constr_c}
+\end{align}
+
+\item Any point X lying on the circle satisfies the following equation
+ \begin{align}
+r &=\norm{\vec{X}-\vec{O}}
+\\
+r &=\norm{\vec{X}}
+\\
+\vec{X} &= r\myvec{\cos \theta \\ \sin \theta}
+\label{eq:point_on_circle}
+\end{align}
+Where $\theta$ is taken to be the angle measured in anti-clockwise direction from x-axis.
+
+\item Using \ref{eq:point_on_circle}
+\begin{align}
+\implies \vec{A} &= r\myvec{\cos \beta \\ -\sin \beta}
+\label{eq:constr_a}
+\end{align}
+%
+
+\item In $\triangle AOD$ and $\triangle COE$
+\begin{align}
+OD = OE = r
+\\
+OC = OA = r
+\\
+AD = EC 
+\end{align}
+So by SSS criteria $\triangle AOD \cong \triangle COE$
+\begin{align}
+\angle EOC = \angle DOA
+\\
+\angle EOC = \angle DOA = \frac{360^{\circ}-\brak{\alpha+\beta}}{2}
+\\
+\angle EOC = \angle DOA = 180^{\circ}-\frac{\alpha+\beta}{2}
+\label{eq:equalangles}
+\end{align}
+
+\item Using \ref{eq:point_on_circle} and \ref{eq:equalangles}
+\begin{align}
+\vec{D} &= r\myvec{\cos \brak{180^{\circ}-\frac{\alpha+\beta}{2}+\alpha} \\ \sin \brak{180^{\circ}-\frac{\alpha+\beta}{2}+\alpha}} 
+\\
+\vec{D} &= r\myvec{\cos \brak{180^{\circ}+\frac{\alpha-\beta}{2}} \\ \sin \brak{180^{\circ}+\frac{\alpha-\beta}{2}}}
+\\
+\vec{D} &= r\myvec{-\cos \frac{\alpha-\beta}{2} \\ -\sin \frac{\alpha-\beta}{2}}
+\label{eq:constr_d}
+\end{align}
+\begin{align}
+\vec{E} &= r\myvec{\cos \brak{180^{\circ}-\frac{\alpha+\beta}{2}} \\ \sin \brak{180^{\circ}-\frac{\alpha+\beta}{2}}}
+\\
+\vec{E} &= r\myvec{-\cos \frac{\alpha+\beta}{2} \\ \sin \frac{\alpha+\beta}{2}}
+\end{align}
+\item To find $\vec{B}$
+\newline
+If BT is tangent from point B to the circle, we know AD = CE then,
+\begin{align}
+BT^{2}=BC.BE = BA.BD
+\\
+\implies BC.\brak{BC+CE} = BA.\brak{BA+AD}
+\\
+\implies BC = BA
+\end{align} 
+Since BC = BA and CE =AD , $\vec{B}$ divides DA and EC in equal ratio say k+1:1 externally.
+By section formulae
+\begin{align}
+\label{eq:sect1}
+\vec{B}= \brak{k+1}\vec{A}-\vec{D}
+\\
+\vec{B}= \brak{k+1}\vec{C}-\vec{E}
+\label{eq:sect2}
+\end{align}
+equating equations \ref{eq:sect1} and \ref{eq:sect2} We get
+\begin{align}
+k\vec{A}+\vec{A}-\vec{D}=k\vec{C}+\vec{C}-\vec{E}
+\\
+k=\frac{\norm{\vec{C}-\vec{E}-\vec{A}+\vec{D}}}{\norm{\vec{A}-\vec{C}}}
+\end{align}
+the value of k is substituted in equation \ref{eq:sect1} to get $\vec{B}$
+\newline
+The derived coordinates are listed in table \ref{table:table2}. 
+%
+\begin{table}[ht!]
+\centering
+\input{./tables/out.tex}
+\caption{Derived coordinates}
+\label{table:table2}	
+\end{table}
+\item Draw Fig. \ref{fig:circle} using python	
+\\
+\solution The  following Python code generates Fig. \ref{fig:circle_py}
+%
+\begin{lstlisting}
+codes/circle.py
+\end{lstlisting}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./codes/pyfigs/circle.eps}
+\caption{Circle with intersecting chords generated using python}
+\label{fig:circle_py}
+\end{figure}
+
+%
+and the equivalent latex-tikz code generating Fig. \ref{fig:circle} is 
+\begin{lstlisting}
+figs/circle.tex
+\end{lstlisting}
+%
+The above latex code can be compiled as a standalone document as
+\begin{lstlisting}
+figs/circle_alone.tex
+\end{lstlisting}
+
+%
+
+\end{enumerate}

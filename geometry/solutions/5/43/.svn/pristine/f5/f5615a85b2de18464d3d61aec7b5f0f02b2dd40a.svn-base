@@ -1,0 +1,28 @@
+\begin{tikzpicture}[scale=1.5,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+      
+%Labeling points
+\node (A) at (0, 0)[point,label=below left:$A$] {};
+\node (B) at (5, 0)[point,label=below right:$B$] {};
+\node (C) at (3.9, 3)[point,label=above right:$C$] {};
+\node (D) at (1.1, 3)[point,label=above left:$D$] {};
+\node (P1) at (1.1, 0)[point,label=below right:$P_1$] {};
+\node (P2) at (3.9, 0)[point,label=below left:$P_2$] {};
+\node (O) at (2.5, 0.79)[point,label=below:$O$]{};
+
+%Drawing quad ABCD
+\draw (A) -- node[below=6pt]{$b$}(B) -- (C) -- (D) -- (A);
+\draw[dotted] (D) -- node[right = 7pt]{$h$}(P1)(P2)--(C);
+\draw[dotted] (O) circle(2.62);
+%marking line segment
+\tkzMarkSegments[mark=|,size=6pt](A,D C,B)
+\tkzMarkSegments[mark=s||,size=6pt](P1,D C,P2)
+
+%marking angles
+\tkzMarkAngle[fill=orange!40,size=0.5cm,mark=](P1,A,D)
+\tkzMarkAngle[fill=orange!40,size=0.5cm,mark=](D,C,B)
+\tkzMarkRightAngle[fill=blue!20](D,P1,A)
+\tkzMarkRightAngle[fill=blue!20](C,P2,B)
+\tkzLabelAngle[pos=0.75](P1,A,D){$\theta$}
+\tkzLabelAngle[pos=0.75](D,C,B){$\alpha$}
+
+\end{tikzpicture} 

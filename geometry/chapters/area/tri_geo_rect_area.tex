@@ -1,0 +1,154 @@
+
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+\item
+	The area of the rectangle $ACBD$ shown in Fig. \ref{fig:tri_rect} is defined as $ac$. Note that all the angles in the rectangle are $90\degree$
+%	\label{fig:tri_rect}
+
+\begin{figure}[!ht]
+	\begin{center}
+		
+		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_rect.tex}}
+	\end{center}
+	\caption{Area of a Right Triangle}
+	\label{fig:tri_rect}	
+\end{figure}
+%
+\item Draw Fig. \ref{fig:tri_rect} for $a = 4, c =3$.
+\label{const:tri_rect}
+\\
+\solution Letting
+%
+\begin{align}
+\vec{B} = \myvec{0 \\  0}, 
+\vec{D} = \myvec{4 \\  3} 
+\label{eq:tri_rect}
+\end{align}
+%
+the python code for  Fig. \ref{fig:tri_rect} is
+\begin{lstlisting}
+codes/triangle/tri_rect.py
+\end{lstlisting}
+%
+and the equivalent latex-tikz code is
+%
+\begin{lstlisting}
+figs/triangle/tri_rect.tex
+\end{lstlisting}
+
+\item
+	The area of the two triangles constituting the rectangle is the same.
+	\label{ch2_triang_eq}
+
+\item
+	The area of the rectangle is the sum of the areas of the two triangles inside.
+	\label{ch2_triang_sum}
+
+
+\item
+\label{prob:ch2_triang_area}
+	Show that the area of $\Delta ABC$ is $\frac{ac}{2}$
+
+\begin{figure}[!ht]
+	\begin{center}
+			\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_sss.tex}}
+	\end{center}
+	\caption{Area of a Triangle}
+	\label{fig:tri_sss}	
+\end{figure}
+
+\solution From\eqref{ch2_triang_sum},
+\begin{equation}
+\label{ch2_triang_ar_1}
+ar\brak{ABCD} = ar\brak{ACB} + ar\brak{ADB}
+\end{equation}
+Also from \eqref{ch2_triang_eq},
+\begin{equation}
+\label{ch2_triang_ar_2}
+ar\brak{ACB} = ar\brak{ADB}
+\end{equation}
+From \eqref{ch2_triang_ar_1} and \eqref{ch2_triang_ar_2},
+\begin{align}
+2ar\brak{ACB} &= ar\brak{ABCD} = ac \brak{\text{from} \quad \eqref{fig:tri_rect}}
+\\
+\Rightarrow ar\brak{ACB} &= \frac{ac}{2}
+\label{eq:tri_area_rect}
+\end{align}
+
+%
+\item In Fig. 	\ref{fig:tri_sss}, $AD \perp BC$.  $AD$ is defined as the {\em altitude}.
+\item
+	Show that the area of $\Delta ABC$ in Fig. 	\ref{fig:tri_sss}	is $\frac{1}{2}ah$. 
+
+
+\solution In Fig. \ref{fig:tri_sss},
+\begin{align}
+ar\brak{\Delta ADC} &= \frac{1}{2}hy \\
+ar\brak{\Delta ADB} &= \frac{1}{2}hx 
+\end{align}
+Thus,
+\begin{align}
+ar\brak{\Delta ABC} &= ar\brak{\Delta ADC} + ar\brak{\Delta ADB} \\
+&= \frac{1}{2}hy + \frac{1}{2}hx = \frac{1}{2}h\brak{x+y} \\
+&= \frac{1}{2}ah
+\end{align}
+%
+\item Draw Fig. \ref{fig:tri_sss} with $a=6$, $b=5$  and $c=4$.  
+\label{const:tri_sss}
+\\
+\solution Let the vertices of  $\triangle ABC$ and $\vec{D}$ be 
+\begin{align}
+\label{eq:tri_basic}
+\vec{A} = \myvec{p\\q}, \vec{B} = \myvec{0\\0}, \vec{C} = \myvec{a\\0}, \vec{D} = \myvec{p\\0}
+\end{align}
+%
+
+Then
+\begin{align}
+\label{eq:c_tricoord}
+AB &= \norm{\vec{A}-\vec{B}}^2 = \norm{\vec{A}}^2  = c^2 \quad \because \vec{B} = \vec{0}
+\\
+\label{eq:a_tricoord}
+BC &= \norm{\vec{C}-\vec{B}}^2 = \norm{\vec{C}}^2  = a^2
+\\
+AC &= \norm{\vec{A}-\vec{C}}^2 =    b^2
+\label{eq:b_tricoord}
+\end{align}
+%
+From \eqref{eq:b_tricoord},
+\begin{align}
+b^2 &=\norm{\vec{A}-\vec{C}}^2 = \norm{\vec{A}-\vec{C}}^T\norm{\vec{A}-\vec{C}}  
+\\
+&= \vec{A}^T\vec{A}+\vec{C}^T\vec{C}-\vec{A}^T\vec{C} - \vec{C}^T\vec{A} 
+\\
+&= \norm{\vec{A}}^2 + \norm{\vec{C}}^2 - 2\vec{A}^T\vec{C} \quad \brak{\because \vec{A}^T\vec{C} = \vec{C}^T\vec{A} } 
+\label{eq:tri_const_norm_ac}
+\\
+&= a^2+c^2-2ap
+\end{align}
+%
+yielding
+\begin{align}
+p&= \frac{a^2+c^2-b^2}{2a}
+\end{align}
+%
+From \eqref{eq:c_tricoord}, 
+\begin{align}
+\norm{\vec{A}}^2 &= c^2 = p^2+q^2
+\\
+\implies q&= \pm \sqrt{c^2-p^2}
+\end{align}
+%
+The python code for  Fig. \ref{fig:tri_sss} is
+\begin{lstlisting}
+codes/triangle/tri_sss.py
+\end{lstlisting}
+%
+and the equivalent latex-tikz code is
+%
+\begin{lstlisting}
+figs/triangle/tri_sss.tex
+\end{lstlisting}
+\end{enumerate}

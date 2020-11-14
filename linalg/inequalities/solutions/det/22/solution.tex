@@ -1,0 +1,13 @@
+\begin{align}
+    \mydet{1+a^2 & ab & ac \\ ab & 1+b^2 & bc \\ ac & bc & 1+c^2} \xleftrightarrow[R_3 \leftarrow cR_3]{R_1 \leftarrow aR_1; R_2 \leftarrow bR_2} \nonumber \\ 
+    \frac{1}{abc}\mydet{a(1+a^2) & a^2b & a^2c \\ ab^2 & b(1+b^2) & b^2c \\ ac^2 & bc^2 & c(1+c^2)} \xleftrightarrow[C_3 \leftarrow \frac{C_3}{c}]{C_1 \leftarrow \frac{C_1}{a}; C_2 \leftarrow \frac{C_2}{b}} \nonumber
+\end{align}
+\begin{align} \label{eq:det_1}
+        \mydet{1+a^2 & a^2 & a^2 \\ b^2 & 1+b^2 & b^2 \\ c^2 & c^2 & 1+c^2} \xleftrightarrow[]{R_1 \leftarrow R_1+R_2+R_3} \nonumber \\ \mydet{1+a^2+b^2+c^2 & 1+a^2+b^2+c^2 & 1+a^2+b^2+c^2 \\ b^2 & 1+b^2 & b^2 \\ c^2 & c^2 & 1+c^2}
+\end{align}
+Taking $1+a^2+b^2+c^2$ out from \eqref{eq:det_1},
+\begin{align}
+    \implies(1+a^2+b^2+c^2) \mydet{1 & 1 & 1 \\ b^2 & 1+b^2 & b^2 \\ c^2 & c^2 & 1+c^2} \nonumber \\ \xleftrightarrow[C_3 \leftarrow C_3-C_1]{C_2 \leftarrow C_2-C_1} (1+a^2+b^2+c^2)\mydet{1 & 0 & 0 \\ b^2 & 1 & 0 \\ c^2 & 0 & 1} \nonumber
+\end{align}
+
+    $= 1+a^2+b^2+c^2$ ( $\because$ Determinant of a lower triangle matrix is the product of it's diagonal elements)  

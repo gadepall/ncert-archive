@@ -1,0 +1,11 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item In a harbour, wind is blowing at the speed of
+72 km/h and the flag on the mast of a boat
+anchored in the harbour flutters along the N-E
+direction. If the boat starts moving at a speed
+of 51 km/h to the north, what is the direction
+of the flag on the mast of the boat ?
+\end{enumerate}

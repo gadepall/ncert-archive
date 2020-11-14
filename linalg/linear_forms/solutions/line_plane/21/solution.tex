@@ -1,0 +1,41 @@
+Constructing the augmented matrix \\
+
+$$
+\begin{pmatrix}
+    3 & 1 & 1 \\ 
+    2\emph{k}-1 & \emph{k}-1 & 2\emph{k}+1
+\end{pmatrix}
+$$
+
+Transforming the matrix into row-echelon form \\
+\begin{align}
+\myvec{
+3 & 1 & 1 \\
+2\emph{k}-1 & \emph{k}-1 & 2\emph{k}+1
+}
+  \xleftrightarrow[]{R2 \leftarrow R1*\frac{2\emph{k}-1}{3} - R2 } \nonumber \\
+\myvec{
+3 & 1 & 1 \\
+0 & \frac{2\emph{k}-1}{3}-(\emph{k}-1) & \frac{2\emph{k}-1}{3}-(2\emph{k}+1)
+}
+\end{align}
+
+For the linear equations to have no solution, \\
+Rank(Coefficient matrix) $\neq$ Rank(Augmented matrix) \\
+
+\begin{equation}
+    \implies \frac{2\emph{k}-1}{3}-(\emph{k}-1) = 0 
+\end{equation}
+and
+\begin{equation}
+    \frac{2\emph{k}-1}{3}-(2\emph{k}+1) \neq 0 
+\end{equation}
+
+Solving the above equations, \\ 
+
+\begin{equation} \label{eq:line_plane_21kvalue}
+\implies \emph{k} = 2 \quad \cap \quad \emph{k} \neq -1 
+\end{equation}
+
+From \eqref{eq:line_plane_21kvalue}, it is clear that k = 2 
+\newline Hence, for k = 2, the given set of linear equations will have no solution.

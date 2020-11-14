@@ -1,0 +1,28 @@
+\begin{tikzpicture}
+[scale =2,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt},]
+
+\def\rad{3}
+\coordinate [point, label={right: $O$ }] (O) at (0, 0);
+\draw (O) circle (\rad);
+\node (P) at (0,-3)[point,label=below :$P$] {};
+\node (A) at (-2,-2.22)[point,label= left :$A$] {};
+\node (B) at (2,-2.22)[point,label=right :$B$] {};
+\node (C) at (-2.7,-3)[point,label=below :$C$] {};
+\node (D) at (2.7,-3)[point,label=below :$D$] {};
+\draw (A)--(B);
+\draw (O)--(B);
+\draw (A)--(O);
+\draw (O)--(P);
+\draw (C)--(P);
+\draw (D)--(P);
+
+\draw [thick,dashed](A)--(C);
+\draw [thick,dashed](B)--(D);
+\tkzMarkRightAngle[size=0.2](O,P,D)
+\tkzMarkAngle[size=0.2](C,O,P)
+\tkzMarkAngle[size=0.3](P,O,D)
+\node [above] at (-1.4,-1.5){$r$};
+\node [above right] at (0,-1.5){$r$};
+\node [above] at (1.4,-1.5){$r$};
+\node [above right] at (0.4,-0.5){$\theta=\frac{2\pi}{n}$};
+\end{tikzpicture}

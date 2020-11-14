@@ -1,0 +1,22 @@
+\begin{align}
+\text{If, } \vec{V} = \myvec{a_1  & b_1 \\ a_2 & b_2} 
+\text{ Consider, } \vec{V} = \myvec{\vec{a} & \vec{b}} \nonumber \\
+\text{Where, } \vec{a} = \myvec{a1 \\ a2} \text{and } \vec{b} = \myvec{b1 \\ b2} 
+\end{align}
+\begin{align}
+\text{Then, } \vec{u_1} &= \vec{a} \text{ , } \vec{e_1} = \frac{\vec{u_1}}{\norm{\vec{u_1}}}  \nonumber \\
+\vec{u_2} &= \vec{b} - \brak{\vec{b}\cdot\vec{e_1}}\vec{e_1} \text{ , } \vec{e_2} = \frac{\vec{u_2}}{\norm{\vec{u_2}}} 
+\end{align}
+\begin{align}
+\text{and, } \vec{V} = \myvec{\vec{e_1} & \vec{e_2}}\myvec{\vec{a}\cdot\vec{e_1} & \vec{b}\cdot\vec{e_1} \\ 0 & \vec{b}\cdot\vec{e_2}} = \vec{Q}\vec{R}
+\end{align}
+
+Performing QR decomposition on $\vec{V}$ we get,
+\begin{align}
+\vec{e_1} &= \frac{1}{10\sqrt{2}}\myvec{14 \\ -2}  \\
+\vec{e_2} &= \frac{1}{\sqrt{50}}\myvec{1 \\ 7}  \\
+\vec{Q} &= \myvec{\vec{e_1} & \vec{e_2}} \\
+\vec{R} &= \myvec{10\sqrt{2} & -5\sqrt{2} \\ 0 & \frac{75}{\sqrt{50}}} 
+\end{align}
+
+It is easy to verify that $\vec{Q}\vec{R} = \vec{V}$ and $\vec{Q}^T\vec{Q} = \vec{I}$. Thus, $\vec{V}$  is decomposed into an orthogonal matrix and an upper triangular matrix.

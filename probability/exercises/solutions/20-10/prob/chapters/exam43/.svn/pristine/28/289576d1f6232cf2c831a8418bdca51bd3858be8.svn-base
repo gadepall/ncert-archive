@@ -1,0 +1,43 @@
+Given that a black ball is selected, the probability that it is picked from box III is the case of conditional probability expressed as
+\begin{align}
+\pr{III|B}=\frac{\pr{III \cup B}}{\pr{B}}
+\label{eq:exam43_3}
+\end{align}
+By the definition of conditional probability
+\begin{align}
+\pr{B|III}=\frac{\pr{III \cup B}}{\pr{III}}
+\\
+\pr{III \cup B} = \pr{B|III}\pr{III}
+\label{eq:exam43_1}
+\\
+\pr{W}=\pr{I \cup B}+\pr{II \cup B}+\pr{III \cup B}+\pr{IV \cup B}
+\\
+\implies \pr{B} = \pr{B|I} \pr{I}+\pr{B|II} \pr{II}+\pr{B|III} \pr{III}+\pr{B|IV} \pr{IV}
+\label{eq:exam43_2}
+\end{align}
+
+Substituting \eqref{eq:exam43_1} and \eqref{eq:exam43_2} in \eqref{eq:exam43_3}, We obtain the Baye's theorm as stated in \eqref{eq:exam43_bayestheorm}
+\begin{align}
+\pr{III|B}= \frac{\pr{B|III} \pr{III}}{\pr{B|I} \pr{I}+\pr{B|II} \pr{II}+\pr{B|III} \pr{III}+\pr{B|IV} \pr{IV}}
+\label{eq:exam43_bayestheorm}
+\end{align}
+From the given data,
+\begin{align}
+\pr{B|I} = \frac{1}{6}
+\\
+\pr{B|II} = \frac{1}{4}
+\\
+\pr{B|III} = \frac{1}{7}
+\\
+\pr{B|IV} = \frac{4}{13}
+\\
+\pr{I}=\pr{II}=\pr{III}=\pr{IV}
+\end{align}
+Substituting the above values in equation \eqref{eq:exam43_bayestheorm},
+\begin{align}
+\pr{III|B}=\frac{156}{947}
+\end{align}
+The python code for the above problem is,
+\begin{lstlisting}
+./prob/codes/exam43.py
+\end{lstlisting}

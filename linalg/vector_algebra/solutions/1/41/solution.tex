@@ -1,0 +1,47 @@
+\begin{figure}[hb]
+	\centering
+	\resizebox{\columnwidth}{!}{\input{./solutions/1/41/figure}}
+	\caption{$\triangle ABC$}
+	\end{figure}
+	
+Given conditions are : $\triangle {ABC}$  is a triangle having $\angle PBC < \angle QCB $
+
+\begin{align}
+\frac{\left( \vec{P - B} \right)^T  \left( \vec{B - C } \right)}{\norm{\vec{ P - B}} \norm{\vec{B - C}}}<\frac{\left( \vec{ Q - C} \right)^T  \left( \vec{C - B} \right)}{\norm{\vec{ Q - C}} \norm{\vec{C - B}}}
+\end{align}
+
+Let, $\vec{ P - B}= K_1 (\vec{ A - B})$ and $\vec{ Q - C} = K_2 (\vec{ A - C})$
+Also, $\norm{\vec{C - B}} = \norm{\vec{B - C}}$
+\begin{multline}
+\implies\frac{\left(K_1 (\vec{A - B}) \right)^T  \left( \vec{B - C } \right)}{\norm{K_1(\vec{ A - B})} }<\\\frac{\left(K_2 (\vec{A - C}) \right)^T  \left( \vec{C - B} \right)}{\norm{K_2(\vec{ A - C})}}
+\end{multline}
+\begin{align}
+\implies\frac{\left( \vec{A - B} \right)^T  \left( \vec{B - C } \right)}{\norm{\vec{ A - B}} }<\frac{\left( \vec{ A - C} \right)^T  \left( \vec{C - B} \right)}{\norm{\vec{ A - C}}}
+\end{align}
+On, rewriting the equation above;
+\begin{multline}
+\implies\frac{\norm{\vec{ A - B}}^2 - \left( \vec{A - B } \right)^T \left( \vec{A - C } \right)}{\norm{\vec{ A - B}}}<\\ \frac{\norm{\vec{ A - C}}^2 - \left( \vec{A - C } \right)^T \left( \vec{A - B } \right)}{\norm{\vec{ A - C}}}
+\end{multline}
+Upon rearranging the terms, we have
+\begin{multline}
+\implies\norm{\vec{ A - B}}-\frac{ \left( \vec{A - B } \right)^T \left( \vec{A - C } \right)}{\norm{\vec{ A - B}}}<\\ \norm{\vec{ A - C}}-\frac{ \left( \vec{A - C } \right)^T \left( \vec{A - B } \right)}{\norm{\vec{ A - C}}}\label{eq:solutions/1/41/eq1}
+\end{multline}
+We know that 
+\begin{align}
+\cos\angle BAC= \frac{\left( \vec{A - B } \right)^T \left( \vec{A - C } \right)}{\norm{\vec{ A - B}}\norm{\vec{ A - C}}}
+\end{align}
+Re-writing \eqref{eq:solutions/1/41/eq1}
+\begin{multline}
+\norm{\vec{A - B} }-\norm{\vec{A - C} }\cos\angle BAC<\\\norm{\vec{ A - C}}-\norm{\vec{A - B} }\cos\angle BAC
+\end{multline}  
+Upon rearranging,
+\begin{multline}
+\implies\norm{\vec{A - B} }+\norm{\vec{A - B} }\cos\angle BAC<\\\norm{\vec{A - C}}+\norm{\vec{A - C} }\cos\angle BAC\end{multline}
+\begin{multline}
+\implies
+\norm{\vec{A - B} }(1+\cos\angle BAC)<\\\norm{\vec{A - C} }(1+\cos\angle BAC)\end{multline}
+Therefore,
+$\norm{\vec{A - B}} < \norm{\vec{A - C}}$\\
+Hence Proved
+
+

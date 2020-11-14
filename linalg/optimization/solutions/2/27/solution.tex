@@ -1,0 +1,33 @@
+If $\vec{A} \in \vec{R}^{m\times n}$ has linearly independent columns then it can be factored as
+\begin{align}
+    \vec{A} = \vec{Q}\vec{R} \nonumber
+\end{align}
+where $\vec{Q}$ is a orthogonal matrix and $\vec{R}$ is a upper triangular matrix with non zero diagonal elements 
+\begin{align} \label{eq:solutions/2/27/eq:eq_1}
+    \vec{A} = \myvec{4 & 7 \\ 3 & 5}
+\end{align}
+The column vectors of $\vec{A}$ are,
+\begin{align} \label{eq:solutions/2/27/eq:eq_2}
+    \vec{a} = \myvec{4 \\ 7};\quad \vec{b} = \myvec{3 \\ 5}
+\end{align}
+\eqref{eq:solutions/2/27/eq:eq_1} can be written as,
+\begin{align} \label{eq:solutions/2/27/eq:eq_3}
+    \vec{Q}\vec{R} = \myvec{\vec{p_1} & \vec{p_2}}\myvec{u_1 & u_3 \\ 0 & u_2}
+\end{align}
+Now,
+\begin{align} 
+    u_1 &= \norm{a} = \sqrt{4^2+7^2} = \sqrt{65} \label{eq:solutions/2/27/eq:eq_4} \\
+    \vec{q_1} &= \frac{\vec{a}}{u_1} = \myvec{\frac{4}{\sqrt{65}} \\ \frac{7}{\sqrt{65}}} \\
+    u_3 &= \frac{\vec{q_1}^T\vec{b}}{\norm{\vec{q_1}}^2} = \myvec{\frac{4}{\sqrt{65}} & \frac{7}{\sqrt{65}}}\myvec{3\\5} = \frac{47}{\sqrt{65}}
+\end{align}
+\begin{align}
+    \vec{q_2} &= \frac{\vec{b} - u_3 \vec{q_1}}{\norm{\vec{b} - u_3 \vec{q_1}}} = \myvec{\frac{7}{\sqrt{65}}\\ -\frac{4}{\sqrt{65}}} \\
+    u_2 &= {\vec{q_2}^T\vec{b}} = \myvec{\frac{7}{\sqrt{65}} & -\frac{4}{\sqrt{65}}} \myvec{3 \\ 5} = \frac{1}{\sqrt{65}} \label{eq:solutions/2/27/eq:eq_8}
+\end{align}
+Substituting \eqref{eq:solutions/2/27/eq:eq_4} to \eqref{eq:solutions/2/27/eq:eq_8} in \eqref{eq:solutions/2/27/eq:eq_3}, \begin{align}
+    \myvec{4 & 7 \\ 3 & 5} = \myvec{\frac{4}{\sqrt{65}} & \frac{7}{\sqrt{65}} \\ \frac{7}{\sqrt{65}} & -\frac{4}{\sqrt{65}}} \myvec{\sqrt{65} & \frac{47}{\sqrt{65}} \\ 0 & \frac{1}{\sqrt{65}}}
+\end{align}
+Which can also be written as,
+\begin{align}
+    \myvec{4 & 7 \\ 3 & 5} = \myvec{-\frac{4}{\sqrt{65}} & -\frac{7}{\sqrt{65}} \\ -\frac{7}{\sqrt{65}} & \frac{4}{\sqrt{65}}} \myvec{-\sqrt{65} & -\frac{47}{\sqrt{65}} \\ 0 & -\frac{1}{\sqrt{65}}}
+\end{align}

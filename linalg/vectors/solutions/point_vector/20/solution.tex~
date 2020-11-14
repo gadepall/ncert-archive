@@ -1,0 +1,22 @@
+Let the points be $\vec{P}$=\myvec{ 1 \\ -1 \\ 2 }, $\vec{Q}$=\myvec{ 3 \\ 4 \\ -2}, $\vec{R}$=\myvec{ 0 \\ 3 \\ 2 } and $\vec{S}$=\myvec{ 3 \\ 5 \\ 6}.
+From the theory, using equation \ref{eq1}, the direction vector for the line through the points $\vec{P}$ and $\vec{Q}$ is
+\begin{align}
+\vec{A} &= \vec{P}-\vec{Q} \\
+\implies\vec{A} & = \myvec{ 1 \\ -1 \\ 2 } - \myvec{ 3 \\ 4 \\ -2} \\
+\implies\vec{A} &= \myvec{ -2 \\ -5 \\ 4}
+\end{align}
+Similarly, using equation \ref{eq1}, the direction vector for the line through the points $\vec{R}$ and $\vec{S}$ is
+\begin{align}
+\vec{B} &= \vec{R}-\vec{S} \\
+\implies\vec{B} & = \myvec{ 0 \\ 3 \\ 2 } - \myvec{ 3 \\ 5 \\ 6} \\
+\implies\vec{B} &= \myvec{ -3 \\ -2 \\ -4}\\
+\end{align}
+To check if the two lines are perpendicular, we perform scalar product of the two direction vectors $\vec{A}$ and $\vec{B}$ using equation \ref{eq3} as follows
+\begin{align}
+\vec{A}\vec{B} &=  \vec{A}^T\vec{B}\\
+&= \myvec{ -2 & -5 & 4}\myvec{ -3 \\ -2 \\ -4}\\
+&= 6+10-16\\
+&= 0
+\end{align}
+
+Thus, the lines are \textbf{perpendicular}. Hence they are not \textbf{parallel} with each other

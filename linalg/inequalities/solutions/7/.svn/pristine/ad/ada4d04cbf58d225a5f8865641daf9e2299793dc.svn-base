@@ -1,0 +1,53 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width= \columnwidth]{./figs/triangle/triangle.eps}
+\caption{Triangle DEF formed from midpoints of Triangle ABC}
+\end{figure}
+
+\begin{table}[ht!]
+\centering
+\input{./tables/triangle/inp.tex}
+\caption{Input Table for construction}
+\label{table:table1}	
+\end{table}
+\begin{table}[ht!]
+\centering
+\input{./tables/triangle/der.tex}
+\caption{Derived values}
+\label{table:table2}	
+\end{table}
+
+\item Let $\vec{A}= \begin{pmatrix}
+0\\3
+\end{pmatrix}, \vec{B} = \begin{pmatrix}
+0\\-1
+\end{pmatrix}, \vec{C} = \begin{pmatrix}
+2\\1
+\end{pmatrix}.$
+
+\item The midpoints of each side is given by
+\begin{align}
+\vec{D} &= \frac{\vec{A}+\vec{B}}{2} &= \myvec{0\\1} \\
+\vec{E} &= \frac{\vec{B}+\vec{C}}{2} &= \myvec{1\\0} \\
+\vec{F} &= \frac{\vec{A}+\vec{C}}{2} &= \myvec{1\\2} \\
+\end{align}
+\item Area of a $\triangle$ ABC is given by 
+\begin{align}
+&= \frac{1}{2} \norm{\brak{\vec{E}-\vec{D}}\times\brak{\vec{F}-\vec{D}}}\\
+&= \frac{1}{2}\norm{\myvec{0\\-1} \times \myvec{1\\1}}
+\end{align}
+On solving we get area of $\triangle$ DEF = 1 sq.units .
+
+\item Download the python code for finding a triangle's area from
+\begin{lstlisting}
+codes\triangle\area_tri_area.py
+\end{lstlisting}
+and the figure from
+\begin{lstlisting}
+figs\triangle\draw_triangle.py
+\end{lstlisting}
+
+\end{enumerate}

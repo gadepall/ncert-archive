@@ -1,0 +1,60 @@
+%Code by GVV Sharma
+%December 16, 2019
+%released under GNU GPL
+%Drawing a right angled triangle: standalone document
+
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+%\usetkzobj{all}
+\usetikzlibrary{calc,math}
+
+\begin{document}
+\begin{figure}[!ht]
+	\begin{center}
+%Exercise 8.1 prob 47
+
+\begin{tikzpicture}
+[scale=0.5,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+%\tikzset{shift={(-3,0)}}
+%Triangle sides
+\def\a{4}
+\def\c{9}
+\def\d{5}
+\def\h{3}
+\def\k{1.5}
+%\def\c{7.5}
+
+%Labeling points
+\node (D) at (0,0)[point,label=above right:$D$] {};
+\node (B) at (8,\h )[point,label=below left:$B$] {};
+\node (C) at (\c, 0)[point,label=below right:$C$] {};
+\node (E) at (2, \k)[point,label=below right:$E$] {};
+\node (F) at (8.5, \k)[point,label=below right:$F$] {};
+\node (M) at (4, \k)[point,label=below right:$M$] {};
+\node (N) at (8, \k)[point,label=below right:$N$] {};
+\node (X) at (4, 0)[point,label=below right:$X$] {};
+\node (Y) at (8, 0)[point,label=below right:$Y$] {};
+\node (A) at (4,\h)[point,label=right:$A$] {};
+%A
+
+
+
+%Drawing parallelogram ABCD
+\draw (A) -- (B) --  (C) --(D)--(A);
+\draw (A) --(X);
+\draw (E) --(F);
+\draw (B) --(Y);
+%marking right angles
+\tkzMarkRightAngle[fill=green!20,size=.2](D,X,A)
+\tkzMarkRightAngle[fill=green!20,size=.2](C,Y,B)
+
+
+%
+\end{tikzpicture}
+	\end{center}
+\caption{Trapezium ABCD}
+\label{fig:trapezium_ABCD}	
+\end{figure}
+\end{document}
+

@@ -1,0 +1,15 @@
+
+\begin{multline}
+    \mydet{a^2 & bc & ac+c^2 \\ a^2+ab & b^2 & ac \\ ab & b^2+bc & c^2} \\ 
+    \xleftrightarrow[]{R1 \xleftarrow{} \frac{R1+R2+R3}{2}} 2\mydet{a^2+ab & b^2+bc & ac+c^2 \\ a^2+ab & b^2 & ac \\ ab & b^2+bc & c^2} \\ 
+    \xleftrightarrow[]{R1 \leftarrow R1-R2} 2\mydet{0 & bc & c^2 \\ a^2+ab & b^2 & ac \\ ab & b^2+bc & c^2} \\
+    \xleftrightarrow[C3 \xleftarrow{} \frac{C3}{c}]{C1 \leftarrow \frac{C1}{a}; C2 \leftarrow \frac{C2}{b}} 2abc\mydet{0 & c & c \\ a+b & b & a \\ b & b+c & c} \\ 
+    \xleftrightarrow[]{R3 \xleftarrow{} R3-R1} 2abc\mydet{0 & c & c \\ a+b & b & a \\ b & b & 0} \\
+    \xleftrightarrow[]{R2 \xleftarrow{} R2-R3} 2abc\mydet{0 & c & c \\ a & 0 & a \\ b & b & 0} \\
+    \xleftrightarrow[R3 \xleftarrow{} \frac{R3}{b}]{R1 \xleftarrow{} \frac{R1}{c} ; R2 \xleftarrow{} \frac{R2}{a}} 2a^2b^2c^2\mydet{0 & 1 & 1 \\ 1 & 0 & 1 \\ 1 & 1 & 0}
+\end{multline}
+\begin{align}
+    \xleftrightarrow[]{R1 \xleftarrow{} R1+R2-R3} 2a^2b^2c^2\mydet{0 & 0 & 2 \\ 1 & 0 & 1 \\ 1 & 1 & 0} \\
+    \xleftrightarrow[]{R1 \xleftarrow{} \frac{R1}{2}} 4a^2b^2c^2\mydet{0 & 0 & 1 \\ 1 & 0 & 1 \\ 1 & 1 & 0} &= 4a^2b^2c^2(1) \\
+    &= 4a^2b^2c^2
+\end{align}

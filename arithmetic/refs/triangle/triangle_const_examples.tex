@@ -1,0 +1,378 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Draw $\triangle ABC$ where $\angle B = 90\degree, a = 4$ and $b = 3$.
+\\
+\solution The vertices of $\triangle ABC$ are 
+\begin{align}
+\vec{A} = \myvec{0\\3}, \vec{B} = \myvec{0\\0}, \vec{C} = \myvec{4\\0}
+\end{align}
+%
+The following code plots Fig. \ref{fig:rt_triangle}
+\begin{lstlisting}
+codes/triangle/rt_triangle.py
+\end{lstlisting}
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./triangle/figs/rt_triangle.eps}
+\caption{}
+\label{fig:rt_triangle}
+\end{figure}
+\item Construct a triangle of sides $a=4$, $b=5$  and $c=6$.  
+\label{prob:tri}
+\\
+\solution Let the vertices of  $\triangle ABC$ be 
+\begin{align}
+\label{eq:tri_basic}
+\vec{A} = \myvec{p\\q}, \vec{B} = \myvec{0\\0}, \vec{C} = \myvec{a\\0}
+\end{align}
+%
+\begin{align}
+\label{eq:vec_def}
+\vec{A}^T &\define \myvec{p & q}
+\\
+\norm{\vec{A}}^2 &= \vec{A}^T\vec{A} = \myvec{p & q}\myvec{p \\ q}
+\\
+&= p\times p + q\times q = p^2+q^2
+\end{align}
+
+Then
+\begin{align}
+\label{eq:c_tricoord}
+AB &\define \norm{\vec{A}-\vec{B}}^2 = \norm{\vec{A}}^2  = c^2 \quad \because \vec{B} = \vec{0}
+\\
+\label{eq:a_tricoord}
+BC &= \norm{\vec{C}-\vec{B}}^2 = \norm{\vec{C}}^2  = a^2
+\\
+AC &= \norm{\vec{A}-\vec{C}}^2 =    b^2
+\label{eq:b_tricoord}
+\end{align}
+%
+From \eqref{eq:b_tricoord},
+\begin{align}
+b^2 &=\norm{\vec{A}-\vec{C}}^2 = \norm{\vec{A}-\vec{C}}^T\norm{\vec{A}-\vec{C}}  
+\\
+&= \vec{A}^T\vec{A}+\vec{C}^T\vec{C}-\vec{A}^T\vec{C} - \vec{C}^T\vec{A} 
+\\
+&= \norm{\vec{A}}^2 + \norm{\vec{C}}^2 - 2\vec{A}^T\vec{C} \quad \brak{\because \vec{A}^T\vec{C} = \vec{C}^T\vec{A} } 
+\label{eq:tri_const_norm_ac}
+\\
+&= a^2+c^2-2ap
+\end{align}
+%
+yielding
+\begin{align}
+p&= \frac{a^2+c^2-b^2}{2a}
+\end{align}
+%
+From \eqref{eq:c_tricoord}, 
+\begin{align}
+\norm{\vec{A}}^2 &= c^2 = p^2+q^2
+\\
+\implies q&= \pm \sqrt{c^2-p^2}
+\end{align}
+
+The following code plots Fig. \ref{fig:triangle}
+\begin{lstlisting}
+codes/triangle/draw_triangle.py
+\end{lstlisting}
+\begin{figure}[!ht]
+\includegraphics[width=\columnwidth]{./triangle/figs/triangle.eps}
+\caption{}
+\label{fig:triangle}
+\end{figure}
+\item Construct a triangle of sides $a=5$, $b=6$  and $c=7$.  Construct a similar triangle whose sides are $\frac{7}{5}$ times the corresponding sides of the first triangle.
+\\
+\solution The sides of the similar triangle are $\frac{7}{5}a, \frac{7}{5}b$ and $\frac{7}{5}c$.
+\item Construct an isosceles triangle whose base is $a=8$cm and altitude $AD=h=4$cm 
+\\
+\solution Using Baudhayana's theorem, 
+\begin{align}
+b = c= \sqrt{h^2+\brak{\frac{a}{2}}^2}
+\end{align}
+%
+\item In $\triangle ABC$,  given that $a+b+c = 11, \angle B = 45^{\degree}$ and $\angle C = 45^{\degree}$, 
+find 
+$a,b,c$ and sketch the triangle.
+\label{prob:const_tr_baudh_cramer}
+\\
+\solution From the given information, 
+\begin{align}
+\label{eq:tr_const_ex_sum}
+a + b+c = 11
+\\
+\label{eq:tr_const_ex_isoc}
+b = c \quad \brak{\because B = C = 45 \degree}
+\\
+a^2 = b^2+c^2 \quad \brak{\because A = 90\degree}
+\label{eq:tr_const_ex_baudh}
+\end{align}
+%
+From \eqref{eq:tr_const_ex_sum} and \eqref{eq:tr_const_ex_isoc},
+\begin{align}
+\label{eq:tr_const_ex_sum_ab}
+a + 2b = 11
+\end{align}
+From  \eqref{eq:tr_const_ex_isoc} and \eqref{eq:tr_const_ex_baudh},
+\begin{align}
+\label{eq:tr_const_ex_sum_ab_baudh}
+a^2 = 2b^2 \implies a - b\sqrt{2} =0
+\end{align}
+\eqref{eq:tr_const_ex_sum_ab} and \eqref{eq:tr_const_ex_sum_ab_baudh}
+can be summarized as the matrix equation 
+\begin{align}
+\label{eq:tr_const_ex_sum_ab_mat}
+\myvec{1 & 2\\1 & -\sqrt{2}}\myvec{a\\b} = \myvec{11\\0}
+\end{align}
+%
+which can be solved using Cramer's rule as
+\begin{align}
+\label{eq:tr_const_ex_sum_ab_mat_sol}
+a &= \frac{\mydet{11 & 2\\0 & -\sqrt{2}}}{\mydet{1 & 2\\1 & -\sqrt{2}}} = \frac{11 \times \brak{-\sqrt{2}}-2\times 0}{1\times \brak{-\sqrt{2}} - 2 \times 1} 
+\\
+&= \frac{11\sqrt{2}}{2+\sqrt{2}}
+\\
+b &= \frac{\mydet{1 & 11\\1 & 0}}{\mydet{1 & 2\\1 & -\sqrt{2}}} = \frac{11}{2+\sqrt{2}}
+\end{align}
+%
+by expanding the determinants.  The following code may be used to compute $a, b$ and $c$.
+\begin{lstlisting}
+codes/triangle/triangle_det.py
+\end{lstlisting}
+\item Repeat Problem \ref{prob:const_tr_baudh_cramer} using a single matrix equation.
+\\
+\solution The equations 
+\begin{align}
+\label{eq:tr_const_ex_sum_abc}
+a + 2b &= 11
+\\
+a - b\sqrt{2} &=0
+\\
+b-c &=0
+\end{align}
+can be expressed as a single matrix equation
+\begin{align}
+\label{eq:tr_const_ex_sum_abc_mat}
+\myvec{1 & 2 & 0\\1 & -\sqrt{2} & 0\\0 & 1 & -1} \myvec{a\\b\\c} &= \myvec{11\\0\\0}
+\end{align}
+%
+and can be solved using Cramer's rule as
+\begin{align}
+\label{eq:tr_const_ex_sum_abc_mat_sol}
+a &= \frac{\mydet{11 & 2 & 0\\1 & -\sqrt{2} & 0\\0 & 1 & -1}}{\mydet{0 & 2 & 0\\1 & -\sqrt{2} & 0\\0 & 1 & -1}} 
+\\
+b &= \frac{\mydet{0 & 11 & 0\\1 & 0 & 0\\0 & 0 & -1}}{\mydet{0 & 2 & 0\\1 & -\sqrt{2} & 0\\0 & 1 & -1}} 
+\\
+c &= \frac{\mydet{0 & 2 & 11\\1 & -\sqrt{2} & 0\\0 & 1 & 0}}{\mydet{0 & 2 & 0\\1 & -\sqrt{2} & 0\\0 & 1 & -1}} 
+\end{align}
+The determinant
+\begin{multline}
+\mydet{0 & 2 & 0\\1 & -\sqrt{2} & 0\\0 & 1 & -1} = 0\times \mydet{-\sqrt{2} & 0\\ 1 & -1} 
+\\
+-2 \times  \mydet{1 &  0\\0 &  -1} + 0 \times \mydet{1 & -\sqrt{2} \\0 & 1 }
+\end{multline}
+%
+The determinant can also be expressed as
+\begin{multline}
+\mydet{0 & 2 & 0\\1 & -\sqrt{2} & 0\\0 & 1 & -1} = 0\times \mydet{-\sqrt{2} & 0\\ 1 & -1} 
+\\
+-1 \times  \mydet{2 &  0\\1 &  -1} + 0 \times \mydet{2 & 0\\-\sqrt{2} & 0 }
+\end{multline}
+%
+The determinants of larger matrices can be expressed similarly.
+\item Draw $\triangle ABC$ with $a = 6, c = 5$ and $\angle B = 60 \degree$. 
+\\
+\solution 
+In Fig. \ref{fig:tri_const_ex_cos_form}, $AD \perp BC$.
+\begin{align}
+\cos C &= \frac{y}{b},
+\\
+\cos B &= \frac{x}{b},
+\end{align}
+%
+Thus, 
+%
+\begin{align}
+a=x+y &= b \cos C + c \cos B, \\
+b &= c \cos A + a \cos C \\
+c &= b \cos A + a \cos B
+\end{align}
+%
+  The above equations can be expressed in matrix form as
+%
+\begin{align}
+\begin{pmatrix}
+0 & c & b \\
+c & 0 & a \\
+b & a & 0
+\end{pmatrix}
+\begin{pmatrix}
+\cos A \\
+\cos B \\
+\cos C
+\end{pmatrix}
+= 
+\begin{pmatrix}
+a\\
+b\\
+c
+\end{pmatrix}
+\end{align}
+%
+Using Cramer's rule and determinants,
+%
+\begin{align}
+\cos A = \frac{
+\begin{vmatrix}
+a & c & b \\
+b & 0 & a \\
+c & a & 0
+\end{vmatrix}
+	}
+	{
+\begin{vmatrix}
+0 & c & b \\
+c & 0 & a \\
+b & a & 0
+\end{vmatrix}
+	}
+	&=\frac{ab^2 + ac^2 - a^3}{abc + abc} 
+\\
+&= \frac{b^2 + c^2 - a^2}{2bc}
+\label{eq:cosC}
+\end{align}
+From \eqref{eq:cosC}
+%Using the cosine formula, 
+\begin{align}
+\label{eq:b_cos_form}
+b^2 = c^2+a^2-2ca\cos B
+\end{align}
+which is computed by the following code
+\begin{lstlisting}
+codes/triangle/cos_form.py
+\end{lstlisting}
+%
+\begin{figure}[!ht]
+	\begin{center}
+		
+		%\includegraphics[width=\columnwidth]{./constructions/figs/ch2_triang_ar}
+		%\vspace*{-10cm}
+		\resizebox{\columnwidth}{!}{\input{./triangle/figs/fig2.1.tex}}
+	\end{center}
+	\caption{The cosine formula}
+	\label{fig:tri_const_ex_cos_form}	
+\end{figure}
+
+\item Draw $\triangle ABC$ with $a = 7, \angle B = 45\degree$ and $\angle A = 105 \degree$. 
+\\
+\solution In Fig. \eqref{fig:tri_const_ex_cos_form},	
+\begin{align}
+\label{eq:sin_form_def}
+\sin B &= \frac{h}{c}
+\\
+\sin C &= \frac{h}{b}
+\end{align}
+%
+which can be used to show that
+\begin{align}
+\label{eq:sin_form}
+\frac{\sin A}{a}=\frac{\sin B}{b}=\frac{\sin C}{c}
+\end{align}
+%
+Thus, 
+\begin{align}
+%\label{eq:sin_form}
+c = \frac{a\sin C}{\sin A}
+\end{align}
+where
+\begin{align}
+%\label{eq:sin_form}
+C = 180-A-B
+\end{align}
+\item Draw $\triangle ABC$ if $AB = 3, AC = 5$ and $\angle C = 30 \degree$.
+%
+\\
+\solution From \eqref{eq:b_cos_form}, 
+\begin{align}
+\cos C = \frac{a^2+b^2-c^2}{2ab}
+\end{align}
+%
+which can be expressed as
+\begin{align}
+\label{eq:quad_eq}
+a^2 -2ab\cos C +b^2-c^2 = 0.
+\end{align}
+\begin{align}
+\because \brak{a-b\cos C}^2 = a^2+b^2\cos^2C -2ab\cos C,
+\end{align}
+\eqref{eq:quad_eq} can be expressed as 
+\begin{align}
+\brak{a-b\cos C}^2 -b^2\cos^2C+b^2-c^2 = 0
+\\
+\implies \brak{a-b\cos C}^2 = b^2\brak{1-\cos^2C}-c^2
+\\
+\text{or}, a = b\cos C \pm \sqrt{b^2\brak{1-\cos^2C}-c^2}
+\label{eq:tri_quad_sol}
+\end{align}
+%
+Choose the value(s) for which $a > 0$.
+\item The solution of a quadratic equation
+\begin{align}
+\label{eq:tri_quad_eq}
+\alpha x^2 + \beta x + \gamma = 0
+\end{align}
+is given by 
+\begin{align}
+\label{eq:tri_quad_eq_sol}
+x = \frac{-\beta \pm \sqrt{\beta^2 - 4\alpha\gamma}}{2\alpha}.
+\end{align}
+Verify \eqref{eq:tri_quad_sol} using \eqref{eq:tri_quad_eq_sol}.
+
+
+\item $\triangle ABC$ is right angled at $\vec{B}$.  If $a = 12$ and $b+c = 18$, find $b,c$ and draw the triangle.
+\\
+\solution From Baudhayana's theorem, 
+\begin{align}
+b^2 &= a^2 + c^2
+\\
+\implies \brak{18-c}^2 &= 12^2 +c^2
+\end{align}
+which can be simplified to obtain
+\begin{align}
+ 36c -180&= 0
+\\
+\implies c&=5
+\end{align}
+%
+and $b = 13$
+\item Find a simpler solution for  Problem \ref{prob:const_tr_baudh_cramer} 
+\\
+\solution Use cosine formula.
+\item In $\triangle ABC$,  $a = 7, \angle B = 75^{\degree}$ and $b+c = 13$. 
+Alternatively, 
+\begin{align}
+a = b \cos C + c \cos B
+\\
+b \sin C = c \sin B
+\\
+a + b+c = 11
+\end{align}
+%
+resulting  in the matrix equation 
+\begin{align}
+\begin{pmatrix}
+1 & -\cos C & - \cos B
+\\
+0 & \sin C &- \sin B
+\\
+1 & 1 & 1
+\end{pmatrix}
+%\myvec{
+%}
+\myvec{a \\b\\c} = \myvec{0 \\ 0 \\ 11}
+\end{align}
+
+Solving the equivalent matrix equation gives the desired answer.
+
+\end{enumerate}
+%

@@ -1,0 +1,76 @@
+Given : $\triangle{ABC}$
+, $\vec{D}$,$\vec{E}$ and $\vec{F}$ are the midpoints of AB,BC and CA respectively
+
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./solutions/1/4/triangle.tex}}
+\caption{Right Angled Triangle by Latex-Tikz}
+\label{fig:solutions/1/4tri_right_angle}
+\end{figure}
+\begin{align}
+    \vec{D}&=\frac{A+B}{2}\\
+    \vec{E}&=\frac{B+C}{2}\\
+    \vec{F}&=\frac{A+C}{2}
+\end{align}
+
+The direction vector $\vec{m}_{DF}$ is given by ,
+\begin{align}
+    \vec{m}_{DF}&=\vec{D}-\vec{F} \label{eq:solutions/1/41}
+\end{align}
+Since $\vec{D}$ is the mid-point of AB and $\vec{F}$ is the mid-point of AC,from equation \ref{eq:solutions/1/41},
+\begin{align}
+    \vec{m}_{DF}&=\frac{\vec{A}+\vec{B}}{2}-\frac{\vec{A}+\vec{C}}{2}\\
+    \vec{m}_{DF}&=\frac{\vec{B-C}}{2} \label{eq:solutions/1/42}\\
+    \vec{m}_{DF}&=\frac{\vec{m}_{BC}}{2} \label{eq:solutions/1/43}
+\end{align}
+where $\vec{B-C}$ is direction vector of line segment BC
+From equation \ref{eq:solutions/1/42} we could say that,
+\begin{align}
+    DF\parallel{BC}
+\end{align}
+Similarly we could show that , 
+\begin{align}
+    DE\parallel{AC}\\
+    EF\parallel{AB}
+\end{align}
+Since given $\vec{E}$ is the mid-point of BC,
+\begin{align}
+    \vec{m}_{BE}=\vec{m}_{EC}=\frac{{\vec{m}_{BC}}}{2}
+\end{align}
+\begin{align}
+    \vec{m}_{BC}=2\vec{m}_{BE}\label{eq:solutions/1/44}
+\end{align}
+Substituting equation \ref{eq:solutions/1/44} in equation \ref{eq:solutions/1/43},we get,
+\begin{align}
+    \vec{m}_{DF}=\vec{m}_{BE} \label{eq:solutions/1/45}
+\end{align}
+From equation \ref{eq:solutions/1/45},since the opposite sides are equal and parallel (DF=BE and DF$\parallel{BE}$),we could say that BDFE is parallelogram
+From Fig.\ref{fig:solutions/1/4tri_right_angle}, 
+Consider parallelogram BDFE, where DE is the diagonal of the parallelogram BDFE as shown in Fig.\ref{fig:solutions/1/4Parallelogram}
+
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./solutions/1/4/parallelogram}}
+\caption{Parallelogram by Latex-Tikz}
+\label{fig:solutions/1/4Parallelogram}
+\end{figure}
+Since BDFE is a parallelogram,
+\begin{align}
+    EF=BD \label{eq:solutions/1/46}
+\end{align}
+From the above equations \ref{eq:solutions/1/45},\ref{eq:solutions/1/46} and DE is common side to both the $\triangle{BDE}$ and $\triangle{DEF}$, by Side-Side-Side (SSS) rule, if all the three sides of one triangle are equivalent to the corresponding three sides of the second triangle, then the two triangles are said to be congruent.
+\begin{align}
+    \triangle{DBE}\cong{\triangle{DEF}} \label{eq:solutions/1/47}
+\end{align}
+Similarly,
+\begin{align}
+    \triangle{ADF}\cong{\triangle{DEF}} \label{eq:solutions/1/48}\\
+    \triangle{CEF}\cong{\triangle{DEF}} \label{eq:solutions/1/49}
+\end{align}
+
+From equations \ref{eq:solutions/1/47},\ref{eq:solutions/1/48} and \ref{eq:solutions/1/49},we could conclude that,
+\begin{align}
+    \triangle{DBE}\cong{\triangle{ADF}}\cong{\triangle{CEF}}\cong{\triangle{DEF}} \label{eq:solutions/1/410}
+\end{align}
+From equation \ref{eq:solutions/1/410} we could say that all four triangles are congruent which is obtained by joining the midpoints of the $\triangle{ABC}$.
+

@@ -1,0 +1,35 @@
+\begin{enumerate}[label=(\roman*)]
+\item Let $X_i \in \cbrak{1,2,\dots, 6}$.
+\begin{align}
+\pr{X_1 \ne 5, X_2 \ne 5} = \pr{X_1 \ne 5}\pr{ X_2 \ne 5} 
+\label{eq:1.2.135}
+\end{align}
+$\because$ the two events are independent. 
+Also, 
+\begin{align}
+\pr{X_1 = 5} &= \pr{ X_2 = 5}  = \frac{1}{6}
+\\
+\implies \pr{X_1 \ne  5}&= \pr{ X_2 \ne 5}  
+\\
+&= 1-\frac{1}{6} = \frac{5}{6}
+\label{eq:1.2.135_comp}
+\end{align}
+From \eqref{eq:1.2.135},
+\begin{multline}
+\pr{X_1 \ne 5, X_2 \ne 5} 
+\\
+= \sbrak{1-\pr{X_1 = 5}}\sbrak{1-\pr{ X_2 = 5} } 
+\\
+= \frac{25}{36} 
+\end{multline}
+upon substituting from \eqref{eq:1.2.135_comp}
+\item  The probability that 5 doesn't come at all is 
+\begin{align}
+1-\pr{X_1 \ne 5, X_2 \ne 5} = 1-\frac{25}{36} = \frac{11}{36}
+\end{align}
+
+The python code for the problem is 
+\begin{lstlisting}
+solutions/10-1/prob/codes/prob5.py
+\end{lstlisting}
+\end{enumerate}

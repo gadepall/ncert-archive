@@ -1,0 +1,42 @@
+The angle between 2 vectors is given by\\
+$$
+\cos \theta = \frac{\textbf{a}^T\textbf{b}}{\|\textbf{a}\|  \|\textbf{b}\|}
+$$
+Computing the numerator \\
+\begin{align*}
+\textbf{a}^T\textbf{b} = 
+\myvec{
+1 & 1 & -1 
+}
+\myvec{
+1 \\
+-1 \\
+1
+}
+\end{align*}
+
+\begin{align}
+    \implies \textbf{a}^T\textbf{b} = -1 
+\end{align}
+
+Computing the denominator \\
+\begin{align}
+\|\textbf{a}\|  \|\textbf{b}\| = 
+\sqrt{(1)^2 + (1)^2 + (-1)^2} 
+\\
+\times \sqrt{(1)^2 + (-1)^2 + (1)^2}\\
+\implies \|\textbf{a}\|  \|\textbf{b}\| = (\sqrt{3})^2\\
+\implies \|\textbf{a}\|  \|\textbf{b}\| = 3
+\end{align}
+
+So, we get $\cos{\theta}$ to be, 
+\begin{align}
+\cos \theta = \frac{-1}{3}\\
+\end{align}
+Therefore,
+$$ \theta = \cos^{-1} \left( \frac{-1}{3} \right)$$
+$$\implies \theta = 1.9106^c$$
+$$\implies \theta = 109.47\degree $$
+
+Therefore, the angle between the 2 vectors is $\textbf{109.47\degree}$.
+

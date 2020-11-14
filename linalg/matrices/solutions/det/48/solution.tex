@@ -1,0 +1,17 @@
+For a general square matrix $\vec(A)$, the characteristic equation in variable $\lambda$  is defined by
+\begin{align}
+  \det({\vec{A}-\lambda \vec{I}}) &= 0\\
+  \implies\mydet{3-\lambda&2\\1&1-\lambda} &= 0\\
+  \implies(3-\lambda)(1-\lambda)-2 &= 0\\
+  \implies\lambda^2-4\lambda+3-2 &= 0\\
+  \implies\lambda^2-4\lambda+1 &= 0\label{eq:solutions/det/48/eq1}
+\end{align}
+Now by Cayley-Hamilton Theorem $\vec{A}$ satisfies \eqref{eq:solutions/det/48/eq1},then replacing $\lambda$ with $\vec{A}$ we get
+\begin{align}
+  \vec{A}^2-4\vec{A}+\vec{I} &= 0\label{eq:solutions/det/48/eq2}
+\end{align}
+We need to find a and b in
+\begin{align}
+  \vec{A}^2+a\vec{A}+b\vec{I} &= 0\label{eq:solutions/det/48/eq3}
+\end{align}
+Comparing $\eqref{eq:solutions/det/48/eq2}$ and $\eqref{eq:solutions/det/48/eq3}$ we get a = -4 and b = 1.

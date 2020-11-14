@@ -1,0 +1,14 @@
+import numpy as np
+import math
+
+a = 1
+b = 2
+c = 3
+x=4
+y=6
+z=8
+
+matrix1 = np.array([[x,a,x+a],[y,b,y+b],[z,c,z+c]])
+det=np.linalg.det(matrix1)
+print('Determinant is ', det)
+

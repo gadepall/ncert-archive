@@ -1,0 +1,54 @@
+Let $\vec{a}$ and $\vec{b}$ are the columns of matrix $\vec{A}$. The matrix $\vec{A}$ can be decomposed in the form
+\begin{align}
+    \vec{A}=\vec{Q}\vec{R}
+\end{align}
+\begin{align}
+    \vec{U}=\myvec{\vec{u_1}&\vec{u_2}}\\
+    \vec{R}=\myvec{k_1&r_1\\0&k_2}
+\end{align}
+where
+\begin{align}
+    k_1=\norm{\vec{a}}\label{eq:solutions/2/33/k1}\\
+    \vec{u_1}=\frac{\vec{a}}{k_1}\label{eq:solutions/2/33/u1}\\
+    r_1=\frac{\vec{u_1}^T\vec{b}}{\norm{u_1}^2}\label{eq:solutions/2/33/r1}\\
+    \vec{u_2}=\frac{\vec{b}-r_1\vec{u_1}}{\norm{\vec{b}-r_1\vec{u_1}}}\label{eq:solutions/2/33/u2}\\
+    k_2=\vec{u_2}^T\vec{b}\label{eq:solutions/2/33/k2}
+\end{align}
+The given matrix can be represented as,
+\begin{align}\label{eq:solutions/2/33/rep}
+    \myvec{\vec{a}&\vec{b}}=\myvec{\vec{u_1}&\vec{u_2}}\myvec{k_1&r_1\\0&k_2}
+\end{align}
+The columns of matrix $\vec{A}=\myvec{6&1\\-8&2}$ are $\vec{a}$ and $\vec{b}$ where
+\begin{align}
+    \vec{a}=\myvec{6\\-8}\label{eq:solutions/2/33/a}\\
+    \vec{b}=\myvec{1\\2}\label{eq:solutions/2/33/b}
+\end{align}
+Now for the given matrix, From \eqref{eq:solutions/2/33/k1} and \eqref{eq:solutions/2/33/u1}
+\begin{align}
+k_1=\norm{\vec{a}}=10\\
+\vec{u_1}=\frac{1}{10}\myvec{6\\-8}
+\end{align}
+From \eqref{eq:solutions/2/33/r1}
+\begin{align}
+r_1=\frac{1}{10}\myvec{6&-8}\myvec{1\\2}=-1
+\end{align}
+From \eqref{eq:solutions/2/33/u2}
+\begin{align}
+\vec{b}-r_1\vec{u_1}=\myvec{1\\2}+\myvec{\frac{6}{10}\\\frac{-8}{10}}=\myvec{\frac{16}{10}\\\frac{12}{10}}\\
+\norm{\vec{b}-r_1\vec{u_1}}=\frac{20}{10}=2\\
+\implies \vec{u_2}=\frac{1}{10}\myvec{8\\6}
+\end{align}
+From \eqref{eq:solutions/2/33/k2}
+\begin{align}
+    k_2=\vec{u_2}^T\vec{b}=\myvec{\frac{8}{10}&\frac{6}{10}}\myvec{1\\2}=\frac{20}{10}=2
+\end{align}
+Now we can observe that $\vec{Q}^T\vec{Q}=\vec{Q}\vec{Q}^T=I$
+\begin{align}
+    \myvec{\frac{6}{10}&\frac{8}{10}\\\frac{-8}{10}&\frac{6}{10}}
+    \myvec{\frac{6}{10}&\frac{-8}{10}\\\frac{8}{10}&\frac{6}{10}}=\myvec{1&0\\0&1}
+\end{align}
+From \eqref{eq:solutions/2/33/rep}, The matrix $\vec{A}$ can now be written as, 
+\begin{align}
+    \vec{A}=\myvec{6&1\\-8&2}=\myvec{\frac{6}{10}&\frac{8}{10}\\\frac{-8}{10}&\frac{6}{10}}
+    \myvec{10&-1\\0&2}
+\end{align}

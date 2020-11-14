@@ -1,0 +1,46 @@
+\begin{tikzpicture}
+[
+ scale=2,
+  >=stealth,
+  point/.style = {draw, circle, fill = black, inner sep = 1pt},
+]
+\node (B) at (-2,-2)[point,label = below left:${B}$] {};
+\node (A) at (1,3)[point,label = above left:${A}$] {};
+\node (C) at (4,-1)[point,label = below right:${C}$] {};
+\draw (A) -- (B) -- (C) -- (A);
+
+\node (D) at (1,-1.5)[point,label = below:$D$] {};
+
+\node (F) at (-0.5,0.5)[point,label = left:$F$] {};
+
+\node (E) at (2.5,1)[point,label = right:$E$] {};
+
+\node (O) at (0.7962963,-0.27777778) [point,label = right:$O$] {};
+
+\draw[thick, dashed] (D) -- (O);
+\draw (F) -- (O);
+\draw (E) -- (O);
+\draw (A) -- (O);
+\draw (B) -- (O);
+\draw (C) -- (O);
+
+\tkzMarkRightAngle[fill=blue!20,size=.3](A,E,O)
+\tkzMarkRightAngle[fill=blue!20,size=.3](A,F,O)
+\tkzMarkRightAngle[fill=blue!20,size=.3](O,D,C)
+
+
+\node [below] at (3.65,0) {\strut $\frac{b}{2}$};
+\node [below] at (2.2,2) {\strut  $\frac{b}{2}$};
+
+
+\node [below] at (2.5,-1.2) {\strut  $\frac{a}{2}$};    
+\node [below] at (0,-1.65) {\strut  $\frac{a}{2}$};  
+      
+\node [below] at (-1.7,-1) {\strut  $\frac{c}{2}$}; 
+\node [below] at (0,2) {\strut  $\frac{c}{2}$};   
+
+\def\rad{3.284101453883}
+%\coordinate [point, label={above : $O$ }] (O) at (0, 0);
+\draw (O) circle (\rad);
+
+\end{tikzpicture}

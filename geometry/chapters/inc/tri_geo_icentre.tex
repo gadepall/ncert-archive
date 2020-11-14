@@ -1,0 +1,95 @@
+%%
+%\subsection{Perpendicular Bisectors}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Find a point $\vec{O}$ that is equidistant from the sides of $\triangle ABC$ for $a = 5, b = 6, c = 4$. Here, distance means the perpendicular distanace.
+%
+\solution Let $\vec{I}$ be the desired point and  $\vec{D}, \vec{E}, \vec{F}$ are on  $BC, CA, AB$ such that $ID \perp BC, IE \perp CA, IF \perp AB$ and $ID = IE = IF = r$, then, applying \eqref{eq:tri_baudh} in $\triangle s$ $IDB$ and $IEB$,
+\begin{align}
+\label{eq:tri_icentre_baudhd}
+\begin{split}
+IB^2 &= ID^2+BD^2 = r^2 + BD^2 
+\\
+IB^2 &= IF^2+BF^2 = r^2 + BF^2
+\end{split}
+\end{align}
+From the above, it is obvious that $BD = BF$. Similarly, $AE = AF, CD = CF$.  Denoting these lengths as $x, y$ and $z$, as shown in Fig. \ref{fig:tri_icentre},
+%
+\begin{align}
+x + y = a
+y+z = b
+x + z = c
+\end{align}
+%
+which can be expressed as the matrix equation
+%
+\begin{align}
+\myvec{
+1 & 1 & 0
+\\
+0 & 1 & 1
+\\
+1 & 0 & 1
+}
+\myvec{x \\ y \\ z}
+=
+\myvec{a\\b\\c}
+\label{eq:tri_icentre_mat}
+\end{align}
+%
+Section formula can be used to compute 
+\begin{align}
+\vec{D} = \frac{x\vec{C}+y\vec{B}}{x+y}
+\\
+\vec{E} = \frac{y\vec{A}+z\vec{C}}{y+z}
+\\
+\vec{F} = \frac{z\vec{B}+x\vec{A}}{z+x}
+\end{align}
+%
+Note that $\vec{I}$ is the circumcentre of $\triangle DEF$.  Thus, \eqref{eq:circle_const_chord_mat} can be used to compute $\vec{I}$.  
+%
+This is done by the python code below
+%
+\begin{lstlisting}
+codes/circle/tri_icentre.py
+\end{lstlisting}
+%
+and the equivalent latex-tikz code to draw Fig. \ref{fig:tri_icentre} is
+%
+\begin{lstlisting}
+figs/circle/tri_icentre.tex
+\end{lstlisting}
+%
+\begin{figure}[!ht]
+	\begin{center}
+		
+		\resizebox{\columnwidth}{!}{\input{./figs/circle/tri_icentre.tex}}
+	\end{center}
+	\caption{Incentre $I$ of $\triangle ABC$}
+	\label{fig:tri_icentre}	
+\end{figure}
+%
+\item $r$ is known as the {\em inradius} of $\triangle ABC$.  Find $r$ for  the given values of $a,b,c$.
+\\
+\solution From Fig. \ref{fig:tri_icentre}
+%
+\begin{align}
+\because ar\brak{ABC} &= ar\brak{IBC}+ar\brak{ICA}+ar\brak{IAB}
+\\
+&=\frac{1}{2}ra+\frac{1}{2}rb+\frac{1}{2}rc = \frac{a+b+c}{2}r,
+\\
+r &= \frac{\sqrt{s\brak{s-a}\brak{s-b}\brak{s-c}}}{s}
+\end{align}
+%
+using Hero's formula.
+%
+The following python code computes the {\em inradius}
+%
+\begin{lstlisting}
+codes/circle/tri_iradius.py
+\end{lstlisting}
+
+\end{enumerate}
+

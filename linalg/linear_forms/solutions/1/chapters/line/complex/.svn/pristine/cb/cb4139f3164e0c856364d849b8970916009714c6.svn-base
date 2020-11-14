@@ -1,0 +1,26 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Complex number $\myvec{a\\b}$ is expressed as a matrix as 
+\begin{align}
+\label{Complex}
+\myvec{a\\b} = \myvec{a & -b\\ b & a}
+\\
+\myvec{5\\-3}=\myvec{5&3\\-3&5}
+\end{align}
+Then,
+\begin{align}
+\myvec{5\\-3}^3=\myvec{5&3\\-3&5}\myvec{5&3\\-3&5}\myvec{5&3\\-3&5}
+\\
+\implies \myvec{5\\-3}^3 = \myvec{-10&198\\-198&-10} 
+\end{align}
+From the equation \ref{Complex}
+\begin{align}
+\implies \myvec{5\\-3}^3=\myvec{-10\\-198}
+\end{align}
+The python code for above problem is
+\begin{lstlisting}
+codes/line/comp.py
+\end{lstlisting}
+\end{enumerate}

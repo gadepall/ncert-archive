@@ -1,0 +1,37 @@
+
+Let's name the ,matrices as
+$\vec{M}$ = \myvec{1 & 2 & 3\\ 0 &1&0\\1&1&0} and $\vec{N}$ = \myvec{-1 & 1 & 0\\ -1 &1&0\\2&3&4}\\
+\\ To prove that multiplication is non commutative we have to show that
+\begin{align}
+\vec{M}\vec{N} \not= \vec{N}\vec{M}
+\end{align}
+\begin{align}
+\vec{M}\vec{N} &= \myvec{1 & 2 & 3\\ 0 &1&0\\1&1&0} \myvec{-1 & 1 & 0\\ -1 &1&0\\2&3&4}
+\end{align}
+\\
+{\tiny
+\begin{align}
+=\myvec{1\times-1+ 2\times-1+ 3\times2 &1\times1+ 2\times1+ 3\times3 & 1\times0+ 2\times0+ 3\times4\\
+0\times-1+ 1\times-1+ 0\times2 &0\times1+ 1\times1+ 0\times3 & 0\times0+ 1\times0+ 0\times4\\
+1\times-1+ 1\times-1+ 0\times2 &1\times1+ 1\times1+ 0\times3 & 1\times0+ 1\times0+ 0\times4\\}
+\end{align}
+}
+\begin{align}
+\vec{M}\vec{N} &= \myvec{3 & 12 & 12\\-1 & 1 &0\\-2&2&0}\
+\end{align}
+\begin{align}
+\vec{N}\vec{M} &=  \myvec{-1 & 1 & 0\\ -1 &1&0\\2&3&4}
+\myvec{1 & 2 & 3\\ 0 &1&0\\1&1&0} 
+\end{align}
+{\tiny
+\begin{align}
+=\myvec{-1\times1+ 1\times0+ 0\times1 &-1\times2+ 1\times1+ 0\times1 & -1\times3+ 1\times0+ 0\times0\\
+-1\times1+ 1\times0+ 0\times1 &-1\times2+ 1\times1+ 0\times1 & -1\times3+ 1\times0+ 0\times0\\
+2\times1+ 3\times0+ 4\times1 &2\times2+ 3\times1+ 4\times1 & 2\times3+ 3\times0+ 4\times0\\\ }
+\end{align}
+}
+\begin{align}
+\vec{N}\vec{M} &= \myvec{-1 & -1 & -3\\-1 & -1&-3\\6&11&6}\
+\end{align}
+From the above,  we can clearly see that R.H.S $\ne $ L.H.S and Hence, Matrix multiplication is non commutative
+

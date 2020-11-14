@@ -1,0 +1,127 @@
+See Fig. \ref{fig:solutions/1/1tri_right_angle}
+
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./solutions/1/1/TriangleFig.tex}}
+\caption{Equilateral $\triangle{ABC}$ with A,B and C as vertices}
+\label{fig:solutions/1/1tri_right_angle}
+\end{figure}
+Considering A,B and C as the vertices of triangle:
+\begin{align}
+   A=
+\myvec{
+a_1\\
+a_2
+}
+B=
+\myvec{
+0\\
+0
+}
+C=
+\myvec{
+c_1\\
+c_2
+} \nonumber
+\end{align}
+In equilateral triangle all sides are equal.Hence,
+\begin{align}\label{eq:solutions/1/1/11}
+\norm{\vec{A-B}} = \norm{\vec{B-C}} = \norm{\vec{A-C}}
+\end{align}
+Putting $\vec{B}$= 0 in (\ref {eq:solutions/1/1/11}) we have,
+\begin{align}
+\label{eq:solutions/1/1/12}
+\norm{\vec{A}}=\norm{\vec{C}}
+\end{align}
+\begin{align}
+\label{eq:solutions/1/1/13}
+\norm{\vec{A}}=\norm{\vec{A-C}}
+\end{align}
+Squaring  equation (\ref{eq:solutions/1/1/12})
+ \begin{align}
+\label{eq:solutions/1/1/17}
+\norm{\vec{A}}^2=\norm{\vec{C}}^2
+\end{align}
+Squaring  equation (\ref{eq:solutions/1/1/13})
+ \begin{align}
+\label{eq:solutions/1/1/14}
+\norm{\vec{A}}^2=\norm{\vec{A}}^2 - 2(\vec{A}^T )(\vec{C}) +\norm{\vec{C}}^2 \nonumber \\
+\implies \norm{\vec{A}}^2=2(\vec{A}^T )(\vec{C})
+\end{align}
+Taking the inner product of sides $AB$,$BC$ we have:
+\begin{align}
+    (\vec{A}-\vec{B})^T(\vec{B}-\vec{C}) =
+    \norm{\vec{A}-\vec{B}}\norm{\vec{B}-\vec{C}}\cos{ABC}
+\end{align}
+The angle ABC from the  above equation is:
+\begin{align}\label{eq:solutions/1/1/my}
+     \cos{ABC} = \frac{(\vec{A}-\vec{B})^T(\vec{B}-\vec{C})}{\norm{\vec{A}-\vec{B}}\norm{\vec{B}-\vec{C}}} 
+\end{align}
+Substituting value in (\ref{eq:solutions/1/1/my}) and putting we have:
+\begin{align}\label{eq:solutions/1/1/my1}
+     \cos{ABC} = \frac{(\vec{A})^T(\vec{C})}{\norm{\vec{A}}^2}
+\end{align}
+From (\ref{eq:solutions/1/1/14}) we have:
+\begin{align}\label{eq:solutions/1/1/my22}
+     \cos{ABC} = \frac{(\vec{A})^T(\vec{C})}{2(\vec{A})^T (\vec{C})}\nonumber\\
+     \implies \cos{ABC} = 1/2\nonumber\\
+\implies \angle {ABC =60 \degree}
+\end{align}
+Taking the inner product of sides $AB$,$AC$ we have:
+\begin{align}
+    (\vec{B}-\vec{A})^T(\vec{A}-\vec{C}) =
+    \norm{\vec{B}-\vec{A}}\norm{\vec{A}-\vec{C}}\cos{BAC}
+\end{align}
+The angle BAC from the  above equation is:
+\begin{align}\label{eq:solutions/1/1/my70}
+     \cos{BAC} = \frac{(\vec{B}-\vec{A})^T(\vec{A}-\vec{C})}{\norm{\vec{B}-\vec{A}}\norm{\vec{A}-\vec{C}}} 
+\end{align}
+Substituting value in (\ref{eq:solutions/1/1/my70}) and putting we have:
+\begin{align}\label{eq:solutions/1/1/my71}
+     \cos{BAC} = \frac{(\vec{A})^T(\vec{A-C})}{\norm{\vec{A}}^2}\\
+     \implies \frac{(\vec{A})^T(\vec{A})-(\vec{A})^T(\vec{C})}{\norm{\vec{A}}^2}
+\end{align}
+We know $(\vec{A})^T (\vec{A})= {\norm{\vec{A}}^2}$\\
+From  equation (\ref{eq:solutions/1/1/14}) we have:
+$ (\vec{A})^T(\vec{C})= \frac{1}{2}{\norm{\vec{A}}^2}$\\
+Substituting values in (\ref{eq:solutions/1/1/my71}) we have:
+\begin{align}\label{eq:solutions/1/1/my72}
+\cos{BAC} =
+    \frac{{\frac{1}{2}\norm{\vec{A}}^2}}{\norm{\vec{A}}^2}\nonumber\\
+     \implies \cos{BAC} = 1/2\nonumber\\
+\implies \angle {BAC =60 \degree}
+\end{align}
+Taking the inner product of sides $AC$,$BC$ we have:
+\begin{align}
+    (\vec{C}-\vec{A})^T(\vec{C}-\vec{B}) =
+    \norm{\vec{C}-\vec{A}}\norm{\vec{C}-\vec{B}}\cos{ACB}
+\end{align}
+The angle ACB from the  above equation is:
+\begin{align}
+\label{eq:solutions/1/1/my75}
+     \cos{ACB} = \frac{(\vec{C}-\vec{A})^T(\vec{C}-\vec{B})}{\norm{\vec{C}-\vec{A}}\norm{\vec{C}-\vec{B}}} 
+\end{align}
+Substituting value in (\ref{eq:solutions/1/1/my75}) and putting we have:
+\begin{align}\label{eq:solutions/1/1/my76}
+     \cos{ACB} = \frac{(\vec{C-A})^T(\vec{C})}{\norm{\vec{A}}^2}\nonumber\\
+     \implies \frac{(\vec{C})^T(\vec{C})-(\vec{A})^T(\vec{C})}{\norm{\vec{A}}^2}
+\end{align}
+We know $(\vec{C})^T (\vec{C})= {\norm{\vec{C}}^2}$\\
+From   (\ref{eq:solutions/1/1/17})  and (\ref{eq:solutions/1/1/14})  we have:\\
+$(\vec{A})^T(\vec{C})= \frac{1}{2}{\norm{\vec{A}}^2}=\frac{1}{2}{\norm{\vec{C}}^2}$\\
+Substituting values in (\ref{eq:solutions/1/1/my76}) we have:
+\begin{align}
+%\label{eq:solutions/1/1/my75}
+\cos {ACB}=
+     \frac{{\frac{1}{2}\norm{\vec{C}}^2}}{\norm{\vec{C}}^2}\nonumber\\
+     \implies \cos{ACB} = 1/2\nonumber\\
+\implies \angle {ACB = 60} \degree
+\end{align}
+Hence from  equation (\ref{eq:solutions/1/1/my22}),(\ref{eq:solutions/1/1/my72}) and(\ref{eq:solutions/1/1/my75})
+\begin{align}
+\angle {ABC} =\angle {BAC}=\angle {ACB}=60\degree
+    \end{align}
+
+	
+	
+	

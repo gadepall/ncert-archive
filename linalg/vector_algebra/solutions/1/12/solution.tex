@@ -1,0 +1,86 @@
+Consider an equilateral $\triangle{ABC}$ as shown in figure:     \ref{eq:solutions/1/12/fig:es1}. Let the angle bisector of $\angle$A intersect side $\vec{BC}$ at a point D between B and C.
+\begin{figure}[!ht]
+    \centering
+    \resizebox{\columnwidth}{!}{\input{./solutions/1/12/figure.tex}}
+    \caption{Equilateral $\triangle{ABC}$}
+    \label{eq:solutions/1/12/fig:es1}
+\end{figure}
+\begin{align}
+\label{eq:solutions/1/12/eq:1}\norm{\vec{A-B}}=\norm{\vec{B-C}}=\norm{\vec{A-C}}\\
+\angle ABD = \angle BAC = \angle ACD = 60\degree\\
+\angle BAD = \angle CAD = 30\degree
+\end{align}
+Using angle bisector theorem ie. triangle will divide the opposite side into two segments that are proportional to the other two sides of the triangle.\\
+\begin{align}
+    \frac{\norm{\vec{A-B}}}{\norm{\vec{B-D}}}= \frac{\norm{\vec{A-C}}}{\norm{\vec{B-C}}-\norm{\vec{B-D}}}
+\end{align}
+Using \eqref{eq:solutions/1/12/eq:1}
+\begin{align}
+     \frac{\norm{\vec{A-B}}}{\norm{\vec{B-D}}}= \frac{\norm{\vec{A-B}}}{\norm{\vec{A-B}}-\norm{\vec{B-D}}}\\
+     \implies\norm{\vec{A-B}} = 2\norm{\vec{B-D}}\label{eq:solutions/1/12/eq:es22}
+\end{align}
+Taking the inner product of sides BA and AD.
+\begin{align}
+    \brak{\vec{B}-\vec{A}}^T\brak{\vec{A}-\vec{D}} =
+    \norm{\vec{B}-\vec{A}}\norm{\vec{A}-\vec{D}}\cos{\theta}\\
+    \cos{\angle BAD}=\frac{\brak{\vec{B}-\vec{A}}^T\brak{\vec{A}-\vec{D}}}{\norm{\vec{B}-\vec{A}}\norm{\vec{A}-\vec{D}}}\label{eq:solutions/1/12/eq:13}
+\end{align}
+%
+%
+%
+Now To Find AD.
+\begin{multline}
+ \brak{\vec{B-A}}^{T}\brak{\vec{B-A}}\\\ =\brak{\vec{B-D+D-A}}^{T}\brak{\vec{B-D+D-A}}\\
+ = [\brak{\vec{B-D}}^{T}+\brak{\vec{D-A}}^{T}][\brak{\vec{B-D}}+\brak{\vec{D-A}}]\\
+ =\brak{\vec{B-D}}^{T}\brak{\vec{B-D}} + \brak{\vec{B-D}}^{T}\brak{\vec{D-A}} +\\ \brak{\vec{D-A}}^{T}\brak{\vec{B-D}} + \brak{\vec{D-A}}^{T}\brak{\vec{D-A}}
+\end{multline}
+\begin{align}
+\because \triangle ABD = \angle BAD + \angle ADB + \angle DBA\\
+180\degree = 30\degree + \angle ADB + 60\degree.\\
+\implies \angle ADB = 180\degree -\brak{60\degree + 30\degree} = 90\degree.\\
+  \implies\brak{\vec{B-D}}^{T}\brak{\vec{D-A}}=0\\ \implies\brak{\vec{D-A}}^{T}\brak{\vec{B-D}} =0
+\end{align}
+which gives
+\begin{multline}
+    \brak{\vec{B-A}}^{T}\brak{\vec{B-A}} =\\\ \brak{\vec{B-D}}^{T}\brak{\vec{B-D}} + \brak{\vec{D-A}}^{T}\brak{\vec{D-A}}\\
+    \norm{\vec{B-A}}^2=\norm{\vec{B-D}}^2 + \norm{\vec{D-A}}^2\\
+    \implies\norm{\vec{D-A}}^2=\norm{\vec{B-A}}^2-\norm{\vec{B-D}}^2\label{eq:solutions/1/12/eq:5}
+\end{multline}
+Using Eq \eqref{eq:solutions/1/12/eq:es22} we get,
+\begin{align}
+\norm{\vec{D-A}}^2=\norm{\vec{B-A}}^2-\frac{1}{4}\norm{\vec{B-A}}^2\label{eq:solutions/1/12/eq:24}\\
+ \norm{\vec{D-A}}=\frac{\sqrt{3}}{2}\norm{\vec{B-A}}\\
+  \implies\norm{\vec{B-A}} = \frac{2}{\sqrt{3}}\norm{\vec{D-A}}\label{eq:solutions/1/12/eq:6}
+\end{align}
+Let $\vec{A}=0$. Substituting in \eqref{eq:solutions/1/12/eq:es22} and \eqref{eq:solutions/1/12/eq:6}
+\begin{align}
+    \label{eq:solutions/1/12/eq:7}\norm{\vec{B}}=2\norm{\vec{B-D}}\\
+    \label{eq:solutions/1/12/eq:8}\norm{\vec{B}}=\frac{2}{\sqrt{3}}\norm{\vec{D}}
+\end{align}
+Square on both sides in \eqref{eq:solutions/1/12/eq:7} and \eqref{eq:solutions/1/12/eq:8}, we get,
+\begin{align}
+    \norm{\vec{B}}^2=4\norm{\vec{B-D}}^2\\
+    \frac{1}{4}\norm{\vec{B}}^2=\norm{\vec{B}}^2+\norm{\vec{D}}^2-2\vec{B}^T\vec{D}\label{eq:solutions/1/12/eq:9}\\
+\norm{\vec{B}}^2 = \frac{4}{3}\norm{\vec{D}}^2\label{eq:solutions/1/12/eq:10}
+\end{align}
+Solving \eqref{eq:solutions/1/12/eq:9} and \eqref{eq:solutions/1/12/eq:10} we get,
+\begin{align}
+    \frac{1}{3}\norm{\vec{D}}^2=\frac{4}{3}\norm{\vec{D}}^2+\norm{\vec{D}}^2-2\vec{D}^T\vec{D}\\
+    0=\norm{\vec{D}}^2-2\vec{B}^T\vec{D}\\
+     \implies\vec{B}^T\vec{D}=\norm{\vec{D}}^2\label{eq:solutions/1/12/eq:15}
+\end{align}
+Substitute $\vec{A}=0$ in \eqref{eq:solutions/1/12/eq:13} we get,
+\begin{align}
+    \cos{\angle{BAD}}=\frac{\vec{B}^T\vec{D}}{\norm{\vec{B}}\norm{\vec{D}}}\\
+ \because\norm{\vec{B}}=\frac{2}{\sqrt{3}}\norm{\vec{D}}\\
+     \label{eq:solutions/1/12/eq:12}\implies\cos{\angle{BAD}}=\frac{\vec{B}^T\vec{D}}{\frac{2}{\sqrt{3}}\norm{\vec{D}}\norm{\vec{D}}} = \frac{\vec{B}^T\vec{D}}{\frac{2}{\sqrt{3}}\norm{\vec{D}}^2}
+\end{align}
+Substitute \eqref{eq:solutions/1/12/eq:15} in \eqref{eq:solutions/1/12/eq:12}
+\begin{align}
+\cos\angle{BAD} = \frac{{\frac{\sqrt{3}}{2}\norm{\vec{D}}^2}}{\norm{\vec{D}}^2}= \frac{\sqrt{3}}{2}\\
+\because \angle{BAD}= 30\degree\\
+\implies \cos{30\degree}= \frac{\sqrt{3}}{2}\\
+    \because \cos^2\theta +\sin^2\theta = 1\\
+     \sin30\degree = \sqrt{1-\cos^230\degree}\\
+    \implies\sin30\degree = \frac{1}{2}.
+\end{align} 

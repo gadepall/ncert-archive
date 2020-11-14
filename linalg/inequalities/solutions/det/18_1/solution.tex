@@ -1,0 +1,13 @@
+\begin{align}
+    \mydet{x+4 & 2x & 2x \\ 2x & x+4 & 2x \\ 2x & 2x & x+4}
+    \xleftrightarrow{R_1 \leftarrow R_1+R_2+R_3}\\
+    (5x+4)\mydet{1 & 1 & 1 \\ 2x & x+4 & 2x \\ 2x & 2x & x+4}
+    \xleftrightarrow[C_2 \leftarrow C_2-C_3]{C_1 \leftarrow C_1+C_2}\\
+    (5x+4)\mydet{0 & 0 & 1 \\ x-4 & 4-x & 2x \\ 0 & x-4 & x+4}\\
+    (5x+4)(4-x)^2\mydet{0 & 0 & 1 \\ -1 & 1 & 2x \\ 0 & -1 & x+4}
+\end{align}
+Therefore finding the determinant along Row1:
+\begin{align}
+    =(5x+4)(4-x)^2
+\end{align}
+

@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+  [
+    scale=2,
+    >=stealth,
+    point/.style = {draw, circle,  fill = black, inner sep = 0.5pt},
+    dot/.style   = {draw, circle,  fill = black, inner sep = .2pt},
+  ]
+  \coordinate [point, label={below left:$B$}] (B) at (0, 0);
+    \node (A) at +(60:{2*sqrt(3)}) [point, label = above:$A$] {};
+  \coordinate [point, label={below right:$C$}] (C) at ($ (3,0) + sqrt(3)*(1,0) $);
+
+  \draw  (A) -- (C) -- (B) -- (A);
+  \node (D) at ($(B)!0.5!(C)$) [point, label = {below:$D$}]{};
+  \draw (A) -- (D);  
+
+\end{tikzpicture}
+

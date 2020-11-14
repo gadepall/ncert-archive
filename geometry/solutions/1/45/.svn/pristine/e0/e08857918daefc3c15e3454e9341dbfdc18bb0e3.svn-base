@@ -1,0 +1,90 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./figs/triangle}}
+\caption{Triangle by Latex-Tikz}
+\label{fig:triangle1}	
+\end{figure}
+
+\item The figure obtained looks like Fig. \ref{fig:triangle1}.
+$PR > PQ$, $\angle{QPS}=\angle{SPR}=x$
+
+\item The design parameters used for construction \\
+
+\solution See Table. \ref{table:table1}.
+\begin{table}[ht!]
+\centering
+\input{./tables/design_parameters}
+\caption{Triangle $PQR$}
+\label{table:table1}	
+\end{table} 
+
+
+\item Find the coordinates of various points: 
+
+\solution From the given information, 
+%$\triangle ABC$ are 
+\begin{align}
+\vec{P} &= \myvec{a\\b}
+\label{eq:constr_a} 
+\\
+ \vec{Q} &= \myvec{0\\0}, 
+\label{eq:constr_b}
+\\
+\vec{R} &= \myvec{p\\0}
+\label{eq:constr_c}
+\\
+\vec{S} &= \myvec{y\\0}
+\label{eq:constr_d}
+\end{align}
+where
+$$ a =(p^2+r^2-q^2)/2p $$
+$$ b =\sqrt{r^2-a^2} $$
+
+\item Point $S$ can be found by Triangle angle bisector theorem.
+$$\frac{\norm{\vec{QS}}}{\norm{\vec{PQ}}} = \frac{\norm{\vec{SR}}}{\norm{\vec{PR}}}$$
+$$\frac{y}{4} = \frac{6-y}{5}$$
+$$5y = 24 - 4y$$
+$$9y = 24$$
+$$y = \frac{8}{3}$$
+
+\item The derived parameters used for construction \\
+
+\solution From the given information, 
+The values are listed in \ref{table:table2}\\
+\begin{table}[ht!]
+\centering
+\input{./tables/derived_parameters}
+\caption{$Triangle PQR$}
+\label{table:table2}	
+\end{table} 
+\item Draw fig. \ref{fig:triangle2}.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./codes/tri.eps}
+\caption{Triangle generated using python}
+\label{fig:triangle2}
+\end{figure} 
+
+\solution The  following Python code generates Fig. \ref{fig:triangle2}
+
+\begin{lstlisting}
+codes/tri.py
+\end{lstlisting}
+
+and the equivalent latex-tikz code generating Fig. \ref{fig:triangle2} is 
+\begin{lstlisting}
+figs/triangle.tex
+\end{lstlisting}
+%
+%The above latex code can be compiled as a standalone document as
+%\begin{lstlisting}
+%figs/quad_final.tex
+%end{lstlisting}
+\end{enumerate}
+  
+

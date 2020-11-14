@@ -1,0 +1,58 @@
+\begin{figure}[!ht]
+\begin{center}
+\resizebox{\columnwidth}{!}{\input{./solutions/1/29/latex/figs/es17btech11009_fig1.tex}}
+\end{center}
+\caption{}
+\label{fig:es17btech11009_fig1}
+\end{figure}
+Consider the above $\Delta$ABC. Given that AD is the perpendicular bisector of BC. So, BD = DC and $\angle$ADB = $\angle$ADC = 90.Since D is the midpoint of BC
+\begin{multline}
+    \vec{D} = \brak{\vec{B+C}}/2\\
+    2\vec{D} = \brak{\vec{B+C}}\\
+    \brak{\vec{B-D}} = \brak{\vec{D-C}}\\
+    \norm{\vec{B}-\vec{D}}=\norm{\vec{D}-\vec{C}}\label{eq:solutions/1/29/es17btech11009_1}
+\end{multline}
+Since, AD is the perpendicular bisector of BC
+\begin{multline}
+    \brak{\vec{A-D}}^T\brak{\vec{B-C}} =\brak{\vec{B-C}}^T\brak{\vec{A-D}} = 0\\
+    \brak{\vec{A-D}}^T\brak{\vec{B-D+D-C}} = 0\\
+    \brak{\vec{A-D}}^T\brak{\vec{B-D}} + \brak{\vec{A-D}}^T\brak{\vec{D-C}} = 0\\
+    \implies\brak{\vec{A-D}}^T\brak{\vec{B-D}}=\brak{\vec{A-D}}^T\brak{\vec{D-C}} = 0\label{eq:solutions/1/29/es17btech11009_2}
+\end{multline}
+\begin{multline}
+    \brak{\vec{B-C}}^T\brak{\vec{A-D}} = 0\\
+    \brak{\vec{B-D+D-C}}^T\brak{\vec{A-D}} = 0\\
+    [\brak{\vec{B-D}}^T + \brak{\vec{D-C}}^T]\brak{\vec{A-D}} = 0\\
+    \brak{\vec{B-D}}^T\brak{\vec{A-D}} + \brak{\vec{D-C}}^T\brak{\vec{A-D}} = 0\\
+    \implies\brak{\vec{B-D}}^T\brak{\vec{A-D}}=\brak{\vec{D-C}}^T\brak{\vec{A-D}}= 0\label{eq:solutions/1/29/es17btech11009_3}
+\end{multline}
+Find the length of AB,
+\begin{multline}
+ \norm{\vec{A-B}}^2=\brak{\vec{A-B}}^{T}\brak{\vec{A-B}}\\ =\brak{\vec{A-D+D-B}}^{T}\brak{\vec{A-D+D-B}}\\
+ = [\brak{\vec{A-D}}^{T}+\brak{\vec{D-B}}^{T}][\brak{\vec{A-D}}+\brak{\vec{D-B}}]\\
+ =\brak{\vec{A-D}}^{T}\brak{\vec{A-D}} + \brak{\vec{A-D}}^{T}\brak{\vec{D-B}} +\\ \brak{\vec{D-B}}^{T}\brak{\vec{A-D}} + \brak{\vec{D-B}}^{T}\brak{\vec{D-B}}
+\end{multline}
+From Eq \eqref{eq:solutions/1/29/es17btech11009_2} and Eq \eqref{eq:solutions/1/29/es17btech11009_3},
+\begin{multline}
+    \brak{\vec{A-B}}^{T}\brak{\vec{A-B}}\\
+    = \brak{\vec{A-D}}^{T}\brak{\vec{A-D}} + \brak{\vec{D-B}}^{T}\brak{\vec{D-B}}\\
+    \implies\norm{\vec{A-B}}^2=\norm{\vec{A-D}}^2 + \norm{\vec{D-B}}^2 \label{eq:solutions/1/29/es17btech11009_4}
+\end{multline}
+Similarily, find the length of AC
+\begin{multline}
+ \norm{\vec{A-C}}^2=\brak{\vec{A-C}}^{T}\brak{\vec{A-C}}\\ =\brak{\vec{A-D+D-C}}^{T}\brak{\vec{A-D+D-C}}\\
+ = [\brak{\vec{A-D}}^{T}+\brak{\vec{D-C}}^{T}][\brak{\vec{A-D}}+\brak{\vec{D-C}}]\\
+ =\brak{\vec{A-D}}^{T}\brak{\vec{A-D}} + \brak{\vec{A-D}}^{T}\brak{\vec{D-C}} +\\ \brak{\vec{D-C}}^{T}\brak{\vec{A-D}} + \brak{\vec{D-C}}^{T}\brak{\vec{D-C}}
+\end{multline}
+From Eq \eqref{eq:solutions/1/29/es17btech11009_2} and Eq \eqref{eq:solutions/1/29/es17btech11009_3}
+\begin{multline}
+    \brak{\vec{A-C}}^{T}\brak{\vec{A-C}}\\
+     = \brak{\vec{A-D}}^{T}\brak{\vec{A-D}} + \brak{\vec{D-C}}^{T}\brak{\vec{D-C}}\\
+    \implies\norm{\vec{A-C}}^2=\norm{\vec{C-D}}^2 + \norm{\vec{D-A}}^2\label{eq:solutions/1/29/es17btech11009_5}
+\end{multline}
+Eq \eqref{eq:solutions/1/29/es17btech11009_1}, Eq \eqref{eq:solutions/1/29/es17btech11009_4} and Eq \eqref{eq:solutions/1/29/es17btech11009_5}
+\begin{align}
+      \norm{\vec{A-B}}^2=\norm{\vec{A-C}}^2 
+\end{align}
+Since the lengths AB and AC are equal, We can conclude that the $\Delta$ABC is an isosceles triangle with AB = AC.
+

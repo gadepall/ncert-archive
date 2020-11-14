@@ -1,0 +1,38 @@
+\item {Proof: } From 
+\eqref{eq:8.5.49_constr_a},
+\eqref{eq:8.5.49_constr_c},
+\eqref{eq:8.5.49_constr_d} and 
+\eqref{eq:8.5.49_constr_e}
+\begin{align}
+\vec{C}-\vec{E} &= r \myvec{1 + \cos\brak{\frac{\alpha+\beta}{2}}\\ -\sin \brak{\frac{\alpha+\beta}{2}}}
+\\
+&= 2r \cos\brak{\frac{\alpha+\beta}{4}} \myvec{\cos\brak{\frac{\alpha+\beta}{4}}\\ -\sin \brak{\frac{\alpha+\beta}{4}}} \quad \text{ and }
+\label{eq:8.5.49_ce}
+\\
+\norm{\vec{C}-\vec{E}} &= 2r \cos\brak{\frac{\alpha+\beta}{4}}
+\label{eq:8.5.49_cenorm}
+\end{align}
+and 
+\begin{align}
+\vec{A}-\vec{D} &= r \myvec{\cos \beta + \cos\brak{\frac{\alpha-\beta}{2}}\\ -\sin \beta+\sin \brak{\frac{\alpha-\beta}{2}}}
+\\
+&= 2r \cos\brak{\frac{\alpha+\beta}{4}} \myvec{ \cos \brak{\frac{\alpha-3\beta}{4}} \\ \sin \brak{\frac{\alpha-3\beta}{4}}} \text{ and }
+\label{eq:8.5.49_ad}
+\\
+\norm{\vec{A}-\vec{D}} &= 2r \cos\brak{\frac{\alpha+\beta}{4}}
+\label{eq:8.5.49_adnorm}
+\end{align}
+Thus, 
+\begin{align}
+\cos \phase{B} &= \frac{\brak{\vec{A}-\vec{D}}\brak{\vec{C}-\vec{E}}}{\norm{\vec{A}-\vec{D}}\norm{\vec{C}-\vec{E}}}
+\\
+&= \cos \brak{\frac{\alpha-\beta}{2}}
+\\
+\implies \phase{B} &= \frac{\alpha-\beta}{2}
+\end{align}
+%
+upon substituting from \eqref{eq:8.5.49_ad},
+\eqref{eq:8.5.49_adnorm},
+\eqref{eq:8.5.49_ce},
+\eqref{eq:8.5.49_cenorm} and simplifying.
+

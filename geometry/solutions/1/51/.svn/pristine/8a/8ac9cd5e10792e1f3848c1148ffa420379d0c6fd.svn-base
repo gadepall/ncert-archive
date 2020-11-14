@@ -1,0 +1,190 @@
+\renewcommand{\vec}[1]{\mathbf{#1}}
+%\begin{flushleft}
+    
+ %   The \LaTeX{}- tikz code is
+  %  \begin{lstlisting}
+%        constrpic.tex
+   % \end{lstlisting}
+
+ %   The below \LaTeX{} code can be compiled as standalone document
+  %  \begin{lstlisting}
+  %      anattempt.tex
+   % \end{lstlisting}
+%\end{flushleft}
+%\begin{columns}
+%S\column{0.5\textwidth}
+\begin{enumerate}
+\item
+The figure for a triangle obtained in the question looks like Fig. \ref{fig:similar}, with sides a,b,c, an arbitrary interior point $\vec{O}$ and a point $\vec{D}$ on line $\vec{AO}$.  
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./figs/constructionpic.tex}}
+\caption{Triangle by Latex-Tikz}
+\label{fig:similar}	
+\end{figure}
+
+The values used for constructing the triangles in both Python and \LaTeX{}-Tikz is in Table \ref{table:table1}:\\
+\begin{table}[ht]
+    \begin{center}
+    	\input{./tables/table1/inp.tex}
+  \caption{To construct $\triangle ABC$}
+   \label{table:table1}
+   \end{center}	
+\end{table}
+
+\begin{comment}
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{ |p{1cm}|p{3cm}|  }
+    \hline
+    
+    \multicolumn{2}{|c|}{Initial Input Values.} \\
+    \hline
+    a & 5\\
+    \hline
+    b & 6\\
+    \hline
+    c & 4\\
+    \hline
+    p & $(a^2 + c^2 - b^2)/(2*a)$\\
+    \hline
+    q & $(\sqrt(c^2 - p^2)$\\
+    \hline
+    \end{tabular}
+    \caption{To construct $\triangle ABC$}
+    \label{table:table1}	
+\end{table}
+\end{comment}
+
+%\item
+%The derived value of $\vec{p}$ and $\vec{q}$ is available in Table \ref{table:table2}
+
+\item
+Finding the coordinates of various points of Fig. \ref{fig:similar} :\\
+From the information provided in the Table \ref{table:table1}: let\\
+    \quad $ \vec{B}= \begin{pmatrix}0\\0\end{pmatrix}$
+    \quad $\vec{C}=\begin{pmatrix}a\\0\end{pmatrix}$
+    \quad $\vec{A}=\begin{pmatrix}p\\q\end{pmatrix}$\\The derived value of $\vec{p}$ and $\vec{q}$ is available in Table \ref{table:table2}.
+\item Given a point $\vec{O}$, we need to determine whether it lies inside $\triangle ABC$. Consider 3 vectors $\vec{v_1}$, $\vec{v_2}$ and $\vec{v_3}$ which are orthogonal to vectors $\vec{AB}$,$\vec{BC}$ and $\vec{CA}$ which are ordered counterclock-wise.\\
+%Let $\vec{A}$ = $\begin{pmatrix}x_1\\y_1\end{pmatrix}$ \quad $\vec{B}$ = $\begin{pmatrix}x_2\\y_2\end{pmatrix}$ \quad $\vec{C}$ = $\begin{pmatrix}x_3\\y_3\end{pmatrix}$\quad $\vec{O}$ = $\begin{pmatrix}x\\y\end{pmatrix}$\\
+$\vec{AB}$ = $\vec{B}$ - $\vec{A}$ \\
+%= $\begin{pmatrix}x_2-x_1\\y_2-y_1\end{pmatrix}$\\
+$\vec{BC}$ = $\vec{C}$ - $\vec{B}$\\
+% = $\begin{pmatrix}x_3-x_2\\y_3-y_2\end{pmatrix}$\\
+$\vec{CA}$ = $\vec{A}$ - $\vec{C}$\\
+% = $\begin{pmatrix}x_1-x_3\\y_1-y_3\end{pmatrix}$\\
+
+%Equation of $\vec{AB}$ is
+%\begin{equation}
+%(y_2-y_1)x + (-x_2+x_1)y = x_1(y_2-y_1) - y_1(x_2-x_1)
+%\end{equation}
+As $\vec{v_1}$ is orthogonal to $\vec{AB}$, dot product of $\vec{v_1}$ and $\vec{AB}$ is 0.
+This condition is satisfied when \\
+$\vec{v_1}$= $\begin{pmatrix}\vec{AB[1]}\\\vec{-AB[0]}\end{pmatrix}$\\
+%\begin{equation}
+%(-x_2+x_1)x - (y_2-y_1)y = d
+%\end{equation}
+%here d is some constant.Hence $\vec{v_1}$ is represented as $\begin{pmatrix}y_2-y_1\\-x_2+x_1\end{pmatrix}$\\
+Similarly $\vec{v_2}$= $\begin{pmatrix}\vec{BC[1]}\\\vec{-BC[0]}\end{pmatrix}$\quad
+$\vec{v_3}$= $\begin{pmatrix}\vec{CA[1]}\\\vec{-CA[0]}\end{pmatrix}$\\
+Position vector of $\vec{O}$ w.r.t $\vec{A}$ is $\vec{v_{1}^{'}}$ = $\vec{O-A}$\\
+Position vector of $\vec{O}$ w.r.t $\vec{B}$ is $\vec{v_{2}^{'}}$ = $\vec{O-B}$\\
+Position vector of $\vec{O}$ w.r.t $\vec{C}$ is $\vec{v_{3}^{'}}$ = $\vec{O-C}$\\
+Now we compute the dot products: $\vec{O}$ lies inside $\triangle ABC$ only if $dot_1$ ,$dot_2$ and $dot_3$ are all $\geqslant$ 0, where $dot_1 = v_1 \cdot v_{1}^{'} \quad dot_2 = v_2 \cdot v_{2}^{'} \quad dot_3 = v_3 \cdot v_{3}^{'}$.
+
+
+
+
+
+
+%The cross product $\vec{AB} \times \vec{AO}$ is defined as a vector $\vec{n}$ that is perpendicular (orthogonal) to both $\vec{AB}$ and $\vec{AO}$, with a direction given by the right-hand rule. 
+   %   A point $\vec{O}$ is said to lie inside $\triangle ABC$ if and only if all of the cross products $\vec{AB} \times \vec{AO}$, 
+   %   $\vec{BC} \times \vec{BO}$  and $\vec{CA} \times \vec{CO}$ are $\geqslant$ 0.
+      
+
+% A point $\vec{O}$ is said to lie inside $\triangle ABC$ if and only if all of the cross products $\vec{AB} \times \vec{AO}$, $\vec{BC} \times \vec{BO}$  and $\vec{CA} \times \vec{CO}$ point in the same direction relative to the plane. That is, either all of them point out of the plane , or all of them point into the plane. The necessary criteria to satisfy this condition is $\vec{AB} \times \vec{AO}$, $\vec{BC} \times \vec{BO}$  and $\vec{CA} \times \vec{CO}$ must be $\geqslant$ 0.
+      % point in the same direction relative to the plane. 
+      
+    %  \begin{equation}
+    %  \textbf{ar\big($\triangle ABC$\big) = ar\big($\triangle AOB$\big) + ar\big($\triangle ACO$\big) + ar\big($\triangle OCB$\big)}
+    %  \end{equation}
+      
+  %  Since $\vec{O}$ is an interior point of $\triangle ABC$ ,
+\item   Let the arbitrary interior point $\vec{O}$ be represented as $\begin{pmatrix}2\\1.5\end{pmatrix}$.    
+    $\vec{D}$ is a point on line $\vec{AO}$ such that $\vec{DE}$ $\parallel$ $\vec{OB}$ \quad and \quad $\vec{DF}$  $\parallel$  $\vec{OC}$.\\
+\item Determination of points D,E and F:\\
+As $\vec{DE}$ $\parallel$ $\vec{OB}$, by basic proportionality theorem the points $\vec{E}$ and $\vec{D}$, divide the lines $\vec{AB}$ and $\vec{AO}$ respectively in the same ratio.\\ Hence we choose points $\vec{E}$ and $\vec{D}$ such that \begin{equation}\frac{AE}{EB} = \frac{AD}{DO}\end{equation} \quad Similarly point $\vec{F}$ is chosen such that the points $\vec{F}$ and $\vec{D}$, divide the lines $\vec{AC}$ and $\vec{AO}$ respectively in the same ratio such that \begin{equation}\frac{AF}{FC} = \frac{AD}{DO}\end{equation}.\\
+  
+  
+  \begin{table}[ht]
+    \begin{center}
+    	\input{./tables/table2/inp2.tex}
+  \caption{To construct $\triangle ABC$}
+   \label{table:table2}
+   \end{center}	
+\end{table}
+
+
+\item If the point $\vec{D}$ divides the line $\vec{AO}$ in the ratio x:y, the coordinates of $\vec{D}$ is given by section formula as:
+\begin{equation} \vec{D} = \frac{y\vec{A} + x\vec{O}}{x+y}\end{equation}
+Similarly the coordinates of points $\vec{E}$ and $\vec{F}$ is given by
+\begin{equation} \vec{E} = \frac{y\vec{A} + x\vec{B}}{x+y}\end{equation}
+\begin{equation} \vec{F} = \frac{y\vec{A} + x\vec{C}}{x+y}\end{equation}
+
+Let us assume the points divide the respective lines in the ratio 1:1. Then the coordinates of points $\vec{D}$, $\vec{E}$ and $\vec{F}$ is \\
+ \quad $ \vec{D}= \begin{pmatrix}1.25\\2.73\end{pmatrix}$
+    \quad $\vec{E}=\begin{pmatrix}0.25\\1.98\end{pmatrix}$
+    \quad $\vec{F}=\begin{pmatrix}2.75\\1.98\end{pmatrix}$\\
+    
+    
+\item To check whether $\vec{D}$ lies on line $\vec{AO}$:\\
+% substituting the values of the x and y co-ordinate of $\vec{D}$ must satisfy the equation of line $\vec{AO}$. Equation of line joining two points 
+Let $\vec{AD} = \vec{D} - \vec{A}$\\
+$\vec{AO} = \vec{O} - \vec{A}$\\
+$\vec{D}$ lies on $\vec{AO}$ if the below equation is satisfied:
+\begin{equation}
+\frac{\vec{AD[0]}}{\vec{AD[1]}} = \frac{\vec{AO[0]}}{\vec{AO[1]}}
+\end{equation}
+
+%$\big(x_1,y_1\big)$ and $\big(x_2,y_2\big)$ is given by \begin{equation} \frac{x-x_1}{x_2-x_1} = \frac{y-y_1}{y_2-y_1}  \end{equation}
+%  \input{inp2.tex}
+  
+  \begin{comment}
+    \begin{table}[ht!]
+	\centering
+	\begin{tabular}{ |p{1cm}|p{2cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{Derived Values.} \\
+	\hline
+	$\vec{p}$ & 0.5\\						
+	\hline
+	$\vec{q}$ & 3.96862697\\
+	\hline
+    	\end{tabular}
+	\caption{To construct $\triangle ABC$}
+	\label{table:table2}
+    \end{table}
+    \end{comment}
+    The  following Python code generates Fig. \ref{fig:triabcpy}\\
+    \begin{lstlisting}
+        ./codes/similartriangle.py
+    \end{lstlisting}
+
+    \begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\columnwidth]{./figs/similartrianglefig.pdf}
+	\caption{Triangle generated using python}
+	\label{fig:triabcpy}
+    \end{figure}
+      The equivalent \LaTeX{}- tikz code generating Fig. \ref{fig:similar} is
+    \begin{lstlisting}
+        ./figs/constructionpic.tex
+    \end{lstlisting}
+	
+	The above \LaTeX{} code can be compiled as a standalone document as
+	\begin{lstlisting}
+	./figs/constructionpic_standalone.tex
+	\end{lstlisting}
+\end{enumerate}
+\subsubsection*{To Show:}    We need to prove that $\vec{EF}$ $\parallel$   $\vec{BC}$.\\
+

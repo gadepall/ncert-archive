@@ -1,0 +1,18 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+\item Find the roots of the quadratic equations:
+\begin{enumerate}
+\item $x^2-3x-10 = 0$
+\item $2x^2+x-6 = 0$
+\item $\sqrt{2}x^2+7x+5\sqrt{2} = 0$
+\item $2x^2-x+\frac{1}{8} = 0$
+\item $100x^2-20x+1 = 0$
+\end{enumerate}
+
+\end{enumerate}
+
+
+
+

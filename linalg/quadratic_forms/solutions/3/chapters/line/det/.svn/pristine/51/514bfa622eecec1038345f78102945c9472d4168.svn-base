@@ -1,0 +1,8 @@
+If $\vec{A} = $
+$\begin{vmatrix}
+1&2\\4&2
+\end{vmatrix}$
+Show that:
+\begin{align}
+|2\vec{A}|=4|\vec{A}|
+\end{align}

@@ -1,0 +1,29 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item An insurance company selected 2000 drivers at random (i.e., without
+any preference of one driver over another) in a particular city to find a relationship between age and accidents. The data obtained are given in the following table:\\
+\ref{multicolumn_table}
+\begin{table}[!ht]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|}
+		\hline
+		\textbf{Age of drivers} &\multicolumn{5}{c|}{\textbf{Accidents in one year }}\\
+		\cline{2-6}
+		(in years) &\textbf{0} &\textbf{1} &\textbf{2} &\textbf{3} &\textbf{over 3}\\
+		\hline
+		18-29 &440 &160 &110 &61 &35\\
+		\hline
+		30-50 &505 &125 &60 &22 &18\\
+		\hline
+		Above 50 &360 &45 &35 &15 &9\\
+		\hline
+	\end{tabular}
+	
+\end{table}
+
+Find the probabilities of the following events for a driver chosen at random from the city:\\
+(i) being 18-29 years of age \textit{and} having exactly 3 accidents in one year.\\
+(ii) being 30-50 years of age \textit{and} having one or more accidents in a year.\\
+(iii) having no accidents in one year
+\end{enumerate}

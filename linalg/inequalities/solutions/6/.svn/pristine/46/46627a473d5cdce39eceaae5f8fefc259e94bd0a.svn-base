@@ -1,0 +1,12 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsubsection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+\item Find the values of x,y and z from the following equations: 
+\begin{enumerate}
+\item $\myvec{4 & 3\\x & 5} = \myvec{y & z\\1 & 5}$
+\item $\myvec{x+y & 2\\5+z & xy} = \myvec{6 & 2\\5 & 8}$
+\item $\myvec{x+y+z\\x+y\\y+z} = \myvec{9\\5\\7}$
+\end{enumerate}
+
+\end{enumerate} 

@@ -1,0 +1,9 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Mode is the value which occurs for the maximum time. Here the mode is 14.
+\item The python code to find mode can be downloaded from
+\begin{lstlisting}
+statistics/codes/Q49.py
+\end{lstlisting}
+\end{enumerate}

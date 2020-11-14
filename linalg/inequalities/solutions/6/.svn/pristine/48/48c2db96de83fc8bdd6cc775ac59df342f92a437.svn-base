@@ -1,0 +1,32 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsubsection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+\item A complex number $\myvec{a\\b}$ can be represented as 2 x 2 matrix:
+$$\myvec{a & -b \\ b & a}$$
+Multiplying the given complex numbers after converting them to a 2 x 2 matrix, 
+\begin{align}
+\frac{\myvec{3 & 2\\-2 & 3 }\myvec{2 & -3 \\3 & 2}}{\myvec{1 & -2\\2 & 1}\myvec{2 & 1\\-1 & 2}}
+\\
+\frac{\myvec{12 & -5\\5 & 12}}{\myvec{4 & -3\\3 & 4}}
+\end{align}
+Converting the matrices back to complex numbers, 
+\begin{align}
+\frac{\myvec{12\\5}}{\myvec{4\\3}}
+\end{align}
+Multiplying the conjugate of denominator to both numerator and denominator,
+\begin{align}
+\frac{\myvec{12\\5}\myvec{4\\-3}}{\myvec{4\\3}\myvec{4\\-3}}
+\end{align}
+Multiplying the  complex numbers after converting them to a 2 x 2 matrix,
+\begin{align}
+\frac{\myvec{12 & -5\\5 & 12 }\myvec{4 & 3 \\-3 & 4}}{\myvec{4 & -3\\3 & 4}\myvec{4 & 3\\-3 & 4}}
+\\
+\frac{\myvec{63 & 16\\-16 & 63}}{\myvec{25 & 0\\0 & 25}}
+\\
+\frac{1}{25}\myvec{63 \\ -16}
+\end{align}
+Conjugate of the complex number = $\frac{1}{25}\myvec{63 \\ 16}$
+
+\end{enumerate}
+

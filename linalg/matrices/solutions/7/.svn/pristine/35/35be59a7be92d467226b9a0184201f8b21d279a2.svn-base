@@ -1,0 +1,18 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item If A = $\begin{vmatrix}
+a_{11} & a_{12}\\a_{21}&a_{22}
+\end{vmatrix}= a_{11}a_{22}-a_{12}a_{21}$, then applying the same to abovequestion and solve the equation
+\begin{align}
+-18&= 2x^2 -24 \\
+x&= \pm\sqrt{3}
+\end{align}
+\item Following the same steps as above we get,
+\begin{align}
+-2&= 5x-6x\\
+x&= 2
+\end{align}
+
+\end{enumerate}

@@ -1,0 +1,49 @@
+Consider an equilateral $\triangle{ABC}$ as shown in below figure:
+\begin{figure}[!ht]
+    \label{Fig:solutions/1/10/1}
+    \centering
+    \resizebox{\columnwidth}{!}{\input{./solutions/1/10/TriangleFig.tex}}
+    \caption{Equilateral $\triangle{ABC}$}
+\end{figure}
+
+In equilateral triangle all sides have equal length
+\begin{align}
+    \label{eq:solutions/1/101}\implies\norm{\vec{A-B}}=\norm{\vec{B-C}}=\norm{\vec{A-C}}=k
+\end{align}
+Let $\vec{B}=0$. Then substituting in \eqref{eq:solutions/1/101} will give
+\begin{align}
+    \label{eq:solutions/1/102}\norm{\vec{A}}=\norm{\vec{C}}\\
+    \label{eq:solutions/1/103}\norm{\vec{A}}=\norm{\vec{A-C}}
+\end{align}
+Taking square on both sides in \eqref{eq:solutions/1/103}.
+\begin{align}
+    \implies\norm{\vec{A}}^2=\norm{\vec{A-C}}^2\\
+    \implies\norm{\vec{A}}^2=\norm{\vec{A}}^2+\norm{\vec{C}}^2-2\vec{A}^T\vec{C}\\
+    \implies\norm{\vec{A}}^2=\norm{\vec{A}}^2+\norm{\vec{A}}^2-2\vec{A}^T\vec{C}\\
+    \implies0=\norm{\vec{A}}^2-2\vec{A}^T\vec{C}\\
+    \implies2\vec{A}^T\vec{C}=\norm{\vec{A}}^2\\
+    \label{eq:solutions/1/109}\implies\vec{A}^T\vec{C}=\frac{\norm{\vec{A}}^2}{2}
+\end{align}
+
+let $\theta=\angle ABC$.
+
+Taking the inner product of sides AB and BC.
+\begin{align}
+    (\vec{A}-\vec{B})^T(\vec{B}-\vec{C}) =
+    \norm{\vec{A}-\vec{B}}\norm{\vec{B}-\vec{C}}\cos{\theta}\\
+    \label{eq:solutions/1/1011}\implies \cos{\theta}=\frac{(\vec{A}-\vec{B})^T(\vec{B}-\vec{C})}{\norm{\vec{A}-\vec{B}}\norm{\vec{B}-\vec{C}}}
+\end{align}
+Substitute $\vec{B}=0$ in \eqref{eq:solutions/1/1011}
+\begin{align}
+    \label{eq:solutions/1/1012}\implies\cos{\theta}=\frac{\vec{A}^T\vec{C}}{\norm{\vec{A}}\norm{\vec{C}}}
+\end{align}
+Substitute \eqref{eq:solutions/1/102},\eqref{eq:solutions/1/109} in \eqref{eq:solutions/1/1012}
+\begin{align}
+    \implies\cos\theta=\frac{\frac{\norm{\vec{A}}^2}{2}}{\norm{\vec{A}}^2}\\
+    \implies\cos\theta=\frac{1}{2}
+\end{align}
+In equilateral triangle, $\angle ABC=60\degree$
+\begin{align}
+    \implies\cos60\degree=\frac{1}{2}
+\end{align}
+Hence proved.

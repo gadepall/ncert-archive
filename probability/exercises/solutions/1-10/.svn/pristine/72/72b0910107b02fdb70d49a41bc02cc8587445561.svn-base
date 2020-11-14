@@ -1,0 +1,19 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+	\numberwithin{equation}{enumi}
+	\item 1500 families with 2 children were selected randomly, and the following data were recorded:\\
+	
+	\begin{tabular}{ |c|c|c|c| } 
+		\hline
+		\textbf{No.of girls in a family} &2 &1 &0\\ 
+		\hline
+		\textbf{No. of families}  &475 &814 &211\\ 
+		\hline
+	\end{tabular}\\
+	
+	Compute the probability of a family, chosen at random, having\\
+	(i)2 girls\\
+	(ii) 1 girl\\
+	(iii) No girl\\
+	Also check whether the sum of these probabilities is 1.
+\end{enumerate}

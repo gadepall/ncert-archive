@@ -1,0 +1,36 @@
+\begin{tikzpicture}
+[scale =2,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt},]
+
+\node (O) at (0,0)[point,label=above :$O$] {};
+\node (F) at (-3,0)[point,label=left :$F$] {};
+\node (C) at (3,0)[point,label=right :$C$] {};
+\node (E) at (-1.5,3)[point,label=above :$E$] {};
+\node (D) at (1.5,3)[point,label=above :$D$] {};
+\node (A) at (-1.5,-3)[point,label=below :$A$] {};
+\node (B) at (1.5,-3)[point,label=below :$B$] {};
+\draw (A)--(D);
+\draw (B)--(E);
+\draw (F)--(C);
+\draw (A)--(F);
+\draw (F)--(E);
+\draw (E)--(D);
+\draw (D)--(C);
+\draw (C)--(B);
+\draw (B)--(A);
+
+\tkzMarkAngle[size=.2](F,O,A);
+\tkzMarkAngle[size=.22](E,O,F);
+\tkzMarkAngle[size=.26](D,O,E);
+\tkzMarkAngle[size=.2](C,O,D);
+\tkzMarkAngle[size=.22](B,O,C);
+\tkzMarkAngle[size=.26](A,O,B);
+
+\node [above] at (-0.8,-1.5){$r$};
+\node [above] at (-1.5,0){$r$};
+\node [above] at (-0.9,1.5){$r$};
+\node [above] at (0.9,1.5){$r$};
+\node [above] at (1.5,0){$r$};
+\node [above] at (0.8,-1.5){$r$};
+\node [above] at (0,-0.7){$\frac{2\pi}{6}$};
+
+\end{tikzpicture}

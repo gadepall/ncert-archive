@@ -1,0 +1,69 @@
+
+
+The given system of equations can be represented as:
+ \begin{align}
+ \vec{A}\vec{x}=\vec{B}
+ \end{align}
+Coefficient Matrix $\vec{A}$
+\begin{align}
+\vec{A} = \myvec
+            {3 & -1 & -2\\
+            0 & 2 & -1\\
+            3 & -5 & 0}  
+\end{align}   
+Constant Vector $\vec{B}$
+\begin{align}                         
+\vec{B} = \myvec{
+            2\\
+            -1\\
+            3}
+\end{align}            
+Augumented Matrix-
+\begin{align}
+\vec{A}|\vec{B}=\left(\begin{array}{ccc|c}  
+ 3 & -1 & -2 & 2\\  
+ 0 & 2 & -1 & -1\\
+ 3 & -5 & 0 & 3
+\end{array}\right) 
+\end{align}
+ Applying Row operations on (2.4)\\
+\begin{align}
+   \left(\begin{array}{ccc|c}  
+ 3 & -1 & -2 & 2\\  
+ 0 & 2 & -1 & -1\\
+ 3 & -5 & 0 & 3
+\end{array}\right)\xleftrightarrow[]{R3\rightarrow R1-R3} \left(\begin{array}{ccc|c}  
+ 3 & -1 & -2 & 2\\  
+ 0 & 2 & -1 & -1\\
+ 0 & 4 & -2 & -1
+\end{array}\right)
+\end{align}
+\begin{align}
+\left(\begin{array}{ccc|c}  
+ 3 & -1 & -2 & 2\\  
+ 0 & 2 & -1 & -1\\
+ 0 & 4 & -2 & -1
+\end{array}\right)\xleftrightarrow[]{R3\rightarrow R3-R2}
+\left(\begin{array}{ccc|c}  
+ 3 & -1 & -2 & 2\\  
+ 0 & 2 & -1 & -1\\
+ 0 & 0 & 0 & 1
+\end{array}\right)
+\end{align}
+\begin{align}
+\vec{A}|\vec{B}=\left(\begin{array}{ccc|c}  
+ 3 & -1 & -2 & 2\\  
+ 0 & 2 & -1 & -1\\
+ 0 & 0 & 0 & 1
+\end{array}\right) 
+\vec{A}=\myvec
+ {3 & -1 & -2\\  
+ 0 & 2 & -1\\
+ 0 & 0 & 0}
+\end{align}
+\begin{align}
+R(\vec{A}|\vec{B}) = 3\\
+R(\vec{A} = 2\\
+R(\vec{A}|\vec{B}) \neq  R(\vec{A})
+\end{align}
+The given system of equations are inconsistent.

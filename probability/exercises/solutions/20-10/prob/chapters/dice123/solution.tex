@@ -1,0 +1,33 @@
+Let X 
+\begin{align}
+X \epsilon \{1,2,3,4,5,6\}
+\end{align}
+Since all events are equally likely,
+\begin{align}
+\pr{X=i}=\begin{cases}
+	\frac{1}{6}& 1 \le i \le 6\\
+	0 & otherwise
+	\end{cases}
+\end{align}
+\begin{enumerate}
+\item The probability that the outcome is a prime number is 
+\begin{multline}
+\pr{X=2}+\pr{X=3}+\pr{X=5} \\
+=\frac{1}{2}
+\end{multline}
+
+\item Probability of occurance of number between 2 and 6 is
+\begin{align}
+\pr{2 < X < 6}=\frac{1}{2}
+\end{align}
+\item Probability of occurance of odd number is
+\begin{align}
+\pr{X=1}+\pr{X=3}+\pr{X=5}=\frac{1}{2}
+\end{align}
+\end{enumerate}
+
+The python code for the distribution is
+\begin{lstlisting}
+solutions/20-10/prob/codes/dice123.py
+\end{lstlisting}
+The above code checks number of times each of the above events occur when the dice is thrown 100,000 times.

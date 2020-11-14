@@ -1,0 +1,20 @@
+$X_i \in \cbrak{0,1}$, where 0 represents an even number. 
+The 3 trials are represented by
+\begin{align}
+X = X_1+X_2+X_3
+\end{align}
+Then $X \sim B\brak{3,\frac{1}{2}}$
+The probability of getting only an even number is
+\begin{align}
+\pr{X=0} = \comb{n}{0}\brak{\frac{1}{2}}^3
+\end{align}
+Thus, the probability of getting at least one odd number is 
+\begin{align}
+1- \pr{X=0}&=1 - \frac{1}{8}
+\\
+&= \frac{7}{8}
+\end{align}
+\begin{lstlisting}
+solutions/40-50/probability/codes/Q40binom.py
+\end{lstlisting}
+

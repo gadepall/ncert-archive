@@ -1,0 +1,38 @@
+Given determinant:
+\mydet{x & a & x+a\\
+y & b & y+b\\
+z &c &z+c}=0\\
+Applying transformation:\\
+\begin{align}
+\mydet{x & a & x+a\\
+y & b & y+b\\
+z &c &z+c}
+\xleftrightarrow[]{C_3 \leftarrow C_3- C_2 } 
+&
+\mydet{x & a & x\\
+y & b & y\\
+z &c &z}
+\end{align}
+\begin{align}
+\mydet{x & a & x\\
+y & b & y\\
+z &c &z}
+\xleftrightarrow[]{C_3 \leftarrow C_3- C_1} 
+&
+\mydet{x & a & 0\\
+y & b & 0\\
+z &c &0}
+\label{kval}
+\end{align}
+From \ref{kval} If any row or column of determinant is zero ,than it's value is zero
+\begin{align}
+\mydet{x & a & x+a\\
+y & b & y+b\\
+z &c &z+c}
+=
+\mydet{x & a & 0\\
+y & b & 0\\
+z &c &0}=0
+\end{align}
+
+   

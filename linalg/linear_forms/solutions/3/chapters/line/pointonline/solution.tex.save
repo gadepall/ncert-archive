@@ -1,0 +1,70 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item A point \vec{c} lying on a line of direction vectors \vec{b} passing through another point \vec{a} is given as
+\begin{align}
+\vec{c}=\vec{a} + \lambda \vec{b}
+\end{align}  
+Where $\lambda$ is a distance parameter. If 
+\begin{align}
+\lambda=1
+\\
+\vec{c}=\vec{a} + \lambda \vec{b}
+\label{vec_point}
+\end{align}
+
+\item Equation of x-axis is 
+\begin{align}
+\myvec{0&1}\vec{x}=0
+\end{align}
+
+\brak{a}
+\begin{align}
+ \myvec{4&3}\myvec{x}=12
+ \end{align}
+Using \ref{eq:x-axis}, line \ref{eq:pointonline1} meets x-axis at
+ \vec{x_1}=\myvec{4&3\\0&1}^{-1}\myvec{12\\0}
+\\
+\vec{x_1}=\myvec{3\\0}
+\end{align}
+Another point is found by using \ref{eq:vec_point}
+\begin{align}
+\vec{c_1} = \vec{x_1} + \myvec{4\\3}
+\\
+vec{c_1} = {7\\3}
+\end{align}
+\item 
+Let $\vec{A_2}=\myvec{0\\a_2}$ and $\vec{B_2}=\myvec{1\\b_2}$ be the two solutions of equation \ref{eq:pointonline2}.Then
+\begin{align}
+ \myvec{2&5}\myvec{0\\a_2}=0
+ \implies a_2=0
+ \\
+ \myvec{2&5}\myvec{1\\b_2}=0
+ \implies b_2=\frac{-2}{5}
+\end{align}
+
+So $\myvec{0\\0}$ and $\myvec{1\\\frac{-2}{5}}$ are the two solutions of \ref{eq:pointonline2}
+\item 
+Let $\vec{A_3}=\myvec{0\\a_3}$ and $\vec{B3}=\myvec{1\\b_3}$ be the two solutions of equation \ref{eq:pointonline3}.Then
+\begin{align}
+ \myvec{0&3}\myvec{0\\a_3}=4
+ \implies a_3=\frac{4}{3}
+ \\
+ \myvec{0&3}\myvec{1\\b_3}=4
+ \implies b_3=\frac{4}{3}
+\end{align}
+So $\myvec{0\\\frac{4}{3}}$ and $\myvec{1\\\frac{4}{3}}$ are the two solutions of \ref{eq:pointonline3}
+
+The following Python code generates Fig. \ref{fig:point_on_line} showing a graph of lines representing the equations \ref{eq:pointonline2} \ref{eq:pointonline1}and \ref{eq:pointonline3}. It can be verified that the solutions of above equations lie on the lines
+%
+\begin{lstlisting}
+codes/line/pointonline/pointonline.py
+\end{lstlisting}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./codes/line/pointonline/pyfigs/pointonline.eps}
+\caption{Lines representing equations}
+\label{fig:point_on_line}
+\end{figure}
+\end{enumerate}

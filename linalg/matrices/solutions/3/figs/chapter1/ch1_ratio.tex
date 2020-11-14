@@ -1,0 +1,54 @@
+\begin{tikzpicture}
+  [
+    scale=2,
+    >=stealth,
+    point/.style = {draw, circle,  fill = black, inner sep = 0.5pt},
+    dot/.style   = {draw, circle,  fill = black, inner sep = .2pt},
+%    every label/.append style={text=black, font=\tiny}
+  ]
+  \def\aa{3}
+  \def\ab{3}    
+  \def\ba{1}
+  \def\bb{1}    
+  \newcommand{\ranglesize}{0.1cm}  
+  
+  \coordinate [point, label={above right:$(a_1,a_2)$ $A$}] (A) at (\aa, \ab);
+  \coordinate [point, label={below left:$(b_1,b_2)$ $B$}] (B) at (\ba, \bb);
+  \coordinate [point, label={below left:$(0,0)$ $O$}] (O) at (0, 0);  
+  \coordinate [point, label={below :$(a_1,0)$ $A_1$}] (A1) at (\aa, 0);  
+  \coordinate [point, label={left:$(0,a_2)$ $A_2$}] (A2) at (0, \ab);  
+  \coordinate [point, label={below :$(b_1,0)$ $B_1$}] (B1) at (\ba, 0);  
+  \coordinate [point, label={left:$(0,b_2)$ $B_2$}] (B2) at (0, \bb);        
+  \coordinate [point, label={right:$(a_1,b_2)$ }] (Pt) at (\aa, \bb);    
+  \node (P) at ($(A)!0.5!(B)$) [point, label = {above left:$P$ $\brak{x,y}$}]{};  
+  \node (P1) at ($(A1)!0.5!(B1)$) [point, label = {below:$P_1$ $\brak{x,0}$}]{};    
+  \path
+     (A)    edge  node[sloped, anchor=center, above, text width=2.0cm] { $k:1$}     (B)       
+     (O)    edge      (A1)     
+     (O)    edge      (A2)          
+     ;  
+  \draw (O) -- (0, \ranglesize) -- (\ranglesize, \ranglesize) --(\ranglesize, 0);     
+  \draw [dashed] 
+  (A)  -- (A1)
+  (A)  -- (A2)
+  (Pt)  -- (B2)
+  (B)  -- (B1)
+  (P)  -- (P1);  
+
+  
+%  \coordinate [point, label={above:$A$ $(0,b)$}] (A) at (0, 1);  
+%  \coordinate [point, label={below right:$C$ $(c,0)$}] (C) at (1,0);
+%
+%  \path
+%     (A)    edge      (B)  
+%	 (B)    edge      (C)
+%	 (C)    edge  node[sloped, anchor=center, above, text width=2.0cm] { $\sqrt{b^2+c^2}$}     (A)	 
+%	 ;
+
+%  \draw (B) -- (0, \ranglesize) -- (\ranglesize, \ranglesize) --(\ranglesize, 0);
+
+
+%  \draw  [line width=0.00mm ] (A) -- (C) -- (B) -- (A);
+
+\end{tikzpicture}
+

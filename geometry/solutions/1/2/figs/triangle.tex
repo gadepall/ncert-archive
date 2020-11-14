@@ -1,0 +1,23 @@
+\begin{tikzpicture}[scale = 1.5,>=stealth,point/.style={draw,circle,fill=black, inner sep=0.5pt},]
+
+\node (A) at (2,0)[point,label=below:$A$] {};
+\node (B) at (5,0)[point,label=below:$B$] {};
+\node (C) at (3,2)[point,label=above:$C$] {};
+\node (D) at (4,2)[point,label=above:$D$] {};
+\node (E) at (0,0)[] {};
+\node (F) at (7,0)[] {};
+\node (G) at (0,2)[] {};
+\node (H) at (7,2)[] {};
+\node (M) at (3,0)[point,label=below:$M$] {};
+\node (N) at (4,0)[point,label=below:$N$] {};
+
+\draw (A) -- node[below=5pt]{}(B) -- (C) -- (A);
+\draw (A) -- node[below=5pt]{}(B) -- (D) -- (A);
+\draw (E) -- node[below=5pt]{}(F);
+\draw (G) -- node[below=5pt]{}(H);
+\draw[dotted] (C) -- node[below=5pt]{}(M);
+\draw[dotted] (D) -- node[below=5pt]{}(N);
+
+\tkzMarkRightAngle[fill=blue!20, mark=|](C,M,A)
+\tkzMarkRightAngle[fill=blue!20, mark=|](D,N,A)
+\end{tikzpicture}

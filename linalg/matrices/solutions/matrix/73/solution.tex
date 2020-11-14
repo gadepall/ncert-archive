@@ -1,0 +1,53 @@
+
+Given that 
+\begin{align}\label{eq:solutions/matrix/73/eq1}
+\Vec{X}\myvec{1&2&3\\4&5&6}=\myvec{-7&-8&-9\\2&4&6}
+\end{align}
+
+Equation \eqref{eq:solutions/matrix/63/eq1} can be written as 
+\begin{align}\label{eq:solutions/matrix/73/eq2}
+\myvec{1&4\\2&5\\3&6}\Vec{X^T}=\myvec{-7&2\\-8&4\\-9&6}
+\end{align}
+Equation \eqref{eq:solutions/matrix/63/eq2} can be represented as 
+\begin{align}\label{eq:solutions/matrix/73/eq3}
+\vec{A}\vec{x}=\vec{b}
+\end{align}
+
+where $\vec{A}=\myvec{1&4\\2&5\\3&6}$ and $\vec{b}=\myvec{-7&2\\-8&4\\-9&6}$
+
+The set of least square solutions of $\vec{A}\vec{x}=\vec{b}$ coincides with the non empty set of solutions of equations $\vec{A}^T\vec{A}\vec{x}=\vec{A}^T\vec{b}.$ 
+
+\begin{align}\label{eq:solutions/matrix/73/eq4}
+ \hat{x}=(\vec{A}^T\vec{A})^{-1}\vec{A}^T\vec{b} 
+\end{align}
+
+\begin{align*}
+\vec{A}^T\vec{A}=\myvec{1&2&3\\4&5&6}\myvec{1&4\\2&5\\3&6}
+\end{align*}
+
+\begin{align*}
+\vec{A}^T\vec{A}=\myvec{14&32\\32&77}
+\end{align*}
+
+\begin{align*}
+\vec{A}^T\vec{b}=\myvec{1&2&3\\4&5&6}\myvec{-7&2\\-8&4\\-9&6}   
+\end{align*}
+
+\begin{align*}
+\vec{A}^T\vec{b}=\myvec{-50&28\\-122&64}
+\end{align*}
+
+\begin{align*}
+(\vec{A}^T\vec{A})^{-1}=\frac{1}{54}\myvec{77&-32\\-32&64} 
+\end{align*}
+
+Using equation\eqref{eq:solutions/matrix/63/eq4} 
+\begin{align*}
+\hat{x}=\frac{1}{54}\myvec{77&-32\\-32&14}\myvec{-50&28\\-122&64}\\
+=\frac{1}{54}\myvec{54&108\\-108&0}\\
+=\myvec{1&2\\-2&0}
+\end{align*}
+\begin{align*}
+\vec{X}=\hat{x}^T=\myvec{1&-2\\2&0}  
+\end{align*}
+

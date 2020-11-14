@@ -1,0 +1,91 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item  A point $\vec{c}$ lying on the line 
+\begin{align}
+\myvec{a&b}\vec{x} = d
+\end{align}
+at a distance $\lambda$ from point $\vec{x}$ lying on the same line is given as
+\begin{align}
+\vec{c} = \vec{x} + \frac{\lambda}{\sqrt{a^2+b^2}}\myvec{b\\-a}
+\\
+\lambda=\sqrt{a^2+b^2}
+\implies \vec{c} = \vec{x} + \myvec{b\\-a}
+\label{eq:3.7.3_second_point}
+\end{align}
+
+
+ Equation of y axis is 
+\begin{align}
+\myvec{1&0}\vec{x}=0
+\label{eq:3.7.3_y_axis}
+\end{align}
+ 
+\begin{align}
+\brak{a} \myvec{4&3}\vec{x}=12
+\end{align}
+The line meets y-axis at point $\vec{y_1}$ given using \ref{eq:3.7.3_y_axis} as,
+ 
+\begin{align}
+\myvec{4&3\\1&0}\vec{y_1} =\myvec{12\\0}
+\\
+\vec{y_1}={\myvec{4&3\\1&0}}^{-1}\myvec{12\\0}
+\\
+\vec{y_1}=\myvec{0\\4}
+\end{align}
+Another point $\vec{c_1}$ on the line is found using equation \ref{eq:3.7.3_second_point}
+\begin{align}
+\vec{c_1} = \vec{y_1} + \myvec{3\\-4}
+\\
+\implies \vec{c_1} = \myvec{3\\0}
+\end{align}
+\newline
+
+\begin{align}
+\brak{b}\myvec{2&5}\vec{x}=0
+\end{align}
+The line meets y-axis at point $\vec{y_2}$ given using \ref{eq:3.7.3_y_axis} as,
+ 
+\begin{align}
+\myvec{2&5\\1&0}\vec{y_1} =\myvec{0\\0}
+\\
+\vec{y_1}={\myvec{2&5\\1&0}}^{-1}\myvec{0\\0}
+\\
+\vec{y_1}=\myvec{0\\0}
+\end{align}
+Another point $\vec{c_2}$ on the line is found using equation \ref{eq:3.7.3_second_point}
+\begin{align}
+\vec{c_2} = \vec{y_2} + \myvec{5\\-2}
+\\
+\implies \vec{c_2} = \myvec{5\\-2}
+\end{align}
+
+\begin{align}
+\brak{c}\myvec{0&3}\vec{x}=4
+\end{align}
+The line meets y-axis at point $\vec{y_2}$ given using \ref{eq:3.7.3_y_axis} as,
+ 
+\begin{align}
+\myvec{0&3\\1&0}\vec{y_1} =\myvec{4\\0}
+\\
+\vec{y_1}={\myvec{0&3\\1&0}}^{-1}\myvec{4\\0}
+\\
+\vec{y_1}=\myvec{0\\\frac{4}{3}}
+\end{align}
+Another point $\vec{c_2}$ on the line is found using equation \ref{eq:3.7.3_second_point}
+\begin{align}
+\vec{c_2} = \vec{y_2} + \myvec{3\\0}
+\\
+\implies \vec{c_2} = \myvec{3\\\frac{4}{3}}
+\end{align}
+The python code for the above problem , plotting the figure \ref{fig:3.7.3_three_lines} is available at 
+\begin{lstlisting}
+solutions/3/codes/line/pointonline2/pointonline.py
+\end{lstlisting}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./solutions/3/codes/line/pointonline2/pyfigs/pointonline.eps}
+\caption{Plot of the three lines and the points on them }
+\label{fig:3.7.3_three_lines}
+\end{figure}
+\end{enumerate}

@@ -1,0 +1,93 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Join CD as shown in the figure \ref{fig:intersecting_chords}
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./figs/ques.tex}}
+\caption{Chords of the circle intersecting at point B by Latex-Tikz}
+\label{fig:intersecting_chords}	
+\end{figure}
+
+\item Show that angle subtended by a chord at the centre is twice the angle subtended by it at any point on the circumference
+%figure for proof
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./figs/proof.tex}}
+\caption{Angles subtended by chord ED at centre O and point C by Latex-Tikz}
+\label{fig:chord_proof}	
+\end{figure}
+\newline
+Solution:
+\newline
+In the figure \ref{fig:chord_proof}	
+\begin{align}
+OC = OD = OE = r
+\end{align}
+$\triangle DOE, \triangle DOC, \triangle COE$ are isosceles triangles.
+\newline
+Hence their base angles are equal as indicated in figure \ref{fig:chord_proof}
+
+\item In $\triangle EDC$ in figure \ref{fig:chord_proof} , We know sum of the angles in a triangle is $180^{\circ}$
+\begin{align}
+2(x+y+z) = 180^{\circ}
+\\
+180^{\circ} - 2y = 2(x+z)
+\label{eq:val2y}
+\end{align}
+
+\item In $\triangle EOD$ in figure \ref{fig:chord_proof} as sum of the angles in a triangle is $180^{\circ}$,
+\begin{align}
+\angle EOD = 180^{\circ} - 2y
+\label{eq:angle1proof}
+\end{align}
+Substituting equation \ref{eq:val2y} in equation \ref{eq:angle1proof} we get 
+\begin{align}
+\angle EOD = 2(x+z)
+\\
+\angle EOD = 2 \angle ECD
+\\
+\angle ECD = \frac{\angle EOD}{2} = \frac{\alpha}{2}
+\label{eq:angle1}
+\end{align}
+Hence angle subtended by the chord at the centre is twice the angle subtended by it at a point on the circumference.
+
+\item From \ref{fig:intersecting_chords} AC subtends $\angle AOC = \beta$ at the centre and $\angle ADC$ at the circumference.
+\begin{align}
+\implies \angle ADC = \frac{\angle AOC}{2}
+\\
+\implies \angle ADC = \frac{\beta}{2}
+\label{eq:angle2}
+\end{align}
+
+
+\item In $\triangle DBC$ from \ref{eq:angle1} and \ref{eq:angle2}
+\begin{align}
+\angle BCD = 180^{\circ} - \angle ECD
+\\
+\angle BCD = 180^{\circ} - \frac{\alpha}{2}
+\label{eq:tri1}
+\\
+\angle BDC = \angle ADC = \frac{\beta}{2}
+\label{eq:tri2}
+\\
+\angle CBD = \angle CBA = \theta
+\label{eq:tri3}
+\end{align}
+
+Sum of the angles in a triangle is $180^{\circ}$. So In $\triangle DBC$
+\begin{align}
+\angle CBD + \angle BDC + \angle BCD = 180^{\circ}
+\label{eq:trisum}
+\end{align}
+Substituting equations \ref{eq:tri3},\ref{eq:tri3},\ref{eq:tri3} in \ref{eq:trisum}
+\begin{align}
+\theta + \frac{\beta}{2} + 180^{\circ} - \frac{\alpha}{2} = 180^{\circ}
+\\
+\theta = \frac{\alpha}{2} - \frac{\beta}{2}
+\\
+\theta = \frac{\alpha - \beta}{2} 
+\end{align}
+Hence proved.
+\end{enumerate}

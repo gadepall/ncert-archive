@@ -1,0 +1,32 @@
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+\node (D) at (0, 0)[point,label=below :$D$] {};
+\node (A) at (0, 3)[point,label=above :$A$]{};
+\node (B) at (-3, 0)[point,label=below left:$B$]{};
+\node (C) at (3, 0)[point,label=below right:$C$]{};
+\node (O) at (0, 1.3)[point,label=below right:$O$]{};
+\node (F) at (-1.1, 1.9)[point,label=above left:$F$]{};
+\node (E) at (1.1, 1.9)[point,label=above right:$E$]{};
+
+\draw (D)--(B);
+\draw (B)--(A);
+\draw (A)--(C);
+\draw (C)--(D);
+\draw [thick,dashed] (A) -- (D);
+\draw [thick,dashed] (O) -- (E);
+\draw [thick,dashed] (O) -- (F);
+\draw (B)--(O);
+\draw (C)--(O);
+
+\tkzMarkRightAngle[size=.2](A,D,C)
+\tkzMarkRightAngle[size=.15](B,F,O);
+\tkzMarkRightAngle[size=.15](C,E,O);
+\tkzMarkAngle[size=.4](D,B,O);
+\tkzMarkAngle[size=.35](O,B,F);
+\tkzMarkAngle[size=.54](E,C,O);
+\tkzMarkAngle[size=.5](E,C,O);
+\tkzMarkAngle[size=.6](O,C,D);
+\tkzMarkAngle[size=.65](O,C,D);
+
+\end{tikzpicture}

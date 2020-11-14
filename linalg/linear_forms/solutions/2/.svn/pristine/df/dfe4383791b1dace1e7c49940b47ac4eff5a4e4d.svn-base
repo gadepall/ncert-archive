@@ -1,0 +1,25 @@
+
+\begin{enumerate}
+\item A complex number $\myvec{a\\b}$ can be represented as a 2 x 2 matrix:
+\begin{align}
+\myvec{a & -b \\ b & a}
+\end{align}
+
+\item Multiplying the given matrices after converting them to a 2 x 2 matrix:
+\begin{align}
+\myvec{-\sqrt{3} & -\sqrt{2} \\ \sqrt{2} & -\sqrt{3}}\myvec{2\sqrt{3} & 1 \\ -1 & 2\sqrt{3}}\\
+\implies \myvec{\sqrt{2} - 6 & -\sqrt{3} - 2\sqrt{6} \\ \sqrt{3} + 2\sqrt{6} & \sqrt{2} - 6}\label{eq:complex_complex_ex}
+\end{align}
+
+\item Matrix \eqref{eq:complex_complex_ex} can be represented as a vector:
+\begin{align}
+\therefore \myvec{\sqrt{2} - 6 \\ \sqrt{3} + 2\sqrt{6}}
+\end{align}
+
+\item Python code to multiply two complex numbers:
+\begin{lstlisting}
+codes/line_ex/complex_ex/complex_ex.py
+\end{lstlisting}
+\end{enumerate}
+
+

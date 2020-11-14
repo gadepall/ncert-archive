@@ -1,0 +1,18 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item let assume $P\left(A\right)$ be the probability of hitting 6 so
+\begin{align}
+\vec {P\left(A\right)} &= \frac{6}{30}
+\\
+&= \frac{1}{5}
+\end{align}
+$P\left(B\right)$ be the probability of not hitting the boundry
+\begin{align}
+P\left(B\right) &= 1 - P\left(A\right)
+\\
+&= 1-\frac{1}{5}
+\\
+&= \frac{4}{5}
+\end{align}
+\end{enumerate}

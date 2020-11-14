@@ -1,0 +1,32 @@
+Let $X \in \cbrak{0,1}$ denote the setup.  Let $Y_1,Y_2 \in \cbrak{0,1}$ denote the item production such that $Y_1$ and $Y_2$ are independent.  Then, from the given information,
+\begin{align}
+\pr{Y_1=1|X = 1} &=\pr{Y_2=1|X = 1} 
+\\
+&= \frac{90}{100} = \frac{9}{10}
+\end{align}
+\begin{align}
+\pr{Y_1=1|X = 0}&=\pr{Y_2=1|X = 0} 
+\\
+&= \frac{40}{10} = \frac{2}{5}
+\end{align}
+\begin{align}
+\pr{X = 1} = \frac{80}{100} = \frac{4}{5}
+\end{align}
+Then
+{\tiny
+\begin{multline}
+\pr{X=1|Y_1=1, Y_2=1} = \frac{\pr{X=1,Y_1=1, Y_2=1}}{\pr{Y_1=1, Y_2=1}}
+\\
+= \frac{\pr{Y_1=1, Y_2=1|X=1}\pr{X=1}}{\pr{Y_1=1, Y_2=1|X=1}\pr{X=1}+\pr{Y_1=1, Y_2=1|X=0}\pr{X=0}}
+\end{multline}
+}
+which can be expressed as
+\begin{multline}
+ \frac{\prod_{k=1}^{2}\pr{Y_k=1|X=1}\pr{X=1}}{\sum_{i=0}^{1}\prod_{k=1}^{2}\pr{Y_k=1|X=i}\pr{X=i}}
+\\
+= \frac{\brak{\frac{9}{10}}^2\brak{\frac{4}{5}}}{\brak{\frac{9}{10}}^2\brak{\frac{4}{5}}+\brak{\frac{2}{5}}^2\brak{\frac{1}{5}}} = \frac{81}{85}
+\end{multline}
+The python code for the above problem is,
+\begin{lstlisting}
+solutions/20-10/prob/codes/exam47.py
+\end{lstlisting}

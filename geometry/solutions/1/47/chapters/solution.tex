@@ -1,0 +1,47 @@
+\item {\em Proof: }Let 
+\begin{align}
+\vec{F} &= \frac{{{m\vec{C}} +\vec{B}}}{m+1}
+\end{align}
+%
+From \eqref{eq:8.1.47_constr_e}
+\begin{align}
+\vec{E} &= \frac{{{k\vec{D}} +\vec{A}}}{k+1}
+\\
+\implies \vec{E} - \vec{F} &= \frac{{{k\vec{D}} +\vec{A}}}{k+1}-\frac{{{m\vec{C}} +\vec{B}}}{m+1}
+\label{eq:8.1.47_sol_EF}
+\\
+& = \frac{\vec{A}}{k+1}-\frac{{{m\vec{C}} +\vec{B}}}{m+1}
+\label{eq:8.1.47_sol_EF2}
+\end{align}
+$\because D = \vec{0}$.
+\begin{align}
+\because AB &\parallel BC, 
+\\
+\vec{C}-\vec{D} &= l\brak{\vec{B}-\vec{A}}
+\\
+\implies \vec{C} &= l\brak{\vec{B}-\vec{A}}
+\label{eq:8.1.47_sol_C}
+\end{align}
+%
+Substituting \eqref{eq:8.1.47_sol_C} in \eqref{eq:8.1.47_sol_EF2},
+\begin{align}
+ \vec{E} - \vec{F} &= \frac{\vec{A}}{k+1}-\frac{{{ml\brak{\vec{B}-\vec{A}}} +\vec{B}}}{m+1}
+\\
+ &= \vec{A}\brak{\frac{1}{k+1} + \frac{lm}{m+1}} - \vec{B}\brak{\frac{ml+1}{m+1}}
+\label{eq:8.1.47_sol_EFinAB}
+\end{align}
+But $ EF \parallel AB$. So, for some w
+\begin{align}
+\implies \vec{E} - \vec{F} = w\brak{\vec{A}-\vec{B}}
+\label{eq:8.1.47_sol_EFinAB2}
+\end{align}
+%
+Comparing \eqref{eq:8.1.47_sol_EFinAB2} and \eqref{eq:8.1.47_sol_EFinAB}. We have
+\begin{align}
+\frac{1}{k+1} + \frac{lm}{m+1} &= \frac{ml+1}{m+1} = w
+\\
+\implies m+1+\brak{k+1}lm &= \brak{lm+1}\brak{k+1} 
+\label{eq:8.1.47_sol_sol}
+\\
+\text{or, } m &=k
+\end{align}

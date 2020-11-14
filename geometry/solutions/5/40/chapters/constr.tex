@@ -1,0 +1,41 @@
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./solutions/5/40/figs/circle}}
+\caption{}
+\label{fig:8.5.40_circle_1}	
+\end{figure}
+
+\item  {\em Construction: } See Fig. \ref{fig:8.5.40_circle_1}.	 The input parameters are
+\begin{align}
+\vec{O} &= \myvec{0\\0},
+\vec{A} &= r_1\myvec{\cos \theta_1\\ \sin \theta_1}
+\vec{D} &= r_2\myvec{\cos \theta_2\\ \sin \theta_2}
+\end{align}
+The two concentric circles  with centre $\vec{O}$ and radii $r_1$ and $r_2$ are drawn.
+
+\subitem The equation of $AD$ is 
+\begin{align}
+\label{eq:8.1.40_line}
+\vec{x} = \vec{A} + \lambda \brak{\vec{A}-\vec{D}}
+\end{align}
+Points $\vec{B}$ and $\vec{D}$ are obtained as the intersection of $AB$ and the circle with equation
+\begin{align}
+\label{eq:8.1.40_circle}
+\norm{\vec{x}}^2 = r_2^2
+\end{align}
+From \eqref{eq:8.1.40_circle}
+and \eqref{eq:8.1.40_circle}, 
+\begin{align}
+\norm{\vec{A} + \lambda \brak{\vec{A}-\vec{D}}}^2 = r_2^2
+\end{align}
+\begin{multline}
+\lambda^2\norm{\vec{A}-\vec{D}}^2 + 2\lambda \vec{A}^T\brak{\vec{A}-\vec{D}} 
+\\
++ \norm{\vec{A}}^2 -r_2^2 =0
+\label{eq:8.1.40_quad}
+\end{multline}
+Solving the above quadratic equation yields two values for $\lambda$ yielding $\vec{B}$ and $\vec{C}$.  
+\begin{align}
+\vec{M} = \frac{\vec{B}+\vec{C}}{2}
+\end{align}
+

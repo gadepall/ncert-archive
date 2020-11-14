@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+\usetkzobj{all}
+\usetikzlibrary{calc,math}
+\begin{document}
+	
+	
+	\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+%Triangle sides
+\def\a{5}
+\def\b{6}
+\def\c{4}
+\def\R{3.023715784073818}
+
+%Coordinates of A
+%\def\p{0.5}
+\def\p{((\a^2+\c^2-\b^2)/(2*\a))}
+\def\q{{sqrt(\c^2-\p^2)}}
+
+\def\x{((\a^2+\b^2-\c^2)/(2*\a))}
+\def\y{{sqrt(\b^2-\x^2)}}
+
+%Labeling points
+%\node (A) at ($({((\a^2+\c^2-\b^2)/(2*\a))},{sqrt(\c^2-\x^2)} )$)[point,label=above right:$A$] {};
+\node (A) at ($({((\a^2+\c^2-\b^2)/(2*\a))},{sqrt(\c^2-\p^2)} )$)[point,label=below left:$A$] {};
+\node (B) at (0, 0)[point,label=below left:$B$] {};
+\node (C) at (\a, 0)[point,label=below right:$C$] {};
+\node (D) at ($({((\a^2+\b^2-\c^2)/(2*\a))},{sqrt(\b^2-\x^2)} )$)[point,label=below left:$D$] {};
+
+%Circumcentre
+
+\node (O) at (2.5,1.70084013)[point,label=above right:$O$] {};
+
+%Drawing triangle ABC
+\draw (A) -- node[left] {$\textrm{c}$} (B) -- node[below] {$\textrm{a}$} (C) -- node[above,yshift=2mm] {$\textrm{b}$} (A);
+
+\draw (D) -- node[left] {$\textrm{}$} (B);
+\draw (D) -- node[left] {$\textrm{}$} (C);
+
+
+%Drawing OA, OB, OC
+%\draw (O) -- node[left] {$\textrm{R}$} (A);
+%\draw (O) -- node[below] {$\textrm{R}$} (B);
+%\draw (O) -- node[below] {$\textrm{R}$} (C);
+\draw (O) circle (\R);
+
+%\tkzMarkAngle[fill=blue!50,size=.3](C,B,A)
+%\tkzMarkAngle[fill=blue!50,size=.3](O,C,B)
+
+
+%\tkzMarkAngle[fill=red!50](O,A,C)
+\tkzMarkAngle[fill=red!50,size=.3](B,D,C)
+%\tkzMarkAngle[fill=red!50,size=.3](B,E,C)
+
+\tkzMarkAngle[fill=orange!50,size=.3](B,A,C)
+%\tkzMarkAngle[fill=orange!50,size=.3](O,B,A)
+\tkzMarkAngle[fill=red!50,size=.3](B,D,C)
+%\tkzLabelAngle[pos=0.5](A,C,B){$\theta_1$}
+%\tkzLabelAngle[pos=0.5](O,B,C){$\theta_1$}
+\tkzLabelAngle[pos=0.5](B,D,C){$\theta_2$}
+%\tkzLabelAngle[pos=0.5](B,E,C){$\theta_3$}
+
+\tkzLabelAngle[pos=0.5](B,A,C){$\theta_1$}
+%\tkzLabelAngle[pos=1.5](O,C,A){$\theta_3$}
+
+	
+	\end{tikzpicture}
+	
+
+
+\end{document}

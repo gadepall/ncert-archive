@@ -1,0 +1,28 @@
+\footnotesize
+\frametitle{Solution}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+
+As opposite sides of a rectangle are equal, We have
+\newline
+\newline
+$AM = BN$ and $ MX = NY$
+\newline
+\begin{equation}
+\implies \frac{AM}{MX} = \frac {BN}{NY}
+\end{equation}
+\leavevmode\newline
+By equation (1) (2) and (3)
+$$ \frac {AE} {ED} = \frac {AM} {MX} = \frac {BN} {NY}  = \frac {BF} {FC}$$
+\newline
+$$\implies \frac {AE} {ED} = \frac {BF}{FC}  $$
+\newline
+Hence proved
+
+
+\end{column}
+\begin{column}{0.5\textwidth}
+
+
+\end{column}
+\end{columns}

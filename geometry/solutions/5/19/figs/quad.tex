@@ -1,0 +1,34 @@
+\begin{tikzpicture}
+[scale=1.5,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+
+%Quadrilateral sides BC, CD, AD, AB, BD
+%\tikzmath{\a = 4.5; \b = 5.5; \c = 4; \d = 6; \e = 7; }
+%Rotation angles DBC and ABD
+%\tikzmath{\t1=51.75338012165502; \t2=34.7719440319486; }
+%
+\def\R{0.6227876525205392}
+%Labeling points
+\node (B) at (0, 0)[point,label=below left:$B$] {};
+\node (C) at (9, 0)[point,label=below right:$C$] {};
+\node (A) at (3,4)[point,label=above left:$A$] {};
+\node (D) at (7,6)[point,label=above right:$D$] {};
+\node (E) at (5.31376939,2.6568847)[point,label=above left:$E$] {};
+\node (F) at (4.47213595,2.23606798)[point,label=above right:$F$] {};
+\node (G) at (5.11958768,1.46028308)[point,label=above right:$G$] {};
+\node (H) at (5.54592627,2.48955549)[point,label=above right:$H$] {};
+\node (O) at (5.07543888,2.08150393)[point,label=right:$O$] {};
+%Foot of perpendicular
+
+\draw (A) --  node[left] {$\textrm{d}$}(B) --  node[below] {$\textrm{a}$}(C) --  node[right] {$\textrm{b}$}(D) --  node[above] {$\textrm{c}$}(A);
+\draw (A) --  node[left] {$\textrm{AG}$}(G) --  node[below ,xshift=3mm] {$\textrm{DG}$}(D);
+\draw (B) --  node[left] {$\textrm{BE}$}(E) --  node[below] {$\textrm{CE}$}(C);
+
+\draw (O) circle (\R);
+%Drawing and marking angles
+\tkzMarkAngle[fill=orange!50,mark=||](C,B,E)
+\tkzMarkAngle[fill=green!50,mark=||](E,B,A)
+\tkzLabelAngle[pos=0.65](C,B,E){$\alpha$}
+\tkzLabelAngle[pos=0.65](E,B,A){$\alpha$}
+
+\end{tikzpicture}

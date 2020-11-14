@@ -1,0 +1,20 @@
+Let X be the random variable following Binomial distribution.Then,
+\begin{align}
+\pr{X = 1} &= p,
+\\
+\pr{X = k} &= \comb{n}{k}p^k\brak{1-p}^\brak{n-k}, \quad k = 0,\dots, n
+\label{eq:exam44_1}
+\end{align}
+Here $p=\frac{1}{3}$ and $n=4$
+Mean is given as
+\begin{align}
+\bar{X}=\sum_{k=0}^{n} k \pr{X=k}
+\\
+\bar{X}=\sum_{k=0}^{4} k \comb{4}{k}p^k\brak{1-p}^\brak{4-k}
+\\
+\bar{X}=\frac{1}{3}
+\end{align}
+The python code for the above problem is,
+\begin{lstlisting}
+./prob/codes/exam44.py
+\end{lstlisting}

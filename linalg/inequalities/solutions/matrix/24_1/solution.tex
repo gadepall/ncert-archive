@@ -1,0 +1,21 @@
+Let the two matrices be $\vec{A}$ = \myvec{5 & -1\\6 & 7} and $\vec{B}$ = \myvec{2 & 1\\3 & 4}. From the problem we have to prove the following
+\begin{align}\label{eq:sol_mat_24_1_1}
+\vec{A}\vec{B} \not= \vec{B}\vec{A}
+\end{align}
+At first we compute left hand side of \ref{eq1}.
+\begin{align}
+\vec{A}\vec{B} &= \myvec{5 & -1\\6 & 7}\myvec{2 & 1\\3 & 4}\label{eq:sol_mat_24_1_m1}\\
+\implies \vec{A}\vec{B} &= \myvec{5\times2-1\times3 & 5\times1-1\times4\\6\times2+7\times3 & 6\times1+7\times4}\\
+\implies\vec{A}\vec{B} &= \myvec{7 & 1\\33 & 34}\label{eq:sol_mat_24_1_2}
+\end{align}
+Next, we compute right hand side of \ref{eq1}.
+\begin{align}
+\vec{B}\vec{A} &= \myvec{2 & 1\\3 & 4}\myvec{5 & -1\\6 & 7}\\
+\implies \vec{B}\vec{A} &= \myvec{2\times5+1\times6 & 2\times(-1)+1\times7\\3\times5+4\times6 & 3\times(-1)+4\times7}\\
+\implies\vec{B}\vec{A} &= \myvec{16 & 5\\39 & 25}\label{eq:sol_mat_24_1_3}
+\end{align}
+Clearly we can see from equation \ref{eq2} and \ref{eq3} that the resultant matrices are not equal. Hence proved,
+\begin{align*}
+\myvec{5 & -1\\6 & 7}\myvec{2 & 1\\3 & 4} \not= \myvec{2 & 1\\3 & 4}\myvec{5 & -1\\6 & 7}
+\end{align*}
+

@@ -1,0 +1,21 @@
+The 50 digits appearing after the decimal point of $\pi$ are tabulated as follows:\\
+\begin{table}[ht!]
+\centering
+\input{./stat/tables/exer34/inp34.tex}
+\caption{The 50 decimal places of $\pi$}
+\label{table:input_34}
+\end{table}
+The frequency distribution table for the digits 0-9 is given in table \ref{table:output_34}
+\begin{table}[ht!]
+\centering
+\input{./stat/tables/exer34/out34.tex}
+\caption{Frequency distribution table for the numbers in \ref{table:input_34}}
+\label{table:output_34}
+\end{table}
+From the table \ref{table:output_34},\\
+0 is the least frequent digit \\
+3,9 are the most frequent digits.\\
+The python code for above problem is 
+\begin{lstlisting}
+./stat/codes/exer34.py
+\end{lstlisting}

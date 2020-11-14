@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}Probability}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Examples}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Exercises}{13}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Statistics}{37}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Examples}{37}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Exercises}{43}{subsection.2.2}%

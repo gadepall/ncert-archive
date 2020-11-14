@@ -1,0 +1,59 @@
+\begin{align}
+	\myvec{
+		2 & -3 & 3 & \vrule & 1 & 0 & 0 \\
+		2 & 2 & 3 & \vrule & 0 & 1 & 0 \\ 
+		3 & -2 & 2 & \vrule & 0 & 0 & 1\\
+	}
+	\\
+	\xleftrightarrow[]{C_2 \leftarrow C_2 + C_1}
+	\myvec{
+		2 & 0 & 3 & \vrule & 1 & 0 & 0 \\
+		2 & 5 & 3 & \vrule & 0 & 1 & 0 \\ 
+		3 & 0 & 2 & \vrule & 0 & 1 & 1\\
+	}
+	\\
+	\xleftrightarrow[]{C_1\leftarrow C_3 - C_1}
+	\myvec{
+		1 & 0 & 3 & \vrule & -1 & 0 & 0 \\
+		1 & 5 & 3 & \vrule & 0 & 1 & 0 \\ 
+		-1 & 0 & 2 & \vrule & 1 & 1 & 1\\
+	}
+	\\
+	\xleftrightarrow[]{C_3 \leftarrow C_3 - 3C_1}
+	\myvec{
+		1 & 0 & 0 & \vrule & -1 & 0 & 3 \\
+		1 & 5 & 0 & \vrule & 0 & 1 & 0 \\ 
+		-1 & 0 & 5 & \vrule & 1 & 1 & -2\\
+	}
+	\\
+	\xleftrightarrow[]{C_3 \leftarrow \frac{1}{5}C_3}
+	\myvec{
+		1 & 0 & 0 & \vrule & -1 & 0 & 3/5 \\
+		0 & 5 & 0 & \vrule & 0 & 1 & 0 \\ 
+		-1 & 0 & 1 & \vrule & 1 & 1 & -2/5\\
+	}
+	\\
+	\xleftrightarrow[]{C_2 \leftarrow \frac{1}{5}C_2}
+	\myvec{
+		1 & 0 & 0 & \vrule & -1 & 0 & 3/5 \\
+		0 & 1 & 0 & \vrule & 0 & 1/5 & 0 \\ 
+		-1 & 0 & 1 & \vrule & 1 & 1/5 & -2/5\\
+	}
+	\\
+    \xleftrightarrow[]{C_1 \leftarrow C_1 - C_2}
+	\myvec{
+		1 & 0 & 0 & \vrule & -1 & 0 & 3/5 \\
+		0 & 1 & 0 & \vrule & -1/5 & 1/5 & 0 \\ 
+		-1 & 0 & 1 & \vrule & 4/5 & 1/5 & -2/5\\
+	}
+	\\
+	\xleftrightarrow[]{C_1 \leftarrow C_1 + C_3}
+	\myvec{
+		1 & 0 & 0 & \vrule & -2/5 & 0 & 3/5 \\
+		0 & 1 & 0 & \vrule & -1/5 & 1/5 & 0 \\ 
+		0 & 0 & 1 & \vrule & 2/5 & 1/5 & -2/5\\
+	}
+\end{align}
+\begin{align}
+\vec {A^{-1}} &= {\myvec{-2/5 & 0 & 3/5\\-1/5 & 1/5 & 0\\2/5 & 1/5 & -2/5}}
+\end{align}

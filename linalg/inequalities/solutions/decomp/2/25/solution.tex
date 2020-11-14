@@ -1,0 +1,48 @@
+Representing matrix A in terms of its column vectors as
+\begin{align}
+	A=\myvec{\vec{a} & \vec{b}}
+\end{align}
+Let
+\begin{align}
+	\vec{q_1}=\frac{\vec{a}}{\norm{\vec{a}}} \label{eq:solutions/2/25/q1} 
+\end{align}
+An orthonormal vector to $\vec{q_1}$ can be obtained by subtracting the projection of $\vec{b}$ on $\vec{q_1}$ from $\vec{b}$. Thus
+\begin{align}
+	\vec{q_2}=\frac{\vec{b}-k\vec{q_1}}{\norm{\vec{b}-k\vec{q_1}}} \label{eq:solutions/2/25/q2}
+\end{align}
+where
+\begin{align}
+	k=\frac{\vec{b}^T\vec{q_1}}{\norm{\vec{q_1}}^2} \label{eq:solutions/2/25/k}
+\end{align}
+From (\ref{eq:solutions/2/25/q1}) and (\ref{eq:solutions/2/25/q2})
+\begin{align}
+	&\vec{a}=\norm{\vec{a}}\vec{q_1} \\
+	&\vec{b}=k\vec{q_1} + \norm{\vec{b}-k\vec{q_1}}\vec{q_2} \\
+	\implies 
+	&\myvec{\vec{a} & \vec{b}}=\myvec{\vec{q_1} & \vec{q_2}}
+        \myvec{\norm{\vec{a}} & k \\ 0 & \norm{\vec{b}-k\vec{q_1}}} \\
+	&\implies \vec{A}=\vec{Q}\vec{R}
+\end{align}
+QR decomposition of a matrix A is essentially representation of column vectors of matrix A in terms of linear combination of orthonormal basis of column space of A.
+For matrix A
+\begin{align}
+	\vec{a}=\myvec{3\\-4}, \ \vec{b}=\myvec{-4\\3} \\
+\end{align}
+Let
+\begin{align}
+	\vec{q_1}=\frac{1}{\sqrt{5}}\myvec{3\\-4} \\
+\end{align}
+From (\ref{eq:solutions/2/25/q2}) and (\ref{eq:solutions/2/25/k})
+\begin{align}
+	\vec{q_2}=\frac{1}{\sqrt{5}}\myvec{-4\\3}\\
+	\implies 
+	\vec{Q}=\frac{1}{\sqrt{5}}\myvec{3 & -4 \\ -4 & 3} \\
+	\vec{R}=\myvec{\sqrt{5} & 0 \\ 0 & \sqrt{5}}
+\end{align}
+Therefore the matrix A can be decomposed as 
+\begin{align}
+	\vec{A}=
+	\myvec{\frac{3}{\sqrt{5}} & -\frac{4}{\sqrt{5}} \\
+	      -\frac{4}{\sqrt{5}} & \frac{3}{\sqrt{5}} }
+	\myvec{\sqrt{5} & 0 \\ 0 & \sqrt{5}}
+\end{align}

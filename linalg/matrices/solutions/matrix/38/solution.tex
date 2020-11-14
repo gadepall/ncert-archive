@@ -1,0 +1,43 @@
+
+\begin{enumerate}
+  \item \label{prob:solutions/matrix/38/Problem:1}
+\begin{align}
+A = \myvec{\cos{\alpha} && \sin{\alpha} \\ $-$\sin{\alpha} && \cos{\alpha}} \\[1em]
+\implies A^T = \myvec{\cos{\alpha} && $-$\sin{\alpha} \\ \sin{\alpha} && \cos{\alpha}}    
+\end{align}
+%Need to prove that $A^T$A = I (Identity Matrix)\\\\
+%For this we express each of the matrices as a complex number to find the product of those two matrices $A^T$ and A.\\\\
+%We know that a complex number \myvec{a1 \\ a2} can be represented as
+\begin{align}
+\myvec{a_1 \\ a_2} = \myvec{a_1 && $-$a_2 \\ a_2 && a_1}\myvec{1 \\ 0}\\[1em]
+i.e \ A = \myvec{\cos{\alpha} \\ $-$\sin{\alpha}}\\[1em]
+\implies \ A = e^{-j\alpha}\\[1em]
+i.e. \ A^T = \myvec{\cos{\alpha} \\ \sin{\alpha}} \\[1em]
+\implies \ A^T = e^{j\alpha}\\[1em]
+%\implies A^TA = \myvec{\frac{e^{j\alpha}+e^{-j\alpha}}{2} \\[0.5em] \frac{e^{j\alpha}-e^{-j\alpha}}{2j}}\myvec{\frac{e^{j\alpha}+e^{-j\alpha}}{2} \\[0.5em] $-$\frac{e^{j\alpha}-e^{-j\alpha}}{2j}}\\[1em]
+\implies A^TA = e^{j\alpha}e^{-j\alpha} = 1\\[1em]
+%\implies A^TA = \myvec{1&&0\\0&&1}\myvec{1\\0}\\[1em]
+\implies A^TA = I
+\end{align} \\
+\item \label{prob:solutions/matrix/38/Problem:2}
+\begin{align}
+A = \myvec{\sin{\alpha} && \cos{\alpha} \\ $-$\cos{\alpha} && \sin{\alpha}} \\[1em]
+\implies A^T = \myvec{\sin{\alpha} && $-$\cos{\alpha} \\ \cos{\alpha} && \sin{\alpha}}    
+\end{align}\\
+%Need to prove that $A^T$A = I (Identity Matrix)\\\\
+%For this we express each of the matrices as a complex number to find the product of those two matrices $A^T$ and A.\\\\
+Using (3),
+\begin{align}
+i.e \ A = \myvec{\sin{\alpha} \\ $-$\cos{\alpha}}\\[1em]
+\implies \ A = e^{-j\brak{\frac{n\pi}{2}-\alpha}}\label{prob:solutions/matrix/38/equation:13}\\[1em]
+A^T = \myvec{\sin{\alpha} \\ \cos{\alpha}} \\[1em]
+\implies \ A^T = e^{j\brak{\frac{n\pi}{2}-\alpha}}\label{prob:solutions/matrix/38/equation:15}\\[1em]
+%\implies A^TA = \myvec{\frac{e^{j\alpha}-e^{-j\alpha}}{2j} \\[0.5em] \frac{e^{j\alpha}+e^{-j\alpha}}{2}}\myvec{\frac{e^{j\alpha}-e^{-j\alpha}}{2j} \\[0.5em] $-$\frac{e^{j\alpha}+e^{-j\alpha}}{2}} \\[1em]
+%\implies A^TA = \myvec{1&&0\\0&&1}\myvec{1\\0}\\[1em]
+\implies A^TA = e^{j\brak{\frac{n\pi}{2}-\alpha}}e^{-j\brak{\frac{n\pi}{2}-\alpha}} = 1 \\[1em]
+\implies A^TA = I
+\end{align}\\
+Here, n in \eqref{prob:solutions/matrix/38/equation:13} and \eqref{prob:solutions/matrix/38/equation:15} is an odd number.\\\\
+%Using (3), the expressions in equation (6) and equation (12) were simplified to obtain I.\\\\
+Hence proved for both Problems \ref{prob:solutions/matrix/38/Problem:1} and \ref{prob:solutions/matrix/38/Problem:2}.
+\end{enumerate}

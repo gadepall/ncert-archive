@@ -1,0 +1,44 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item The vertices of $\triangle ABC$ are taken as follows:
+\label{const:table1}
+\\
+\solution See Table. \ref{table:table1} 
+%
+\begin{table}[ht!]
+\centering
+\input{./tables/median/inp.tex}
+\caption{To construct triangle ABC}
+\label{table:table1}	
+\end{table}
+
+%\item
+
+\item The midpoints of sides are given as
+\begin{align}
+\vec{D} &= \frac{\vec{B}+\vec{C}}{2}
+\label{eq:pointd}
+\\
+\vec{E} &= \frac{\vec{A}+\vec{C}}{2}
+\\
+\vec{F} &= \frac{\vec{A}+\vec{B}}{2}
+\end{align}
+Also Centroid divides median in ratio 2:1.So by section formulae $\vec{O}$ is given as
+\item The midpoints of sides are given as
+\begin{align}
+\vec{O} &= \frac{2\vec{D}+\vec{A}}{3}
+\label{eq:centr}
+\end{align}
+
+The derived coordinates are listed in \ref{table:table2}. 
+%
+\begin{table}[ht!]
+\centering
+\input{./tables/out.tex}
+\caption{Derived coordinates of triangle ABC}
+\label{table:table2}	
+\end{table}
+
+\end{enumerate}

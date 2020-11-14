@@ -1,0 +1,70 @@
+
+General equation of conics is 
+\begin{align}
+    \vec{x}^T\vec{V}\vec{x}+ 2\vec{u}^T\vec{x}+f = 0
+    \label{eq:solutions/1/16/eq:1}
+\end{align}
+Comparing with the equation given,
+\begin{align}
+\vec{V}=\myvec{\frac{1}{9} & 0 \\ 0 & \frac{1}{16}}\\
+\vec{u}=\vec{0}\\
+f=-1\\
+\mydet{\vec{v}}=\mydet{\myvec{\frac{1}{9} & 0 \\ 0 & \frac{1}{16}}}>0
+\end{align}
+$\because \abs{\vec{V}}>0$, the given equation is of ellipse.\\
+a)The tangents are parallel to the x-axis, hence, their direction and normal vectors, $\vec{m_1}$ and $\vec{n_1}$ are respectively,
+\begin{align}
+\vec{m_1}=\myvec{1\\0}\\
+\vec{n_1}=\myvec{0\\1}
+\end{align}
+For an ellipse, given the normal vector $\vec{n}$, the tangent points of contact to the ellipse are given by
+\begin{align}
+    \vec{q}=\vec{V}^{-1}(\kappa \vec{n}-\vec{u})
+    \label{eq:solutions/1/16/eq:2}
+    =\vec{V}^{-1}\kappa \vec{n}
+\end{align}
+where
+\begin{align}
+    \kappa=\pm \sqrt{\frac{\vec{u^T}\vec{V}^{-1}\vec{u}-f}{\vec{n^T}\vec{V}^{-1}\vec{n}}}
+    \label{eq:solutions/1/16/eq:2.0.9}\\
+   =\pm \sqrt{\frac{-f}{\vec{n^T}\vec{V}^{-1}\vec{n}}}\\
+    \vec{V}^{-1}=\myvec{9 & 0 \\ 0 & 16}\\
+    \kappa_1=\pm \sqrt{\frac{-(-1)}{\myvec{0 & 1}\myvec{9 & 0 \\ 0 & 16} \myvec{0\\1}}}\\
+ \implies \kappa_1=\pm \sqrt{\frac{1}{16}}\\
+    \implies \kappa_1=\pm \frac{1}{4}      
+\end{align}
+From \eqref{eq:solutions/1/16/eq:2} , the point of contact $\vec{q_i}$ are,
+\begin{align}
+    \vec{q_1}=\myvec{9 & 0 \\ 0 & 16}\frac{1}{4}\myvec{0\\1}\\
+    =\myvec{9 & 0 \\ 0 & 16}\myvec{0\\\frac{1}{4}}\\
+    =\myvec{0\\4}\\
+    \vec{q_2}=\myvec{9 & 0 \\ 0 & 16}\left(-\frac{1}{4}\right)\ \myvec{0\\1}\\
+    =\myvec{9 & 0 \\ 0 & 16}\myvec{0\\-\frac{1}{4}}\\
+    =\myvec{0\\-4}
+\end{align}
+b) The tangents are parallel to the y-axis, hence, their direction and normal vectors, $\vec{m_2}$ and $\vec{n_2}$ are respectively,
+\begin{align}
+\vec{m_2}=\myvec{0\\1}\\
+\vec{n_2}=\myvec{1\\0}
+\end{align}
+Using equation \eqref{eq:solutions/1/16/eq:2.0.9}, the values of $\kappa$ for this case are
+\begin{align}
+     \kappa_2=\pm \sqrt{\frac{-(-1)}{\myvec{1 & 0}\myvec{9 & 0 \\ 0 & 16} \myvec{1\\0}}}\\
+ \implies \kappa_2=\pm \sqrt{\frac{1}{9}}\\
+    \implies \kappa_2=\pm \frac{1}{3} 
+\end{align}
+and from \eqref{eq:solutions/1/16/eq:2} , the point of contact $\vec{q_i}$ are,
+\begin{align}
+\vec{q_3}=\myvec{9 & 0 \\ 0 & 16}\frac{1}{3}\myvec{1\\0}\\
+    =\myvec{9 & 0 \\ 0 & 16}\myvec{\frac{1}{3}\\0}\\
+    =\myvec{3\\0}\\
+\vec{q_4}=\myvec{9 & 0 \\ 0 & 16}\left(-\frac{1}{3}\right)\ \myvec{1\\0}\\
+    =\myvec{9 & 0 \\ 0 & 16}\myvec{-\frac{1}{3}\\0}\\
+    =\myvec{-3\\0}
+\end{align}
+ \begin{figure}[h!]
+	\centering
+	\includegraphics[width=\columnwidth]{./solutions/conics/1/16/ellipse.png}
+	\caption{Figure depicting point of contact of tangents of ellipse parallel to x-axis and y-axis}
+	\label{eq:solutions/1/16/fig1}
+\end{figure}

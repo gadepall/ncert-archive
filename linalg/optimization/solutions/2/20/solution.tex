@@ -1,0 +1,38 @@
+The QR decomposition  of a matrix is a decomposition of the matrix into an orthogonal matrix and an upper triangular matrix.
+QR decomposition of a square matrix is given by,
+\begin{align}
+    \vec{A} = \vec{Q}\vec{R}
+\end{align}
+Here  $\vec{Q}$ is an orthogonal matrix and $\vec{R}$ is an upper triangular matrix.\\
+\\
+Given matrix,
+\begin{align}
+    \vec{A} = 
+    \myvec{2&1\\
+    1&-2} \label{eq:solutions/2/20/eq:eq1}
+\end{align}
+The column vectors of the matrix is given by,
+\begin{align}
+    \vec{a}=\myvec{2\\1} \quad \vec{b}=\myvec{1\\-2} \label{eq:solutions/2/20/eq:eq2}
+\end{align}
+Equation \eqref{eq:solutions/2/20/eq:eq1} can be written in $\vec{Q}\vec{R}$ form as:
+\begin{align}
+    \vec{Q}\vec{R} = \myvec{\vec{q_1}&\vec{q_2}} \myvec{u_1&u_3\\0&u_2}  \label{eq:solutions/2/20/eq:eq7}
+\end{align}
+Now, 
+\begin{align}
+u_1 &= \norm{\vec{a}} = \sqrt{1^2+2^2} = \sqrt{5}\label{eq:solutions/2/20/eq:eq3}\\
+\vec{q_1} &= \frac{\vec{a}}{u_1} = \myvec{\frac{2}{\sqrt{5}}\\ \frac{1}{\sqrt{5}}}\\
+u_3 &= \frac{\vec{q_1}^T\vec{b}}{\norm{\vec{q_1}}^2} = \myvec{\frac{2}{\sqrt{5}}& \frac{1}{\sqrt{5}}}\myvec{1\\-2} = 0\\
+\vec{q_2} &= \frac{\vec{b} - u_3 \vec{q_1}}{\norm{\vec{b} - u_3 \vec{q_1}}} = \myvec{\frac{1}{\sqrt{5}}\\ -\frac{2}{\sqrt{5}}}\\
+u_2 &= {\vec{q_2}^T\vec{b}} = \myvec{\frac{1}{\sqrt{5}}&-\frac{2}{\sqrt{5}}}\myvec{1\\-2}=\sqrt{5}\label{eq:solutions/2/20/eq:eq4}
+\end{align}
+Substituting equation \eqref{eq:solutions/2/20/eq:eq3} to \eqref{eq:solutions/2/20/eq:eq4} in \eqref{eq:solutions/2/20/eq:eq7},to obtain
+the QR Decomposition of the given matrix as:
+\begin{align}\label{eq:solutions/2/20/eqort}
+    \myvec{2&1\\1&-2} = \myvec{\frac{2}{\sqrt{5}}&\frac{1}{\sqrt{5}}\\\frac{1}{\sqrt{5}}&-\frac{2}{\sqrt{5}}}\myvec{\sqrt{5}&0\\0&{\sqrt{5}}}
+\end{align}
+In equation \eqref{eq:solutions/2/20/eqort} $\vec R$ is diagonal because the columns and rows are orthogonal to each other.
+
+ 
+

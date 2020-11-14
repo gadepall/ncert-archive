@@ -1,0 +1,67 @@
+
+%\renewcommand{\thefigure}{\theenumi.\arabic{figure}}
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./solutions/5/16/figs/circle.tex}}
+\caption{}
+\label{fig:8.5.16_circle_latex}	
+\end{figure}
+%
+%
+%\renewcommand{\thefigure}{\theenumi}
+%
+\item {\em Construction: }In Fig. \ref{fig:8.5.16_circle_latex} the known parameters are
+%\label{}
+\\
+%
+%\solution From the given information, 
+%$\triangle ABC$ are 
+\begin{align}
+\vec{O} &= \myvec{0\\0} ,
+\\
+\vec{A} &= \myvec{r\\0} ,
+\label{eq:8.5.16_constr_a}
+\\
+ \vec{B} &= \myvec{-r\\0} 
+\label{eq:8.5.16_constr_b}
+\\
+\vec{C}&= r\myvec{\cos\theta\\\sin\theta}
+\label{eq:8.5.16_constr_cgen}
+\end{align}
+%
+Let 
+\begin{align}
+\vec{D} & = r\myvec{\cos\theta_1\\\sin\theta_1} 
+\label{eq:8.5.16_constr_dgen}
+\end{align}
+From the given information,
+\begin{align}
+ \norm{\vec{D} - \vec{C}} &= r
+\\
+\implies \brak{\vec{D} - \vec{C}}^T\brak{\vec{D} - \vec{C}} &= r^2\\
+ \label{eq:8.5.16_dist_formula}
+\\
+\implies  \norm{D} ^2 - 2\vec{D}^T\vec{C} +  \norm{C}^2 &=r^2 
+\end{align}
+In the above, 
+\begin{align}
+\because \norm{D} &= \norm{\vec{C}} = r,
+\\
+\frac{\vec{D}^T\vec{C}}{\norm{D}\norm{C}}  &= \frac{1}{2}
+\\
+\implies \cos \brak{\theta_1-\theta} &= 60 \degree
+\label{eq:8.5.16_theta_diff}
+\end{align}
+using the definition of the inner product.  $\because \theta$ is known, we get $\theta_1$ from \eqref{eq:8.5.16_theta_diff}
+and $\vec{D}$ from 
+\eqref{eq:8.5.16_constr_dgen}. 
+%
+\subitem Thus,
+\begin{align}
+BD: \vec{x} &= \vec{B} + \lambda_1 \brak{\vec{B}-\vec{D}}
+\\
+AC: \vec{x} &= \vec{A} + \lambda_2 \brak{\vec{A}-\vec{C}}
+\end{align}
+%
+which can be used to obtain $\vec{E}$.
+

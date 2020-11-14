@@ -1,0 +1,23 @@
+Let \rupee{30000} be divided into two part $x_1$ and $x_2$ in part $\vec{a)}$,and into two part $y_1$ and $y_2$ in part $\vec{b)}$. Then $x_1,x_2,y_1,y_2$ satisfies following equations
+\begin{align}
+  x_1+x_2 &= 30000\label{eq:solutions/matrix/291}\\
+  0.05x_1+0.07x_2 &= 1800\label{eq:solutions/matrix/292}\\
+  y_1+y_2 &= 30000\label{eq:solutions/matrix/293}\\
+  0.05y_1+0.07y_2 &= 2000\label{eq:solutions/matrix/294}
+\end{align}
+From \eqref{eq:solutions/matrix/291} and \eqref{eq:solutions/matrix/292} we get
+\begin{align}
+  \myvec{1&1\\0.05&0.07}\myvec{x_1\\x_2} = \myvec{30000\\1800}
+\end{align}
+and from \eqref{eq:solutions/matrix/293} and \eqref{eq:solutions/matrix/294} we get
+\begin{align}
+  \myvec{1&1\\0.05&0.07}\myvec{y_1\\y_2} = \myvec{30000\\2000}
+\end{align}
+Combining the two we get
+\begin{align}
+  &\myvec{1&1\\0.05&0.07}\myvec{x_1&y_1\\x_2&y_2} = \myvec{30000&30000\\1800&2000} \nonumber \\
+  &\xleftrightarrow{R_2 = R_2 - 0.05 R_1}\myvec{1&1\\0&0.02}\myvec{x_1&y_1\\x_2&y_2} = \myvec{30000&30000\\300&500} \nonumber \\
+  &\xleftrightarrow{R_2 = 50R_2}\myvec{1&1\\0&1}\myvec{x_1&y_1\\x_2&y_2} = \myvec{30000&30000\\15000&25000} \nonumber \\
+  &\xleftrightarrow{R_1 = R_1-R_2}\myvec{1&0\\0&1}\myvec{x_1&y_1\\x_2&y_2} = \myvec{15000&5000\\15000&25000}\label{ans}
+\end{align}
+From \eqref{ans} we get $x_1$=\rupee{15000}, $x_2$=\rupee{15000}, $y_1$=\rupee{5000} and $y_2$=\rupee{25000}.Therefore to get an annual total interest of \rupee{1800} trust must invest \rupee{15000} in first bond and \rupee{15000} in second bond and to get an annual interest of \rupee{2000} trust must invest \rupee{5000} in first bond and \rupee{25000} in second bond.

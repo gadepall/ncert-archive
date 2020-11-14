@@ -1,0 +1,140 @@
+The following python code computes roots of the quadratic equation obtained:
+	\begin{lstlisting}
+	./solutions/5/codes/conics/q20a.py
+	./solutions/5/codes/conics/q20b.py
+	./solutions/5/codes/conics/q20c.py
+	./solutions/5/codes/conics/q20d.py
+	./solutions/5/codes/conics/q20e.py
+	./solutions/5/codes/conics/q20f.py
+	\end{lstlisting}
+	
+	\begin{enumerate}
+	
+		\item -1,$\frac{1}{4}$
+	\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\columnwidth]{./solutions/5/figs/conics/q20a.eps}
+	\caption{}
+	\label{fig:5.2.5_qtoa}	
+	\end{figure}
+	
+		 For a general polynomial equation of degree 2,
+	\begin{multline}
+	p\brak{x,y} =
+\\
+ Ax^2 +Bxy + Cy^2 +Dx + Ey + F = 0\\
+	\text{The vector form is}\\
+	\vec{x}^T\myvec{A&\frac{B}{2}\\\frac{B}{2}&C}\vec{x}  + \myvec{D&E}\vec{x} + F = 0 \label{eq:5.2.5_qtwenty}
+	\end{multline}
+Here, sum of zeroes = D = -1\\
+Product of zeroes = F =$\frac{1}{4}$\\
+Substituing the values in \ref{eq:5.2.5_qtwenty},\\
+\begin{multline}
+\vec{x}^T\myvec{1&0\\0&0}\vec{x}  + 
+\myvec{1&-1}\vec{x} +\frac{1}{4} = 0\\
+\end{multline}
+\begin{align}
+\implies y = x^2 + x + \frac{1}{4}
+\end{align}
+The roots are -0.5 and -0.5 as represented in Fig. \ref{fig:5.2.5_qtoa}
+		
+		\item 1,1
+	\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\columnwidth]{./solutions/5/figs/conics/q20b.eps}
+	\caption{}
+	\label{fig:5.2.5_qtob}	
+	\end{figure}
+	
+		
+Here, sum of zeroes = D = 1\\
+Product of zeroes = F =1\\
+Substituing the values in \ref{eq:5.2.5_qtwenty},\\
+\begin{multline}
+\vec{x}^T\myvec{1&0\\0&0}\vec{x}  + \myvec{-1&-1}\vec{x} +1 = 0
+\end{multline}
+\begin{align}
+\implies y = x^2 - x + 1 
+\end{align}
+Since the curve doesn't meet the x-axis, real roots don't exist for this parabola as represented in Fig. \ref{fig:5.2.5_qtob}	
+		\item 0,$\sqrt{5}$
+			\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\columnwidth]{./solutions/5/figs/conics/q20c.eps}
+	\caption{}
+	\label{fig:5.2.5_qtoc}	
+	\end{figure}
+
+		
+Here, sum of zeroes = D = 0\\
+Product of zeroes = F =$\sqrt{5}$\\
+Substituing the values in \ref{eq:5.2.5_qtwenty},\\
+\begin{multline}
+\vec{x}^T\myvec{1&0\\0&0}\vec{x}  + \myvec{0&-1}\vec{x} + \sqrt{5} = 0
+\end{multline}
+\begin{align}
+\implies y = x^2 + \sqrt{5}  
+\end{align}
+Since the curve doesn't meet the x-axis, real roots don't exist for this parabola as represented in Fig. \ref{fig:5.2.5_qtoc}	
+		\item 4,1
+	\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\columnwidth]{./solutions/5/figs/conics/q20d.eps}
+	\caption{}
+	\label{fig:5.2.5_qtod}	
+	\end{figure}
+	
+		 
+Here, sum of zeroes = D = 4\\
+Product of zeroes = F = 1\\
+Substituing the values in \ref{eq:5.2.5_qtwenty},\\
+\begin{multline}
+\vec{x}^T\myvec{1&0\\0&0}\vec{x}  + \myvec{-4&-1}\vec{x} + 1 = 0
+\end{multline}
+\begin{align}
+\implies y = x^2 - 4x + 1 
+\end{align}
+The roots are 3.73 and 0.26 as represented in Fig. \ref{fig:5.2.5_qtod}
+
+		\item $\frac{1}{4}$,$\frac{1}{4}$
+	\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\columnwidth]{./solutions/5/figs/conics/q20e.eps}
+	\caption{}
+	\label{fig:5.2.5_qtoe}	
+	\end{figure}
+		
+ 
+Here, sum of zeroes = D = $\frac{1}{4}$\\
+Product of zeroes = F = $\frac{1}{4}$\\
+Substituing the values in \ref{eq:5.2.5_qtwenty},\\
+
+\begin{multline}
+\vec{x}^T\myvec{1&0\\0&0}\vec{x}  + \myvec{-\frac{1}{4}&-1}\vec{x} + \frac{1}{4} = 0
+\end{multline}
+\begin{align}
+\implies y = x^2 - \frac{1}{4}x + \frac{1}{4} 
+\end{align}
+Since the curve doesn't meet the x-axis, real roots don't exist for this parabola as represented in Fig. \ref{fig:5.2.5_qtoe}	
+
+		\item $\sqrt{2}$,$\frac{1}{3}$
+	\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\columnwidth]{./solutions/5/figs/conics/q20f.eps}
+	\caption{}
+	\label{fig:5.2.5_qtof}	
+	\end{figure}
+
+		
+
+Here, sum of zeroes = D = $\sqrt{2}$\\
+Product of zeroes = F = $\frac{1}{3}$\\
+Substituing the values in \ref{eq:5.2.5_qtwenty},\\
+\begin{multline}
+\vec{x}^T\myvec{1&0\\0&0}\vec{x}  + \myvec{-\sqrt{2}&-1}\vec{x} + \frac{1}{3} = 0
+\end{multline}
+\begin{align}
+\implies y = x^2 - \sqrt{2}x + \frac{1}{3}
+\end{align}
+The roots are 1.11 and 0.29 as represented in Fig. \ref{fig:5.2.5_qtof}
+	\end{enumerate}

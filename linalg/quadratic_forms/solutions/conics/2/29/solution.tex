@@ -1,0 +1,47 @@
+
+The matrix $\vec{A}$ can be written as,
+\begin{align}
+\vec{A}=\myvec{\vec{a}&\vec{b}}
+\end{align}
+where $\vec{a}$ and $\vec{b}$ are column vectors. From \eqref{eq:solutions/2/29/eq:1}
+\begin{align}
+\vec{a}=\myvec{8\\3}\label{eq:solutions/2/29/eq:2}\\
+\vec{b}=\myvec{5\\2}\label{eq:solutions/2/29/eq:3}
+\end{align}
+The QR decomposition of the given matrix is given by
+\begin{align}
+\vec{A}=\vec{Q}\vec{R} \label{eq:solutions/2/29/eq:4}
+\end{align}
+here $\vec{R}$ is a upper triangular matrix and
+\begin{align}
+\vec{Q^T}\vec{Q}=\vec{I}
+\end{align}
+where
+\begin{align}
+\vec{Q}=\myvec{\vec{q_1}&\vec{q_2}}\quad
+\vec{R}=\myvec{r_1&r_2\\0&r_3} \label{eq:solutions/2/29/eq:5}
+\end{align}
+The above values are given by,
+\begin{align}
+r_1 = \norm{\vec{a}}\\
+\vec{q_1}=\frac{\vec{a}}{r_1}\\
+r_2 = \frac{\vec{q_1^T}\vec{b}}{\norm{q_1}^2}\\
+\vec{q_2}=\frac{\vec{b}-r_2\vec{q_1}}{\norm{\vec{b}-r_2\vec{q_1}}}\\
+r_3 = \vec{q_2^T}\vec{b}
+\end{align}
+Subtituting \eqref{eq:solutions/2/29/eq:2} and \eqref{eq:solutions/2/29/eq:3} we get
+\begin{align}
+r_1= \sqrt{8^2+3^2}= \sqrt{73}\\
+\vec{q_1}= \frac{1}{\sqrt{73}}\myvec{8\\3}=\myvec{\frac{8}{\sqrt{73}}\\\frac{3}{\sqrt{73}}}\\
+r_2=\frac{1}{\brak{\sqrt{\frac{64}{73}+\frac{9}{73}}}^2}\myvec{\frac{8}{\sqrt{73}}&\frac{3}{\sqrt{73}}}\myvec{5\\2}= \frac{46}{\sqrt{73}}\\
+\vec{q_2}=\frac{1}{\sqrt{73}}\brak{ \myvec{5\\2}-\frac{46}{\sqrt{73}}\myvec{\frac{8}{\sqrt{73}}\\\frac{3}{\sqrt{73}}}}= \myvec{\frac{-3}{73\sqrt{73}}\\\frac{8}{73\sqrt{73}}}\\
+r_3 = \myvec{\frac{-3}{73\sqrt{73}}&\frac{8}{73\sqrt{73}}}\myvec{5\\2}= \frac{1}{73\sqrt{73}}
+\end{align}
+Hence subtituting these values in \eqref{eq:solutions/2/29/eq:5} and then back in \eqref{eq:solutions/2/29/eq:4} we get,
+\begin{align}
+\vec{A}= \myvec{\frac{8}{\sqrt{73}}&\frac{-3}{73\sqrt{73}}\\\frac{3}{\sqrt{73}}&\frac{8}{73\sqrt{73}}}\myvec{\sqrt{73}&\frac{46}{\sqrt{73}}\\0&\frac{1}{73\sqrt{73}}}
+\end{align}
+Hence QR decomposition is,
+\begin{align}
+\myvec{8&5\\3&2}=\myvec{\frac{8}{\sqrt{73}}&\frac{-3}{73\sqrt{73}}\\\frac{3}{\sqrt{73}}&\frac{8}{73\sqrt{73}}}\myvec{\sqrt{73}&\frac{46}{\sqrt{73}}\\0&\frac{1}{73\sqrt{73}}}
+\end{align}

@@ -1,0 +1,25 @@
+\subsection{Problem}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Convert the complex number $\frac{-16}{\myvec{1\\\sqrt{3}}}$
+
+	\solution The multiplicative inverse of $\frac{-16}{\myvec{1\\\sqrt{3}}}$ is given by the following python code
+	\begin{lstlisting}
+	./codes/lines/q8.py
+	\end{lstlisting}
+	which is found as ${\myvec{0.25\\-0.43}}$ 
+	Representing using matrices we get,\\
+	\begin{align}
+		\frac{-16}{\myvec{1\\\sqrt{3}}} &= \frac{-16}{\myvec{1&-\sqrt{3}\\\sqrt{3}&1}}
+	\end{align}
+Multiplying and dividing by the multiplicative inverse,\\
+	\begin{align}
+		\frac{-16}{\myvec{1\\\sqrt{3}}} &= \frac{-16\myvec{0.25&0.43\\ -0.43&0.25}}{\myvec{1&-\sqrt{3}\\ \sqrt{3}&1}\myvec{0.25&0.43\\-0.43&0.25}}
+	\end{align}
+	\begin{align}
+		\frac{-16}{\myvec{1\\\sqrt{3}}} &= \frac{-16\myvec{0.25&0.43\\-0.43&0.25}}{\myvec{1&0\\ 0&1}}\\
+		\frac{-16}{\myvec{1\\\sqrt{3}}} &= \myvec{-4&-6.88\\6.88&-4}\\
+		\frac{-16}{\myvec{1\\\sqrt{3}}} &= \myvec{-4\\4\sqrt{3}}
+	\end{align}
+\end{enumerate}

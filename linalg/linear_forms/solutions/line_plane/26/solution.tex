@@ -1,0 +1,13 @@
+For a general order $k$ square matrix $\vec{A}$, the characteristic equation in variable $\lambda$ is defined by
+\begin{align}
+\det({\vec{A}-\lambda \vec{I}}) &= 0\label{eq:eq:sol_line_plane_26Char1}\\
+\implies\det{\vec{A}}-\lambda \det{\vec{I}} &= 0\\
+\implies\mydet{1&0&2\\0&2&1\\2&0&3}-\mydet{\lambda &0&0\\0&\lambda &0\\0&0&\lambda } &= 0\\
+\implies\mydet{1-\lambda &0&2\\0&2-\lambda &1\\2&0& 3-\lambda} &= 0\label{eq:eq:sol_line_plane_26Final}
+\end{align}
+Hence, (\ref{eq:sol_line_plane_26Final}) is the required characteristic equation of matrix $\vec{A}$. Further expanding the determinant from (\ref{eq:sol_line_plane_26Final}) we get the following polynomial equation of $\lambda$ 
+\begin{align}
+(1-\lambda )(2-\lambda)(3-\lambda)-4(2-\lambda) &= 0\\
+\implies\lambda^3-6\lambda^2+7\lambda+2 &=0\label{eq:eq:sol_line_plane_26pol}
+\end{align}
+Hence, (\ref{eq:sol_line_plane_26pol}) is the required characteristic equation of matrix $\vec{A}$ for $\lambda$.

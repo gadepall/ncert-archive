@@ -1,0 +1,267 @@
+%	
+%\renewcommand{\theequation}{\theenumi}
+%\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+%\numberwithin{equation}{enumi}
+
+\item Balance the following chemical equation.
+%
+\begin{align}
+\label{eq:chem_balance}
+Fe+H_2O &\rightarrow Fe_3O_4 + H_2
+\end{align}
+%
+\solution Let the balanced version of \eqref{eq:chem_balance} be 
+%
+\begin{align}
+\label{eq:chem_balance_unsol}
+x_1Fe+x_2H_2 O &\rightarrow x_3Fe_3 O_4 + x_4H_2
+\end{align}
+%
+which results in the following equations
+%
+\begin{align}
+\begin{split}
+\brak{x_1 -3x_3}Fe &= 0
+\\
+\brak{2x_2 -2x_4}H &= 0
+\\
+\brak{x_2 -4x_3}O &= 0
+\end{split}
+\end{align}
+which can be expressed as
+\begin{align}
+\begin{split}
+x_1 + 0.x_2 -3x_3 +0.x_4&= 0
+\\
+0.x_1+2x_2 +0.x_3-2x_4 &= 0
+\\
+0.x_1+x_2 -4x_3+ 0.x_4 &= 0
+\end{split}
+\end{align}
+%
+resulting in the matrix equation
+\begin{align}
+\label{eq:chem_balance_mat_eq}
+\begin{split}
+\myvec{
+1 & 0 & -3 & 0
+\\
+0 & 2 & 0 & -2
+\\
+0 & 1 & -4 & 0
+}
+\vec{x} &= \vec{0}
+\end{split}
+\end{align}
+%
+where
+\begin{align}
+\vec{x} = \myvec{x_1 \\ x_2 \\ x_3 \\ x_4} 
+\end{align}
+%\item Solve \eqref{eq:chem_balance_unsol} by row reducing 
+%the matrix in \eqref{eq:chem_balance_mat_eq}.
+%\\
+%\solution  
+\eqref{eq:chem_balance_mat_eq} can be row reduced as follows
+%
+\begin{align}
+\label{eq:chem_balance_mat_row}
+\myvec{
+1 & 0 & -3 & 0
+\\
+0 & 2 & 0 & -2
+\\
+0 & 1 & -4 & 0
+}
+ \xleftrightarrow[]{R_2 \leftarrow \frac{R_2}{2}}
+\myvec{
+1 & 0 & -3 & 0
+\\
+0 & 1 & 0 & -1
+\\
+0 & 1 & -4 & 0
+}
+\\
+ \xleftrightarrow[]{R_3\leftarrow R_3-R_2}
+\myvec{
+1 & 0 & -3 & 0
+\\
+0 & 1 & 0 & -1
+\\
+0 & 0 & -4 & 1
+}
+\\
+ \xleftrightarrow[]{R_1\leftarrow 4R_1-3R_3}
+\myvec{
+4 & 0 & 0 & -3
+\\
+0 & 1 & 0 & -1
+\\
+0 & 0 & -4 & 1
+}
+\\
+ \xleftrightarrow[R_3 \leftarrow -\frac{1}{4}R_3]{R_1\leftarrow \frac{1}{4}}
+\myvec{
+1 & 0 & 0 & -\frac{3}{4}
+\\
+0 & 1 & 0 & -1
+\\
+0 & 0 & 1 & -\frac{1}{4}
+}
+\end{align}
+%
+Thus, 
+\begin{align}
+\label{eq:chem_balance_mat_sol}
+x_1 &= \frac{3}{4}x_4, x_2 = x_4, x_3 = \frac{1}{4}x_4
+\\
+\\
+\implies 
+\vec{x} &= x_4\myvec{\frac{3}{4} \\ 1 \\ \frac{1}{4} \\ 1}= \myvec{3 \\ 4 \\ 1 \\ 4}
+\end{align}
+%
+upon substituting $x_4 = 4$.
+%
+\eqref{eq:chem_balance_unsol} then becomes
+%
+\begin{align}
+\label{eq:chem_balance_final}
+3Fe+4H_2 O &\rightarrow Fe_3 O_4 + 4H_2
+\end{align}
+
+\item Consider the following information regarding the number of men and women workers in the three factories I,II and III
+
+\begin{tabular}{ |c|c|c| } 
+\hline
+ & Men Workers & Women Workers \\
+\hline
+\multirow{3}{4em}{I \\II \\III} & 30 & 25\\ 
+& 25 & 31 \\ 
+&27 & 26 \\ 
+\hline
+\end{tabular}\\
+Represent the above information in the form of a 3 $\times$ 2 matrix. What does the entry
+in the third row and second column represent?\\
+
+
+ \item  If a matrix has 8 elements, what are the possible orders it can have?\\
+    \item Construct a 3 $\times$ 2 matrix whose elements are given by $a_{ij}=\frac{1}{2}\abs{i-3j}$\\
+    \item \myvec{x+3 &z+4 &2y-7\\-6 &a-1 &0\\b-3 &-21 &0}=\myvec{0 &6 &3y-2\\-6 &-3 &2c+2\\2b+4 &-21 &0}\\
+    Find the values of a,b,c,x,y and z.\\
+\solution 
+\input{./solutions/5/chapters/lines/docq7.tex}
+    \item Find the values of a,b,c and d from the following equation:\\
+    \myvec{2a+b &a-2b\\5c-d &4c+3d}=\myvec{4 &-3\\11 &24}\\
+\solution 
+\input{./solutions/matrix/examples/6/chapters/solution.tex}
+    \item Given A=\myvec{\sqrt{3} &1 &-1\\2 &3 &0} and B=\myvec{2 &\sqrt{5} &1\\-2 &3 &\frac{1}{2}}, find A+B.\\\solution 
+\input{./solutions/7/chapters/line/matrix/solution.tex}
+\item In the matrix A=\myvec{2 &5 &19 &-7\\ 35 &-2 &\frac{5}{2} &12 \\ \sqrt{3} &1 &-5 &17}, write
+\begin{enumerate}
+\item The order of the matrix
+\item The number of elements
+\item Write the elements $a_{31},a_{21},a_{33},a_{24},a_{23}.$
+\end{enumerate}
+\solution 
+\input{./solutions/1/chapters/line/matrix/solution.tex}
+
+\item If a matrix has 24 elements,what are the possible orders it can have? What,if it has 13 elements?\\
+\solution 
+\input{./solutions/2/chapters/line_ex/matrix/solution.tex}
+\item If a matrix has 18 elements,what are the possible orders it can have? What,if it has 5 elements?\\
+\\
+\solution 
+\input{./solutions/3/chapters/line/matrix/solution.tex}
+%
+\item Construct a $2 \times 2$ matrix,A=[$a_{ij}$],whose elements are given by:\\
+(i) $a_{ij}$=$\frac{(i+j)^2}{2}$\ (ii) $a_{ij}$=$\frac{i}{j}$\ (iii) $a_{ij}$=$\frac{(i+2j)^2}{2}$\\
+\solution 
+\input{./solutions/4/chapters/line/matrix/solution.tex}
+\item Construct a $3\times 4$ matrix,whose elements are given by:\\
+(i) $a_{ij}$=$\frac{1}{2}\abs{-3i+j}$ (ii) $a_{ij}$=2i-j\\
+\solution 
+\input{./solutions/5/chapters/lines/docq13.tex}
+\item Find the values of x,y and z from the following equations:\\
+(i) \myvec{4 &3\\x &5} = \myvec{y &z\\1 &5} (ii) \myvec{x+y &2\\5+z &xy} = \myvec{6 &2\\5 &8} (iii) \myvec{x+y+z\\x+y\\y+z}=\myvec{9\\5\\7}\\
+\\
+\solution 
+\input{./solutions/6/chapters/line/matrix/solution.tex}
+\item Compute the indicated products.
+\begin{enumerate}
+\item \myvec{a &b\\-b &a}\myvec{a &-b\\b &a} \\
+\solution 
+\input{./solutions/matrix/12_1/solution.tex}
+\item \myvec{1\\2\\3}\myvec{2 &3 &4} 
+\\
+\solution 
+\input{./solutions/matrix/12_2/solution.tex}
+\item \myvec{1 &-2\\2 &3}\myvec{1 &2 &3\\2 &3 &1} \\
+\end{enumerate}
+\item Simplify $\cos\theta$$\myvec{\cos\theta &\sin\theta\\ -\sin\theta &\cos\theta}$+$\sin\theta$$\myvec{\sin\theta &-\cos\theta\\ \cos\theta &\sin\theta}$\\
+\solution 
+\input{./solutions/matrix/16/solution.tex}
+\item Find X and Y,if\\
+(i)X+Y=\myvec{7 &0\\2 &5} and X-Y=\myvec{3 &0\\0 &3}\\
+(ii)2X+3Y=\myvec{2 &3\\4 &0} and 3X+2Y=\myvec{2 &-2\\-1 &5}\\ 
+\solution 
+\input{./solutions/matrix/17/solution.tex}
+\item Find X if Y=\myvec{3 &2\\1 &4} and 2X+Y=\myvec{1 &0\\-3 &2}\\
+\solution 
+\input{./solutions/matrix/18/solution.tex}
+\item If F(x)=$\myvec{\cos x &-\sin x &0\\ \sin x &\cos x &0\\0 &0 &1}$\\,show that F(x)F(y)=F(x+y)\\
+\solution 
+\input{./solutions/matrix/23/solution.tex}
+\item Find $A^{2}-5A+6I$,if A = \myvec{2 &0 &1\\2 &1 &3\\1 &-1 &0}\\
+\solution 
+\input{./solutions/matrix/25/solution.tex}
+\item If A=\myvec{1 &0 &2\\0 &2 &1\\2 &0 &3},prove that $A^3-6A^2+7A+2I=0$\\
+\solution 
+\input{./solutions/matrix/26/Latex/solution.tex}
+\item If A=$\myvec{0 &-\tan\frac{\alpha}{2}\\  \tan\frac{\alpha}{2} &0}$ and I is the identity matrix of order 2,show that \\I+A=(I-A)$\myvec{\cos\alpha &-\sin\alpha\\\sin\alpha &\cos\alpha}$\\
+\solution 
+\input{./solutions/matrix/28/solution.tex}
+\item A trust fund has \rupee{30,000} that must be invested in two different types of bonds.
+The first bond pays 5\% interest per year, and the second bond pays 7\% interest
+per year. Using matrix multiplication, determine how to divide \rupee{ 30,000} among
+the two types of bonds. If the trust fund must obtain an annual total interest of:\\
+(a) \rupee{1800} (b)\rupee{2000}\\
+\solution 
+\input{./solutions/matrix/29/solution.tex}
+\item For the matrices A and B,verify that $(AB)^{'}$=$B^{'}A^{'}$,where\\
+(i)A=\myvec{1\\-4\\3},B=\myvec{-1 &2 &1} (ii)A=\myvec{0\\1\\2},B=\myvec{1 &5 &7}
+\item If (i)  A=$\myvec{\cos\alpha &\sin\alpha\\-\sin\alpha &\cos\alpha}$, then verify that $A^{'}A=I$\\
+        (ii) If A=$\myvec{\sin\alpha &\cos\alpha\\-\cos\alpha &\sin\alpha}$,then verify that $A^{'}A=I$\\
+\solution
+\input{./solutions/matrix/38/solution.tex}
+  \item If A=$\myvec{\cos\alpha &-\sin\alpha\\ \sin\alpha &\cos\alpha}$,and $A+A^{'}=I$,then the value of $\alpha$ is\\
+  (A) $\frac{\pi}{6}$\\ (B)$\frac{\pi}{3}$ \\
+  (C) $\pi$ \\ (D)$\frac{3\pi}{2}$\\
+\solution 
+\input{./solutions/matrix/44/solution.tex}
+  \item \myvec{2 &-3 &3\\2 &2 &3\\3 &-2 &2}\\
+\solution
+\input{./solutions/matrix/59/solution.tex}
+  \item \myvec{1 &3 &-2\\-3 &0 &-5\\2 &5 &0}\\
+\solution
+\input{./solutions/matrix/60/solution.tex}
+  \item \myvec{2 &0 &-1\\5 &1 &0\\0 &1 &3}\\
+\solution
+\input{./solutions/matrix/61/solution.tex}
+  \item If A=\myvec{1 &1 &1\\1 &1 &1\\1 &1 &1},\\prove that $A^{n}$=$\myvec{3^{n-1} &3^{n-1}&3^{n-1}\\3^{n-1}&3^{n-1}&3^{n-1}\\3^{n-1}&3^{n-1} &3^{n-1}}$,$n \epsilon N$\\
+\solution
+\input{./solutions/matrix/63/solution.tex}
+  \item If A=\myvec{3 &-4\\1 &-1},\\then prove that $A^{n}$=\myvec{1+2n &-4n\\n &1-2n},where n is any positive integer\\
+\\
+\solution
+\input{./solutions/matrix/65/solution.tex}
+  \item For what values of x: \\\myvec{1 &2 &1}\myvec{1 &2 &0\\2 &0 &1\\1 &0 &2}\myvec{0 \\2 \\x}=0?\\
+\solution
+\input{./solutions/matrix/69/chapters/solution.tex}
+
+  \item If A=\myvec{3 &1\\-1 &2},show that $A^{2}$-5A+7I=0\\
+\solution
+\input{./solutions/matrix/70/solution.tex}
+
+%\end{enumerate}
+%\end{document}
+    

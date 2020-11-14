@@ -1,0 +1,4 @@
+\contentsline {section}{\numberline {1}Triangle}{1}{section.1}% 
+\contentsline {section}{\numberline {2}Circle}{4}{section.2}% 
+\contentsline {section}{\numberline {3}Quadrilaterals}{5}{section.3}% 
+\contentsline {section}{\numberline {4}Properties of a Triangle}{6}{section.4}% 

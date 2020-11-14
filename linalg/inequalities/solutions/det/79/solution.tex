@@ -1,0 +1,68 @@
+\begin{align}
+LHS=\begin{vmatrix}
+x&x^2&1+px^3\\y&y^2&1+py^3\\z&z^2&1+pz^3
+\end{vmatrix}
+\end{align}
+By expanding using sum property
+\begin{align}
+=\begin{vmatrix}
+x&x^2&1\\y&y^2&1\\z&z^2&1
+\end{vmatrix}
++\begin{vmatrix}
+x&x^2&px^3\\y&y^2&py^3\\z&z^2&pz^3
+\end{vmatrix}
+\end{align}
+By using switching of rows(or columns) property
+\begin{align}
+=(-1)\begin{vmatrix}
+1&x^2&x\\1&y^2&y\\1&z^2&z
+\end{vmatrix}
++\begin{vmatrix}
+x&x^2&px^3\\y&y^2&py^3\\z&z^2&pz^3
+\end{vmatrix}\\
+=(-1)^2\begin{vmatrix}
+1&x&x^2\\1&y&y^2\\1&z&z^2
+\end{vmatrix}
++\begin{vmatrix}
+x&x^2&px^3\\y&y^2&py^3\\z&z^2&pz^3
+\end{vmatrix}
+\end{align}
+By using scalar multiplication property
+\begin{align}
+=\begin{vmatrix}
+1&x&x^2\\1&y&y^2\\1&z&z^2
+\end{vmatrix}
++(pxyz)\begin{vmatrix}
+1&x&x^2\\1&y&y^2\\1&z&z^2
+\end{vmatrix}\\
+=(1+pxyz)\begin{vmatrix}
+1&x&x^2\\1&y&y^2\\1&z&z^2
+\end{vmatrix}
+\end{align}
+By applying row reduction
+\begin{align}
+=(1+pxyz)\begin{vmatrix}
+1&x&x^2\\1&y&y^2\\1&z&z^2
+\end{vmatrix}\\
+ \xleftrightarrow[]{R_2 \leftarrow R_2-R_3}
+(1+pxyz)\begin{vmatrix}
+1&x&x^2\\0&y-z&y^2-z^2\\1&z&z^2
+\end{vmatrix}\\
+ \xleftrightarrow[]{R_3 \leftarrow R_3-R_1}
+(1+pxyz)\begin{vmatrix}
+1&x&x^2\\0&y-z&y^2-z^2\\0&z-x&z^2-x^2
+\end{vmatrix}
+\end{align}
+By using scalar multiplication property
+\begin{align}
+=(1+pxyz)(y-z)(z-x)\begin{vmatrix}
+1&x&x^2\\0&1&y+z\\0&1&z+x
+\end{vmatrix}
+\end{align}
+By applying the determinant formula
+\begin{align}
+=(1+pxyz)(y-z)(z-x)(z+x-y-z)\\
+=(1+pxyz)(x-y)(y-z)(z-x)\\
+= RHS
+\end{align}
+Hence Proved.

@@ -1,0 +1,21 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item 
+\begin{align}
+\norm{\Delta} = 2\pi r^2
+\\
+\norm{\Delta} = 2\pi a^2
+\end{align}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./figures/circle/circle.eps}
+\caption{circle }
+\label{fig:circle}
+\end{figure}
+\begin{lstlisting}
+codes/circle/circle.py
+\end{lstlisting}
+
+\end{enumerate}

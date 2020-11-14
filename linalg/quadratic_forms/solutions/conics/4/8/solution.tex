@@ -1,0 +1,97 @@
+Here, to minimize the above given objective function, simplex method can be used.\\
+\\
+The simplex algorithm for minimization problems works by converting the problem to a maximization problem, by forming an augmented matrix which includes given objective function in last row and constraints in above rows. It is transposed and then maximization is applied for the augmented matrix formed from those equations after transposing.
+Given objective function
+\begin{align}
+f(x,y) = Z = x+2y
+\end{align}
+subject to\\
+\begin{align}
+2x+y\geq 3\\
+x+2y\geq 6\\
+x,y\geq 0
+\end{align}
+The matrix form of given objective function and constraints is given as below
+\begin{align}
+\myvec{2 & 1 & 3\\1 &2 &6\\1 & 2 &0}
+\end{align}
+After transposing the above matrix, we get
+\begin{align}
+\myvec{2 & 1 & 1\\1 &2 &2\\3&6&0}
+\end{align} 
+As per above transposed matrix, the constraints and objective function are as below.
+\begin{align}
+f(x,y) = Z = 3x+6y
+\end{align}
+subject to\\
+\begin{align}
+2x+y\geq 1\\
+x+2y\geq 2\\
+x,y\geq 0
+\end{align}
+Apply Maximization now.\\
+Adding slack variables s1, s2, the inequalities can be re-written as below.
+\begin{equation}
+f(x,y) = Z = 3x+6y\Rightarrow Z-3x-6y=0\\
+\end{equation}
+\begin{equation}
+2x+y\geq 1\Rightarrow 2x+y+s1=1\\
+\end{equation}
+\begin{equation}
+x+2y\geq 2\Rightarrow x+2y+s2=2\\
+\end{equation}
+The augmented matrix that can be formed using objective function and constraints is given as below.
+\begin{align}
+\myvec{1 & -3 & -6 & 0 & 0 & 0\\0 & 2 & 1 & 1 & 0 & 1\\0 & 1 & 2 & 0 & 1 & 2}
+\end{align}
+Here x and y are non-basic variables. s1, s2 are basic variables. Selecting x as entering variable.\\
+Entering through x in row(1).\\
+Reducing augmented matrix for eliminating x in row(1) through row(2) and row(3).
+\begin{align}
+\myvec{1 & -3 & -6 & 0 & 0 & 0\\0 & 2 & 1 & 1 & 0 & 1\\0 & 1 & 2 & 0 & 1 & 2}
+\xleftrightarrow[]{R_1 \leftarrow {R_1+R_2+R_3}}\\
+\xleftrightarrow[]{R_3 \leftarrow {R_2-2R_3}}\\
+\myvec{1 & 0 & -3 & 1 & 1 & 3\\0 & 2 & 1 & 1 & 0 & 1\\0 & 0 & -3 & 1 & -2 & -3}
+\end{align}
+eliminating x in row(1) through row(1).
+\begin{align}
+\xleftrightarrow[]{R_2 \leftarrow {R_2/2}}\\
+\myvec{1 & 0 & -3 & 1 & 1 & 3\\0 & 1 & \frac{1}{2} & \frac{1}{2} & 0 & \frac{1}{2}\\0 & 0 & -3 & 1 & -2 & -3}
+\end{align}
+Here, the feasible solution may not be obtained since row(1) contains negative coefficients of non-basic variables. Hence the entering variable has to be changed to y(another non-basic variable).
+Entering through y in row(2) since ratio $\frac{1}{1}$ a positive number and minimum.\\
+Reducing augmented matrix for eliminating y in row(1), row(2) through row(2) and row(3).
+\begin{align}
+\myvec{1 & -3 & -6 & 0 & 0 & 0\\0 & 2 & 1 & 1 & 0 & 1\\0 & 1 & 2 & 0 & 1 & 2}\\
+\xleftrightarrow[]{R_1 \leftarrow {R_1+3R_3}}\\
+\xleftrightarrow[]{R_2 \leftarrow {2R_3-R_2}}\\
+\myvec{1 & 0 & 0 & 0 & 3 & 6\\0 & 0 & 3 & -1 & 2 & 3\\0 & 1 & 2 & 0 & 1 & 2}
+\end{align}
+Here, the feasible solutions may be obtained as below and there may be multiple optimal solutions for Z since the row(1) contain zero coefficients of non-basic variables i.e. Z can take any any values of x and y. Hence, the objective function may have multiple minima points.
+\begin{align}
+\Rightarrow (x,y)=(0,0)\\
+\Rightarrow Z=x+2y\\
+\Rightarrow Z=0+0=0
+\end{align}
+
+This Problem can be represented in matrix form as follows,\\
+    \begin{align}
+        \min_{\vec{x}} Z &= \myvec{1 & 2}\vec{x}\\
+        s.t. \quad 
+        \myvec{
+        2 & 1\\
+        1 & 2
+        }
+        \vec{x} &\succeq \myvec{3\\6} \\
+        \vec{x} &\succeq \vec{0}\\
+        \vec{y} &\succeq \vec{0}
+    \end{align}
+The output as obtained through Python implementation:
+\begin{align}
+    \vec{x} = \myvec{6.89748716e-11\\5.47282454e-10}, Z = 1.16353978e-09
+    \end{align}
+ \begin{figure}
+ \includegraphics[width=\linewidth]{./solutions/4/8/minimize.png}
+  \caption{Python plot .}
+  \label{eq:solutions/4/8/fig:Fig3}
+ \end{figure}

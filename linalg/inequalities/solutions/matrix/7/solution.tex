@@ -1,0 +1,30 @@
+Equate \eqref{eq:solutions/matrix/7/eq1} in the form:
+\begin{align}
+\label{eq:solutions/matrix/7/eq2}
+\myvec{1&-1&0&0\\2&0&1&0\\2&-1&0&0\\0&0&3&1}
+\myvec{a\\b\\c\\d}=
+\myvec{-1\\5\\0\\13}
+\end{align}
+Using augmented matrix and complete row reduction on \eqref{eq:solutions/matrix/7/eq2} we deduce in following steps
+\begin{align}
+\myvec{1&-1&0&0&-1\\2&0&1&0&5\\2&-1&0&0&0\\0&0&3&1&13}
+\end{align}
+Complete Row elimination:
+\begin{align}
+\myvec{1&-1&0&0&-1\\2&0&1&0&5\\2&-1&0&0&0\\0&0&3&1&13}\\
+    \xleftrightarrow[R_3\leftarrow R_3-2R1]{R_2 \leftarrow R_2-2R_1}
+	\myvec{1&-1&0&0&-1\\0&2&1&0&7\\0&1&0&0&2\\0&0&3&1&13}\\
+	\xleftrightarrow[R_2\leftarrow R_2-R_3]{R_1 \leftarrow R_1+R_3}
+    \label{eq:solutions/matrix/7/eq6}
+	\myvec{1&0&0&0&1\\0&1&1&0&5\\0&1&0&0&2\\0&0&3&1&13}\\
+	\label{eq:solutions/matrix/7/eq7}
+	 \xleftrightarrow[R_4\leftarrow R_4-3R3]{R_3 \leftarrow (-)(R_3-R_2)}
+	\myvec{1&0&0&0&1\\0&1&0&0&2\\0&0&1&0&3\\0&0&0&1&4}
+\end{align}
+Now equating on \eqref{eq:solutions/matrix/7/eq7} we deduce the following:
+\begin{align}
+\vec{d}=4,
+\vec{c}=3,
+\vec{b}=2,
+\vec{a}=1
+\end{align}

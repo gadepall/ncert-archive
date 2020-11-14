@@ -1,0 +1,17 @@
+\subsection{Problem}
+
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item  The blood groups of 30 students of Class VIII are recorded as follows: A, B, O, O, AB, O, A, O, B, A, O, B, A, O, O, A, AB, O, A, A, O, O, AB, B, A, O, B, A, B, O. Represent this data in the form of a frequency distribution table. Which is the most common, and which is the rarest, blood group among these students?\\
+\solution As we can see from table \ref{table:table5}, the most common blood group is O and the rarest blood group is AB.
+	\begin{table}[ht]
+	\begin{center}
+    	\input{./tables/statistics/exercises/stat_ex_q28_que.tex}
+	\caption{production yield per hectare of wheat of 100 farms}
+	\label{table:table5}
+	\end{center}
+	\end{table}
+
+  
+\end{enumerate}

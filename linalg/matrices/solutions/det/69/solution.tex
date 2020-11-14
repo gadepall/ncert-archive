@@ -1,0 +1,80 @@
+Proceeding to the solution by taking the left hand side matrix of \eqref{eq:solution/det/691} and applying properties of determinants.
+\begin{align}
+\mydet{
+ a&a^2&bc\\
+ b&b^2&ca\\
+ c&c^2&ab}
+ \end{align}
+\begin{align}
+\mydet{
+ a&a^2&bc\\
+ b&b^2&ca\\
+ c&c^2&ab} \xleftrightarrow{R_1\rightarrow aR_1} \frac{1}{a}
+\mydet{
+a^2&a^3&abc\\
+b&b^2&ca\\
+c&c^2&ab
+}\\
+\mydet{
+a^2&a^3&abc\\
+b&b^2&ca\\
+c&c^2&ab
+} \xleftrightarrow{R_2\rightarrow bR_2} \frac{1}{ab}
+\mydet{
+a^2&a^3&abc\\
+b^2&b^3&abc\\
+c&c^2&ab
+}\\
+\mydet{
+a^2&a^3&abc\\
+b^2&b^3&abc\\
+c&c^2&ab
+} \xleftrightarrow{R_3\rightarrow cR_3} \frac{1}{abc}
+\mydet{
+a^2&a^3&abc\\
+b^2&b^3&abc\\
+c^2&c^3&abc
+}\\
+\frac{abc}{abc}\mydet{
+a^2&a^3&1\\
+b^2&b^3&1\\
+c^2&c^3&1
+} \xleftrightarrow{}
+\mydet{
+a^2&a^3&1\\
+b^2&b^3&1\\
+c^2&c^3&1
+}
+\end{align}
+\begin{align}
+\mydet{
+a^2&a^3&1\\
+b^2&b^3&1\\
+c^2&c^3&1
+} \xleftrightarrow{C_2\rightarrow C_3} -
+\mydet{
+a^2&1&a^3\\
+b^2&1&b^3\\
+c^2&1&c^3
+}\xleftrightarrow{C_1\rightarrow C_2}
+\mydet{
+1&a^2&a^3\\
+1&b^2&b^3\\
+1&c^2&c^3
+}
+\end{align}
+The above determinant is equal to right hand side determinant of equation \eqref{eq:solution/det/691}.\\
+Hence proved:
+\begin{align}
+\mydet{
+ a&a^2&bc\\
+ b&b^2&ca\\
+ c&c^2&ab
+} =
+\mydet{
+1&a^2&a^3\\
+1&b^2&b^3\\
+1&c^2&b^3
+}
+\end{align}
+

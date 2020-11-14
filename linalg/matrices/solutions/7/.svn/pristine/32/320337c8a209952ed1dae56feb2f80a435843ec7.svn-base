@@ -1,0 +1,46 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item A complex number $z= a+ib$ where $i= \sqrt{-1}$ is represented in vector notation as $\myvec{a\\b}$. 
+
+
+\item The multiplication of two complex numbers is not same as the multiplication of two vectors. It involves rotation of axes. 
+
+\item Suppose $z_1 = r_1\myvec{\cos\theta_1\\\sin\theta_1}$ and $z_2 = r_2\myvec{\cos\theta_2\\\sin\theta_2}$ be two complex numbers, then $z_1.z_2 = r_1r_2\myvec{\cos(\theta_1+\theta_2)\\\sin(\theta_1+\theta_2)}$. Through vectors and matrices it can be realised through
+\begin{align}
+z_1.z_2 = r_1r_2\myvec{\cos\theta_1&-\sin\theta_1\\\sin\theta_1&\cos\theta_1}\myvec{\cos\theta_2\\\sin\theta_2}
+\end{align} 
+where $\vec{R}$ = $\myvec{\cos\theta_1&-\sin\theta_1\\\sin\theta_1&\cos\theta_1}$ is the rotation matrix.
+
+\item Similarly division of two complex numbers is given by $z_1.z_2^{-1} = \frac{r_1}{r_2}\myvec{\cos(\theta_1-\theta_2)\\\sin(\theta_1-\theta_2)}$ and through matrices multiplication as
+\begin{align}
+z_1.z_2^{-1} = \frac{r_1}{r_2}\myvec{\cos\theta_1&\sin\theta_1\\\sin\theta_1&-\cos\theta_1}\myvec{\cos\theta_2\\\sin\theta_2}
+\end{align} 
+where $\vec{S}$ = $\myvec{\cos\theta_1&\sin\theta_1\\\sin\theta_1&-\cos\theta_1}$ is the rotation matrix.
+
+\item First converting the given vectors in polar form
+\begin{align}
+\frac{\myvec{1\\1}}{\myvec{1\\-1}} &= \frac{\sqrt{2}\myvec{\cos45\degree\\\sin45\degree}}{\sqrt{2}\myvec{\cos(-45\degree)\\\sin(-45\degree)}}
+\end{align} 
+Since this is the division of two complex numbers 
+\begin{align}
+&= \frac{\sqrt{2}}{\sqrt{2}}\myvec{\cos45\degree&\sin45\degree\\\sin45\degree&-\cos45\degree}\myvec{\cos(-45\degree)\\\sin(-45\degree)} \\
+&=1.\myvec{\cos90\degree\\\sin90\degree}
+\end{align}
+The magnitude is 1 and argument is 90\degree.
+
+
+\item Here the numerator can be made a vector by taking y coordinate as 0. Also converting the vectors in polar form
+\begin{align}
+\frac{1}{\myvec{1\\1}} &= \frac{\myvec{1\\0}}{\myvec{1\\1}} \\
+&= \frac{1\myvec{\cos0\degree\\\sin0\degree}}{\sqrt{2}\myvec{\cos45\degree\\\sin45\degree}}
+\end{align}
+Since its a division of two complex numbers, it can solved by
+\begin{align}
+&= \frac{1}{\sqrt{2}}\myvec{\cos0\degree&\sin0\degree\\\sin0\degree&-\cos0\degree}\myvec{\cos(45\degree)\\\sin(45\degree)} \\
+&=1.\myvec{\cos(-45\degree)\\\sin(-45\degree)}
+\end{align}
+The magnitude is $\frac{1}{\sqrt{2}}$ and argument is -45\degree.
+
+\end{enumerate}

@@ -1,0 +1,157 @@
+\item {Proof: } Let 
+\begin{align}
+\vec{O} = \myvec{0\\0}
+\end{align}
+%
+be the circumcentre of $\triangle ABC$ and let $r$ be the radius.  Assuming that
+\begin{align}
+\label{eq:8.5.13_A}
+\vec{A} &= r\myvec{\cos \theta_1\\\sin\theta_1},
+\vec{B} = r\myvec{\cos \theta_2\\\sin\theta_2}
+\\
+\vec{C} &= r\myvec{\cos \theta_3\\\sin\theta_3},
+\vec{D} = k\myvec{\cos \theta_4\\\sin\theta_4}
+\label{eq:8.5.13_Dp}
+\end{align}
+in Fig. \ref{fig:8.5.13_C_circle}, from the given information
+\begin{align}
+ \frac{\brak{\vec{A}-\vec{B}}^T\brak{\vec{A}-\vec{C}}}{\norm{\vec{A}-\vec{B}}\norm{\vec{A}-\vec{C}}} = 
+ \frac{\brak{\vec{D}-\vec{B}}^T\brak{\vec{D}-\vec{C}}}{\norm{\vec{D}-\vec{B}}\norm{\vec{D}-\vec{C}}} 
+\label{eq:8.5.13_inner}
+\end{align}
+\begin{multline}
+\because \brak{\vec{A}-\vec{B}}^T\brak{\vec{A}-\vec{C}} = \norm{\vec{A}}^2 - \vec{A}^T\vec{B}
+\\
+- \vec{B}^T\vec{A}+ \vec{B}^T\vec{C}
+\label{eq:8.5.13_inner_expand}
+\end{multline}
+from \eqref{eq:8.5.13_A}-\eqref{eq:8.5.13_Dp}, \eqref{eq:8.5.13_inner_expand} can be expressed as
+\begin{multline}
+r^2\lsbrak{1 - \cos \brak{\theta_1-\theta_2} }
+\\
+\rsbrak{-  \cos \brak{\theta_1-\theta_3}+ \cos \brak{\theta_2-\theta_3}}
+\\
+=  r^2\brak{1-p_{12}- p_{13}+ p_{23}}
+\label{eq:8.5.13_abc_inner}
+\end{multline}
+which can be expressed as
+\begin{multline}
+2r^2\lsbrak{ \sin^2 \brak{\frac{\theta_1-\theta_2}{2}} }
+\\
++
+\rsbrak{  \sin \brak{\frac{\theta_1-\theta_2}{2}}\sin \brak{\frac{\theta_1+\theta_2}{2} - \theta_3}}
+\\
+= 2r^2 \sin \brak{\frac{\theta_1-\theta_2}{2}} 
+\\
+\times
+\sbrak{\sin \brak{\frac{\theta_1-\theta_2}{2}}
+ + \sin \brak{\frac{\theta_1+\theta_2}{2} - \theta_3}}
+\\
+= 4r^2 \sin \brak{\frac{\theta_1-\theta_2}{2}} 
+\\
+\times \sin \brak{\frac{\theta_1-\theta_3}{2}} \cos \brak{\frac{\theta_2-\theta_3}{2}}
+\label{eq:8.5.13_abc_innercos}
+\end{multline}
+%
+Similarly, 
+\begin{multline}
+ \brak{\vec{D}-\vec{B}}^T\brak{\vec{D}-\vec{C}} = \norm{\vec{D}}^2 - \vec{D}^T\vec{B}
+\\
+- \vec{B}^T\vec{D}+ \vec{B}^T\vec{C}
+\end{multline}
+which can be expressed using \eqref{eq:8.5.13_A}-\eqref{eq:8.5.13_Dp} as
+\begin{multline}
+ k^2 -rk \cos\brak{\theta_2-\theta_4}
+\\
+-rk \cos\brak{\theta_3-\theta_4}+r^2 \cos\brak{\theta_2-\theta_3}
+\\
+=  k^2 -rk p_{24}-rk p_{34}+r^2  p_{23}
+\label{eq:8.5.13_inner_dexpand}
+\end{multline}
+%
+Similarly, 
+\begin{align}
+\norm{\vec{A}-\vec{B}}^2 &= 2r^2\sbrak{1 -  \cos \brak{\theta_1-\theta_2} } 
+\\
+&= 2r^2\brak{1 - p_{12}}
+\label{eq:8.5.13_inner_normab}
+\\
+&=2 \sin^2 \brak{\frac{\theta_1-\theta_2}{2}} 
+\label{eq:8.5.13_inner_normabcos}
+\\
+\norm{\vec{A}-\vec{C}}^2 &= 2r^2\sbrak{1 -  \cos \brak{\theta_1-\theta_3} } 
+\\
+&= 2r^2\brak{1 - p_{13}}
+\label{eq:8.5.13_inner_normac}
+\\
+&=2 \sin^2 \brak{\frac{\theta_1-\theta_3}{2}} 
+\label{eq:8.5.13_inner_normaccos}
+\\
+\norm{\vec{D}-\vec{B}}^2 &= k^2 + r^2 - 2kr \cos\brak{\theta_2-\theta_4} 
+\\
+&= k^2+r^2 - 2kr p_{24}
+\label{eq:8.5.13_inner_normdb}
+\\
+\norm{\vec{D}-\vec{C}}^2 &= k^2 + r^2 - 2kr \cos\brak{\theta_3-\theta_4} 
+\\
+&= k^2+r^2 - 2kr p_{34}
+\label{eq:8.5.13_inner_normdc}
+\end{align}
+%
+Substituting from \eqref{eq:8.5.13_inner_dexpand}, \eqref{eq:8.5.13_abc_inner},
+\eqref{eq:8.5.13_inner_normab},
+\eqref{eq:8.5.13_inner_normac},
+\eqref{eq:8.5.13_inner_normdb},
+\eqref{eq:8.5.13_inner_normdc}
+ in \eqref{eq:8.5.13_inner}, 
+\begin{multline}
+\frac{r^2\brak{1-p_{12}- p_{13}+ p_{23}}}{\sqrt{2r^2\brak{1 - p_{12}}}\sqrt{2r^2\brak{1 - p_{13}}}} 
+\\
+= \frac{k^2 -rk p_{24}-rk p_{34}+r^2  p_{23}}{\sqrt{k^2+r^2 - 2kr p_{24}}\sqrt{k^2+r^2 - 2kr p_{34}}}
+\end{multline}
+which can be expressed as 
+\begin{multline}
+\frac{1-p_{12}- p_{13}+ p_{23}}{2\sqrt{\brak{1 - p_{12}}\brak{1 - p_{13}}}}
+\\
+= \frac{x^2 -x p_{24}-x p_{34}+  p_{23}}{\sqrt{\brak{x^2+1 - 2x p_{24}}\brak{x^2+1 - 2x p_{34}}}}
+\label{eq:8.5.13_inner_x}
+\end{multline}
+upon substituting
+\begin{align}
+x =\frac{k}{r}.
+\label{eq:8.5.13_xkr}
+\end{align}
+From \eqref{eq:8.5.13_abc_innercos}, \eqref{eq:8.5.13_inner_normabcos}
+and \eqref{eq:8.5.13_inner_normaccos},
+\begin{multline}
+\frac{1-p_{12}- p_{13}+ p_{23}}{2\sqrt{\brak{1 - p_{12}}\brak{1 - p_{13}}}} 
+\\
+= \cos \brak{\frac{\theta_2-\theta_3}{2}}
+\label{eq:8.5.13_inner_123}
+\end{multline}
+Similarly, it can be shown that
+\begin{multline}
+\frac{1-p_{24}- p_{34}+ p_{23}}{2\sqrt{\brak{1 - p_{24}}\brak{1 - p_{34}}}} 
+\\
+= \cos \brak{\frac{\theta_2-\theta_3}{2}}
+\label{eq:8.5.13_inner_234}
+\end{multline}
+From \eqref{eq:8.5.13_inner_123} and \eqref{eq:8.5.13_inner_234}, \eqref{eq:8.5.13_inner_x}
+can be expressed as
+\begin{multline}
+\frac{1-p_{24}- p_{34}+ p_{23}}{2\sqrt{\brak{1 - p_{24}}\brak{1 - p_{34}}}} 
+\\
+= \frac{x^2 -x p_{24}-x p_{34}+  p_{23}}{\sqrt{\brak{x^2+1 - 2x p_{24}}\brak{x^2+1 - 2x p_{34}}}}
+\label{eq:8.5.13_inner_x23}
+\end{multline}
+It is obvious that 
+\begin{align}
+x = 1
+\end{align}
+%
+is a solution of \eqref{eq:8.5.13_inner_x23}
+\begin{align}
+\implies k = r
+\end{align}
+from \eqref{eq:8.5.13_xkr}.
+

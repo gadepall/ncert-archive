@@ -1,0 +1,161 @@
+The  following Python code generates Fig. \ref{fig:tri_geo_8_tri_sss_py}
+%
+\begin{lstlisting}
+codes/triangle.py
+\end{lstlisting}
+%\renewcommand{\theequation}{\theenumi}
+%\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+%\numberwithin{equation}{enumi}
+%\item The figure for the triangle obtained in the question looks like Fig. \ref{fig:tri_geo_8_tri_right_angle}.
+%%with angles $\phase{ A},\phase{ C}$ and $\phase{ B}$ and sides $a, b$ and $c$.  The unique feature of this triangle is $\phase{ C}$ which is defined to be $90\degree$.
+%with vertices A,B and C
+%
+%
+%%\renewcommand{\thefigure}{\theenumi.\arabic{figure}}
+%\begin{figure}[!ht]
+%\centering
+%\resizebox{\columnwidth}{!}{\input{./solutions/8/figs/triangle.tex}}
+%\caption{Scalene Triangle by Latex-Tikz}
+%\label{fig:tri_geo_8_tri_right_angle}	
+%\end{figure}
+%%
+%%
+%%\renewcommand{\thefigure}{\theenumi}
+%%
+%\item List the design parameters for construction
+%\label{const:table1}
+%\\
+%\solution See Table. \ref{table:table1}. 
+%%
+%\begin{table}[ht!]
+%\centering
+%%\begin{tabular}{ |p{3cm}|p{3cm}|  }
+%%\hline
+%% \multicolumn{2}{|c|}{Initial Input Values.} \\
+%%\hline
+%%a & 4\\
+%%\hline
+%%b & 3\\
+%%\hline
+%%$\phase{(ACB)$ & $90^{\circ}$ \\
+%%\hline
+%%\end{tabular}
+%\input{./solutions/8/tables/inp.tex}
+%\caption{To construct $\triangle ABC$}
+%\label{table:table1}	
+%\end{table}
+%
+%%\item
+%%	For simplicity, let the greek letter $\alpha = \phase{ B$.  We have the following definitions.
+%%\begin{equation}
+%%\label{eq:tri_trig_defs}
+%%\begin{matrix}
+%	%\sin \theta = \frac{b}{c} & 	\cos \theta = \frac{a}{c} \\
+%	%\tan \theta = \frac{c}{a} & \cot \theta = \frac{1}{\tan \theta} \\
+%	%\csc \theta = \frac{1}{\sin \theta} & \sec \theta = \frac{1}{\cos \theta}
+%	%\end{equation}
+%%
+%\item Find the coordinates of the various points in Fig. \ref{fig:tri_geo_8_tri_right_angle}
+%\label{const:tri_right_angle}
+%\\
+%
+%\solution 
+From the given information, 
+%$\triangle ABC$ are 
+\begin{align}
+\label{eq:constr_a}
+\vec{A} &= \myvec{4\\-6} 
+\\
+\vec{B} &= \myvec{3\\-2}, 
+\label{eq:constr_b}
+\\
+\vec{C} &= \myvec{5\\2}
+\label{eq:constr_c}
+\end{align}
+$\because \vec{M}$ is the midpoint of $AB$,
+\begin{align}
+\vec{M}= \frac{\vec{A}+\vec{B}}{2} = \frac{1}{2}\myvec{7\\-8}
+\label{eq:constr_m}
+\end{align}
+
+$\because \vec{N}$ is the midpoint of $BC$,
+\begin{align}
+\vec{N}= \frac{\vec{B}+\vec{C}}{2} = \frac{1}{2}\myvec{8\\0}
+\label{eq:constr_n}
+\end{align}
+
+$\because \vec{P}$ is the midpoint of $CA$,
+\begin{align}
+\vec{P}= \frac{\vec{C}+\vec{A}}{2} = \frac{1}{2}\myvec{9\\-4}
+\label{eq:constr_p}
+\end{align}
+%
+%Also, $\vec{M}$ is given to be the midpoint of $C$.  Hence, 
+%\begin{align}
+%\vec{M}&= \frac{\vec{C}+\vec{D}}{2}
+%\\
+%\implies \vec{D} &= 2 \vec{M} - \vec{C} = \myvec{a\\b}
+%\label{eq:constr_d}
+%\end{align}
+%
+%The values are listed in 
+%%\item List the  derived values.
+%%\label{const:table2}
+%%\\
+%%\solution See  
+%Table. \ref{table:table2} 
+%\begin{table}[ht!]
+%\centering
+%\begin{tabular}{ |p{3cm}|p{3cm}|  }
+%\hline
+% \multicolumn{2}{|c|}{Derived Values.} \\
+%\hline
+%$\vec{M}$ & $$\begin{pmatrix}3.5\\-4\end{pmatrix}$$\\						
+%\hline
+%$\vec{N}$ & $$\begin{pmatrix}4\\0\end{pmatrix} $$\\
+%\hline
+%$\vec{P}$ & $$\begin{pmatrix}4.5\\-2\end{pmatrix} $$\\
+%\hline
+%\end{tabular}
+%\caption{To get Mid-points of $\triangle ABC$}
+%\label{table:table2}
+%\end{table}
+%
+%\item Draw Fig. \ref{fig:tri_geo_8_tri_right_angle}.	
+%\\
+%\solution 
+
+The  following Python code verifies the determinant values.
+
+\begin{lstlisting}
+codes/determinant_check.py
+\end{lstlisting}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./solutions/8/figs/triangle.eps}
+\caption{Triangle generated using python}
+\label{fig:tri_geo_8_tri_sss_py}
+\end{figure}
+
+%
+%and the equivalent latex-tikz code generating Fig. \ref{fig:tri_geo_8_tri_right_angle} is 
+%\begin{lstlisting}
+%figs/triangle.tex
+%\end{lstlisting}
+%
+%The above latex code can be compiled as a standalone document as
+%\begin{lstlisting}
+%figs/triangle_fig.tex
+%\end{lstlisting}
+
+%
+
+%
+
+%
+%
+
+%\end{enumerate}
+
+

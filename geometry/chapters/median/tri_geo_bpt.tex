@@ -1,0 +1,69 @@
+%
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+%\item	The line AD in Fig. \ref{fig:tri_median_def} that divides the side $a$ in two equal halfs is known as the median.
+%
+%\begin{figure}[!ht]
+%	\begin{center}
+%	\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_median_def.tex}}
+%	\end{center}
+%	\caption{Median of a Triangle}
+%	\label{fig:tri_median_def}	
+%\end{figure}
+%
+%
+%\\
+%
+
+\item Draw Fig. \ref{fig:tri_med_sim}	 with $a=5$, $b=6$  and $c=4$.  $\vec{E}$ and $\vec{F}$ are the mid points of $AC$ and $AB$ respectively.
+\label{const:tri_median_def}
+\solution Using \eqref{eq:tri_section_formula}, 
+\begin{align}
+\vec{E} &= \frac{\vec{A} + \vec{C}}{2}  
+\\
+\vec{F} &= \frac{\vec{A} + \vec{B}}{2}  
+\end{align}
+%
+The  latex-tikz code is
+%
+\begin{lstlisting}
+figs/triangle/tri_med_sim.tex
+\end{lstlisting}
+\item
+	In Fig. \ref{fig:tri_med_sim}, $BE$ and $CF$ are the medians.  show that $EF = \frac{a}{2}$.  
+
+%
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_med_sim.tex}}
+	\end{center}
+	\caption{Similar Triangles}
+	\label{fig:tri_med_sim}	
+\end{figure}
+
+\solution Using the cosine formula for $\triangle AEF$,
+%
+\begin{align}
+EF^2 &= \brak{\frac{b}{2}}^2 + \brak{\frac{c}{2}}^2 - 2 \brak{\frac{b}{2}}\brak{\frac{c}{2}} \cos A \\
+&= \frac{b^2 + c^2 - 2bc \cos A}{4} \\
+&= \frac{a^2}{4} \\
+\Rightarrow EF &= \frac{a}{2}
+\end{align}
+%
+
+\item
+	The ratio of sides of triangles AEF and ABC is the same.  Such triangles are known as similar triangles.
+
+\item
+	Show that similar triangles have the same angles.
+
+\solution Use cosine formula and the proof is trivial.
+\item	Show that in Fig. \ref{fig:tri_med_sim}, $EF || BC$.
+
+\solution Since $\triangle AEF \sim \triangle ABC$, $\angle AEF = \angle ACB$.  Hence the line $EF||BC$
+%
+\item The line joining the mid points of two sides of a triangle is parallel to the third side.  This is known as the {\em basic proportionality theorem}.
+\label{them:tri_med_bpt}
+\end{enumerate}

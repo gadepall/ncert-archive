@@ -1,0 +1,58 @@
+Let $\vec{a}$ and $\vec{b}$ be columns of a $\vec{A}$. Then, the matrix $\vec{A}$ can be decomposed in the form as:
+\begin{align}
+ \vec{A} = \vec{QR} 
+\end{align}
+such that  
+\begin{align}
+	& \vec{Q}\vec{Q}^T= \vec{Q}^T\vec{Q} = \vec{I} \\ 
+	& \vec{Q} = \myvec{\vec{u_1} & \vec{u_2}}  \\
+	& \vec{R} = \myvec{k_1 & r_1 \\ 0 & k_2} 
+\end{align}
+where
+\begin{align}
+& k_1 = \norm{\vec{a}} \label{eq:solutions/4/1/39/1} \\
+& \vec{u_1} = \frac{\vec{a}}{k_1} \label{eq:solutions/4/1/39/2} \\
+& r_1 = \frac{\vec{u_1}^T\vec{b}}{\norm{\vec{u_1}}^2} \label{eq:solutions/4/1/39/3} \\
+& \vec{u_2} = \frac{\vec{b}-r_1\vec{u_1}}{\norm{\vec{b}-r_1\vec{u_1}}} \label{eq:solutions/4/1/39/4} \\
+& k_2 = \vec{u_2}^T\vec{b} \label{eq:solutions/4/1/39/5}
+\end{align}
+Then, the matrix can be represented as 
+\begin{align}
+	\myvec{\vec{a} & \vec{b} } = \myvec{\vec{u_1} & \vec{u_2}}\myvec{k_1 & r_1 \\ 0 & k_2} \label{eq:solutions/4/1/39/6}
+\end{align}
+Let $\vec{A}$ be the given matrix. Then $\vec{A} = \myvec{1 & 3 \\ 2 & 4}$ and columns of $\vec{A}$ are $\vec{a}$ and $\vec{b}$, where
+\begin{align}
+	\vec{a} = \myvec{ 1 \\ 2} \\
+	\vec{b} = \myvec{ 3 \\ 4}
+\end{align}
+Now, for given matrix from \eqref{eq:solutions/4/1/39/1} and \eqref{eq:solutions/4/1/39/2}, we have
+\begin{align}
+&	k_1 = \norm{\vec{a}} = \sqrt{5} \\
+&	\vec{u_1} = \frac{1}{\sqrt{5}}\myvec{1 \\ 2}
+\end{align}
+By, \eqref{eq:solutions/4/1/39/3}, we find
+\begin{align}
+	r_1 = \frac{\frac{1}{\sqrt{5}}\myvec{1 & 2}\myvec{3 \\ 4}}{1} =\frac{11}{\sqrt{5}}
+\end{align}
+Now, by \eqref{eq:solutions/4/1/39/4}
+\begin{align}
+	\vec{u_2} = \frac{\myvec{3 \\ 4}- \frac{11}{5}\myvec{1 \\2}}{\norm{\myvec{3 \\ 4}- \frac{11}{5}\myvec{1 \\2}}} = \myvec{\frac{2}{\sqrt{5}} \\ \frac{-1}{\sqrt{5}}}
+\end{align}
+From \eqref{eq:solutions/4/1/39/5},
+\begin{align}
+	k_2 = \frac{1}{\sqrt{5}}\myvec{2 & -1}\myvec{3 \\ 4} = \frac{2}{\sqrt{5}}
+\end{align}
+Now,
+\begin{align}
+	\vec{Q} = \myvec{\frac{1}{\sqrt{5}} & \frac{2}{\sqrt{5}} \\ \frac{2}{\sqrt{5}} & \frac{-1}{\sqrt{5}} } 
+\end{align}
+Now, we observe that $\vec{Q}$$\vec{Q}^T$ = $\vec{Q}^T$$\vec{Q}$ = $\vec{I}$
+\begin{multline}
+	\myvec{\frac{1}{\sqrt{5}} & \frac{2}{\sqrt{5}} \\ \frac{2}{\sqrt{5}} & \frac{-1}{\sqrt{5}}} \myvec{\frac{1}{\sqrt{5}} & \frac{2}{\sqrt{5}} \\ \frac{2}{\sqrt{5}} & \frac{-1}{\sqrt{5}}} = \myvec{\frac{1}{\sqrt{5}} & \frac{2}{\sqrt{5}} \\ \frac{2}{\sqrt{5}} & \frac{-1}{\sqrt{5}}} \myvec{\frac{1}{\sqrt{5}} & \frac{2}{\sqrt{5}} \\ \frac{2}{\sqrt{5}} & \frac{-1}{\sqrt{5}}} = \\ 
+	\myvec{1 & 0 \\ 0 & 1}
+\end{multline}
+Now, by \eqref{eq:solutions/4/1/39/6} we can wrie matrix $\vec{A}$ as
+\begin{align}
+	\myvec{1 & 3 \\ 2 & 4 }= \myvec{\frac{1}{\sqrt{5}} & \frac{2}{\sqrt{5}} \\ \frac{2}{\sqrt{5}} & \frac{-1}{\sqrt{5}}}\myvec{\sqrt{5} & \frac{11}{\sqrt{5}} \\ 0 & \frac{2}{\sqrt{5}}}
+\end{align}
+which is the required $\vec{QR}$ decomposition of $\vec{A}$.

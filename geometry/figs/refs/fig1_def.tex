@@ -1,0 +1,22 @@
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+\node (C) at (0, 0)[point,label=below left:$C$] {};
+\node (A) at (0, 3)[point,label=above left:$A$]{};
+\node (D) at (3, 3)[point,label=above right:$D$]{};
+\node (B) at (3, 0)[point,label=below right:$B$]{};
+
+\draw (C)--(A);
+\draw (A)--(D);
+\draw (D)--(B);
+\draw (B)--(C);
+\draw (B)--(A);
+\tkzMarkRightAngle[size=.2](B,C,A)
+\tkzMarkRightAngle[size=.2](A,D,B)
+
+\node [below] at (1.5,0) {$a$};
+\node [above] at (1.5,3) {$a$};
+\node [left] at (0,1.5) {$b$};
+\node [right] at (3,1.5) {$b$};
+
+\end{tikzpicture}

@@ -1,0 +1,82 @@
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\begin{enumerate}
+\item
+The figure for a circle obtained in the question looks like Fig. \ref{fig:stepthreetex}, with radius $\vec{r}$, center $\vec{O}$ and equal chords $\vec{AB}$ and $\vec{CD}$ whose point of intersection is $\vec{X}$.  
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./figs/step3.tex}}
+\caption{Circle by Latex-Tikz}
+\label{fig:stepthreetex}	
+\end{figure}
+
+\item 
+Two chords $\vec{AB}$ and $\vec{CD}$ are said to be equal if their lengths are the same.Hence we need to show that $\|\vec{B}-\vec{A}\| = \|\vec{D}-\vec{C}\|$ to say the two chords are equal.
+\begin{comment}
+The length of a chord is given by 2r$\sin{\frac{\theta}{2}}$, where $\vec{r}$ is the radius and  $\theta$ is the angle subtended by the chord at the center of the circle. Thus in a circle, equal chords subtend equal angles at the center.
+\end{comment}
+\item
+% Let us assume that the two equal chords $\vec{AB}$ and $\vec{CD}$ subtend equal angles of $\theta$ = 90$\degree$ at the center of the circle.
+Let $\theta_1$, $\theta_2$, $\theta_3$ and $\theta_4$ are the angles between x-axis and points $\vec{B}$,$\vec{A}$ ,$\vec{D}$  and $\vec{C}$ respectively.
+
+%\begin{comment}
+The values used for constructing the circle in both Python and \LaTeX{}-Tikz is in Table \ref{table:table1}:\\
+\begin{table}[ht]
+    \begin{center}
+    	\input{./tables/initialtable.tex}
+  \caption{To construct circle O}
+   \label{table:table1}
+   \end{center}	
+\end{table}
+%\end{comment}
+
+
+\item Finding the coordinates of various points of Fig. \ref{fig:stepthreetex}, let 
+\quad $ \vec{O}= \begin{pmatrix}0\\0\end{pmatrix}$
+%  \quad $\vec{A}=\begin{pmatrix}r\cos{\big(\theta _1 + \frac{\pi}{2}\big)}\\r\sin{\big{\theta _1 + \frac{\pi}{2}\big)}\end{pmatrix}$
+
+  \quad $ \vec{B}= \begin{pmatrix}r\cos{\theta _1}\\r\sin{\theta _1}\end{pmatrix}$
+  \quad $\vec{A}=\begin{pmatrix}r\cos{\theta _2}\\r\sin{\theta _2}\end{pmatrix}$
+
+  \quad $ \vec{D}= \begin{pmatrix}r\cos{\theta _3}\\r\sin{\theta _3}\end{pmatrix}$
+  \quad $\vec{C}=\begin{pmatrix}r\cos{\theta _4 }\\r\sin{\theta _4}\end{pmatrix}$
+
+\item As $\vec{OM} and \vec{ON}$ are the perpendiculars from the center of the circle to the chord,which are the midpoints of $\vec{AB}$ and $\vec{CD}$, and are hence represented as:\\
+  \quad $ \vec{M}$ = $\frac{\vec{A+B}}{2}$\quad
+  \quad $ \vec{N}$ = $\frac{\vec{C+D}}{2}$\\ 
+
+
+\item To find the point of intersection $\vec{X}$ of the two chords:\\
+Equations of $\vec{AB}$ and $\vec{CD}$ is represented as
+$\begin{pmatrix}0.74&-2.72\\0.74&2.72\end{pmatrix}\vec{x}$   = $\begin{pmatrix}3.97\\-3.97\end{pmatrix}$
+On solving we get $\vec{x}$ = $\begin{pmatrix}0\\-1.45\end{pmatrix}$\\
+Thus the coordinates of $\vec{X}$ = $\begin{pmatrix}0\\-1.45\end{pmatrix}$\\
+%\begin{comment}
+The derived values used is in Table \ref{table:table2}:
+\begin{table}[ht]
+    \begin{center}
+    	\input{./tables/derivedtable.tex}
+  \caption{To construct circle O}
+   \label{table:table2}
+   \end{center}	
+\end{table}
+%\end{comment}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{enumerate}
+
+\subsubsection*{To Show:}    We need to prove that $\angle{OXD}$ = $\angle{AXO}$.\\

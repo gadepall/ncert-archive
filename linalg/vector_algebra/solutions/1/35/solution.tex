@@ -1,0 +1,96 @@
+\begin{figure}[hb]
+	\centering
+	\centering
+	\resizebox{\columnwidth}{!}{\input{./solutions/1/35/figure}}
+	\caption{$\triangle ABC \text{ and } \triangle PQR$}
+	\label{eq:solutions/1/35/myfig}
+\end{figure}
+Given Condition in the question are:
+\begin{align}
+&AB = PQ\label{eq:solutions/1/35/eq1} \\
+&BC = QR\label{eq:solutions/1/35/eq2} \\
+&AM = PN\label{eq:solutions/1/35/eq3}
+\end{align}
+As M and N are medians of triangle ABC and triangle PQR respectively, we deduce the following:
+\begin{align}
+&\vec{M} = \frac{\vec{B}+\vec{C}}{2} \\
+&\implies 2\vec{M} = \brak{\vec{B+C}}\\
+&\implies\brak{\vec{B-M}} = \brak{\vec{M-C}}\\
+&\implies\norm{\vec{B}-\vec{M}}=\norm{\vec{M}-\vec{C}}\label{eq:solutions/1/35/eq5} \\
+\text{Also}\\
+&\vec{N} = \frac{\vec{Q}+\vec{R}}{2}\label{eq:solutions/1/35/eq6} \\
+&\implies2\vec{N} = \brak{\vec{Q+R}}\\
+&\implies\brak{\vec{Q-N}} = \brak{\vec{N-R}}\\
+&\implies\norm{\vec{Q}-\vec{N}}=\norm{\vec{N}-\vec{R}}\label{eq:solutions/1/35/eq7}
+\end{align}
+Refer\eqref{eq:solutions/1/35/eq5}and \eqref{eq:solutions/1/35/eq7}
+\begin{align}
+&\norm{\vec{B}-\vec{M}}= \norm{\vec{Q}-\vec{N}}
+\end{align}
+Hence in triangle ABM and triangle PQN sides AB,BM and MA are equal to PQ,QN and NP so by SSS congruency criteria 
+\begin{align}
+    \triangle{ABM}\cong\triangle{PQN}\label{eq:solutions/1/35/eqA}
+\end{align}
+Now for proving congruence of triangle ABC and triangle PQR we know that the corresponding angles of congurent triangles are equal and to prove that we make a hypothesis and proceed as follows
+\begin{align}
+\angle ABM = \angle PQN\label{eq:solutions/1/35/eq8} 
+\end{align} 
+and one of the proved condition
+\begin{align}
+  BM=QN\label{eq:solutions/1/35/eq9}  
+\end{align}
+Refer\eqref{eq:solutions/1/35/eq8}\\
+\begin{align}
+\cos \angle ABM=\cos \angle PQN    
+\end{align}
+\begin{align}
+\frac{\left( \vec{ B - A} \right)^T  \left( \vec{B - M } \right)}{\norm{\vec{ B - A}} \norm{\vec{B - M}}}=\frac{\left( \vec{ Q - P} \right)^T  \left( \vec{Q - N} \right)}{\norm{\vec{ Q - P}} \norm{\vec{Q - N}}}
+\end{align}
+Equating \eqref{eq:solutions/1/35/eq9}
+\begin{multline}
+\label{eq:solutions/1/35/eq10} 
+\implies\frac{\left( \vec{ B - A} \right)^T  \left( \vec{B - M} \right)}{\norm{\vec{ B - A}}}=\\
+\frac{\left( \vec{ Q - P} \right)^T  \left( \vec{Q - N } \right)}{\norm{\vec{ Q - P}}}
+\end{multline}
+It can be shown that
+\begin{multline}
+\label{eq:solutions/1/35/eq11}
+ \left( \vec{ B - A} \right)^T  \left( \vec{B - M} \right)=\\
+ \norm{\vec{A - B}}^2 - \left ( \vec{  A - M  }\right)^T \left( \vec{A - B} \right)
+ \end{multline}
+ \begin{multline}
+ \label{eq:solutions/1/35/eq12}
+ \left( \vec{ Q - P} \right)^T  \left( \vec{ Q- N } \right)=\\
+ \norm{\vec{P - Q}}^2 - \left ( \vec{  P - N  }\right)^T \left( \vec{P - Q} \right)
+\end{multline}
+Substituting \eqref{eq:solutions/1/35/eq11} and \eqref{eq:solutions/1/35/eq12} in \eqref{eq:solutions/1/35/eq10}
+\begin{multline}
+\norm{\vec{A - B}}- \frac{\left( \vec{ A - M} \right)^T \left( \vec{A - B} \right)}{\norm{\vec{ B - A}}} =\\ \norm{\vec{P - Q}}- \frac{\left( \vec{ P - N} \right)^T \left( \vec{P- Q} \right)}{\norm{\vec{ Q - P}}}
+\end{multline}
+\begin{multline}
+\norm{\vec{A - B}}- \norm{\vec{A - M}}\cos\angle BAM =\\  \norm{\vec{P - Q}}- \norm{\vec{P - N}}\cos\angle QPN   
+\end{multline}
+ Refer \eqref{eq:solutions/1/35/eq1} and \eqref{eq:solutions/1/35/eq3}
+\begin{align}
+\norm{\vec{A - B}}= \norm{\vec{P - Q}}
+\end{align}
+\begin{align}
+\norm{\vec{A - M}}= \norm{\vec{P - N}}
+\end{align}
+\begin{align}
+\therefore \cos\angle BAM =  \cos\angle QPN
+\end{align}
+\begin{align}
+\implies \angle BAM = \angle QPN
+\end{align}
+Hence our hypothesis is right as we prove that corresponding angles of congurent triangles are equal. So we get 
+\begin{align}
+\angle ABM=\angle PQN    
+\end{align}
+\begin{align}
+\therefore \angle ABC=\angle PQR    
+\end{align}
+So by applying SAS criteria we conclude that\\
+\begin{align}
+\triangle{ABC}\cong\triangle{PQR}
+\end{align}

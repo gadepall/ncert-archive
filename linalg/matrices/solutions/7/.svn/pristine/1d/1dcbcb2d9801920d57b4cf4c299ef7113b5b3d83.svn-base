@@ -1,0 +1,10 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsubsection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+ \item Find the values of y for which distance between points
+\begin{align}
+P=\myvec{2\\-3}, Q=\myvec{10\\y}
+\end{align}
+is 10 units.
+\end{enumerate}

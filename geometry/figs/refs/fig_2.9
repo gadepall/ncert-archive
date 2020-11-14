@@ -1,0 +1,35 @@
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+\node (E) at (1.5, 1.5)[point,label=above :$E$] {};
+\node (F) at (-1.5, 1.5)[point,label=above :$F$] {};
+\node (A) at (0, 3)[point,label=above :$A$]{};
+\node (B) at (-3, 0)[point,label=below left:$B$]{};
+\node (C) at (3, 0)[point,label=below right:$C$]{};
+\node (a) at (0,0)[point,label=below :$a$] {};
+\node (O) at (0,1)[point,label=below :$O$] {};
+
+\draw (a)--(B);
+\draw (B)--(A);
+\draw (A)--(C);
+\draw (C)--(a);
+\draw (B)--(E);
+\draw (C)--(F);
+\draw (E)--(F);
+\node [above] at (-1.7,1.7) {$c$};
+\node [above] at (1.7,1.7) {$b$};
+\node [above] at (-2.5,.75) {$c/2$};
+\node [above] at (-1,2.1) {$c/2$};
+\node [above] at (2.5,.75) {$b/2$};
+\node [above] at (1,2.1) {$b/2$};
+\node [below] at (1,1.3) {$p$};
+\node [below] at (-1,1.3) {$q$};
+\node [above] at (-.7,.5) {$k_{p}$};
+\node [above] at (.7,.5) {$k_{q}$};
+
+\tkzMarkAngle[size=.3](F,O,B);
+\tkzMarkAngle[size=.3](C,O,E);
+\draw (-0.5,1) node{$\theta$};
+\draw (0.5,1) node{$\theta$};
+
+\end{tikzpicture}

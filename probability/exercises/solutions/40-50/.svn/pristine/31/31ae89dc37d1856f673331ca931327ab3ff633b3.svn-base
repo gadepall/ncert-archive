@@ -1,0 +1,9 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item In a mathematics test given to 15 students, the
+following marks (out of 100) are recorded:\\
+41, 39, 48, 52, 46, 62, 54, 40, 96, 52, 98, 40,
+42, 52, 60\\
+Find the mean, median and mode of this data.
+\end{enumerate}

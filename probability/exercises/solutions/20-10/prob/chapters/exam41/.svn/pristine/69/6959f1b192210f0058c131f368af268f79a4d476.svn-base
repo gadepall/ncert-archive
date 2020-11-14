@@ -1,0 +1,40 @@
+Let X be the random variable denoting the number of times head is obtained when a coin is tossed n times.Then by Binomial distribution,
+\begin{align}
+\pr{X = 1} &= p,
+\\
+\pr{X = k} &= \comb{n}{k}p^k\brak{1-p}^\brak{n-k}, \quad k = 0,\dots, n
+\label{eq:exam41_1}
+\end{align}
+For the given problem, $n = 10$ and $p = 1-p = \frac{1}{2}$ for a fair coin
+\\
+(i)To calculate probability for exactly six heads subsititute k=6 in equation \eqref{eq:exam41_1},
+\begin{align}
+\pr{X = 6}= \comb{10}{6}\frac{1}{2}^10
+\\
+&= \frac{105}{512}
+\label{eq:exam41_2}
+\end{align}
+(ii)Using \eqref{eq:exam41_1}, Probability of obtaining atleast six heads is ,
+\begin{align} 
+\pr{X \geq 6}= \pr{X=6}+\pr{X=7}+\pr{X=8}+\pr{X=9}+\pr{X=10}
+\implies \frac{1}{2}^10\brak{\comb{10}{6}+\comb{10}{7}+\comb{10}{8}+\comb{10}{9}+\comb{10}{10}}
+\\
+&= \frac{193}{512}
+\label{eq:exam41_3}
+\end{align}
+(iii)Probability of obtaining atmost six heads is ,
+\begin{align}
+\pr{X \leq 6}= 1 - \pr{X \geq 6} + \pr{X=6}
+\end{align}
+Substituting \eqref{eq:exam41_2} and \eqref{eq:exam41_2}, 
+\begin{align}
+\pr{X \leq 6}= 1 - \frac{193}{512} +  \frac{105}{512} 
+\\
+&=\frac{53}{64}
+\end{align}
+The python code for the above problem is,
+\begin{lstlisting}
+./prob/codes/exam41.py
+\end{lstlisting}
+Experimental probability is calculated using the number of heads obtained in each of the 1,000,000 random experiments of tossing of 10 coins.
+The code compares the experimental probability to the theoretical probability.As number of experiments increase, the experimental probability approaches the theoritical probability.

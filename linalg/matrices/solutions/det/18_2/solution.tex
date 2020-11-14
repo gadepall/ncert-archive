@@ -1,0 +1,21 @@
+Given determinant:
+\begin{align}
+\Delta =\mydet{y+k&y&y\\y&y+k&y\\y&y&xy+k}
+\end{align}
+Applying transformation:
+\begin{align}
+\xleftrightarrow[]{R_1 \leftarrow R_1+ R_2+ R_3} 
+\mydet{3y+k&3y+k&3y+k\\y&y+k&y\\y&y&y+k}
+\\
+\xleftrightarrow[]{C_2 \leftarrow C_2- C_1} 
+\mydet{3y+k&0&3y+k\\y&k&y\\y&0&y+k}
+\\
+\xleftrightarrow[]{C_3 \leftarrow C_3- C_1} 
+\mydet{3y+k&0&0\\y&k&0\\y&0&k}
+\end{align}
+Taking determinant
+\begin{align}
+\implies\Delta =(3y+k)k^2\\
+\mydet{y+k&y&y\\y&y+k&y\\y&y&xy+k}=k^2(3y+k)
+\end{align}
+Hence proved.

@@ -1,0 +1,3814 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  9 NOV 2020 13:33
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**gvv_ncert_quadratic_forms.tex
+(./gvv_ncert_quadratic_forms.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IE
+EEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen134
+\@IEEEtrantmpdimenB=\dimen135
+\@IEEEtrantmpdimenC=\dimen136
+\@IEEEtrantmpcountA=\count167
+\@IEEEtrantmpcountB=\count168
+\@IEEEtrantmpcountC=\count169
+\@IEEEtrantmptoksA=\toks15
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+03.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1p
+tm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen137
+-- This is a 12 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen138
+\CLASSINFOnormalsizeunitybaselineskip=\dimen139
+\IEEEnormaljot=\dimen140
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <22> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <22> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen141
+\IEEEquantizedlengthdiff=\dimen142
+\IEEEquantizedtextheightdiff=\dimen143
+\IEEEilabelindentA=\dimen144
+\IEEEilabelindentB=\dimen145
+\IEEEilabelindent=\dimen146
+\IEEEelabelindent=\dimen147
+\IEEEdlabelindent=\dimen148
+\IEEElabelindent=\dimen149
+\IEEEiednormlabelsep=\dimen150
+\IEEEiedmathlabelsep=\dimen151
+\IEEEiedtopsep=\skip47
+\c@section=\count170
+\c@subsection=\count171
+\c@subsubsection=\count172
+\c@paragraph=\count173
+\c@IEEEsubequation=\count174
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count175
+\c@table=\count176
+\@IEEEeqnnumcols=\count177
+\@IEEEeqncolcnt=\count178
+\@IEEEsubeqnnumrollback=\count179
+\@IEEEquantizeheightA=\dimen152
+\@IEEEquantizeheightB=\dimen153
+\@IEEEquantizeheightC=\dimen154
+\@IEEEquantizeprevdepth=\dimen155
+\@IEEEquantizemultiple=\count180
+\@IEEEquantizeboxA=\box45
+\@IEEEtmpitemindent=\dimen156
+\IEEEPARstartletwidth=\dimen157
+\c@IEEEbiography=\count181
+\@IEEEtranrubishbin=\box46
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/setspace/se
+tspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/was/gensymb
+.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+) (/data/data/com.termux/files/home/texmf/tex/latex/tmeslatex/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsmath/ams
+text.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsmath/ams
+gen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen158
+))
+(/data/data/com.termux/files/home/texmf/tex/latex/tmeslatex/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen159
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsmath/ams
+opn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count182
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count183
+\leftroot@=\count184
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count185
+\DOTSCASE@=\count186
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen160
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+
+
+Package amsmath Warning: Unable to redefine math accent \hat.
+
+
+Package amsmath Warning: Unable to redefine math accent \check.
+
+
+Package amsmath Warning: Unable to redefine math accent \tilde.
+
+
+Package amsmath Warning: Unable to redefine math accent \acute.
+
+
+Package amsmath Warning: Unable to redefine math accent \grave.
+
+
+Package amsmath Warning: Unable to redefine math accent \dot.
+
+
+Package amsmath Warning: Unable to redefine math accent \ddot.
+
+
+Package amsmath Warning: Unable to redefine math accent \breve.
+
+
+Package amsmath Warning: Unable to redefine math accent \bar.
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+
+Package amsmath Warning: Unable to redefine math accent \mathring.
+
+\macc@depth=\count187
+\c@MaxMatrixCols=\count188
+\dotsspace@=\muskip16
+\c@parentequation=\count189
+\dspbrk@lvl=\count190
+\tag@help=\toks17
+\row@=\count191
+\column@=\count192
+\maxfields@=\count193
+\andhelp@=\toks18
+\eqnshift@=\dimen161
+\alignsep@=\dimen162
+\tagshift@=\dimen163
+\tagwidth@=\dimen164
+\totwidth@=\dimen165
+\lineht@=\dimen166
+\@envbody=\toks19
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amscls/amst
+hm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip53
+\thm@postskip=\skip54
+\thm@headsep=\skip55
+\dth@everypar=\toks26
+) (/data/data/com.termux/files/home/texmf/tex/latex/iithtlc/iithtlc.sty
+Package: iithtlc 10/04/2016 IITH TLC
+
+(/data/data/com.termux/files/home/texmf/tex/latex/tmeslatex/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics/ke
+yval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks27
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics/gr
+aphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics/tr
+ig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics-cf
+g/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 105.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics-de
+f/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+))
+\Gin@req@height=\dimen167
+\Gin@req@width=\dimen168
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ma
+thrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/txf
+onts.sty
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+\symAMSa=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 591.
+LaTeX Info: Redefining \not on input line 1043.
+LaTeX Info: Redefining \textsquare on input line 1063.
+LaTeX Info: Redefining \openbox on input line 1064.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/sttools/stf
+loats.sty
+Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip sett
+ings
+\@dblbotnum=\count194
+\c@dblbotnumber=\count195
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/steinmetz/s
+teinmetz.sty
+Package: steinmetz 2009/06/14 v1.0 Steinmetz symbol for electrotechnics
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict
+2e.sty
+Package: pict2e 2019/08/20 v0.3c Improved picture commands (HjG,RN,JT)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict
+2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 119.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics-de
+f/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pict2e/p2e-
+pdftex.def
+File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks28
+\@arclen=\dimen169
+\@arcrad=\dimen170
+\@tempdimd=\dimen171
+)
+\stm@phasebox=\box49
+\stm@phasedp=\skip56
+\stm@phaseht=\skip57
+\stm@phasetot=\skip58
+\stm@phasewd=\skip59
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/bm.st
+y
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup11
+\symboldletters=\mathgroup12
+\symboldsymbols=\mathgroup13
+\symboldlargesymbols=\mathgroup14
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/cite/cite.s
+ty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/cases/cases
+.sty
+Package: cases 2020/03/10 ver 3.1
+\numc@numwid=\dimen172
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/subfig/subf
+ig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/caption/cap
+tion.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/caption/cap
+tion3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen173
+\captionmargin@=\dimen174
+\captionwidth=\dimen175
+\caption@tempdima=\dimen176
+\caption@indent=\dimen177
+\caption@parindent=\dimen178
+\caption@hangindent=\dimen179
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\norma
+lfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace
+ {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptio
+nsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspac
+e \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\nor
+malfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\n
+ormalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONcon
+ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
+\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi 
+\fi  on input line 1082.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count196
+\c@continuedfloat=\count197
+)
+\c@KVtest=\count198
+\sf@farskip=\skip60
+\sf@captopadj=\dimen180
+\sf@capskip=\skip61
+\sf@nearskip=\skip62
+\c@subfigure=\count199
+\c@subfigure@save=\count266
+\c@lofdepth=\count267
+\c@subtable=\count268
+\c@subtable@save=\count269
+\c@lotdepth=\count270
+\sf@top=\skip63
+\sf@bottom=\skip64
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/longt
+able.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip65
+\LTright=\skip66
+\LTpre=\skip67
+\LTpost=\skip68
+\LTchunksize=\count271
+\LTcapwidth=\dimen181
+\LT@head=\box50
+\LT@firsthead=\box51
+\LT@foot=\box52
+\LT@lastfoot=\box53
+\LT@cols=\count272
+\LT@rows=\count273
+\c@LT@tables=\count274
+\c@LT@chunks=\count275
+\LT@p@ftn=\toks29
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/multirow/mu
+ltirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip69
+\multirow@cntb=\count276
+\multirow@dima=\skip70
+\bigstrutjot=\dimen182
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/enumitem/en
+umitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip71
+\enit@outerparindent=\dimen183
+\enit@toks=\toks30
+\enit@inbox=\box54
+\enit@count@id=\count277
+\enitdp@description=\count278
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/mathtools/m
+athtools.sty
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/calc.
+sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count279
+\calc@Bcount=\count280
+\calc@Adimen=\dimen184
+\calc@Bdimen=\dimen185
+\calc@Askip=\skip72
+\calc@Bskip=\skip73
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count281
+\calc@Cskip=\skip74
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/mathtools/m
+hsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+
+LaTeX Warning: You have requested, on input line 117, version
+               `2016/11/05' of package amsmath,
+               but only version
+               `2000/07/18 v2.13 AMS math features'
+               is available.
+
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count282
+\l_MT_multwidth_dim=\dimen186
+\origjot=\skip75
+\l_MT_shortvdotswithinadjustabove_dim=\dimen187
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen188
+\l_MT_above_intertext_sep=\dimen189
+\l_MT_below_intertext_sep=\dimen190
+\l_MT_above_shortintertext_sep=\dimen191
+\l_MT_below_shortintertext_sep=\dimen192
+\xmathstrut@box=\box55
+\xmathstrut@dim=\dimen193
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/fronten
+dlayer/tikz.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/basicla
+yer/pgf.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/utiliti
+es/pgfrcs.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfutil-common.tex
+\pgfutil@everybye=\toks31
+\pgfutil@tempdima=\dimen194
+\pgfutil@tempdimb=\dimen195
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfutil-common-lists.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfutil-latex.def
+\pgfutil@abb=\box56
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi
+.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfrcs.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.r
+evision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/basicla
+yer/pgfcore.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/systeml
+ayer/pgfsys.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks34
+))
+\pgf@x=\dimen196
+\pgf@y=\dimen197
+\pgf@xa=\dimen198
+\pgf@ya=\dimen199
+\pgf@xb=\dimen256
+\pgf@yb=\dimen257
+\pgf@xc=\dimen258
+\pgf@yc=\dimen259
+\pgf@xd=\dimen260
+\pgf@yd=\dimen261
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count283
+\c@pgf@countb=\count284
+\c@pgf@countc=\count285
+\c@pgf@countd=\count286
+\t@pgf@toka=\toks35
+\t@pgf@tokb=\toks36
+\t@pgf@tokc=\toks37
+\pgf@sys@id@count=\count287
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count288
+\pgfsyssoftpath@bigbuffer@items=\count289
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcol
+or.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics-cf
+g/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmath.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathcalc.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathutil.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathparser.code.tex
+\pgfmath@dimen=\dimen262
+\pgfmath@count=\count290
+\pgfmath@box=\box57
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.basic.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.trigonometric.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.random.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.comparison.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.base.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.round.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.misc.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.integerarithmetics.code.tex)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count291
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfint.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen263
+\pgf@picmaxx=\dimen264
+\pgf@picminy=\dimen265
+\pgf@picmaxy=\dimen266
+\pgf@pathminx=\dimen267
+\pgf@pathmaxx=\dimen268
+\pgf@pathminy=\dimen269
+\pgf@pathmaxy=\dimen270
+\pgf@xx=\dimen271
+\pgf@xy=\dimen272
+\pgf@yx=\dimen273
+\pgf@yy=\dimen274
+\pgf@zx=\dimen275
+\pgf@zy=\dimen276
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen277
+\pgf@path@lasty=\dimen278
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen279
+\pgf@shorten@start@additional=\dimen280
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box58
+\pgf@hbox=\box59
+\pgf@layerbox@main=\box60
+\pgf@picture@serial@count=\count292
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen281
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen282
+\pgf@pt@y=\dimen283
+\pgf@pt@temp=\dimen284
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen285
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen286
+\pgf@sys@shading@range@num=\count293
+\pgf@shadingcount=\count294
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box61
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
+es/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box62
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
+es/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/compati
+bility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen287
+\pgf@nodesepend=\dimen288
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/compati
+bility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/utiliti
+es/pgffor.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/utiliti
+es/pgfkeys.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfkeys.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pg
+fmath.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmath.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmath.code.tex)
+\pgffor@iter=\dimen289
+\pgffor@skip=\dimen290
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/tikz.code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count295
+\pgfplotmarksize=\dimen291
+)
+\tikz@lastx=\dimen292
+\tikz@lasty=\dimen293
+\tikz@lastxsaved=\dimen294
+\tikz@lastysaved=\dimen295
+\tikz@lastmovetox=\dimen296
+\tikz@lastmovetoy=\dimen297
+\tikzleveldistance=\dimen298
+\tikzsiblingdistance=\dimen299
+\tikz@figbox=\box63
+\tikz@figbox@bg=\box64
+\tikz@tempbox=\box65
+\tikz@tempbox@bg=\box66
+\tikztreelevel=\count296
+\tikznumberofchildren=\count297
+\tikznumberofcurrentchild=\count298
+\tikz@fig@count=\count299
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
+es/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count300
+\pgfmatrixcurrentcolumn=\count301
+\pgf@matrix@numberofcolumns=\count302
+)
+\tikz@expandcount=\count303
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/circuitikz/
+circuitikz.sty
+Package: circuitikz 2020/03/22{} The CircuiTikz circuit drawing package version
+ 1.0.2
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowinset=\dimen300
+\pgfarrowlength=\dimen301
+\pgfarrowwidth=\dimen302
+\pgfarrowlinewidth=\dimen303
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarybending.code.tex
+File: tikzlibrarybending.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
+es/pgfmodulebending.code.tex
+File: pgfmodulebending.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
+es/pgfmodulenonlineartransformations.code.tex
+File: pgfmodulenonlineartransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgftransformnonlinearflatness=\dimen304
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/pgflibrarycurvilinear.code.tex
+File: pgflibrarycurvilinear.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@curvilinear@time@a=\dimen305
+\pgf@curvilinear@length@a=\dimen306
+\pgf@curvilinear@length@b=\dimen307
+\pgf@curvilinear@length@c=\dimen308
+\pgf@curvilinear@length@d=\dimen309
+)
+\pgf@arrows@the@rigidity=\dimen310
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryfpu.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryfpu.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
+z/pgfcirc.defines.tex
+\pgf@circ@count@a=\count304
+\pgf@circ@count@b=\count305
+\pgf@circ@count@c=\count306
+\pgf@circ@res@up=\dimen311
+\pgf@circ@res@down=\dimen312
+\pgf@circ@res@zero=\dimen313
+\pgf@circ@res@left=\dimen314
+\pgf@circ@res@right=\dimen315
+\pgf@circ@res@other=\dimen316
+\pgf@circ@res@step=\dimen317
+\pgf@circ@res@temp=\dimen318
+\pgfstartlinewidth=\dimen319
+\pgf@circ@Rlen=\dimen320
+\pgf@circ@scaled@Rlen=\dimen321
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
+z/pgfcircutils.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
+z/pgfcircshapes.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
+z/pgfcircmonopoles.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
+z/pgfcircbipoles.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
+z/pgfcirctripoles.tex
+\pgf@circ@res@count=\count307
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
+z/pgfcircquadpoles.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
+z/pgfcircmultipoles.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
+z/pgfcirclabel.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
+z/pgfcircvoltage.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
+z/pgfcirccurrent.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
+z/pgfcircflow.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/circuitik
+z/pgfcircpath.tex)
+
+Package circuitikz Warning: You did not specify one of the voltage directions:
+(circuitikz)                  oldvoltagedirection, nooldvoltagedirection, 
+(circuitikz)                  RPvoltages or EFvoltages 
+(circuitikz)                Default directions may have changed, 
+(circuitikz)                please check the manual.
+
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/verba
+tim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks43
+\verbatim@line=\toks44
+\verbatim@in@stream=\read3
+) (/data/data/com.termux/files/home/texmf/tex/latex/tfrupee/tfrupee.sty
+Package: tfrupee 2010/12/15 LaTeX Support for the TechFat Rupee symbols by Tech
+Fat (http://techfat.blogspot.com/2010/07/new-open-source-india-rupee-font.html)
+. Adapted for use with TeX by Palle Jorgensen, hamselv(a)pallej.dk
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/hy
+perref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/l
+txcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/iftex/ift
+ex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/
+pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/infwarerr
+/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys
+/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/kvdefinek
+eys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pdfescape
+/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hycolor/hyc
+olor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/letltxmacro
+/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/auxhook/aux
+hook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/kvoptions/k
+voptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen322
+\Hy@linkcounter=\count308
+\Hy@pagecounter=\count309
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd
+1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/intcalc/i
+ntcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/etexcmds/
+etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count310
+Package hyperref Info: Option `breaklinks' set `true' on input line 4421.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count311
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen323
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/bitset/bi
+tset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/bigintcal
+c/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count312
+\Field@Width=\dimen324
+\Fld@charsize=\dimen325
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/atbegshi/
+atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count313
+\c@Item=\count314
+\c@Hfootnote=\count315
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/hp
+dftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/atveryend/a
+tveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count316
+\c@bookmark@seq@number=\count317
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/rerunfilech
+eck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/uniquecou
+nter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip76
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-euclide.sty
+2020/03/03 3.05c tkz-euclide.sty
+Package: tkz-euclide 2020/03/03 3.05c for euclidan geometry 
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-base.sty
+2020/03/03 3.05c tkz-base.sty
+Package: tkz-base 2020/03/03 3.05c tkz-base
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryangles.code.tex
+File: tikzlibraryangles.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\arrowsize=\dimen326
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarybabel.code.tex
+File: tikzlibrarybabel.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarydecorations.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
+es/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen327
+\pgfdecoratedremainingdistance=\dimen328
+\pgfdecoratedinputsegmentcompleteddistance=\dimen329
+\pgfdecoratedinputsegmentremainingdistance=\dimen330
+\pgf@decorate@distancetomove=\dimen331
+\pgf@decorate@repeatstate=\count318
+\pgfdecorationsegmentamplitude=\dimen332
+\pgfdecorationsegmentlength=\dimen333
+)
+\tikz@lib@dec@box=\box67
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/decorations/pgflibrarydecorations.markings.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarydecorations.shapes.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/decorations/pgflibrarydecorations.shapes.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarydecorations.text.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/decorations/pgflibrarydecorations.text.code.tex
+\pgf@lib@dec@text@box=\box68
+)
+\tikz@lib@dec@te@box=\box69
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/decorations/pgflibrarydecorations.pathmorphing.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryintersections.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryintersections.code.tex
+\pgf@intersect@solutions=\count319
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/shapes/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarythrough.code.tex
+File: tikzlibrarythrough.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/numprint/nu
+mprint.sty
+Package: numprint 2012/08/20 v1.39 Print numbers (HH)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/array
+.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen334
+\ar@mcellbox=\box70
+\extrarowheight=\dimen335
+\NC@list=\toks45
+\extratabsurround=\skip77
+\backup@length=\skip78
+\ar@cellbox=\box71
+)
+\c@nprt@mantissa@digitsbefore=\count320
+\c@nprt@mantissa@digitsafter=\count321
+\c@nprt@exponent@digitsbefore=\count322
+\c@nprt@exponent@digitsafter=\count323
+\nprt@digitwidth=\skip79
+\nprt@sepwidth=\skip80
+\nprt@decimalwidth=\skip81
+\nprt@blockwidth=\skip82
+\nprt@digittoks=\toks46
+\nprt@pretoks=\toks47
+\nprt@posttoks=\toks48
+\nprt@thisdigit=\count324
+\nprt@curpos=\count325
+\nprt@rndpos=\count326
+\c@nprt@digitsfirstblock=\count327
+\c@nprt@blockcnt=\count328
+\c@nprt@cntprint=\count329
+ No configuration file `numprint.cfg' found.)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/l3packages/
+xfp/xfp.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/l3kernel/ex
+pl3.sty
+Package: expl3 2020-03-06 L3 programming layer (loader) 
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/l3backend/l
+3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count330
+\l__pdf_internal_box=\box72
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/l3packages/
+xparse/xparse.sty
+Package: xparse 2020-03-06 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count331
+\g__xparse_grabber_int=\count332
+\l__xparse_m_args_int=\count333
+\l__xparse_v_nesting_int=\count334
+)
+Package: xfp 2020-03-06 L3 Floating point unit
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/defpatte
+rn.sty
+Package: defpattern 1994/10/12
+\actioncount=\count335
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic
+.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count336
+\FP@xia=\count337
+\FP@xib=\count338
+\FP@xfa=\count339
+\FP@xfb=\count340
+\FP@rega=\count341
+\FP@regb=\count342
+\FP@regs=\count343
+\FP@times=\count344
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addon
+s.sty
+Package: fp-addons 1995/03/15
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.
+sty
+Package: fp-snap 1995/04/05
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.s
+ty
+Package: fp-exp 1995/04/03
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo
+.sty
+Package: fp-trigo 1995/04/14
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.s
+ty
+Package: fp-pas 1994/08/29
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-rando
+m.sty
+Package: fp-random 1995/02/23
+\FPseed=\count345
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.s
+ty
+Package: fp-eqn 1995/04/03
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.s
+ty
+Package: fp-upn 1996/10/21
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.
+sty
+Package: fp-eval 1995/04/03
+))
+\tkzRadius=\dimen336
+\tkzLength=\dimen337
+\tkz@radi=\dimen338
+\tkz@ax=\dimen339
+\tkz@ay=\dimen340
+\tkz@bx=\dimen341
+\tkz@by=\dimen342
+\tkz@cx=\dimen343
+\tkz@cy=\dimen344
+\tkz@dx=\dimen345
+\tkz@dy=\dimen346
+\tkz@tax=\dimen347
+\tkz@tay=\dimen348
+\tkz@tbx=\dimen349
+\tkz@tby=\dimen350
+\tkz@tcx=\dimen351
+\tkz@tcy=\dimen352
+\tkz@tdx=\dimen353
+\tkz@tdy=\dimen354
+\tkz@cntmk=\count346
+
+Local configuration file tkz-base.cfg found and used
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-base.cfg
+2020/03/03 3.05c tkz-base.cfg
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-tools-modules.tex
+2020/03/03 3.05c tkz-tools-utilities.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-lib-marks.tex
+2020/03/03 3.05c tkz-lib-symbols.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-tools-base.tex
+2020/03/03 3.05c tkz-tools-base.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-tools-utilities.tex
+2020/03/03 3.05c tkz-tools-utilities.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-tools-math.tex
+2020/03/03 3.05c tkz-tools-math.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-tools-text.tex
+2020/03/03 3.05c tkz-tools-text.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-tools-BB.tex
+2020/03/03 3.05c tkz-obj-BB.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-tools-arith.tex
+2020/03/03 3.05c tkz-tools-arith.tex
+File: tkz-tool-arith.tex tkz-tool-arith 3.02 c
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-tools-print.tex
+2020/03/03 3.05c tkz-tools-print.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-tools-misc.tex
+2020/03/03 3.05c tkz-tools-misc.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-obj-axes.tex
+2020/03/03 3.05c tkz-obj-axes.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-obj-grids.tex
+2020/03/03 3.05c tkz-obj-grids.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-obj-marks.tex
+2020/03/03 3.05c tkz-obj-marks.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-obj-points.tex
+2020/03/03 3.05c tkz-obj-points.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-base/tk
+z-obj-rep.tex
+2020/03/03 3.05c tkz-obj-rep.tex
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-tools-intersections.tex
+2020/03/03 3.05c tkz-tools-intersections.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-tools-angles.tex
+2020/03/03 3.05c tkz-tools-angles.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-angles.tex
+2020/03/03 3.05c tkz-tool-eu-angles.tex
+\tkz@arcsize=\dimen355
+\tkz@fillsize=\dimen356
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-arcs.tex
+2020/03/23 3.05c tkz-obj-eu-arcs.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-compass.tex
+2020/03/03 3.05c tkz-obj-eu-compass.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-circles.tex
+2020/03/03 3.05c tkz-obj-eu-circles.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-draw-circles.tex
+2020/03/03 3.05c tkz-obj-eu-draw-circles.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-draw-lines.tex
+2020/03/03 3.05c tkz-obj-eu-draw-lines.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-draw-polygons.tex
+2020/03/03 3.05c tkz-obj-eu-polygons.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-draw-triangles.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-lines.tex
+2020/03/03 3.05c tkz-obj-eu-lines.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-points.tex
+2020/03/03 3.05c tkz-obj-eu-points.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-points-by.tex
+2020/03/03 3.05c tkz-tools-eu-points-by.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-points-rnd.tex
+2020/03/03 3.05c tkz-obj-eu-points-rnd.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-points-with.tex
+2020/03/03 3.05c tkz-obj-eu-points-with.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-polygons.tex
+2020/03/03 3.05c tkz-obj-eu-polygons.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-protractor.tex
+2020/03/03 3.05c tkz-obj-eu-protractor.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-sectors.tex
+2020/03/03 3.05c tkz-obj-eu-sectors.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-show.tex
+2020/03/03 3.05c tkz-obj-eu-show.tex
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide
+/tkz-obj-eu-triangles.tex
+2020/03/03 3.05c tkz-obj-eu-triangles.tex
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/listings/li
+stings.sty
+\lst@mode=\count347
+\lst@gtempboxa=\box73
+\lst@token=\toks49
+\lst@length=\count348
+\lst@currlwidth=\dimen357
+\lst@column=\count349
+\lst@pos=\count350
+\lst@lostspace=\dimen358
+\lst@width=\dimen359
+\lst@newlines=\count351
+\lst@lineno=\count352
+\lst@maxwidth=\dimen360
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/listings/ls
+tmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count353
+\lst@skipnumbers=\count354
+\lst@framebox=\box74
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/listings/li
+stings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/hhlin
+e.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/ifthen
+.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics/ls
+cape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/multi
+col.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count355
+
+
+Package multicol Warning: May not work with the twocolumn option on input line 
+141.
+
+\mult@box=\box75
+\multicol@leftmargin=\dimen361
+\c@unbalance=\count356
+\c@collectmore=\count357
+\doublecol@number=\count358
+\multicoltolerance=\count359
+\multicolpretolerance=\count360
+\full@width=\dimen362
+\page@free=\dimen363
+\premulticols=\dimen364
+\postmulticols=\dimen365
+\multicolsep=\skip83
+\multicolbaselineskip=\skip84
+\partial@page=\box76
+\last@line=\box77
+\maxbalancingoverflow=\dimen366
+\mult@rightbox=\box78
+\mult@grightbox=\box79
+\mult@gfirstbox=\box80
+\mult@firstbox=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\c@minrows=\count361
+\c@columnbadness=\count362
+\c@finalcolumnbadness=\count363
+\last@try=\dimen367
+\multicolovershoot=\dimen368
+\multicolundershoot=\dimen369
+\mult@nat@firstbox=\box119
+\colbreak@box=\box120
+\mc@col@check@num=\count364
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/chngcntr/ch
+ngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+) (./gvv_ncert_quadratic_forms.aux)
+\openout1 = `gvv_ncert_quadratic_forms.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 85.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
+85.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/oml
+txmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 85.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
+85.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/oms
+txsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 85.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
+85.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/omx
+txex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 85.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 8
+5.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
+exa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 8
+5.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1
+txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
+
+-- Lines per column: 50 (exact).
+LaTeX Info: Redefining \celsius on input line 85.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 85.
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 85.
+Package gensymb Info: Using \Omega for \ohm on input line 85.
+
+Package gensymb Warning: Not defining \micro.
+
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/context/base/mkii
+/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count365
+\scratchdimen=\dimen370
+\scratchbox=\box121
+\nofMPsegments=\count366
+\nofMParguments=\count367
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count368
+\MPscratchDim=\dimen371
+\MPnumerator=\count369
+\makeMPintoPDFobject=\count370
+\everyMPtoPDFconversion=\toks51
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pk
+g/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/latexconfig
+/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/caption/ltc
+aption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+ ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box122
+Package hyperref Info: Link coloring OFF on input line 85.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/na
+meref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/refcount/re
+fcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/gettitles
+tring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count371
+)
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \nameref on input line 85.
+ (./gvv_ncert_quadratic_forms.out)
+(./gvv_ncert_quadratic_forms.out)
+\@outlinefile=\write4
+\openout4 = `gvv_ncert_quadratic_forms.out'.
+
+\c@lstlisting=\count372
+\c@theorem=\count373
+\c@problem=\count374
+\c@proposition=\count375
+\c@lemma=\count376
+\c@example=\count377
+\c@rem=\count378
+
+
+pdfTeX warning: pdflatex (file /data/data/com.termux/files/home/texmf/tex/latex
+/logo/iith_logo.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
+on <1.5> allowed
+<iith_logo.pdf, id=39, 359.3425pt x 486.81876pt>
+File: iith_logo.pdf Graphic file (type pdf)
+<use iith_logo.pdf>
+Package pdftex.def Info: iith_logo.pdf  used on input line 241.
+(pdftex.def)             Requested size: 71.86722pt x 97.36201pt.
+LaTeX Font Info:    Calculating math sizes for size <24> on input line 241.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 24
+1.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ur
+sfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
+41.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
+mia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
+41.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
+sya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
+41.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
+syb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
+41.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/utx
+syc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 241.
+<tlc.pdf, id=40, 597.51233pt x 845.0471pt>
+File: tlc.pdf Graphic file (type pdf)
+<use tlc.pdf>
+Package pdftex.def Info: tlc.pdf  used on input line 241.
+(pdftex.def)             Requested size: 143.40588pt x 202.81544pt.
+
+Overfull \hbox (14.40588pt too wide) in paragraph at lines 241--241
+[][] 
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 241.
+File: iith_logo.pdf Graphic file (type pdf)
+<use iith_logo.pdf>
+Package pdftex.def Info: iith_logo.pdf  used on input line 241.
+(pdftex.def)             Requested size: 71.86722pt x 97.36201pt.
+File: tlc.pdf Graphic file (type pdf)
+<use tlc.pdf>
+Package pdftex.def Info: tlc.pdf  used on input line 241.
+(pdftex.def)             Requested size: 143.40588pt x 202.81544pt.
+
+Overfull \hbox (14.40588pt too wide) in paragraph at lines 241--241
+[][] 
+ []
+
+File: iith_logo.pdf Graphic file (type pdf)
+<use iith_logo.pdf>
+Package pdftex.def Info: iith_logo.pdf  used on input line 241.
+(pdftex.def)             Requested size: 71.86722pt x 97.36201pt.
+File: tlc.pdf Graphic file (type pdf)
+<use tlc.pdf>
+Package pdftex.def Info: tlc.pdf  used on input line 241.
+(pdftex.def)             Requested size: 143.40588pt x 202.81544pt.
+
+Overfull \hbox (14.40588pt too wide) in paragraph at lines 241--241
+[][] 
+ []
+
+(./gvv_ncert_quadratic_forms.toc)
+\tf@toc=\write5
+\openout5 = `gvv_ncert_quadratic_forms.toc'.
+
+ (./circle/circle_geo_exam.tex
+(./solutions/1/chapters/circle/solution2.tex
+
+LaTeX Warning: File `./solutions/1/figs/circle/circle1.eps' not found on input 
+line 13.
+
+Package epstopdf Info: Source file: <./solutions/1/figs/circle/circle1.eps>
+(epstopdf)             Output file: <./solutions/1/figs/circle/circle1-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2020-08-26 15:21:50
+(epstopdf)                    size: 11396 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/1/figs/circle/
+circle1-eps-converted-to.pdf ./solutions/1/figs/circle/circle1.eps>
+(epstopdf)             \includegraphics on input line 13.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/1/figs/circle/circle1-eps-converted-to.pdf, id=44, 462.52798pt x 3
+46.89601pt>
+File: ./solutions/1/figs/circle/circle1-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use ./solutions/1/figs/circle/circle1-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/1/figs/circle/circle1-eps-converted-to.pdf
+  used on input line 13.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+) (./solutions/2/chapters/circle_examp/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+Non-PDF special ignored!
+<special> papersize=614.295pt,794.96999pt
+{/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/map/pdftex/updm
+ap/pdftex.map}
+
+
+ </data/data/com.termux/files/home/texmf/tex/latex/logo/iith_logo.pdf> </data/d
+ata/com.termux/files/home/texmf/tex/latex/logo/tlc.pdf> <./solutions/1/figs/cir
+cle/circle1-eps-converted-to.pdf>]
+
+LaTeX Warning: File `./solutions/2/figs/circle_examp/circle.eps' not found on i
+nput line 23.
+
+Package epstopdf Info: Source file: <./solutions/2/figs/circle_examp/circle.eps
+>
+(epstopdf)             Output file: <./solutions/2/figs/circle_examp/circle-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 8853 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/2/figs/circle_
+examp/circle-eps-converted-to.pdf ./solutions/2/figs/circle_examp/circle.eps>
+(epstopdf)             \includegraphics on input line 23.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/2/figs/circle_examp/circle-eps-converted-to.pdf, id=107, 462.52798
+pt x 346.89601pt>
+File: ./solutions/2/figs/circle_examp/circle-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use ./solutions/2/figs/circle_examp/circle-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/2/figs/circle_examp/circle-eps-converted-t
+o.pdf  used on input line 23.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+) (./solutions/3/chapters/circle1/solution.tex
+
+LaTeX Warning: File `./solutions/3/codes/circle1/pyfigs/circle1.eps' not found 
+on input line 34.
+
+Package epstopdf Info: Source file: <./solutions/3/codes/circle1/pyfigs/circle1
+.eps>
+(epstopdf)             Output file: <./solutions/3/codes/circle1/pyfigs/circle1
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 13099 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/3/codes/circle
+1/pyfigs/circle1-eps-converted-to.pdf ./solutions/3/codes/circle1/pyfigs/circle
+1.eps>
+(epstopdf)             \includegraphics on input line 34.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/3/codes/circle1/pyfigs/circle1-eps-converted-to.pdf, id=112, 462.5
+2798pt x 346.89601pt>
+File: ./solutions/3/codes/circle1/pyfigs/circle1-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use ./solutions/3/codes/circle1/pyfigs/circle1-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/3/codes/circle1/pyfigs/circle1-eps-convert
+ed-to.pdf  used on input line 34.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+) (./solutions/6/chapters/circle/example/solution.tex
+Underfull \vbox (badness 1360) has occurred while \output is active []
+
+ [2 <./solutions/2/figs/circle_examp/circle-eps-converted-to.pdf> <./solutions/
+3/codes/circle1/pyfigs/circle1-eps-converted-to.pdf>]
+
+LaTeX Warning: File `./solutions/6/codes/circle/example/circle.eps' not found o
+n input line 24.
+
+Package epstopdf Info: Source file: <./solutions/6/codes/circle/example/circle.
+eps>
+(epstopdf)             Output file: <./solutions/6/codes/circle/example/circle-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 12709 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/6/codes/circle
+/example/circle-eps-converted-to.pdf ./solutions/6/codes/circle/example/circle.
+eps>
+(epstopdf)             \includegraphics on input line 24.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/6/codes/circle/example/circle-eps-converted-to.pdf, id=195, 526.12
+558pt x 362.7954pt>
+File: ./solutions/6/codes/circle/example/circle-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use ./solutions/6/codes/circle/example/circle-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/6/codes/circle/example/circle-eps-converte
+d-to.pdf  used on input line 24.
+(pdftex.def)             Requested size: 252.0pt x 173.7689pt.
+) (./solutions/1/chapters/circle/solution.tex
+(./solutions/1/tables/circle/inp.tex
+\gnumericTableWidth=\skip85
+\gnumericTableWidthComplete=\skip86
+\gnumericMultiRowLength=\skip87
+\gnumericColA=\skip88
+\gnumericColB=\skip89
+)
+
+LaTeX Warning: File `./solutions/1/figs/circle/circle.eps' not found on input l
+ine 22.
+
+Package epstopdf Info: Source file: <./solutions/1/figs/circle/circle.eps>
+(epstopdf)             Output file: <./solutions/1/figs/circle/circle-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2020-08-26 15:21:51
+(epstopdf)                    size: 13096 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/1/figs/circle/
+circle-eps-converted-to.pdf ./solutions/1/figs/circle/circle.eps>
+(epstopdf)             \includegraphics on input line 22.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/1/figs/circle/circle-eps-converted-to.pdf, id=198, 462.52798pt x 3
+46.89601pt>
+File: ./solutions/1/figs/circle/circle-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use ./solutions/1/figs/circle/circle-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/1/figs/circle/circle-eps-converted-to.pdf 
+ used on input line 22.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+) (./solutions/2/chapters/circle_ex/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./solutions/6/codes/circle/example/circle-eps-converted-to.pdf> <./solutio
+ns/1/figs/circle/circle-eps-converted-to.pdf>]
+
+LaTeX Warning: File `./solutions/2/figs/circle_ex/circumcircle.eps' not found o
+n input line 45.
+
+Package epstopdf Info: Source file: <./solutions/2/figs/circle_ex/circumcircle.
+eps>
+(epstopdf)             Output file: <./solutions/2/figs/circle_ex/circumcircle-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 8557 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/2/figs/circle_
+ex/circumcircle-eps-converted-to.pdf ./solutions/2/figs/circle_ex/circumcircle.
+eps>
+(epstopdf)             \includegraphics on input line 45.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/2/figs/circle_ex/circumcircle-eps-converted-to.pdf, id=280, 462.52
+798pt x 346.89601pt>
+File: ./solutions/2/figs/circle_ex/circumcircle-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use ./solutions/2/figs/circle_ex/circumcircle-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/2/figs/circle_ex/circumcircle-eps-converte
+d-to.pdf  used on input line 45.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+) (./solutions/3/chapters/circle2/solution.tex
+Underfull \hbox (badness 2261) in paragraph at lines 16--18
+\OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
+ []
+
+
+LaTeX Warning: File `./solutions/3/codes/circle2/pyfigs/circle2a.eps' not found
+ on input line 23.
+
+Package epstopdf Info: Source file: <./solutions/3/codes/circle2/pyfigs/circle2
+a.eps>
+(epstopdf)             Output file: <./solutions/3/codes/circle2/pyfigs/circle2
+a-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 11768 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/3/codes/circle
+2/pyfigs/circle2a-eps-converted-to.pdf ./solutions/3/codes/circle2/pyfigs/circl
+e2a.eps>
+(epstopdf)             \includegraphics on input line 23.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/3/codes/circle2/pyfigs/circle2a-eps-converted-to.pdf, id=285, 462.
+52798pt x 346.89601pt>
+File: ./solutions/3/codes/circle2/pyfigs/circle2a-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use ./solutions/3/codes/circle2/pyfigs/circle2a-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/3/codes/circle2/pyfigs/circle2a-eps-conver
+ted-to.pdf  used on input line 23.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \hbox (badness 2261) in paragraph at lines 32--34
+\OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
+ []
+
+
+LaTeX Warning: File `./solutions/3/codes/circle2/pyfigs/circle2b.eps' not found
+ on input line 39.
+
+Package epstopdf Info: Source file: <./solutions/3/codes/circle2/pyfigs/circle2
+b.eps>
+(epstopdf)             Output file: <./solutions/3/codes/circle2/pyfigs/circle2
+b-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 13085 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/3/codes/circle
+2/pyfigs/circle2b-eps-converted-to.pdf ./solutions/3/codes/circle2/pyfigs/circl
+e2b.eps>
+(epstopdf)             \includegraphics on input line 39.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/3/codes/circle2/pyfigs/circle2b-eps-converted-to.pdf, id=289, 462.
+52798pt x 346.89601pt>
+File: ./solutions/3/codes/circle2/pyfigs/circle2b-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use ./solutions/3/codes/circle2/pyfigs/circle2b-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/3/codes/circle2/pyfigs/circle2b-eps-conver
+ted-to.pdf  used on input line 39.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \hbox (badness 2261) in paragraph at lines 49--51
+\OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
+ []
+
+[4 <./solutions/2/figs/circle_ex/circumcircle-eps-converted-to.pdf> <./solution
+s/3/codes/circle2/pyfigs/circle2a-eps-converted-to.pdf>]
+
+LaTeX Warning: File `./solutions/3/codes/circle2/pyfigs/circle2c.eps' not found
+ on input line 56.
+
+Package epstopdf Info: Source file: <./solutions/3/codes/circle2/pyfigs/circle2
+c.eps>
+(epstopdf)             Output file: <./solutions/3/codes/circle2/pyfigs/circle2
+c-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 11617 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/3/codes/circle
+2/pyfigs/circle2c-eps-converted-to.pdf ./solutions/3/codes/circle2/pyfigs/circl
+e2c.eps>
+(epstopdf)             \includegraphics on input line 56.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/3/codes/circle2/pyfigs/circle2c-eps-converted-to.pdf, id=370, 462.
+52798pt x 346.89601pt>
+File: ./solutions/3/codes/circle2/pyfigs/circle2c-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use ./solutions/3/codes/circle2/pyfigs/circle2c-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/3/codes/circle2/pyfigs/circle2c-eps-conver
+ted-to.pdf  used on input line 56.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \hbox (badness 2261) in paragraph at lines 66--68
+\OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
+ []
+
+
+LaTeX Warning: File `./solutions/3/codes/circle2/pyfigs/circle2d.eps' not found
+ on input line 73.
+
+Package epstopdf Info: Source file: <./solutions/3/codes/circle2/pyfigs/circle2
+d.eps>
+(epstopdf)             Output file: <./solutions/3/codes/circle2/pyfigs/circle2
+d-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 11663 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/3/codes/circle
+2/pyfigs/circle2d-eps-converted-to.pdf ./solutions/3/codes/circle2/pyfigs/circl
+e2d.eps>
+(epstopdf)             \includegraphics on input line 73.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/3/codes/circle2/pyfigs/circle2d-eps-converted-to.pdf, id=374, 462.
+52798pt x 346.89601pt>
+File: ./solutions/3/codes/circle2/pyfigs/circle2d-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use ./solutions/3/codes/circle2/pyfigs/circle2d-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/3/codes/circle2/pyfigs/circle2d-eps-conver
+ted-to.pdf  used on input line 73.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \hbox (badness 2261) in paragraph at lines 90--92
+\OT1/txr/m/n/12 The fol-low-ing code sketches the cir-cle
+ []
+
+
+LaTeX Warning: File `./solutions/3/codes/circle2/pyfigs/circle2e.eps' not found
+ on input line 97.
+
+Package epstopdf Info: Source file: <./solutions/3/codes/circle2/pyfigs/circle2
+e.eps>
+(epstopdf)             Output file: <./solutions/3/codes/circle2/pyfigs/circle2
+e-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 12494 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/3/codes/circle
+2/pyfigs/circle2e-eps-converted-to.pdf ./solutions/3/codes/circle2/pyfigs/circl
+e2e.eps>
+(epstopdf)             \includegraphics on input line 97.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/3/codes/circle2/pyfigs/circle2e-eps-converted-to.pdf, id=378, 462.
+52798pt x 346.89601pt>
+File: ./solutions/3/codes/circle2/pyfigs/circle2e-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use ./solutions/3/codes/circle2/pyfigs/circle2e-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/3/codes/circle2/pyfigs/circle2e-eps-conver
+ted-to.pdf  used on input line 97.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+) (./solutions/4/chapters/circle/solution2.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./solutions/3/codes/circle2/pyfigs/circle2b-eps-converted-to.pdf> <./solut
+ions/3/codes/circle2/pyfigs/circle2c-eps-converted-to.pdf> <./solutions/3/codes
+/circle2/pyfigs/circle2d-eps-converted-to.pdf>]
+
+LaTeX Warning: File `./solutions/4/figures/circle/circle2.eps' not found on inp
+ut line 30.
+
+Package epstopdf Info: Source file: <./solutions/4/figures/circle/circle2.eps>
+(epstopdf)             Output file: <./solutions/4/figures/circle/circle2-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2020-08-26 15:21:53
+(epstopdf)                    size: 12320 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/4/figures/circ
+le/circle2-eps-converted-to.pdf ./solutions/4/figures/circle/circle2.eps>
+(epstopdf)             \includegraphics on input line 30.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/4/figures/circle/circle2-eps-converted-to.pdf, id=486, 462.72874pt
+ x 346.29375pt>
+File: ./solutions/4/figures/circle/circle2-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use ./solutions/4/figures/circle/circle2-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/4/figures/circle/circle2-eps-converted-to.
+pdf  used on input line 30.
+(pdftex.def)             Requested size: 252.0pt x 188.5916pt.
+) (./solutions/5/chapters/circle/docq18.tex
+
+LaTeX Warning: File `./solutions/5/figs/circle/q18abc.eps' not found on input l
+ine 19.
+
+Package epstopdf Info: Source file: <./solutions/5/figs/circle/q18abc.eps>
+(epstopdf)             Output file: <./solutions/5/figs/circle/q18abc-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2020-08-26 15:21:53
+(epstopdf)                    size: 13211 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/5/figs/circle/
+q18abc-eps-converted-to.pdf ./solutions/5/figs/circle/q18abc.eps>
+(epstopdf)             \includegraphics on input line 19.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/5/figs/circle/q18abc-eps-converted-to.pdf, id=488, 462.52798pt x 3
+46.89601pt>
+File: ./solutions/5/figs/circle/q18abc-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use ./solutions/5/figs/circle/q18abc-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/5/figs/circle/q18abc-eps-converted-to.pdf 
+ used on input line 19.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \vbox (badness 2970) has occurred while \output is active []
+
+ [6 <./solutions/3/codes/circle2/pyfigs/circle2e-eps-converted-to.pdf> <./solut
+ions/4/figures/circle/circle2-eps-converted-to.pdf> <./solutions/5/figs/circle/
+q18abc-eps-converted-to.pdf>]
+
+LaTeX Warning: File `./solutions/5/figs/circle/q18d.eps' not found on input lin
+e 69.
+
+Package epstopdf Info: Source file: <./solutions/5/figs/circle/q18d.eps>
+(epstopdf)             Output file: <./solutions/5/figs/circle/q18d-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2020-08-26 15:21:54
+(epstopdf)                    size: 8781 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/5/figs/circle/
+q18d-eps-converted-to.pdf ./solutions/5/figs/circle/q18d.eps>
+(epstopdf)             \includegraphics on input line 69.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/5/figs/circle/q18d-eps-converted-to.pdf, id=596, 462.52798pt x 346
+.89601pt>
+File: ./solutions/5/figs/circle/q18d-eps-converted-to.pdf Graphic file (type pd
+f)
+<use ./solutions/5/figs/circle/q18d-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/5/figs/circle/q18d-eps-converted-to.pdf  u
+sed on input line 69.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+) (./solutions/6/chapters/circle/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `./solutions/6/codes/circle/exercise/circle.eps' not found 
+on input line 49.
+
+Package epstopdf Info: Source file: <./solutions/6/codes/circle/exercise/circle
+.eps>
+(epstopdf)             Output file: <./solutions/6/codes/circle/exercise/circle
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 13280 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/6/codes/circle
+/exercise/circle-eps-converted-to.pdf ./solutions/6/codes/circle/exercise/circl
+e.eps>
+(epstopdf)             \includegraphics on input line 49.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/6/codes/circle/exercise/circle-eps-converted-to.pdf, id=602, 526.1
+2558pt x 362.7954pt>
+File: ./solutions/6/codes/circle/exercise/circle-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use ./solutions/6/codes/circle/exercise/circle-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/6/codes/circle/exercise/circle-eps-convert
+ed-to.pdf  used on input line 49.
+(pdftex.def)             Requested size: 252.0pt x 173.7689pt.
+) (./solutions/7/chapters/circle/solution.tex [7 <./solutions/5/figs/circle/q18
+d-eps-converted-to.pdf> <./solutions/6/codes/circle/exercise/circle-eps-convert
+ed-to.pdf>]
+
+LaTeX Warning: File `./solutions/7/figs/circle/circle.eps' not found on input l
+ine 28.
+
+Package epstopdf Info: Source file: <./solutions/7/figs/circle/circle.eps>
+(epstopdf)             Output file: <./solutions/7/figs/circle/circle-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:00
+(epstopdf)                    size: 17267 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/7/figs/circle/
+circle-eps-converted-to.pdf ./solutions/7/figs/circle/circle.eps>
+(epstopdf)             \includegraphics on input line 28.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/7/figs/circle/circle-eps-converted-to.pdf, id=680, 462.72874pt x 3
+47.2975pt>
+File: ./solutions/7/figs/circle/circle-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use ./solutions/7/figs/circle/circle-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/7/figs/circle/circle-eps-converted-to.pdf 
+ used on input line 28.
+(pdftex.def)             Requested size: 252.0pt x 189.13824pt.
+)) (./conics/conics_exam.tex
+(./solutions/2/chapters/conics_example/solution.tex
+
+LaTeX Warning: File `./solutions/2/figs/conics_example/quadratic_equation.eps' 
+not found on input line 49.
+
+Package epstopdf Info: Source file: <./solutions/2/figs/conics_example/quadrati
+c_equation.eps>
+(epstopdf)             Output file: <./solutions/2/figs/conics_example/quadrati
+c_equation-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 7978 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/2/figs/conics_
+example/quadratic_equation-eps-converted-to.pdf ./solutions/2/figs/conics_examp
+le/quadratic_equation.eps>
+(epstopdf)             \includegraphics on input line 49.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/2/figs/conics_example/quadratic_equation-eps-converted-to.pdf, id=
+682, 462.52798pt x 346.89601pt>
+File: ./solutions/2/figs/conics_example/quadratic_equation-eps-converted-to.pdf
+ Graphic file (type pdf)
+<use ./solutions/2/figs/conics_example/quadratic_equation-eps-converted-to.pdf>
+
+Package pdftex.def Info: ./solutions/2/figs/conics_example/quadratic_equation-e
+ps-converted-to.pdf  used on input line 49.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+)
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 14.
+
+(./solutions/3/chapters/conic1/solution.tex
+
+LaTeX Warning: File `./solutions/3/codes/conic1/pyfigs/conic1a.eps' not found o
+n input line 23.
+
+Package epstopdf Info: Source file: <./solutions/3/codes/conic1/pyfigs/conic1a.
+eps>
+(epstopdf)             Output file: <./solutions/3/codes/conic1/pyfigs/conic1a-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 10176 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/3/codes/conic1
+/pyfigs/conic1a-eps-converted-to.pdf ./solutions/3/codes/conic1/pyfigs/conic1a.
+eps>
+(epstopdf)             \includegraphics on input line 23.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/3/codes/conic1/pyfigs/conic1a-eps-converted-to.pdf, id=685, 462.52
+798pt x 346.89601pt>
+File: ./solutions/3/codes/conic1/pyfigs/conic1a-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use ./solutions/3/codes/conic1/pyfigs/conic1a-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/3/codes/conic1/pyfigs/conic1a-eps-converte
+d-to.pdf  used on input line 23.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./solutions/7/figs/circle/circle-eps-converted-to.pdf> <./solutions/2/figs
+/conics_example/quadratic_equation-eps-converted-to.pdf>]
+
+LaTeX Warning: File `./solutions/3/codes/conic1/pyfigs/conic1b.eps' not found o
+n input line 46.
+
+Package epstopdf Info: Source file: <./solutions/3/codes/conic1/pyfigs/conic1b.
+eps>
+(epstopdf)             Output file: <./solutions/3/codes/conic1/pyfigs/conic1b-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 10348 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/3/codes/conic1
+/pyfigs/conic1b-eps-converted-to.pdf ./solutions/3/codes/conic1/pyfigs/conic1b.
+eps>
+(epstopdf)             \includegraphics on input line 46.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/3/codes/conic1/pyfigs/conic1b-eps-converted-to.pdf, id=737, 462.52
+798pt x 346.89601pt>
+File: ./solutions/3/codes/conic1/pyfigs/conic1b-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use ./solutions/3/codes/conic1/pyfigs/conic1b-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/3/codes/conic1/pyfigs/conic1b-eps-converte
+d-to.pdf  used on input line 46.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+)
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 18.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 18.
+
+(./solutions/5/chapters/conics/docq19.tex
+Underfull \hbox (badness 2469) in paragraph at lines 18--1
+[]\OT1/txr/m/n/12 Find the roots of the quadratic equa-tion
+ []
+
+
+LaTeX Warning: File `./solutions/5/figs/conics/q19.eps' not found on input line
+ 24.
+
+Package epstopdf Info: Source file: <./solutions/5/figs/conics/q19.eps>
+(epstopdf)             Output file: <./solutions/5/figs/conics/q19-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2020-08-26 15:21:55
+(epstopdf)                    size: 8039 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/5/figs/conics/
+q19-eps-converted-to.pdf ./solutions/5/figs/conics/q19.eps>
+(epstopdf)             \includegraphics on input line 24.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/5/figs/conics/q19-eps-converted-to.pdf, id=739, 462.52798pt x 346.
+89601pt>
+File: ./solutions/5/figs/conics/q19-eps-converted-to.pdf Graphic file (type pdf
+)
+<use ./solutions/5/figs/conics/q19-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/5/figs/conics/q19-eps-converted-to.pdf  us
+ed on input line 24.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+) (./solutions/6/chapters/conics/example/solution.tex [9 <./solutions/3/codes/c
+onic1/pyfigs/conic1a-eps-converted-to.pdf> <./solutions/3/codes/conic1/pyfigs/c
+onic1b-eps-converted-to.pdf> <./solutions/5/figs/conics/q19-eps-converted-to.pd
+f>]
+
+LaTeX Warning: File `./solutions/6/codes/conics/example/conics.eps' not found o
+n input line 18.
+
+Package epstopdf Info: Source file: <./solutions/6/codes/conics/example/conics.
+eps>
+(epstopdf)             Output file: <./solutions/6/codes/conics/example/conics-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 12189 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/6/codes/conics
+/example/conics-eps-converted-to.pdf ./solutions/6/codes/conics/example/conics.
+eps>
+(epstopdf)             \includegraphics on input line 18.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/6/codes/conics/example/conics-eps-converted-to.pdf, id=824, 526.12
+558pt x 362.7954pt>
+File: ./solutions/6/codes/conics/example/conics-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use ./solutions/6/codes/conics/example/conics-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/6/codes/conics/example/conics-eps-converte
+d-to.pdf  used on input line 18.
+(pdftex.def)             Requested size: 252.0pt x 173.7689pt.
+) (./solutions/1/chapters/conics/solution.tex
+
+LaTeX Warning: File `./solutions/1/figs/conics/parabola1.eps' not found on inpu
+t line 31.
+
+Package epstopdf Info: Source file: <./solutions/1/figs/conics/parabola1.eps>
+(epstopdf)             Output file: <./solutions/1/figs/conics/parabola1-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2020-08-26 15:21:56
+(epstopdf)                    size: 8153 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/1/figs/conics/
+parabola1-eps-converted-to.pdf ./solutions/1/figs/conics/parabola1.eps>
+(epstopdf)             \includegraphics on input line 31.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/1/figs/conics/parabola1-eps-converted-to.pdf, id=827, 462.52798pt 
+x 346.89601pt>
+File: ./solutions/1/figs/conics/parabola1-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use ./solutions/1/figs/conics/parabola1-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/1/figs/conics/parabola1-eps-converted-to.p
+df  used on input line 31.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+LaTeX Warning: File `./solutions/1/figs/conics/parabola2.eps' not found on inpu
+t line 56.
+
+Package epstopdf Info: Source file: <./solutions/1/figs/conics/parabola2.eps>
+(epstopdf)             Output file: <./solutions/1/figs/conics/parabola2-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2020-08-26 15:21:57
+(epstopdf)                    size: 9285 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/1/figs/conics/
+parabola2-eps-converted-to.pdf ./solutions/1/figs/conics/parabola2.eps>
+(epstopdf)             \includegraphics on input line 56.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/1/figs/conics/parabola2-eps-converted-to.pdf, id=829, 462.52798pt 
+x 346.89601pt>
+File: ./solutions/1/figs/conics/parabola2-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use ./solutions/1/figs/conics/parabola2-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/1/figs/conics/parabola2-eps-converted-to.p
+df  used on input line 56.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \vbox (badness 2582) has occurred while \output is active []
+
+ [10 <./solutions/6/codes/conics/example/conics-eps-converted-to.pdf> <./soluti
+ons/1/figs/conics/parabola1-eps-converted-to.pdf>]
+
+LaTeX Warning: File `./solutions/1/figs/conics/parabola3.eps' not found on inpu
+t line 76.
+
+Package epstopdf Info: Source file: <./solutions/1/figs/conics/parabola3.eps>
+(epstopdf)             Output file: <./solutions/1/figs/conics/parabola3-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2020-08-26 15:21:58
+(epstopdf)                    size: 8889 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/1/figs/conics/
+parabola3-eps-converted-to.pdf ./solutions/1/figs/conics/parabola3.eps>
+(epstopdf)             \includegraphics on input line 76.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/1/figs/conics/parabola3-eps-converted-to.pdf, id=903, 462.52798pt 
+x 346.89601pt>
+File: ./solutions/1/figs/conics/parabola3-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use ./solutions/1/figs/conics/parabola3-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/1/figs/conics/parabola3-eps-converted-to.p
+df  used on input line 76.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+LaTeX Warning: File `./solutions/1/figs/conics/parabola4.eps' not found on inpu
+t line 100.
+
+Package epstopdf Info: Source file: <./solutions/1/figs/conics/parabola4.eps>
+(epstopdf)             Output file: <./solutions/1/figs/conics/parabola4-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2020-08-26 15:21:59
+(epstopdf)                    size: 7828 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/1/figs/conics/
+parabola4-eps-converted-to.pdf ./solutions/1/figs/conics/parabola4.eps>
+(epstopdf)             \includegraphics on input line 100.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/1/figs/conics/parabola4-eps-converted-to.pdf, id=905, 462.52798pt 
+x 346.89601pt>
+File: ./solutions/1/figs/conics/parabola4-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use ./solutions/1/figs/conics/parabola4-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/1/figs/conics/parabola4-eps-converted-to.p
+df  used on input line 100.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+) (./solutions/2/chapters/conics_ex/solution.tex [11 <./solutions/1/figs/conics
+/parabola2-eps-converted-to.pdf> <./solutions/1/figs/conics/parabola3-eps-conve
+rted-to.pdf> <./solutions/1/figs/conics/parabola4-eps-converted-to.pdf>]
+
+LaTeX Warning: File `./solutions/2/figs/conics_ex/quadratic_equation_1.eps' not
+ found on input line 32.
+
+Package epstopdf Info: Source file: <./solutions/2/figs/conics_ex/quadratic_equ
+ation_1.eps>
+(epstopdf)             Output file: <./solutions/2/figs/conics_ex/quadratic_equ
+ation_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 8304 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/2/figs/conics_
+ex/quadratic_equation_1-eps-converted-to.pdf ./solutions/2/figs/conics_ex/quadr
+atic_equation_1.eps>
+(epstopdf)             \includegraphics on input line 32.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/2/figs/conics_ex/quadratic_equation_1-eps-converted-to.pdf, id=988
+, 462.52798pt x 346.89601pt>
+File: ./solutions/2/figs/conics_ex/quadratic_equation_1-eps-converted-to.pdf Gr
+aphic file (type pdf)
+<use ./solutions/2/figs/conics_ex/quadratic_equation_1-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/2/figs/conics_ex/quadratic_equation_1-eps-
+converted-to.pdf  used on input line 32.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `./solutions/2/figs/conics_ex/quadratic_equation_2.eps' not
+ found on input line 65.
+
+Package epstopdf Info: Source file: <./solutions/2/figs/conics_ex/quadratic_equ
+ation_2.eps>
+(epstopdf)             Output file: <./solutions/2/figs/conics_ex/quadratic_equ
+ation_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 9305 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/2/figs/conics_
+ex/quadratic_equation_2-eps-converted-to.pdf ./solutions/2/figs/conics_ex/quadr
+atic_equation_2.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/2/figs/conics_ex/quadratic_equation_2-eps-converted-to.pdf, id=990
+, 462.52798pt x 346.89601pt>
+File: ./solutions/2/figs/conics_ex/quadratic_equation_2-eps-converted-to.pdf Gr
+aphic file (type pdf)
+<use ./solutions/2/figs/conics_ex/quadratic_equation_2-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/2/figs/conics_ex/quadratic_equation_2-eps-
+converted-to.pdf  used on input line 65.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+LaTeX Warning: File `./solutions/2/figs/conics_ex/quadratic_equation_3.eps' not
+ found on input line 98.
+
+Package epstopdf Info: Source file: <./solutions/2/figs/conics_ex/quadratic_equ
+ation_3.eps>
+(epstopdf)             Output file: <./solutions/2/figs/conics_ex/quadratic_equ
+ation_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 7316 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/2/figs/conics_
+ex/quadratic_equation_3-eps-converted-to.pdf ./solutions/2/figs/conics_ex/quadr
+atic_equation_3.eps>
+(epstopdf)             \includegraphics on input line 98.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/2/figs/conics_ex/quadratic_equation_3-eps-converted-to.pdf, id=992
+, 462.52798pt x 346.89601pt>
+File: ./solutions/2/figs/conics_ex/quadratic_equation_3-eps-converted-to.pdf Gr
+aphic file (type pdf)
+<use ./solutions/2/figs/conics_ex/quadratic_equation_3-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/2/figs/conics_ex/quadratic_equation_3-eps-
+converted-to.pdf  used on input line 98.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+[12 <./solutions/2/figs/conics_ex/quadratic_equation_1-eps-converted-to.pdf> <.
+/solutions/2/figs/conics_ex/quadratic_equation_2-eps-converted-to.pdf>]
+
+LaTeX Warning: File `./solutions/2/figs/conics_ex/quadratic_equation_4.eps' not
+ found on input line 131.
+
+Package epstopdf Info: Source file: <./solutions/2/figs/conics_ex/quadratic_equ
+ation_4.eps>
+(epstopdf)             Output file: <./solutions/2/figs/conics_ex/quadratic_equ
+ation_4-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 8005 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/2/figs/conics_
+ex/quadratic_equation_4-eps-converted-to.pdf ./solutions/2/figs/conics_ex/quadr
+atic_equation_4.eps>
+(epstopdf)             \includegraphics on input line 131.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/2/figs/conics_ex/quadratic_equation_4-eps-converted-to.pdf, id=105
+9, 462.52798pt x 346.89601pt>
+File: ./solutions/2/figs/conics_ex/quadratic_equation_4-eps-converted-to.pdf Gr
+aphic file (type pdf)
+<use ./solutions/2/figs/conics_ex/quadratic_equation_4-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/2/figs/conics_ex/quadratic_equation_4-eps-
+converted-to.pdf  used on input line 131.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+[]\OT1/txr/m/n/12 The fol-low-ing Python code gen-er-ates
+ []
+
+)
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 51.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 52.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 54.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 54.
+
+(./solutions/3/chapters/conic2/solution.tex
+
+LaTeX Warning: File `./solutions/3/codes/conic2/pyfigs/conic2a.eps' not found o
+n input line 33.
+
+Package epstopdf Info: Source file: <./solutions/3/codes/conic2/pyfigs/conic2a.
+eps>
+(epstopdf)             Output file: <./solutions/3/codes/conic2/pyfigs/conic2a-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 10896 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/3/codes/conic2
+/pyfigs/conic2a-eps-converted-to.pdf ./solutions/3/codes/conic2/pyfigs/conic2a.
+eps>
+(epstopdf)             \includegraphics on input line 33.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/3/codes/conic2/pyfigs/conic2a-eps-converted-to.pdf, id=1067, 462.5
+2798pt x 346.89601pt>
+File: ./solutions/3/codes/conic2/pyfigs/conic2a-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use ./solutions/3/codes/conic2/pyfigs/conic2a-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/3/codes/conic2/pyfigs/conic2a-eps-converte
+d-to.pdf  used on input line 33.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+[13 <./solutions/2/figs/conics_ex/quadratic_equation_3-eps-converted-to.pdf> <.
+/solutions/2/figs/conics_ex/quadratic_equation_4-eps-converted-to.pdf>]
+
+LaTeX Warning: File `./solutions/3/codes/conic2/pyfigs/conic2b.eps' not found o
+n input line 64.
+
+Package epstopdf Info: Source file: <./solutions/3/codes/conic2/pyfigs/conic2b.
+eps>
+(epstopdf)             Output file: <./solutions/3/codes/conic2/pyfigs/conic2b-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 10560 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/3/codes/conic2
+/pyfigs/conic2b-eps-converted-to.pdf ./solutions/3/codes/conic2/pyfigs/conic2b.
+eps>
+(epstopdf)             \includegraphics on input line 64.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/3/codes/conic2/pyfigs/conic2b-eps-converted-to.pdf, id=1140, 462.5
+2798pt x 346.89601pt>
+File: ./solutions/3/codes/conic2/pyfigs/conic2b-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use ./solutions/3/codes/conic2/pyfigs/conic2b-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/3/codes/conic2/pyfigs/conic2b-eps-converte
+d-to.pdf  used on input line 64.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `./solutions/3/codes/conic2/pyfigs/conic2c.eps' not found o
+n input line 95.
+
+Package epstopdf Info: Source file: <./solutions/3/codes/conic2/pyfigs/conic2c.
+eps>
+(epstopdf)             Output file: <./solutions/3/codes/conic2/pyfigs/conic2c-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 10582 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/3/codes/conic2
+/pyfigs/conic2c-eps-converted-to.pdf ./solutions/3/codes/conic2/pyfigs/conic2c.
+eps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/3/codes/conic2/pyfigs/conic2c-eps-converted-to.pdf, id=1144, 462.5
+2798pt x 346.89601pt>
+File: ./solutions/3/codes/conic2/pyfigs/conic2c-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use ./solutions/3/codes/conic2/pyfigs/conic2c-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/3/codes/conic2/pyfigs/conic2c-eps-converte
+d-to.pdf  used on input line 95.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+LaTeX Warning: File `./solutions/3/codes/conic2/pyfigs/conic2d.eps' not found o
+n input line 127.
+
+Package epstopdf Info: Source file: <./solutions/3/codes/conic2/pyfigs/conic2d.
+eps>
+(epstopdf)             Output file: <./solutions/3/codes/conic2/pyfigs/conic2d-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 9877 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/3/codes/conic2
+/pyfigs/conic2d-eps-converted-to.pdf ./solutions/3/codes/conic2/pyfigs/conic2d.
+eps>
+(epstopdf)             \includegraphics on input line 127.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/3/codes/conic2/pyfigs/conic2d-eps-converted-to.pdf, id=1148, 462.5
+2798pt x 346.89601pt>
+File: ./solutions/3/codes/conic2/pyfigs/conic2d-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use ./solutions/3/codes/conic2/pyfigs/conic2d-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/3/codes/conic2/pyfigs/conic2d-eps-converte
+d-to.pdf  used on input line 127.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+)
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 60.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 60.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 62.
+
+[14 <./solutions/3/codes/conic2/pyfigs/conic2a-eps-converted-to.pdf> <./solutio
+ns/3/codes/conic2/pyfigs/conic2b-eps-converted-to.pdf> <./solutions/3/codes/con
+ic2/pyfigs/conic2c-eps-converted-to.pdf>]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 63.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 64.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 64.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 65.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 65.
+
+(./solutions/4/chapters/conics/solution.tex
+
+LaTeX Warning: File `./solutions/4/figures/conics/perabola1.eps' not found on i
+nput line 26.
+
+Package epstopdf Info: Source file: <./solutions/4/figures/conics/perabola1.eps
+>
+(epstopdf)             Output file: <./solutions/4/figures/conics/perabola1-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 9471 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/4/figures/coni
+cs/perabola1-eps-converted-to.pdf ./solutions/4/figures/conics/perabola1.eps>
+(epstopdf)             \includegraphics on input line 26.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./solutions/4/figures/conics/perabola1-eps-conve
+rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
+ allowed
+<./solutions/4/figures/conics/perabola1-eps-converted-to.pdf, id=1245, 462.7287
+4pt x 346.29375pt>
+File: ./solutions/4/figures/conics/perabola1-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use ./solutions/4/figures/conics/perabola1-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/4/figures/conics/perabola1-eps-converted-t
+o.pdf  used on input line 26.
+(pdftex.def)             Requested size: 252.0pt x 188.5916pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `./solutions/4/figures/conics/perabola2.eps' not found on i
+nput line 55.
+
+Package epstopdf Info: Source file: <./solutions/4/figures/conics/perabola2.eps
+>
+(epstopdf)             Output file: <./solutions/4/figures/conics/perabola2-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 9559 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/4/figures/coni
+cs/perabola2-eps-converted-to.pdf ./solutions/4/figures/conics/perabola2.eps>
+(epstopdf)             \includegraphics on input line 55.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./solutions/4/figures/conics/perabola2-eps-conve
+rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
+ allowed
+<./solutions/4/figures/conics/perabola2-eps-converted-to.pdf, id=1246, 462.7287
+4pt x 346.29375pt>
+File: ./solutions/4/figures/conics/perabola2-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use ./solutions/4/figures/conics/perabola2-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/4/figures/conics/perabola2-eps-converted-t
+o.pdf  used on input line 55.
+(pdftex.def)             Requested size: 252.0pt x 188.5916pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <./solutions/3/codes/conic2/pyfigs/conic2d-eps-converted-to.pdf> <./soluti
+ons/4/figures/conics/perabola1-eps-converted-to.pdf> <./solutions/4/figures/con
+ics/perabola2-eps-converted-to.pdf>]
+
+LaTeX Warning: File `./solutions/4/figures/conics/perabola3.eps' not found on i
+nput line 83.
+
+Package epstopdf Info: Source file: <./solutions/4/figures/conics/perabola3.eps
+>
+(epstopdf)             Output file: <./solutions/4/figures/conics/perabola3-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 9729 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/4/figures/coni
+cs/perabola3-eps-converted-to.pdf ./solutions/4/figures/conics/perabola3.eps>
+(epstopdf)             \includegraphics on input line 83.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./solutions/4/figures/conics/perabola3-eps-conve
+rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
+ allowed
+<./solutions/4/figures/conics/perabola3-eps-converted-to.pdf, id=1340, 462.7287
+4pt x 346.29375pt>
+File: ./solutions/4/figures/conics/perabola3-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use ./solutions/4/figures/conics/perabola3-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/4/figures/conics/perabola3-eps-converted-t
+o.pdf  used on input line 83.
+(pdftex.def)             Requested size: 252.0pt x 188.5916pt.
+
+LaTeX Warning: File `./solutions/4/figures/conics/perabola4.eps' not found on i
+nput line 109.
+
+Package epstopdf Info: Source file: <./solutions/4/figures/conics/perabola4.eps
+>
+(epstopdf)             Output file: <./solutions/4/figures/conics/perabola4-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 9156 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/4/figures/coni
+cs/perabola4-eps-converted-to.pdf ./solutions/4/figures/conics/perabola4.eps>
+(epstopdf)             \includegraphics on input line 109.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./solutions/4/figures/conics/perabola4-eps-conve
+rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
+ allowed
+<./solutions/4/figures/conics/perabola4-eps-converted-to.pdf, id=1341, 462.7287
+4pt x 346.29375pt>
+File: ./solutions/4/figures/conics/perabola4-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use ./solutions/4/figures/conics/perabola4-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/4/figures/conics/perabola4-eps-converted-t
+o.pdf  used on input line 109.
+(pdftex.def)             Requested size: 252.0pt x 188.5916pt.
+
+LaTeX Warning: File `./solutions/4/figures/conics/perabola5.eps' not found on i
+nput line 133.
+
+Package epstopdf Info: Source file: <./solutions/4/figures/conics/perabola5.eps
+>
+(epstopdf)             Output file: <./solutions/4/figures/conics/perabola5-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 10178 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/4/figures/coni
+cs/perabola5-eps-converted-to.pdf ./solutions/4/figures/conics/perabola5.eps>
+(epstopdf)             \includegraphics on input line 133.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./solutions/4/figures/conics/perabola5-eps-conve
+rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
+ allowed
+<./solutions/4/figures/conics/perabola5-eps-converted-to.pdf, id=1342, 462.7287
+4pt x 346.29375pt>
+File: ./solutions/4/figures/conics/perabola5-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use ./solutions/4/figures/conics/perabola5-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/4/figures/conics/perabola5-eps-converted-t
+o.pdf  used on input line 133.
+(pdftex.def)             Requested size: 252.0pt x 188.5916pt.
+[16 <./solutions/4/figures/conics/perabola3-eps-converted-to.pdf> <./solutions/
+4/figures/conics/perabola4-eps-converted-to.pdf> <./solutions/4/figures/conics/
+perabola5-eps-converted-to.pdf>]
+
+LaTeX Warning: File `./solutions/4/figures/conics/perabola6.eps' not found on i
+nput line 154.
+
+Package epstopdf Info: Source file: <./solutions/4/figures/conics/perabola6.eps
+>
+(epstopdf)             Output file: <./solutions/4/figures/conics/perabola6-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 10763 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/4/figures/coni
+cs/perabola6-eps-converted-to.pdf ./solutions/4/figures/conics/perabola6.eps>
+(epstopdf)             \includegraphics on input line 154.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./solutions/4/figures/conics/perabola6-eps-conve
+rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
+ allowed
+<./solutions/4/figures/conics/perabola6-eps-converted-to.pdf, id=1443, 462.7287
+4pt x 346.29375pt>
+File: ./solutions/4/figures/conics/perabola6-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use ./solutions/4/figures/conics/perabola6-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/4/figures/conics/perabola6-eps-converted-t
+o.pdf  used on input line 154.
+(pdftex.def)             Requested size: 252.0pt x 188.5916pt.
+) (./solutions/5/chapters/conics/docq20.tex
+
+LaTeX Warning: File `./solutions/5/figs/conics/q20a.eps' not found on input lin
+e 16.
+
+Package epstopdf Info: Source file: <./solutions/5/figs/conics/q20a.eps>
+(epstopdf)             Output file: <./solutions/5/figs/conics/q20a-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2020-08-26 15:22:01
+(epstopdf)                    size: 8738 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/5/figs/conics/
+q20a-eps-converted-to.pdf ./solutions/5/figs/conics/q20a.eps>
+(epstopdf)             \includegraphics on input line 16.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/5/figs/conics/q20a-eps-converted-to.pdf, id=1444, 462.52798pt x 34
+6.89601pt>
+File: ./solutions/5/figs/conics/q20a-eps-converted-to.pdf Graphic file (type pd
+f)
+<use ./solutions/5/figs/conics/q20a-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/5/figs/conics/q20a-eps-converted-to.pdf  u
+sed on input line 16.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
+
+ []
+
+
+LaTeX Warning: File `./solutions/5/figs/conics/q20b.eps' not found on input lin
+e 44.
+
+Package epstopdf Info: Source file: <./solutions/5/figs/conics/q20b.eps>
+(epstopdf)             Output file: <./solutions/5/figs/conics/q20b-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2020-08-26 15:22:02
+(epstopdf)                    size: 8237 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/5/figs/conics/
+q20b-eps-converted-to.pdf ./solutions/5/figs/conics/q20b.eps>
+(epstopdf)             \includegraphics on input line 44.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/5/figs/conics/q20b-eps-converted-to.pdf, id=1447, 462.52798pt x 34
+6.89601pt>
+File: ./solutions/5/figs/conics/q20b-eps-converted-to.pdf Graphic file (type pd
+f)
+<use ./solutions/5/figs/conics/q20b-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/5/figs/conics/q20b-eps-converted-to.pdf  u
+sed on input line 44.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
+
+ []
+
+[17 <./solutions/4/figures/conics/perabola6-eps-converted-to.pdf> <./solutions/
+5/figs/conics/q20a-eps-converted-to.pdf>]
+
+LaTeX Warning: File `./solutions/5/figs/conics/q20c.eps' not found on input lin
+e 63.
+
+Package epstopdf Info: Source file: <./solutions/5/figs/conics/q20c.eps>
+(epstopdf)             Output file: <./solutions/5/figs/conics/q20c-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2020-08-26 15:22:02
+(epstopdf)                    size: 8401 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/5/figs/conics/
+q20c-eps-converted-to.pdf ./solutions/5/figs/conics/q20c.eps>
+(epstopdf)             \includegraphics on input line 63.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/5/figs/conics/q20c-eps-converted-to.pdf, id=1529, 462.52798pt x 34
+6.89601pt>
+File: ./solutions/5/figs/conics/q20c-eps-converted-to.pdf Graphic file (type pd
+f)
+<use ./solutions/5/figs/conics/q20c-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/5/figs/conics/q20c-eps-converted-to.pdf  u
+sed on input line 63.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--72
+
+ []
+
+
+Underfull \vbox (badness 1824) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `./solutions/5/figs/conics/q20d.eps' not found on input lin
+e 82.
+
+Package epstopdf Info: Source file: <./solutions/5/figs/conics/q20d.eps>
+(epstopdf)             Output file: <./solutions/5/figs/conics/q20d-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2020-08-26 15:22:03
+(epstopdf)                    size: 8823 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/5/figs/conics/
+q20d-eps-converted-to.pdf ./solutions/5/figs/conics/q20d.eps>
+(epstopdf)             \includegraphics on input line 82.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/5/figs/conics/q20d-eps-converted-to.pdf, id=1532, 462.52798pt x 34
+6.89601pt>
+File: ./solutions/5/figs/conics/q20d-eps-converted-to.pdf Graphic file (type pd
+f)
+<use ./solutions/5/figs/conics/q20d-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/5/figs/conics/q20d-eps-converted-to.pdf  u
+sed on input line 82.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
+
+ []
+
+
+LaTeX Warning: File `./solutions/5/figs/conics/q20e.eps' not found on input lin
+e 102.
+
+Package epstopdf Info: Source file: <./solutions/5/figs/conics/q20e.eps>
+(epstopdf)             Output file: <./solutions/5/figs/conics/q20e-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2020-08-26 15:22:04
+(epstopdf)                    size: 8356 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/5/figs/conics/
+q20e-eps-converted-to.pdf ./solutions/5/figs/conics/q20e.eps>
+(epstopdf)             \includegraphics on input line 102.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/5/figs/conics/q20e-eps-converted-to.pdf, id=1535, 462.52798pt x 34
+6.89601pt>
+File: ./solutions/5/figs/conics/q20e-eps-converted-to.pdf Graphic file (type pd
+f)
+<use ./solutions/5/figs/conics/q20e-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/5/figs/conics/q20e-eps-converted-to.pdf  u
+sed on input line 102.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--111
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./solutions/5/figs/conics/q20b-eps-converted-to.pdf> <./solutions/5/figs/
+conics/q20c-eps-converted-to.pdf> <./solutions/5/figs/conics/q20d-eps-converted
+-to.pdf>]
+
+LaTeX Warning: File `./solutions/5/figs/conics/q20f.eps' not found on input lin
+e 123.
+
+Package epstopdf Info: Source file: <./solutions/5/figs/conics/q20f.eps>
+(epstopdf)             Output file: <./solutions/5/figs/conics/q20f-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2020-08-26 15:22:05
+(epstopdf)                    size: 8574 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/5/figs/conics/
+q20f-eps-converted-to.pdf ./solutions/5/figs/conics/q20f.eps>
+(epstopdf)             \includegraphics on input line 123.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/5/figs/conics/q20f-eps-converted-to.pdf, id=1608, 462.52798pt x 34
+6.89601pt>
+File: ./solutions/5/figs/conics/q20f-eps-converted-to.pdf Graphic file (type pd
+f)
+<use ./solutions/5/figs/conics/q20f-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/5/figs/conics/q20f-eps-converted-to.pdf  u
+sed on input line 123.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--133
+
+ []
+
+
+Underfull \vbox (badness 3792) has occurred while \output is active []
+
+)
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 82.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 82.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 85.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 86.
+
+(./solutions/6/chapters/conics/solution.tex
+
+LaTeX Warning: File `./solutions/6/codes/conics/exercise/conics_1.eps' not foun
+d on input line 21.
+
+Package epstopdf Info: Source file: <./solutions/6/codes/conics/exercise/conics
+_1.eps>
+(epstopdf)             Output file: <./solutions/6/codes/conics/exercise/conics
+_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 10169 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/6/codes/conics
+/exercise/conics_1-eps-converted-to.pdf ./solutions/6/codes/conics/exercise/con
+ics_1.eps>
+(epstopdf)             \includegraphics on input line 21.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/6/codes/conics/exercise/conics_1-eps-converted-to.pdf, id=1613, 52
+6.12558pt x 362.7954pt>
+File: ./solutions/6/codes/conics/exercise/conics_1-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use ./solutions/6/codes/conics/exercise/conics_1-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/6/codes/conics/exercise/conics_1-eps-conve
+rted-to.pdf  used on input line 21.
+(pdftex.def)             Requested size: 252.0pt x 173.7689pt.
+[19 <./solutions/5/figs/conics/q20e-eps-converted-to.pdf> <./solutions/5/figs/c
+onics/q20f-eps-converted-to.pdf> <./solutions/6/codes/conics/exercise/conics_1-
+eps-converted-to.pdf>]
+
+LaTeX Warning: File `./solutions/6/codes/conics/exercise/conics_2.eps' not foun
+d on input line 44.
+
+Package epstopdf Info: Source file: <./solutions/6/codes/conics/exercise/conics
+_2.eps>
+(epstopdf)             Output file: <./solutions/6/codes/conics/exercise/conics
+_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 10407 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/6/codes/conics
+/exercise/conics_2-eps-converted-to.pdf ./solutions/6/codes/conics/exercise/con
+ics_2.eps>
+(epstopdf)             \includegraphics on input line 44.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/6/codes/conics/exercise/conics_2-eps-converted-to.pdf, id=1699, 52
+6.12558pt x 362.7954pt>
+File: ./solutions/6/codes/conics/exercise/conics_2-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use ./solutions/6/codes/conics/exercise/conics_2-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/6/codes/conics/exercise/conics_2-eps-conve
+rted-to.pdf  used on input line 44.
+(pdftex.def)             Requested size: 252.0pt x 173.7689pt.
+
+LaTeX Warning: File `./solutions/6/codes/conics/exercise/conics_3.eps' not foun
+d on input line 67.
+
+Package epstopdf Info: Source file: <./solutions/6/codes/conics/exercise/conics
+_3.eps>
+(epstopdf)             Output file: <./solutions/6/codes/conics/exercise/conics
+_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 11275 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/6/codes/conics
+/exercise/conics_3-eps-converted-to.pdf ./solutions/6/codes/conics/exercise/con
+ics_3.eps>
+(epstopdf)             \includegraphics on input line 67.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/6/codes/conics/exercise/conics_3-eps-converted-to.pdf, id=1702, 52
+6.12558pt x 362.7954pt>
+File: ./solutions/6/codes/conics/exercise/conics_3-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use ./solutions/6/codes/conics/exercise/conics_3-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/6/codes/conics/exercise/conics_3-eps-conve
+rted-to.pdf  used on input line 67.
+(pdftex.def)             Requested size: 252.0pt x 173.7689pt.
+
+LaTeX Warning: File `./solutions/6/codes/conics/exercise/conics_4.eps' not foun
+d on input line 90.
+
+Package epstopdf Info: Source file: <./solutions/6/codes/conics/exercise/conics
+_4.eps>
+(epstopdf)             Output file: <./solutions/6/codes/conics/exercise/conics
+_4-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 10279 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/6/codes/conics
+/exercise/conics_4-eps-converted-to.pdf ./solutions/6/codes/conics/exercise/con
+ics_4.eps>
+(epstopdf)             \includegraphics on input line 90.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/6/codes/conics/exercise/conics_4-eps-converted-to.pdf, id=1705, 52
+6.12558pt x 362.7954pt>
+File: ./solutions/6/codes/conics/exercise/conics_4-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use ./solutions/6/codes/conics/exercise/conics_4-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/6/codes/conics/exercise/conics_4-eps-conve
+rted-to.pdf  used on input line 90.
+(pdftex.def)             Requested size: 252.0pt x 173.7689pt.
+[20 <./solutions/6/codes/conics/exercise/conics_2-eps-converted-to.pdf> <./solu
+tions/6/codes/conics/exercise/conics_3-eps-converted-to.pdf> <./solutions/6/cod
+es/conics/exercise/conics_4-eps-converted-to.pdf>]
+
+LaTeX Warning: File `./solutions/6/codes/conics/exercise/conics_5.eps' not foun
+d on input line 114.
+
+Package epstopdf Info: Source file: <./solutions/6/codes/conics/exercise/conics
+_5.eps>
+(epstopdf)             Output file: <./solutions/6/codes/conics/exercise/conics
+_5-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:09:59
+(epstopdf)                    size: 11487 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/6/codes/conics
+/exercise/conics_5-eps-converted-to.pdf ./solutions/6/codes/conics/exercise/con
+ics_5.eps>
+(epstopdf)             \includegraphics on input line 114.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/6/codes/conics/exercise/conics_5-eps-converted-to.pdf, id=1807, 52
+6.12558pt x 362.7954pt>
+File: ./solutions/6/codes/conics/exercise/conics_5-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use ./solutions/6/codes/conics/exercise/conics_5-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/6/codes/conics/exercise/conics_5-eps-conve
+rted-to.pdf  used on input line 114.
+(pdftex.def)             Requested size: 252.0pt x 173.7689pt.
+) (./solutions/7/chapters/conics/solution.tex
+
+LaTeX Warning: File `./solutions/7/figs/conics/parabola1.eps' not found on inpu
+t line 19.
+
+Package epstopdf Info: Source file: <./solutions/7/figs/conics/parabola1.eps>
+(epstopdf)             Output file: <./solutions/7/figs/conics/parabola1-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:00
+(epstopdf)                    size: 11906 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/7/figs/conics/
+parabola1-eps-converted-to.pdf ./solutions/7/figs/conics/parabola1.eps>
+(epstopdf)             \includegraphics on input line 19.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/7/figs/conics/parabola1-eps-converted-to.pdf, id=1811, 462.72874pt
+ x 347.2975pt>
+File: ./solutions/7/figs/conics/parabola1-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use ./solutions/7/figs/conics/parabola1-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/7/figs/conics/parabola1-eps-converted-to.p
+df  used on input line 19.
+(pdftex.def)             Requested size: 252.0pt x 189.13824pt.
+
+LaTeX Warning: File `./solutions/7/figs/conics/parabola2.eps' not found on inpu
+t line 38.
+
+Package epstopdf Info: Source file: <./solutions/7/figs/conics/parabola2.eps>
+(epstopdf)             Output file: <./solutions/7/figs/conics/parabola2-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:00
+(epstopdf)                    size: 12532 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/7/figs/conics/
+parabola2-eps-converted-to.pdf ./solutions/7/figs/conics/parabola2.eps>
+(epstopdf)             \includegraphics on input line 38.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/7/figs/conics/parabola2-eps-converted-to.pdf, id=1813, 462.72874pt
+ x 347.2975pt>
+File: ./solutions/7/figs/conics/parabola2-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use ./solutions/7/figs/conics/parabola2-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/7/figs/conics/parabola2-eps-converted-to.p
+df  used on input line 38.
+(pdftex.def)             Requested size: 252.0pt x 189.13824pt.
+
+LaTeX Warning: File `./solutions/7/figs/conics/parabola3.eps' not found on inpu
+t line 56.
+
+Package epstopdf Info: Source file: <./solutions/7/figs/conics/parabola3.eps>
+(epstopdf)             Output file: <./solutions/7/figs/conics/parabola3-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:00
+(epstopdf)                    size: 12753 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/7/figs/conics/
+parabola3-eps-converted-to.pdf ./solutions/7/figs/conics/parabola3.eps>
+(epstopdf)             \includegraphics on input line 56.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/7/figs/conics/parabola3-eps-converted-to.pdf, id=1815, 462.72874pt
+ x 347.2975pt>
+File: ./solutions/7/figs/conics/parabola3-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use ./solutions/7/figs/conics/parabola3-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/7/figs/conics/parabola3-eps-converted-to.p
+df  used on input line 56.
+(pdftex.def)             Requested size: 252.0pt x 189.13824pt.
+[21 <./solutions/6/codes/conics/exercise/conics_5-eps-converted-to.pdf> <./solu
+tions/7/figs/conics/parabola1-eps-converted-to.pdf> <./solutions/7/figs/conics/
+parabola2-eps-converted-to.pdf>]
+
+LaTeX Warning: File `./solutions/7/figs/conics/parabola4.eps' not found on inpu
+t line 74.
+
+Package epstopdf Info: Source file: <./solutions/7/figs/conics/parabola4.eps>
+(epstopdf)             Output file: <./solutions/7/figs/conics/parabola4-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2020-08-15 07:10:00
+(epstopdf)                    size: 12862 bytes
+(epstopdf)             Command: <repstopdf --outfile=./solutions/7/figs/conics/
+parabola4-eps-converted-to.pdf ./solutions/7/figs/conics/parabola4.eps>
+(epstopdf)             \includegraphics on input line 74.
+Package epstopdf Info: Output file is already uptodate.
+<./solutions/7/figs/conics/parabola4-eps-converted-to.pdf, id=1878, 462.72874pt
+ x 347.2975pt>
+File: ./solutions/7/figs/conics/parabola4-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use ./solutions/7/figs/conics/parabola4-eps-converted-to.pdf>
+Package pdftex.def Info: ./solutions/7/figs/conics/parabola4-eps-converted-to.p
+df  used on input line 74.
+(pdftex.def)             Requested size: 252.0pt x 189.13824pt.
+)) (./conics/conics.tex (./solutions/conics/1/1/solution.tex
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
+\OT1/txr/m/n/12 Now,Subtracting equa-tion [] from
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22 <./solutions/7/figs/conics/parabola3-eps-converted-to.pdf> <./solutions/7/
+figs/conics/parabola4-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+\OT1/txr/m/n/12 Now find-ing the di-rec-tion vec-tor
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<./solutions/conics/1/1/Assignment_5.png, id=1922, 462.528pt x 346.896pt>
+File: ./solutions/conics/1/1/Assignment_5.png Graphic file (type png)
+<use ./solutions/conics/1/1/Assignment_5.png>
+Package pdftex.def Info: ./solutions/conics/1/1/Assignment_5.png  used on input
+ line 94.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./solutions/conics/1/2/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<./solutions/conics/1/2/assignment5.png, id=1978, 396.48125pt x 337.26pt>
+File: ./solutions/conics/1/2/assignment5.png Graphic file (type png)
+<use ./solutions/conics/1/2/assignment5.png>
+Package pdftex.def Info: ./solutions/conics/1/2/assignment5.png  used on input 
+line 66.
+(pdftex.def)             Requested size: 252.0pt x 214.36356pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24 <./solutions/conics/1/1/Assignment_5.png>]) (./solutions/conics/1/4/soluti
+on.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<./solutions/conics/1/4/plot.png, id=2014, 462.528pt x 346.896pt>
+File: ./solutions/conics/1/4/plot.png Graphic file (type png)
+<use ./solutions/conics/1/4/plot.png>
+Package pdftex.def Info: ./solutions/conics/1/4/plot.png  used on input line 38
+.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+)
+(./solutions/conics/1/6/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <./solutions/conics/1/2/assignment5.png> <./solutions/conics/1/4/plot.png>
+]
+<./solutions/conics/1/6/fig1.JPG, id=2043, 316.18124pt x 232.61906pt>
+File: ./solutions/conics/1/6/fig1.JPG Graphic file (type jpg)
+<use ./solutions/conics/1/6/fig1.JPG>
+Package pdftex.def Info: ./solutions/conics/1/6/fig1.JPG  used on input line 39
+.
+(pdftex.def)             Requested size: 252.0pt x 185.40334pt.
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./solutions/conics/1/7/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 6220) in paragraph at lines 12--17
+\OT1/txr/m/n/12 The di-rec-tion vec-tor of the given line
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26 <./solutions/conics/1/6/fig1.JPG>]
+<./solutions/conics/1/7/circle.png, id=2077, 433.62pt x 289.08pt>
+File: ./solutions/conics/1/7/circle.png Graphic file (type png)
+<use ./solutions/conics/1/7/circle.png>
+Package pdftex.def Info: ./solutions/conics/1/7/circle.png  used on input line 
+27.
+(pdftex.def)             Requested size: 252.0pt x 168.00174pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./solutions/conics/1/10/solution.tex
+Underfull \hbox (badness 7203) in paragraph at lines 18--20
+\OT1/txr/m/n/12 Now, sub-tract-ing equa-tion [] from
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27 <./solutions/conics/1/7/circle.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
+\OT1/txr/m/n/12 Now find-ing the di-rec-tion vec-tor
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+<./solutions/conics/1/10/assignment4.JPG, id=2159, 316.68312pt x 203.25937pt>
+File: ./solutions/conics/1/10/assignment4.JPG Graphic file (type jpg)
+<use ./solutions/conics/1/10/assignment4.JPG>
+Package pdftex.def Info: ./solutions/conics/1/10/assignment4.JPG  used on input
+ line 94.
+(pdftex.def)             Requested size: 252.0pt x 161.7486pt.
+)
+(./solutions/conics/1/11/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 6220) in paragraph at lines 13--16
+\OT1/txr/m/n/12 The di-rec-tion vec-tor of the given line
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+<./solutions/conics/1/11/circle.png, id=2161, 462.528pt x 346.896pt>
+File: ./solutions/conics/1/11/circle.png Graphic file (type png)
+<use ./solutions/conics/1/11/circle.png>
+Package pdftex.def Info: ./solutions/conics/1/11/circle.png  used on input line
+ 19.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29 <./solutions/conics/1/10/assignment4.JPG> <./solutions/conics/1/11/circle.
+png>])
+(./solutions/conics/1/12/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<./solutions/conics/1/12/Assignment_7.png, id=2226, 462.528pt x 346.896pt>
+File: ./solutions/conics/1/12/Assignment_7.png Graphic file (type png)
+<use ./solutions/conics/1/12/Assignment_7.png>
+Package pdftex.def Info: ./solutions/conics/1/12/Assignment_7.png  used on inpu
+t line 130.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 43.
+
+(./solutions/conics/1/13/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32 <./solutions/conics/1/12/Assignment_7.png>]
+<./solutions/conics/1/13/Assignment_7_Plot.png, id=2298, 396.48125pt x 262.9825
+pt>
+File: ./solutions/conics/1/13/Assignment_7_Plot.png Graphic file (type png)
+<use ./solutions/conics/1/13/Assignment_7_Plot.png>
+Package pdftex.def Info: ./solutions/conics/1/13/Assignment_7_Plot.png  used on
+ input line 86.
+(pdftex.def)             Requested size: 252.0pt x 167.15253pt.
+) (./solutions/conics/1/14/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 51.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 51.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33 <./solutions/conics/1/13/Assignment_7_Plot.png>]
+<./solutions/conics/1/14/graph7.png, id=2326, 387.4475pt x 262.9825pt>
+File: ./solutions/conics/1/14/graph7.png Graphic file (type png)
+<use ./solutions/conics/1/14/graph7.png>
+Package pdftex.def Info: ./solutions/conics/1/14/graph7.png  used on input line
+ 65.
+(pdftex.def)             Requested size: 252.0pt x 171.04893pt.
+)
+(./solutions/conics/1/15/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34 <./solutions/conics/1/14/graph7.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<./solutions/conics/1/15/assignment_6.png, id=2360, 387.4475pt x 262.9825pt>
+File: ./solutions/conics/1/15/assignment_6.png Graphic file (type png)
+<use ./solutions/conics/1/15/assignment_6.png>
+Package pdftex.def Info: ./solutions/conics/1/15/assignment_6.png  used on inpu
+t line 86.
+(pdftex.def)             Requested size: 252.0pt x 171.04893pt.
+)
+(./solutions/conics/1/16/solution.tex [35 <./solutions/conics/1/15/assignment_6
+.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<./solutions/conics/1/16/ellipse.png, id=2397, 387.4475pt x 271.0125pt>
+File: ./solutions/conics/1/16/ellipse.png Graphic file (type png)
+<use ./solutions/conics/1/16/ellipse.png>
+Package pdftex.def Info: ./solutions/conics/1/16/ellipse.png  used on input lin
+e 67.
+(pdftex.def)             Requested size: 252.0pt x 176.27182pt.
+) [36 <./solutions/conics/1/16/ellipse.png>] (./solutions/conics/1/18/solution.
+tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+<./solutions/conics/1/18/codes/parallelPerpendicularLineTangent.png, id=2528, 5
+78.16pt x 433.62pt>
+File: ./solutions/conics/1/18/codes/parallelPerpendicularLineTangent.png Graphi
+c file (type png)
+<use ./solutions/conics/1/18/codes/parallelPerpendicularLineTangent.png>
+Package pdftex.def Info: ./solutions/conics/1/18/codes/parallelPerpendicularLin
+eTangent.png  used on input line 194.
+(pdftex.def)             Requested size: 252.0pt x 189.00032pt.
+)
+(./solutions/conics/1/20/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39 <./solutions/conics/1/18/codes/parallelPerpendicularLineTangent.png>]
+<./solutions/conics/1/20/Figure_1.png, id=2555, 462.528pt x 346.896pt>
+File: ./solutions/conics/1/20/Figure_1.png Graphic file (type png)
+<use ./solutions/conics/1/20/Figure_1.png>
+Package pdftex.def Info: ./solutions/conics/1/20/Figure_1.png  used on input li
+ne 51.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+)
+Underfull \hbox (badness 5667) in paragraph at lines 45--84
+\OT1/txr/m/n/12 Threrefore the point at which the line
+ []
+
+(./solutions/conics/1/22/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40 <./solutions/conics/1/20/Figure_1.png>]
+<./solutions/conics/1/22/Plot.JPG, id=2590, 334.75063pt x 202.7575pt>
+File: ./solutions/conics/1/22/Plot.JPG Graphic file (type jpg)
+<use ./solutions/conics/1/22/Plot.JPG>
+Package pdftex.def Info: ./solutions/conics/1/22/Plot.JPG  used on input line 6
+9.
+(pdftex.def)             Requested size: 252.0pt x 152.6401pt.
+)) (./circle/circle_geo.tex
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 39.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 44.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 44.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41 <./solutions/conics/1/22/Plot.JPG>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 7796) in paragraph at lines 123--128
+[]\OT1/txr/m/n/12 Find the area en-closed by the el-lipse
+ []
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 135.
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 131--137
+[]\OT1/txr/m/n/12 Find the area bounded by the el-lipse
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 208.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 212.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 212.
+
+) (./conics/conics_exer.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 150.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 292.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) [47]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 325.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 325.
+
+(./gvv_ncert_quadratic_forms.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 325.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 325.
+Package rerunfilecheck Info: File `gvv_ncert_quadratic_forms.out' has not chang
+ed.
+(rerunfilecheck)             Checksum: CA28B525BB2F4E5EA11A8CF6C325E84F;87.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 325.
+ ) 
+Here is how much of TeX's memory you used:
+ 43052 strings out of 480608
+ 1006577 string characters out of 5892806
+ 1356038 words of memory out of 5000000
+ 56544 multiletter control sequences out of 15000+600000
+ 629295 words of font info for 246 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 60i,24n,91p,517b,1623s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
+e/8r.enc}</data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/
+public/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/share/texlive/texmf-d
+ist/fonts/type1/public/txfonts/rtxr.pfb></data/data/com.termux/files/usr/share/
+texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></data/data/com.termux/
+files/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></data/d
+ata/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tx
+sy.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/txfonts/txsya.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dis
+t/fonts/type1/public/txfonts/txsyc.pfb></data/data/com.termux/files/usr/share/t
+exlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/com.termux/files
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></data/data/com
+.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></d
+ata/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
+mri8a.pfb>
+Output written on gvv_ncert_quadratic_forms.pdf (47 pages, 1570455 bytes).
+PDF statistics:
+ 3215 PDF objects out of 3580 (max. 8388607)
+ 2222 compressed objects within 23 object streams
+ 1297 named destinations out of 1440 (max. 500000)
+ 480 words of extra memory for PDF output out of 10000 (max. 10000000)
+

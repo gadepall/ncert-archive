@@ -1,0 +1,25 @@
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+\def\a{6}
+\def\b{5}
+\def\c{5}
+
+%Labeling points
+\node (B) at (\a, 0)[point,label=below left:$B$] {};
+\node (A) at (0, 0)[point,label=below right:$A$] {};
+\node (P) at (3,2)[point,label=above:$P$] {};
+\node (D) at (3,0)[point,label=below:$D$] {};
+
+%joining points
+\draw (A)-- node[above] {$\textrm{k}$} (D);
+\draw (B)-- node[above] {$\textrm{k}$} (D);
+\draw (P)-- node[right] {$\textrm{l}$}(D);
+\draw (A)--(P);
+\draw (B)--(P);
+
+%Drawing and marking angles
+\tkzMarkRightAngle[fill=blue!20,size=.23](A,D,P)
+
+\end{tikzpicture}
+

@@ -1,0 +1,13 @@
+\subsection{Problem}
+
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+	\item  If P(A) = $\frac{3}{5}$ and P(B) = $\frac{1}{5}$ , find P (A $\cap$ B) if A and B are independent events.\\
+	\solution 
+	Since A and B are independent events.
+\begin{align}
+	P\brak{A\cap B} = P\brak{A}.P\brak{B} = \frac{3}{25}
+\end{align}
+	
+\end{enumerate}

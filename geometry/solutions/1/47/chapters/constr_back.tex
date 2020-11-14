@@ -1,0 +1,218 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item The trapezium ABCD looks like the Fig. \ref{fig:trapezium_ABCD}.
+with $AB \parallel DC$ .AX and BY are perpendiculars to DC drawn from points A and B respectively.
+
+
+%\renewcommand{\thefigure}{\theenumi.\arabic{figure}}
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./figs/prob.tex}}
+\caption{Trapezium ABCD by Latex-Tikz}
+\label{fig:trapezium_ABCD}	
+\end{figure}
+%
+
+
+%
+%\renewcommand{\thefigure}{\theenumi}
+%
+\item List the design parameters for construction
+\label{const:table1}
+\\
+\solution See Table. \ref{table:table1} 
+%
+\begin{table}[ht!]
+\centering
+%\begin{tabular}{ |p{3cm}|p{3cm}|  }
+%\hline
+% \multicolumn{2}{|c|}{Initial Input Values.} \\
+%\hline
+%\hline
+%Length of AB (a) & 4\\
+%\hline
+%Length of DC (c) & 9\\
+%\hline
+%Length of AD (d) & 5\\
+%\hline
+%Height of the trapezium (h) & 3\\
+%\hline
+%Height at which EF is drawn (k) & 1.5\\
+%\hline
+%\end{tabular}
+\input{./tables/inp.tex}
+\caption{To construct trapezium ABCD}
+\label{table:table1}	
+\end{table}
+
+%\item
+
+\item Find the coordinates of the various points in Fig. \ref{fig:trapezium_ABCD}
+\label{const:trapezium_ABCD}
+\\
+%
+\solution From the given information, 
+\begin{align}
+\label{eq:constr_d}
+\vec{D} &= \myvec{0\\0} 
+\\
+\vec{C} &= \myvec{0\\c} = \myvec{0\\9} 
+\label{eq:constr_c}
+\end{align}
+
+$\because \vec{A}$ x coordinate is given , y coordinate is same as the height of the trapezium.  
+\begin{align}
+\implies \vec{A} &= \myvec{x_a\\h} = \myvec{4\\3}
+\label{eq:constr_a}
+\end{align}
+%
+Also, $\vec{B}$ is at a distance a = 4 from $\vec {A}$ and AB is parallel to x axis. 
+\begin{align}
+\vec{B} &= \myvec{x_b\\h}
+\\
+AB = \norm{\vec{B}-\vec{A}} = a
+\\
+\implies a &= \norm{\myvec{x_b\\h} - \myvec{x_a\\h}} 
+\\
+\implies \norm{\myvec{{x_b - x_a}\\0}} = {x_b - x_a}
+\\
+%\implies a = x_b - x_a
+%\\
+\implies x_b = {x_a + a}
+\\
+\vec{B} &= \myvec{{x_a + a}\\h} = \myvec{8\\3}
+\label{eq:constr_b}
+\end{align}
+%
+$\vec{E}$ divides AD in the ratio k: 1. 
+\begin{align}
+\frac{AD}{ED} = k+1 
+\\
+\vec{E} &= \frac{{{k\vec{D}} +\vec{A}}}{k+1}
+\\
+k = 1 \implies \vec{E} & =\myvec{\frac{x_a}{k+1}\\ \frac{h}{k+1}}
+\implies \myvec{2\\1.5} 
+\label{eq:constr_e}
+\end{align}
+%
+Let $\vec{F}$ divide BC in ratio m:1.
+\begin{align}
+\vec{F} &= \frac{{{m\vec{C}} +\vec{B}}}{m+1}
+\\
+\vec{F} &= \myvec{\frac{cm + (x_a + a)}{m+1}\\{\frac{h}{m+1}}}
+\label{eq:findm}
+\end{align}
+EF is parallel to DC and hence the x axis. So we equate y coordinates of E and F to find m.
+\\
+from \ref{eq:constr_e} and \ref{eq:findm}
+\begin{align}
+\frac{h}{k+1} = \frac{h}{m+1}
+\\
+ m = k 
+\\
+\vec{F} &= \frac{{k\vec{C} +\vec{B}}}{k+1}
+\\
+\vec{F} &= \myvec{8.5\\3}
+\label{eq:constr_f}
+\end{align}
+%
+
+$\vec{M}$ and $\vec{X}$ have same x coordinate as $\vec{A}$.y coordinate of $\vec{M}$ is same as $\vec{E}$ and y coordinate of $\vec{X}$ is 0
+\begin{align}
+\vec{M} &= \myvec{x_a\\ \frac{h}{k+1}} = \myvec{4\\1.5}
+\label{eq:constr_m}
+\end{align}
+%
+\begin{align}
+\vec{X} &= \myvec{x_a\\0} = \myvec{4\\0}
+\label{eq:constr_x}
+\end{align}
+%
+$\vec{N}$ and $\vec{Y}$ have same x coordinate as $\vec{B}$.y coordinate of $\vec{N}$ is same as that of $\vec{F}$ and y coordinate of $\vec{Y}$ is 0
+\begin{align}
+\vec{N} &= \myvec{x_b\\ \frac{h}{k+1}} 
+\\
+\implies \myvec{{x_a + a}\\ \frac{h}{k+1}} = \myvec{8\\1.5}
+\label{eq:constr_n}
+\end{align}
+%
+\begin{align}
+\vec{Y} &= \myvec{x_b\\0} =\myvec{x_a + a\\0} =\myvec{8\\0}
+\label{eq:constr_y}
+\end{align}
+The values are listed in \ref{table:table2}. 
+%
+\begin{table}[ht!]
+\centering
+\input{./tables/out.tex}
+\caption{Derived coordinates trapezium ABCD}
+\label{table:table2}	
+\end{table}
+ 
+%\item List the  derived values.
+%\label{const:table2}
+%\\
+%\solution See  
+%Table. \ref{table:table2} 
+%\begin{table}[ht!]
+%\centering
+%\begin{tabular}{ |p{3cm}|p{3cm}|  }
+%\hline
+% \multicolumn{2}{|c|}{Derived Values.} \\
+%\hline
+%$\vec{A}$ & $\begin{pmatrix}4\\3\end{pmatrix}$\\
+%\hline
+%$\vec{B}$ & $\begin{pmatrix}8\\3\end{pmatrix}$\\
+%\hline
+%$\vec{E}$ & $\begin{pmatrix}2\\1.5\end{pmatrix}$\\
+%\hline
+%$\vec{F}$ & $\begin{pmatrix}8.5\\1.5\end{pmatrix}$\\
+%\hline
+%$\vec{M}$ & $\begin{pmatrix}4\\1.5\end{pmatrix}$\\
+%\hline
+%$\vec{N}$ & $\begin{pmatrix}8\\1.5\end{pmatrix}$\\
+%\hline
+%$\vec{X}$ & $\begin{pmatrix}4\\0\end{pmatrix}$\\
+%\hline
+%$\vec{Y}$ & $\begin{pmatrix}8\\0\end{pmatrix}$\\
+%\hline
+%\end{tabular}
+%\caption{To construct Trapezium ABCD}
+%\label{table:table2}
+%\end{table}
+%
+\item Draw Fig. \ref{fig:trapezium_ABCD} using python	
+\\
+\solution The  following Python code generates Fig. \ref{fig:trapezium_ABCD}
+%
+\begin{lstlisting}
+codes/prob.py
+\end{lstlisting}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./codes/pyfigs/pyfigs.eps}
+\caption{Trapezium ABCD generated using python}
+\label{fig:trap_py}
+\end{figure}
+
+%
+and the equivalent latex-tikz code generating Fig. \ref{fig:trapezium_ABCD} is 
+\begin{lstlisting}
+figs/prob.tex
+\end{lstlisting}
+%
+The above latex code can be compiled as a standalone document as
+\begin{lstlisting}
+figs/prob_alone.tex
+\end{lstlisting}
+
+%
+
+%
+
+%
+%
+
+\end{enumerate}

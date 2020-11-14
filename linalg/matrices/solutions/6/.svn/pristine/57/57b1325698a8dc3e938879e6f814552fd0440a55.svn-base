@@ -1,0 +1,7 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsubsection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+\item The base of an equilateral triangle with side $2a$ lies along the y-axis such that the mid- point of the base is at the origin. Find vertices of the triangle.
+
+\end{enumerate} 

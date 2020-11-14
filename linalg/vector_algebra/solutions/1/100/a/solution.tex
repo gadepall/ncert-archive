@@ -1,0 +1,44 @@
+
+In a right angled triangle, square of hypotenuse is equal to sum of squares of the other two sides. Also, a median divides a side into two equal halves.
+
+
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./solutions/1/100/a/Assignment_4_figure}}
+\caption{$\triangle{ABC}$ with $AD$ as median and $AM \perp BC$}
+\label{eq:solutions/1/100/a/fig:triangle}
+\end{figure}
+
+See Fig.\ref{eq:solutions/1/100/a/fig:triangle}, It is given that :
+\begin{align}\label{eq:solutions/1/100/a/given}
+  \norm{\vec{B-D}} = \norm{\vec{D-C}}\\
+  AM \perp BC
+\end{align}
+We have to prove that :
+\begin{align}\label{eq:solutions/1/100/a/toprove}
+  \norm{\vec{A-C}}^2 = \norm{\vec{A-D}}^2 + \norm{\vec{B-C}}\norm{\vec{D-M}} + \norm{\frac{\vec{B-C}}{2}}^2
+\end{align}
+From $\triangle AMC$, we know that :
+\begin{align}\label{eq:solutions/1/100/a/eqn1}
+    \norm{\vec{A-C}}^2 &= \norm{\vec{A-M}}^2 + \norm{\vec{M-C}}^2
+\end{align}
+Using Pythagoras theorem we can write it as:
+\begin{align}\label{eq:solutions/1/100/a/eqn2}
+    &= \norm{\vec{A-D}}^2 - \norm{\vec{M-D}}^2+ \norm{\vec{M-C}}^2\\
+    &= \norm{\vec{A-D}}^2 - \norm{\vec{M-D}}^2+ \brak{\norm{\vec{M-D}} + \norm{\vec{D-C}}}^2 
+\end{align}
+Expanding $\brak{a+b}^2$ and solving, we get :
+\begin{align}\label{eq:solutions/1/100/a/eqn3}
+   = \norm{\vec{A-D}}^2 + 2\norm{\vec{M-D}}\norm{\vec{D-C}} + \norm{\vec{D-C}}^2
+\end{align}
+As $AD$ is a median, we can write : 
+\begin{align}\label{eq:solutions/1/100/a/medianeqn}
+    \norm{\vec{B-D}} = \norm{\vec{D-C}} = \frac{\norm{\vec{B-C}}}{2}
+\end{align}
+Using \eqref{eq:solutions/1/100/a/medianeqn}, we can re-write \eqref{eq:solutions/1/100/a/eqn3} as
+\begin{align}\label{eq:solutions/1/100/a/eqn4}
+   &= \norm{\vec{A-D}}^2 + 2\norm{\vec{M-D}}\frac{\norm{\vec{B-C}}}{2} + \norm{\frac{\vec{B-C}}{2}}^2 \nonumber\\
+   &=  \norm{\vec{A-D}}^2 + \norm{\vec{M-D}}\norm{\vec{B-C}} + \norm{\frac{\vec{B-C}}{2}}^2
+\end{align}
+
+Hence it is proved.

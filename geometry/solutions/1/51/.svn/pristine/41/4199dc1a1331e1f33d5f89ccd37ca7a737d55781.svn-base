@@ -1,0 +1,23 @@
+\footnotesize
+\frametitle{Solution}
+%\begin{columns}
+%\begin{column}{0.5\textwidth}
+ $\triangle EAD \sim \triangle BAO$ by AAA Similarity:
+
+Since $\vec{DE} \parallel \vec{OB}$,
+\begin{enumerate}
+	\item $\angle{DEA} = \angle{OBA} \quad \{Alternate\; Interior\; Angles\}$
+	\item $\angle{ADE} = \angle{AOB} \quad \{Alternate\; Interior\; Angles\}$
+	
+	\item $\angle{EAD} = \angle{BAO} \quad \{Common\; angle\} $
+	
+\end{enumerate}
+
+%\end{column}
+%\begin{column}{0.5\textwidth}
+Therefore
+\begin{equation}
+\vec{\frac{AE}{AB}} = \vec{\frac{AD}{AO}}
+\end{equation}
+%\end{column}
+%\end{columns}

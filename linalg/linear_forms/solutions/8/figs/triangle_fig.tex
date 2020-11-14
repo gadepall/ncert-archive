@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+\usetkzobj{all}
+\usetikzlibrary{calc,math}
+\begin{document}
+
+
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+%Triangle sides
+\def\a{4}
+\def\b{3}
+\def\c{sqrt(\a^2+\c^2)}
+
+
+
+%Labeling points
+\node (A) at (0,\b)[point,label=above right:$A$] {};
+\node (B) at (\a, 0)[point,label=below left:$B$] {};
+\node (C) at (0, 0)[point,label=below right:$C$] {};
+\node (M) at (\a*0.5,\b*0.5)[point,label=above:$M$] {};
+\node (D) at (\a,\b)[point,label=above right:$D$] {};
+
+
+%Drawing triangle ABC
+\draw (A) -- node[left] {$\textrm{}$} (B) -- node[below] {$\textrm{a}$} (C) -- node[above,xshift=5mm] {$\textrm{b}$} (A);
+
+%Joining CD
+\draw (C)--(D);
+%Joining BD
+\draw (B)--(D);
+
+%Drawing and marking angles
+\tkzMarkAngle[fill=orange!40,size=0.5cm,mark=](A,M,C)
+\tkzMarkAngle[fill=orange!40,size=0.5cm,mark=](B,M,D)
+\tkzMarkAngle[fill=green!40,size=0.5cm,mark=](A,B,C)
+\tkzMarkRightAngle[fill=blue!20,size=.2](A,C,B)
+\tkzMarkRightAngle[fill=blue!20,size=.2](D,B,C)
+\tkzLabelAngle[pos=0.65](A,M,C){$\theta$}
+\tkzLabelAngle[pos=0.65](B,M,D){$\theta$}
+\tkzLabelAngle[pos=0.65](A,B,C){$\alpha$}
+
+
+\end{tikzpicture}
+\end{document}
+

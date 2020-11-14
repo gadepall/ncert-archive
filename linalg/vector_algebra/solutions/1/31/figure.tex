@@ -1,0 +1,13 @@
+
+  	\begin{tikzpicture}
+  	\coordinate (A) at (0,6);
+  	\coordinate (B) at (-3,0);
+  	\coordinate (C) at (3,0);
+  	\coordinate (E) at (1.5,3);
+  	\coordinate (F) at (-1.5,3);
+  	\draw (A)node[above]{$A$}--(B)node[below]{$B$}--(C)node[below]{$C$}--cycle;
+  	\draw (B)node[below]{$B$}--(E)node[above]{$E$}--(A)node[above]{$A$}--cycle;
+  	\draw(C)node[below]{$C$}--(F)node[above]{$F$}--(A)node[above]{$A$}--cycle;
+  	\tkzMarkRightAngle(B,E,A)
+  	\tkzMarkRightAngle(C,F,A)
+  	\end{tikzpicture}

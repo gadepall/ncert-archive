@@ -1,0 +1,64 @@
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item
+The figure for a triangle obtained in the question looks like Fig. \ref{fig:similar}, with equal sides a,b,c.
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./figs/constructionpic.tex}}
+\caption{Triangle by Latex-Tikz}
+\label{fig:similar}	
+\end{figure}
+
+The values used for constructing the triangles in both Python and \LaTeX{}-Tikz is in Table \ref{table:table1}:\\
+\begin{table}[ht]
+    \begin{center}
+    	\input{./tables/table1/inp.tex}
+  \caption{To construct $\triangle ABC$}
+   \label{table:table1}
+   \end{center}	
+\end{table}
+
+
+\item
+Finding the coordinates of various points of Fig. \ref{fig:similar} :\\
+From the information provided in the Table \ref{table:table1}: let\\
+\begin{multline}
+ \vec{B}= \myvec{0\\0}
+\vec{C}=\myvec{a\\0}
+\vec{A}=\myvec{p\\q}
+\end{multline}
+    \\The derived value of $\vec{p}$ and $\vec{q}$ is available in Table \ref{table:table2}.
+  \begin{table}[ht]
+    \begin{center}
+    	\input{./tables/table2/inp2.tex}
+  \caption{To construct $\triangle ABC$}
+   \label{table:table2}
+   \end{center}	
+\end{table}
+
+    The  following Python code generates Fig. \ref{fig:triabcpy}\\
+    \begin{lstlisting}
+        ./codes/eqtri.py
+    \end{lstlisting}
+
+    \begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\columnwidth]{./figs/eqtri.pdf}
+	\caption{Triangle generated using python}
+	\label{fig:triabcpy}
+    \end{figure}
+      The equivalent \LaTeX{}- tikz code generating Fig. \ref{fig:similar} is
+    \begin{lstlisting}
+        ./figs/constructionpic.tex
+    \end{lstlisting}
+	
+	The above \LaTeX{} code can be compiled as a standalone document as
+	\begin{lstlisting}
+	./figs/constructionpic_standalone.tex
+	\end{lstlisting}
+\end{enumerate}
+\subsubsection*{To Show:}    We need to prove that $\angle{BAC} = \angle{ACB} = \angle{CBA}$
+

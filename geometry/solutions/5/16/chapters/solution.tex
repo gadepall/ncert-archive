@@ -1,0 +1,40 @@
+\item {\em Proof: } 
+%\begin{multline}
+% \brak{\vec{D}-\vec{B}}^T\brak{\vec{C}-\vec{A}} 
+%\\
+%=r^2\myvec{\cos \theta_1+1 & \sin \theta_1  }\myvec{\cos \theta-1 & \sin \theta  }
+%\\
+%=r^2\brak{\cos \brak{\theta_1- \theta} + \cos \theta_1 - \cos \theta -1  }
+%\\
+%=r^2 \brak{\cos \theta_1 - \cos \theta -\frac{1}{2} }
+%\end{multline}
+%$\because \theta_1-\theta = 60 \degree$. Also, using the cosine formula in $\triangle s OBD$ and $OCA$,
+\begin{align}
+\vec{D}-\vec{B}&= r\myvec{\cos \theta_1+1 & \sin \theta_1  } 
+\\
+&= 2r \cos\brak{\frac{\theta_1}{2}} \myvec{\cos\brak{\frac{\theta_1}{2}}\\ \sin\brak{\frac{\theta_1}{2}}}
+\\
+\vec{C}-\vec{A}&= r\myvec{\cos \theta - 1 & \sin \theta  } 
+\\
+&= 2r \sin\brak{\frac{\theta}{2}} \myvec{-\sin\brak{\frac{\theta}{2}}\\ \cos\brak{\frac{\theta}{2}}}
+\\
+\implies \norm{\vec{D}-\vec{B}} &= 2r \cos\brak{\frac{\theta_1}{2}}
+\\
+\norm{\vec{C}-\vec{A}} &= 2r \sin\brak{\frac{\theta}{2}}\end{align}
+Thus, using the definition of the inner product, 
+\begin{align}
+\cos \phase{E} &= \frac{ \brak{\vec{D}-\vec{B}}^T\brak{\vec{C}-\vec{A}} }{\norm{\vec{D}-\vec{B}}\norm{\vec{C}-\vec{A}}}
+\\
+&= \myvec{\cos\brak{\frac{\theta_1}{2}} & \sin\brak{\frac{\theta_1}{2}}} \myvec{-\sin\brak{\frac{\theta}{2}}\\ \cos\brak{\frac{\theta}{2}}}
+\end{align}
+which can be simplified to obtain
+\begin{align}
+\cos \phase{E} &=\sin\brak{\frac{\theta_1-\theta}{2}} 
+\\
+&= \sin 30\degree = \frac{1}{2}
+\end{align}
+from \eqref{eq:8.5.16_theta_diff}.  Thus, 
+\begin{align}
+\phase{E} = 60 \degree
+\end{align}
+

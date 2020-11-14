@@ -1,0 +1,131 @@
+%\subsection{Properties}
+%
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+\item Draw Fig. \ref{fig:tri_alt}, where $AD$ is the altitude, given that $a = 6, b = 5, c = 4$.  
+%
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_alt.tex}}
+	\end{center}
+	\caption{Drawing the altitude}
+	\label{fig:tri_alt}	
+\end{figure}
+\\
+\solution Let $\vec{x}$ be any point on $BC$.  Using section formula, for some $k$, 
+%
+\begin{align}
+\vec{x} &= \frac{k\vec{C}+\vec{B}}{k+1} = \frac{\brak{k+1}\vec{C}+\brak{\vec{B}-\vec{C}}}{k+1}
+\\
+\implies \vec{x} &= \vec{C} + \lambda \vec{m}
+\label{eq:line_dir_pt}
+\end{align}
+%
+where 
+%
+\begin{align}
+\vec{m} &= \brak{\vec{B}-\vec{C}}
+\lambda = \frac{1}{k+1}
+\end{align}
+%
+Define
+%
+\begin{align}
+\vec{n} &= \myvec{0 & -1 \\ 1 & 0}\vec{m}
+\end{align}
+%
+It can be verified that 
+%
+\begin{align}
+\label{eq:dir_normal_orth}
+\vec{n}^T\vec{m} &= 0
+\end{align}
+%
+From \eqref{eq:dir_normal_orth} and \eqref{eq:line_dir_pt}, 
+%
+\begin{align}
+\vec{n}^T\vec{x} &= \vec{n}^Tvec{C} + \lambda \vec{n}^T\vec{m}
+\\
+\implies \vec{n}^T\vec{x} &= \vec{n}^T\vec{C}
+\label{eq:line_normal_pt}
+\end{align}
+%
+\eqref{eq:line_dir_pt} and \eqref{eq:line_normal_pt} are two different representations of the line $BC$.  $\vec{m}$ is defined to be the {\em direction vector} and $\vec{n}$ is the {\em normal vector}. Similarly, the equation of the line $AD$ is obtained as
+%
+\begin{align}
+\vec{m}^T\vec{x} &= \vec{m}^T\vec{A} 
+\label{eq:line_normal_pt_AD}
+\end{align}
+%
+$\because \vec{D}$ is the intersection of $AD$ and $BC$, from \eqref{eq:line_normal_pt} and \eqref{eq:line_normal_pt_AD}
+%
+\begin{align}
+\myvec{\vec{m} & \vec{n}}^T \vec{D}= \myvec{\vec{m}^T\vec{A} \\ \vec{n}^T\vec{C} }
+\label{eq:alt_D_mat}
+\end{align}
+%
+which can be solved to obtain $\vec{D}$.
+%
+The python code for  Fig. \ref{fig:tri_alt} is
+\begin{lstlisting}
+codes/triangle/tri_alt.py
+\end{lstlisting}
+%
+and the equivalent latex-tikz code is
+%
+\begin{lstlisting}
+figs/triangle/tri_alt.tex
+\end{lstlisting}
+%
+\item Let $\vec{H}$ be the intersection of the altitudes $AD$ and $BE$ as shown in Fig. \ref{fig:tri_alt_h}.  $CH$ is extended to meet $AB$ at $\vec{F}$.  Show that $CF \perp AB$.
+%
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_alt_h.tex}}
+	\end{center}
+	\caption{Altitudes of a triangle meet at the orthocentre $H$}
+	\label{fig:tri_alt_h}	
+\end{figure}
+%
+\\
+\solution The equations of $AD$ and $BE$ are 
+%
+\begin{align}
+\brak{\vec{B}-\vec{C}}^T\brak{\vec{x}-\vec{A}} &= 0  
+\\
+\brak{\vec{C}-\vec{A}}^T\brak{\vec{x}-\vec{B}} &= 0  
+\end{align}
+%
+ $\because \vec{H}$ lies on both $AD$ and $BE$, it satisfies the above equations, and 
+%
+\begin{align}
+\brak{\vec{B}-\vec{C}}^T\brak{\vec{H}-\vec{A}} &= 0  
+\\
+\brak{\vec{C}-\vec{A}}^T\brak{\vec{H}-\vec{B}} &= 0  
+\end{align}
+%
+Adding both the above and simplifying, 
+%
+\begin{align}
+\brak{\vec{B}-\vec{A}}^T\brak{\vec{H}-\vec{C}} &= 0  
+\end{align}
+%
+$\implies CH \perp AB$ from Theorem \ref{them:tri_baudh_orth}, or $CF \perp AB$.  
+%
+The python code for  Fig. \ref{fig:tri_alt_h} is
+\begin{lstlisting}
+codes/triangle/tri_alt_h.py
+\end{lstlisting}
+%
+and the equivalent latex-tikz code is
+%
+\begin{lstlisting}
+figs/triangle/tri_alt_h.tex
+\end{lstlisting}
+
+\item Altitudes of a $\triangle$ meet at the {\em orthocentre} $H$.
+%
+\item Find $\vec{H}$.
+\end{enumerate}

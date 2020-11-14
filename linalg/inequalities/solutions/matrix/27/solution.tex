@@ -1,0 +1,19 @@
+
+For a general square matrix $\vec{A}$ of size n x n, the characteristic equation in variable $\lambda$ is defined by,
+\begin{align}
+	\det({ \vec{A} - \lambda \vec{I}}) = 0\end{align}
+	where, $\vec{I}$ is the identity matrix of size n x n.
+Hence, given $\vec{A} = \myvec{3 & -2\\ 4 & -2}$, the characteristic equation is computed as follows:
+\begin{align}
+    \mydet{\myvec{3 & -2\\4 & -2} - \lambda \myvec{1 & 0\\0 & 1}} = 0\\
+    \implies \mydet{3 - \lambda & -2\\ 4 & -2 - \lambda} = 0
+\end{align}
+By expanding the above determinant we get,
+\begin{align}
+	 (3 - \lambda)(-2 - \lambda) + 8 &= 0\\
+	\implies -6 + \lambda^2 + 2\lambda - 3\lambda + 8 &= 0\\
+	\implies \lambda^2 - \lambda + 2 &= 0 \\
+	\implies \lambda^2 &= \lambda - 2\label{eq:solutions/matrix/27res}
+\end{align} 
+Here, \eqref{eq:solutions/matrix/27res} is the required characteristic equation and hence, matrix $\vec{A}$ satisfies the characteristic equation according to the Cayley-Hamilton Theorem.
+By comparing the coefficients of the equations in \eqref{eq:solutions/matrix/27eq1} and \eqref{eq:solutions/matrix/27res}, we can infer that the value of $k = 1$.

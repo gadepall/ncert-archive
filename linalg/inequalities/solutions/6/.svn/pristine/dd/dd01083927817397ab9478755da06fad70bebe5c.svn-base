@@ -1,0 +1,45 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsubsection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+\item This problem is solved by comparing the respective elements in both the matrices
+\begin{enumerate}
+\item 
+\begin{align}
+\myvec{4&3\\x&5} = \myvec{y&z\\1&5}
+\\
+x=1, y=4, z=3
+\end{align}
+
+\item 
+\begin{align}
+\myvec{x+y&2\\5+z&xy} = \myvec{6&2\\5&8}
+\\
+5+z = 5
+\\
+\implies z=0
+\\
+x+y=6
+\\
+xy=8
+\\
+x=4,y=2 
+\\
+x=2,y=4
+\end{align}
+$x=4, y=2, z=0$ or $x=2, y=4, z=0$ 
+
+\item $\myvec{x+y+z\\x+y\\y+z} = \myvec{9\\5\\7}$ \\
+Expressing it as $Ax = b$ and $x = A^{-1}b$,
+\begin{align}
+\myvec{1&1&1\\1&1&0\\0&1&1}\myvec{x\\y\\z} = \myvec{9\\5\\7}
+\\
+\myvec{x\\y\\z} = \myvec{1&1&1\\1&1&0\\0&1&1}^{-1}\myvec{9\\5\\7}
+\\
+\myvec{x\\y\\z} = \myvec{2\\3\\4}
+\\
+x=2, y=3, z=4
+\end{align}
+
+\end{enumerate}
+\end{enumerate}

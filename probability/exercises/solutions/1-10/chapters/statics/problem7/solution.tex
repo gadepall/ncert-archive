@@ -1,0 +1,18 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item \begin{table}[!ht]
+	\centering
+	\input{./table/table7.tex}
+	\caption{friquency distribution table7 }
+\end{table}
+\begin{align}
+\sum{f} &= 30
+\\
+\sum{f.x} &= 2.78
+\\
+Mean &= \frac{\sum{f.x}}{\sum{f}}
+\\ &= \frac{2.78}{30}
+\\&= 0.092
+\end{align}
+\end{enumerate}

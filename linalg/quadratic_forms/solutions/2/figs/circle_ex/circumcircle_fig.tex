@@ -1,0 +1,13 @@
+\begin{tikzpicture}[scale=.5,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+      
+%Labeling points
+\node (A) at (6, -6)[point,label=below :$A$] {};
+\node (B) at (3, -7)[point,label=below :$B$] {};
+\node (C) at (3, 3)[point,label=above :$C$] {};
+\node (D) at (3, -2)[point,label=left:$O$] {};
+
+%Drawing quad ABCD
+
+\draw[dotted] (A) -- (B) -- (C) -- (A);
+\draw (D) circle[radius = 5];
+\end{tikzpicture} 

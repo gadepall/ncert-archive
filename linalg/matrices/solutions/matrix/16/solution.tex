@@ -1,0 +1,20 @@
+\begin{align}
+    \cos\theta\myvec{\cos\theta & \sin\theta \\ -\sin\theta & \cos\theta}+\sin\theta\myvec{\sin\theta & -\cos\theta \\ \cos\theta & \sin\theta}
+\end{align}
+\begin{multline}
+    =\cos\theta\myvec{ 1 & 0 \\ 0 & 1}\myvec{\cos\theta & \sin\theta \\ -\sin\theta & \cos\theta}\\+\sin\theta\myvec{ 0 & -1 \\ 1 & 0 }\myvec{\cos\theta & \sin\theta \\ -\sin\theta & \cos\theta}
+\end{multline}
+\begin{multline}
+    =\left(\cos\theta\myvec{ 1 & 0 \\ 0 & 1}+\sin\theta\myvec{ 0 & -1 \\ 1 & 0 }\right)\\\times\myvec{\cos\theta & \sin\theta \\ -\sin\theta & \cos\theta}
+\end{multline}
+\begin{multline}
+    =\left(\myvec{ \cos\theta & 0 \\ 0 & \cos\theta}+\myvec{ 0 & -\sin\theta \\ \sin\theta & 0 }\right)\\\times\myvec{\cos\theta & \sin\theta \\ -\sin\theta & \cos\theta}
+\end{multline}
+\begin{align}\label{equation2.0.5_matrix_16}
+    =\myvec{\cos\theta & -\sin\theta \\ \sin\theta & \cos\theta}\myvec{\cos\theta & \sin\theta \\ -\sin\theta & \cos\theta}
+\end{align}
+In \eqref{equation2.0.5_matrix_16}, the left matrix rotates a vector by angle +$\theta$. Obviously the right matrix rotates a vector by angle -$\theta$. Then the product of matrices is identity matrix.
+\begin{align}
+    =\myvec{ 1 & 0 \\ 0 & 1}=\vec{I}
+\end{align}
+Hence it is simplified.

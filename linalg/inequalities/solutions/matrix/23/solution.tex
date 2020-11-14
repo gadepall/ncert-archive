@@ -1,0 +1,46 @@
+Given,
+\\
+\begin{align}
+    F(x)=\myvec{
+\cos{x} & -\sin{x} & 0\\
+\sin{x} & \cos{x} & 0\\
+0 & 0 & 1
+}
+\end{align}
+Replacing x with y in above equation 2.0.1 F(y) is given as,
+\begin{align}
+    F(y)=\myvec{
+\cos{y} & -\sin{y} & 0\\
+\sin{y} & \cos{y} & 0\\
+0 & 0 & 1
+}
+\end{align}
+From the problem statement,\\
+Consider the LHS,\\
+F(x)F(y)
+\begin{align}
+&=\myvec{
+\cos{x} & -\sin{x} & 0\\
+\sin{x} & \cos{x} & 0\\
+0 & 0 & 1
+}\myvec{
+\cos{y} & -\sin{y} & 0\\
+\sin{y} & \cos{y} & 0\\
+0 & 0 & 1
+}\\
+&=\myvec{
+\cos{x}\cos{y}-\sin{x}\sin{y} & -\cos{x}\sin{y}-\sin{x}\cos{y} & 0\\
+\sin{x}\cos{y}+\cos{x}\sin{y} & -\sin{x}\sin{y}+\cos{x}\cos{y} & 0\\
+0 & 0 & 1
+}\\
+&=\myvec{
+\cos{(x+y)} & -\sin{(x+y)} & 0\\
+\sin{(x+y)} & \cos{(x+y)} & 0\\
+0 & 0 & 1
+}\\
+&=F(x+y)
+\end{align}
+Therefore, 
+\begin{align}
+    F(x)F(y)=F(x+y)
+\end{align}

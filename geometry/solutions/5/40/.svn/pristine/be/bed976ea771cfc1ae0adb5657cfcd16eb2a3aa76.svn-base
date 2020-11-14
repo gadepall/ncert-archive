@@ -1,0 +1,20 @@
+\begin{tikzpicture}[scale = 0.5,>=stealth,point/.style={draw,circle,fill=black, inner sep=0.5pt},]
+\node (O) at (0, 0)[point,label=above:$O$] {};
+\node (A) at (-8.66, -5)[point,label=below:$A$] {};
+\node (B) at (-4.89, -5)[point,label=below:$B$] {};
+\node (C) at (4.89, -5)[point,label=below:$C$] {};
+\node (D) at (8.66, -5)[point,label=below:$D$] {};
+\node (M) at (0,-5)[point,label=below:$M$] {};
+
+\draw (0,0) circle(7cm);
+\draw (0,0) circle(10cm);
+\draw (A) -- node[below=5pt]{}(B) -- (C) -- (D);
+\draw[dotted] (O) -- node[below=5pt]{}(M);
+\draw[dotted] (O) -- node[below=5pt]{}(A);
+\draw[dotted] (O) -- node[below=5pt]{}(B);
+\draw[dotted] (O) -- node[below=5pt]{}(C);
+\draw[dotted] (O) -- node[below=5pt]{}(D);
+
+\tkzMarkRightAngle[fill=blue!20, mark=|](O,M,B)
+
+\end{tikzpicture}

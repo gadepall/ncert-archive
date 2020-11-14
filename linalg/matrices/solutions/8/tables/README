@@ -1,0 +1,26 @@
+#How to create tables using gnumeric
+sudo apt install gnumeric
+
+#Create your excel file in gnumeric, see inp.xlsx
+
+#convert your .xlsx table to a standalone .tex table 
+ssconvert --export-type=Gnumeric_html:latex inp.xlsx inp_alone.tex
+latex inp_alone.tex
+
+#If you wish to include your table in the main file, 
+cp inp_alone.tex inp.tex
+nano inp.tex
+# change the line 
+\begin{longtable}[c]{%
+# to
+\begin{tabular}[c]{%
+#and the line 
+\end{longtable}
+#to
+\end{tabular}
+# In case you need to change the width of the table columns modify the numbers in the following lines
+\ifthenelse{\isundefined{\gnumericColA}}{\newlength{\gnumericColA}}{}\settowidth{\gnumericColA}{\begin{tabular}{@{}p{56pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColB}}{\newlength{\gnumericColB}}{}\settowidth{\gnumericColB}{\begin{tabular}{@{}p{33pt*\gnumericScale}@{}}x\end{tabular}}
+
+
+

@@ -1,0 +1,37 @@
+Let the lines be parallel and the first two points pass through $\vec{n}^T\vec{x} = c1$. i.e.
+\begin{align}
+	\vec{n}^T\vec{x}_1=c_1 => \vec{x}_1^T\vec{n} = c_1 \\
+	\vec{n}^T\vec{x}_2=c_2 => \vec{x}_2^T\vec{n} = c_2
+\end{align}
+and the second two points pass through $\vec{n}^T\vec{x} = c2$
+Then
+\begin{align}
+	\vec{n}^T\vec{x}_3=c_3 => \vec{x}_3^T\vec{n} = c_3 \\
+	\vec{n}^T\vec{x}_4=c_4 => \vec{x}_4^T\vec{n} = c_4
+\end{align}
+Putting all the equations together, we obtain
+\begin{align}
+	\myvec{\vec{x}_1^T\\ \vec{x}_2^T\\ \vec{x}_3^T\\ \vec{x}_4^T}\vec{n} = \myvec{c_1\\c_2\\c_3\\c_4}
+\end{align}
+Now if this equation has a solution, then $\vec{n}$ exists and the lines will be parallel.
+Given the points, $\vec{A} = \myvec{ 4\\7\\	8}, 
+\vec{B} = \myvec{ 2\\ 3\\ 4}, and \quad
+\vec{C} = \myvec{ -1\\ -2\\ 1 }, 
+\vec{D} = \myvec{ 1\\ 2\\ 5} $
+
+Applying the row reduction procedure on the coefficient matrix:
+\begin{align}
+	\myvec{4 & 7 & 8\\ 2 & 3 & 4\\ -1 & -2 & 1\\ 1 & 2 & 5}\\
+	\xleftrightarrow[R_4 \leftarrow R_3 + R_4]{R_2 \leftarrow R_1 - 2R_2}
+	\myvec{4 & 7 & 8\\ 0 & 1 & 0\\ -1 & -2 & 1\\ 0 & 0 & 6}\\
+	\xleftrightarrow[R_3 \leftarrow R_3 - 6R_4]{R_1 \leftarrow R_1 - 7R_2}
+	\myvec{4 & 0 & 8\\ 0 & 1 & 0\\ -1 & -2 & 0\\ 0 & 0 & 6}\\
+	\xleftrightarrow[R_1 \leftarrow R_1 - 8R_4]{R_4 \leftarrow R_4/6}
+	\myvec{4 & 0 & 0\\ 0 & 1 & 0\\ -1 & -2 & 1\\ 0 & 0 & 1 } \\
+    \xleftrightarrow[R_3 \leftarrow R_3 + R_4]{R_3 \leftarrow (-R_3 - 2R_2)}
+	\myvec{4 & 0 & 0\\ 0 & 1 & 0\\ 1 & 0 & 0\\ 0 & 0 & 1}\\
+	\xleftrightarrow{R_1 \leftarrow R_1 - 4R_3}
+	\myvec{0 & 0 & 0\\ 0 & 1 & 0\\ 1 & 0 & 0\\ 0 & 0 & 1}
+\end{align}
+Here, the number of non-zero rows are three and hence the rank of the matrix is 3 which implies that the solution exists. Therefore the lines passing through $\vec{A}, \vec{B}$ and $\vec{C}, \vec{D}$ are parallel.
+

@@ -1,0 +1,220 @@
+Use Fig. \ref{fig:tri_baudh} for all problems in this section.
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+
+
+\item  Show that
+	\begin{equation}
+	\cos \theta = \sin \brak{90\degree - \theta}
+	\label{eq:tri_baudh_comp}	
+	\end{equation}
+
+
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_baudh.tex}}
+	\end{center}
+	\caption{Baudhayana Theorem}
+	\label{fig:tri_baudh}	
+\end{figure}
+
+
+\solution From Problem \ref{prob:tri_compl_angle} and  \eqref{eq:tri_trig_defs}
+%
+\begin{multline}
+\label{eq:tri_90-ang}
+\cos \angle BAC = \cos \alpha =	\cos \brak{90\degree-\theta} = \frac{c}{b} 
+\\
+= \sin \angle ABC = \sin \theta
+\end{multline}
+%
+\item
+Show that 
+%
+\begin{equation}
+\label{ch1_budh_basic}
+b = a \cos \theta + c \sin \theta
+\end{equation}
+%
+\solution We observe that
+%
+\begin{align}
+BD &= a \cos \theta \\
+AD &= c \cos\alpha = c \sin \theta \quad \brak{\text{From} \quad \eqref{eq:tri_90-ang}
+}
+\end{align}
+%
+Thus,
+\begin{equation}
+BD + AD = b = a \cos \theta + c \sin \theta
+\end{equation}
+\item
+From \eqref{ch1_budh_basic}, show that
+%
+\begin{equation}
+%
+\label{eq:tri_sin_cos_id}
+\sin ^2 \theta + \cos ^2 \theta = 1
+\end{equation}
+
+
+%
+\solution Dividing both sides of \eqref{ch1_budh_basic} by $b$, 
+\begin{align}
+1 &= \frac{a}{b}\cos\theta + \frac{c}{b}\sin\theta\\
+\Rightarrow &\sin ^2 \theta + \cos ^2 \theta = 1 \quad \brak{\text{from} \quad \eqref{eq:tri_trig_defs}}
+\end{align}
+
+\item
+	Using \eqref{ch1_budh_basic}, show that
+	\begin{equation}
+	\label{eq:tri_baudh}
+	c^2 = a^2 + b^2
+	\end{equation}
+	\eqref{eq:tri_baudh} is known as the Baudhayana theorem.  It is also known as the Pythagoras theorem.
+
+\solution From \eqref{ch1_budh_basic},
+\begin{align}
+c &= a\frac{a}{c} + b \frac{b}{c} \quad \brak{\text{from} \quad \eqref{eq:tri_trig_defs}}\\
+\Rightarrow c^2 &= a^2 + b^2
+\end{align}
+%
+\item Show that $c > a, c > b$
+%
+\solution From 	\eqref{eq:tri_baudh},
+	\begin{align}
+	c^2 - a^2 &= b^2
+\\
+\implies c-a &= \frac{b^2}{c+a} > 0 
+\\
+\implies c &> a
+	\end{align}
+%
+Similarly, it can be shown that $c > b$.
+\item In a right angled triangle, the hypotenuse is the longest side.
+\label{them:hyp_largest}
+\item Draw Fig. \ref{fig:tri_baudh} for $a = 4, c =3$.
+\label{const:tri_baudh}
+%
+\\
+\solution Problem \ref{const:tri_right_angle} is used to draw $\triangle ABC$.
+%
+Using Problem \ref{prob:tri_polar},
+\begin{align}
+\vec{D} &= BD\myvec{\cos \alpha\\  \sin \alpha} 
+&= a \sin \theta \myvec{ \sin \theta \\ \cos \theta } 
+\label{eq:tri_baudh_foot}
+\end{align}
+%
+Using \eqref{eq:tri_baudh_foot}, the python code for  Fig. \ref{fig:tri_baudh} is
+\begin{lstlisting}
+codes/triangle/tri_baudh.py
+\end{lstlisting}
+%
+and the equivalent latex-tikz code is
+%
+\begin{lstlisting}
+figs/triangle/tri_baudh.tex
+\end{lstlisting}
+%
+\item Using 	\eqref{eq:tri_baudh}, for $a = 4, c = 3$,
+%
+\begin{align}
+b = \sqrt{a^2+c^2} = \sqrt{4^2+3^2} = 5
+\end{align}
+%
+\item For  point $\vec{D} = \myvec{d_1\\d_2}$, its {\em norm} is defined as
+%
+\begin{align}
+OD = d_1^2+d_2^2 = \norm{\vec{D}} \define \sqrt{\vec{D}^T\vec{D}}, 
+\label{eq:tri_norm_def}
+\end{align}
+%
+where 
+%
+\begin{align}
+\label{eq:tri_transpose_def}
+ \vec{D}^T  \define \myvec{d_1 & d_2},
+\\
+\vec{D}^T\vec{D} \define \myvec{d_1 & d_2} \myvec{d_1 \\ d_2} = d_1^2+d_2^2
+\end{align}
+%
+\eqref{eq:tri_transpose_def} is the definition of {\em transpose}. $\vec{D}$ is defined to be a {\em column vector} and $\vec{D}^T$  is the corresponding {\em row vector} representing the same point.
+
+\item Also, it is easy to verify that
+%
+\begin{align}
+\label{eq:tri_norm_dist}
+AC \define  \norm{\vec{A}-\vec{C}} =  \norm{\myvec{4\\-3}} = \sqrt{3^2+4^2} = 5
+\end{align}
+%
+This is known as the {\em distance formula}.
+%
+\item Prove the distance formula in \eqref{eq:tri_norm_dist} using Baudhayana theorem.
+%
+\item Show that 
+\label{them:tri_baudh_orth}
+\begin{align}
+\label{eq:tri_baudh_orth}
+\brak{\vec{A}-\vec{B}}^T\brak{\vec{B}-\vec{C}} = 0
+\end{align}
+\\
+\solution From the Baudhayana theorem,
+\begin{align}
+a^2+c^2 &= b^2
+\\
+\implies \norm{\vec{B}-\vec{A}}^2+\norm{\vec{C}-\vec{A}}^2&=\norm{\vec{B}-\vec{C}}^2
+\label{eq:tri_baudh_orth_norm}
+\end{align}
+which, from \eqref{eq:tri_transpose_def}
+ can be expressed as
+\begin{multline}
+\brak{\vec{B}-\vec{A}}^T\brak{\vec{B}-\vec{A}}
++
+\brak{\vec{C}-\vec{B}}^T\brak{\vec{C}-\vec{B}}
+\\
+=
+\brak{\vec{A}-\vec{C}}^T\brak{\vec{A}-\vec{C}}
+\end{multline}
+%
+Expanding
+\begin{multline}
+\brak{\vec{B}-\vec{A}}^T\brak{\vec{B}-\vec{A}} 
+\\
+= \vec{B}^T\vec{B} - \vec{B}^T\vec{A} - \vec{A}^T\vec{B}+\vec{A}^T\vec{A}
+\end{multline}
+$\because \vec{A}^T\vec{B} = \vec{B}^T\vec{A}$, the above equation can be expressed as
+\begin{align}
+\norm{\vec{B}-\vec{A}}^2 = 
+\norm{\vec{A}}^2 + \norm{\vec{B}}^2 - 2\vec{A}^T\vec{B}
+\end{align}
+%
+Thus, \eqref{eq:tri_baudh_orth_norm} can be expressed using the above equation as
+\begin{multline}
+\norm{\vec{A}}^2 + \norm{\vec{B}}^2 - 2\vec{A}^T\vec{B}
+\\
++
+\norm{\vec{B}}^2 + \norm{\vec{C}}^2 - 2\vec{B}^T\vec{C}
+\\
+=
+\norm{\vec{A}}^2 + \norm{\vec{C}}^2 - 2\vec{A}^T\vec{C}
+\end{multline}
+%
+which can be simplified to obtain
+%
+\begin{multline}
+2\norm{\vec{B}}^2 - 2\vec{B}^T\vec{C}
+\\
+- 2\vec{A}^T\vec{B}+ 2\vec{A}^T\vec{C}
+=0
+\\
+\text{or, } \vec{B}^T\brak{\vec{B}-\vec{C}}
+-\vec{A}^T\brak{\vec{B}-\vec{C}} = 0
+\\
+\implies \brak{\vec{B}^T-\vec{A}^T}\brak{\vec{B}-\vec{C}} = 0
+\end{multline}
+yielding \eqref{eq:tri_baudh_orth}.
+
+\end{enumerate}

@@ -1,0 +1,34 @@
+\subsection{Problem}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Prove that if E and F are independent events,then so are the events E and F'.\\
+	\solution If two events E and F are independent,
+	\begin{align}
+	P\brak{E\cap F} &= P\brak{E} . P\brak{F} \label{eq:ind}
+	\end{align}
+	We know that,
+	\begin{align}		
+	P\brak{E\cap F'} &= P\brak{E}  - P\brak{E\cap F}\\
+	P\brak{E\cap F'} &= P\brak{E}  - P\brak{E} . P\brak{F} From \eqref{eq:ind} \\
+	P\brak{E\cap F'} &= P\brak{E} \brak{1 - P\brak{F} }\\
+	P\brak{E\cap F'} &= P\brak{E} P\brak{F'}
+	\end{align}
+	$\therefore$ E and F' are independent events.
+	
+
+
+
+\begin{comment}
+	\begin{lstlisting}
+	./codes/quadrilateral/q3.py
+	\end{lstlisting}
+	
+	\solution The area is given as
+	\begin{align}
+	\frac{1}{2}\norm{\myvec{3\\1\\4}\times\myvec{1\\-1\\1}}
+	\end{align}
+	which is calculated and found as 3.24
+	\end{comment}
+\end{enumerate}

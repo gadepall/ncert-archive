@@ -1,0 +1,24 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Check which of the following are solutions of the equation
+\begin{align}
+\myvec{1&-2}\vec{x}=4
+\end{align}
+\begin{enumerate}[itemsep=2pt]
+\begin{multicols}{2}
+\item
+$\myvec{0\\2}$
+\item
+$\myvec{2\\0}$
+\item
+$\myvec{4\\0}$
+\item
+$\myvec{\sqrt{2}\\4\sqrt{2}}$
+\item
+$\myvec{1\\1}$
+\end{multicols}
+\end{enumerate}
+
+\end{enumerate}

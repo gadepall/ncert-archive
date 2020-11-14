@@ -1,0 +1,19 @@
+Given,
+\begin{align}
+\mydet{x+a & x & x\\x & x+a & x\\x& x & x+a}
+\\
+\xleftrightarrow[]{R_1\leftarrow R_1+R_2+R_3}\mydet{3x+a & 3x+a & 3x+a \\x & x+a & x\\ x & x & x+a}
+\\
+(3x+a)\mydet{1 & 1 & 1 \\x & x+a & x\\ x & x & x+a}
+\\
+\xleftrightarrow[C_3\leftarrow C_3-C_1]{C_2\leftarrow C_2-C_1}(3x+a)\mydet{1 & 0 & 0 \\x & a & 0\\ x & 0 & a} 
+\\
+= (3x+a)(a^2)
+\end{align}
+Since a cannot be equal to zero, 3x+a should be zero for determinant to be zero
+\begin{align}
+3x + a = 0
+\\
+a = -3x
+\end{align}
+

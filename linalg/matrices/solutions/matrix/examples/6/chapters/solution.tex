@@ -1,0 +1,134 @@
+These equations can be written as:
+
+\begin{equation}
+\begin{aligned}
+      \begin{pmatrix}
+      2       & 1    & 0   & 0\\ 
+      1       & -2   & 0   & 0\\
+      0       & 0    & 5   & -1\\ 
+      0       & 0   & 4   & 3\\
+            
+    \end{pmatrix} \begin{pmatrix}
+      a\\ 
+      b\\
+      c\\
+      d\\
+            
+    \end{pmatrix} = \begin{pmatrix}
+      4\\ 
+      -3\\
+      11\\
+      24\\
+            
+    \end{pmatrix} 
+\end{aligned}
+\end{equation}
+
+So the coefficient matrix $A$ can be expressed as:\\
+
+\begin{equation}
+\begin{aligned}
+    A=  \begin{pmatrix}
+      2       & 1    & 0   & 0\\ 
+      1       & -2   & 0   & 0\\
+      0       & 0    & 5   & -1\\ 
+      0       & 0   & 4   & 3\\
+            
+    \end{pmatrix} 
+\end{aligned}
+\end{equation}
+ 
+And the augmented matrix $B$ can be expressed as:\\
+
+\begin{equation}
+\begin{aligned}
+    B=  \begin{pmatrix}
+      2       & 1    & 0   & 0  & 4\\ 
+      1       & -2   & 0   & 0  & -3\\
+      0       & 0    & 5   & -1  & 11\\ 
+      0       & 0   & 4   & 3   & 24\\
+            
+    \end{pmatrix}
+\end{aligned}
+\end{equation}
+
+Now, if we express the augmented matrix as Echelon form, then it will be:\\
+
+\begin{equation}
+\begin{aligned}
+    B=  \begin{pmatrix}
+      2       & 1    & 0   & 0  & 4\\ 
+      1       & -2   & 0   & 0  & -3\\
+      0       & 0    & 5   & -1  & 11\\ 
+      0       & 0   & 4   & 3   & 24\\
+            
+    \end{pmatrix}\\
+    \xleftrightarrow
+    [R_4\leftarrow R_4 - R_3]{R_2\leftarrow 2R_2 - R_1} 
+    \begin{pmatrix}
+      2       & 1    & 0   & 0  & 4\\ 
+      0       & -5   & 0   & 0  & -10\\
+      0       & 0    & 5   & -1  & 11\\ 
+      0       & 0   & -1   & 4   & 13\\
+            
+    \end{pmatrix}\\
+    \xleftrightarrow
+    [R_4\leftarrow 5R_4 + R_3]{R_2\leftarrow \frac{R_2}{(-5)}}
+    \begin{pmatrix}
+      2       & 1    & 0   & 0  & 4\\ 
+      0       & 1   & 0   & 0  & 2\\
+      0       & 0    & 5   & -1  & 11\\ 
+      0       & 0   & 0   & 19   & 76\\
+            
+    \end{pmatrix}\\
+    \xleftrightarrow
+    []{R_4\leftarrow \frac{R_4}{(19)}}
+    \begin{pmatrix}
+      2       & 1    & 0   & 0  & 4\\ 
+      0       & 1   & 0   & 0  & 2\\
+      0       & 0    & 5   & -1  & 11\\ 
+      0       & 0   & 0   & 1   & 4\\
+            
+    \end{pmatrix}\\
+    \xleftrightarrow
+    [R_1\leftarrow R_1 -R_2]{R_3\leftarrow R_3 + R_4}
+    \begin{pmatrix}
+      2       & 0    & 0   & 0  & 2\\ 
+      0       & 1   & 0   & 0  & 2\\
+      0       & 0    & 5   & 0  & 15\\ 
+      0       & 0   & 0   & 1   & 4\\
+            
+    \end{pmatrix}\\
+    \xleftrightarrow
+    [R_1\leftarrow \frac{R_1}{2}]{R_3\leftarrow \frac{R_3}{5}}
+    \begin{pmatrix}
+      1       & 0    & 0   & 0  & 1\\ 
+      0       & 1   & 0   & 0  & 2\\
+      0       & 0    & 1   & 0  & 3\\ 
+      0       & 0   & 0   & 1   & 4\\
+            
+    \end{pmatrix}
+\end{aligned}
+\end{equation}
+
+Thus, 
+\begin{equation}
+\begin{aligned}
+\begin{pmatrix}
+      a\\ 
+      b\\
+      c\\
+      d\\
+            
+    \end{pmatrix} = \begin{pmatrix}
+      1\\ 
+      2\\
+      3\\
+      4\\
+            
+    \end{pmatrix} 
+\end{aligned}
+\end{equation}
+
+
+

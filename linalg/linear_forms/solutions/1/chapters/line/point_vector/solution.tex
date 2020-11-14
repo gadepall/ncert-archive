@@ -1,0 +1,17 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item The distance between two vectors is given by 
+\begin{align}
+\norm{\vec{A}-\vec{B}}
+\label{eq:3.5.1_norm}
+\end{align}
+From \eqref{eq:3.5.1_norm},
+\begin{enumerate}
+\item 
+$\norm{\myvec{2\\3}-\myvec{4\\1}}=2.828$
+\item $\norm{\myvec{-5\\7}-\myvec{-1\\3}}=5.656$
+\item $\norm{\myvec{a\\b}-\myvec{-1\\b}}=a+1$
+
+\end{enumerate}
+\end{enumerate}

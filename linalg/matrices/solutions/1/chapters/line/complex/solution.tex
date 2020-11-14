@@ -1,0 +1,21 @@
+In general, the complex number $\myvec{a_1\\a_2}$ has the matrix representation
+\begin{align}
+\label{eq:3.4.1_Complex}
+\myvec{a_1\\a_2} &= \myvec{a_1 & -a_2\\ a_2 & a_1}\myvec{1\\0}
+\\
+&= \vec{T}_a\myvec{1\\0}
+\\
+\implies \myvec{5\\-3}&=\myvec{5&3\\-3&5}\myvec{1\\0}
+\end{align}
+Then,
+\begin{align}
+\myvec{5\\-3}^3 &\triangleq\myvec{5&3\\-3&5}^3\myvec{1\\0}
+\\
+ &= \myvec{-10&198\\-198&-10} \myvec{1\\0}
+\\
+&=\myvec{-10\\-198}
+\end{align}
+The python code for above problem is
+\begin{lstlisting}
+codes/line/comp.py
+\end{lstlisting}

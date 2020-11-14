@@ -1,0 +1,51 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\bibstyle{IEEEtran}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Problem}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Construction}{1}{section.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {{2.1}}{\ignorespaces Trapezium ABCD by Latex-Tikz\relax }}{1}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:trapezium_ABCD}{{{2.1}}{1}{Trapezium ABCD by Latex-Tikz\relax }{figure.caption.1}{}}
+\newlabel{const:table1}{{{2.2}}{1}{Construction}{Item.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {{2.2}}{\ignorespaces To construct trapezium ABCD\relax }}{1}{table.caption.2}\protected@file@percent }
+\newlabel{table:table1}{{{2.2}}{1}{To construct trapezium ABCD\relax }{table.caption.2}{}}
+\newlabel{const:trapezium_ABCD}{{{2.3}}{1}{Construction}{Item.3}{}}
+\newlabel{eq:constr_d}{{{2.3}.1}{1}{Construction}{equation.3.1}{}}
+\newlabel{eq:constr_c}{{{2.3}.2}{1}{Construction}{equation.3.2}{}}
+\newlabel{eq:constr_a}{{{2.3}.3}{1}{Construction}{equation.3.3}{}}
+\newlabel{eq:constr_b}{{{2.3}.6}{1}{Construction}{equation.3.6}{}}
+\newlabel{eq:constr_e}{{{2.3}.7}{1}{Construction}{equation.3.7}{}}
+\newlabel{eq:constr_f}{{{2.3}.8}{2}{Construction}{equation.3.8}{}}
+\newlabel{eq:constr_m}{{{2.3}.9}{2}{Construction}{equation.3.9}{}}
+\newlabel{eq:constr_x}{{{2.3}.10}{2}{Construction}{equation.3.10}{}}
+\newlabel{eq:constr_n}{{{2.3}.11}{2}{Construction}{equation.3.11}{}}
+\newlabel{eq:constr_y}{{{2.3}.12}{2}{Construction}{equation.3.12}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {{2.3}}{\ignorespaces To construct Trapezium ABCD\relax }}{2}{table.caption.3}\protected@file@percent }
+\newlabel{table:table2}{{{2.3}}{2}{To construct Trapezium ABCD\relax }{table.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {{2.4}}{\ignorespaces Trapezium ABCD generated using python\relax }}{2}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:trap_py}{{{2.4}}{2}{Trapezium ABCD generated using python\relax }{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Solution}{2}{section.3}\protected@file@percent }
+\newlabel{eq:sim1}{{{3.2}.2}{2}{Solution}{equation.9.2}{}}
+\newlabel{eq:sim2}{{{3.2}.3}{2}{Solution}{equation.9.3}{}}
+\newlabel{eq:perp1}{{{3.3}.2}{3}{Solution}{equation.10.2}{}}
+\newlabel{eq:perp2}{{{3.3}.4}{3}{Solution}{equation.10.4}{}}
+\newlabel{eq:parallel1}{{{3.4}.3}{3}{Solution}{equation.11.3}{}}
+\newlabel{eq:parallel2}{{{3.4}.6}{3}{Solution}{equation.11.6}{}}
+\newlabel{eq:rect}{{{3.5}.2}{3}{Solution}{equation.12.2}{}}
+\newlabel{eq:soln}{{{3.6}.2}{3}{Solution}{equation.13.2}{}}

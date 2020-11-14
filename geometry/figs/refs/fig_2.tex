@@ -1,0 +1,31 @@
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+\node (A) at (0, 0)[point,label=above right:$A$] {};
+\node (Y) at (2, 0)[point,label=above right:$Y$] {};
+\node (X) at (-2, 0)[point,label=above right:$X$] {};
+\node (T) at (0, 1)[point,label=above right:$T$] {};
+\node (V) at (-1.2, 1)[point,label=above right:$V$] {};
+\node (C) at (0, -3)[point,label=below right:$C$] {};
+\node (B) at (3.5, -3)[point,label=above right:$B$] {};
+\draw (Y)--(A);
+\draw (X)--(A);
+\draw (T)--(A);
+\draw (V)--(A);
+\draw (C)--(A);
+\draw (B)--(A);
+\draw (B)--(C);
+
+\tkzMarkAngle[size=.3](A,B,C)
+\tkzMarkAngle[size=.3](V,A,X)
+\tkzMarkAngle[size=.3](C,A,B)
+\draw (-0.4,0.1) node{$\theta$};
+\draw (3.1,-2.9)[label=below] node{$\theta$};
+\tkzMarkRightAngle[size=.2](B,C,A)
+\tkzMarkRightAngle[size=.2](C,A,X)
+
+\node [below] at (1.7,-3.1) {$a$};
+\node  at (-0.1,-1.5) {$b$};
+\node at (2,-1.5) {$c$};
+
+\end{tikzpicture}

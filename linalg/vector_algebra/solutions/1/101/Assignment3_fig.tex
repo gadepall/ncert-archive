@@ -1,0 +1,9 @@
+\begin{tikzpicture}	
+	\draw (0,0) node[anchor=north]{$A$}
+	-- (2,4) node[anchor=east]{$B$}
+	-- (6,4) node[anchor=west]{$C$}
+	-- (4,0) node[anchor=north]{$D$}
+	-- cycle;
+	\draw[red][thick] (2,4) -- (4,0) 	-- cycle;
+	\draw[red][thick] (6,4) -- (0,0) 	-- cycle;
+\end{tikzpicture}

@@ -1,0 +1,97 @@
+From theory, we understand that using dot product we can find the angle between the lines 
+\begin{enumerate}
+	\item 
+	\begin{align}\label{eq:solutions/line_plane/74/codes:5}
+		\frac{x-2}{2} = \frac{y-1}{5} &= \frac{z+3}{-3}, 
+	\end{align}
+	\begin{align}\label{eq:solutions/line_plane/74/codes:6}
+		\frac{x+2}{-1} = \frac{y-4}{8} &= \frac{z-5}{4} 
+	\end{align}
+
+
+The above symmetric equations \ref{eq:solutions/line_plane/74/codes:5}, \ref{eq:solutions/line_plane/74/codes:6} can be represented in the vector form as 
+\begin{align}\label{eq:solutions/line_plane/74/codes7}
+	\quad \vec{r_1} &= \myvec{2\\1\\-3} + \lambda_1\myvec{2\\5\\-3}
+	\\
+	\quad \vec{r_2} &= \myvec{-2\\4\\5} + \lambda_2\myvec{-1\\8\\4}
+\end{align}
+
+As we have to find the angle between the vectors, we will only be taking the direction vectors into consideration. The direction vectors are $\vec{u}$ = $\myvec{2\\5\\-3}$ and $\vec{v}$ = $\myvec{-1\\8\\4}$. We can find the corresponding magnitude values
+
+\begin{align}\label{eq:solutions/line_plane/74/codes9}
+	\norm{\vec{u}} =\sqrt{2^{2}+5^{2}+(-3)^{2}} =\sqrt{38}
+\end{align}
+\begin{align}\label{eq:solutions/line_plane/74/codes10}
+	\norm{\vec{v}} =\sqrt{(-1)^{2}+8^{2}+4^{2}} =\sqrt{81}
+\end{align}
+
+Using \ref{eq:solutions/line_plane/74/codes4}, \ref{eq:solutions/line_plane/74/codes9}, \ref{eq:solutions/line_plane/74/codes10} we get
+\begin{align}
+	\theta = \cos ^{-1}\frac{\myvec{2\\5\\-3}^{T}\myvec{-1\\8\\4}}{(\sqrt{38})(\sqrt{81})} 
+	\\
+	\theta = \cos ^{-1}\frac{26}{55.4797}
+	\\
+	\theta = \cos ^{-1} (0.4686)
+	\\
+	\theta = 62.053\degree
+\end{align}
+
+Therefore, the angle between the two lines is $62.053\degree$.See Fig. \ref{fig:solutions/line_plane/74/codesline_equation_1}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\columnwidth]{./solutions/line_plane/74/codes/figs/Line_interest_1.png}
+	\caption{Graph for equations \ref{eq:solutions/line_plane/74/codes7}}
+	\label{fig:solutions/line_plane/74/codesline_equation_1}
+\end{figure}
+
+
+	\item 
+	\begin{align}\label{eq:solutions/line_plane/74/codes12}
+		\frac{x}{2} = \frac{y}{2} &= \frac{z}{1}, 
+	\end{align}
+	\begin{align}\label{eq:solutions/line_plane/74/codes13}
+		\frac{x-5}{4} = \frac{y-2}{1} &= \frac{z-3}{8} 
+	\end{align}
+
+
+
+The above symmetric equations \ref{eq:solutions/line_plane/74/codes12}, \ref{eq:solutions/line_plane/74/codes13} can be represented in the vector form as 
+\begin{align}\label{eq:solutions/line_plane/74/codes14}
+	\quad \vec{r_1} &= \myvec{0\\0\\0} + \lambda_1\myvec{2\\2\\1}
+	\\
+	\quad \vec{r_2} &= \myvec{5\\2\\3} + \lambda_2\myvec{4\\1\\8}
+\end{align}
+
+As we have to find the angle between the vectors, we will only be taking the direction vectors into consideration. The direction vectors are $\vec{u}$ = $\myvec{2\\2\\1}$ and $\vec{v}$ = $\myvec{4\\1\\8}$. We can find the corresponding magnitude values
+
+\begin{align}\label{eq:solutions/line_plane/74/codes16}
+	\norm{\vec{u}} =\sqrt{2^{2}+2^{2}+1^{2}} =\sqrt{9}
+\end{align}
+\begin{align}\label{eq:solutions/line_plane/74/codes17}
+	\norm{\vec{v}} =\sqrt{4^{2}+1^{2}+8^{2}} =\sqrt{81}
+\end{align}
+
+Using \ref{eq:solutions/line_plane/74/codes4}, \ref{eq:solutions/line_plane/74/codes16}, \ref{eq:solutions/line_plane/74/codes17} we get
+\begin{align}
+	\theta = \cos ^{-1}\frac{\myvec{2\\2\\1}^{T}\myvec{4\\1\\8}}{(\sqrt{9})(\sqrt{81})} 
+	\\
+	\theta = \cos ^{-1}\frac{18}{27.00}
+	\\
+	\theta = \cos ^{-1} (0.667)
+	\\
+	\theta = 48.189\degree
+\end{align}
+
+Therefore, the angle between the two lines is $48.189\degree$. See Fig. \ref{fig:solutions/line_plane/74/codesline_equation_2}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\columnwidth]{./solutions/line_plane/74/codes/figs/Line_interest_2.png}
+	\caption{Graph for equations \ref{eq:solutions/line_plane/74/codes14}}
+	\label{fig:solutions/line_plane/74/codesline_equation_2}
+\end{figure}
+\end{enumerate}
+
+    

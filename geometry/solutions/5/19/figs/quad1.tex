@@ -1,0 +1,27 @@
+\begin{tikzpicture}
+[scale=1.5,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+
+%Quadrilateral sides BC, CD, AD, AB, BD
+\tikzmath{\a =9 ; \b = 6.324; \c = 4.472; \d = 5; \e = 9.219; }
+%Rotation angles DBC and ABD
+\tikzmath{\t1=40.59894644246735; \t2=12.538854243315772; }
+%
+%Labeling points
+\node (B) at (0, 0)[point,label=below left:$B$] {};
+\node (C) at (\a, 0)[point,label=below right:$C$] {};
+\node (A) at ({\t1+\t2}:\d)[point,label=above right:$A$] {};
+\node (D) at (\t1:\e)[point,label=above right:$D$] {};
+
+%Foot of perpendicular
+
+\draw (A) --  node[left] {$\textrm{d}$}(B) --  node[below] {$\textrm{a}$}(C) --  node[right] {$\textrm{b}$}(D) --  node[above] {$\textrm{c}$}(A);
+\draw (B) -- node[above left] {$\textrm{e}$}(D);
+
+%Drawing and marking angles
+\tkzMarkAngle[fill=orange!50,mark=](C,B,D)
+\tkzMarkAngle[fill=green!50,mark=](D,B,A)
+\tkzLabelAngle[pos=0.65](C,B,D){$\theta_1$}
+\tkzLabelAngle[pos=0.65](D,B,A){$\theta_2$}
+
+\end{tikzpicture}

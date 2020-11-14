@@ -1,0 +1,7 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsubsection.\theenumi]
+\numberwithin{equation}{enumi}
+%
+\item Find the conjugate of $\frac{\myvec{3\\-2}\myvec{2\\3}}{\myvec{1\\2}\myvec{2\\-1}} $
+
+\end{enumerate}

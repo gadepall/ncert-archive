@@ -1,0 +1,64 @@
+\begin{figure}[h!]
+\centering
+\resizebox{\columnwidth}{!}
+    {
+    \input{./solutions/1/9/Figure1.tex}
+    }
+\end{figure}
+In order to prove that line $PQ $ is the perpendicular bisector of $AB$, two conditions need to be met:
+\begin{enumerate}
+        \item $PQ \perp AB $
+    \item $AM$=$BM$
+\end{enumerate}
+These conditions can be proved as follow:
+\noindent It is given that the points $\vec{P}$ and $\vec{Q}$  are equidistant from the points $\vec{A}$ and $\vec{B}$. Thus we can write:
+\begin{align}
+    \norm{\vec{P}-\vec{A}}=\norm{\vec{P}-\vec{B}} \label{eq:solutions/1/9/eq2.2}\\
+    \norm{\vec{Q}-\vec{A}}=\norm{\vec{Q}-\vec{B}} \label{eq:solutions/1/9/eq2.3}
+\end{align}
+Squaring both sides of equations \ref{eq:solutions/1/9/eq2.2} and expanding further, we can write:
+\begin{align}
+    \brak{\vec{P}-\vec{A}}^T\brak{\vec{P}-\vec{A}}=\brak{\vec{P}-\vec{B}}^T\brak{\vec{P}-\vec{B}} \\
+    \vec{P}^T\vec{P}-\vec{P}^T\vec{A}-\vec{A}^T\vec{P}+\vec{A}^T\vec{A}= \nonumber \\ 
+     \vec{P}^T\vec{P}-\vec{P}^T\vec{B}-\vec{B}^T\vec{P}+\vec{B}^T\vec{B} \\
+     \therefore \vec{A}^T\vec{A}-\vec{B}^T\vec{B}=-2\vec{P}^T\vec{B}+2\vec{P}^T\vec{A}\label{eq:solutions/1/9/eq3.5}
+\end{align}
+Similarly, Squaring both sides of equations \ref{eq:solutions/1/9/eq2.3} and expanding further, we can write:
+\begin{align}
+    \brak{\vec{Q}-\vec{A}}^T\brak{\vec{Q}-\vec{A}}=\brak{\vec{Q}-\vec{B}}^T\brak{\vec{Q}-\vec{B}} \\
+    \vec{Q}^T\vec{Q}-\vec{Q}^T\vec{A}-\vec{A}^T\vec{Q}+\vec{A}^T\vec{A}= \nonumber \\ 
+     \vec{Q}^T\vec{Q}-\vec{Q}^T\vec{B}-\vec{B}^T\vec{Q}+\vec{B}^T\vec{B} \\
+     \therefore \vec{A}^T\vec{A}-\vec{B}^T\vec{B}=-2\vec{Q}^T\vec{B}+2\vec{Q}^T\vec{A}\label{eq:solutions/1/9/eq3.8}
+\end{align}
+From equations \ref{eq:solutions/1/9/eq3.5} and \ref{eq:solutions/1/9/eq3.8}, we can write:
+\begin{align}
+    2\vec{P}^T\brak{\vec{A}-\vec{B}}=2\vec{Q}^T\brak{\vec{A}-\vec{B}}\\
+    \vec{P}^T\brak{\vec{A}-\vec{B}}-\vec{Q}^T\brak{\vec{A}-\vec{B}}=0\\
+    \brak{\vec{P}-\vec{Q}}^T\brak{\vec{A}-\vec{B}}=0
+\end{align}
+Thus, Segment $PQ$ is perpendicular to segment $AB$ ($PQ \perp AB$).\\ \\
+From the figure, equations \ref{eq:solutions/1/9/eq2.2} can also be written as:
+\begin{align}
+    \norm{\brak{\vec{P}-\vec{M}}+\brak{\vec{M}-\vec{A}}}=\norm{\brak{\vec{P}-\vec{M}}+\brak{\vec{M}-\vec{B}}}
+\end{align}
+Squaring and expanding both the sides, we get:
+\begin{align}
+\brak{\brak{\vec{P}-\vec{M}}+\brak{\vec{M}-\vec{A}}}^T\brak{\brak{\vec{P}-\vec{M}}+\brak{\vec{M}-\vec{A}}} = \nonumber \\
+\brak{\brak{\vec{P}-\vec{M}}+\brak{\vec{M}-\vec{B}}}^T\brak{\brak{\vec{P}-\vec{M}}+\brak{\vec{M}-\vec{B}}}
+\end{align}
+\begin{align}
+\brak{\vec{P}-\vec{M}}^T\brak{\vec{P}-\vec{M}}+\brak{\vec{P}-\vec{M}}^T\brak{\vec{M}-\vec{A}}+ \nonumber \\\brak{\vec{M}-\vec{A}}^T\brak{\vec{P}-\vec{M}}+\brak{\vec{M}-\vec{A}}^T\brak{\vec{M}-\vec{A}} = \nonumber \\
+\brak{\vec{P}-\vec{M}}^T\brak{\vec{P}-\vec{M}}+\brak{\vec{P}-\vec{M}}^T\brak{\vec{M}-\vec{B}}+ \nonumber \\\brak{\vec{M}-\vec{B}}^T\brak{\vec{P}-\vec{M}}+\brak{\vec{M}-\vec{B}}^T\brak{\vec{M}-\vec{B}}\\
+\norm{\brak{\vec{M}-\vec{A}}}^2+2\brak{\vec{M}-\vec{A}}^T\brak{\vec{P}-\vec{M}} = \nonumber \\
+\norm{\brak{\vec{M}-\vec{B}}}^2+2\brak{\vec{M}-\vec{B}}^T\brak{\vec{P}-\vec{M}} \label{eq:solutions/1/9/eq3.15}
+\end{align}
+Since, $PQ\perp AB$. Hence, we can write:
+\begin{align}
+\brak{\vec{M}-\vec{A}}^T\brak{\vec{P}-\vec{M}}=\brak{\vec{M}-\vec{B}}^T\brak{\vec{P}-\vec{M}}=0 \label{eq:solutions/1/9/eq3.16}
+\end{align}
+From equation \ref{eq:solutions/1/9/eq3.15} and \ref{eq:solutions/1/9/eq3.16}, we get:
+\begin{align}
+    \norm{\brak{\vec{M}-\vec{A}}}=\norm{\brak{\vec{M}-\vec{B}}}
+\end{align}
+Thus, $M$ is the midpoint of segment $AB$ ($AM=BM$).
+Thus, Segment $PQ$ is perpendicular bisector of segment $AB$.

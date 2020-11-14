@@ -1,0 +1,14 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item The runs scored by two teams A and B on
+the first 60 balls in a cricket match are given
+below:
+\begin{table}[!ht]
+\centering
+\input{./statistics/tables/Q43/prob.tex}
+\label{table:Q43}	
+\end{table}
+Represent the data of both the teams on the
+same graph by frequency polygons.
+\end{enumerate}

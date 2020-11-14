@@ -1,0 +1,34 @@
+
+Any matrix A can be converted in the form 
+\begin{align}
+    \vec{A} = \vec{Q}\vec{R}\label{eq:solutions/4/1/42/2.1}
+\end{align}
+Here  $\vec{Q}$ is an orthogonal matrix and $\vec{R}$ is an upper triangular matrix. This is known as QR decomposition.
+
+For the given matrix at \ref{eq:solutions/4/1/42/1.1}, column vectors are,
+\begin{align}
+    \vec{a}=\myvec{19\\12} \quad \vec{b}=\myvec{12\\1} \label{eq:solutions/4/1/42/2.2}
+\end{align}
+Equation  \ref{eq:solutions/4/1/42/2.1} can be written in $\vec{Q}\vec{R}$ form as:
+\begin{align}
+    \vec{Q}\vec{R} = \myvec{\vec{q_1}&\vec{q_2}} \myvec{u_1&u_3\\0&u_2}  \label{eq:solutions/4/1/42/2.3}
+\end{align}
+Where,
+\begin{align}
+u_1 = \norm{\vec{a}} = \sqrt{19^2+12^2} = \sqrt{505} \label{eq:solutions/4/1/42/2.4}\\
+\vec{q_1} = \frac{\vec{a}}{u_1} = \myvec{\frac{19}{\sqrt{505}}\\ \frac{12}{\sqrt{505}}}
+\end{align}
+\begin{multline}
+u_3 = \frac{\vec{q_1}^T\vec{b}}{\norm{\vec{q_1}}^2} = \myvec{\frac{19}{\sqrt{505}}& \frac{12}{\sqrt{505}}}\myvec{12\\1}\\= \frac{240}{\sqrt{505}}
+\end{multline}
+\begin{multline}
+\vec{q_2} = \frac{\vec{b} - u_3 \vec{q_1}}{\norm{\vec{b} - u_3 \vec{q_1}}} \\=  \frac{101}{25\sqrt{505}}\myvec{\frac{300}{101}\\ -\frac{475}{101}}= \myvec{\frac{12}{\sqrt{505}} \\ -\frac{19}{\sqrt{505}}}
+\end{multline}
+\begin{multline}
+u_2 = {\vec{q_2}^T\vec{b}} \\= \myvec{\frac{12}{\sqrt{505}} & -\frac{19}{\sqrt{505}}}\myvec{12\\1}=\frac{125}{\sqrt{505}}\label{eq:solutions/4/1/42/2.11}
+\end{multline}
+By substituting equation  \ref{eq:solutions/4/1/42/2.4} to  \ref{eq:solutions/4/1/42/2.11} in  \ref{eq:solutions/4/1/42/2.3},we obtain
+the QR Decomposition of the given matrix as:
+\begin{multline}
+    \myvec{19&12\\12&1} \\= \myvec{\frac{19}{\sqrt{505}}& \frac{12}{\sqrt{505}}\\\frac{12}{\sqrt{505}}&-\frac{19}{\sqrt{505}}}\myvec{\sqrt{505} &\frac{240}{\sqrt{505}}\\0&\frac{125}{\sqrt{505}}}
+\end{multline}

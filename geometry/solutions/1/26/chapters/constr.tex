@@ -1,0 +1,33 @@
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./solutions/1/26/figs/angle.tex}}
+\caption{ }
+\label{fig:8.1.26_angle}	
+\end{figure}
+
+%\renewcommand{\thefigure}{\theenumi.\arabic{figure}}
+
+\item {Construction: } See Fig. \ref{fig:8.1.26_angle}
+The input parameters are
+% 
+\begin{align}
+\vec{A} &= \myvec{0\\0},
+\vec{P} &= \myvec{1\\0}
+\vec{Q} &= \myvec{\cos \theta \\ \sin \theta}
+\end{align}
+resulting in 
+% 
+%
+\begin{align}
+\vec{B} &= \lambda{\vec{P}+\vec{Q}}
+\\
+\because \brak{\vec{B} - \vec{P}}^T \vec{P} &= 0,
+\\
+\brak{\lambda -1}+ \lambda \vec{Q}^T \vec{P} &=0
+\end{align}
+resulting in 
+\begin{align}
+\lambda = \frac{1}{1+\vec{P}^T \vec{Q} }
+\end{align}
+
+

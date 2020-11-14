@@ -1,0 +1,65 @@
+
+Equation \ref{eq:solutions/chem/7b1}  can be written as :
+
+\begin{align}
+\label{eq:solutions/chem/7b2} Zn+ AgNO_{3} \to Ag + Zn(NO_{3})_{2}
+\end{align}
+
+Suppose balance form of the equation is :
+\begin{align}
+    \label{eq:solutions/chem/7b3} x_{1}Zn+ x_{2}AgNO_{3} \to x_{3}Ag + x_{4} Zn(NO_{3})_{2}
+\end{align}
+which results in the following equations:
+\begin{align}
+    ( x_{1} - 2x_{4} ) Zn = 0\\
+    ( x_{2} - x_{3} ) Ag = 0\\
+    ( x_{3} - 2 x_{4} ) N =0\\
+    ( 3x_{3} - 6x_{4} ) O = 0
+\end{align}
+which can be expressed as
+\begin{align}
+    x_{1} + 0.x_{2} + 0.x_{3} - x_{4} = 0\\
+    0.x_{1} + x_{2} - x_{3} + 0.x_{4} = 0\\
+    0.x_{1} + 0.x_{2} + x_{3} - 2.x_{4} =0\\
+    0.x_{1} + 0.x_{2} + 3x_{3} - 6.x_{4}= 0
+\end{align}
+resulting in the matrix equation
+\begin{align}
+    \label{eq:solutions/chem/7b: matrix}
+    \myvec{1 & 0 & 0 & -1\\
+           0 & 1 & -1 & 0\\
+           0 & 0 & 1 & -2\\
+           0 & 0 & 3 & -6 }\vec{x}
+           =\vec{0}
+\end{align}
+where,
+\begin{align}
+   \vec{x}= \myvec{x_{1}\\x_{2}\\x_{3}\\x_{4}}
+\end{align}
+(\ref{eq:solutions/chem/7b: matrix}) can be reduced as follows:
+\begin{align}
+    \myvec{1 & 0 & 0 & -1\\
+   	0 & 1 & -1 & 0\\
+   	0 & 0 & 1 & -2\\
+   	0 & 0 & 3 & -6 }
+    \xleftrightarrow {R_{4}\leftarrow R_4 - 3R_3}
+      \myvec{1 & 0 & 0 & -1\\
+    	0 & 1 & -1 & 0\\
+    	0 & 0 & 1 & -2\\
+    	0 & 0 & 0 & 0 }
+    \end{align}
+Thus,
+\begin{align}
+    x_1 = x_4, x_ 2 = 2x_4, x_3 = 2x_4\\
+    \implies \quad\vec{x } = \myvec{x_{4} \\ 2x_{4}\\ 2x_{4} \\ x_{4}}   =  x_4 \myvec{1\\ 2 \\ 2 \\1}
+    \end{align} 
+by substituting $x_4= 1$, we get :
+\begin{align}
+ \implies \quad\vec{x} = \myvec{1\\ 2 \\ 2 \\1}
+\end{align}
+
+%\vspace{5mm} 
+Hence, (\ref{eq:solutions/chem/7b3}) finally becomes
+\begin{align}
+Zn + 2AgNO_{3} \to 2Ag + Zn(NO_{3})_{2}
+\end{align}

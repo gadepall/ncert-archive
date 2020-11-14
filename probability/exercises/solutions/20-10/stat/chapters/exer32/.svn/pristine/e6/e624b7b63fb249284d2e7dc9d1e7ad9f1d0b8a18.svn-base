@@ -1,0 +1,14 @@
+Least value=0.01\\
+Greatest value=0.23\\
+class interval=0.04\\
+\begin{table}[ht!]
+\centering
+\input{./stat/tables/exer32/out32.tex}
+\caption{Grouped frequency distribution table for the data in \ref{table:sulphurdioxide_concentration}}
+\label{table:output_32}
+\end{table}
+The grouped frequency distribution table \ref{table:output_32} is construced using the python code
+\begin{lstlisting}
+./stat/codes/exer32.py
+\end{lstlisting}
+From the table \ref{table:sulphurdioxide_concentration}, The sulphur dioxide concentration was greater than 0.11ppm for 8 days. 

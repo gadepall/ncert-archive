@@ -1,0 +1,19 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Consider the following distribution of daily wages of 50 workers of a factory.
+\begin{table}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\vtop{\hbox{\strut Daily}\hbox{\strut wages}}  &500-520&520-540&540-560\\
+\hline
+\vtop{\hbox{\strut No of }\hbox{\strut workers}}&12&14&8\\
+\hline
+\vtop{\hbox{\strut Daily}\hbox{\strut wages}}&560-580&580-600&\\
+\hline
+\vtop{\hbox{\strut No of }\hbox{\strut workers}}&6&10&\\
+\hline
+\end{tabular}\\
+\end{table}
+Find the mean daily wages of the workers of the factory by using an appropriate method.
+\end{enumerate}

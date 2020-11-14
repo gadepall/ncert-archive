@@ -1,0 +1,26 @@
+
+Since
+\begin{align}
+    \vec{I}=\myvec{1 & 0\\ 0 & 1}\\
+    \vec{A}=\tan\frac{\alpha}{2}\myvec{\cos{90} & -\sin{90} \\ \sin{90} & \cos{90}}\\
+\Vec{I}-\Vec{A}=\myvec{1 & 0\\ 0 & 1}-\tan\frac{\alpha}{2}\myvec{\cos{90} & -\sin{90} \\ \sin{90} & \cos{90}}\\
+=\frac{1}{\cos\frac{\alpha}{2}}\myvec{\cos\frac{\alpha}{2} & 0 \\ 0 & \cos\frac{\alpha}{2}}-\frac{\sin\frac{\alpha}{2}}{\cos\frac{\alpha}{2}}\myvec{\cos{90} & -\sin{90} \\ \sin{90} & \cos{90}} \\
+=\frac{1}{\cos\frac{\alpha}{2}}\myvec{\cos\frac{\alpha}{2} & 0 \\ 0 & \cos\frac{\alpha}{2}}-\frac{1}{\cos\frac{\alpha}{2}}\myvec{0 & -\sin\frac{\alpha}{2} \\ \sin\frac{\alpha}{2} & 0} \\
+=\frac{1}{\cos\frac{\alpha}{2}}\myvec{\cos\frac{\alpha}{2} & \sin\frac{\alpha}{2} \\ -\sin\frac{\alpha}{2} & \cos\frac{\alpha}{2}}
+\end{align}
+The matrix $\vec{I}-\vec{A}$ is a rotational Matrix with rotation $-\frac{\alpha}{2}$ \\\\
+The Matrix $\myvec{\cos\alpha & -\sin\alpha \\ \sin\alpha & \cos\alpha}$ is also a rotational Matrix with an angle $+\alpha$.\\\\
+Multiplying two rotational matrices gives the resultant rotational matrix $+\alpha-\frac{\alpha}{2}=+\frac{\alpha}{2}$\\
+\begin{align}
+  RHS=\myvec{I-A}\myvec{\cos\alpha & -\sin\alpha \\ \sin\alpha & cos\alpha}\\
+ =\frac{1}{\cos\frac{\alpha}{2}}\myvec{\cos\frac{\alpha}{2} & \sin\frac{\alpha}{2} \\ -\sin\frac{\alpha}{2} & \cos\frac{\alpha}{2}}\myvec{\cos\alpha & -\sin\alpha \\ \sin\alpha & cos\alpha}\\
+   =\frac{1}{\cos\frac{\alpha}{2}}\myvec{\cos\frac{\alpha}{2} & -\sin\frac{\alpha}{2} \\ \sin\frac{\alpha}{2} & \cos\frac{\alpha}{2}}\\
+\end{align}
+Solving LHS$=\vec{I}+\vec{A}$
+\begin{align}
+    \vec{I}+\vec{A}=\myvec{1 & \tan\frac{\alpha}{2}\\\tan\frac{\alpha}{2} & 1}\\
+    =\frac{1}{\cos\frac{\alpha}{2}}\myvec{\cos\frac{\alpha}{2} & -\sin\frac{\alpha}{2} \\ \sin\frac{\alpha}{2} & \cos\frac{\alpha}{2}}
+\end{align}
+This term is a rotational Matrix with angle $+\frac{\alpha}{2}$.Hence both sides evaluates to be a rotational matrix with angle $+\frac{\alpha}{2}$.
+
+

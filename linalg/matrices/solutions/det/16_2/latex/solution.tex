@@ -1,0 +1,33 @@
+Using column operations to simplify the equation, we get:
+\begin{align}
+\mydet{1 & 1 & 1\\a & b & c\\a^3 & b^3 & c^3} \xleftrightarrow[]{C_1\rightarrow C_1-C_2} 
+\mydet{0 & 1 & 1\\a-b & b & c\\a^3-b^3 & b^3 & c^3}
+\end{align}
+\begin{align}
+\xleftrightarrow[]{C_2\rightarrow C_2-C_3}
+\mydet{0 & 0 & 1\\a-b & b-c & c\\a^3 - b^3 & b^3 - c^3 & c^3}
+\end{align}
+\begin{align}
+(a-b)(b-c)\mydet{0 & 0 & 1\\1 & 1 & c\\a^2+ab+b^2 & b^2+bc+c^2 & c^3}
+\end{align}
+\begin{align}
+\xleftrightarrow[]{C_1\rightarrow C_1-C_2}(a-b)(b-c)
+\mydet{0 & 0 & 1
+\\0 & 1 & c
+\\(a^2-c^2)+b(a-c)& b^2+bc+c^2 & c^3}
+\end{align}
+\begin{align}
+\implies (a-b)(b-c)
+\mydet{0 & 0 & 1\\0 & 1 & c\\k & b^2+bc+c^2 & c^3}
+\end{align}
+Where 
+\begin{align}
+k = (a-c)(a+c)+b(a-c)
+\end{align}
+\begin{align}
+(a-b)(b-c)(a-c) 
+\mydet{0 & 0 & 1\\0 & 1 & c\\a+b+c & b^2+bc+c^2 & c^3}
+\end{align}
+\begin{align}
+=(a-b)(b-c)(a-c)(-1)(a+b+c)\\=(a-b)(b-c)(c-a)(a+b+c)
+\end{align}

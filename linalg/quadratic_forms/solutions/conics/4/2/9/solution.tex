@@ -1,0 +1,129 @@
+Let us consider orthogonal vectors $\vec{m_1}$ and $\vec{m_2}$ to the given normal vector $\vec{n}$. Let, $\vec{m}$ = $\myvec{a\\b\\c}$, then
+\begin{align}
+\vec{m^T}\vec{n} &= 0\\
+\implies\myvec{a&b&c}\myvec{2\\-3\\6} &= 0\\
+\implies2a-3b+6c &= 0
+\end{align}
+Let a=1 and b=0 we get,
+\begin{align}
+\vec{m_1} &= \myvec{1\\0\\-\frac{1}{3}} \label{eq:solutions/4/2/9/eq:m1}
+\end{align}
+Let a=0 and b=1 we get,
+\begin{align}
+\vec{m_2} &= \myvec{0\\1\\\frac{1}{2}} \label{eq:solutions/4/2/9/eq:m2}
+\end{align}
+Now we solve the equation,
+\begin{align}
+\vec{M}\vec{x} &= \vec{b}\label{eq:solutions/4/2/9/eq:Mx}
+\end{align}
+Substituting \eqref{eq:solutions/4/2/9/eq:m1} and \eqref{eq:solutions/4/2/9/eq:m2} in \eqref{eq:solutions/4/2/9/eq:Mx},
+\begin{align}
+    \myvec{1&0\\0&1\\-\frac{1}{3}&\frac{1}{2}}\vec{x} &= \myvec{-6\\0\\0}\label{eq:solutions/4/2/9/eq:Mxsub}
+\end{align}
+To solve \eqref{eq:solutions/4/2/9/eq:Mxsub}, we will perform Singular Value Decomposition on $\vec{M}$ as follows,
+\begin{align}
+\vec{M}=\vec{U}\vec{S}\vec{V}^T\label{eq:solutions/4/2/9/eq:SVD}
+\end{align}
+Where the columns of $\vec{V}$ are the eigen vectors of $\vec{M}^T\vec{M}$ ,the columns of $\vec{U}$ are the eigen vectors of $\vec{M}\vec{M}^T$ and $\vec{S}$ is diagonal matrix of singular value of eigenvalues of $\vec{M}\vec{M}^T$.
+\begin{align}
+\vec{M}^T\vec{M}=\myvec{\frac{10}{9}&-\frac{1}{6}\\-\frac{1}{6}&\frac{5}{4}}\label{eq:solutions/4/2/9/eq:MtM}\\
+\vec{M}\vec{M}^T=\myvec{1&0&-\frac{1}{3}\\0&1&\frac{1}{2}\\-\frac{1}{3}&\frac{1}{2}&\frac{13}{36}}
+\end{align}
+Substituting \eqref{eq:solutions/4/2/9/eq:SVD} in \eqref{eq:solutions/4/2/9/eq:Mx},
+\begin{align}
+\vec{U}\vec{S}\vec{V}^T\vec{x} & = \vec{b}\\
+\implies\vec{x} &= \vec{V}\vec{S_+}\vec{U^T}\vec{b}\label{eq:solutions/4/2/9/eq:x}
+\end{align}
+Where $\vec{S_+}$ is Moore-Penrose Pseudo-Inverse of $\vec{S}$. \\
+Let us calculate eigen values of $\vec{M}\vec{M}^T$,
+\begin{align}
+\mydet{\vec{M}\vec{M}^T - \lambda\vec{I}} &= 0\\
+\implies\myvec{1-\lambda&0&-\frac{1}{3}\\0&1-\lambda&\frac{1}{2}\\-\frac{1}{3}&\frac{1}{2}&\frac{13}{36}-\lambda} &=0\\
+\implies\lambda^3-\frac{85}{36}\lambda^2+\frac{49}{36}\lambda &=0 \label{eq:solutions/4/2/9/eq:charac1}
+\end{align}
+From equation \eqref{eq:solutions/4/2/9/eq:charac1} eigen values of $\vec{M}\vec{M}^T$ are,
+\begin{align}
+\lambda_1 = \frac{49}{36} \quad
+\lambda_2 = 1 \quad
+\lambda_3 = 0
+\end{align}
+The eigen vectors of $\vec{M}\vec{M}^T$ are,
+\begin{align}
+\vec{u}_1=\myvec{-\frac{12}{13}\\\frac{18}{13}\\1}\quad
+\vec{u}_2=\myvec{\frac{3}{2}\\1\\0}\quad
+\vec{u}_3=\myvec{\frac{1}{3}\\-\frac{1}{2}\\1}\label{eq:solutions/4/2/9/eq:vecs1}
+\end{align}
+Normalizing the eigen vectors in equation \eqref{eq:solutions/4/2/9/eq:vecs1}
+\begin{align}
+\vec{u}_1=\myvec{-\frac{12}{7\sqrt{13}}\\\frac{18}{7\sqrt{13}}\\\frac{13}{7\sqrt{13}}}\quad
+\vec{u}_2=\myvec{\frac{3}{\sqrt{13}}\\\frac{2}{\sqrt{13}}\\0}\quad
+\vec{u}_3=\myvec{\frac{2}{7}\\-\frac{3}{7}\\\frac{6}{7}}
+\end{align}
+Hence we obtain $\vec{U}$ as follows,
+\begin{align}
+\vec{U}=\myvec{-\frac{12}{7\sqrt{13}}&\frac{3}{\sqrt{13}}&\frac{2}{7}\\\frac{18}{7\sqrt{13}}&\frac{2}{\sqrt{13}}&-\frac{3}{7}\\\frac{13}{7\sqrt{13}}&0&\frac{6}{7}}\label{eq:solutions/4/2/9/eq:U}
+\end{align}
+After computing the singular values from eigen values $\lambda_1, \lambda_2, \lambda_3$ we get $\vec{S}$ as follows,
+\begin{align}
+\vec{S}=\myvec{\frac{7}{6}&0\\0&1\\0&0}
+\end{align}
+Now, lets calculate eigen values of $\vec{M}^T\vec{M}$,
+\begin{align}
+\mydet{\vec{M}^T\vec{M} - \lambda\vec{I}} &= 0\\
+\implies\myvec{\frac{10}{9}-\lambda&-\frac{1}{6}\\-\frac{1}{6}&\frac{5}{4}-\lambda} &=0\\
+\implies\lambda^2-\frac{85}{36}\lambda+\frac{49}{36} &=0
+\end{align}
+Hence eigen values of $\vec{M}^T\vec{M}$ are,
+\begin{align}
+\lambda_1 = \frac{49}{36}\quad
+\lambda_2 = 1
+\end{align}
+Hence the eigen vectors of $\vec{M}^T\vec{M}$ are,
+\begin{align}
+\vec{v}_1=\myvec{-\frac{2}{3}\\1} \quad
+\vec{v}_2=\myvec{\frac{3}{2}\\1}
+\end{align}
+Normalizing the eigen vectors,
+\begin{align}
+\vec{v}_1=\myvec{-\frac{2}{\sqrt{13}}\\\frac{3}{\sqrt{13}}} \quad
+\vec{v}_2=\myvec{\frac{3}{\sqrt{13}}\\\frac{2}{\sqrt{13}}}
+\end{align}
+Hence we obtain $\vec{V}$ as,
+\begin{align}
+\vec{V}=\myvec{-\frac{2}{\sqrt{13}}&\frac{3}{\sqrt{13}}\\\frac{3}{\sqrt{13}}&\frac{2}{\sqrt{13}}}
+\end{align}
+From \eqref{eq:solutions/4/2/9/eq:Mx}, the Singular Value Decomposition of $\vec{M}$ is as follows,
+\begin{align}
+\vec{M} = \myvec{-\frac{12}{7\sqrt{13}}&\frac{3}{\sqrt{13}}&\frac{2}{7}\\\frac{18}{7\sqrt{13}}&\frac{2}{\sqrt{13}}&-\frac{3}{7}\\\frac{13}{7\sqrt{13}}&0&\frac{6}{7}}\myvec{\frac{7}{6}&0\\0&1\\0&0}\myvec{-\frac{2}{\sqrt{13}}&\frac{3}{\sqrt{13}}\\\frac{3}{\sqrt{13}}&\frac{2}{\sqrt{13}}}^T
+\end{align}
+Now, Moore-Penrose Pseudo inverse of $\vec{S}$ is given by,
+\begin{align}
+\vec{S_+} = \myvec{\frac{6}{7}&0&0\\0&1&0}
+\end{align}
+From \eqref{eq:solutions/4/2/9/eq:x} we get,
+\begin{align}
+\vec{U}^T\vec{b}&=\myvec{\frac{72}{7\sqrt{13}}\\-\frac{18}{\sqrt{13}}\\-\frac{12}{7}}\\
+\vec{S_+}\vec{U}^T\vec{b}&=\myvec{\frac{432}{49\sqrt{13}}\\-\frac{18}{\sqrt{13}}}\\
+\vec{x} = \vec{V}\vec{S_+}\vec{U}^T\vec{b} &= \myvec{-\frac{270}{49}\\-\frac{36}{49}} \label{eq:solutions/4/2/9/eq:xsol}
+\end{align}
+Verifying the solution of \eqref{eq:solutions/4/2/9/eq:xsol} using,
+\begin{align}
+\vec{M}^T\vec{M}\vec{x} = \vec{M}^T\vec{b}\label{eq:solutions/4/2/9/eqVerify}
+\end{align}
+Evaluating the R.H.S in \eqref{eq:solutions/4/2/9/eqVerify} we get,
+\begin{align}
+\vec{M}^T\vec{M}\vec{x} &= \myvec{-6\\0}\\
+\implies\myvec{\frac{10}{9}&-\frac{1}{6}\\-\frac{1}{6}&\frac{5}{4}}\vec{x} &= \myvec{-6\\0}\label{eq:solutions/4/2/9/eq:eqversol}
+\end{align}
+Solving the augmented matrix of \eqref{eq:solutions/4/2/9/eq:eqversol} we get,
+\begin{align}
+\myvec{\frac{10}{9}&-\frac{1}{6}&-6\\-\frac{1}{6}&\frac{5}{4}&0} &\xleftrightarrow{R_1=\frac{9}{10}R_1}\myvec{1&-\frac{3}{20}&-\frac{54}{10}\\-\frac{1}{6}&\frac{5}{4}&0}\\
+&\xleftrightarrow{R_2=R_2+\frac{1}{6}R_1}\myvec{1&-\frac{3}{20}&-\frac{54}{10}\\0&\frac{49}{40}&-\frac{9}{10}}\\
+&\xleftrightarrow{R_2=\frac{40}{49}R_2}\myvec{1&-\frac{3}{20}&-\frac{54}{10}\\0&1&-\frac{36}{49}}\\
+&\xleftrightarrow{R_1=R_1+\frac{3}{20}R_2}\myvec{1&0&-\frac{270}{49}\\0&1&-\frac{36}{49}}\label{eq:solutions/4/2/9/eq:rref}
+\end{align}
+From equation \eqref{eq:solutions/4/2/9/eq:rref}, solution is given by,
+\begin{align}
+\vec{x}=\myvec{-\frac{270}{49}\\-\frac{36}{49}}\label{eq:solutions/4/2/9/eq:xversol}
+\end{align}
+Comparing results of $\vec{x}$ from \eqref{eq:solutions/4/2/9/eq:xsol} and \eqref{eq:solutions/4/2/9/eq:xversol}, we can say that the solution is verified.

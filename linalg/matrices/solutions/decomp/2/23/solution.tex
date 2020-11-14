@@ -1,0 +1,30 @@
+
+Given
+\begin{align}
+	\vec{A} =\myvec{3& -2 \\ 4 & -2}
+\end{align}
+Let us use the Gram-Schmidt approach to obtain QR decomposition of $\vec{A}$. Consider column vectors say $\vec{a}_1$ and $\vec{a}_2$ of $\vec{A}$ which is given by
+\begin{align}
+	\vec{a}_1 &=\myvec{3 \\ 4} \\
+	\vec{a}_2 &=\myvec{-2 \\ -2}
+\end{align}
+
+\begin{align}
+\vec{u}_1 &= \vec{a}_1 = \myvec{3 \\ 4} \\
+\vec{e}_1 &= \frac{\vec{u}_1}{\norm{\vec{u}_1}} = \myvec{\frac{3}{5} \\ \frac{4}{5}}\\
+\vec{u}_2 &= \vec{a}_2 - \brak{\vec{a}_2^T.\vec{e}_1}\vec{e}_1\\ 
+&= \myvec{-2 \\ -2} - \brak{-\frac{14}{5}}\myvec{\frac{3}{5} \\ \frac{4}{5}}\\
+&= \myvec{-2 \\ -2} - \myvec{-\frac{42}{25} \\ -\frac{56}{25}} = \myvec{-\frac{8}{25} \\ \frac{6}{25}}\\
+\vec{e}_2 &= \frac{\vec{u}_2}{\norm{\vec{u}_2}}= \myvec{-\frac{4}{5} \\ \frac{3}{5}}
+\end{align}
+
+The matrix $\vec{Q}$ and $\vec{R}$ is given by,
+\begin{align}
+\vec{Q}&=\myvec{\vec{e}_1 & \vec{e}_2} = \myvec{\frac{3}{5} & -\frac{4}{5} \\ \frac{4}{5} & \frac{3}{5}}\\
+\vec{R} &= \myvec{\vec{a}_1^T.\vec{e}_1 & \vec{a}_2^T.\vec{e}_1 \\
+                  0                  & \vec{a}_2^T.\vec{e}_2}=\myvec{5 & -\frac{14}{5} \\ 0 & \frac{2}{5}}
+\end{align}
+Hence, the $\vec{QR}$ decomposition of matrix $\vec{A}$ is as follows:
+\begin{align}
+	\myvec{3& -2 \\ 4 & -2} = \myvec{\frac{3}{5} & -\frac{4}{5} \\ \frac{4}{5} & \frac{3}{5}}\myvec{5 & -\frac{14}{5} \\ 0 & \frac{2}{5}}
+\end{align}

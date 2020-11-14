@@ -1,0 +1,57 @@
+Let,
+\begin{align} \label{eq:solution_matrix_17xplusy}
+    X+Y=\myvec{7 & 0 \\ 2 & 5} = A
+\end{align}
+\begin{align} \label{eq:solution_matrix_17xminusy}
+    X-Y=\myvec{3 & 0 \\ 0 & 3} = B
+\end{align}
+Now, expressing the matrices \eqref{eq:solution_matrix_17xplusy}, \eqref{eq:solution_matrix_17xminusy} in vector form, 
+\begin{align}
+    \myvec{I & I} \myvec{X \\ Y} = A \nonumber\\
+    \myvec{I & -I} \myvec{X \\ Y} = B \nonumber
+\end{align}
+Combining both the equations into a single matrix equation and constructing the augmented matrix,
+\begin{align} \label{eq:solution_matrix_17augmented_1}
+    \myvec{I & I & A \\ I & -I & B} 
+\end{align}
+Transforming the equation \eqref{eq:solution_matrix_17augmented_1} using row reduction,
+\begin{align}
+    \myvec{I & I & A \\ I & -I & B} \xleftrightarrow[]{R2\leftarrow\frac{R1-R2}{2}} \myvec{I & I & A \\ 0 & I & \frac{A-B}{2}} \xleftrightarrow[]{R1\leftarrow R1-R2} \nonumber
+\end{align}
+\begin{align} \label{eq:solution_matrix_17rowreduce_1}
+    \myvec{I & 0 & \frac{A+B}{2} \\ 0 & I & \frac{A-B}{2}}
+\end{align}
+From \eqref{eq:solution_matrix_17rowreduce_1},
+\begin{align}
+    X = \frac{A+B}{2} = \myvec{5 & 0 \\ 1 & 4} \\
+    Y = \frac{A-B}{2} = \myvec{2 & 0 \\ 1 & 1}
+\end{align}
+
+ Let,
+\begin{align} \label{eq:solution_matrix_172xplus3y}
+    2X+3Y=\myvec{2 & 3 \\ 4 & 0}=A
+\end{align}
+\begin{align} \label{eq:solution_matrix_173xplus2y}
+    3X+2Y=\myvec{2 & -2\\-1 & 5}=B
+\end{align}
+Now, expressing the matrices \eqref{eq:solution_matrix_172xplus3y}, \eqref{eq:solution_matrix_173xplus2y} in vector form, 
+\begin{align}
+    \myvec{2I & 3I} \myvec{X \\ Y} = A \nonumber\\
+    \myvec{3I & 2I} \myvec{X \\ Y} = B \nonumber
+\end{align}
+Combining both the equations into a single matrix equation and constructing the augmented matrix,
+\begin{align} \label{eq:solution_matrix_17augmented_2}
+    \myvec{2I & 3I & A \\ 3I & 2I & B} 
+\end{align}
+Transforming the equation \eqref{eq:solution_matrix_17augmented_2} using row reduction,
+\begin{align}
+    \myvec{2I & 3I & A \\ 3I & 2I & B} \xleftrightarrow[]{R2 \leftarrow \frac{3R1-2R2}{5}} \myvec{2I & 3I & A \\ 0 & I & \frac{3A-2B}{5}} \xleftrightarrow[]{R1 \leftarrow \frac{R1-3R2}{2}} \nonumber
+\end{align}
+\begin{align} \label{eq:solution_matrix_17rowreduce_2}
+    \myvec{I & 0 & \frac{3B-2A}{5} \\ 0 & I & \frac{3A-2B}{5}}
+\end{align}
+From \eqref{eq:solution_matrix_17rowreduce_2},
+\begin{align}
+    X = \frac{3B-2A}{5} = \myvec{\frac{2}{5} & \frac{-12}{5} \\ \frac{-11}{5} & 3} \\
+    Y = \frac{3A-2B}{5} = \myvec{\frac{2}{5} & \frac{13}{5} \\ \frac{14}{5} & -2}
+\end{align}

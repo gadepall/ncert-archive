@@ -1,0 +1,24 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+	\numberwithin{equation}{enumi}
+	\item Refer the table given below.\\
+	\begin{tabular}{ |c|c| } 
+		\hline
+		\textbf{Marks} &\textbf{Number of students}\\
+		\hline
+		0-20 &7\\ 
+		20-30 &10\\ 
+		30-40 &10\\ 
+		40-50 &20\\ 
+		50-60 &20\\ 
+		60-70 &15\\ 
+		70-above &8\\ 
+		\hline
+		\textbf{Total}  &90\\ 
+		\hline
+	\end{tabular}\\
+	
+	(i) Find the probability that a student obtained less than 20$\%$ in the mathematics test.\\
+	(ii) Find the probability that a student obtained marks 60 or above.\\
+\end{enumerate}
+

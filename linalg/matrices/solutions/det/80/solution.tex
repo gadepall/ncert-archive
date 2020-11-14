@@ -1,0 +1,24 @@
+Applying transformation:
+\begin{align}
+\mydet{3a & -a+b & -a+c\\
+-b+a & 3b & -b+c\\
+-c+a & -c+b & 3c}\\
+\xleftrightarrow[]{C_1 \leftarrow C1+C_2+C_3 } 
+&
+\mydet{a+b+c & -a+b & -a+c\\
+a+b+c & 3b & -b+c\\
+a+b+c & -c+b & 3c}
+\\
+\xleftrightarrow[R_2 \leftarrow R_2-R_1]{R_3 \leftarrow R_3-R_2}
+&
+ (a+b+c)\mydet{1 & -a+b & -a+c\\
+0 & a+2b & a-b\\
+0 & -2b-c & b+2c}
+\end{align}
+\begin{multline}
+=(a+b+c)\{(a+2b)(b+2c)+(2b+c)(a-b)\}\\
+=(a+b+c)\{ab+2ac+2b^2+4bc+2ab-2b^2+ca-cb\}\\
+=(a+b+c)(3ab+3bc+3ca)\\
+=3(a+b+c)(ab+bc+ca)  
+\end{multline}
+

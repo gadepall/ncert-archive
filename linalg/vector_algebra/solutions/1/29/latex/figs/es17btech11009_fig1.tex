@@ -1,0 +1,8 @@
+\begin{tikzpicture}
+    \draw (0,0) node[anchor=north]{$B$}-- (4,6) node[anchor=south]{$A$}-- (8,0) node[anchor=north]{$C$}-- cycle;
+    \draw (4,6) -- (4,0) node[anchor=north]{$D$};
+    \draw (4,0.5) -- (3.5,0.5) -- (3.5,0);
+    \begin{scope}[shift={(4,0)}]
+        \draw (135:0.75cm) node[anchor=east]{$90^\circ$};
+    \end{scope}
+\end{tikzpicture}

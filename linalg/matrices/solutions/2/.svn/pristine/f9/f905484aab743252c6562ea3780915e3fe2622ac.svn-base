@@ -1,0 +1,9 @@
+\begin{tikzpicture}[scale=.25,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+      
+%Labeling points
+\node (A) at (0, 0)[point,label=below :$A$] {};
+\node (B) at (36, 15)[point,label=below :$B$] {};
+
+%Drawing quad ABCD
+\draw[dotted] (A) -- (B);
+\end{tikzpicture} 	

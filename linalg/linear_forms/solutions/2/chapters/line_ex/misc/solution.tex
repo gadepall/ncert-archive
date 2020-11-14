@@ -1,0 +1,31 @@
+
+The given equations can be expressed as
+\begin{align}
+\myvec{a-b & a+b \\
+a+b & a+b
+}\vec{x} &= \myvec{a^2-2ab-b^2\\a^2 + b ^2}
+\end{align}
+Using row operations, 
+\begin{align}
+\myvec{a-b & a+b & a^2-2ab-b^2  \\
+a+b & a+b & a^2+b^2 
+}\nonumber \\
+\xleftrightarrow[R_2 \leftarrow \frac{R_2}{a+b}]{R_1 \leftarrow \frac{R_1}{a-b}}
+\myvec{1 & \frac{a+b}{a-b} & \frac{a^2-2ab-b^2}{a-b}  \\
+1 & 1 & \frac{a^2+b^2}{a+b}
+}\\
+\xleftrightarrow[]{R_2 \leftarrow R_2 - R_1}
+\myvec{1 & \frac{a+b}{a-b} & \frac{a^2-2ab-b^2}{a-b}  \\
+0 & \frac{-2b}{a-b} & \frac{4ab^2}{a^2-b^2}
+}\\
+\xleftrightarrow[]{R_2 \leftarrow  \frac{-\brak{a-b}R_2}{2b}}
+\myvec{1 & \frac{a+b}{a-b} & \frac{a^2-2ab-b^2}{a-b}  \\
+0 & 1 & \frac{-2ab}{a+b}
+}\\
+\xleftrightarrow[]{R_1 \leftarrow  R_1 - R_2}
+\myvec{1 & 0 & a+b \\
+0 & 1 & \frac{-2ab}{a+b}
+}\\
+\therefore \vec{x} = \myvec{a+b\\ \frac{2ab}{a-b}}
+\end{align}
+

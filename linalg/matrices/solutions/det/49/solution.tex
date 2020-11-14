@@ -1,0 +1,36 @@
+Given matrix is 
+\begin{align}
+    A=\myvec{1&1&1 \\ 1&2&-3 \\ 2&-1&3}\label{eq:det/49/2}
+\end{align}
+The characteristic polynomial of the matrix will be
+%\begin{align}
+%    \begin{bmatrix}A-\lambda\(I\)\end{bmatrix}=0\\
+%%    =\begin{bmatrix}1-\lambda&1&1 \\ 1&2-\lambda&-3 \\ 2&-1&3-\lambda\end{bmatrix}\\
+%%    =(1-\lambda)[(2-\lambda)(3-\lambda)-3]-1[(3-\lambda)\\
+%%    +6])+1[-1-2(2-\lambda)]\\
+%    =\lambda^3-6\lambda^2+5\lambda+11=0\label{eq:det/49/3}
+%\end{align}
+According to cayley-hamilton theorem every matrix satisfies it's own characteristic equation. So the matrix $A$ satifies the equation \eqref{eq:det/49/1}
+\begin{align}
+    A^3-6A^2+5A+11I=0\label{eq:det/49/4}
+\end{align}
+%The matrix $A^2$=AA
+%\begin{align}
+%    A^2&=\myvec{1 & 1 & 1\\1 & 2 &-3\\2& -1 &3}\myvec{1 & 1 & 1\\1 & 2 &-3\\2& -1 &3}\\
+%    &=\myvec{4&2&1\\-3&8&-14\\7&-3&14}
+%\end{align}
+The matrix $A$ satisifes the characteristic equation,so
+\begin{align}
+    A^3-6A^2+5A+11I=0
+\end{align}
+Multiplying with $A^{-1}$ we get
+\begin{align}
+    A^2-6A+5I+11A^{-1}=0\\
+    A^{-1}=\frac{1}{11}\brak{6A-A^2-5I}\\
+    A^{-1}=\frac{1}{11}\lsbrak{6\myvec{1 & 1 & 1\\1 & 2 &-3\\2& -1 &3}-\myvec{4&2&1\\-3&8&-14\\7&-3&14}}\\
+    -5\rsbrak{\myvec{1&0&0\\0&1&0\\0&0&1}}\\
+    A^{-1}=\frac{1}{11}\myvec{-3&4&5\\9&-1&-4\\5&-3&-1}
+\\
+\implies
+    A^{-1}=\myvec{\frac{-3}{11}&\frac{4}{11}&\frac{5}{11}\\\frac{9}{11}&\frac{-1}{11}&\frac{-4}{11}\\\frac{5}{11}&\frac{-3}{11}&\frac{-1}{11}}
+\end{align}

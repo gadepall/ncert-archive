@@ -1,0 +1,151 @@
+The equation of plane is given by, 
+\begin{align}
+\vec{n}^T\vec{x} = c \\
+\vec{n}^T\vec{A}=\vec{n}^T\vec{B}=\vec{n}^T\vec{C}=c \\
+\implies \myvec{\vec{A}-\vec{B} & \vec{B}-\vec{C}}^T\vec{n}=0
+\end{align}
+Using row reduction on above matrix, 
+\begin{align}
+    \myvec{-2&-3&-2\\6&3&-2} \xleftrightarrow{R_1\xleftarrow{}\frac{R_1}{-2}}
+    \myvec{1&\frac{3}{2}&1\\6&3&-2} \\
+    \xleftrightarrow{R_2\xleftarrow{}R_2-6R_1} \myvec{1&\frac{3}{2}&1\\0&-6&-8}\
+    \xleftrightarrow{R_2\xleftarrow{}\frac{R_2}{-2}}\myvec{1&\frac{3}{2}&1\\0&3&4}\\
+    \xleftrightarrow{R_1\xleftarrow{}R_1-\frac{R_2}{2}} \myvec{1&0&-1\\0&3&4}
+\end{align}
+Thus, 
+\begin{align}
+    \vec{n}&=\myvec{1\\ \frac{-4}{3}\\1} = \myvec{3\\-4\\3} \\
+    c&=\vec{n}^T\vec{A}=19
+\end{align}
+Thus the equation of the plane is, 
+\begin{align}
+    \myvec{3&-4&3}\vec{x}&=19
+\end{align}
+Let $\vec{m_1}$ and $\vec{m_2}$ be the two orthogonal vectors to the given normal.
+Let, $\vec{m}=\myvec{a\\b\\c}$, then
+\begin{align}
+    \vec{m}^T\vec{n}&=0 \\
+    \implies\myvec{a&b&c}\myvec{3\\-4\\3}&=0 \\
+    \implies 3a-4b+3c&=0
+\end{align}
+Let $a=1$, $b=0$ we get,
+\begin{align}
+    \vec{m_1}&=\myvec{1\\0\\-1}
+\end{align}
+Let $a=0$, $b=1$ we get, 
+\begin{align}
+    \vec{m_2}&=\myvec{0 \\ 1 \\ \frac{4}{3}}
+\end{align}
+Solving the equation, 
+\begin{align} \label{eq:solutions/3/5/eq:1}
+    \vec{M}\vec{x}&=\vec{b}
+\end{align}
+Putting the values in \eqref{eq:solutions/3/5/eq:1}, 
+\begin{align} \label{eq:solutions/3/5/eq:2}
+    \myvec{1&0\\0&1\\-1&\frac{4}{3}}\vec{x}&= \myvec{6\\5\\9}
+\end{align}
+To solve \eqref{eq:solutions/3/5/eq:2}, we perform Singular Value Decomposition on $\vec{M}$, 
+\begin{align} \label{eq:solutions/3/5/svd}
+    \vec{M}&=\vec{U}\vec{S}\vec{V}^T
+\end{align}
+Where the columns of $\vec{V}$ are the eigen vectors of $\vec{M}^T\vec{M}$ ,the columns of $\vec{U}$ are the eigen vectors of $\vec{M}\vec{M}^T$ and $\vec{S}$ is diagonal matrix of singular value of eigenvalues of $\vec{M}^T\vec{M}$.
+\begin{align}
+    \vec{M}^T\vec{M}&=\myvec{2&\frac{-4}{3}\\ \frac{-4}{3}& \frac{25}{9}} \label{eq:solutions/3/5/MTM}\\
+    \vec{M}\vec{M}^T&=\myvec{1&0&-1\\0&1&\frac{4}{3}\\-1&\frac{4}{3}&\frac{25}{9}} \label{eq:solutions/3/5/MMT}
+\end{align}
+Putting \eqref{eq:solutions/3/5/svd} in \eqref{eq:solutions/3/5/eq:1} we get, 
+\begin{align}
+    \vec{U}\vec{S}\vec{V}^T\vec{x}&= \vec{b}\\
+    \implies\vec{x} &= \vec{V}\vec{S_+}\vec{U^T}\vec{b}\label{eq:solutions/3/5/eq:X}
+\end{align}
+Where $\vec{S_+}$ is Moore-Penrose Pseudo-Inverse of $\vec{S}$. Now, calculating eigen values of $\vec{M}\vec{M}^T$,
+\begin{align}
+\mydet{\vec{M}\vec{M}^T - \lambda\vec{I}} &= 0\\
+\implies\myvec{1-\lambda&0&-1\\0&1-\lambda&\frac{4}{3}\\-1&\frac{4}{3}&\frac{25}{9}-\lambda} &=0\\
+\implies\lambda^3-\frac{43}{9}\lambda^2+\frac{34}{9}\lambda &=0
+\end{align}
+Thus the eigen values of $\vec{M}\vec{M}^T$ are, 
+\begin{align}
+    \lambda_1 &= \frac{34}{9}\\
+    \lambda_2 &= 1 \\
+    \lambda_3 &= 0
+\end{align}
+The eigen vectors comes out to be, 
+\begin{align}
+    \vec{u_1}= \myvec{\frac{-9}{25}\\\frac{12}{25}\\1}, \vec{u_2}=\myvec{\frac{4}{3}\\1\\0}, 
+    \vec{u_3}=\myvec{1\\\frac{-4}{3}\\1}
+\end{align}
+Normalising the eigen vectors, 
+\begin{align}
+    \vec{u_1}= \myvec{\frac{-9}{5\sqrt{34}}\\\frac{12}{5\sqrt{34}}\\\frac{5}{\sqrt{34}}}, 
+    \vec{u_2}=\myvec{\frac{4}{5}\\\frac{3}{5}\\0}, 
+    \vec{u_3}=\myvec{\frac{3}{\sqrt{34}} \\ \frac{-4}{\sqrt{34}} \\ \frac{3}{\sqrt{34}}}
+\end{align}
+Hence we obtain $\vec{U}$ matrix as, 
+\begin{align}
+    \vec{U}= \myvec{\frac{-9}{5\sqrt{34}} & \frac{4}{5} & \frac{3}{\sqrt{34}} \\ \frac{12}{5\sqrt{34}} & \frac{3}{5} & \frac{-4}{\sqrt{34}} \\ \frac{5}{\sqrt{34}} & 0 & \frac{3}{\sqrt{34}}}
+\end{align}
+Now, 
+\begin{align}
+    \vec{S} = \myvec{\frac{\sqrt{34}}{3}&0\\0&1\\0&0}
+\end{align}
+Calculating the eigen values of $\vec{M}^T\vec{M}$, 
+\begin{align}
+    \mydet{\vec{M}^T\vec{M}-\lambda\vec{I}} &=0 \\
+    \implies \myvec{2-\lambda&\frac{-4}{3}\\ \frac{-4}{3}&\frac{25}{9}-\lambda} &=0 \\
+    \implies \lambda^2-\frac{43}{9}\lambda+\frac{34}{9}&=0
+\end{align}
+The eigen values are, 
+\begin{align}
+    \lambda_1&= \frac{34}{9}\\
+    \lambda_2&= 1
+\end{align}
+The eigen vectors are, 
+\begin{align}
+    \vec{v_1}= \myvec{\frac{-3}{4}\\1},
+    \vec{v_2}= \myvec{\frac{4}{3}\\1}
+\end{align}
+Normalising the eigen vectors, 
+\begin{align}
+    \vec{v_1}=\myvec{\frac{-3}{5}\\\frac{4}{5}},
+    \vec{v_2}=\myvec{\frac{4}{5}\\\frac{3}{5}}
+\end{align}
+Hence we obtain $\vec{V}$ matrix as, 
+\begin{align}
+    \vec{V}&= \myvec{\frac{-3}{5}&\frac{4}{5}\\\frac{4}{5}&\frac{3}{5}}
+\end{align}
+Thus we get the Singular Value Decomposition of $\vec{M}$ as, 
+\begin{align}
+    \vec{M}= \myvec{\frac{-9}{5\sqrt{34}} & \frac{4}{5} & \frac{3}{\sqrt{34}} \\ \frac{12}{5\sqrt{34}} & \frac{3}{5}& \frac{-4}{\sqrt{34}} \\ \frac{5}{\sqrt{34}} & 0 & \frac{3}{\sqrt{34}}}\myvec{\frac{\sqrt{34}}{3} & 0 \\ 0 & 1 \\ 0 & 0}\myvec{\frac{-3}{5}&\frac{4}{5} \\ \frac{4}{5} & \frac{3}{5}}^T
+\end{align}
+The Moore-Penrose Pseudo inverse of $\vec{S}$ is given by, 
+\begin{align}
+    \vec{S_+}= \myvec{\frac{3}{\sqrt{34}} & 0 & 0 \\ 0 & 1 & 0}
+\end{align}
+From \eqref{eq:solutions/3/5/eq:X} we get, 
+\begin{align}
+    \vec{U}^T\vec{b}= \myvec{\frac{231}{5\sqrt{34}} \\ \frac{39}{5} \\ \frac{25}{\sqrt{34}}}\\
+    \vec{S_+}\vec{U}^T\vec{b}= \myvec{\frac{693}{170} \\ \frac{39}{5}}\\
+    \vec{x}=\vec{V}\vec{S_+}\vec{U}^T\vec{b}= \myvec{\frac{129}{34} \\ \frac{135}{17}} \label{eq:solutions/3/5/eq:xsol1}
+\end{align}
+Verifying the solution of \eqref{eq:solutions/3/5/eq:xsol1} using, 
+\begin{align}
+    \vec{M}^T\vec{M}\vec{x} = \vec{M}^T\vec{b}\label{eq:solutions/3/5/eq:verify}
+\end{align}
+Evaluating the R.H.S in \eqref{eq:solutions/3/5/eq:verify} we get,
+\begin{align}
+    \vec{M}^T\vec{b}&= \myvec{-3\\17} \\
+    \implies\myvec{2&\frac{-4}{3}\\ \frac{-4}{3}& \frac{25}{9}}\vec{x}&= \myvec{-3\\17} \label{eq:solutions/3/5/eq:mtbx}
+\end{align}
+Solving the augmented matrix of \eqref{eq:solutions/3/5/eq:mtbx} we get, 
+\begin{align}
+    \myvec{2&\frac{-4}{3}&-3\\\frac{-4}{3}&\frac{25}{9}&17}&\xleftrightarrow{R_1\xleftarrow{}\frac{R_1}{2}} \myvec{1&\frac{-2}{3}&\frac{-3}{2}\\ \frac{-4}{3}&\frac{25}{9}&17} \\
+    &\xleftrightarrow{R_2\xleftarrow{}R_2+\frac{4}{3}R-1} \myvec{1&\frac{-2}{3}&\frac{-3}{2}\\ 0&\frac{17}{9}&15}\\
+    &\xleftrightarrow{R_1\xleftarrow{}R_1+\frac{6}{17}R_2} \myvec{1&0&\frac{129}{34}\\0&\frac{17}{9}&15}\\
+    &\xleftrightarrow{R_2\xleftarrow{}\frac{9}{17}R_2} \myvec{1&0&\frac{129}{34}\\0&1&\frac{135}{17}}
+\end{align}
+Hence, solution of \eqref{eq:solutions/3/5/eq:verify} is given by, 
+\begin{align}\label{eq:solutions/3/5/eq:xsol2}
+    \vec{x}=\myvec{\frac{129}{34} \\ \frac{135}{17}}
+\end{align}
+Comparing results of $\vec{x}$ from \eqref{eq:solutions/3/5/eq:xsol1} and \eqref{eq:solutions/3/5/eq:xsol2} we conclude that the solution is verified. 

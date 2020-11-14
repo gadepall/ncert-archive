@@ -1,0 +1,54 @@
+%Code by GVV Sharma
+%December 9, 2019
+%released under GNU GPL
+%Locating the circumcentre
+
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+%Triangle sides
+\def\a{5}
+\def\b{6}
+\def\c{4}
+\def\R{3.023715784073818}
+ 
+%Coordinates of A
+%\def\p{{\a^2+\c^2-\b^2}/{(2*\a)}}
+\def\p{0.5}
+\def\q{{sqrt(\c^2-\p^2)}}
+
+% Vertices
+\node (A) at (\p,\q)[point,label=above right:$A$] {};
+\node (B) at (0, 0)[point,label=below left:$B$] {};
+\node (C) at (\a, 0)[point,label=below right:$C$] {};
+
+% Mid points
+\node (D) at ($(B)!0.5!(C)$)[point,label=below:$D$] {};
+\node (E) at ($(C)!0.5!(A)$)[point,label=right:$E$] {};
+\node (F) at ($(B)!0.5!(A)$)[point,label=left:$F$] {};
+
+%Circumcentre
+
+\node (O) at (2.5,1.70084013)[point,label=right:$O$] {};
+
+%Drawing triangle ABC
+\draw (A) -- node[above left, yshift=2mm] {$\textrm{c}$} (B) -- node[below right, xshift = 2mm] {$\textrm{a}$} (C) -- node[above,yshift=2mm] {$\textrm{b}$} (A);
+%Drawing OA, OB, OC
+\draw (O) -- node[left] {$\textrm{R}$} (A);
+\draw (O) -- node[below] {$\textrm{R}$} (B);
+\draw (O) -- node[below] {$\textrm{R}$} (C);
+
+%Drawing OD, OE, OF
+\draw (O) --  (D);
+\draw (O) --  (E);
+\draw (O) --  (F);
+
+
+%Drawing circumcircle
+\draw (O) circle (\R);
+
+\tkzMarkRightAngle[fill=blue!20,size=.2](O,D,C)
+\tkzMarkRightAngle[fill=blue!20,size=.2](O,E,A)
+\tkzMarkRightAngle[fill=blue!20,size=.2](O,F,B)
+
+\end{tikzpicture}

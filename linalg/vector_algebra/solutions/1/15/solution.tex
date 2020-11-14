@@ -1,0 +1,52 @@
+
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./solutions/1/15/Triangle.tex}}
+\caption{Isosceles Triangle with $\vec{AD}$  $\perp$ $\vec{BC}$}
+\label{eq:solutions/1/15/fig:tri_right_angle}
+\end{figure}
+Given,
+line AD is perpendicular to line BC which implies the inner product is zero  	
+\begin{align}\label{eq:solutions/1/15/my20}	
+(\vec{B}-\vec{D})^T (\vec{A}-\vec{D}) &= (\vec{D}-\vec{A
+})^T (\vec{B}-\vec{D})&= 0
+\end{align}
+\begin{align}\label{eq:solutions/1/15/my21}
+(\vec{C}-\vec{D})^T (\vec{A}-\vec{D}) &= (\vec{D}-\vec{A})^T (\vec{C}-\vec{D})&= 0	
+\end{align}
+Consider$\triangle{BAD}$ and $\triangle{CAD}$ ;\\	
+Taking inner product of sides BA and AD	
+\begin{align}\label{eq:solutions/1/15/my22}	
+(\vec{B}-\vec{A})^T(\vec{A}-\vec{D}) =	
+\norm{\vec{B}-\vec{A}}\norm{\vec{A}-\vec{D}}\cos{BAD}	
+\end{align}
+The angle BAD from the  above equation is:	
+\begin{align}\label{eq:solutions/1/15/my23}	
+     \cos{BAD} = \frac{(\vec{B}-\vec{A})^T(\vec{A}-\vec{D})}{\norm{\vec{B}-\vec{A}}\norm{\vec{A}-\vec{D}}} 
+\end{align}
+Taking inner product of sides CA and AD	
+\begin{align}\label{eq:solutions/1/15/my24}	
+(\vec{C}-\vec{A})^T(\vec{A}-\vec{D}) =	
+\norm{\vec{C}-\vec{A}}\norm{\vec{A}-\vec{D}}\cos{CAD}	
+\end{align}
+The angle CAD from the  above equation is:	
+\begin{align}\label{eq:solutions/1/15/my25}	
+     \cos{CAD} = \frac{(\vec{C}-\vec{A})^T(\vec{A}-\vec{D})}{\norm{\vec{C}-\vec{A}}\norm{\vec{A}-\vec{D}}} 
+\end{align}
+from equation (\ref{eq:solutions/1/15/my23}) and (\ref{eq:solutions/1/15/my25})\\	
+\begin{align}
+\angle {BAD}=\angle {CAD}	
+\end{align}
+Now using pythagorus law;
+\begin{align}\label{eq:solutions/1/15/my26}
+     \norm{\vec{B-A}}^2 = \norm{\vec{A-D}}^2+ \norm{\vec{B-D}}^2
+\end{align}
+\begin{align}\label{eq:solutions/1/15/my27}
+     \norm{\vec{C-A}}^2 = \norm{\vec{A-D}}^2+ \norm{\vec{C-D}}^2
+\end{align}
+using (\ref{eq:solutions/1/15/my20}) and (\ref{eq:solutions/1/15/my21}) in above equation we can conclude ;
+\begin{align}\label{eq:solutions/1/15/my28}
+     \norm{\vec{B-A}} = \norm{\vec{C-A}} 
+\end{align}
+Thus, $\triangle{ABC}$ is isosceles triangle. \\
+Hence proved.

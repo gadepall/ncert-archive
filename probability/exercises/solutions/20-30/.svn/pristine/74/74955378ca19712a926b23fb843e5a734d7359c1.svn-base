@@ -1,0 +1,22 @@
+\subsection{Problem}
+
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item The relative humidity (in \%) of a certain city for a month of 30 days was as follows:98.1,98.6,99.2,90.3,86.5,95.3,92.9,96.3,94.2,95.1,\\ 89.2,92.3,97.1,93.5,92.7,95.1,97.2,93.3,95.2,97.3,\\96.2,92.1,84.9,90.2,95.7,98.3,97.3,96.1,92.1,89.0.\\
+Construct a grouped frequency distribution table with classes 84 - 86, 86 - 88, etc. Which month or season do you think this data is about? What is the range of this data?\\
+\solution Since the minimum =84.9 and maximum = 99.2, we take the intervals as 84-86,86-88 and so on upto 98-100. As the relative humidity is high, the data is about rainy season.\\
+\begin{align}
+\text{Range} &= \text{Maximum value - Minimum value}\\
+\text{Range} &= 99.2 - 84.9\\
+\text{Range} &= 14.3
+\end{align}
+
+	\begin{table}[ht]
+	\begin{center}
+    	\input{./tables/statistics/exercises/stat_ex_q30_que.tex}
+	\caption{Relative humidity in \%}
+	\label{table:table7}
+	\end{center}
+	\end{table}
+\end{enumerate}

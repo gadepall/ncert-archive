@@ -1,0 +1,14 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item A matrix with n elements can be represented as a matrix of order $\brak{r\times c}$ if and only if n,r and c are all natural numbers(Here r is the number of rows and c is the number of coloumns in the matrix.).This is possible only if r is a divisor of n.
+
+\item So the total possible orders a matrix with n elements can have is equal to the total number of divisors of n.
+
+The following python code finds the total possible orders (d) for a matrix of n elements. 
+\begin{lstlisting}
+solutions/3/codes/line/matrix/matrix.py
+\end{lstlisting}
+So a matrix of 18 elements has 6 possible orders and a matrix of 5 elements can have 2 possible orders.
+\end{enumerate}

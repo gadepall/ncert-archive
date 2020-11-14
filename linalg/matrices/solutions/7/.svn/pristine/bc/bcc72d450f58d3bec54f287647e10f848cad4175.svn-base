@@ -1,0 +1,42 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./figs/line/point_line/line.eps}
+\caption{Line segment AB}
+\end{figure}
+\begin{table}[!ht]
+\centering
+\input{./tables/line/point_line/inp.tex}
+\caption{Input Table for construction}
+\label{table:table1}	
+\end{table}
+\begin{table}[!ht]
+\centering
+\input{./tables/line/point_line/der.tex}
+\caption{Derived values}
+\label{table:table2}	
+\end{table}
+
+\item Let $\vec{D}, \vec{E}, \vec{F}$ be the points that divide the line segment into four equal parts.
+
+\item If a point $\vec{X}$ divides a line segment(here AB) in the ratio of m:n then its coordinates are given by
+\begin{align}
+\vec{X} &= \frac{n\vec{B}+m\vec{A}}{m+n}
+\end{align}
+
+\item From figure, points $\vec{D}, \vec{E}, \vec{F}$ divides AB in the ratio of 1:3, 2:2, 3:1 repectively. Thus there coordinates are given by
+\begin{align}
+\vec{D} &= \frac{1\vec{B}+3\vec{A}}{4} &= \myvec{-1\\7/2}\\
+\vec{E} &= \frac{2\vec{B}+2\vec{A}}{4} &= \myvec{0\\5}\\
+\vec{F} &= \frac{3\vec{B}+1\vec{A}}{4} &= \myvec{1\\13/2}
+\end{align}
+
+\item Download the python code for figure from
+\begin{lstlisting}
+codes/line/point_line/line_division.py
+\end{lstlisting}
+
+
+\end{enumerate}
