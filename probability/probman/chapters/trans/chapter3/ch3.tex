@@ -1,0 +1,118 @@
+
+%\subsection{Independence}
+\subsection{Using Definition}
+%
+\begin{problem}
+Let $X_1 \sim  \gauss{0}{1}$ and $X_2 \sim  \gauss{0}{1}$. Plot the CDF and PDF of
+%
+\begin{equation}
+V = X_1^2 + X_2^2
+\end{equation}
+%
+\end{problem}
+%
+%
+\begin{problem}
+If
+%
+\begin{equation}
+F_{V}(x) = 
+\begin{cases}
+1 - e^{-\alpha x} & x \geq 0 \\
+0 & x < 0,
+\end{cases}
+\end{equation}
+%
+find $\alpha$.
+\end{problem}
+%
+\begin{problem}
+\label{ch3_raleigh_sim}
+Plot the CDF and PDf of
+%
+\begin{equation}
+A = \sqrt{V}
+\end{equation}
+%
+\end{problem}
+%
+\begin{problem}
+Find an expression for $F_{A}(x)$ using the definition. Plot this expression and compare with the result of problem \ref{ch3_raleigh_sim}. 
+\end{problem}
+%
+\begin{problem}
+Find an expression for $p_{A}(x)$.
+\end{problem}
+%
+\subsection{Using Jacobian}
+%
+\begin{problem}
+Evaluate the joint PDF of $X_1,X_2$,  given by
+%
+\begin{equation}
+p_{X_1,X_2}(x_1,x_2) = p_{X_1}\brak{x_1}p_{X_2}\brak{x_2}
+\end{equation}
+%
+\end{problem}
+%
+\begin{problem}
+Let 
+\begin{align}
+ X_1 = \sqrt{V}\cos \theta
+\\
+ X_2 = \sqrt{V} \sin \theta.
+\end{align}
+Evaluate the Jacobian 
+%
+\begin{equation}
+J =
+\begin{vmatrix}
+\frac{\partial x_1}{\partial v} & \frac{\partial x_2}{\partial v} \\
+\frac{\partial x_1}{\partial \theta} & \frac{\partial x_2}{\partial \theta} 
+\end{vmatrix}
+\end{equation}
+%
+\end{problem}
+%
+\begin{problem}
+Find
+%
+\begin{equation}
+p_{V,\Theta}\brak{v,\theta} = \abs{J}p_{X_1,X_2}\brak{x_1,x_2}
+\end{equation}
+%
+\end{problem}
+%
+\begin{problem}
+Find $p_{V}(v)$.  
+\end{problem}
+%
+%
+\begin{problem}
+Find $p_{\Theta}(\theta)$.  
+\end{problem}
+%
+\begin{problem}
+Are $Y$ and $\Theta$ independent?
+\end{problem}
+\begin{problem}
+Find $p_{A}(x)$ using the Jacobian.
+\end{problem}
+%%
+%\begin{problem}
+%Let $X_1 \sim  \gauss{2}{1}$ and $X_2 \sim  \gauss{3}{1}$. Find $E\sbrak{X_1X_2}$.  Try with different mean and variances. Comment.
+%\end{problem}
+%
+
+%\section{The Transform Domain}
+%\begin{problem}
+%Find the MGF of $X \sim \gauss{\mu}{\sigma^2}$. 
+%\end{problem}
+%\begin{problem}
+%Find the MGF of $Y$.
+%\end{problem}
+%%
+%\begin{problem}
+%Find the PDF of $Y$ by inverting the MGF.
+%\end{problem}
+%%

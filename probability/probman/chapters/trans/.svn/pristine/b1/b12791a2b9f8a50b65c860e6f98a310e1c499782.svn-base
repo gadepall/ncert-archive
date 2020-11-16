@@ -1,0 +1,20 @@
+%%
+Let $X \sim \gauss{\mu}{\sigma^2}$.
+\begin{problem}
+Find $M_{X}\brak{s} = E\sbrak{e^{-sX}}$.
+\end{problem}
+%
+\begin{problem}
+Let 
+%
+\begin{equation}
+N = n_1 - n_2, \quad   n_1,n_2 \sim \gauss{0}{1}.
+\end{equation}
+%
+Find $M_{N}(s)$, assuming that $n_1$ and $n_2$ are independent.
+\end{problem}
+%
+\begin{problem}
+Show that $N$ is Gaussian. Find its mean and variance.  Comment.
+\end{problem}
+%

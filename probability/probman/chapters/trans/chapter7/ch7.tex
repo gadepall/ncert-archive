@@ -1,0 +1,50 @@
+%%
+\subsection{Uniform Random Numbers}
+Let $U$ be a uniform random variable between 0 and 1.
+\begin{problem}
+Generate $10^6$ samples of $U$ using a C program and save into a file called uni.dat .
+\end{problem}
+%
+\begin{problem}
+Load the uni.dat file into python and plot the empirical CDF of $U$ using the samples in uni.dat.
+\end{problem}
+%
+\begin{problem}
+Verify that your CDF in the above problem is correct by plotting the theoretical $F_{U}(x)$.
+\end{problem}
+%
+\subsection{Central Limit Theorem}
+%
+\begin{problem}
+Generate $U_i, i = 1,2,\dots, 12$, a set of independent uniform random variables between 0 and 1 using a C program.
+\end{problem}
+%
+\begin{problem}
+Generate $10^6$ samples of the random variable
+%
+\begin{equation}
+S = \sum_{i=1}^{12}U_i -6
+\end{equation}
+%
+and save in a file called s.dat
+\end{problem}
+%
+\begin{problem}
+Load s.dat in python and plot the empirical PDF of $S$ using the samples in s.dat. Does it look familiar?  Comment.
+\end{problem}
+%
+\subsection{From Uniform to Other}
+%
+\begin{problem}
+Generate samples of 
+%
+\begin{equation}
+V = -2\ln\brak{1-U}
+\end{equation}
+%
+and plot its CDF.  Comment.
+\end{problem}
+%
+\begin{problem}
+Generate the Rayleigh distribution from Uniform. Verify your result through graphical plots.
+\end{problem}

@@ -1,0 +1,60 @@
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+%%
+Let $U$ be a uniform random variable between 0 and 1.
+\begin{enumerate}[label=\thesection.\arabic*
+,ref=\thesection.\theenumi]
+\item Generate $10^6$ samples of $U$ using a C program and save into a file called uni.dat .
+\\
+\solution Download the following files and execute the  C program.
+\begin{lstlisting}
+codes/cdf/exrand.c
+codes/cdf/coeffs.h
+\end{lstlisting}
+
+%
+\item
+Load the uni.dat file into python and plot the empirical CDF of $U$ using the samples in uni.dat. The CDF is defined as
+\begin{align}
+F_{U}(x) = \pr{U \le x}
+\end{align}
+\\
+\solution  The following code plots Fig. \ref{fig:uni_cdf}
+\begin{lstlisting}
+codes/cdf/cdf_plot.py
+\end{lstlisting}
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./figs/cdf/uni_cdf}
+\caption{The CDF of $U$}
+\label{fig:uni_cdf}
+\end{figure}
+
+%
+\item
+Find a  theoretical expression for $F_{U}(x)$.
+
+\item
+The mean of $U$ is defined as
+%
+\begin{equation}
+E\sbrak{U} = \frac{1}{N}\sum_{i=1}^{N}U_i
+\end{equation}
+%
+and its variance as
+%
+\begin{equation}
+\text{var}\sbrak{U} = E\sbrak{U- E\sbrak{U}}^2 
+\end{equation}
+
+Write a C program to  find the mean and variance of $U$. 
+\item Verify your result theoretically given that
+%
+\begin{equation}
+E\sbrak{U^k} = \int_{-\infty}^{\infty}x^kdF_{U}(x)
+\end{equation}
+%
+\end{enumerate}
+
+
+

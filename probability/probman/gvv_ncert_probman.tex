@@ -138,6 +138,11 @@ columns=fullflexible
 \providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
 \newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
 \newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+\providecommand{\gauss}[2]{\mathcal{N}\ensuremath{\left(#1,#2\right)}}
+%\providecommand{\system}[1]{\overset{\mathcal{#1}}{ \longleftrightarrow}}
+\newcommand*{\permcomb}[4][0mu]{{{}^{#3}\mkern#1#2_{#4}}}
+\newcommand*{\perm}[1][-3mu]{\permcomb[#1]{P}}
+\newcommand*{\comb}[1][-1mu]{\permcomb[#1]{C}}
 %\numberwithin{equation}{section}
 \numberwithin{equation}{subsection}
 %\numberwithin{problem}{section}
@@ -286,11 +291,33 @@ This book provides a simple introduction to probability and random variables.   
 \end{abstract}
 
 
-\section{Bernoulli Distribution}
+\section{Sum of Independent Random Variables}
+\input{./chapters/sum.tex}
+\section{Cumulative Distribution Function}
+\input{./chapters/cdf.tex}
+\section{Central Limit Theorem: Gaussian Distribution}
+\input{./chapters/clt.tex}
+
+%\section{Bernoulli Distribution}
 %\subsection{Distance from a plane to a point}
-\input{./chapters/bernoulli.tex}
-\section{Uniform Distribution}
-\input{./chapters/uniform.tex}
+%\input{./chapters/bernoulli.tex}
+\section{Stochastic Geometry}
+\input{./chapters/stochastic.tex}
+\section{Transformation of Variables}
+\input{./chapters/trans.tex}
+%
+\section{Conditional Probability}
+\input{./chapters/cond.tex}
+%%
+\section{Two Dimensions}
+\input{./chapters/twoD.tex}
+%%
+\section{Transform Domain}
+\input{./chapters/laplace.tex}
+%%
+\section{Uniform to Other}
+\input{./chapters/uni2other.tex}
+
 %\section{Sum of i.i.d random variables}
 %\input{./chapters/conv.tex}
 
