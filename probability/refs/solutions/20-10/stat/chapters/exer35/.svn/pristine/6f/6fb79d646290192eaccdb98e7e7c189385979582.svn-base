@@ -1,0 +1,9 @@
+Thirty children were asked about the number of hours they watched TV programmes in the previous week. The results were found as follows:\\
+\begin{table}[ht!]
+\centering
+\input{./stat/tables/exer35/inp35.tex}
+\caption{Number of hours 30 children spent watching TV in a week}
+\label{table:input_35}
+\end{table}
+(i) Make a grouped frequency distribution table for this data,taking class width 5 and one of the class intervals as 5-10.\\
+(ii)  How many children watched television for 15 or more hours a week?\\

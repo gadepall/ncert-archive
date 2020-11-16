@@ -1,0 +1,15 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item To find the mean, we need to multiply Salary and No.of workers. This can be seen in given table \ref{table:Q50sol} :
+\begin{table}[ht!]
+\centering
+\input{./statistics/tables/Q50/sol.tex}
+\label{table:Q50sol}	
+\caption{Finding mean of the given data}
+\end{table}
+\begin{align}
+Mean &= \frac{305000}{60}\\
+&= 5083.33
+\end{align}
+\end{enumerate}

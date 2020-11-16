@@ -1,0 +1,23 @@
+Let $X_k \in \cbrak{1,2,3,4,5,6}$ be the discrete random process representing the trials.  Then, the odd trials belong to $A$ and the even trials belong to $B$.
+Then, the probability that someone  wins at the $n$th trial is
+\begin{multline}
+\pr{X_{n} = 6|X_{k} \ne6, k = 1,2, \dots, n-1} 
+\\
+= \frac{1}{6}\brak{\frac{5}{6}}^{n-1}.
+\end{multline}
+The probability that $A$ wins  is obtained by summing up over the even probabilities
+\begin{multline}
+\sum_{m = 0}^{\infty}\pr{X_{2m+1} = 6|X_{k} \ne6, k = 1,2, \dots, n-1} 
+\\
+= \frac{1}{6}\sum_{m=0}^{\infty}\brak{\frac{5}{6}}^{2m}
+=\frac{\frac{1}{6}  }{1-\brak{\frac{5}{6}}^2} = \frac{6}{11}
+\end{multline}
+The probabilty that $B$ wins is then given by
+\begin{align}
+ 1 - \frac{6}{11} = \frac{5}{11}
+\end{align}
+The python code for the above problem is,
+\begin{lstlisting}
+solutions/20-10/prob/codes/exam46.py
+\end{lstlisting}
+In the above code 1000000 random outputs of a die are generated for A and B each.The probabilities are calculated using the total number of times A gets a six first and the total number of times B get a six first.

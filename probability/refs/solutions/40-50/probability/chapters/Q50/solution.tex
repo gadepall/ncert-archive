@@ -1,0 +1,28 @@
+Let $X \in \cbrak{0,1}$ represent student knowledge where 0 denotes a guess. Let $Y=\cbrak{0,1}$ represent the correctness of the answer, with 0 being the case when the answer is incorrect.  Then, we need to find
+{\footnotesize
+\begin{multline}
+\pr{X=1|Y=1} 
+\\
+=\frac{\pr{Y=1|X=1}\pr{X=1}}{\pr{Y=1|X=1}\pr{X=1}+\pr{Y=1|X=0}\pr{X=0}}
+\end{multline}
+}
+From the given information,
+\begin{align}
+\pr{Y=1|X=0} &= \frac{1}{4}
+\\
+\pr{Y=1|X=1} &= 1
+\\
+\pr{X = 0} &=\frac{3}{4}
+\\
+\pr{X = 1} &=\frac{1}{4}
+\end{align}
+$\because$ if the student knows the answer, she will definitely be correct.
+Hence,
+\begin{multline}
+\pr{X=1|Y=1} =\frac{\frac{1}{4}}{\frac{1}{4}+\frac{1}{4}\times\frac{3}{4}}
+=\frac{4}{7}
+\end{multline}
+
+\begin{lstlisting}
+solutions/40-50/probability/codes/Q50.py
+\end{lstlisting}

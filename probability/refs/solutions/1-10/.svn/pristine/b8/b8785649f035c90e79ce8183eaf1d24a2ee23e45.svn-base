@@ -1,0 +1,19 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+	\numberwithin{equation}{enumi}
+	\item A class teacher has the following absentee record of 40 students of a class for the whole
+	term. Find the mean number of days a student was absent.
+	\begin{table}[!ht]
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		\vtop{\hbox{\strut No of }\hbox{\strut days}}&0-6&6-10&10-14&14-20 \\
+		\hline
+	    \vtop{\hbox{\strut No of }\hbox{\strut students}}&11&10&7&4\\
+		\hline
+		\vtop{\hbox{\strut No of }\hbox{\strut days}}&20-28&28-38&38-40&\\
+		\hline
+		\vtop{\hbox{\strut No of }\hbox{\strut students}}&4&3&1&\\
+		\hline
+	\end{tabular}
+\end{table}
+\end{enumerate}

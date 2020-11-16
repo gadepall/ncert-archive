@@ -1,0 +1,12 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item In answering a question on a multiple choice
+test, a student either knows the answer or
+guesses. Let $\frac{3}{4}$ be the probability that he knows
+the answer and $\frac{1}{4}$ be the probability that he
+guesses. Assuming that a student who guesses
+at the answer will be correct with probability $\frac{1}{4}$ .
+What is the probability that the student knows
+the answer given that he answered it correctly?
+\end{enumerate}

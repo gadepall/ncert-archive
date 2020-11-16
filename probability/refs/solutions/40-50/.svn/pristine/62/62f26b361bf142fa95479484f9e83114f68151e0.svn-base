@@ -1,0 +1,17 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Probability that the student knows the answer$ = P(X) = \frac{3}{4}$.
+\item Probability that the student guesses the answer$ = P(Y) = \frac{1}{4}$.
+\item Probability that the student who guesses the answer will be correct$ = P(C \mid Y) = \frac{1}{4}$.
+\item if the student knows the answer then definitely he will be correct. So $P(C \mid X)=1$.
+\item using Bayes theorem, probability that the sudent knows the answer given that he answered it correctly:
+\begin{align}
+P(X \mid C) &= \frac{P(X)\times P(C \mid X)}{P(X)\times P(C \mid X) + P(Y)\times P(C \mid Y)}\\
+&= \frac{12}{13}
+\end{align}
+\item The python code for finding probability using a sample size of 10000 can be downloaded from
+\begin{lstlisting}
+probability/codes/Q50.py
+\end{lstlisting}
+\end{enumerate}

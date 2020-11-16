@@ -1,0 +1,16 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item The following table gives the lfetime of 400 neon lamps:
+\begin{table}[ht!]
+\centering
+\input{./statistics/tables/Q41/prob.tex}
+\label{table:Q41}	
+\end{table}
+\begin{enumerate}
+\item Represent the given information with the
+help of a histogram.
+\item How many lamps have a life time of more
+than 700 hours?
+\end{enumerate}
+\end{enumerate}

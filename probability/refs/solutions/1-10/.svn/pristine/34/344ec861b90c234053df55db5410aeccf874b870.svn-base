@@ -1,0 +1,17 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+	\numberwithin{equation}{enumi}
+	\item The following table gives the literacy rate (in percentage) of 35 cities. Find the mean
+	literacy rate.
+	\begin{tabular}{|c|c|c|c|c|}
+	\hline
+	literacy(in percentage)&45-55&55-65&65-75\\
+	\hline
+	Number of cities&3&10&11\\
+	\hline
+	literacy(in percentage)&75-85&85-95&\\
+	\hline
+	Number of cities&8&3&\\
+	\hline
+	\end{tabular}\\\\
+\end{enumerate}

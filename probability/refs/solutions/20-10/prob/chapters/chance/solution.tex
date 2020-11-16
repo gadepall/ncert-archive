@@ -1,0 +1,35 @@
+Let
+\begin{align}
+X \epsilon \{1,2,3,4,5,6,7,8\}
+\end{align}
+Since all events are equally likely,
+\begin{align}
+\pr{X=i}=	\frac{1}{8} \quad i = 1,2,\dots,8.
+\end{align}
+\begin{enumerate}
+\item 
+\begin{align}
+\pr{X=8} = \frac{1}{8}
+\end{align}
+
+\item Probability of occurance of odd numbers is
+\begin{multline}
+\pr{X=1}+\pr{X=3}
+\\
++\pr{X=5}+\pr{X=7} = \frac{1}{2}
+\end{multline}
+\item 
+\begin{align}
+\pr{X > 2}=1 -\pr{X < 2}  = \frac{3}{4}
+\end{align}
+\item 
+\begin{align}
+\pr{X < 9} =\frac{8}{8}=1
+\end{align}
+\end{enumerate}
+
+The python code for the distribution is
+\begin{lstlisting}
+solutions/chance/prob/codes/chance.py
+\end{lstlisting}
+The above code checks occurance of each of these events when the arrow is spinned 100,000 times.

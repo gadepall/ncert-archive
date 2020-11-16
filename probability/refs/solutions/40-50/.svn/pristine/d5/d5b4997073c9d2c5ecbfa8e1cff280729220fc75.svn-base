@@ -1,0 +1,9 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item The following observations have been arranged
+in ascending order. If the median of the data
+is 63, find the value of x.\\
+29, 32, 48, 50, x, x + 2, 72, 78, 84, 95.
+
+\end{enumerate}

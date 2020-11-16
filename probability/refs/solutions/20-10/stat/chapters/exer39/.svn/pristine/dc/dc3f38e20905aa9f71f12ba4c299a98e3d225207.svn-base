@@ -1,0 +1,9 @@
+Given below are the seats won by different political parties in the polling outcome of a state assembly elections:\\
+\begin{table}[ht!]
+\centering
+\input{./stat/tables/exer39/inp39.tex}
+\caption{Illness and fatality rate amongst women}
+\label{table:input_39}
+\end{table}
+(i) Draw a bar graph to represent the polling results.\\
+(ii) Which political party won the maximum number of seats?\\

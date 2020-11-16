@@ -1,0 +1,20 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item No. of cases when three coins are tossed simultaniously
+\\
+$\left(T,T,T\right),\left(T,T,H\right),\left(T,H,T\right)
+\\
+\left(T,H,H\right),\left(H,H,H\right),\left(H,T,T\right)
+\\
+\left(H,T,H\right),\left(H,H,T\right)$
+\\
+No.of 2 heads cases = 3
+\\
+Let assume that the probability of 2 heads comming up is P(A)so
+\begin{align}
+P\left(A\right) &= \frac{\text {cases of No of two heads}}{\text {No of total cases}}
+\\
+&= \frac{3}{8}
+\end{align}
+\end{enumerate}

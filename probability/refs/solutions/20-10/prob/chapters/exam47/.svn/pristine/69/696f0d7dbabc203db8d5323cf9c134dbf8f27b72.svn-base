@@ -1,0 +1,38 @@
+Let 
+A: Event that machine produces 2 acceptable items
+\\
+C: Event that a machine is correctly set up
+\\
+I: Event that a machine is incorrectly set up
+\\
+The probability that a machine that produced 2 acceptable items is correctly setup is
+\begin{align}
+\pr{C|A}
+\end{align}
+Using Bayes theorm \eqref{eq:exam43_bayestheorm},
+\begin{align}
+\pr{C|A}= \frac{\pr{A|C}\pr{C}}{\pr{A|C}\pr{C}+\pr{A|I}\pr{I}}
+\label{eq:exam47}
+\end{align}
+Probability of prducing two acceptable items when machine is correctly set up is
+\begin{align}
+\pr{A|C}={\brak{\frac{9}{10}}}^{2}
+\end{align}
+Probability of prducing two acceptable items when machine is incorrectly set up is
+\begin{align}
+\pr{A|I}={\brak{\frac{4}{10}}}^{2}
+\end{align}
+Also using the given data
+\begin{align}
+\pr{C}=\frac{8}{10}
+\\
+\pr{I}=1-\frac{8}{10}=\frac{2}{10}
+\end{align}
+Substituting the above values in \eqref{eq:exam47}
+begin{align}
+\pr{C|A}= \frac{81}{85}
+\end{align}
+The python code for the above problem is,
+\begin{lstlisting}
+./prob/codes/exam47.py
+\end{lstlisting}

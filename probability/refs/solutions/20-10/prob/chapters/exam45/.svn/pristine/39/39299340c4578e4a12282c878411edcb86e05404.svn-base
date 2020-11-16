@@ -1,0 +1,21 @@
+Let X be the random variable representing the number of times the shooter hits the target. Let n be the total number of times that the shoter fires.Then
+\begin{align}
+X \epsilon \{0,1,2....n\}
+\end{align}
+The shooter hits the target with a probability of $\frac{3}{4}$. X follows binomial distribution with parameters as n and $p=\frac{3}{4}$
+Using equation \eqref{eq:exam41_1} probability of hitting target atleast once is
+\begin{align}
+\pr{X \geq 1} = 1-\pr{X=0}
+\\
+\implies \pr{X \geq 1} = 1-\comb{n}{0}\frac{1}{4}^{n}
+\\
+\implies 1-\frac{1}{4}^{n} \geq 0.99
+\\
+\implies \frac{1}{4}^{n} \leq 0.01
+\\
+\implies n=4
+\end{align}
+The python code for the above problem is,
+\begin{lstlisting}
+./prob/codes/exam45.py
+\end{lstlisting}

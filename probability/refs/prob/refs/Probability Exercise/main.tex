@@ -1,0 +1,335 @@
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{tikz}
+\usetikzlibrary{backgrounds,fit}
+\usepackage{tikz}
+\usetikzlibrary{fit,positioning}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{mathrsfs}
+\usepackage{txfonts}
+\usepackage{stfloats}
+\usepackage{cite}
+\usepackage{cases}
+\usepackage{mathtools}
+\usepackage{caption}
+\usepackage{enumerate}	
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{multicol}
+%\usepackage{xtab}
+\usepackage{longtable}
+\usepackage{multirow}
+%\usepackage{algorithm}
+%\usepackage{algpseudocode}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{hyperref}
+%\usepackage[framemethod=tikz]{mdframed}
+\usepackage{listings}
+    %\usepackage[latin1]{inputenc}                                 %%
+    \usepackage{color}                                            %%
+    \usepackage{array}                                            %%
+    \usepackage{longtable}                                        %%
+    \usepackage{calc}                                             %%
+    \usepackage{multirow}                                         %%
+    \usepackage{hhline}                                           %%
+    \usepackage{ifthen}                                           %%
+  %optionally (for landscape tables embedded in another document): %%
+    \usepackage{lscape}     
+\usepackage{url}
+\def\UrlBreaks{\do\/\do-}
+%\usepackage{stmaryrd}
+%\usepackage{wasysym}
+%\newcounter{MYtempeqncnt}
+\DeclareMathOperator*{\Res}{Res}
+%\renewcommand{\baselinestretch}{2}
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+\renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}
+\renewcommand\thesectiondis{\arabic{section}}
+\renewcommand\thesubsectiondis{\thesectiondis.\arabic{subsection}}
+\renewcommand\thesubsubsectiondis{\thesubsectiondis.\arabic{subsubsection}}
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+%\lstset{
+%language=C,
+%frame=single, 
+%breaklines=true
+%}
+%\lstset{
+	%%basicstyle=\small\ttfamily\bfseries,
+	%%numberstyle=\small\ttfamily,
+	%language=Octave,
+	%backgroundcolor=\color{white},
+	%%frame=single,
+	%%keywordstyle=\bfseries,
+	%%breaklines=true,
+	%%showstringspaces=false,
+	%%xleftmargin=-10mm,
+	%%aboveskip=-1mm,
+	%%belowskip=0mm
+%}
+%\surroundwithmdframed[width=\columnwidth]{lstlisting}
+\def\inputGnumericTable{}                                 %%
+\lstset{
+%language=C,
+frame=single, 
+breaklines=true,
+columns=fullflexible
+}
+ \begin{document}
+%
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}{Definition}[section]
+%\newtheorem{algorithm}{Algorithm}[section]
+%\newtheorem{cor}{Corollary}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\bibliographystyle{IEEEtran}
+%\bibliographystyle{ieeetr}
+\providecommand{\nCr}[2]{\,^{#1}C_{#2}} % nCr
+\providecommand{\nPr}[2]{\,^{#1}P_{#2}} % nPr
+\providecommand{\mbf}{\mathbf}
+\providecommand{\pr}[1]{\ensuremath{\Pr\left(#1\right)}}
+\providecommand{\qfunc}[1]{\ensuremath{Q\left(#1\right)}}
+\providecommand{\sbrak}[1]{\ensuremath{{}\left[#1\right]}}
+\providecommand{\lsbrak}[1]{\ensuremath{{}\left[#1\right.}}
+\providecommand{\rsbrak}[1]{\ensuremath{{}\left.#1\right]}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\lbrak}[1]{\ensuremath{\left(#1\right.}}
+\providecommand{\rbrak}[1]{\ensuremath{\left.#1\right)}}
+\providecommand{\cbrak}[1]{\ensuremath{\left\{#1\right\}}}
+\providecommand{\lcbrak}[1]{\ensuremath{\left\{#1\right.}}
+\providecommand{\rcbrak}[1]{\ensuremath{\left.#1\right\}}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\newcommand{\sgn}{\mathop{\mathrm{sgn}}}
+
+\providecommand{\res}[1]{\Res\displaylimits_{#1}} 
+\providecommand{\norm}[1]{\lVert#1\rVert}
+\providecommand{\mtx}[1]{\mathbf{#1}}
+
+\providecommand{\fourier}{\overset{\mathcal{F}}{ \rightleftharpoons}}
+%\providecommand{\hilbert}{\overset{\mathcal{H}}{ \rightleftharpoons}}
+\providecommand{\system}{\overset{\mathcal{H}}{ \longleftrightarrow}}
+	%\newcommand{\solution}[2]{\textbf{Solution:}{#1}}
+\newcommand{\solution}{\noindent \textbf{Solution: }}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+%\numberwithin{equation}{section}
+%\numberwithin{problem}{subsection}
+%\numberwithin{definition}{subsection}
+\makeatletter
+\@addtoreset{figure}{section}
+\makeatother
+
+\let\StandardTheFigure\thefigure
+%\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
+\renewcommand{\thefigure}{\thesection}
+
+
+%\numberwithin{figure}{subsection}
+
+%\numberwithin{equation}{subsection}
+%\numberwithin{equation}{section}
+%\numberwithin{equation}{problem}
+%\numberwithin{problem}{subsection}
+\numberwithin{problem}{section}
+%%\numberwithin{definition}{subsection}
+%\makeatletter
+%\@addtoreset{figure}{problem}
+%\makeatother
+\makeatletter
+\@addtoreset{table}{section}
+\makeatother
+
+\let\StandardTheFigure\thefigure
+\let\StandardTheTable\thetable
+\let\vec\mathbf
+%%\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
+%\renewcommand{\thefigure}{\theproblem}
+
+%%\numberwithin{figure}{section}
+
+%%\numberwithin{figure}{subsection}
+
+
+
+\def\putbox#1#2#3{\makebox[0in][l]{\makebox[#1][l]{}\raisebox{\baselineskip}[0in][0in]{\raisebox{#2}[0in][0in]{#3}}}}
+     \def\rightbox#1{\makebox[0in][r]{#1}}
+     \def\centbox#1{\makebox[0in]{#1}}
+     \def\topbox#1{\raisebox{-\baselineskip}[0in][0in]{#1}}
+     \def\midbox#1{\raisebox{-0.5\baselineskip}[0in][0in]{#1}}
+
+\vspace{3cm}
+
+\title{ \logo{PROBABILITY}}
+
+\maketitle
+%\tableofcontents
+
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+\begin{enumerate}
+[label=\arabic*]
+
+\numberwithin{equation}{enumi}
+\end{enumerate}
+{\Large \textbf{EXERCISE}}
+\begin{enumerate}
+\item Complete the following statements:\\
+ (i) Probability of an event E + Probability of the event ‘not E’ =----------- .\\
+ (ii) The probability of an event that cannot happen is---------- . Such an event is called--------- .\\
+ (iii) The probability of an event that is certain to happen is ---------.\\
+ (iv) The sum of the probabilities of all the elementary events of an experiment is----------.\\ (v) The probability of an event is greater than or equal to and less than or equal to --------------.\\
+\item Which of the following experiments have equally likely outcomes? Explain.
+ (i) A driver attempts to start a car. The car starts or does not start.\\
+ (ii) A player attempts to shoot a basketball. She/he shoots or misses the shot.\\
+ (iii) A trial is made to answer a true-false question. The answer is right or wrong.\\
+ (iv) A baby is born. It is a boy or a girl.\\
+ \item Why is tossing a coin considered to be a fair way of deciding which team should get the
+ball at the beginning of a football game?
+\item Which of the following cannot be the probability of an event?\\
+(A)$\frac{2}{3}$(B) –1.5 (C) 15% (D) 0.7
+\item If P(E) = 0.05, what is the probability of ‘not E’?
+\item A bag contains lemon flavoured candies only. Malini takes out one candy without
+looking into the bag. What is the probability that she takes out\\
+(i) an orange flavoured candy?\\
+(ii) a lemon flavoured candy?
+\item It is given that in a group of 3 students, the probability of 2 students not having the
+same birthday is 0.992. What is the probability that the 2 students have the same
+birthday?
+\item A bag contains 3 red balls and 5 black balls. A ball is drawn at random from the bag.
+What is the probability that the ball drawn is\\ 
+(i) red ? \\
+(ii) not red?
+\item A box contains 5 red marbles, 8 white marbles and 4 green marbles. One marble is taken
+out of the box at random. What is the probability that the marble taken out will be\\
+(i) red ?\\
+(ii) white ? \\
+(iii) not green?
+\item A piggy bank contains hundred 50p coins, fifty rupee 1 coins, twenty rupee 2 coins and ten rupee 5 coins. If it is equally likely that one of the coins will fall out when the bank is turned upside down, what is the probability that the coin \\
+(i) will be a 50 p coin ?\\
+(ii) will not be a rupee5 coin?
+\item Gopi buys a fish from a shop for his aquarium. The
+shopkeeper takes out one fish at random from a
+tank containing 5 male fish and 8 female fish (see
+Fig. 15.4). What is the probability that the fish taken
+out is a male fish?\\
+\includegraphics{woman.png}
+\item A game of chance consists of spinning an arrow which comes to rest pointing at one of the numbers 1, 2, 3, 4, 5, 6, 7, 8 (see Fig. 15.5 ), and these are equally likely outcomes. What is the probability that it will point at\\
+(i) 8 ?\\
+(ii) an odd number?\\
+(iii) a number greater than 2?\\
+(iv) a number less than 9?\\
+\includegraphics{clock.png}
+\item A die is thrown once. Find the probability of getting\\
+(i) a prime number;\\
+(ii) a number lying between 2 and 6;\\
+(iii) an odd number.
+\item A die is thrown once. Find the probability of getting\\
+(i) a prime number;\\
+(ii) a number lying between 2 and 6;\\
+(iii) an odd number.
+\item One card is drawn from a well-shuffled deck of 52 cards. Find the probability of getting
+(i) a king of red colour\\
+(ii) a face card\\
+(iii) a red face card\\
+(iv) the jack of hearts \\
+(v) a spade \\
+(vi) the queen of diamonds
+\item Five cards—the ten, jack, queen, king and ace of diamonds, are well-shuffled with their
+face downwards. One card is then picked up at random.\\
+(i) What is the probability that the card is the queen?\\
+(ii) If the queen is drawn and put aside, what is the probability that the second card
+picked up is (a) an ace? (b) a queen?
+\item 12 defective pens are accidentally mixed with 132 good ones. It is not possible to just
+look at a pen and tell whether or not it is defective. One pen is taken out at random from
+this lot. Determine the probability that the pen taken out is a good one.
+\item (i) A lot of 20 bulbs contain 4 defective ones. One bulb is drawn at random from the lot.
+What is the probability that this bulb is defective?\\
+(ii) Suppose the bulb drawn in (i) is not defective and is not replaced. Now one bulb
+is drawn at random from the rest. What is the probability that this bulb is not
+defective ?
+\item A box contains 90 discs which are numbered from 1 to 90. If one disc is drawn at random
+from the box, find the probability that it bears (i) a two-digit number (ii) a perfect
+square number (iii) a number divisible by 5.
+\item A child has a die whose six faces show the letters as given below:\\
+\begin{tikzpicture}[outer sep=0.05cm,node distance=0.8cm,]
+\tikzstyle{bigbox} = [draw=white!50, thick, fill=white!10, rounded corners, rectangle]
+\tikzstyle{box} = [minimum size=0.6cm, rounded corners,rectangle, fill=blue!50]
+%
+\node[box] (11) {A};
+\node[box,right of=11] (12) {B};
+\node[box,right of=12] (13) {C};
+\node[box,below of=11] (21) {D};
+\node[box,right of=21] (22) {E};
+\node[box,right of=22] (23) {A};
+%
+\begin{pgfonlayer}{background}
+  \node[bigbox] [fit = (11) (23)] {};
+\end{pgfonlayer}
+%
+\end{tikzpicture}\\
+The die is thrown once. What is the probability of getting (i) A? (ii) D?
+\item Suppose you drop a die at random on the rectangular region shown in Fig.15.6.What is the probability that it will land inside the circle with diameter 1m?
+\includegraphics{rectangle.JPG}
+\item A lot consists of 144 ball pens of which 20 are defective and the others are good. Nuri will buy a pen if it is good, but will not buy if it is defective. The shopkeeper draws one pen at random and gives it to her. What is the probability that\\
+(i) She will buy it ?\\
+(ii) She will not buy it ?
+\item Refer to Example 13.(i)Complete the following table:
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+Event:
+‘Sum on 2 dice’&2&3&4&5&6&7&8&9&10&11&12\\
+\hline
+Probability&$\frac{1}{36}$ &-&-&-&-&-& $\frac{5}{36}$ &-&-&-& $\frac{1}{36}$\\
+\hline
+\end{tabular}\\
+(ii) A student argues that ‘there are 11 possible outcomes 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 and 12.Therefore,each of them has a probability $\frac{1}{11}$ Do you agree with this argument? Justify your answer.
+\item A game consists of tossing a one rupee coin 3 times and noting its outcome each time. Hanif wins if all the tosses give the same result i.e., three heads or three tails, and loses otherwise. Calculate the probability that Hanif will lose the game.
+\item A die is thrown twice. What is the probability that\\
+(i) 5 will not come up either time? \\
+(ii) 5 will come up at least once?\\
+Hint : Throwing a die twice and throwing two dice simultaneously are treated as the
+same experiment
+\item Which of the following arguments are correct and which are not correct? Give reasons
+for your answer.\\
+(i) If two coins are tossed simultaneously there are three possible outcomes—two
+heads, two tails or one of each. Therefore, for each of these outcomes, the
+probability is $\frac{1}{3}$ \\
+(ii) If a die is thrown, there are two possible outcomes—an odd number or an even
+number. Therefore, the probability of getting an odd number is $\frac{1}{2}$\\\\
+{\Large \textbf{EXERCISE}(optional)*}\\
+\item Two customers Shyam and Ekta are visiting a particular shop in the same week (Tuesday
+to Saturday). Each is equally likely to visit the shop on any day as on another day. What
+is the probability that both will visit the shop on\\
+(i) the same day?\\
+(ii) consecutive days?\\
+(iii) different days?
+\item A die is numbered in such a way that its faces show the numbers 1, 2, 2, 3, 3, 6. It is thrown two times and the total score in two throws is noted. Complete the following
+table which gives a few values of the total score on the two throws:
+\includegraphics{rows.JPG}\\
+What is the probability that the total score is
+(i) even? (ii) 6? (iii) at least 6?
+\item A bag contains 5 red balls and some blue balls. If the probability of drawing a blue ball is double that of a red ball, determine the number of blue balls in the bag.
+\item A box contains 12 balls out of which x are black. If one ball is drawn at random from the box,what is the probability that it will be a black ball?\\
+If 6 more black balls are put in the box, the probability of drawing a black ball is now double of what it was before. Find x.
+\item A jar contains 24 marbles, some are green and others are blue. If a marble is drawn at random from the jar, the probability that it is green is $\frac{2}{3}$⋅ Find the number of blue balls in the jar.
+\end{enumerate}
+\end{document}
+        

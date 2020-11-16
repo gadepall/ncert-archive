@@ -1,0 +1,23 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Let $E_1$ be the event of getting a red ball in the first draw and $E_2$ be the evnt of getting a black ball in the first draw. If $E_1$ occurs then there will be 7 red balls and 5 black balls. If $E_2$ occurs then there will be 5 red and 7 black balls.
+\item Let R be the event of drawing red ball in the second draw.
+\begin{align}
+P(E_1) &= \frac{5}{10} \\
+P(E_2) &= \frac{5}{10} \\
+P(R \mid E_1) &= \frac{7}{12} \\
+P(R \mid E_2) &= \frac{5}{12}
+\end{align}
+\item The Substituting the above values in \eqref{eq:eq1}
+\begin{align}
+P(R)= P(E_1)P(R \mid E_1) + P(E_2)P(R \mid E_2)
+\label{eq:eq1}
+\end{align}
+\item. Probability that second ball is red = 0.5.
+\item The python code for finding probability using a sample size of 10000 can be downloaded from
+\begin{lstlisting}
+probability/codes/Q47.py
+\end{lstlisting}
+
+\end{enumerate}

@@ -1,0 +1,20 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+	\numberwithin{equation}{enumi}
+	\item In a retail market, fruit vendors were selling mangoes kept in packing boxes. These
+	boxes contained varying number of mangoes. The following was the distribution of
+	mangoes according to the number of boxes.
+	\begin{tabular}{|c|c|c|c|c|c|}
+		\hline
+		No of mangoes&50-52&53-55&56-58\\
+		\hline
+		No of boxes&15&110&135\\
+		\hline
+		No of mangoes&59-61&62-64&\\
+		\hline
+		No of boxes&115&25&\\
+		\hline
+	\end{tabular}\\
+	\par Find the mean number of mangoes kept in a packing box. Which method of finding
+	the mean did you choose?
+\end{enumerate}

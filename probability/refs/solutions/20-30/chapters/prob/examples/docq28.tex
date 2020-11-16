@@ -1,0 +1,23 @@
+Let $X,Y \in \cbrak{0,1}$ represent HIV with 1 being positive.  From the given information,
+{\small
+\begin{align}
+\pr{X = 1|Y=1} &= \frac{9}{10},\pr{X = 0|Y=1} = \frac{1}{10}
+\\
+\pr{X = 1|Y=0} &= \frac{1}{100},
+\pr{X = 0|Y=0} = \frac{99}{100}
+\\
+\pr{Y=1} &= \frac{1}{1000},
+\pr{Y=0} = \frac{999}{1000}
+\end{align}
+}
+Then, 
+{\tiny
+\begin{multline}
+\pr{Y=1|X=1} 
+\\
+= \frac{\pr{X=1|Y=1}\pr{Y=1}}{\pr{X=1|Y=1}\pr{Y=1}+\pr{X=1|Y=0}\pr{Y=0}}
+\\
+=\frac{\frac{9}{10}\times \frac{1}{1000}}{\frac{9}{10}\times \frac{1}{1000}+\frac{1}{100}\times \frac{999}{1000}}
+=\frac{10}{121}
+\end{multline}
+}

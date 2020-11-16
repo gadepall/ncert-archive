@@ -1,0 +1,10 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item The marks obtained by 30 students of Class X of a certain school in a Mathematics paper consisting of 100 marks are presented in table below. Find the mean of the marks obtained by the students.\\
+\begin{table}[!ht]
+	\centering
+	\input{./table/statexm/statexm1.tex}
+	\caption{ Table for marks of students}
+\end{table}
+\end{enumerate}

@@ -1,0 +1,17 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Probability of selecting a hostelier= $P(H) = 0.60$.
+\item Probability of selecting a day scholar $= P(D) = 0.40$.
+\item Probability of selecting an A grade hostelier$= P(A \mid H) = 0.30$.
+\item Probability of selecting an A grade day scholar$= P(A \mid D) = 0.20$. 
+\item Using Bayes Theorem, probability that a selected A grade student is a hostelier is
+\begin{align}
+P(H \mid A) &= \frac{P(H)\times P(A \mid H)}{P(H)\times P(A \mid H) + P(D)\times P(A \mid D)}\\
+&= \frac{9}{13}
+\end{align}
+\item The python code for finding probability using a sample size of 10000 can be downloaded from
+\begin{lstlisting}
+probability/codes/Q49.py
+\end{lstlisting}
+\end{enumerate}

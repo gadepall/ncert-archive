@@ -1,0 +1,10 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item When the data set has normal distribution with no skewness, such that the adjacent values dont show bigger deviation from adjacent values then in that case mean is an appropriate measure of central tendency.
+Example: Birth weight, Height(over a large population)
+\item When the skewness increases the difference between mean and median increases. Hence median becomes the appropriate measure of central tendency. 
+Example: Income distribution in a developing country.
+
+\end{enumerate}

@@ -1,0 +1,7 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Find the mode of \\
+14, 25, 14, 28, 18, 17, 18, 14, 23, 22, 14, 18.
+
+\end{enumerate}

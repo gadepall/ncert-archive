@@ -1,0 +1,14 @@
+Starting interval=2-2.5\\
+class interval=0.5\\
+Greatest value=4.6\\
+Therefor end interval=4.5-5\\
+\begin{table}[ht!]
+\centering
+\input{./stat/tables/exer36/out36.tex}
+\caption{Grouped frequency distribution table for car-battery lives}
+\label{table:output_36}
+\end{table}
+The grouped frequency distribution table \ref{table:output_36} is construced using the python code
+\begin{lstlisting}
+./stat/codes/exer36.py
+\end{lstlisting}

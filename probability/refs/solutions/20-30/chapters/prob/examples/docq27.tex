@@ -1,0 +1,53 @@
+Let $X \in \cbrak{1,2,3}$ represent the box and $Y_1,Y_2 \in \cbrak{0,1}$ represent the coins, 1 representing gold.  Then,
+\begin{align}
+\pr{X = 1}&=
+\pr{X = 2}=
+\pr{X = 3}= \frac{1}{3}
+\end{align}
+\begin{align}
+\pr{Y_1 = 1, Y_2 = 1|X=1} &= 1,
+\\
+\pr{Y_1 = 1, Y_2 = 1|X=2} &= 0
+\end{align}
+\begin{multline}
+\pr{Y = 1, Y_2 = 0|X=3} 
+\\
+= \pr{Y_1 = 1, Y_2 = 0|X=3} 
+\\
+= \frac{1}{2}
+\end{multline}
+Then
+\begin{align}
+\pr{Y_1=1|Y_2 = 1} = \frac{\pr{Y_1=1,Y_2=1}}{\pr{Y_2=1}}
+\label{eq:2.1.27_prob}
+\end{align}
+Now,
+\begin{multline}
+\pr{Y_1=1,Y_2 = 1} 
+\\
+= \sum_{i}\pr{Y_1=1,Y_2 = 1,X = i}
+\\
+= \sum_{i}\pr{Y_1=1,Y_2 = 1|X = i}\pr{X = i} = \frac{1}{3}
+\label{eq:2.1.27_prob_num}
+\end{multline}
+and
+\begin{multline}
+\pr{Y_2 = 1} 
+\\
+= \pr{Y_1=1,Y_2 = 1}+ \pr{Y_1=0,Y_2 = 1}
+\\
+= \sum_{i}\pr{Y_1=1,Y_2 = 1|X = i}\pr{X = i} 
+\\
+\quad + \sum_{i}\pr{Y_1=0,Y_2 = 1|X = i}\pr{X = i} 
+\\
+= \frac{1}{3}+\frac{1}{6} = \frac{1}{2}
+\label{eq:2.1.27_prob_den}
+\end{multline}
+Substituting from \eqref{eq:2.1.27_prob_num}
+and \eqref{eq:2.1.27_prob_den}
+in \eqref{eq:2.1.27_prob},
+\begin{align}
+\pr{Y_1=1|Y_2 = 1} = \frac{\frac{1}{3}}{\frac{1}{2}} = \frac{2}{3}
+\label{eq:2.1.27_prob_sol}
+\end{align}
+

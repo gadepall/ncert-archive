@@ -1,0 +1,14 @@
+Maximum number of hours=17//
+class interval=5\\
+Since one of the class intervals must be 5-10 the class intervals are taken as 0-5,5-10,10-15,15-20.
+\begin{table}[ht!]
+\centering
+\input{./stat/tables/exer35/out35.tex}
+\caption{Grouped frequency distribution table for the data in \ref{table:input_35}}
+\label{table:output_35}
+\end{table}
+The grouped frequency distribution table \ref{table:output_35} is construced using the python code
+\begin{lstlisting}
+./stat/codes/exer35.py
+\end{lstlisting}
+From the table \ref{table:output_35},2 children watched TV for more than 15 hours a week. 

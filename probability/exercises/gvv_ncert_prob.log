@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  21 SEP 2020 20:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  16 NOV 2020 16:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1746,11 +1746,7 @@ ngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
-) (./gvv_ncert_prob.aux
-
-LaTeX Warning: Label `fig:bt9' multiply defined.
-
-)
+) (./gvv_ncert_prob.aux)
 \openout1 = `gvv_ncert_prob.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 90.
@@ -2017,15 +2013,37 @@ Overfull \hbox (14.40588pt too wide) in paragraph at lines 253--253
 \tf@toc=\write5
 \openout5 = `gvv_ncert_prob.toc'.
 
- (./prob/prob_exam.tex
-(./solutions/1-10/chapters/prob_exm/prob1/solution1.tex
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
-3.
+ (./prob/bernoulli.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
-(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1
-txr.fd
-File: ts1txr.fd 2000/12/15 v3.1
-)) (./solutions/1-10/chapters/prob_exm/prob2/solution2.tex
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 30--31
+[]\OT1/txr/m/n/12 It is known that 10$%$ of cer-tain ar-ti-cles
+ []
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 30--31
+\OT1/txr/m/n/12 man-u-fac-tured are de-fec-tive. What is the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
@@ -2091,194 +2109,278 @@ Non-PDF special ignored!
 <special> ! /pgf8{gsave exec 1.0 pgfw [ ] 0.0 setdash 1.0 0.0 moveto -5.000...
 
  </data/data/com.termux/files/home/texmf/tex/latex/logo/iith_logo.pdf> </data/d
-ata/com.termux/files/home/texmf/tex/latex/logo/tlc.pdf>])
-(./solutions/1-10/chapters/prob_exm/prob3/solution3.tex)
-(./solutions/1/1/4/solution.tex
+ata/com.termux/files/home/texmf/tex/latex/logo/tlc.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 31--36
 
-LaTeX Warning: Reference `eq:solutions/1/1/4/tab:givendistribution' on page 2 u
-ndefined on input line 5.
+ []
 
-(./solutions/1/1/4/sheet_random.tex) (./solutions/1/1/4/sheet_random_2.tex))
-[2] (./solutions/1-10/chapters/prob_exm/prob5/solution5.tex)
-(./solutions/1-10/chapters/prob_exm/prob6/solution6.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 41--42
+\OT1/txr/m/n/12 twice, find the prob-a-bil-ity dis-tri-bu-tion of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--59
+
+ []
+
+(./solutions/20-10/prob/chapters/exam48/solution.tex
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
+.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1
+txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
+)) (./solutions/1-10/chapters/probabilities/problem1/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2])
+(./solutions/1-10/chapters/prob_exm/prob1/solution1.tex)
+(./solutions/1-10/chapters/prob_exm/prob2/solution2.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 87--90
+(./solutions/1-10/chapters/prob_exm/prob3/solution3.tex)
+(./solutions/1-10/chapters/prob_exm/prob5/solution5.tex)
+(./solutions/20-10/prob/chapters/exam46/solution.tex [3])
+(./solutions/1-10/chapters/probabilities/problem5/solution.tex)
+(./solutions/20-30/chapters/prob/exercises/docq23.tex)
+(./solutions/20-30/chapters/prob/exercises/docq24.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
-
-(./solutions/1-10/chapters/prob_exm/prob7/solution7.tex)
-(./solutions/1-10/chapters/prob_exm/prob8/solution8.tex [3])
-
-LaTeX Warning: Reference `table:prob_exam9' on page 4 undefined on input line 1
-38.
-
-(./solutions/1-10/chapters/prob_exm/prob9/solution9.tex
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
+ [4])
+(./solutions/20-30/chapters/prob/exercises/docq30.tex)
+(./solutions/40-50/probability/chapters/Q41/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 172--176
+(./solutions/40-50/probability/chapters/Q42/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5])
+(./solutions/20-10/prob/chapters/exer128/solution.tex)
+(./solutions/20-10/prob/chapters/pens127/solution.tex)
+Package epstopdf Info: Source file: <./prob/figs/woman.eps>
+(epstopdf)                    date: 2020-08-15 07:10:01
+(epstopdf)                    size: 152802 bytes
+(epstopdf)             Output file: <./prob/figs/woman-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-21 07:25:16
+(epstopdf)                    size: 13026 bytes
+(epstopdf)             Command: <repstopdf --outfile=./prob/figs/woman-eps-conv
+erted-to.pdf ./prob/figs/woman.eps>
+(epstopdf)             \includegraphics on input line 188.
+Package epstopdf Info: Output file is already uptodate.
+<./prob/figs/woman-eps-converted-to.pdf, id=205, 102.3825pt x 134.5025pt>
+File: ./prob/figs/woman-eps-converted-to.pdf Graphic file (type pdf)
+<use ./prob/figs/woman-eps-converted-to.pdf>
+Package pdftex.def Info: ./prob/figs/woman-eps-converted-to.pdf  used on input 
+line 188.
+(pdftex.def)             Requested size: 252.0pt x 331.08142pt.
+
+(./solutions/20-10/prob/chapters/fish/solution.tex)
+(./solutions/10-1/prob/exer2/solution.tex [6 <./prob/figs/woman-eps-converted-t
+o.pdf>]) (./solutions/10-1/prob/exer9/solution.tex)
+(./solutions/10-1/prob/exer10/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+))
+(./prob/bayes.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-(./solutions/1-10/chapters/prob_exm/prob10/solution10.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--24
 
  []
 
 
-Underfull \hbox (badness 1939) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 7--24
+
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 7--24
+\OT1/txr/m/n/12 One of the boxes has been se-lected at
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 27--28
+\OT1/txr/m/n/12 have grey hair. A grey haired per-son is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
+
+ []
+
+[7]
+Underfull \hbox (badness 1735) in paragraph at lines 31--33
+\OT1/txr/m/n/12 op-er-a-tors B and C pro-duce 5$%$ and 7$%$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+
+Underfull \hbox (badness 5711) in paragraph at lines 34--35
+\OT1/txr/m/n/12 record shows that ma-chine A pro-duced
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 38--39
 []\OT1/txr/m/n/12 A fam-ily has two chil-dren. What is the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--207
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 43--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 52--53
 \OT1/txr/m/n/12 Two balls are drawn from the urn one
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
-(./solutions/20-30/chapters/prob/examples/docq21.tex)
-(./solutions/20-30/chapters/prob/examples/docq22.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5])
-(./solutions/20-30/chapters/prob/examples/docq23.tex)
-(./solutions/20-30/chapters/prob/examples/docq24.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./solutions/20-30/chapters/prob/examples/docq25.tex)
-(./solutions/20-30/chapters/prob/examples/docq26.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6])
+(./solutions/20-30/chapters/prob/examples/docq25.tex [8])
+(./solutions/20-30/chapters/prob/examples/docq26.tex)
 (./solutions/20-30/chapters/prob/examples/docq27.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \hbox (2.17107pt too wide) detected at line 32
  []$[] \OT1/txr/m/n/12 = [] [] [] [] [] = []$ []  
  []
 
 
+Underfull \hbox (badness 1668) in paragraph at lines 45--49
+\OT1/txr/m/n/12 Substituting from [] and [] in
+ []
+
+) (./solutions/20-30/chapters/prob/examples/docq28.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9])
+(./solutions/20-30/chapters/prob/examples/docq29.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/20-30/chapters/prob/examples/docq28.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7])
-(./solutions/20-30/chapters/prob/examples/docq29.tex)
-(./solutions/20-30/chapters/prob/examples/docq30.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
-
- []
-
-
-Underfull \hbox (badness 6110) in paragraph at lines 264--265
-[]\OT1/txr/m/n/12 Two cards are drawn suc-ces-sively with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
-
- []
-
-
-Underfull \hbox (badness 3568) in paragraph at lines 280--281
-[]\OT1/txr/m/n/12 Two cards are drawn si-mul-ta-ne-ously (or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--285
-
- []
-
-(./solutions/20-10/prob/chapters/exam41/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./solutions/20-10/prob/chapters/exam42/solution.tex [9])
+(./solutions/20-30/chapters/prob/examples/docq30.tex)
 (./solutions/20-10/prob/tables/boxes43.tex
 \gnumericTableWidth=\skip81
 \gnumericTableWidthComplete=\skip82
@@ -2292,14 +2394,187 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./solutions/20-10/prob/chapters/exam43/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [10]
+Underfull \hbox (badness 1668) in paragraph at lines 28--31
+\OT1/txr/m/n/12 Substituting from [] and [] in
+ []
+
+) (./solutions/20-10/prob/chapters/exam47/solution.tex)
+(./solutions/20-10/prob/chapters/exam49/solution.tex) [11]
+(./solutions/40-50/probability/chapters/Q47/solution.tex)
+(./solutions/40-50/probability/chapters/Q48/solution.tex
+Overfull \hbox (0.71762pt too wide) detected at line 8
+ []$[] \OT1/txr/m/n/9 = []$ []  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 )
+(./solutions/40-50/probability/chapters/Q49/solution.tex
+Overfull \hbox (0.71762pt too wide) detected at line 7
+ []$[] \OT1/txr/m/n/9 = []$ []  
+ []
+
+[12]) (./solutions/40-50/probability/chapters/Q50/solution.tex
+Overfull \hbox (0.71762pt too wide) detected at line 7
+ []$[] \OT1/txr/m/n/9 = []$ []  
+ []
+
+)) (./prob/binomial.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 5985) in paragraph at lines 7--8
+[]\OT1/txr/m/n/12 An ex-per-i-ment suc-ceeds twice as of-ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--27
+
+ []
+
+(./solutions/20-10/prob/chapters/exam41/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13])
+(./solutions/20-10/prob/chapters/exam42/solution.tex)
 (./solutions/20-10/prob/chapters/exam44/solution.tex)
-(./solutions/20-10/prob/chapters/exam45/solution.tex [10])
-(./solutions/20-10/prob/chapters/exam46/solution.tex)
-(./solutions/20-10/prob/chapters/exam47/solution.tex)
-(./solutions/20-10/prob/chapters/exam48/solution.tex [11])
-(./solutions/20-10/prob/chapters/exam49/solution.tex)
-(./solutions/20-10/prob/chapters/exam50/solution.tex)
+(./solutions/20-10/prob/chapters/exam45/solution.tex [14])
+(./solutions/20-30/chapters/prob/examples/docq22.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./solutions/40-50/probability/chapters/Q40/solution.tex
+Underfull \hbox (badness 10000) in paragraph at lines 56--3
+
+ []
+
+) (./solutions/10-1/prob/exer4/solution.tex [15])
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+(./solutions/10-1/prob/exer5/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+))
+(./prob/uniform.tex (./solutions/10-1/prob/codes/tables/input.tex)
+(./solutions/20-10/prob/chapters/dice123/solution.tex
+Underfull \vbox (badness 1728) has occurred while \output is active []
+
+ [16])
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
+
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 38--39
+\OT1/txr/m/n/12 when two fair dice are rolled. Find the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 39--40
+\OT1/txr/m/n/12 re-place-ment) from the first six pos-i-tive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Underfull \hbox (badness 5802) in paragraph at lines 40--42
+[]\OT1/txr/m/n/12 Two dice are thrown si-mul-ta-ne-ously. If
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 40--42
+\OT1/txr/m/n/12 X de-notes the num-ber of sixes, find the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
 Package epstopdf Info: Source file: <./prob/figs/lake.eps>
 (epstopdf)                    date: 2020-08-15 07:10:01
 (epstopdf)                    size: 789058 bytes
@@ -2308,45 +2583,253 @@ Package epstopdf Info: Source file: <./prob/figs/lake.eps>
 (epstopdf)                    size: 67858 bytes
 (epstopdf)             Command: <repstopdf --outfile=./prob/figs/lake-eps-conve
 rted-to.pdf ./prob/figs/lake.eps>
-(epstopdf)             \includegraphics on input line 377.
+(epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
-<./prob/figs/lake-eps-converted-to.pdf, id=394, 362.35374pt x 201.75375pt>
+<./prob/figs/lake-eps-converted-to.pdf, id=548, 362.35374pt x 201.75375pt>
 File: ./prob/figs/lake-eps-converted-to.pdf Graphic file (type pdf)
 <use ./prob/figs/lake-eps-converted-to.pdf>
 Package pdftex.def Info: ./prob/figs/lake-eps-converted-to.pdf  used on input l
-ine 377.
-(pdftex.def)             Requested size: 362.35286pt x 201.75325pt.
+ine 52.
+(pdftex.def)             Requested size: 252.0pt x 140.31233pt.
 
-Underfull \hbox (badness 1983) in paragraph at lines 375--378
+Underfull \hbox (badness 1983) in paragraph at lines 48--56
 []\OT1/txr/m/n/12 A miss-ing he-li-copter is re-ported to have
  []
 
+[17] (./solutions/1/1/4/solution.tex (./solutions/1/1/4/sheet_random.tex)
+(./solutions/1/1/4/sheet_random_2.tex)
 
-Overfull \hbox (134.35286pt too wide) in paragraph at lines 375--378
-[] 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./solutions/20-10/prob/chapters/exam50/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./prob/figs/lake-eps-converted-to.pdf>])
+(./solutions/20-30/chapters/prob/exercises/docq25.tex)
+Package epstopdf Info: Source file: <./prob/figs/clock.eps>
+(epstopdf)                    date: 2020-08-15 07:10:01
+(epstopdf)                    size: 110502 bytes
+(epstopdf)             Output file: <./prob/figs/clock-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-09-21 07:25:17
+(epstopdf)                    size: 10949 bytes
+(epstopdf)             Command: <repstopdf --outfile=./prob/figs/clock-eps-conv
+erted-to.pdf ./prob/figs/clock.eps>
+(epstopdf)             \includegraphics on input line 94.
+Package epstopdf Info: Output file is already uptodate.
+<./prob/figs/clock-eps-converted-to.pdf, id=594, 84.315pt x 115.43124pt>
+File: ./prob/figs/clock-eps-converted-to.pdf Graphic file (type pdf)
+<use ./prob/figs/clock-eps-converted-to.pdf>
+Package pdftex.def Info: ./prob/figs/clock-eps-converted-to.pdf  used on input 
+line 94.
+(pdftex.def)             Requested size: 252.0pt x 345.00883pt.
+
+(./solutions/20-10/prob/chapters/chance/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+))
+(./prob/misc.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19 <./prob/figs/clock-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--378
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
+
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 49--61
+[]\OT1/txr/m/n/12 A ran-dom vari-able X has the fol-low-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--61
+
+ []
+
+
+Overfull \hbox (12.6561pt too wide) in paragraph at lines 49--61
+[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./prob/figs/lake-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 381--385
+ [20]
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--385
+Underfull \hbox (badness 10000) in paragraph at lines 65--73
 
  []
 
-) (./prob/prob_exer.tex
-(./solutions/1-10/chapters/probabilities/problem1/solution.tex)
-(./solutions/1-10/chapters/probabilities/problem2/solution.tex)
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 100--101
+\OT1/txr/m/n/12 drivers, 4000 car drivers and 6000 truck
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+
+Underfull \hbox (badness 6110) in paragraph at lines 128--129
+[]\OT1/txr/m/n/12 Two cards are drawn suc-ces-sively with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 144--145
+[]\OT1/txr/m/n/12 Two cards are drawn si-mul-ta-ne-ously (or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+(./solutions/1-10/chapters/prob_exm/prob6/solution6.tex
+Underfull \vbox (badness 3895) has occurred while \output is active []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
+
+ []
+
+(./solutions/1-10/chapters/prob_exm/prob7/solution7.tex)
+(./solutions/1-10/chapters/prob_exm/prob9/solution9.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+[22])
+Underfull \hbox (badness 10000) in paragraph at lines 223--227
+
+ []
+
+(./solutions/1-10/chapters/prob_exm/prob10/solution10.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./solutions/1-10/chapters/probabilities/problem2/solution.tex) [23]
 (./solutions/1-10/chapters/probabilities/problem3/question.tex
 Package epstopdf Info: Source file: <./solutions/1-10/figures/prob/prob3.eps>
 (epstopdf)                    date: 2020-08-15 07:10:01
@@ -2364,7 +2847,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./solutions/1-10/figures/prob/prob3-eps-converte
 d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
 lowed
-<./solutions/1-10/figures/prob/prob3-eps-converted-to.pdf, id=427, 462.72874pt 
+<./solutions/1-10/figures/prob/prob3-eps-converted-to.pdf, id=740, 462.72874pt 
 x 346.29375pt>
 File: ./solutions/1-10/figures/prob/prob3-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2372,12 +2855,11 @@ pe pdf)
 Package pdftex.def Info: ./solutions/1-10/figures/prob/prob3-eps-converted-to.p
 df  used on input line 3.
 (pdftex.def)             Requested size: 252.0pt x 188.5916pt.
-) (./solutions/1-10/chapters/probabilities/problem3/solution.tex [13 <./solutio
-ns/1-10/figures/prob/prob3-eps-converted-to.pdf>])
+) (./solutions/1-10/chapters/probabilities/problem3/solution.tex)
 (./solutions/1-10/chapters/probabilities/problem4/solution.tex)
 (./solutions/1-10/chapters/probabilities/problem4/solution.tex)
-(./solutions/1-10/chapters/probabilities/problem5/solution.tex)
-(./solutions/1-10/chapters/probabilities/problem7/solution.tex [14]
+(./solutions/1-10/chapters/probabilities/problem7/solution.tex [24 <./solutions
+/1-10/figures/prob/prob3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./solutions/1-10/figures/prob/prob7.eps>
 (epstopdf)                    date: 2020-08-15 07:10:01
 (epstopdf)                    size: 16805 bytes
@@ -2394,7 +2876,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./solutions/1-10/figures/prob/prob7-eps-converte
 d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
 lowed
-<./solutions/1-10/figures/prob/prob7-eps-converted-to.pdf, id=534, 462.72874pt 
+<./solutions/1-10/figures/prob/prob7-eps-converted-to.pdf, id=811, 462.72874pt 
 x 346.29375pt>
 File: ./solutions/1-10/figures/prob/prob7-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2407,33 +2889,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
-) (./solutions/1-10/chapters/probabilities/problem9/solution.tex [15 <./solutio
-ns/1-10/figures/prob/prob7-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./solutions/1-10/figures/prob/prob8.eps>
-(epstopdf)                    date: 2020-08-15 07:10:01
-(epstopdf)                    size: 14238 bytes
-(epstopdf)             Output file: <./solutions/1-10/figures/prob/prob8-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2020-08-15 07:10:01
-(epstopdf)                    size: 8905 bytes
-(epstopdf)             Command: <repstopdf --outfile=./solutions/1-10/figures/p
-rob/prob8-eps-converted-to.pdf ./solutions/1-10/figures/prob/prob8.eps>
-(epstopdf)             \includegraphics on input line 16.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./solutions/1-10/figures/prob/prob8-eps-converte
-d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
-lowed
-<./solutions/1-10/figures/prob/prob8-eps-converted-to.pdf, id=602, 462.72874pt 
-x 346.29375pt>
-File: ./solutions/1-10/figures/prob/prob8-eps-converted-to.pdf Graphic file (ty
-pe pdf)
-<use ./solutions/1-10/figures/prob/prob8-eps-converted-to.pdf>
-Package pdftex.def Info: ./solutions/1-10/figures/prob/prob8-eps-converted-to.p
-df  used on input line 16.
-(pdftex.def)             Requested size: 252.0pt x 188.5916pt.
-) (./solutions/1-10/chapters/probabilities/problem10/solution.tex
+) [25 <./solutions/1-10/figures/prob/prob7-eps-converted-to.pdf>]
+(./solutions/1-10/chapters/probabilities/problem10/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package epstopdf Info: Source file: <./solutions/1-10/figures/prob/prob10.eps>
@@ -2452,7 +2909,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./solutions/1-10/figures/prob/prob10-eps-convert
 ed-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
-<./solutions/1-10/figures/prob/prob10-eps-converted-to.pdf, id=604, 325.215pt x
+<./solutions/1-10/figures/prob/prob10-eps-converted-to.pdf, id=882, 325.215pt x
  216.81pt>
 File: ./solutions/1-10/figures/prob/prob10-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2461,734 +2918,28 @@ Package pdftex.def Info: ./solutions/1-10/figures/prob/prob10-eps-converted-to.
 pdf  used on input line 43.
 (pdftex.def)             Requested size: 252.0pt x 168.00284pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 206--209
+Underfull \hbox (badness 10000) in paragraph at lines 406--409
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 409--411
 
  []
 
-[16 <./solutions/1-10/figures/prob/prob8-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--217
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--224
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--236
-
- []
-
-
-Underfull \vbox (badness 2096) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--239
-
- []
-
-(./solutions/20-30/chapters/prob/exercises/docq21.tex)
-(./solutions/20-30/chapters/prob/exercises/docq22.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17 <./solutions/1-10/figures/prob/prob10-eps-converted-to.pdf>]
+(./solutions/20-30/chapters/prob/exercises/docq26.tex [26 <./solutions/1-10/fig
+ures/prob/prob10-eps-converted-to.pdf>])
+(./solutions/20-10/prob/chapters/cards125/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/20-30/chapters/prob/exercises/docq23.tex)
-(./solutions/20-30/chapters/prob/exercises/docq24.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18])
-(./solutions/20-30/chapters/prob/exercises/docq25.tex)
-(./solutions/20-30/chapters/prob/exercises/docq26.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./solutions/20-30/chapters/prob/exercises/docq27.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19]
-(./solutions/20-30/chapters/prob/exercises/docq28.tex)
-(./solutions/20-30/chapters/prob/exercises/docq29.tex)
-(./solutions/20-30/chapters/prob/exercises/docq30.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 302--304
-
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 305--307
-\OT1/txr/m/n/12 in green is tossed. Let A be the event,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--307
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 310--313
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 314--319
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 324--329
-
- []
-
-(./solutions/40-50/probability/chapters/Q40/solution.tex
-Underfull \hbox (badness 10000) in paragraph at lines 330--3
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20])
-(./solutions/40-50/probability/chapters/Q41/solution.tex)
-(./solutions/40-50/probability/chapters/Q42/solution.tex)
-(./solutions/40-50/probability/chapters/Q43/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21])
-(./solutions/40-50/probability/chapters/Q44/solution.tex
-Underfull \hbox (badness 10000) in paragraph at lines 359--2
-
- []
-
-
-Underfull \hbox (badness 5388) in paragraph at lines 359--2
-\OT1/txr/m/n/12 (a) Find the prob-a-bil-ity that she reads
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 359--2
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 359--2
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./solutions/40-50/probability/chapters/Q45/solution.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22]
-(./solutions/40-50/probability/chapters/Q46/solution.tex)
-(./solutions/40-50/probability/chapters/Q47/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./solutions/40-50/probability/chapters/Q48/solution.tex
-Overfull \hbox (0.71762pt too wide) detected at line 8
- []$[] \OT1/txr/m/n/9 = []$ []  
- []
-
-) (./solutions/40-50/probability/chapters/Q49/solution.tex
-Overfull \hbox (0.71762pt too wide) detected at line 7
- []$[] \OT1/txr/m/n/9 = []$ []  
- []
-
-
-Underfull \vbox (badness 2961) has occurred while \output is active []
-
- [23])
-(./solutions/40-50/probability/chapters/Q50/solution.tex
-Overfull \hbox (0.71762pt too wide) detected at line 7
- []$[] \OT1/txr/m/n/9 = []$ []  
- []
-
-
-Overfull \hbox (4.95656pt too wide) detected at line 24
- []$[]   [] [] \OT1/txr/m/n/12 = [] = []$ [][]  
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 404--405
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
-
- []
-
-
-Underfull \hbox (badness 2027) in paragraph at lines 408--409
-\OT1/txr/m/n/12 drivers, 4000 car drivers and 6000 truck
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 408--409
-
- []
-
-
-Underfull \hbox (badness 5711) in paragraph at lines 410--411
-\OT1/txr/m/n/12 record shows that ma-chine A pro-duced
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
-
- []
-
-
-Underfull \vbox (badness 1248) has occurred while \output is active []
-
- [24]
-Underfull \hbox (badness 10000) in paragraph at lines 414--415
-
- []
-
-
-Underfull \hbox (badness 1735) in paragraph at lines 416--418
-\OT1/txr/m/n/12 op-er-a-tors B and C pro-duce 5$%$ and 7$%$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 416--418
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 419--420
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 421--422
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 422--424
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 430--432
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 438--446
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 447--454
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 455--462
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 463--470
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 471--472
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--474
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 475--479
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 480--483
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
-
- []
-
-
-Underfull \hbox (badness 2662) in paragraph at lines 486--487
-\OT1/txr/m/n/12 twice, find the prob-a-bil-ity dis-tri-bu-tion of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 486--487
-
- []
-
-
-Underfull \hbox (badness 2961) in paragraph at lines 488--501
-[]\OT1/txr/m/n/12 A ran-dom vari-able X has the fol-low-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 488--501
-
- []
-
-
-Overfull \hbox (12.6561pt too wide) in paragraph at lines 488--501
-[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 488--501
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 488--501
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
-Underfull \hbox (badness 10000) in paragraph at lines 502--503
-
- []
-
-
-Underfull \hbox (badness 5802) in paragraph at lines 504--506
-[]\OT1/txr/m/n/12 Two dice are thrown si-mul-ta-ne-ously. If
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 504--506
-\OT1/txr/m/n/12 X de-notes the num-ber of sixes, find the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 504--506
-
- []
-
-
-Underfull \hbox (badness 6477) in paragraph at lines 507--508
-\OT1/txr/m/n/12 re-place-ment) from the first six pos-i-tive
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 507--508
-
- []
-
-
-Underfull \hbox (badness 2302) in paragraph at lines 509--510
-\OT1/txr/m/n/12 when two fair dice are rolled. Find the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 509--510
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--513
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 514--516
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 517--518
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 518--520
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 526--528
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 533--537
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 538--539
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 540--542
-
- []
-
-
-Underfull \hbox (badness 6141) in paragraph at lines 543--547
-[]\OT1/txr/m/n/12 Five cards are drawn suc-ces-sively with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 543--547
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 548--555
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 556--557
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 558--559
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
-Underfull \hbox (badness 10000) in paragraph at lines 560--562
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 565--570
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 571--572
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 573--574
-
- []
-
-
-Underfull \hbox (badness 1895) in paragraph at lines 575--576
-[]\OT1/txr/m/n/12 It is known that 10$%$ of cer-tain ar-ti-cles
- []
-
-
-Underfull \hbox (badness 4205) in paragraph at lines 575--576
-\OT1/txr/m/n/12 man-u-fac-tured are de-fec-tive. What is the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 575--576
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 577--578
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 586--588
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 593--596
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--600
-
- []
-
-
-Underfull \hbox (badness 2035) in paragraph at lines 601--602
-\OT1/txr/m/n/12 have grey hair. A grey haired per-son is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 601--602
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 603--605
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 606--611
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 612--614
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 615--616
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27]
-Underfull \hbox (badness 10000) in paragraph at lines 617--619
-
- []
-
-
-Underfull \hbox (badness 5985) in paragraph at lines 620--621
-[]\OT1/txr/m/n/12 An ex-per-i-ment suc-ceeds twice as of-ten
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 620--621
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 622--623
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 624--625
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 626--643
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 626--643
-
- []
-
-
-Underfull \hbox (badness 3229) in paragraph at lines 626--643
-\OT1/txr/m/n/12 One of the boxes has been se-lected at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 626--643
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 644--646
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 647--650
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 5607) in paragraph at lines 651--658
-[]\OT1/txr/m/n/12 An elec-tronic as-sem-bly con-sists of two
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 651--658
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 651--658
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 659--660
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 662--667
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 674--679
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 679--684
-
- []
-
-[28]
-Underfull \hbox (badness 1721) in paragraph at lines 684--689
-[]\OT1/txr/m/n/12 Which of the fol-low-ing ex-per-i-ments have
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 684--689
-
- []
-
-Package epstopdf Info: Source file: <./prob/figs/woman.eps>
-(epstopdf)                    date: 2020-08-15 07:10:01
-(epstopdf)                    size: 152802 bytes
-(epstopdf)             Output file: <./prob/figs/woman-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-21 07:25:16
-(epstopdf)                    size: 13026 bytes
-(epstopdf)             Command: <repstopdf --outfile=./prob/figs/woman-eps-conv
-erted-to.pdf ./prob/figs/woman.eps>
-(epstopdf)             \includegraphics on input line 720.
-Package epstopdf Info: Output file is already uptodate.
-<./prob/figs/woman-eps-converted-to.pdf, id=1023, 102.3825pt x 134.5025pt>
-File: ./prob/figs/woman-eps-converted-to.pdf Graphic file (type pdf)
-<use ./prob/figs/woman-eps-converted-to.pdf>
-Package pdftex.def Info: ./prob/figs/woman-eps-converted-to.pdf  used on input 
-line 720.
-(pdftex.def)             Requested size: 252.0pt x 331.08142pt.
-(./solutions/20-10/prob/chapters/fish/solution.tex)
-Package epstopdf Info: Source file: <./prob/figs/clock.eps>
-(epstopdf)                    date: 2020-08-15 07:10:01
-(epstopdf)                    size: 110502 bytes
-(epstopdf)             Output file: <./prob/figs/clock-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-09-21 07:25:17
-(epstopdf)                    size: 10949 bytes
-(epstopdf)             Command: <repstopdf --outfile=./prob/figs/clock-eps-conv
-erted-to.pdf ./prob/figs/clock.eps>
-(epstopdf)             \includegraphics on input line 735.
-Package epstopdf Info: Output file is already uptodate.
-<./prob/figs/clock-eps-converted-to.pdf, id=1025, 84.315pt x 115.43124pt>
-File: ./prob/figs/clock-eps-converted-to.pdf Graphic file (type pdf)
-<use ./prob/figs/clock-eps-converted-to.pdf>
-Package pdftex.def Info: ./prob/figs/clock-eps-converted-to.pdf  used on input 
-line 735.
-(pdftex.def)             Requested size: 252.0pt x 345.00883pt.
-
-(./solutions/20-10/prob/chapters/chance/solution.tex [29 <./prob/figs/woman-eps
--converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./solutions/20-10/prob/chapters/dice123/solution.tex [30 <./prob/figs/clock-ep
-s-converted-to.pdf>]) (./solutions/20-10/prob/chapters/cards125/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./solutions/20-10/prob/chapters/cards126/solution.tex)
-(./solutions/20-10/prob/chapters/pens127/solution.tex
-Underfull \vbox (badness 3209) has occurred while \output is active []
-
- [31])
-(./solutions/20-10/prob/chapters/exer128/solution.tex)
+(./solutions/20-10/prob/chapters/cards126/solution.tex [27])
 (./solutions/20-10/prob/chapters/exer129/solution.tex
-Underfull \vbox (badness 4229) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./prob/figs/130.tex) (./solutions/20-10/prob/chapters/exer130/solution.tex
-Underfull \vbox (badness 1715) has occurred while \output is active []
-
- [32
+[28
 Non-PDF special ignored!
 <special> ps: 
 Non-PDF special ignored!
@@ -3537,62 +3288,11 @@ Non-PDF special ignored!
 <special> ps:: pgfc
 Non-PDF special ignored!
 <special> ps::[end]
-])
-Package epstopdf Info: Source file: <./prob/figs/rectangle.eps>
-(epstopdf)                    date: 2020-08-15 07:10:01
-(epstopdf)                    size: 187059 bytes
-(epstopdf)             Output file: <./prob/figs/rectangle-eps-converted-to.pdf
->
-(epstopdf)                    date: 2020-09-21 07:25:19
-(epstopdf)                    size: 1283483 bytes
-(epstopdf)             Command: <repstopdf --outfile=./prob/figs/rectangle-eps-
-converted-to.pdf ./prob/figs/rectangle.eps>
-(epstopdf)             \includegraphics on input line 804.
-Package epstopdf Info: Output file is already uptodate.
-<./prob/figs/rectangle-eps-converted-to.pdf, id=1142, 462.52798pt x 346.89601pt
->
-File: ./prob/figs/rectangle-eps-converted-to.pdf Graphic file (type pdf)
-<use ./prob/figs/rectangle-eps-converted-to.pdf>
-Package pdftex.def Info: ./prob/figs/rectangle-eps-converted-to.pdf  used on in
-put line 804.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
- (./solutions/10-1/prob/exer1/solution.tex)
-(./solutions/10-1/prob/exer2/solution.tex)
-(./solutions/10-1/prob/codes/tables/input.tex)
-(./solutions/10-1/prob/exer3/solution.tex
-
-LaTeX Warning: Reference `table:1.2.133.2' on page 33 undefined on input line 2
-.
-
-[33 <./prob/figs/rectangle-eps-converted-to.pdf>]
-(./solutions/10-1/prob/codes/tables/output.tex))
-(./solutions/10-1/prob/exer4/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 850--851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 852--853
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 853--854
-
- []
-
-(./solutions/10-1/prob/exer5/solution.tex
-Underfull \vbox (badness 4291) has occurred while \output is active []
-
- [34])
-(./solutions/10-1/prob/exer6/solution1.tex)
+]) (./solutions/10-1/prob/exer6/solution1.tex)
 (./solutions/10-1/prob/exer7/solution.tex
 (./solutions/10-1/prob/tables/prob7_inp.tex)
 (./solutions/10-1/prob/tables/prob7_1.tex)
-(./solutions/10-1/prob/tables/prob7_2.tex) [35]
+(./solutions/10-1/prob/tables/prob7_2.tex)
 (./solutions/10-1/prob/tables/prob7_3.tex))
 Package epstopdf Info: Source file: <./prob/figs/rows.eps>
 (epstopdf)                    date: 2020-08-15 07:10:01
@@ -3602,163 +3302,114 @@ Package epstopdf Info: Source file: <./prob/figs/rows.eps>
 (epstopdf)                    size: 22363 bytes
 (epstopdf)             Command: <repstopdf --outfile=./prob/figs/rows-eps-conve
 rted-to.pdf ./prob/figs/rows.eps>
-(epstopdf)             \includegraphics on input line 881.
+(epstopdf)             \includegraphics on input line 473.
 Package epstopdf Info: Output file is already uptodate.
-<./prob/figs/rows-eps-converted-to.pdf, id=1244, 315.1775pt x 173.64874pt>
+<./prob/figs/rows-eps-converted-to.pdf, id=998, 315.1775pt x 173.64874pt>
 File: ./prob/figs/rows-eps-converted-to.pdf Graphic file (type pdf)
 <use ./prob/figs/rows-eps-converted-to.pdf>
 Package pdftex.def Info: ./prob/figs/rows-eps-converted-to.pdf  used on input l
-ine 881.
+ine 473.
 (pdftex.def)             Requested size: 252.0pt x 138.84233pt.
 
 (./solutions/10-1/prob/exer8/solution.tex
-Underfull \hbox (badness 2229) in paragraph at lines 879--6
+Underfull \hbox (badness 2229) in paragraph at lines 471--6
 []\OT1/txr/m/n/12 A die is num-bered in such a way that
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 879--6
+Underfull \hbox (badness 2005) in paragraph at lines 471--6
 \OT1/txr/m/n/12 6. It is thrown two times and the to-tal
  []
 
 
-Underfull \hbox (badness 3000) in paragraph at lines 879--6
+Underfull \hbox (badness 3000) in paragraph at lines 471--6
 \OT1/txr/m/n/12 score in two throws is noted. Com-plete
  []
 
 
-Underfull \hbox (badness 5563) in paragraph at lines 879--6
+Underfull \hbox (badness 5563) in paragraph at lines 471--6
 \OT1/txr/m/n/12 the fol-low-ing ta-ble which gives a few
  []
 
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 879--6
+Overfull \hbox (24.0pt too wide) in paragraph at lines 471--6
 [] 
  []
 
-(./solutions/10-1/prob/codes/tables/prob8_probout.tex
+[29] (./solutions/10-1/prob/codes/tables/prob8_probout.tex
 \gnumericColF=\skip89
 \gnumericColG=\skip90
+)
+Underfull \vbox (badness 2512) has occurred while \output is active []
+
 ))
-(./solutions/10-1/prob/exer9/solution.tex)
-(./solutions/10-1/prob/exer10/solution.tex [36 <./prob/figs/rows-eps-converted-
-to.pdf>])) (./stats/stats_exam.tex (./solutions/1-10/table/statexm/statexm1.tex
-) (./solutions/1-10/chapters/statexm/prob1/solution1.tex)
-(./solutions/1-10/table/statexm/statexm2.tex)
-(./solutions/1-10/chapters/statexm/prob2/solution2.tex)
-(./solutions/1-10/table/statexm/statexm3.tex)
-(./solutions/1-10/chapters/statexm/prob3/solution3.tex)
-(./solutions/1-10/chapters/statexm/prob4/solution4.tex [37])
-(./solutions/1-10/chapters/statexm/prob5/solution5.tex
-Underfull \hbox (badness 10000) in paragraph at lines 59--3
-
- []
-
-) (./solutions/1-10/table/statexm/statexn6.tex)
-(./solutions/1-10/chapters/statexm/prob6/solution6.tex
-(./solutions/1-10/table/statexm/statexn62.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 80--10
-
- []
-
-) (./stats/tables/2.1.7.tex)
-(./solutions/1-10/chapters/statexm/prob7/solution7.tex
-(./solutions/1-10/table/statexm/statexn72.tex) [38]
-Underfull \hbox (badness 10000) in paragraph at lines 10--24
-\OT1/txr/m/n/12 nearest class to the mid-dle co-mu-la-tive
- []
-
-) (./solutions/1-10/table/statexm/statexn8.tex)
-(./solutions/1-10/chapters/statexm/prob8/solution8.tex
-(./solutions/1-10/table/statexm/statexn82.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 16--20
+(./prob/axioms.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--14
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (140.9895pt too high) has occurred while \output is active []
-
-
-[39]) (./stats/tables/2.1.9.tex)
-(./solutions/1-10/chapters/statexm/prob9/solution9.tex
-(./solutions/1-10/table/statexm/statexn92.tex)
-Package epstopdf Info: Source file: <./solutions/1-10/figures/statexm/statexm9.
-eps>
-(epstopdf)                    date: 2020-08-15 07:10:01
-(epstopdf)                    size: 31364 bytes
-(epstopdf)             Output file: <./solutions/1-10/figures/statexm/statexm9-
-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-15 07:10:01
-(epstopdf)                    size: 11912 bytes
-(epstopdf)             Command: <repstopdf --outfile=./solutions/1-10/figures/s
-tatexm/statexm9-eps-converted-to.pdf ./solutions/1-10/figures/statexm/statexm9.
-eps>
-(epstopdf)             \includegraphics on input line 15.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./solutions/1-10/figures/statexm/statexm9-eps-co
-nverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
-.5> allowed
-<./solutions/1-10/figures/statexm/statexm9-eps-converted-to.pdf, id=1362, 462.7
-2874pt x 346.29375pt>
-File: ./solutions/1-10/figures/statexm/statexm9-eps-converted-to.pdf Graphic fi
-le (type pdf)
-<use ./solutions/1-10/figures/statexm/statexm9-eps-converted-to.pdf>
-Package pdftex.def Info: ./solutions/1-10/figures/statexm/statexm9-eps-converte
-d-to.pdf  used on input line 15.
-(pdftex.def)             Requested size: 252.0pt x 188.5916pt.
-)) (./stats/statexam_pr.tex
-Underfull \hbox (badness 1527) in paragraph at lines 4--5
-[]\OT1/txr/m/n/12 Consider the marks ob-tained (out of 100
- []
-
-
-Overfull \hbox (12.00015pt too wide) in paragraph at lines 9--18
-[][] 
- []
-
-
-Overfull \hbox (12.00015pt too wide) in paragraph at lines 21--33
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--33
+Underfull \hbox (badness 10000) in paragraph at lines 21--26
 
  []
 
-[40 <./solutions/1-10/figures/statexm/statexm9-eps-converted-to.pdf>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
+
+ []
+
+
+Underfull \hbox (badness 5607) in paragraph at lines 30--37
+[]\OT1/txr/m/n/12 An elec-tronic as-sem-bly con-sists of two
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--37
+
+ []
+
+[30 <./prob/figs/rows-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 37--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--58
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
-Missing character: There is no , in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
-
- []
-
-
-Overfull \hbox (19.74014pt too wide) in paragraph at lines 87--102
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--102
+Underfull \hbox (badness 10000) in paragraph at lines 63--68
 
  []
 
@@ -3766,1910 +3417,119 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--102
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 1867) in paragraph at lines 68--70
+\OT1/txr/m/n/12 in green is tossed. Let A be the event,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--122
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--142
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
+(./solutions/20-30/chapters/prob/examples/docq21.tex)
+(./solutions/20-30/chapters/prob/examples/docq23.tex)
+(./solutions/20-30/chapters/prob/examples/docq24.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31])
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--160
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--105
+
+ []
+
+(./solutions/20-30/chapters/prob/exercises/docq22.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41
-Non-PDF special ignored!
-<special> ps: 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfo
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: 0 setgray 
-Non-PDF special ignored!
-<special> ps:: 0.3985 pgfw 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 0.0 0.0 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 -43.0148 -32.08818 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfo
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: 0 setgray 
-Non-PDF special ignored!
-<special> ps:: 0.3985 pgfw 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: 0.19925 pgfw 
-Non-PDF special ignored!
-<special> ps:: 0.0 -4.2518 moveto 
-Non-PDF special ignored!
-<special> ps:: 0.0 0.0 lineto 
-Non-PDF special ignored!
-<special> ps:: 13.78333 -4.2518 moveto 
-Non-PDF special ignored!
-<special> ps:: 13.78333 0.0 lineto 
-Non-PDF special ignored!
-<special> ps:: 27.56665 -4.2518 moveto 
-Non-PDF special ignored!
-<special> ps:: 27.56665 0.0 lineto 
-Non-PDF special ignored!
-<special> ps:: 41.34998 -4.2518 moveto 
-Non-PDF special ignored!
-<special> ps:: 41.34998 0.0 lineto 
-Non-PDF special ignored!
-<special> ps:: 55.13332 -4.2518 moveto 
-Non-PDF special ignored!
-<special> ps:: 55.13332 0.0 lineto 
-Non-PDF special ignored!
-<special> ps:: 68.91664 -4.2518 moveto 
-Non-PDF special ignored!
-<special> ps:: 68.91664 0.0 lineto 
-Non-PDF special ignored!
-<special> ps:: 82.69997 -4.2518 moveto 
-Non-PDF special ignored!
-<special> ps:: 82.69997 0.0 lineto 
-Non-PDF special ignored!
-<special> ps:: 96.4833 -4.2518 moveto 
-Non-PDF special ignored!
-<special> ps:: 96.4833 0.0 lineto 
-Non-PDF special ignored!
-<special> ps:: 110.26663 -4.2518 moveto 
-Non-PDF special ignored!
-<special> ps:: 110.26663 0.0 lineto 
-Non-PDF special ignored!
-<special> ps:: 124.04996 -4.2518 moveto 
-Non-PDF special ignored!
-<special> ps:: 124.04996 0.0 lineto 
-Non-PDF special ignored!
-<special> ps:: 137.83328 -4.2518 moveto 
-Non-PDF special ignored!
-<special> ps:: 137.83328 0.0 lineto 
-Non-PDF special ignored!
-<special> ps:: 151.61662 -4.2518 moveto 
-Non-PDF special ignored!
-<special> ps:: 151.61662 0.0 lineto 
-Non-PDF special ignored!
-<special> ps:: 0.0 129.50159 moveto 
-Non-PDF special ignored!
-<special> ps:: 0.0 125.24977 lineto 
-Non-PDF special ignored!
-<special> ps:: 13.78333 129.50159 moveto 
-Non-PDF special ignored!
-<special> ps:: 13.78333 125.24977 lineto 
-Non-PDF special ignored!
-<special> ps:: 27.56665 129.50159 moveto 
-Non-PDF special ignored!
-<special> ps:: 27.56665 125.24977 lineto 
-Non-PDF special ignored!
-<special> ps:: 41.34998 129.50159 moveto 
-Non-PDF special ignored!
-<special> ps:: 41.34998 125.24977 lineto 
-Non-PDF special ignored!
-<special> ps:: 55.13332 129.50159 moveto 
-Non-PDF special ignored!
-<special> ps:: 55.13332 125.24977 lineto 
-Non-PDF special ignored!
-<special> ps:: 68.91664 129.50159 moveto 
-Non-PDF special ignored!
-<special> ps:: 68.91664 125.24977 lineto 
-Non-PDF special ignored!
-<special> ps:: 82.69997 129.50159 moveto 
-Non-PDF special ignored!
-<special> ps:: 82.69997 125.24977 lineto 
-Non-PDF special ignored!
-<special> ps:: 96.4833 129.50159 moveto 
-Non-PDF special ignored!
-<special> ps:: 96.4833 125.24977 lineto 
-Non-PDF special ignored!
-<special> ps:: 110.26663 129.50159 moveto 
-Non-PDF special ignored!
-<special> ps:: 110.26663 125.24977 lineto 
-Non-PDF special ignored!
-<special> ps:: 124.04996 129.50159 moveto 
-Non-PDF special ignored!
-<special> ps:: 124.04996 125.24977 lineto 
-Non-PDF special ignored!
-<special> ps:: 137.83328 129.50159 moveto 
-Non-PDF special ignored!
-<special> ps:: 137.83328 125.24977 lineto 
-Non-PDF special ignored!
-<special> ps:: 151.61662 129.50159 moveto 
-Non-PDF special ignored!
-<special> ps:: 151.61662 125.24977 lineto 
-Non-PDF special ignored!
-<special> ps:: pgfstr 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: 0.19925 pgfw 
-Non-PDF special ignored!
-<special> ps:: -15.16257 0.0 moveto 
-Non-PDF special ignored!
-<special> ps:: -10.90987 0.0 lineto 
-Non-PDF special ignored!
-<special> ps:: -15.16257 32.53223 moveto 
-Non-PDF special ignored!
-<special> ps:: -10.90987 32.53223 lineto 
-Non-PDF special ignored!
-<special> ps:: -15.16257 65.06445 moveto 
-Non-PDF special ignored!
-<special> ps:: -10.90987 65.06445 lineto 
-Non-PDF special ignored!
-<special> ps:: -15.16257 97.5967 moveto 
-Non-PDF special ignored!
-<special> ps:: -10.90987 97.5967 lineto 
-Non-PDF special ignored!
-<special> ps:: 166.77919 0.0 moveto 
-Non-PDF special ignored!
-<special> ps:: 162.52649 0.0 lineto 
-Non-PDF special ignored!
-<special> ps:: 166.77919 32.53223 moveto 
-Non-PDF special ignored!
-<special> ps:: 162.52649 32.53223 lineto 
-Non-PDF special ignored!
-<special> ps:: 166.77919 65.06445 moveto 
-Non-PDF special ignored!
-<special> ps:: 162.52649 65.06445 lineto 
-Non-PDF special ignored!
-<special> ps:: 166.77919 97.5967 moveto 
-Non-PDF special ignored!
-<special> ps:: 162.52649 97.5967 lineto 
-Non-PDF special ignored!
-<special> ps:: pgfstr 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: -15.16257 0.0 moveto 
-Non-PDF special ignored!
-<special> ps:: -15.16257 125.24977 lineto 
-Non-PDF special ignored!
-<special> ps:: 166.77919 125.24977 lineto 
-Non-PDF special ignored!
-<special> ps:: 166.77919 0.0 lineto 
-Non-PDF special ignored!
-<special> ps:: -15.16257 0.0 lineto 
-Non-PDF special ignored!
-<special> ps:: closepath 
-Non-PDF special ignored!
-<special> ps:: pgfstr 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [0.7071 0.7071 -0.7071 0.7071 -11.45656 -21.24976 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [0.7071 0.7071 -0.7071 0.7071 0.98471 -22.73126 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [0.7071 0.7071 -0.7071 0.7071 13.30768 -24.07753 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [0.7071 0.7071 -0.7071 0.7071 27.1544 -22.2642 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [0.7071 0.7071 -0.7071 0.7071 38.58762 -24.61432 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [0.7071 0.7071 -0.7071 0.7071 56.98666 -21.72318 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [0.7071 0.7071 -0.7071 0.7071 72.70377 -19.9035 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [0.7071 0.7071 -0.7071 0.7071 80.87596 -23.67596 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [0.7071 0.7071 -0.7071 0.7071 94.18588 -24.14937 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [0.7071 0.7071 -0.7071 0.7071 111.65503 -22.18813 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [0.7071 0.7071 -0.7071 0.7071 123.21506 -24.41144 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [0.7071 0.7071 -0.7071 0.7071 137.83105 -23.60413 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 -25.32416 -3.91835 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 -25.32416 28.53317 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 -25.32416 61.06541 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 -25.32416 93.59764 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: -15.16257 0.0 moveto 
-Non-PDF special ignored!
-<special> ps:: 166.77919 0.0 lineto 
-Non-PDF special ignored!
-<special> ps:: 166.77919 125.24977 lineto 
-Non-PDF special ignored!
-<special> ps:: -15.16257 125.24977 lineto 
-Non-PDF special ignored!
-<special> ps:: closepath 
-Non-PDF special ignored!
-<special> ps:: clip 
-Non-PDF special ignored!
-<special> ps:: newpath 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: /pgffc{0 setgray}def 
-Non-PDF special ignored!
-<special> ps:: 48.79834 4.98138 -2.49069 0.0 pgfe 
-Non-PDF special ignored!
-<special> ps:: 65.06445 4.98138 11.29263 0.0 pgfe 
-Non-PDF special ignored!
-<special> ps:: 32.53223 4.98138 25.07596 0.0 pgfe 
-Non-PDF special ignored!
-<special> ps:: 32.53223 4.98138 38.85928 0.0 pgfe 
-Non-PDF special ignored!
-<special> ps:: 81.33058 4.98138 52.64262 0.0 pgfe 
-Non-PDF special ignored!
-<special> ps:: 16.26611 4.98138 66.42595 0.0 pgfe 
-Non-PDF special ignored!
-<special> ps:: 32.53223 4.98138 80.20927 0.0 pgfe 
-Non-PDF special ignored!
-<special> ps:: 97.5967 4.98138 93.99261 0.0 pgfe 
-Non-PDF special ignored!
-<special> ps:: 48.79834 4.98138 107.77594 0.0 pgfe 
-Non-PDF special ignored!
-<special> ps:: 65.06445 4.98138 121.55927 0.0 pgfe 
-Non-PDF special ignored!
-<special> ps:: 65.06445 4.98138 135.34259 0.0 pgfe 
-Non-PDF special ignored!
-<special> ps:: 65.06445 4.98138 149.12593 0.0 pgfe 
-Non-PDF special ignored!
-<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
-Non-PDF special ignored!
-<special> ps:: newpath 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: /pgffc{0 setgray}def 
-Non-PDF special ignored!
-<special> ps:: /pgffc{0 setgray}def 
-Non-PDF special ignored!
-<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
-Non-PDF special ignored!
-<special> ps:: newpath 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 -2.98883 53.14366 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: /pgfsc{}def/pgffc{}def 
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
-Non-PDF special ignored!
-<special> ps:: newpath 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 10.7945 69.2484 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: /pgfsc{}def/pgffc{}def 
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
-Non-PDF special ignored!
-<special> ps:: newpath 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 24.57782 36.71616 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: /pgfsc{}def/pgffc{}def 
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
-Non-PDF special ignored!
-<special> ps:: newpath 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 38.36115 36.71616 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: /pgfsc{}def/pgffc{}def 
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
-Non-PDF special ignored!
-<special> ps:: newpath 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 52.14449 85.67589 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: /pgfsc{}def/pgffc{}def 
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
-Non-PDF special ignored!
-<special> ps:: newpath 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 65.92781 20.45004 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: /pgfsc{}def/pgffc{}def 
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
-Non-PDF special ignored!
-<special> ps:: newpath 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 79.71114 36.71616 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: /pgfsc{}def/pgffc{}def 
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
-Non-PDF special ignored!
-<special> ps:: newpath 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 93.49448 101.94202 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: /pgfsc{}def/pgffc{}def 
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
-Non-PDF special ignored!
-<special> ps:: newpath 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 107.2778 53.14366 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: /pgfsc{}def/pgffc{}def 
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
-Non-PDF special ignored!
-<special> ps:: newpath 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 121.06113 69.2484 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: /pgfsc{}def/pgffc{}def 
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
-Non-PDF special ignored!
-<special> ps:: newpath 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 134.84445 69.2484 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: /pgfsc{}def/pgffc{}def 
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
-Non-PDF special ignored!
-<special> ps:: newpath 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 148.62779 69.2484 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: /pgfsc{}def/pgffc{}def 
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: gsave pgffc pgffill grestore gsave pgfsc pgfstr grestore 
-Non-PDF special ignored!
-<special> ps:: newpath 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [1.0 0.0 0.0 1.0 37.08495 -27.28757 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: [0.0 1.0 -1.0 0.0 -46.0332 24.0689 ] concat 
-Non-PDF special ignored!
-<special> ps:: pgfs
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps: 0 setgray 
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: newpath 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: pgfc
-Non-PDF special ignored!
-<special> ps::[end]
-Non-PDF special ignored!
-<special> ps::[begin]
-Non-PDF special ignored!
-<special> ps:: pgfr
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: save 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: newpath 
-Non-PDF special ignored!
-<special> ps:: restore 
-Non-PDF special ignored!
-<special> ps:: pgfc
-Non-PDF special ignored!
-<special> ps::[end]
+ [32])
+(./solutions/20-30/chapters/prob/exercises/docq27.tex)
+(./solutions/20-30/chapters/prob/exercises/docq28.tex)
+(./solutions/20-30/chapters/prob/exercises/docq29.tex)
+(./solutions/40-50/probability/chapters/Q43/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./solutions/40-50/probability/chapters/Q46/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]))
+[34
+
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
-
- []
-
-
-Overfull \hbox (12.00015pt too wide) in paragraph at lines 165--170
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--170
-
- []
-
-(./solutions/20-30/chapters/statistics/examples/docq21.tex
-Underfull \hbox (badness 10000) in paragraph at lines 171--4
-
- []
-
-) (./solutions/20-30/chapters/statistics/examples/docq22.tex
-Underfull \hbox (badness 10000) in paragraph at lines 176--4
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./solutions/20-30/chapters/statistics/examples/docq23.tex
-(./solutions/20-30/tables/statistics/examples/stat_eg_q3.tex))
-(./solutions/20-30/chapters/statistics/examples/docq24.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [42]
-Underfull \hbox (badness 10000) in paragraph at lines 11--14
-\OT1/txr/m/n/12 We need to ar-range the salaries
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--14
-\OT1/txr/m/n/12 in as-cend-ing or-der.Thus we get
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--14
-
- []
-
-)) (./stats/stats_exer.tex
-Underfull \hbox (badness 10000) in paragraph at lines 33--42
-[]\OT1/txr/m/n/12 The fol-low-ing dis-tri-bu-tion shows the
- []
-
-
-Underfull \hbox (badness 3128) in paragraph at lines 33--42
-\OT1/txr/m/n/12 daily pocket al-lowance of chil-dren of a
- []
-
-
-Underfull \hbox (badness 6396) in paragraph at lines 33--42
-\OT1/txr/m/n/12 lo-cal-ity. The mean pocket al-lowance is
- []
-
-
-Underfull \hbox (badness 7869) in paragraph at lines 33--42
-\OT1/txr/m/n/12 Rs 18. Find the miss-ing fre-quency f.
- []
-
-
-Overfull \hbox (235.5843pt too wide) in paragraph at lines 33--42
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--42
-
- []
-
-
-Overfull \hbox (229.6684pt too wide) in paragraph at lines 42--52
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--52
-
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 52--62
-[]\OT1/txr/m/n/12 In a re-tail mar-ket, fruit ven-dors were
- []
-
-
-Underfull \hbox (badness 5217) in paragraph at lines 52--62
-\OT1/txr/m/n/12 sell-ing man-goes kept in pack-ing boxes.
- []
-
-
-Overfull \hbox (87.16022pt too wide) in paragraph at lines 52--62
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--62
-
- []
-
-
-Underfull \hbox (badness 2277) in paragraph at lines 64--72
-\OT1/txr/m/n/12 on food of 25 house-holds in a lo-cal-ity.
- []
-
-
-Overfull \hbox (186.96422pt too wide) in paragraph at lines 64--72
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--72
-
- []
-
-
-Underfull \hbox (badness 2556) in paragraph at lines 73--82
-[]\OT1/txr/m/n/12 To find out the con-cen-tra-tion of $\OML/txmi/m/it/12 so[]$ 
-\OT1/txr/m/n/12 in
- []
-
-
-Underfull \hbox (badness 2253) in paragraph at lines 73--82
-\OT1/txr/m/n/12 the air (in parts per mil-lion, i.e., ppm),
- []
-
-
-Underfull \hbox (badness 4001) in paragraph at lines 73--82
-\OT1/txr/m/n/12 the data was col-lected for 30 lo-cal-i-ties
- []
-
-
-Overfull \hbox (289.68835pt too wide) in paragraph at lines 73--82
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--82
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--92
-[]\OT1/txr/m/n/12 A class teacher has the fol-low-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--92
-\OT1/txr/m/n/12 ab-sen-tee record of 40 stu-dents of a
- []
-
-
-Underfull \hbox (badness 5847) in paragraph at lines 83--92
-\OT1/txr/m/n/12 num-ber of days a stu-dent was ab-sent.
- []
-
-
-Overfull \hbox (146.62823pt too wide) in paragraph at lines 83--92
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--92
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--102
-
- []
-
-
-Underfull \hbox (badness 2351) in paragraph at lines 112--122
-[]\OT1/txr/m/n/12 The fol-low-ing data gives the in-for-ma-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--122
-\OT1/txr/m/n/12 on the ob-served life-times (in hours)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--122
-\OT1/txr/m/n/12 of 225 elec-tri-cal com-po-nents :
- []
-
-
-Overfull \hbox (149.96423pt too wide) in paragraph at lines 112--122
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--122
-\OT1/txr/m/n/12 Determine the modal life-times of the
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43]
-Underfull \hbox (badness 2799) in paragraph at lines 122--132
-[]\OT1/txr/m/n/12 The fol-low-ing data gives the dis-tri-bu-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--132
-\OT1/txr/m/n/12 of to-tal monthly house-hold ex-pen-di-ture
- []
-
-
-Underfull \hbox (badness 4366) in paragraph at lines 122--132
-\OT1/txr/m/n/12 of 200 fam-i-lies of a vil-lage. Find the
- []
-
-
-Overfull \hbox (415.67226pt too wide) in paragraph at lines 122--132
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--132
-
- []
-
-
-Underfull \hbox (badness 5563) in paragraph at lines 132--142
-\OT1/txr/m/n/12 teacher-student ra-tio in higher sec-ondary
- []
-
-
-Underfull \hbox (badness 2351) in paragraph at lines 132--142
-\OT1/txr/m/n/12 of this data. In-ter-pret the two mea-sures.
- []
-
-
-Overfull \hbox (263.39241pt too wide) in paragraph at lines 132--142
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--142
-
- []
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 142--152
-[]\OT1/txr/m/n/12 The given dis-tri-bu-tion shows the num-ber
- []
-
-
-Overfull \hbox (419.88432pt too wide) in paragraph at lines 142--152
-[] 
- []
-
-
-Overfull \hbox (179.00826pt too wide) in paragraph at lines 152--163
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--163
-
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 163--173
-[]\OT1/txr/m/n/12 The fol-low-ing fre-quency dis-tri-bu-tion gives
- []
-
-
-Overfull \hbox (290.1843pt too wide) in paragraph at lines 163--173
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--173
-
- []
-
-
-Underfull \hbox (badness 4647) in paragraph at lines 173--181
-[]\OT1/txr/m/n/12 If the me-dian of the dis-tri-bu-tion given
- []
-
-
-Overfull \hbox (124.51215pt too wide) in paragraph at lines 173--181
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
-
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 181--191
-\OT1/txr/m/n/12 years on wards but less than 60 year.
- []
-
-
-Overfull \hbox (470.75702pt too wide) in paragraph at lines 181--191
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--191
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 8019) in paragraph at lines 191--221
-[]\OT1/txr/m/n/12 The lengths of 40 leaves of a plant
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--221
-\OT1/txr/m/n/12 are mea-sured cor-rect to the near-est
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--221
-\OT1/txr/m/n/12 mil-lime-tre, and the data ob-tained is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--221
-\OT1/txr/m/n/12 rep-re-sented in the fol-low-ing ta-ble :
- []
-
-
-Overfull \hbox (293.66025pt too wide) in paragraph at lines 191--221
-[] 
- []
-
-
-Underfull \hbox (badness 1960) in paragraph at lines 191--221
-\OT1/txr/m/n/12 classes for find-ing the me-dian, since the
- []
-
-
-Underfull \hbox (badness 4467) in paragraph at lines 191--221
-\OT1/txr/m/n/12 for-mula as-sumes con-tin-u-ous classes. The
- []
-
-(./solutions/20-30/tables/statistics/exercises/stat_ex_q22_que.tex)
-Underfull \hbox (badness 3657) in paragraph at lines 243--243
-[]\OT1/txr/m/n/12 TABLE 2.2.20: |Fre-quency dis-tri-bu-tion of the
- []
-
-(./solutions/20-30/chapters/statistics/exercises/docq22.tex [44])
-(./solutions/20-30/tables/statistics/exercises/stat_ex_q23_que.tex)
-(./solutions/20-30/chapters/statistics/exercises/docq23.tex
-Package epstopdf Info: Source file: <./solutions/20-30/figs/statistics/exercise
-s/ex_q23.eps>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 22744 bytes
-(epstopdf)             Output file: <./solutions/20-30/figs/statistics/exercise
-s/ex_q23-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 12938 bytes
-(epstopdf)             Command: <repstopdf --outfile=./solutions/20-30/figs/sta
-tistics/exercises/ex_q23-eps-converted-to.pdf ./solutions/20-30/figs/statistics
-/exercises/ex_q23.eps>
-(epstopdf)             \includegraphics on input line 11.
-Package epstopdf Info: Output file is already uptodate.
-<./solutions/20-30/figs/statistics/exercises/ex_q23-eps-converted-to.pdf, id=14
-73, 462.52798pt x 346.89601pt>
-File: ./solutions/20-30/figs/statistics/exercises/ex_q23-eps-converted-to.pdf G
-raphic file (type pdf)
-<use ./solutions/20-30/figs/statistics/exercises/ex_q23-eps-converted-to.pdf>
-Package pdftex.def Info: ./solutions/20-30/figs/statistics/exercises/ex_q23-eps
--converted-to.pdf  used on input line 11.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-
-(./solutions/20-30/tables/statistics/exercises/stat_ex_q23_ans.tex))
-(./solutions/20-30/tables/statistics/exercises/stat_ex_q24_que.tex)
-Underfull \hbox (badness 3657) in paragraph at lines 286--286
-[]\OT1/txr/m/n/12 TABLE 2.2.22: |Fre-quency dis-tri-bu-tion of the
- []
-
-(./solutions/20-30/chapters/statistics/exercises/docq24.tex
-Underfull \vbox (badness 3746) has occurred while \output is active []
-
- [45 <./solutions/20-30/figs/statistics/exercises/ex_q23-eps-converted-to.pdf>]
-
-(./solutions/20-30/tables/statistics/exercises/stat_ex_q24_ans.tex)
-Underfull \hbox (badness 3657) in paragraph at lines 27--27
-[]\OT1/txr/m/n/12 TABLE 2.2.22: |Fre-quency dis-tri-bu-tion of the
- []
-
-) (./solutions/20-30/tables/statistics/exercises/stat_ex_q25_que.tex)
-(./solutions/20-30/chapters/statistics/exercises/docq25.tex
-Package epstopdf Info: Source file: <./solutions/20-30/figs/statistics/exercise
-s/ex_q25.eps>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 20020 bytes
-(epstopdf)             Output file: <./solutions/20-30/figs/statistics/exercise
-s/ex_q25-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 13147 bytes
-(epstopdf)             Command: <repstopdf --outfile=./solutions/20-30/figs/sta
-tistics/exercises/ex_q25-eps-converted-to.pdf ./solutions/20-30/figs/statistics
-/exercises/ex_q25.eps>
-(epstopdf)             \includegraphics on input line 12.
-Package epstopdf Info: Output file is already uptodate.
-<./solutions/20-30/figs/statistics/exercises/ex_q25-eps-converted-to.pdf, id=15
-24, 462.52798pt x 346.89601pt>
-File: ./solutions/20-30/figs/statistics/exercises/ex_q25-eps-converted-to.pdf G
-raphic file (type pdf)
-<use ./solutions/20-30/figs/statistics/exercises/ex_q25-eps-converted-to.pdf>
-Package pdftex.def Info: ./solutions/20-30/figs/statistics/exercises/ex_q25-eps
--converted-to.pdf  used on input line 12.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-
-(./solutions/20-30/tables/statistics/exercises/stat_ex_q25_ans.tex)))
-(./stats/statexer_pr.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-(./solutions/20-30/chapters/statistics/exercises/docq28.tex
-(./solutions/20-30/tables/statistics/exercises/stat_ex_q28_que.tex))
-(./solutions/20-30/chapters/statistics/exercises/docq29.tex
-(./solutions/20-30/tables/statistics/exercises/stat_ex_q29_que.tex) [46 <./solu
-tions/20-30/figs/statistics/exercises/ex_q25-eps-converted-to.pdf>])
-(./solutions/20-30/chapters/statistics/exercises/docq30.tex
-Underfull \hbox (badness 3942) in paragraph at lines 16--3
-\OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 See Ta-ble []2.2.28[] . Since the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--3
-
- []
-
-(./solutions/20-30/tables/statistics/exercises/stat_ex_q30_que.tex))
-Overfull \hbox (24.007pt too wide) in paragraph at lines 36--46
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--46
-
- []
-
-
-Underfull \hbox (badness 1762) in paragraph at lines 47--50
-[]\OT1/txr/m/n/12 (i) Rep-re-sent the data given above by a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--50
-
- []
-
-(./solutions/20-10/stat/tables/exer32/sulphur.tex)
-(./solutions/20-10/stat/chapters/exer32/solution.tex
-(./solutions/20-10/stat/tables/exer32/out32.tex) [47])
-(./solutions/20-10/stat/chapters/exer33/problem.tex
-(./solutions/20-10/stat/tables/exer33/heads33.tex))
-(./solutions/20-10/stat/chapters/exer33/solution.tex
-(./solutions/20-10/stat/tables/exer33/out33.tex))
-(./solutions/20-10/stat/chapters/exer34/problem.tex)
-(./solutions/20-10/stat/chapters/exer34/solution.tex
-(./solutions/20-10/stat/tables/exer34/inp34.tex
-\gnumericColH=\skip91
-\gnumericColI=\skip92
-\gnumericColJ=\skip93
-)
-(./solutions/20-10/stat/tables/exer34/out34.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1--19
-[]\OT1/txr/m/n/12 The value of $\OML/txmi/m/it/12 ^^Y$ \OT1/txr/m/n/12 upto 50 
-dec-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--19
-\OT1/txr/m/n/12 i-mal places is given be-low:
- []
-
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 1--19
-\OT1/txr/m/n/12 3.141592653589793238462643383279502884197 
- []
-
-) (./solutions/20-10/stat/chapters/exer35/problem.tex [48]
-(./solutions/20-10/stat/tables/exer35/inp35.tex))
-(./solutions/20-10/stat/chapters/exer35/solution.tex
-(./solutions/20-10/stat/tables/exer35/out35.tex))
-(./solutions/20-10/stat/chapters/exer36/problem.tex
-(./solutions/20-10/stat/tables/exer36/inp36.tex))
-(./solutions/20-10/stat/chapters/exer36/solution.tex
-(./solutions/20-10/stat/tables/exer36/out36.tex)
-Underfull \hbox (badness 1622) in paragraph at lines 9--12
- \OT1/txr/m/n/12 The grouped fre-quency dis-tri-bu-tion ta-ble
- []
-
-) (./solutions/20-10/stat/chapters/exer37/problem.tex [49]
-(./solutions/20-10/stat/tables/exer37/femalefatality.tex))
-(./solutions/20-10/stat/chapters/exer37/solution.tex
-Package epstopdf Info: Source file: <./solutions/20-10/stat/codes/pyfigs/exer37
-.eps>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 24329 bytes
-(epstopdf)             Output file: <./solutions/20-10/stat/codes/pyfigs/exer37
--eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 13999 bytes
-(epstopdf)             Command: <repstopdf --outfile=./solutions/20-10/stat/cod
-es/pyfigs/exer37-eps-converted-to.pdf ./solutions/20-10/stat/codes/pyfigs/exer3
-7.eps>
-(epstopdf)             \includegraphics on input line 4.
-Package epstopdf Info: Output file is already uptodate.
-<./solutions/20-10/stat/codes/pyfigs/exer37-eps-converted-to.pdf, id=1649, 462.
-52798pt x 346.89601pt>
-File: ./solutions/20-10/stat/codes/pyfigs/exer37-eps-converted-to.pdf Graphic f
-ile (type pdf)
-<use ./solutions/20-10/stat/codes/pyfigs/exer37-eps-converted-to.pdf>
-Package pdftex.def Info: ./solutions/20-10/stat/codes/pyfigs/exer37-eps-convert
-ed-to.pdf  used on input line 4.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-
-Underfull \hbox (badness 1430) in paragraph at lines 9--11
-[]\OT1/txr/m/n/12 (i) Rep-re-sent the in-for-ma-tion given above
- []
-
-) (./solutions/20-10/stat/chapters/exer38/problem.tex
-(./solutions/20-10/stat/tables/exer38/inp38.tex))
-(./solutions/20-10/stat/chapters/exer38/solution.tex
-Package epstopdf Info: Source file: <./solutions/20-10/stat/codes/pyfigs/exer38
-.eps>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 29217 bytes
-(epstopdf)             Output file: <./solutions/20-10/stat/codes/pyfigs/exer38
--eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 16898 bytes
-(epstopdf)             Command: <repstopdf --outfile=./solutions/20-10/stat/cod
-es/pyfigs/exer38-eps-converted-to.pdf ./solutions/20-10/stat/codes/pyfigs/exer3
-8.eps>
-(epstopdf)             \includegraphics on input line 4.
-Package epstopdf Info: Output file is already uptodate.
-<./solutions/20-10/stat/codes/pyfigs/exer38-eps-converted-to.pdf, id=1653, 462.
-52798pt x 346.89601pt>
-File: ./solutions/20-10/stat/codes/pyfigs/exer38-eps-converted-to.pdf Graphic f
-ile (type pdf)
-<use ./solutions/20-10/stat/codes/pyfigs/exer38-eps-converted-to.pdf>
-Package pdftex.def Info: ./solutions/20-10/stat/codes/pyfigs/exer38-eps-convert
-ed-to.pdf  used on input line 4.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-)
-(./solutions/20-10/stat/chapters/exer39/problem.tex
-(./solutions/20-10/stat/tables/exer39/inp39.tex))
-(./solutions/20-10/stat/chapters/exer39/solution.tex
-Package epstopdf Info: Source file: <./solutions/20-10/stat/codes/pyfigs/exer39
-.eps>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 23464 bytes
-(epstopdf)             Output file: <./solutions/20-10/stat/codes/pyfigs/exer39
--eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 15179 bytes
-(epstopdf)             Command: <repstopdf --outfile=./solutions/20-10/stat/cod
-es/pyfigs/exer39-eps-converted-to.pdf ./solutions/20-10/stat/codes/pyfigs/exer3
-9.eps>
-(epstopdf)             \includegraphics on input line 4.
-Package epstopdf Info: Output file is already uptodate.
-<./solutions/20-10/stat/codes/pyfigs/exer39-eps-converted-to.pdf, id=1655, 462.
-52798pt x 346.89601pt>
-File: ./solutions/20-10/stat/codes/pyfigs/exer39-eps-converted-to.pdf Graphic f
-ile (type pdf)
-<use ./solutions/20-10/stat/codes/pyfigs/exer39-eps-converted-to.pdf>
-Package pdftex.def Info: ./solutions/20-10/stat/codes/pyfigs/exer39-eps-convert
-ed-to.pdf  used on input line 4.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
- [50 <./solutions/20-10/stat/codes/pyfigs/exer37-eps-converted-to.pdf> <./solut
-ions/20-10/stat/codes/pyfigs/exer38-eps-converted-to.pdf>])
-(./solutions/20-10/stat/chapters/exer40/problem.tex
-(./solutions/20-10/stat/tables/exer40/inp40.tex))
-(./solutions/20-10/stat/chapters/exer40/solution.tex
-Underfull \hbox (badness 2521) in paragraph at lines 1--2
-\OT1/txr/m/n/12 (ii) Is there any other suit-able graph-i-cal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--2
-
- []
-
-(./solutions/20-10/stat/tables/exer40/cont40.tex)
-Package epstopdf Info: Source file: <./solutions/20-10/stat/codes/pyfigs/exer40
-.eps>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 20208 bytes
-(epstopdf)             Output file: <./solutions/20-10/stat/codes/pyfigs/exer40
--eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 12656 bytes
-(epstopdf)             Command: <repstopdf --outfile=./solutions/20-10/stat/cod
-es/pyfigs/exer40-eps-converted-to.pdf ./solutions/20-10/stat/codes/pyfigs/exer4
-0.eps>
-(epstopdf)             \includegraphics on input line 15.
-Package epstopdf Info: Output file is already uptodate.
-<./solutions/20-10/stat/codes/pyfigs/exer40-eps-converted-to.pdf, id=1753, 462.
-52798pt x 346.89601pt>
-File: ./solutions/20-10/stat/codes/pyfigs/exer40-eps-converted-to.pdf Graphic f
-ile (type pdf)
-<use ./solutions/20-10/stat/codes/pyfigs/exer40-eps-converted-to.pdf>
-Package pdftex.def Info: ./solutions/20-10/stat/codes/pyfigs/exer40-eps-convert
-ed-to.pdf  used on input line 15.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-)
-Underfull \hbox (badness 1365) in paragraph at lines 23--101
-\OT1/txr/m/n/12 (iii)No, the max-i-mum leaves have lengths
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--101
-
- []
-
-(./solutions/20-10/stat/chapters/exer41/problem.tex
-(./solutions/20-10/stat/tables/exer41/inp41.tex))
-(./solutions/20-10/stat/chapters/exer41/solution.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--2
-
- []
-
-[51 <./solutions/20-10/stat/codes/pyfigs/exer39-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./solutions/20-10/stat/codes/pyfigs/exer41
-.eps>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 20307 bytes
-(epstopdf)             Output file: <./solutions/20-10/stat/codes/pyfigs/exer41
--eps-converted-to.pdf>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 12826 bytes
-(epstopdf)             Command: <repstopdf --outfile=./solutions/20-10/stat/cod
-es/pyfigs/exer41-eps-converted-to.pdf ./solutions/20-10/stat/codes/pyfigs/exer4
-1.eps>
-(epstopdf)             \includegraphics on input line 8.
-Package epstopdf Info: Output file is already uptodate.
-<./solutions/20-10/stat/codes/pyfigs/exer41-eps-converted-to.pdf, id=1813, 462.
-52798pt x 346.89601pt>
-File: ./solutions/20-10/stat/codes/pyfigs/exer41-eps-converted-to.pdf Graphic f
-ile (type pdf)
-<use ./solutions/20-10/stat/codes/pyfigs/exer41-eps-converted-to.pdf>
-Package pdftex.def Info: ./solutions/20-10/stat/codes/pyfigs/exer41-eps-convert
-ed-to.pdf  used on input line 8.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-)
-(./solutions/40-50/statistics/chapters/Q42/problem.tex
-(./solutions/40-50/statistics/tables/Q42/prob.tex))
-(./solutions/40-50/statistics/chapters/Q42/solution.tex
-Package epstopdf Info: Source file: <./solutions/40-50/statistics/figs/Q42.eps>
-
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 1872702 bytes
-(epstopdf)             Output file: <./solutions/40-50/statistics/figs/Q42-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 73879 bytes
-(epstopdf)             Command: <repstopdf --outfile=./solutions/40-50/statisti
-cs/figs/Q42-eps-converted-to.pdf ./solutions/40-50/statistics/figs/Q42.eps>
-(epstopdf)             \includegraphics on input line 4.
-Package epstopdf Info: Output file is already uptodate.
-<./solutions/40-50/statistics/figs/Q42-eps-converted-to.pdf, id=1815, 252.945pt
- x 189.70876pt>
-File: ./solutions/40-50/statistics/figs/Q42-eps-converted-to.pdf Graphic file (
-type pdf)
-<use ./solutions/40-50/statistics/figs/Q42-eps-converted-to.pdf>
-Package pdftex.def Info: ./solutions/40-50/statistics/figs/Q42-eps-converted-to
-.pdf  used on input line 4.
-(pdftex.def)             Requested size: 252.0pt x 189.00485pt.
- [52 <./solutions/20-10/stat/codes/pyfigs/exer40-eps-converted-to.pdf> <./solut
-ions/20-10/stat/codes/pyfigs/exer41-eps-converted-to.pdf> <./solutions/40-50/st
-atistics/figs/Q42-eps-converted-to.pdf>]) (./solutions/40-50/statistics/chapter
-s/Q43/problem.tex
-(./solutions/40-50/statistics/tables/Q43/prob.tex))
-(./solutions/40-50/statistics/chapters/Q43/solution.tex
-(./solutions/40-50/statistics/tables/Q43/sol.tex)
-Package epstopdf Info: Source file: <./solutions/40-50/statistics/figs/Q43.eps>
-
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 1872702 bytes
-(epstopdf)             Output file: <./solutions/40-50/statistics/figs/Q43-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 78701 bytes
-(epstopdf)             Command: <repstopdf --outfile=./solutions/40-50/statisti
-cs/figs/Q43-eps-converted-to.pdf ./solutions/40-50/statistics/figs/Q43.eps>
-(epstopdf)             \includegraphics on input line 11.
-Package epstopdf Info: Output file is already uptodate.
-<./solutions/40-50/statistics/figs/Q43-eps-converted-to.pdf, id=1895, 252.945pt
- x 189.70876pt>
-File: ./solutions/40-50/statistics/figs/Q43-eps-converted-to.pdf Graphic file (
-type pdf)
-<use ./solutions/40-50/statistics/figs/Q43-eps-converted-to.pdf>
-Package pdftex.def Info: ./solutions/40-50/statistics/figs/Q43-eps-converted-to
-.pdf  used on input line 11.
-(pdftex.def)             Requested size: 252.0pt x 189.00485pt.
-)
-(./solutions/40-50/statistics/chapters/Q44/problem.tex
-(./solutions/40-50/statistics/tables/Q44/prob.tex))
-(./solutions/40-50/statistics/chapters/Q44/solution.tex
-Package epstopdf Info: Source file: <./solutions/40-50/statistics/figs/Q44.eps>
-
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 1872702 bytes
-(epstopdf)             Output file: <./solutions/40-50/statistics/figs/Q44-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 21324 bytes
-(epstopdf)             Command: <repstopdf --outfile=./solutions/40-50/statisti
-cs/figs/Q44-eps-converted-to.pdf ./solutions/40-50/statistics/figs/Q44.eps>
-(epstopdf)             \includegraphics on input line 4.
-Package epstopdf Info: Output file is already uptodate.
-<./solutions/40-50/statistics/figs/Q44-eps-converted-to.pdf, id=1897, 252.945pt
- x 189.70876pt>
-File: ./solutions/40-50/statistics/figs/Q44-eps-converted-to.pdf Graphic file (
-type pdf)
-<use ./solutions/40-50/statistics/figs/Q44-eps-converted-to.pdf>
-Package pdftex.def Info: ./solutions/40-50/statistics/figs/Q44-eps-converted-to
-.pdf  used on input line 4.
-(pdftex.def)             Requested size: 252.0pt x 189.00485pt.
-)
-(./solutions/40-50/statistics/chapters/Q45/problem.tex
-(./solutions/40-50/statistics/tables/Q45/prob.tex))
-(./solutions/40-50/statistics/chapters/Q45/solution.tex [53 <./solutions/40-50/
-statistics/figs/Q43-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./solutions/40-50/statistics/figs/Q45.eps>
-
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 1872702 bytes
-(epstopdf)             Output file: <./solutions/40-50/statistics/figs/Q45-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2020-08-15 07:10:02
-(epstopdf)                    size: 24925 bytes
-(epstopdf)             Command: <repstopdf --outfile=./solutions/40-50/statisti
-cs/figs/Q45-eps-converted-to.pdf ./solutions/40-50/statistics/figs/Q45.eps>
-(epstopdf)             \includegraphics on input line 5.
-Package epstopdf Info: Output file is already uptodate.
-<./solutions/40-50/statistics/figs/Q45-eps-converted-to.pdf, id=1923, 252.945pt
- x 189.70876pt>
-File: ./solutions/40-50/statistics/figs/Q45-eps-converted-to.pdf Graphic file (
-type pdf)
-<use ./solutions/40-50/statistics/figs/Q45-eps-converted-to.pdf>
-Package pdftex.def Info: ./solutions/40-50/statistics/figs/Q45-eps-converted-to
-.pdf  used on input line 5.
-(pdftex.def)             Requested size: 252.0pt x 189.00485pt.
-)
-(./solutions/40-50/statistics/chapters/Q46/problem.tex)
-(./solutions/40-50/statistics/chapters/Q46/solution.tex)
-(./solutions/40-50/statistics/chapters/Q47/problem.tex)
-(./solutions/40-50/statistics/chapters/Q47/solution.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--4
-\OT1/txr/m/n/12 Find the mean, me-dian and mode of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--4
-\OT1/txr/m/n/12 this data.  \OT1/txr/bx/n/12 So-lu-tion: \OT1/txr/m/n/12 First 
-we will
- []
-
-
-Underfull \hbox (badness 4686) in paragraph at lines 1--4
-\OT1/txr/m/n/12 sort the given data in as-cend-ing or-der.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--4
-\OT1/txr/m/n/12 39,40,40,41,42,46,48,52,52,52,54,60,62,96,98
- []
-
-[54 <./solutions/40-50/statistics/figs/Q44-eps-converted-to.pdf> <./solutions/4
-0-50/statistics/figs/Q45-eps-converted-to.pdf>])
-(./solutions/40-50/statistics/chapters/Q48/problem.tex)
-(./solutions/40-50/statistics/chapters/Q48/solution.tex)
-(./solutions/40-50/statistics/chapters/Q49/problem.tex)
-(./solutions/40-50/statistics/chapters/Q49/solution.tex)
-(./solutions/40-50/statistics/chapters/Q50/problem.tex
-(./solutions/40-50/statistics/tables/Q50/prob.tex))
-(./solutions/40-50/statistics/chapters/Q50/solution.tex
-(./solutions/40-50/statistics/tables/Q50/sol.tex))
-(./solutions/40-50/statistics/chapters/Q51/problem.tex)
-(./solutions/40-50/statistics/chapters/Q51/solution.tex)) [55]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
-
-(./gvv_ncert_prob.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 313.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 313.
+ (./gvv_ncert_prob.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 313.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 313.
 Package rerunfilecheck Info: File `gvv_ncert_prob.out' has not changed.
-(rerunfilecheck)             Checksum: 3372367821B30397DEF69247E0A35D01;321.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 321.
+(rerunfilecheck)             Checksum: F08D99DFDBA059C1C9D10F4BFE396052;332.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 313.
  ) 
 Here is how much of TeX's memory you used:
- 51873 strings out of 480608
- 1302905 string characters out of 5892806
- 1794994 words of memory out of 5000000
- 64990 multiletter control sequences out of 15000+600000
+ 50466 strings out of 480608
+ 1259317 string characters out of 5892806
+ 1748454 words of memory out of 5000000
+ 64281 multiletter control sequences out of 15000+600000
  641071 words of font info for 279 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,14n,98p,733b,2374s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,98p,733b,1406s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
 e/8r.enc}</data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/
 public/txfonts/rtcxr.pfb></data/data/com.termux/files/usr/share/texlive/texmf-d
-ist/fonts/type1/public/txfonts/rtxb.pfb></data/data/com.termux/files/usr/share/
-texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></data/data/com.termux/
-files/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></data/d
-ata/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rt
-xsc.pfb></data/data/com.termux/files/home/texmf/fonts/type1/tfrupee/tfrupee.pfb
+ist/fonts/type1/public/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/share
+/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></data/data/com.termux/
+files/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></data/
+data/com.termux/files/home/texmf/fonts/type1/tfrupee/tfrupee.pfb></data/data/co
+m.termux/files/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb
 ></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/public/t
-xfonts/txex.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts
-/type1/public/txfonts/txsy.pfb></data/data/com.termux/files/usr/share/texlive/t
-exmf-dist/fonts/type1/public/txfonts/txsya.pfb></data/data/com.termux/files/usr
-/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></data/data/com.
-termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></da
-ta/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
-bi8a.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/
-urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/
-fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_prob.pdf (55 pages, 2620619 bytes).
+xfonts/txsy.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts
+/type1/public/txfonts/txsya.pfb></data/data/com.termux/files/usr/share/texlive/
+texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></data/data/com.termux/files/us
+r/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/com.ter
+mux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></data
+/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8
+a.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on gvv_ncert_prob.pdf (34 pages, 952991 bytes).
 PDF statistics:
- 2274 PDF objects out of 2487 (max. 8388607)
- 1818 compressed objects within 19 object streams
- 1213 named destinations out of 1440 (max. 500000)
- 164 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1389 PDF objects out of 1440 (max. 8388607)
+ 1233 compressed objects within 13 object streams
+ 856 named destinations out of 1000 (max. 500000)
+ 94 words of extra memory for PDF output out of 10000 (max. 10000000)
 

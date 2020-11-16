@@ -1,0 +1,51 @@
+\subsection{Problem}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Suppose that the reliability of a HIV test is specified as follows: Of people having HIV, 90\% of the test detect the disease but 10\% go undetected. Of people free of HIV, 99\% of the test are judged HIV –ve but 1\% are diagnosed as showing HIV +ve. From a large population of which only 0.1\% have HIV, one person is selected at random, given the HIV test, and the pathologist reports him/her
+as HIV +ve. What is the probability that the person actually has HIV?
+\\
+	\solution Let E and G denote the events that 'the selected person has HIV' and the 'test judges HIV +ve'. We need to find the probability that the person selected has HIV, if the test judges HIV +ve.i.e $P\brak{\frac{E}{G}}$.
+	
+\begin{align}
+P\brak{E} = 0.001\\
+P\brak{E'} = 1 -P\brak{E}\\
+P\brak{E'} = 0.999
+\end{align}
+
+\begin{align}
+P\brak{\frac{G}{E}} &= P\brak{\text{Test judges +ve if person has HIV}}\\
+P\brak{\frac{G}{E}} &= 0.9
+\end{align}
+
+
+\begin{align}
+P\brak{\frac{G}{E'}} &= P\brak{\text{Test judges +ve if person doesn't have HIV}}\\
+P\brak{\frac{G}{E'}} &= 0.01
+\end{align}
+
+	\begin{align}
+P\brak{\frac{E}{G}} &= \frac{P\brak{E}.P\brak{\frac{G}{E}}}{P\brak{E}.P\brak{\frac{G}{E}} + P\brak{E'}.P\brak{\frac{G}{E'}}}\\
+P\brak{\frac{E}{G}} &= \frac{(0.001)(0.9)}{(0.001)(0.9) + (0.999)(0.01)}\\
+	\end{align}
+	which is calculated to be 0.083
+\begin{comment}	
+	\begin{lstlisting}
+	./codes/lines/q8.py
+	\end{lstlisting}
+	which is found as ${\myvec{0.25\\-0.43}}$ 
+	Representing using matrices we get,\\
+	\begin{align}
+		\frac{-16}{\myvec{1\\\sqrt{3}}} &= \frac{-16}{\myvec{1&-\sqrt{3}\\\sqrt{3}&1}}
+	\end{align}
+Multiplying and dividing by the multiplicative inverse,\\
+	\begin{align}
+		\frac{-16}{\myvec{1\\\sqrt{3}}} &= \frac{-16\myvec{0.25&0.43\\ -0.43&0.25}}{\myvec{1&-\sqrt{3}\\ \sqrt{3}&1}\myvec{0.25&0.43\\-0.43&0.25}}
+	\end{align}
+	\begin{align}
+		\frac{-16}{\myvec{1\\\sqrt{3}}} &= \frac{-16\myvec{0.25&0.43\\-0.43&0.25}}{\myvec{1&0\\ 0&1}}\\
+		\frac{-16}{\myvec{1\\\sqrt{3}}} &= \myvec{-4&-6.88\\6.88&-4}\\
+		\frac{-16}{\myvec{1\\\sqrt{3}}} &= \myvec{-4\\4\sqrt{3}}
+	\end{align}
+\end{comment}	
+\end{enumerate}

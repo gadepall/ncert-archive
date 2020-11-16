@@ -1,0 +1,29 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Probability of picking a black ball = $P(B) = \frac{10}{18}$ 
+\item Probability of picking a red ball = $P(R) = \frac{8}{18}$
+\item Two balls are drawn with replacement. So each event is independent of each other. 
+\item Probability that both balls are red 
+\begin{align}
+&= P(R)P(R) \\
+&= \frac{8}{18}\times\frac{8}{18}\\
+&= 0.1975
+\end{align}
+\item Probability that first ball is black and second is red=
+\begin{align}
+&= P(B)P(R)\\
+&= \frac{10}{18}\times\frac{8}{18}\\
+&= 0.2469
+\end{align}
+\item Probability that one ball is black and other is red =
+\begin{align}
+&= P(B)P(R) + P(R)P(B)\\
+&= \frac{10}{18}\times\frac{8}{18} + \frac{8}{18}\times\frac{10}{18}\\
+&= 0.4938
+\end{align}
+\item The python code for finding probability using a sample size of 10000 can be downloaded from
+\begin{lstlisting}
+probability/codes/Q41.py
+\end{lstlisting}
+\end{enumerate}

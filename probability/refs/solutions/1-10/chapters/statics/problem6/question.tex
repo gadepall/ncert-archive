@@ -1,0 +1,19 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+	\numberwithin{equation}{enumi}
+	\item The table below shows the daily expenditure on food of 25 households in a locality.
+	\begin{table}[!ht]
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			\vtop{\hbox{\strut Daily}\hbox{\strut expenditure}}&100-150&150-200&200-250 \\
+			\hline
+			\vtop{\hbox{\strut No of }\hbox{\strut households}}&4&5&12\\
+			\hline
+			\vtop{\hbox{\strut Daily}\hbox{\strut expenditure}}&250-300&300-350 &\\
+			\hline
+			\vtop{\hbox{\strut No of }\hbox{\strut households}}&2&2&\\
+			\hline
+		\end{tabular}\\
+	\end{table}
+	Find the mean daily expenditure on food by a suitable method.
+\end{enumerate}

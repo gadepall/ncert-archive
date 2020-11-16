@@ -1,0 +1,20 @@
+Let $X \in {1,2}$ represent the Bag  and $Y \in \cbrak{0,1}$ represent the colour, where 1 denotes red.  From the given information,
+\begin{align}
+\pr{X=1}&=\pr{X=2} = \frac{1}{2}
+\\
+\pr{Y = 1|X=1} &= \frac{3}{7}
+\\
+\pr{Y = 1|X=2} &= \frac{5}{11}
+\end{align}
+Thus,
+{\tiny
+\begin{align}
+\pr{X=2|Y=1} &= \frac{\pr{X=2,Y=1}}{\pr{Y=1}}
+\\
+&=\frac{\pr{Y=1|X=2}\pr{X=2}}{\pr{Y=1|X=1}\pr{X=1}+\pr{Y=1|X=2}\pr{X=2}}
+\\
+&=\frac{\frac{5}{11}\times \frac{1}{2}}{\frac{3}{7}\times \frac{1}{2}+\frac{5}{11}\times \frac{1}{2}}
+\\
+&=\frac{35}{68}
+\end{align}
+}

@@ -1,0 +1,15 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Prepare a frequency distribution table, regarding the concentration of sulphur dioxide in the air in parts per million of a certain city for 30 days.\\
+
+\begin{tabular}{ cccccc} 
+	
+	0.03 &0.08 &0.08 &0.09 &0.04 &0.17 \\
+	0.16 &0.05 &0.02 &0.06 &0.18 &0.20 \\
+	0.11 &0.08 &0.12 &0.13 &0.22 &0.07  \\
+	0.08 &0.01 &0.10 &0.06 &0.09 &0.18 \\ 
+	0.11 &0.07 &0.05 &0.07 &0.01 &10.04 \\ 
+\end{tabular}\\
+Using this table, find the probability of the concentration of sulphur dioxide in the interval 0.12 - 0.16 on any of these days.
+\end{enumerate}

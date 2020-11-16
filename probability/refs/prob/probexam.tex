@@ -1,0 +1,394 @@
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{setspace}
+\usepackage{gensymb}
+\usepackage{caption}
+%\usepackage{multirow}
+%\usepackage{multicolumn}
+%\usepackage{subcaption}
+%\doublespacing
+\singlespacing
+\usepackage{csvsimple}
+\usepackage{amsmath}
+\usepackage{multicol}
+%\usepackage{enumerate}
+\usepackage{amssymb}
+%\usepackage{graphicx}
+\usepackage{newfloat}
+%\usepackage{syntax}
+\usepackage{listings}
+%\usepackage{iithtlc}
+\usepackage{color}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+
+\usepackage{array}
+
+%\usepackage{graphicx}
+%\usepackage{amssymb}
+%\usepackage{relsize}
+%\usepackage[cmex10]{amsmath}
+%\usepackage{mathtools}
+%\usepackage{amsthm}
+%\interdisplaylinepenalty=2500
+%\savesymbol{iint}
+%\usepackage{txfonts}
+%\restoresymbol{TXF}{iint}
+%\usepackage{wasysym}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\usepackage{txfonts}
+\usepackage{stfloats}
+\usepackage{cite}
+\usepackage{cases}
+\usepackage{mathtools}
+\usepackage{caption}
+\usepackage{enumerate}	
+\usepackage{enumitem}
+\usepackage{amsmath}
+%\usepackage{xtab}
+\usepackage{longtable}
+\usepackage{multirow}
+%\usepackage{algorithm}
+%\usepackage{algpseudocode}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{hyperref}
+%\usepackage[framemethod=tikz]{mdframed}
+\usepackage{listings}
+    %\usepackage[latin1]{inputenc}                                 %%
+    \usepackage{color}                                            %%
+    \usepackage{array}                                            %%
+    \usepackage{longtable}                                        %%
+    \usepackage{calc}                                             %%
+    \usepackage{multirow}                                         %%
+    \usepackage{hhline}                                           %%
+    \usepackage{ifthen}                                           %%
+  %optionally (for landscape tables embedded in another document): %%
+    \usepackage{lscape}     
+
+\usepackage{gensymb}
+\usepackage{tfrupee}
+\usepackage{url}
+\def\UrlBreaks{\do\/\do-}
+
+
+%\usepackage{stmaryrd}
+\usepackage{multirow}
+
+
+%\usepackage{wasysym}
+%\newcounter{MYtempeqncnt}
+\DeclareMathOperator*{\Res}{Res}
+%\renewcommand{\baselinestretch}{2}
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+\renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}
+
+\renewcommand\thesectiondis{\arabic{section}}
+\renewcommand\thesubsectiondis{\thesectiondis.\arabic{subsection}}
+\renewcommand\thesubsubsectiondis{\thesubsectiondis.\arabic{subsubsection}}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+%\lstset{
+%language=C,
+%frame=single, 
+%breaklines=true
+%}
+
+%\lstset{
+	%%basicstyle=\small\ttfamily\bfseries,
+	%%numberstyle=\small\ttfamily,
+	%language=Octave,
+	%backgroundcolor=\color{white},
+	%%frame=single,
+	%%keywordstyle=\bfseries,
+	%%breaklines=true,
+	%%showstringspaces=false,
+	%%xleftmargin=-10mm,
+	%%aboveskip=-1mm,
+	%%belowskip=0mm
+%}
+
+%\surroundwithmdframed[width=\columnwidth]{lstlisting}
+\def\inputGnumericTable{}                                 %%
+\lstset{
+%language=C,
+frame=single, 
+breaklines=true,
+columns=fullflexible
+}
+ 
+
+\begin{document}
+%
+\tikzstyle{block} = [rectangle, draw,
+    text width=3em, text centered, minimum height=3em]
+\tikzstyle{sum} = [draw, circle, node distance=3cm]
+\tikzstyle{input} = [coordinate]
+\tikzstyle{output} = [coordinate]
+\tikzstyle{pinstyle} = [pin edge={to-,thin,black}]
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}{Definition}[section]
+%\newtheorem{algorithm}{Algorithm}[section]
+%\newtheorem{cor}{Corollary}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+
+\bibliographystyle{IEEEtran}
+%\bibliographystyle{ieeetr}
+
+\providecommand{\nCr}[2]{\,^{#1}C_{#2}} % nCr
+\providecommand{\nPr}[2]{\,^{#1}P_{#2}} % nPr
+\providecommand{\mbf}{\mathbf}
+\providecommand{\pr}[1]{\ensuremath{\Pr\left(#1\right)}}
+\providecommand{\qfunc}[1]{\ensuremath{Q\left(#1\right)}}
+\providecommand{\sbrak}[1]{\ensuremath{{}\left[#1\right]}}
+\providecommand{\lsbrak}[1]{\ensuremath{{}\left[#1\right.}}
+\providecommand{\rsbrak}[1]{\ensuremath{{}\left.#1\right]}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\lbrak}[1]{\ensuremath{\left(#1\right.}}
+\providecommand{\rbrak}[1]{\ensuremath{\left.#1\right)}}
+\providecommand{\cbrak}[1]{\ensuremath{\left\{#1\right\}}}
+\providecommand{\lcbrak}[1]{\ensuremath{\left\{#1\right.}}
+\providecommand{\rcbrak}[1]{\ensuremath{\left.#1\right\}}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\newcommand{\sgn}{\mathop{\mathrm{sgn}}}
+\providecommand{\abs}[1]{\left\vert#1\right\vert}
+\providecommand{\res}[1]{\Res\displaylimits_{#1}} 
+\providecommand{\norm}[1]{\left\Vert#1\right\Vert}
+\providecommand{\mtx}[1]{\mathbf{#1}}
+\providecommand{\mean}[1]{E\left[ #1 \right]}
+\providecommand{\fourier}{\overset{\mathcal{F}}{ \rightleftharpoons}}
+%\providecommand{\hilbert}{\overset{\mathcal{H}}{ \rightleftharpoons}}
+\providecommand{\system}{\overset{\mathcal{H}}{ \longleftrightarrow}}
+	%\newcommand{\solution}[2]{\textbf{Solution:}{#1}}
+\newcommand{\solution}{\noindent \textbf{Solution: }}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+%\numberwithin{equation}{section}
+%\numberwithin{problem}{subsection}
+%\numberwithin{definition}{subsection}
+\makeatletter
+\@addtoreset{figure}{section}
+\makeatother
+
+\let\StandardTheFigure\thefigure
+%\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
+\renewcommand{\thefigure}{\thesection}
+
+
+%\numberwithin{figure}{subsection}
+
+%\numberwithin{equation}{subsection}
+%\numberwithin{equation}{section}
+%\numberwithin{equation}{problem}
+%\numberwithin{problem}{subsection}
+\numberwithin{problem}{section}
+%%\numberwithin{definition}{subsection}
+%\makeatletter
+%\@addtoreset{figure}{problem}
+%\makeatother
+\makeatletter
+\@addtoreset{table}{section}
+\makeatother
+
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\let\StandardTheFigure\thefigure
+\let\StandardTheTable\thetable
+\let\vec\mathbf
+%%\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
+%\renewcommand{\thefigure}{\theproblem}
+
+%%\numberwithin{figure}{section}
+
+%%\numberwithin{figure}{subsection}
+
+
+
+\def\putbox#1#2#3{\makebox[0in][l]{\makebox[#1][l]{}\raisebox{\baselineskip}[0in][0in]{\raisebox{#2}[0in][0in]{#3}}}}
+     \def\rightbox#1{\makebox[0in][r]{#1}}
+     \def\centbox#1{\makebox[0in]{#1}}
+     \def\topbox#1{\raisebox{-\baselineskip}[0in][0in]{#1}}
+     \def\midbox#1{\raisebox{-0.5\baselineskip}[0in][0in]{#1}}
+
+\vspace{3cm}
+
+\title{ 
+%	\logo{
+Linear Inequalities
+%	}
+}
+
+\author{ G V V Sharma$^{*}$% <-this % stops a space
+	\thanks{*The author is with the Department
+		of Electrical Engineering, Indian Institute of Technology, Hyderabad
+		502285 India e-mail:  gadepall@iith.ac.in. All content in this manual is released under GNU GPL.  Free and open source.}
+	
+}	
+
+\maketitle
+
+%\tableofcontents
+
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+
+\begin{abstract}
+	Solved problems from JEE mains papers related to Conic Sections in coordinate geometry are 
+available in this document.  These problems are solved using linear algebra/matrix analysis.
+\end{abstract}
+\begin{enumerate}[label=\arabic*]
+\numberwithin{equation}{enumi}
+	
+	\item A coin is tossed 1000 times with the following frequencies:\\
+Head : 455, Tail : 545\\
+Compute the probability for each event.\\
+   \item Two coins are tossed simultaneously 500 times, and we get\\
+       Two heads : 105 times\\
+       One head : 275 times\\
+       No head : 120 times\\
+Find the probability of occurrence of each of these events.\\
+   \item A die is thrown 1000 times with the frequencies for the outcomes 1, 2, 3, 4, 5 and 6 as given in the following table :\\
+
+\begin{tabular}{ |c|c|c|c|c|c|c| } 
+ \hline
+ \textbf{Outcome} &1 &2 &3 &4 &5 &6  \\ 
+ \hline
+ \textbf{Frequency} &179 &150 &157 &149 &175 &190 \\ 
+ \hline
+\end{tabular}\\
+
+Find the probability of getting each outcome.\\
+   \item On one page of a telephone directory, there were 200 telephone numbers.
+The frequency distribution of their unit place digit (for example, in the number 25828573, the unit place digit is 3) is given in Table below :\\
+
+\resizebox{\columnwidth}{12pt}{%
+\begin{tabular}{ |c|c|c|c|c|c|c|c|c|c|c| } 
+\hline
+ \textbf{Digit} &0 &1 &2 &3 &4 &5 &6 &7 &8 &9 \\ 
+ \hline
+ \textbf{Frequency} &22 &26 &22 &22 &20 &10 &14 &28 &16 &20 \\ 
+ \hline
+\end{tabular}%\\
+}\\
+
+
+Without looking at the page, the pencil is placed on one of these numbers, i.e., the number is chosen at random. What is the probability that the digit in its unit place is 6?\\
+   \item The record of a weather station shows that out of the past 250 consecutive days, its weather forecasts were correct 175 times.\\
+   (i) What is the probability that on a given day it was correct?\\
+(ii) What is the probability that it was not correct on a given day?\\
+\item A tyre manufacturing company kept a record of the distance covered
+before a tyre needed to be replaced. The table shows the results of 1000 cases.\\
+\\
+\resizebox{\columnwidth}{12pt}{%
+\begin{tabular}{ |c|c|c|c|c| } 
+ \hline
+ \textbf{Distance(in km)} &$>$ 4000 &4000-9000 &9001-14000 &$<$14000 \\ 
+ \hline
+ \textbf{Frequency} &20 &210 &325 &445\\ 
+ \hline
+\end{tabular}%\\
+}
+\\
+
+If you buy a tyre of this company, what is the probability that :\\
+(i) it will need to be replaced before it has covered 4000 km?\\
+(ii) it will last more than 9000 km?\\
+(iii) it will need to be replaced after it has covered somewhere between 4000 km and 14000 km?\\
+\item The percentage of marks obtained by a student in the monthly unit tests are given below:\\
+
+\begin{tabular}{ |c|c|c|c|c|c| } 
+ \hline
+ \textbf{Unit test} &I &II &III &IV &V \\ 
+ \hline
+ \textbf{Frequency }&69 &71 &73 &68 &74\\ 
+ \hline
+\end{tabular}\\
+
+Based on this data, find the probability that the student gets more than 70$\%$ marks in a unit test.\\
+\item An insurance company selected 2000 drivers at random (i.e., without
+any preference of one driver over another) in a particular city to find a relationship between age and accidents. The data obtained are given in the following table:\\
+\ref{multicolumn_table}
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Age of drivers} &\multicolumn{5}{c|}{\textbf{Accidents in one year }}\\
+\cline{2-6}
+(in years) &\textbf{0} &\textbf{1} &\textbf{2} &\textbf{3} &\textbf{over 3}\\
+\hline
+18-29 &440 &160 &110 &61 &35\\
+\hline
+30-50 &505 &125 &60 &22 &18\\
+\hline
+Above 50 &360 &45 &35 &15 &9\\
+\hline
+\end{tabular}
+
+\end{table}
+
+Find the probabilities of the following events for a driver chosen at random from the city:\\
+(i) being 18-29 years of age \textit{and} having exactly 3 accidents in one year.\\
+(ii) being 30-50 years of age \textit{and} having one or more accidents in a year.\\
+(iii) having no accidents in one year.\\
+
+\item Consider the frequency distribution table below which gives the weights of 38 students of a class.\\
+\\
+\begin{tabular}{ |c|c| } 
+ \hline
+ \textbf{Weights (in kg)} &\textbf{Number of students }\\ 
+ \hline
+ 31-35 &9\\
+ 36-40 &5\\
+ 41-45 &14\\
+ 46-50 &3\\
+ 51-55 &1\\
+ 56-60 &2\\
+ 61-65 &2\\
+ 66-70 &1\\
+ 71-75 &1\\
+ \hline
+ \textbf{Total} &38\\
+ \hline
+\end{tabular}\\
+
+(i) Find the probability that the weight of a student in the class lies in the interval 46-50 kg.\\
+(ii) Give two events in this context, one having probability 0 and the other having probability 1.\\
+
+\item Fifty seeds were selected at random from each of 5 bags of seeds, and were kept under standardised conditions favourable to germination. After 20 days, the
+number of seeds which had germinated in each collection were counted and recorded as follows:\\
+
+\begin{tabular}{ |c|c|c|c|c|c| } 
+ \hline
+ \textbf{Bag} &1 &2 &3 &4 &5\\ 
+ \hline
+\textbf{No.of seeds germinated} &40 &48 &42 &39 &41 \\ 
+ \hline
+\end{tabular}\\
+
+What is the probability of germination of
+(i)more than 40 seeds in a bag?\\
+(ii) 49 seeds in a bag?\\
+(iii) more that 35 seeds in a bag?\\
+
+
+
+
+
+\end{enumerate}
+\end{document}

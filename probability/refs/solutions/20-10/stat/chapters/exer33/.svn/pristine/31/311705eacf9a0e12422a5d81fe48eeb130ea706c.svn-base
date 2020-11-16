@@ -1,0 +1,12 @@
+The possible values are 0,1,2,3.\\
+The frequency distribution table is given in table \ref{table:output_33}.
+\begin{table}[ht!]
+\centering
+\input{./stat/tables/exer33/out33.tex}
+\caption{Frequency distribution table for the data in \ref{table:input_33}}
+\label{table:output_33}
+\end{table}
+The frequency distribution table \ref{table:output_33} is constructed using the python code
+\begin{lstlisting}
+./stat/codes/exer33.py
+\end{lstlisting}

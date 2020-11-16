@@ -1,0 +1,40 @@
+(i)The sample size 
+\begin{align}
+S=90
+\end{align}
+(i)number of discs bearing a two digit number is 
+\begin{align}
+T=81
+\end{align}
+The probability of drawing a disc bearing two digit number is 
+\begin{align}
+\pr{T} = \frac{T}{S} &= \frac{81}{90}
+\\
+&= \frac{9}{10}
+\end{align}
+
+(ii)number of discs bearing a perfect square is 
+\begin{align}
+Sq=9
+\end{align}
+The probability of drawing a disc bearing perfect square is 
+\begin{align}
+\pr{Sq} = \frac{Sq}{S} &= \frac{9}{90}
+\\
+&= \frac{1}{10}
+\end{align}
+
+(iii)number of discs bearing number divisible by 5 is 
+\begin{align}
+F=18
+\end{align}
+The probability of drawing a disc bearing number divisible by 5 is 
+\begin{align}
+\pr{F} = \frac{F}{S} &= \frac{18}{90}
+\\
+&= \frac{1}{5}
+\end{align}
+The python code for the above solution is
+\begin{lstlisting}
+./prob/codes/exer129.py
+\end{lstlisting}

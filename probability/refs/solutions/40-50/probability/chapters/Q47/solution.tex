@@ -1,0 +1,34 @@
+Let $X \in {0,1}$ where 0 represents black.  Let $X_1$ represent the event representing drawing the first ball. $X_2$ represent the event of drawing the second ball.
+Then  probability of the second ball being red is
+\begin{multline}
+\pr{X_2 = 1} 
+\\
+= \pr{X_2 = 1,X_1 = 1}+\pr{X_2 = 1,X_1 = 0}
+\\
+=\pr{X_2 = 1|X_1 = 1}\pr{X_1 = 1}
+\\
++\pr{X_2 = 1|X_1 = 0}\pr{X_1 = 0}
+\end{multline}
+From the given information,
+\begin{align}
+\pr{X_1 = 0} = \pr{X_1 = 1}
+=\frac{5}{10}=\frac{1}{2}.
+\end{align}
+Also, 
+\begin{align}
+\pr{X_2 = 1|X_1 = 0} &= \frac{5}{5+2+7} = \frac{5}{12}
+\\
+\pr{X_2 = 1|X_1 = 1} &= \frac{5+2}{5+2+5} = \frac{7}{12}
+\end{align}
+Thus, 
+\begin{multline}
+\pr{X_2 = 1} = \frac{7}{12}\times \frac{1}{2} 
+\\
++ \frac{5}{12}\times \frac{1}{2}
+=\frac{1}{2}
+\end{multline}
+ The python code for finding probability using a sample size of 10000 can be downloaded from
+\begin{lstlisting}
+solutions/40-50/probability/codes/Q47.py
+\end{lstlisting}
+

@@ -1,0 +1,18 @@
+\subsection{Problem}
+
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+	\item  The distance (in km) of 40 engineers from their residence to their place of work were found as follows: 5,3,10,20, 25, 11, 13, 7, 12, 31,19, 10, 12, 17, 18, 11, 32, 17, 16, 2,7,9,7,8,3,5,12, 15, 18 ,3,12, 14, 2,9,6, 15, 15, 7,6, 12.Construct a grouped frequency distribution table with class size 5 for the data given above taking the first interval as 0-5 (5 not included).
+What main features do you observe from this tabular representation?\\
+	\solution  Since the minimum =2 and maximum = 32, we take the intervals as 0-5,5-10 and so on upto 30-35. It can be observed that there are very few engineers whose homes are at more than or equal to 20km distance from their work place and most engineers have their workplace at distance of 0km to 15km from their homes.
+	\begin{table}[ht]
+	\begin{center}
+    	\input{./tables/statistics/exercises/stat_ex_q29_que.tex}
+	\caption{distance of engineers from their residence to their place of work }
+	\label{table:table6}
+	\end{center}
+	\end{table}
+
+	
+\end{enumerate}

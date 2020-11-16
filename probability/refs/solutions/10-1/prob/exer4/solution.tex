@@ -1,0 +1,25 @@
+Let $X_i\in \cbrak{0,1}, i = 1, 2, 3$ represent a coin toss, or, the Bernoulli random variable.  Then the outcome of the game is
+\begin{align}
+X = X_1+X_2+X_3	
+\end{align}
+If 
+\begin{align}
+\pr{X_i = 1} &= p,
+\\
+\pr{X = k} &= \comb{n}{k}p^k\brak{1-p}^k, \quad k = 0,\dots, n
+\end{align}
+$X$ is known as a Binomial random variable.  For the given problem, $n = 3, p = \frac{1}{2}$ and the probability of a win is 
+\begin{align}
+\pr{X = 3} + \pr{X = 0} &= \frac{1}{8}+\frac{1}{8}
+\\
+&= \frac{1}{4}
+\end{align}
+The loss probability is then
+\begin{align}
+1-\frac{1}{4} = \frac{3}{4}
+\end{align}
+
+The python code for the distribution of data,
+\begin{lstlisting}
+solutions/10-1/prob/codes/prob4.py
+\end{lstlisting}

@@ -1,0 +1,8 @@
+Three coins were tossed 30 times simultaneously. Each time the number of heads occurring was noted down as follows:\\
+\begin{table}[ht!]
+\centering
+\input{./stat/tables/exer33/heads33.tex}
+\caption{Number of heads obtained when 3 coins were tossed 30 times}
+\label{table:input_33}
+\end{table}
+Prepare a frequency distribution table for the data given above.\\

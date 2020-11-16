@@ -1,0 +1,27 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Let the total no. of students be 100. Then no.of students reading Hindi newspapers = 60, no.of students reading Engish newspaper= 40, no.of students reading both English and Hindi newspapers = 20.
+\item So, $P(H)= 0.60, P(E)=0.40, P(H \cap E)=0.20$ 
+\begin{enumerate}
+\item Probability that the student reads neither Hindi nor English:
+\begin{align}
+P(H \cup E)' &= 1- P(H \cup E)\\
+&= 1- \brak{P(E)+P(H)-P(H \cap E)}\\
+&= 1- \brak{0.60+0.40-0.20}\\
+&= 0.20
+\end{align}
+\item Probability that she reads English newspaper if it is known that she reads Hindi newspaper
+\begin{align}
+P(E \mid H) &= \frac{P(E \cap H)}{P(H)}\\
+&= \frac{0.20}{0.60}\\
+&= 0.33
+\end{align}
+\item Probability that she reads Hindi newspaper if it is known that she reads English newspaper
+\begin{align}
+P(H \mid E) &= \frac{P(E \cap H)}{P(E)}\\
+&= \frac{0.20}{0.40}\\
+&= 0.50
+\end{align}
+\end{enumerate}
+\end{enumerate}

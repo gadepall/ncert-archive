@@ -1,0 +1,19 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item \begin{table}[!ht]
+	\centering
+	\input{./table/table3.tex}
+	\caption{friquency distribution table3 }
+\end{table}
+	
+\begin{align}
+\sum{f} &= 50 +f
+\\
+\sum{f.x} &= 752 + 20f
+\\
+Mean &= \frac{\sum{f.x}}{\sum{f}}
+\\18 &= \frac{752+20f}{44 +f}
+\\f&= 20
+\end{align}
+\end{enumerate}

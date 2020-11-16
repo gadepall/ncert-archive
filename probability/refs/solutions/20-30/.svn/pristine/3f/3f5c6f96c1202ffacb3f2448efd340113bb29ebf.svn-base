@@ -1,0 +1,46 @@
+\subsection{Problem}
+
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item  Given the weights of 35 students of a class as less than cumulative distribution find the median weight of the class.\\
+\solution  
+The following python code computes the median .
+	\begin{lstlisting}
+	codes/statistics/exercises/q24.py
+	\end{lstlisting}
+	
+	\begin{table}[ht]
+	\begin{center}
+    	\input{./tables/statistics/exercises/stat_ex_q24_que.tex}
+	\caption{Frequency distribution of the weights of students}
+	\label{table:table9}
+	\end{center}
+	\end{table}
+	
+	\begin{align}
+	\text{Median} &= l + \frac{\frac{n}{2} -cf}{f}\times h
+	\end{align}
+	\begin{align}
+	\text{n} = \sum f_{i} = 100 \implies \frac{n}{2} = 50\\
+	\end{align}
+	$\therefore$ 46-48 is the median class.\\
+	Here l is the lower limit of the median class = 46\\
+	h is the classinterval =2\\
+	cf is the cumulative frequency of the class before median class = 14\\
+	f is the frequency of the median class =14
+
+	\begin{align}
+	\text{Median} &= 46 + \frac{17.5 - 14}{14}\times 2\\
+	\text{Median} &= 46 + 0.5 = 46.5
+	\end{align}
+	Hence median weight is 46.5
+	\begin{table}[ht]
+	\begin{center}
+    	\input{./tables/statistics/exercises/stat_ex_q24_ans.tex}
+	\caption{Frequency distribution of the weights of students}
+	\label{table:table10}
+	\end{center}
+	\end{table}
+
+\end{enumerate}

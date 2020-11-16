@@ -1,0 +1,13 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item The following table gives the distribution
+of students of two sections according to the
+marks obtained by them:
+\begin{table}[!ht]
+\centering
+\input{./statistics/tables/Q42/prob.tex}
+\label{table:Q42}	
+\end{table}
+Represent the marks of the students of both the sections on the same graph by two frequency polygons. From the two polygons compare the performance of the two sections.
+\end{enumerate}

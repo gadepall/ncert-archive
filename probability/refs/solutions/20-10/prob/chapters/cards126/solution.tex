@@ -1,0 +1,21 @@
+\begin{enumerate}
+\item 
+The probability that a queen is picked is 
+\begin{align}
+\pr{Z = 10|Z \in \cbrak{10,11,12,13,14}} = \frac{1}{5}
+\end{align}
+\item After a queen is drawn and put aside
+The probability that an ace is picked is 
+\begin{align}
+\pr{Z = 14|Z \in {10,11,13,14}}= \frac{1}{4}
+\end{align}
+
+The probability that a queen is picked from the remaining cards is 
+\begin{align}
+\pr{Z=12|Z \in {10,11,13,14}} = 0
+\end{align}
+\end{enumerate}
+The python code below calculates the above probabilities for 100000 picks
+\begin{lstlisting}
+solutions/20-10/prob/codes/cards126.py
+\end{lstlisting}

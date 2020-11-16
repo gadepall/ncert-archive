@@ -1,0 +1,22 @@
+Let $X \in \cbrak{0,1}$ represent the gender where 1 represents a girl. Let $Y_1,Y_2 \in \cbrak{0,1}$ represent the child in the family, where $Y_1$ denotes the older child.
+\begin{enumerate}
+\item Since $Y_1,Y_2$ are independent,
+\begin{align}
+\pr{Y_1 = 1,Y_2=1|Y_2 = 1} = \frac{1}{2}
+\end{align}
+\item 
+{\tiny
+\begin{multline}
+\pr{Y_1 = 1,Y_2=1|1-\cbrak{Y_2 = 0,Y_1=0}} 
+\\
+=\frac{\pr{\cbrak{Y_1 = 1}\cbrak{Y_2=1}\sbrak{1-\cbrak{Y_2 = 0}\cbrak{Y_1=0}}}}{1-\pr{Y_2 = 0,Y_1=0}} 
+\\
+=\frac{\pr{\cbrak{Y_1 = 1}\cbrak{Y_2=1}}-\pr{\cbrak{Y_1 = 1}\cbrak{Y_2=1}\cbrak{Y_1 = 0}\cbrak{Y_2=0}} 
+}{1-\pr{Y_2 = 0,Y_1=0}} 
+\\
+=\frac{\pr{\cbrak{Y_1 = 1}\cbrak{Y_2=1}}
+}{1-\pr{Y_2 = 0,Y_1=0}} 
+=\frac{\frac{1}{4}}{1-\frac{1}{4}} = \frac{1}{3}
+\end{multline}
+}
+\end{enumerate}

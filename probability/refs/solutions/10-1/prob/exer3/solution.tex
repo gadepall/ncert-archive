@@ -1,0 +1,39 @@
+\begin{enumerate}
+\item The following code simulates the experiment and prints the output in Table \ref{table:1.2.133.2}	
+
+\begin{lstlisting}
+solutions/10-1/prob/codes/prob3_excel.py
+\end{lstlisting}
+
+Table is completed as follows \ref{table:table1}
+%
+\item 
+Let $X_1$ and $X_2$ represent the two dice and 
+\begin{align}
+X = X_1 + X_2
+\end{align}
+where 
+\begin{align}
+p_{X_1}(n) = p_{X_2}(n) = \frac{1}{6} \cbrak{u(n)-u(n-6)}
+\end{align}
+Then, $\because X_1$ and $X_2$ are independent, 
+\begin{align}
+p_{X}(n) &= p_{X_1}(n)*p_{X_2}(n)
+\\
+&= 
+\begin{cases}
+\frac{k-1}{36} & k < 8
+\\
+\frac{13-k}{36} & 8 \le k \le 12
+\end{cases}
+\ne \frac{1}{11}
+\end{align}
+It is obvious that the argument mentioned by the student is incorrect.
+\begin{table}[ht!]
+\centering
+\input{./solutions/10-1/prob/codes/tables/output.tex}
+\caption{Output Values}
+\label{table:1.2.13.2}	
+\end{table}
+
+\end{enumerate}

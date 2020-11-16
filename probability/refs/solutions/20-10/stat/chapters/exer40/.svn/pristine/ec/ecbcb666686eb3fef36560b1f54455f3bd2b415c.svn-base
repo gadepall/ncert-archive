@@ -1,0 +1,24 @@
+(i)To draw a histogram, the data must be made continuous.\\
+\begin{align}
+Gap/2=\frac{127-126}{2}=\frac{1}{2}=0.5\\
+\end{align}
+So we add 0.5 to every upperclass limit and subtract 0.5 from every lower class limit to obtain continous grouped frequency distribution table as shown in Table\ref{table:cont_stat_40}
+\begin{table}[ht!]
+\centering
+\input{./stat/tables/exer40/cont40.tex}
+\caption{Illness and fatality rate amongst women}
+\label{table:cont_stat_40}
+\end{table}
+The histogram is shown in figure \ref{fig:hist40_py}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./codes/pyfigs/exer40.eps}
+\caption{Length of leaves in mm}
+\label{fig:hist40_py}
+\end{figure}
+The below python code was used o generate the histogram \ref{fig:hist40_py}
+\begin{lstlisting}
+./stat/codes/exer40.py
+\end{lstlisting}
+(ii)The same data can also be represented using a frequency polygon.\\
+(iii)No, the maximum leaves have lengths ranging from 144.5mm to 153.5mm and might not be equal to 153mm.\\

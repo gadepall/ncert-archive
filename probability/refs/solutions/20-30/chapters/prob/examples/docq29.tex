@@ -1,0 +1,28 @@
+Let $X \in \cbrak{1,2,3}$ represent the machines and $Y \in \cbrak{0,1}$ represent the bolt quality, 0 denoting defective bolt.  From the given information,
+\begin{align}
+\pr{X=1} &= \frac{25}{100}
+\\
+\pr{X=2} &= \frac{35}{100}
+\\
+\pr{X=3} &= \frac{40}{100}
+\end{align}
+and
+\begin{align}
+\pr{Y = 0|X=1} &= \frac{5}{100}
+\\
+\pr{Y=0|X=2} &= \frac{4}{100}
+\\
+\pr{Y=0|X=3} &= \frac{2}{100}
+\end{align}
+Then,
+{\tiny
+\begin{multline}
+\pr{X=2|Y=0} 
+\\
+= \frac{\pr{Y=0|X=2}\pr{X=2}}{\pr{Y=0|X=1}\pr{X=1}+\pr{Y=0|X=2}\pr{X=2}+\pr{Y=0|X=3}\pr{X=3}}
+\\
+=\frac{\frac{4}{100}\times\frac{35}{100}}{\frac{5}{100}\times\frac{25}{100}+\frac{4}{100}\times\frac{35}{100}+\frac{2}{100}\times\frac{40}{100}}
+\\
+=\frac{28}{69}
+\end{multline}
+}

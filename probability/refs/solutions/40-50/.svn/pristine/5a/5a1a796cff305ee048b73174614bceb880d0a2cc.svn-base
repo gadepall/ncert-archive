@@ -1,0 +1,23 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item First we will sort the given data in ascending order.  
+\item 0,1,2,3,3,3,3,4,4,5
+\item Let $n$= No.of elements in the given data= 10.
+\begin{align}
+Mean &= \frac{Sum of data values}{n}\\
+&= \frac{0+1+2+3+3+3+3+4+4+5}{10}\\
+&= 2.8\\
+Mode &= 3
+\end{align}
+\item Since $n$ is even , the median is given by the average of $\brak{\frac{n}{2}}^{th}$ and$\brak{\frac{n}{2}+1}^{th}$ element.
+\begin{align}
+Median &= \frac{3+3}{2}\\
+&= 3
+\end{align} 
+\item The python code to calculate mean, median , mode for the given data can be downloaded from 
+\begin{lstlisting}
+statistics/codes/Q46.py
+\end{lstlisting}
+
+\end{enumerate}

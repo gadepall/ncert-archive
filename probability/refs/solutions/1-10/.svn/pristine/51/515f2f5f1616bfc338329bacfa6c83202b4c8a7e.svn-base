@@ -1,0 +1,31 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item An organisation selected 2400 families at random and surveyed them to determine a relationship between income level and the number of vehicles in a family. The information gathered is listed in the table:\\
+\ref{multicolumn_table}
+\begin{table}[!ht]
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		\textbf{Monthly income} &\multicolumn{4}{c|}{\textbf{vehicles per family }}\\
+		\cline{2-5}
+		(in \textbf{\rupee}) &\textbf{0} &\textbf{1} &\textbf{2} &\textbf{Above 2}\\
+		\hline
+		Less than 7000 &10 &160 &25 &0\\
+		\hline
+		7000-10000 &0 &305 &27 &2\\
+		\hline
+		10000-13000 &1 &535 &29 &1\\
+		\hline
+		13000-16000 &2 &469 &59 &25\\
+		\hline
+		16000 or more  &1 &579 &82 &88 \\
+		\hline
+	\end{tabular}
+\end{table}\\
+Suppose a family is chosen.Find the probability that the family chosen is\\
+(i) earning \rupee 10000 – \rupee 13000 per month and owning exactly 2 vehicles.\\
+(ii) earning \rupee 16000 or more per month and owning exactly 1 vehicle.\\
+(iii) earning less than \rupee 7000 per month and does not own any vehicle.\\
+(iv) earning \rupee 13000 – \rupee 16000 per month and owning more than 2 vehicles.\\
+(v) owning not more than 1 vehicle.
+\end{enumerate}

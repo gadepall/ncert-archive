@@ -1,0 +1,11 @@
+The length of 40 leaves of a plant are measured correct to one millimetre, and the obtained data is represented in the following table:\\
+\begin{table}[ht!]
+\centering
+\input{./stat/tables/exer40/inp40.tex}
+\caption{Lengths of 40 leaves in mm}
+\label{table:input_stat40}
+\end{table}
+(i) Draw a histogram to represent the given data. [Hint: First make the class intervals continuous]\\
+(ii) Is there any other suitable graphical representation for the same data?\\
+(iii) Is it correct to conclude that the maximum number of leaves are 153 mm long?\\
+why?\\

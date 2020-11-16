@@ -1,0 +1,9 @@
+The following table gives the life times of 400 neon lamps:\\
+\begin{table}[ht!]
+\centering
+\input{./stat/tables/exer41/inp41.tex}
+\caption{Lives of neon lamps}
+\label{table:input_stat41}
+\end{table}
+(i) Represent the given information with the help of a histogram.\\
+(ii) How many lamps have a life time of more than 700 hours?\\

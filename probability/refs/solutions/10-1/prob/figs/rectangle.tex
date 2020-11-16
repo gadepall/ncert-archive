@@ -1,0 +1,25 @@
+%Code by GVV Sharma
+%December 12, 2019
+%released under GNU GPL
+%Drawing a quadrilateral given 4 sides and a diagonal.
+
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+%Labeling points
+\node (B) at (0, 0)[point,label=below left:$B$] {};
+\node (C) at (3,0)[point,label=below right:$C$] {};
+\node (A) at (0,2)[point,label=above right:$A$] {};
+\node (D) at (3,2)[point,label=above right:$D$] {};
+\def\R{0.5}
+
+%Foot of perpendicular
+
+\draw (A) --  node[left] {$\textrm{d}$}(B) --  node[below] {$\textrm{a}$}(C) --  node[right] {$\textrm{b}$}(D) --  node[above] {$\textrm{c}$}(A);
+
+
+\node (O) at (1.5,1)[point,label=above right:$O$] {};
+\draw (O) circle (\R);
+%Drawing and marking angles
+
+\end{tikzpicture}

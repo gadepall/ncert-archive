@@ -1,0 +1,26 @@
+Let $X \in \cbrak{0,1}$ represent the bags, where 0 represents the first bag and $Y \in \cbrak{0,1}$ represent the colour, 0 being black.
+The desired probability is
+{\footnotesize
+\begin{multline}
+\pr{X=0|Y=1} 
+\\
+= \frac{\pr{Y=1|X=0}\pr{X=0}}{\pr{Y=1|X=0}\pr{X=0}+\pr{Y=1|X=0}\pr{X=0}}
+\end{multline}
+}
+From the given information, 
+\begin{align}
+\pr{X=0}&=\pr{X=1}=\frac{1}{2}
+\\
+\pr{Y=1|X=0}&=\frac{1}{2}
+\\
+\pr{Y=1|X=1}&=\frac{1}{4}
+\end{align}
+Hence, 
+\begin{align}
+\pr{X=0|Y=1} &= \frac{\frac{1}{2}\times \frac{1}{2}}{\frac{1}{2}\times \frac{1}{2}+\frac{1}{4}\times \frac{1}{2}}
+\\
+&=\frac{2}{3}
+\end{align}
+\begin{lstlisting}
+solutions/40-50/probability/codes/Q48.py
+\end{lstlisting}

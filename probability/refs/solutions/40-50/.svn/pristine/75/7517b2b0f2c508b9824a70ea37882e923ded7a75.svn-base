@@ -1,0 +1,14 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Of the students in a college, it is known that
+60\% reside in hostel and 40\% are day scholars
+(not residing in hostel). Previous year results
+report that 30\% of all students who reside in
+hostel attain A grade and 20\% of day scholars
+attain A grade in their annual examination.
+At the end of the year, one student is chosen
+at random from the college and he has an A
+grade, what is the probability that the student
+is a hostlier?
+\end{enumerate}

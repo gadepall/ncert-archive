@@ -1,0 +1,17 @@
+Let X be the outcome of tossing a coin. Then,
+\begin{align}
+X \epsilon \{H,T\}
+\\
+\imples S=2
+\end{align}
+probability of getting a head is
+\begin{align}
+\pr{H}=\frac{X=H}{S}=\frac{1}{2}
+\end{align}
+Similarly probability of getting a tail is
+\begin{align}
+\pr{T}=\frac{X=T}{S}=\frac{1}{2}
+\end{align}
+\begin{lstlisting}
+./prob/codes/exam48.py
+\end{lstlisting}

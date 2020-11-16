@@ -1,6 +1,6 @@
-\contentsline {section}{\numberline {1}Probability}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Examples}{1}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Exercises}{13}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Statistics}{37}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Examples}{37}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Exercises}{43}{subsection.2.2}%
+\contentsline {section}{\numberline {1}Bernoulli Distribution}{1}{section.1}%
+\contentsline {section}{\numberline {2}Bayes Rule}{7}{section.2}%
+\contentsline {section}{\numberline {3}Binomial Distribution}{13}{section.3}%
+\contentsline {section}{\numberline {4}Uniform Distribution }{16}{section.4}%
+\contentsline {section}{\numberline {5}Miscellaneous Distributions}{20}{section.5}%
+\contentsline {section}{\numberline {6}Axioms of Probability}{30}{section.6}%
