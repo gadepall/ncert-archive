@@ -4,7 +4,40 @@
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 %
-\item 
+\item Find the probability of getting a head when a coin is tossed once. Also
+find the probability of getting a tail.
+\\
+\solution  Let the random variable be $X\in \cbrak{0,1}$.  Then
+\begin{align}
+\pr{X=0}=\pr{X=1}=\frac{1}{2}
+\end{align}
+The following code simulates the event for 100 coin tosses
+\begin{lstlisting}
+codes/bernoulli/coin.py
+\end{lstlisting}
+\item A jar contains 24 marbles, some are green and others are blue. If a marble is drawn at random from the jar, the probability that it is green is
+$\frac{2}{3}$. Find the number of blue balls (marbles) in the jar.\\
+%\solution
+%
+%Total number of marbles $=24$
+%
+%Let $G$ be the event that marble drawn out randomly is green. 
+%
+%Since, probability of marble being green, $P(G)=\frac{\mbox{Number of green marbles}}{\mbox{Total number of marbles}}$. 
+%
+%We have, 
+%\begin{align}
+%\mbox{Number of green marbles}&=P(G)*\mbox{Total number of marbles}\nonumber\\
+%&=\frac{2}{3}*24=16.
+%\label{eq:green_marble}
+%\end{align}
+%
+%So, from Eq.~\eqref{eq:green_marble} we have \begin{align}
+%\mbox{No. of blue marbles}&=\mbox{Total no. of marbles}-\mbox{No. of green marbles}\nonumber\\
+%&=24-16=8.
+%\label{eq:blue_marble}
+%\end{align}
+
 
 \end{enumerate}
 
