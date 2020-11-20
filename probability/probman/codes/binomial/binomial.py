@@ -31,12 +31,14 @@ data_binom = binom.rvs(n,1-p,size=simlen) #Simulating the event of jumping 10 hu
 err_ind = np.nonzero(data_binom <=k) #checking probability condition
 err_n = np.size(err_ind) #computing the probability
 print(err_n/simlen)
+#print(data_binom)
 
 
 #Simulating the probability using  the bernoulli random variable
 data_bern_mat = bernoulli.rvs(1-p,size=(n,simlen))
 data_binom=np.sum(data_bern_mat, axis=0)
-#print(data_binom_bern)
+#print(data_bern_mat)
+#print(data_binom)
 err_ind = np.nonzero(data_binom <=k) #checking probability condition
 err_n = np.size(err_ind) #computing the probability
 print(err_n/simlen)
