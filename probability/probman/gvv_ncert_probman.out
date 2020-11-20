@@ -1,12 +1,15 @@
-\BOOKMARK [1][-]{section.1}{The Bernoulli Distribution}{}% 1
-\BOOKMARK [1][-]{section.2}{Sum of Independent Random Variables}{}% 2
-\BOOKMARK [1][-]{section.3}{Cumulative Distribution Function}{}% 3
-\BOOKMARK [1][-]{section.4}{Central Limit Theorem: Gaussian Distribution}{}% 4
-\BOOKMARK [1][-]{section.5}{Stochastic Geometry}{}% 5
-\BOOKMARK [1][-]{section.6}{Transformation of Variables}{}% 6
-\BOOKMARK [2][-]{subsection.6.1}{Using Definition}{section.6}% 7
-\BOOKMARK [2][-]{subsection.6.2}{Using Jacobian}{section.6}% 8
-\BOOKMARK [1][-]{section.7}{Conditional Probability}{}% 9
-\BOOKMARK [1][-]{section.8}{Two Dimensions}{}% 10
-\BOOKMARK [1][-]{section.9}{Transform Domain}{}% 11
-\BOOKMARK [1][-]{section.10}{Uniform to Other}{}% 12
+\BOOKMARK [1][-]{section.1}{Sum of Independent Random Variables}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{The Uniform Distribution}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Cumulative Distribution Function}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{The Bernoulli Distribution}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{The Binomial Distribution}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Central Limit Theorem: Gaussian Distribution}{}% 6
+\BOOKMARK [1][-]{section.4}{Cumulative Distribution Function}{}% 7
+\BOOKMARK [1][-]{section.5}{Stochastic Geometry}{}% 8
+\BOOKMARK [1][-]{section.6}{Transformation of Variables}{}% 9
+\BOOKMARK [2][-]{subsection.6.1}{Using Definition}{section.6}% 10
+\BOOKMARK [2][-]{subsection.6.2}{Using Jacobian}{section.6}% 11
+\BOOKMARK [1][-]{section.7}{Conditional Probability}{}% 12
+\BOOKMARK [1][-]{section.8}{Two Dimensions}{}% 13
+\BOOKMARK [1][-]{section.9}{Transform Domain}{}% 14
+\BOOKMARK [1][-]{section.10}{Uniform to Other}{}% 15

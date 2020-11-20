@@ -1,0 +1,73 @@
+In a hurdle race, a player has to cross 10 hurdles. The probability that he will
+clear each hurdle is $\frac{5}{6}$. What is the probability that he will knock down fewer than 2 hurdles?
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+%
+%
+\item  Let $X_i \in \cbrak{0,1}$ represent the $ith$ hurdle where $1$ denotes a hurdle being knocked down.  Then, $X_i$ has a bernoulli distribution with parameter
+\begin{align}
+p = \frac{5}{6}
+\label{eq:p_binom_exam}
+\end{align}
+
+\item {\em The Binomial Distribution: } Let
+\begin{align}
+X = \sum_{i=1}^{n}X_i
+\end{align}
+%
+where $n$ is the total number of hurdles.
+Then $X$ has a binomial distribution.  Then, for 
+\begin{align}
+p_{X_i}(n) \ztrans P_{X_i}(z),
+\end{align}
+yielding
+\begin{align}
+ P_{X_i}(z) = p + \brak{1-p}z^{-1}
+\end{align}
+ with
+%
+Using the fact that $X_i$ are i.i.d.,
+\begin{align}
+\label{eq:ztrans_binom}
+ P_{X}(z) &= \brak{p + \brak{1-p}z^{-1}}^n
+\\
+&= \sum_{k=0}^{n-1}\comb{n}{k}p^{n-k}\brak{1-p}^kz^{-k}
+\\
+\implies p_{X}(k) &= 
+\begin{cases}
+\comb{n}{k}p^{n-k}\brak{1-p}^k & 0 \le k < n
+\\
+0 & \text{otherwise}
+\end{cases}
+\label{eq:pdf_binom}
+\end{align}
+%
+The cumulative distribution function of $X$ is defined as
+\begin{align}
+F_{X}(r) = \pr{X\le r} = \sum_{k=0}^{r}\comb{n}{k}p^{n-k}\brak{1-p}^k
+\label{eq:cdf_binom}
+\end{align}
+%
+upon substituting from \eqref{eq:pdf_binom}.
+
+\item Substituting from \eqref{eq:p_binom_exam} in \eqref{eq:cdf_binom},
+
+\begin {align}
+\pr{X < 2} &= F_{X}(1)
+\\
+&=\sum_{k=0}^{1}\comb{n}{k}\brak{\frac{5}{6}}^{10-k}\brak{\frac{1}{6}}^k
+\\
+&=3\brak{\frac{5}{6}}^{10}
+\end{align}
+%
+which is the desired probability.
+%
+\item The following code verifies the above result.
+\begin{lstlisting}
+codes/binomial/binomial.py
+\end{lstlisting}
+\end{enumerate}

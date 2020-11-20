@@ -1,6 +1,6 @@
 \renewcommand{\theequation}{\theenumi}
 \renewcommand{\thefigure}{\theenumi}
-\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
@@ -17,6 +17,19 @@ The following code simulates the event for 100 coin tosses
 \begin{lstlisting}
 codes/bernoulli/coin.py
 \end{lstlisting}
+\item {\em Binomial Distribution: }  In general the binomial distribution is defined using the PMF
+\begin{align}
+p_{X}\brak{n} 
+= 
+\begin{cases}
+p & n = 0
+\\
+1-p & n = 1
+\\
+\text{otherwise}
+\end{cases}
+\end{align}
+
 \item A jar contains 24 marbles, some are green and others are blue. If a marble is drawn at random from the jar, the probability that it is green is
 $\frac{2}{3}$. Find the number of blue balls (marbles) in the jar.\\
 \solution Let random variable $X\in\{0,1\}$ denote the outcomes of the experiment of drawing a marble from a jar as shown in Table \ref{table:bernoulli}
@@ -31,30 +44,32 @@ $\frac{2}{3}$. Find the number of blue balls (marbles) in the jar.\\
 From the given information,
 \begin{align}
 \label{eq:bernoulli_x=1}
-P(X=1)&=\frac{2}{3}
+p_X(1)&=\frac{2}{3}
+\\
+\implies p = 1 -  p_X(1) &= \frac{1}{3}
 \\
 n\brak{X=0}+
 n\brak{X=1} &= 24
 \label{eq:bernoulli_sum}
 \end{align}
 %
-Thus, from \eqref{eq:bernoulli_x=1} 
-\begin{align}
- P(X=0)&=1-P(X=1)\nonumber\\
- &=1-\frac{2}{3}=\frac{1}{3}.
-\end{align}
+%Thus, from \eqref{eq:bernoulli_x=1} 
+%\begin{align}
+% P(X=0)&=1-P(X=1)\nonumber\\
+% &=1-\frac{2}{3}=\frac{1}{3}.
+%\end{align}
 %
 %Since, we know 
 $\because$
 \begin{equation}
- P(X=0)=\frac{n\brak{X=0} }{n\brak{X=0}+
+p=\frac{n\brak{X=0} }{n\brak{X=0}+
 n\brak{X=1}},
  \label{eq:blue_marb}
 \end{equation} 
 from \eqref{eq:blue_marb} and \eqref{eq:bernoulli_sum},
 %So, using Eq.~\eqref{eq:blue_marb} we have, 
 \begin{align}
-n\brak{X=0}  &=P(X=0)\cbrak{n\brak{X=0}+n\brak{X=1}}
+n\brak{X=0}  &=p\cbrak{n\brak{X=0}+n\brak{X=1}}
 \\
 &=\frac{1}{3}\times 24=8.
 \label{eq:green_marble}
