@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  20 NOV 2020 12:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  21 NOV 2020 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1944,7 +1944,7 @@ File: ot1txtt.fd 2000/12/15 v3.1
 pdfTeX warning: pdflatex (file /data/data/com.termux/files/home/texmf/tex/latex
 /logo/iith_logo.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<iith_logo.pdf, id=91, 359.3425pt x 486.81876pt>
+<iith_logo.pdf, id=95, 359.3425pt x 486.81876pt>
 File: iith_logo.pdf Graphic file (type pdf)
 <use iith_logo.pdf>
 Package pdftex.def Info: iith_logo.pdf  used on input line 250.
@@ -1956,7 +1956,7 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 15.95987pt on input line 250.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 250.
-<tlc.pdf, id=92, 597.51233pt x 845.0471pt>
+<tlc.pdf, id=96, 597.51233pt x 845.0471pt>
 File: tlc.pdf Graphic file (type pdf)
 <use tlc.pdf>
 Package pdftex.def Info: tlc.pdf  used on input line 250.
@@ -2028,7 +2028,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-<./figs/sum/pmf.png, id=191, 462.528pt x 346.896pt>
+<./figs/sum/pmf.png, id=196, 462.528pt x 346.896pt>
 File: ./figs/sum/pmf.png Graphic file (type png)
 <use ./figs/sum/pmf.png>
 Package pdftex.def Info: ./figs/sum/pmf.png  used on input line 179.
@@ -2043,60 +2043,63 @@ Package pdftex.def Info: ./figs/sum/pmf.png  used on input line 179.
 \gnumericColC=\skip94
 ))
 (./chapters/binomial.tex [3 <./figs/sum/pmf.png>]) (./chapters/clt.tex
-<./figs/clt/gauss_cdf.pdf, id=227, 462.52798pt x 346.89601pt>
+Underfull \hbox (badness 6691) in paragraph at lines 43--46
+[]\OT1/txr/m/it/12 Approximating Bi-no-mial Us-ing Gaus-sian:
+ []
+
+
+Underfull \vbox (badness 3250) has occurred while \output is active []
+
+ [4]
+<./figs/clt/gauss_cdf.pdf, id=273, 462.52798pt x 346.89601pt>
 File: ./figs/clt/gauss_cdf.pdf Graphic file (type pdf)
 <use ./figs/clt/gauss_cdf.pdf>
-Package pdftex.def Info: ./figs/clt/gauss_cdf.pdf  used on input line 25.
+Package pdftex.def Info: ./figs/clt/gauss_cdf.pdf  used on input line 113.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-<./figs/clt/gauss_pdf.pdf, id=229, 462.52798pt x 346.89601pt>
+<./figs/clt/gauss_pdf.pdf, id=275, 462.52798pt x 346.89601pt>
 File: ./figs/clt/gauss_pdf.pdf Graphic file (type pdf)
 <use ./figs/clt/gauss_pdf.pdf>
-Package pdftex.def Info: ./figs/clt/gauss_pdf.pdf  used on input line 43.
+Package pdftex.def Info: ./figs/clt/gauss_pdf.pdf  used on input line 133.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
- [4 <./figs/clt/gauss_cdf.pdf>]) (./chapters/cdf.tex
-<./figs/cdf/uni_cdf.pdf, id=286, 462.52798pt x 346.89601pt>
+
+[5 <./figs/clt/gauss_cdf.pdf> <./figs/clt/gauss_pdf.pdf
+
+pdfTeX warning: pdflatex (file ./figs/clt/gauss_pdf.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]
+<./figs/cdf/uni_cdf.pdf, id=368, 462.52798pt x 346.89601pt>
 File: ./figs/cdf/uni_cdf.pdf Graphic file (type pdf)
 <use ./figs/cdf/uni_cdf.pdf>
-Package pdftex.def Info: ./figs/cdf/uni_cdf.pdf  used on input line 28.
+Package pdftex.def Info: ./figs/cdf/uni_cdf.pdf  used on input line 162.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 ) (./chapters/stochastic.tex
-<./figs/stochastic/rectangle.png, id=288, 462.528pt x 346.896pt>
+<./figs/stochastic/rectangle.png, id=370, 462.528pt x 346.896pt>
 File: ./figs/stochastic/rectangle.png Graphic file (type png)
 <use ./figs/stochastic/rectangle.png>
 Package pdftex.def Info: ./figs/stochastic/rectangle.png  used on input line 11
 .
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-
-[5 <./figs/clt/gauss_pdf.pdf> <./figs/cdf/uni_cdf.pdf
-
-pdfTeX warning: pdflatex (file ./figs/cdf/uni_cdf.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
-> <./figs/stochastic/rectangle.png>]) (./chapters/trans.tex)
-(./chapters/cond.tex) (./chapters/twoD.tex [6]) (./chapters/laplace.tex)
-(./chapters/uni2other.tex) [7
-
-]
+) (./chapters/trans.tex [6 <./figs/cdf/uni_cdf.pdf> <./figs/stochastic/rectangl
+e.png>]) (./chapters/cond.tex)
+(./chapters/twoD.tex) (./chapters/laplace.tex) (./chapters/uni2other.tex)
+[7]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 332.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 332.
  (./gvv_ncert_probman.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 332.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 332.
 Package rerunfilecheck Info: File `gvv_ncert_probman.out' has not changed.
-(rerunfilecheck)             Checksum: 5C7F8B8B05A41679AC18A49865EDDE09;965.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Checksum: 03B29909EE8E04AD4EA1879921CA7A92;1036.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 332.
  ) 
 Here is how much of TeX's memory you used:
- 42823 strings out of 480608
- 996101 string characters out of 5892806
- 1379789 words of memory out of 5000000
- 57649 multiletter control sequences out of 15000+600000
+ 42848 strings out of 480608
+ 996431 string characters out of 5892806
+ 1384125 words of memory out of 5000000
+ 57655 multiletter control sequences out of 15000+600000
  620850 words of font info for 219 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,16n,91p,773b,1158s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,16n,91p,773b,1160s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
 e/8r.enc}</data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/
 public/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/share/texlive/texmf-d
@@ -2113,10 +2116,10 @@ com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
 ></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_probman.pdf (7 pages, 708670 bytes).
+Output written on gvv_ncert_probman.pdf (7 pages, 712322 bytes).
 PDF statistics:
- 517 PDF objects out of 1000 (max. 8388607)
- 404 compressed objects within 5 object streams
- 168 named destinations out of 1000 (max. 500000)
- 264 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 553 PDF objects out of 1000 (max. 8388607)
+ 440 compressed objects within 5 object streams
+ 190 named destinations out of 1000 (max. 500000)
+ 272 words of extra memory for PDF output out of 10000 (max. 10000000)
 

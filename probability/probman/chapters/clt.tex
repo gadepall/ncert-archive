@@ -1,10 +1,92 @@
 \renewcommand{\thefigure}{\theenumi}
 \renewcommand{\thetable}{\theenumi}
 %%
-\begin{enumerate}[label=\thesection.\arabic*
+%\begin{enumerate}[label=\thesection.\arabic*
+%,ref=\thesection.\theenumi]
+
+\subsection{Bernoulli to Gaussian}
+\begin{enumerate}[label=\thesubsection.\arabic*
 ,ref=\thesection.\theenumi]
 
+
+\item {\em Mean :}  The mean of the bernoulli distribution is 
+\begin{align}
+\mu = E\brak{X_i}  = \sum_{k=0}^{1}kp_{X_i}(k) = p = \frac{1}{6}
+\end{align}
+\item {\em Moment:}  The moment of the distribution is defined as
+\begin{align}
+E\brak{X_i^r}  = \sum_{k=0}^{1}k^rp_{X_i}(k) = p = \frac{1}{6}
+\end{align}
+
+%The second moment of the bernoulli distribution is 
+%\begin{align}
+%E\brak{X_i}  = \sum_{k=0}^{1}kp_{X_i}(k) = p = \frac{1}{6}
+%\end{align}
+\item {\em Variance :}  The variance of the bernoulli distribution is defined as
+\begin{align}
+\sigma^2 &= E\brak{X-E\brak{X}}^2  = E\brak{X^2}-E^2\brak{X} 
+\\
+&=p-p^2 = p\brak{1-p} = \frac{5}{36}
+\end{align}
 %
+The standard deviation 
+\begin{align}
+\sigma =  \sqrt{p\brak{1-p}}
+\end{align}
+%
+\item {\em The Gaussian Distribution: }  Define
+\begin{align}
+\label{eq:bern_gauss}
+G = \frac{1}{\sqrt{n}}\sum_{k=1}^{n}\frac{X_i-\mu}{\sigma}
+\end{align}
+%
+\item {\em Approximating Binomial Using Gaussian: } From \eqref{eq:bern_gauss}
+and \eqref{eq:bern_binom},
+%
+\begin{align}
+X & \approx \sigma\sqrt{n}G + n\mu 
+\\
+\implies F_X(k) &= \pr{\sigma\sqrt{n}G + n\mu  \le k }
+\\
+ &= F_G\brak{\frac{k-n\mu}{\sigma\sqrt{n}}} \approx \phi\brak{\frac{k-n\mu}{\sigma\sqrt{n}}} 
+\label{eq:bern_gaussian_cdf}
+\end{align}
+where 
+\begin{align}
+\phi_{X}(x) = \int^{x}_{-\infty} \frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}, -\infty < x < \infty
+\end{align}
+\item The 
+probability density function (PDF) 
+of $G$ is
+%
+\begin{align}
+p_{G}(x) &= \frac{d}{dx}F_{X}(x)
+\\
+ &=  \frac{1}{{\sigma\sqrt{n}}}\phi^{\prime}\brak{\frac{k-n\mu}{\sigma\sqrt{n}}} 
+\label{eq:bern_gaussian_pdf}
+\end{align}
+%
+For large $n$, $G$ is a continuous distribution with probability density function (PDF)
+\begin{align}
+p_G(x) =  \frac{1}{\sqrt{2\pi}}\exp\brak{-\frac{x^2}{2}}, -\infty < x < \infty,
+\end{align}
+%
+\item {\em Evaluationg the Probability: }  From \ref{eq:bern_gaussian_cdf}
+and \ref{eq:bern_gaussian_pdf},
+\begin{align}
+\pr{X \le 1 } &= F_{G}(1) = p_G(0)+p_G(1) 
+\\
+&\approx 
+0.41299463887797094
+\label{eq:bern_gauss_ans}
+\end{align}
+which is close to \eqref{eq:bern_binom_ans}.
+%
+\end{enumerate}
+\subsection{Uniform to Gaussian}
+\begin{enumerate}[label=\thesubsection.\arabic*
+,ref=\thesection.\theenumi]
+
 \item
 Generate $10^6$ samples of the random variable
 %
@@ -14,6 +96,12 @@ X = \sum_{i=1}^{12}U_i -6
 %
 using a C program, where $U_i, i = 1,2,\dots, 12$ are  a set of independent uniform random variables between 0 and 1
 and save in a file called gau.dat
+\\
+\solution Download the following files and execute the  C program.
+\begin{lstlisting}
+codes/cdf/exrand.c
+codes/cdf/coeffs.h
+\end{lstlisting}
 
 %
 \item
@@ -26,6 +114,8 @@ Load gau.dat in python and plot the empirical CDF of $X$ using the samples in ga
 \caption{The CDF of $X$}
 \label{fig:gauss_cdf}
 \end{figure}
+
+
 \item
 Load gau.dat in python and plot the empirical PDF of $X$ using the samples in gau.dat. The PDF of $X$ is defined as
 \begin{align}
@@ -52,6 +142,56 @@ p_{X}(x) = \frac{1}{\sqrt{2\pi}}\exp\brak{-\frac{x^2}{2}}, -\infty < x < \infty,
 \end{align}
 repeat the above exercise theoretically.
 %
+Let $U$ be a uniform random variable between 0 and 1.
+%\begin{enumerate}[label=\thesection.\arabic*
+%,ref=\thesection.\theenumi]
+
+%
+\item
+Load the uni.dat file into python and plot the empirical CDF of $U$ using the samples in uni.dat. The CDF is defined as
+\begin{align}
+F_{U}(x) = \pr{U \le x}
+\end{align}
+\\
+\solution  The following code plots Fig. \ref{fig:uni_cdf}
+\begin{lstlisting}
+codes/cdf/cdf_plot.py
+\end{lstlisting}
+\begin{figure}
+\centering
+\includegraphics[width=\columnwidth]{./figs/cdf/uni_cdf}
+\caption{The CDF of $U$}
+\label{fig:uni_cdf}
+\end{figure}
+
+%\item Generate $10^6$ samples of $U$ using a C program and save into a file called uni.dat .
+%\\
+
+
+%
+\item
+Find a  theoretical expression for $F_{U}(x)$.
+
+\item
+The mean of $U$ is defined as
+%
+\begin{equation}
+E\sbrak{U} = \frac{1}{N}\sum_{i=1}^{N}U_i
+\end{equation}
+%
+and its variance as
+%
+\begin{equation}
+\text{var}\sbrak{U} = E\sbrak{U- E\sbrak{U}}^2 
+\end{equation}
+
+Write a C program to  find the mean and variance of $U$. 
+\item Verify your result theoretically given that
+%
+\begin{equation}
+E\sbrak{U^k} = \int_{-\infty}^{\infty}x^kdF_{U}(x)
+\end{equation}
+
 \end{enumerate}
 
 
