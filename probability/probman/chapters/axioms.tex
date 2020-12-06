@@ -1,7 +1,152 @@
-
+\subsection{Boolean Logic}
+If A and B are two events such that P(A) = $\frac{1}{4}$, P(B) = $\frac{1}{2}$ and P(A $\cap$ B) = $\frac{1}{8}$. find P (not A and not B).
 \renewcommand{\theequation}{\theenumi}
-\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
+
+\item 
+\begin{align}
+A^{\prime}B^{\prime} &=  \brak{A+B}^{\prime}
+\\
+\implies \pr{A^{\prime}B^{\prime}} &=  \pr{\brak{A+B}^{\prime}} 
+\\
+&= 1 - \pr{A+B} 
+\label{eq:axiom_sum_one}
+\end{align}
+\item 
+\begin{align}
+\because A+B &= A\brak{B+B^{\prime}} + B
+\\
+&= B \brak{A +1} + A B^{\prime}
+\\
+&=B + A B^{\prime}
+\\
+\implies \pr{A+B} &= \pr{B + A B^{\prime} }
+\\
+&=\pr{B}+\pr{ A B^{\prime} } 
+\\
+&\because B \brak{ A B^{\prime} } = 0
+\label{eq:axiom_sum_two}
+\end{align}
+\item 
+\begin{align}
+A = A \brak{B+B^{\prime}} =  AB + AB^{\prime}
+\label{eq:axiom_sum_A}
+\end{align}
+and 
+\begin{align}
+\brak{ AB}\brak{  AB^{\prime}} = 0, \because BB^{\prime} = 0
+\label{eq:axiom_sum_AB0}
+\end{align}
+Hence, $AB$ and $AB^{\prime}$ are mutually exclusive and 
+%
+\begin{align}
+\pr{A} = \pr{AB} + \pr{AB^{\prime}}
+\\
+\implies 
+\pr{AB^{\prime}} =  \pr{A} - \pr{AB}
+\label{eq:axiom_sum_ABp}
+\end{align}
+\item Substituting \eqref{eq:axiom_sum_ABp} in \eqref{eq:axiom_sum_two}, 
+\begin{align}
+\pr{A+B} &= \pr{A} + \pr{B} - \pr{AB} 
+\label{eq:axiom_sum_AB}
+\end{align}
+\item Substituting \eqref{eq:axiom_sum_AB} in \eqref{eq:axiom_sum_one}
+\begin{align}
+\pr{A^{\prime}B^{\prime}} &=  1 - \cbrak{\pr{A} + \pr{B} - \pr{AB} }
+\\
+&= 1 - \brak{\frac{1}{4} + \frac{1}{2} - \frac{1}{8}}
+\\
+&= \frac{3}{8}
+\label{eq:axiom_sum_final}
+\end{align}
+\end{enumerate}
+\subsection{Independence}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+
+
+\item Prove that if $E$ and $F$ are independent events, then so are the events $E$ and $F^{\prime}$.\\
+\solution  If $E$ and $F$ are independent,
+\begin{align}
+\pr{EF} = \pr{E}\pr{F}
+\label{eq:axiom_indep}
+\end{align}
+Using Boolean algebra,
+\begin{align}
+E = E \brak{F+F^{\prime}} =  EF + EF^{\prime}
+\label{eq:axiom_indep_E}
+\end{align}
+and 
+\begin{align}
+\brak{ EF}\brak{  EF^{\prime}} = 0, \because FF^{\prime} = 0
+\label{eq:axiom_indep_EF0}
+\end{align}
+Hence, $EF$ and $EF^{\prime}$ are mutually exclusive and 
+%
+\begin{align}
+\pr{E} = \pr{EF} + \pr{EF^{\prime}}
+\\
+\implies 
+\pr{EF^{\prime}} =  \pr{E} - \pr{EF}
+\label{eq:axiom_indep_EFp}
+\end{align}
+Substituting from \eqref{eq:axiom_indep} in \eqref{eq:axiom_indep_EFp},
+%
+\begin{align}
+\pr{EF^{\prime}} &=  \pr{E} \brak{1- \pr{F}}
+&= \pr{E} \pr{F^{\prime}}
+\label{eq:axiom_indep_EFp_ind}
+\end{align}
+%
+\begin{align}
+\because FF^{\prime} = 0, F + F^{\prime} = 1
+\\
+\implies \pr{F}+\pr{F^{\prime}} = 1
+\label{eq:axiom_FFp}
+\end{align}
+By definition, from \eqref{eq:axiom_indep_EFp_ind}, we conclude that $E$ and $F^{\prime}$ are independent.
+\item If A and B are two independent events, then the probability of occurrence of at least one of A and B is given by 1- $P(A^{\prime}) P(B^{\prime})$\\
+\solution 
+\begin{align}
+\because (A+B)(A+B)^{\prime} = 0
+\\
+\implies 1 = \pr{A+B} + \pr{\brak{A+B}^{\prime}}
+\\
+\implies \pr{A+B} = 1 - \pr{A^{\prime}B^{\prime}} 
+\\
+= 1 - \pr{A^{\prime}}\pr{B^{\prime}} 
+\end{align}
+using the definition of independence.
+%\input{./solutions/20-30/chapters/prob/examples/docq24.tex}
+\end{enumerate}
+\subsection{Conditional Probability}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Given that E and F are events such that P(E) = 0.6, P(F) = 0.3 and P(E $\cap$ F) = 0.2, find P(E/F) and P(F/E)?\\
+\item Two events A and B will be independent, if
+\begin{enumerate}
+\item A and B are mutually exclusive
+\item $P(A^{\prime}B^{\prime})$ = [1 – P(A)] [1 – P(B)]
+\item P(A) = P(B)
+\item P(A) + P(B) = 1
+\end{enumerate}
+\solution
+%\input{./solutions/40-50/probability/chapters/Q46/solution.tex}
+\item If A and B are events such that P(A/B) = P(B/A), then
+\begin{enumerate}
+\item A $\subset$ B but A $\neq$ B
+\item A = B
+\item A $\cap$ B = $\phi$
+\item P(A) = P(B)
+\end{enumerate}
+\solution
+%\input{./solutions/20-30/chapters/prob/exercises/docq28.tex}
 
 \item Which of the following cannot be the probability of an event?\\
 (A)$\frac{2}{3}$(B) –1.5 (C) 15 (D) 0.7
@@ -44,7 +189,6 @@ P(A and B fail) = 0.15\\
 \item P(A/B) $\geq$ P(A)
 \item None of these
 \end{enumerate}
-\item Let E and F be events with P(E) = $\frac{3}{5}$, P(F) = $\frac{3}{10}$ and  P(E $\cap$ F) = $\frac{1}{5}$. Are E and F independent?\\
 
 \item Given that the events A and B are such that P(A) = $\frac{1}{2}$, P(A $\cup B$)= $\frac{3}{5}$ and P(B) = p. Find p if they are\\
 (i) mutually exclusive\\
@@ -56,7 +200,6 @@ P(A and B fail) = 0.15\\
 (iii) P(A/B)\\
 (iv) P(B/A)\\
 
-\item If A and B are two events such that P(A) = $\frac{1}{4}$, P(B) = $\frac{1}{2}$ and P(A $\cap$ B) = $\frac{1}{8}$. find P (not A and not B).\\
 
 \item Events A and B are such that P (A) = $\frac{1}{2}$, P(B) = $\frac{7}{12}$ and P(not A or not B) = $\frac{1}{4}$. State whether A and B are independent ?\\
 
@@ -75,18 +218,10 @@ independent?\\
 \item A die is thrown. If E is the event "the number appearing is a multiple of 3" and F be the event "the number appearing is even" then find whether E and F are independent ?\\
 
 \item An unbiased die is thrown twice. Let the event A be "odd number on the first throw" and B the event "odd number on the second throw". Check the independence of the events A and B.\\
-\solution
-\input{./solutions/20-30/chapters/prob/examples/docq21.tex}
+%\solution
+%\input{./solutions/20-30/chapters/prob/examples/docq21.tex}
 
 
-\item Prove that if E and F are independent events, then so are the events E and $F^{'}$.\\
-\solution
-\input{./solutions/20-30/chapters/prob/examples/docq23.tex}
-
-\item If A and B are two independent events, then the probability of occurrence of at least one of A and B is given by 1- $P(A^{'}) P(B^{'})$\\
-\solution
-\input{./solutions/20-30/chapters/prob/examples/docq24.tex}
-\item Given that E and F are events such that P(E) = 0.6, P(F) = 0.3 and P(E $\cap$ F) = 0.2, find P(E/F) and P(F/E)?\\
 
 \item Compute P(A/B), if P(B) = 0.5 and P (A $\cap$ B) = 0.32.\\
 
@@ -106,8 +241,8 @@ independent?\\
 (i) P(E/F) and P(F/E) \\
 (ii) P(E/G) and P(G/E)\\
 (iii) P((E $\cup$ F)/G) and P((E $\cap$ F)/G)\\
-\solution
-\input{./solutions/20-30/chapters/prob/exercises/docq22.tex}
+%\solution
+%\input{./solutions/20-30/chapters/prob/exercises/docq22.tex}
 \item Choose the correct answer, if P(A) = $\frac{1}{2}$, P(B) = 0, then P(A/B) is
 \begin{enumerate}
 \item 0
@@ -115,21 +250,11 @@ independent?\\
 \item not defined
 \item 1
 \end{enumerate}
-\solution
-\input{./solutions/20-30/chapters/prob/exercises/docq27.tex}
+%\solution
+%\input{./solutions/20-30/chapters/prob/exercises/docq27.tex}
 
-\item If A and B are events such that P(A/B) = P(B/A), then
-\begin{enumerate}
-\item A $\subset$ B but A $\neq$ B
-\item A = B
-\item A $\cap$ B = $\phi$
-\item P(A) = P(B)
-\end{enumerate}
-\solution
-\input{./solutions/20-30/chapters/prob/exercises/docq28.tex}
+\item Let E and F be events with P(E) = $\frac{3}{5}$, P(F) = $\frac{3}{10}$ and  P(E $\cap$ F) = $\frac{1}{5}$. Are E and F independent?\\
 
-\item If P(A) = $\frac{3}{5}$ and P(B) = $\frac{1}{5}$, find P (A $\cap$ B) if A and B are independent events.\\\solution
-\input{./solutions/20-30/chapters/prob/exercises/docq29.tex}
 \item One card is drawn at random from a well shuffled deck of 52 cards. In which of the following cases are the events E and F independent?\\
 (i) E : 'the card drawn is a spade'
 F : 'the card drawn is an ace'\\
@@ -137,16 +262,7 @@ F : 'the card drawn is an ace'\\
 F : 'the card drawn is a king'\\
 (iii) E : 'the card drawn is a king or queen'
 F : 'the card drawn is a queen or jack'.\\
-\solution
-\input{./solutions/40-50/probability/chapters/Q43/solution.tex}
-\item Two events A and B will be independent, if
-\begin{enumerate}
-\item A and B are mutually exclusive
-\item $P(A^{\prime}B^{\prime})$ = [1 – P(A)] [1 – P(B)]
-\item P(A) = P(B)
-\item P(A) + P(B) = 1
-\end{enumerate}
-\solution
-\input{./solutions/40-50/probability/chapters/Q46/solution.tex}
+%\solution
+%\input{./solutions/40-50/probability/chapters/Q43/solution.tex}
 \end{enumerate}
 

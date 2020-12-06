@@ -16,7 +16,7 @@ from scipy.stats import binom
 simlen=1000
 
 #Number of hurdles
-n = 10
+n =  10
 
 #Probability of  clearing a hurdle
 p = 1-5/6

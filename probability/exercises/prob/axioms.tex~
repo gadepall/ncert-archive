@@ -4,7 +4,7 @@
 \numberwithin{equation}{enumi}
 
 \item Which of the following cannot be the probability of an event?\\
-(A)$\frac{2}{3}$(B) –1.5 (C) 15 (D) 0.7
+(A)$\frac{2}{3}$(B) –1.5 (C) 15% (D) 0.7
 \item If P(E) = 0.05, what is the probability of ‘not E’?
 \item If A and B are two events such that P(A) $\neq$ 0 and P(B/A) = 1, then
 (A) A $\subset$ B \\
