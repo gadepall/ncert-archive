@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  8 DEC 2020 16:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2021.1.11)  11 JAN 2021 17:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1939,33 +1939,6 @@ File: ot1txtt.fd 2000/12/15 v3.1
 \c@lemma=\count394
 \c@example=\count395
 \c@rem=\count396
-
-
-pdfTeX warning: pdflatex (file /data/data/com.termux/files/home/texmf/tex/latex
-/logo/iith_logo.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
-on <1.5> allowed
-<iith_logo.pdf, id=111, 359.3425pt x 486.81876pt>
-File: iith_logo.pdf Graphic file (type pdf)
-<use iith_logo.pdf>
-Package pdftex.def Info: iith_logo.pdf  used on input line 250.
-(pdftex.def)             Requested size: 71.86722pt x 97.36201pt.
-LaTeX Font Info:    Calculating math sizes for size <24> on input line 250.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 22.79993pt on input line 250.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 15.95987pt on input line 250.
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 250.
-<tlc.pdf, id=112, 597.51233pt x 845.0471pt>
-File: tlc.pdf Graphic file (type pdf)
-<use tlc.pdf>
-Package pdftex.def Info: tlc.pdf  used on input line 250.
-(pdftex.def)             Requested size: 143.40588pt x 202.81544pt.
-
-Overfull \hbox (14.40588pt too wide) in paragraph at lines 250--250
-[][] 
- []
-
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 250.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 13.29996pt on input line 250.
@@ -1973,48 +1946,21 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 9.30992pt on input line 250.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 6.64998pt on input line 250.
-File: iith_logo.pdf Graphic file (type pdf)
-<use iith_logo.pdf>
-Package pdftex.def Info: iith_logo.pdf  used on input line 250.
-(pdftex.def)             Requested size: 71.86722pt x 97.36201pt.
-File: tlc.pdf Graphic file (type pdf)
-<use tlc.pdf>
-Package pdftex.def Info: tlc.pdf  used on input line 250.
-(pdftex.def)             Requested size: 143.40588pt x 202.81544pt.
-
-Overfull \hbox (14.40588pt too wide) in paragraph at lines 250--250
-[][] 
- []
-
-File: iith_logo.pdf Graphic file (type pdf)
-<use iith_logo.pdf>
-Package pdftex.def Info: iith_logo.pdf  used on input line 250.
-(pdftex.def)             Requested size: 71.86722pt x 97.36201pt.
-File: tlc.pdf Graphic file (type pdf)
-<use tlc.pdf>
-Package pdftex.def Info: tlc.pdf  used on input line 250.
-(pdftex.def)             Requested size: 143.40588pt x 202.81544pt.
-
-Overfull \hbox (14.40588pt too wide) in paragraph at lines 250--250
-[][] 
- []
-
-(./gvv_ncert_probman.toc)
+ (./gvv_ncert_probman.toc)
 \tf@toc=\write5
 \openout5 = `gvv_ncert_probman.toc'.
 
- (./chapters/axioms.tex [1
+ (./chapters/axioms.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
 Non-PDF special ignored!
 <special> papersize=614.295pt,794.96999pt
 {/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/map/pdftex/updm
 ap/pdftex.map}
 
 
- </data/data/com.termux/files/home/texmf/tex/latex/logo/iith_logo.pdf> </data/d
-ata/com.termux/files/home/texmf/tex/latex/logo/tlc.pdf>]
-Underfull \vbox (badness 5924) has occurred while \output is active []
-
-
+]
 Underfull \hbox (badness 10000) in paragraph at lines 130--132
 
  []
@@ -2039,25 +1985,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./figs/sum/pmf.png, id=274, 462.528pt x 346.896pt>
+<./figs/sum/pmf.png, id=262, 462.528pt x 346.896pt>
 File: ./figs/sum/pmf.png Graphic file (type png)
 <use ./figs/sum/pmf.png>
 Package pdftex.def Info: ./figs/sum/pmf.png  used on input line 179.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
- [4 <./figs/sum/pmf.png>]) (./chapters/bernoulli.tex (./tables/bernoulli/bernou
-lli.tex
+)
+(./chapters/bernoulli.tex [4 <./figs/sum/pmf.png>]
+(./tables/bernoulli/bernoulli.tex
 \gnumericTableWidth=\skip89
 \gnumericTableWidthComplete=\skip90
 \gnumericMultiRowLength=\skip91
 \gnumericColA=\skip92
 \gnumericColB=\skip93
 \gnumericColC=\skip94
-)
-Underfull \vbox (badness 6016) has occurred while \output is active []
-
-)
-(./chapters/binomial.tex
-Underfull \vbox (badness 1708) has occurred while \output is active []
+)) (./chapters/binomial.tex
+Underfull \vbox (badness 3601) has occurred while \output is active []
 
  [5])
 (./chapters/clt.tex
@@ -2065,23 +2008,30 @@ Underfull \hbox (badness 6691) in paragraph at lines 43--46
 []\OT1/txr/m/it/12 Approximating Bi-no-mial Us-ing Gaus-sian:
  []
 
-<./figs/clt/gauss_cdf.pdf, id=344, 462.52798pt x 346.89601pt>
+
+Underfull \vbox (badness 6094) has occurred while \output is active []
+
+<./figs/clt/gauss_cdf.pdf, id=333, 462.52798pt x 346.89601pt>
 File: ./figs/clt/gauss_cdf.pdf Graphic file (type pdf)
 <use ./figs/clt/gauss_cdf.pdf>
 Package pdftex.def Info: ./figs/clt/gauss_cdf.pdf  used on input line 113.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-[6]
-<./figs/clt/gauss_pdf.pdf, id=387, 462.52798pt x 346.89601pt>
+ [6]
+<./figs/clt/gauss_pdf.pdf, id=373, 462.52798pt x 346.89601pt>
 File: ./figs/clt/gauss_pdf.pdf Graphic file (type pdf)
 <use ./figs/clt/gauss_pdf.pdf>
 Package pdftex.def Info: ./figs/clt/gauss_pdf.pdf  used on input line 133.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-<./figs/cdf/uni_cdf.pdf, id=389, 462.52798pt x 346.89601pt>
+
+Underfull \vbox (badness 3302) has occurred while \output is active []
+
+<./figs/cdf/uni_cdf.pdf, id=375, 462.52798pt x 346.89601pt>
 File: ./figs/cdf/uni_cdf.pdf Graphic file (type pdf)
 <use ./figs/cdf/uni_cdf.pdf>
 Package pdftex.def Info: ./figs/cdf/uni_cdf.pdf  used on input line 162.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./chapters/stochastic.tex
+)
+(./chapters/stochastic.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <./figs/clt/gauss_cdf.pdf> <./figs/clt/gauss_pdf.pdf
@@ -2093,7 +2043,7 @@ le pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./figs/cdf/uni_cdf.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
 >]
-<./figs/stochastic/rectangle.png, id=501, 462.528pt x 346.896pt>
+<./figs/stochastic/rectangle.png, id=489, 462.528pt x 346.896pt>
 File: ./figs/stochastic/rectangle.png Graphic file (type png)
 <use ./figs/stochastic/rectangle.png>
 Package pdftex.def Info: ./figs/stochastic/rectangle.png  used on input line 11
@@ -2116,11 +2066,11 @@ Package rerunfilecheck Info: File `gvv_ncert_probman.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 335.
  ) 
 Here is how much of TeX's memory you used:
- 42934 strings out of 480608
- 997540 string characters out of 5892806
- 1381681 words of memory out of 5000000
- 57671 multiletter control sequences out of 15000+600000
- 620850 words of font info for 219 fonts, out of 8000000 for 9000
+ 42893 strings out of 480608
+ 996835 string characters out of 5892806
+ 1380681 words of memory out of 5000000
+ 57630 multiletter control sequences out of 15000+600000
+ 611991 words of font info for 193 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,16n,91p,773b,1160s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
@@ -2139,10 +2089,10 @@ com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
 ></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_probman.pdf (9 pages, 721808 bytes).
+Output written on gvv_ncert_probman.pdf (9 pages, 213050 bytes).
 PDF statistics:
- 665 PDF objects out of 1000 (max. 8388607)
- 549 compressed objects within 6 object streams
- 257 named destinations out of 1000 (max. 500000)
- 304 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 653 PDF objects out of 1000 (max. 8388607)
+ 544 compressed objects within 6 object streams
+ 258 named destinations out of 1000 (max. 500000)
+ 294 words of extra memory for PDF output out of 10000 (max. 10000000)
 
