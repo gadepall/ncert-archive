@@ -17,7 +17,7 @@
 %\restoresymbol{TXF}{iint}
 %\usepackage{wasysym}
 \usepackage{amsthm}
-\usepackage{iithtlc}
+%\usepackage{iithtlc}
 \usepackage{mathrsfs}
 \usepackage{txfonts}
 \usepackage{stfloats}
@@ -139,17 +139,17 @@ columns=fullflexible
 \newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
 \newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
 %\numberwithin{equation}{section}
-\numberwithin{equation}{subsection}
+%\numberwithin{equation}{subsection}
 %\numberwithin{problem}{section}
 %\numberwithin{definition}{section}
-\makeatletter
-\@addtoreset{figure}{problem}
-\makeatother
+% \makeatletter
+% \@addtoreset{figure}{problem}
+% \makeatother
 
-\let\StandardTheFigure\thefigure
+% \let\StandardTheFigure\thefigure
 \let\vec\mathbf
 %\renewcommand{\thefigure}{\theproblem.\arabic{figure}}
-\renewcommand{\thefigure}{\theproblem}
+%\renewcommand{\thefigure}{\theproblem}
 %\setlist[enumerate,1]{before=\renewcommand\theequation{\theenumi.\arabic{equation}}
 %\counterwithin{equation}{enumi}
 
@@ -165,9 +165,9 @@ columns=fullflexible
 \vspace{3cm}
 
 \title{
-	\logo{
+%	\logo{
 Constructions using Python
-	}
+%	}
 }
 \author{ G V V Sharma$^{*}$% <-this % stops a space
 	\thanks{*The author is with the Department
@@ -248,9 +248,9 @@ Constructions using Python
 
 \bigskip
 
-\renewcommand{\thefigure}{\theenumi}
-\renewcommand{\thetable}{\theenumi}
-%\renewcommand{\theequation}{\theenumi}
+% \renewcommand{\thefigure}{\theenumi}
+% \renewcommand{\thetable}{\theenumi}
+% \renewcommand{\theequation}{\theenumi}
 
 %\begin{abstract}
 %%\boldmath
@@ -302,17 +302,26 @@ svn co https://github.com/gadepall/school/trunk/ncert/constructions/figs
 
 \section{Examples}
 \renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
 \begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
 \numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
 \input{./chapters/triangle.tex}
 %\section{Quadrilateral}
 \input{./chapters/quad.tex}
 \end{enumerate}
 
 \section{Exercises}
+\renewcommand{\thefigure}{\theenumi}
 \renewcommand{\theequation}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
 \begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
 \numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
 \input{./chapters/constr/tri_geo_const.tex}
 \input{./chapters/constr/quad_geo_const.tex}
 \input{./chapters/constr/circ_const_exer.tex}
