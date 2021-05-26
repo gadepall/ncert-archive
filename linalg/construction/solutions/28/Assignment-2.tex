@@ -1,0 +1,21 @@
+
+The rough figure of the expected quadrilateral ABCD is given in  Fig. \ref{constr/28/fig:myfigure}
+
+\begin{figure}[!ht]
+    \centering
+    \resizebox{\columnwidth}{!}{\input{solutions/28/Figs/figure2.tikz}}
+    \caption{Rough Figure}
+    \label{constr/28/fig:myfigure}	
+    \end{figure}
+    From the given information, in $\triangle ABD$,
+\begin{align}
+\cos{A}&=\frac{ \norm{\vec{B}-\vec{A}}^2+ \norm{\vec{D}-\vec{A}}^2- \norm{\vec{D}-\vec{B}}^2}{2\norm{\vec{B}-\vec{A}} \norm{\vec{D}-\vec{A}}}
+\\
+% \cos{A}=\frac{5^2+6^2-5^2}{2\times5\times6}
+% \\
+\implies \angle A&=\cos^{-1}(0.6) \approx 53.13 \degree
+\\
+&\ne 50 \degree
+\end{align}
+ resulting in a contradiction.
+Therefore construction of quadrilateral with given measurements is not possible.

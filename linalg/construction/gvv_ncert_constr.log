@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  20 MAY 2021 14:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  25 MAY 2021 14:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1741,26 +1741,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 (./figs/quad/square.tex)) (./chapters/constr/tri_geo_const.tex [3]
-(./solutions/23/main.tex
-<solutions/23/RIGHT_TRIANGLE.png, id=151, 390.45876pt x 262.9825pt>
+(./solutions/15/main.tex
+<solutions/15/Fig.png, id=151, 379.4175pt x 262.9825pt>
+File: solutions/15/Fig.png Graphic file (type png)
+<use solutions/15/Fig.png>
+Package pdftex.def Info: solutions/15/Fig.png  used on input line 8.
+(pdftex.def)             Requested size: 252.0pt x 174.66847pt.
+) (./solutions/23/main.tex
+<solutions/23/RIGHT_TRIANGLE.png, id=154, 390.45876pt x 262.9825pt>
 File: solutions/23/RIGHT_TRIANGLE.png Graphic file (type png)
 <use solutions/23/RIGHT_TRIANGLE.png>
 Package pdftex.def Info: solutions/23/RIGHT_TRIANGLE.png  used on input line 50
 .
 (pdftex.def)             Requested size: 252.0pt x 169.72873pt.
-) (./solutions/24/Assignment1.tex
-Underfull \vbox (badness 1596) has occurred while \output is active []
 
- [4 <./solutions/23/RIGHT_TRIANGLE.png>]
-<solutions/24/Figure1.png, id=188, 380.42125pt x 262.9825pt>
+Underfull \vbox (badness 1430) has occurred while \output is active []
+
+ [4 <./solutions/15/Fig.png>]) (./solutions/24/Assignment1.tex
+<solutions/24/Figure1.png, id=189, 380.42125pt x 262.9825pt>
 File: solutions/24/Figure1.png Graphic file (type png)
 <use solutions/24/Figure1.png>
 Package pdftex.def Info: solutions/24/Figure1.png  used on input line 27.
 (pdftex.def)             Requested size: 252.0pt x 174.21101pt.
-) (./solutions/25/Assignment-1.tex
+)
+(./solutions/25/Assignment-1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/25/Figures/figure1.png, id=190, 379.4175pt x 262.9825pt>
+<solutions/25/Figures/figure1.png, id=191, 379.4175pt x 262.9825pt>
 File: solutions/25/Figures/figure1.png Graphic file (type png)
 <use solutions/25/Figures/figure1.png>
 Package pdftex.def Info: solutions/25/Figures/figure1.png  used on input line 3
@@ -1768,7 +1775,11 @@ Package pdftex.def Info: solutions/25/Figures/figure1.png  used on input line 3
 (pdftex.def)             Requested size: 252.0pt x 174.66847pt.
 )
 (./solutions/26/ASSIGNMENT1.tex
-<solutions/26/diagram-1.png, id=192, 576.65437pt x 592.46344pt>
+Underfull \vbox (badness 7888) has occurred while \output is active []
+
+ [5 <./solutions/23/RIGHT_TRIANGLE.png> <./solutions/24/Figure1.png> <./solutio
+ns/25/Figures/figure1.png>]
+<solutions/26/diagram-1.png, id=218, 576.65437pt x 592.46344pt>
 File: solutions/26/diagram-1.png Graphic file (type png)
 <use solutions/26/diagram-1.png>
 Package pdftex.def Info: solutions/26/diagram-1.png  used on input line 12.
@@ -1788,47 +1799,63 @@ Overfull \hbox (23.39996pt too wide) in paragraph at lines 158--323
  [][] 
  []
 
-)) (./chapters/constr/quad_geo_const.tex
-Underfull \hbox (badness 1430) in paragraph at lines 10--11
+)) (./chapters/constr/quad_geo_const.tex (./solutions/28/Assignment-2.tex
+(./solutions/28/Figs/figure2.tikz)
+Underfull \vbox (badness 1960) has occurred while \output is active []
+
+)
+Underfull \hbox (badness 1430) in paragraph at lines 13--14
 []\OT1/txr/m/n/12 Construct a quadri-lat-eral $\OML/txmi/m/it/12 ABCD$ \OT1/txr
 /m/n/12 such that
  []
 
-[5 <./solutions/24/Figure1.png> <./solutions/25/Figures/figure1.png>]
 (./solutions/32/LaTex Codes/Assignment2.tex
-Underfull \vbox (badness 2418) has occurred while \output is active []
+Underfull \vbox (badness 5374) has occurred while \output is active []
 
-<solutions/32/Figure2.png, id=223, 395.076pt x 234.8775pt>
+ [6 <./solutions/26/diagram-1.png>]
+<solutions/32/Figure2.png, id=246, 395.076pt x 234.8775pt>
 File: solutions/32/Figure2.png Graphic file (type png)
 <use solutions/32/Figure2.png>
 Package pdftex.def Info: solutions/32/Figure2.png  used on input line 44.
 (pdftex.def)             Requested size: 252.0pt x 149.81932pt.
+) (./solutions/34/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<solutions/34/GOLDfig.png, id=249, 379.4175pt x 262.9825pt>
+File: solutions/34/GOLDfig.png Graphic file (type png)
+<use solutions/34/GOLDfig.png>
+Package pdftex.def Info: solutions/34/GOLDfig.png  used on input line 28.
+(pdftex.def)             Requested size: 252.0pt x 174.66847pt.
 )
-Underfull \hbox (badness 1472) in paragraph at lines 19--20
+Underfull \hbox (badness 1472) in paragraph at lines 26--27
 []\OT1/txr/m/n/12 Can you con-struct the above quadri-lat-eral
  []
 
-
-Underfull \hbox (badness 2111) in paragraph at lines 22--23
+[7 <./solutions/32/Figure2.png> <./solutions/34/GOLDfig.png>]
+Underfull \hbox (badness 2111) in paragraph at lines 29--30
 []\OT1/txr/m/n/12 Construct $\OML/txmi/m/it/12 PLAN$ \OT1/txr/m/n/12 where $\OM
 L/txmi/m/it/12 PL \OT1/txr/m/n/12 = 4\OML/txmi/m/it/12 ; LA \OT1/txr/m/n/12 =
  []
 
-[6 <./solutions/26/diagram-1.png> <./solutions/32/Figure2.png>]
-Underfull \hbox (badness 1360) in paragraph at lines 25--26
+
+Underfull \hbox (badness 1360) in paragraph at lines 32--33
 []\OT1/txr/m/n/12 Construct $\OML/txmi/m/it/12 TRUE$ \OT1/txr/m/n/12 with $\OML
 /txmi/m/it/12 TR \OT1/txr/m/n/12 = 3\OML/txmi/m/it/12 :\OT1/txr/m/n/12 5\OML/tx
 mi/m/it/12 ; RU \OT1/txr/m/n/12 =
  []
 
 ) (./chapters/constr/circ_const_exer.tex (./solutions/52/Assignment3.tex
-<solutions/52/Figure3.png, id=260, 387.4475pt x 262.9825pt>
+<solutions/52/Figure3.png, id=283, 387.4475pt x 262.9825pt>
 File: solutions/52/Figure3.png Graphic file (type png)
 <use solutions/52/Figure3.png>
 Package pdftex.def Info: solutions/52/Figure3.png  used on input line 30.
 (pdftex.def)             Requested size: 252.0pt x 171.04893pt.
 ))
-[7 <./solutions/52/Figure3.png>]
+Underfull \vbox (badness 1642) has occurred while \output is active []
+
+ [8 <./solutions/52/Figure3.png>] [9
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 333.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 333.
  (./gvv_ncert_constr.aux)
@@ -1839,10 +1866,10 @@ Package rerunfilecheck Info: File `gvv_ncert_constr.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 333.
  ) 
 Here is how much of TeX's memory you used:
- 43072 strings out of 481239
- 984809 string characters out of 5920377
- 1389214 words of memory out of 5000000
- 57245 multiletter control sequences out of 15000+600000
+ 43128 strings out of 481239
+ 985879 string characters out of 5920377
+ 1389361 words of memory out of 5000000
+ 57268 multiletter control sequences out of 15000+600000
  618730 words of font info for 215 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,19n,98p,508b,1594s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1852,14 +1879,15 @@ t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
 fonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
-/utmri8a.pfb>
-Output written on gvv_ncert_constr.pdf (7 pages, 191837 bytes).
+are/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
+imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on gvv_ncert_constr.pdf (9 pages, 220438 bytes).
 PDF statistics:
- 361 PDF objects out of 1000 (max. 8388607)
- 310 compressed objects within 4 object streams
- 179 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 399 PDF objects out of 1000 (max. 8388607)
+ 341 compressed objects within 4 object streams
+ 195 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,40 @@
+\begin{tikzpicture}
+[scale=1.5,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+
+
+%Coordinates of D
+
+\def\p{3.6}
+\def\q{{4.8}}
+
+%Labeling points
+\node (D) at (\p,\q)[point,label=above right:$D$] {};
+\node (A) at (0, 0)[point,label=below left:$A$] {};
+\node (B) at (5, 0)[point,label=below right:$B$] {};
+
+
+%Coordinates of C
+
+\node (C) at (3,2.64)[point,label=above right:$C$] {};
+
+
+%Drawing quadrilateral ABCD
+\draw (A) -- (B) --  (C) --(D)--(A);
+\draw (A) -- (C);
+\draw (B) --(D);
+
+
+\tkzMarkAngle[fill=green!20](B,A,D)
+\draw (1,0.5) node [anchor=north west][inner sep=0.75pt]   [align=left] {$50^o$};
+
+\draw (3,-0.2) node [anchor=north west][inner sep=0.75pt]   [align=left] {$5$};
+
+\draw (2,3.2) node [anchor=north west][inner sep=0.75pt]   [align=left] {$6$};
+
+\draw (4.2,3.2) node [anchor=north west][inner sep=0.75pt]   [align=left] {$5$};
+
+\draw (2,1.5) node [anchor=north west][inner sep=0.75pt]   [align=left] {$4$};
+
+\end{tikzpicture}
+
