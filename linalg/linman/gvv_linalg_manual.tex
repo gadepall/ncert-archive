@@ -19,7 +19,7 @@
 %\restoresymbol{TXF}{iint}
 %\usepackage{wasysym}
 \usepackage{amsthm}
-\usepackage{iithtlc}
+%\usepackage{iithtlc}
 \usepackage{mathrsfs}
 \usepackage{txfonts}
 \usepackage{stfloats}
@@ -169,9 +169,9 @@ columns=fullflexible
 \vspace{3cm}
 
 \title{
-	\logo{
+%	\logo{
 Linear Algebra and Matrices
-	}
+%	}
 }
 \author{ G V V Sharma$^{*}$% <-this % stops a space
 	\thanks{*The author is with the Department
@@ -354,7 +354,11 @@ This book provides a simple introduction to linear algebra and matrix analysis. 
 \input{./chapters/opt/lp_exam.tex}
 
 \appendices
-\section{Proofs for the Conic Sections}
+\section{Proof for the vector form of a conic section}
+\label{app:conicdef}
+\input{./chapters/conics/app_conicdef.tex}
+
+\section{Proofs for the Parabola}
 \label{app:parab}
 \input{./chapters/conics/appendix.tex}
 

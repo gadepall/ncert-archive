@@ -1,22 +1,67 @@
 \renewcommand{\theequation}{\theenumi}
 \begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
-\item The general equation of second degree is given by
+\item Let $\vec{P}$ be a point such that the ratio of its distance from a fixed point $\vec{F}$ and the distance ($d$) from a fixed line 
+$L: \vec{n}^T\vec{x}=c$ is constant, given by 
+\label{conics/30/def}
 \begin{align}
-ax^2+2bxy+cy^2+2dx+2ey+f=0
+\frac{\norm{\vec{P}-\vec{F}}}{d} = e    
 \end{align}
-and can be expressed as
+The locus of $\vec{P}$ such is known as a conic section. The line $L$ is known as the directrix and the point $\vec{F}$ is the focus. $e$ is defined to be 
+the eccentricity of the conic.  
+\begin{enumerate}
+    \item For $e = 1$, the conic is a parabola
+    \item For $e < 1$, the conic is an ellipse
+    \item For $e > 1$, the conic is a hyperbola
+\end{enumerate}
+
+% \item     
+% \begin{definition}
+% \end{definition}
+\item 
+%\begin{theorem}
+The equation of  a conic is given by 
 \begin{align}
-\label{eq:conic_quad_form}
-\vec{x}^T\vec{V}\vec{x}+2\vec{u}^T\vec{x}+f=0
-\end{align}
-%
-where
+    \label{eq:conic_quad_form}
+    \vec{x}^T\vec{V}\vec{x}+2\vec{u}^T\vec{x}+f=0
+    \end{align}
+where     
 \begin{align}
-\vec{V} &= \vec{V}^T = \myvec{a & b \\ b & c}
+\vec{V} &= t\vec{I}-\vec{n}\vec{n}^T, 
 \\
-\vec{u} &= \myvec{d & e}
+\vec{u} &= c\vec{n}-t\vec{F}, 
+\\
+f &= t\norm{\vec{F}}^2-c^2
+    \end{align}
+    
+% \begin{align}
+% \vec{x}^T(t\vec{I}-\vec{n}\vec{n}^T)\vec{x}+2(c\vec{n}-t\vec{F})^T\vec{x}+t\norm{\vec{F}}^2-c^2&=0
+% \end{align}
+%
+and 
+\begin{align}
+    t=\frac{\norm{\vec{n}}^2}{e^2}
 \end{align}
+%\end{theorem}
+
+\solution See Appendix \ref{app:conicdef}
+
+% \item The general equation of second degree is given by
+% \begin{align}
+% ax^2+2bxy+cy^2+2dx+2ey+f=0
+% \end{align}
+% and can be expressed as
+% \begin{align}
+% \label{eq:conic_quad_form}
+% \vec{x}^T\vec{V}\vec{x}+2\vec{u}^T\vec{x}+f=0
+% \end{align}
+% %
+% where
+% \begin{align}
+% \vec{V} &= \vec{V}^T = \myvec{a & b \\ b & c}
+% \\
+% \vec{u} &= \myvec{d & e}
+% \end{align}
 
 \item {\em (Affine Transformation and Eigenvalue Decompostion)}
 Using 
