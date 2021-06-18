@@ -28,6 +28,7 @@ Radius & $d$=7  \\
 \end{table}
 %
 \begin{lemma}
+  \label{lemma/linman/circ/contact/final}
   The points of contact for the tangent drawn from a point 
 %
 \begin{align}
@@ -36,16 +37,11 @@ Radius & $d$=7  \\
   %
   to the circle are given by 
   \begin{align}
-    \vec{x} = \frac{r^2}{d}\vec{e}_1 + \pm r\sqrt{1 - \frac{r^2}{d^2}} \vec{e}_2
+    \vec{x} = \frac{r^2}{d}\vec{e}_1  \pm r\sqrt{1 - \frac{r^2}{d^2}} \vec{e}_2
     \label{linman/circ/contact/final}
    \end{align}
 %   
 \end{lemma}
-Let the point at distance $d$ from $\vec{O}$ be 
-%
-\begin{align}
-\vec{P} = d\vec{e}_1, \text{ where } \vec{e}_1 = \myvec{1\\0}
-\end{align}
 If $\vec{x}$ be a point of contact for the tangent from $\vec{P}$, 
 \begin{align}
 PR &\perp RO
@@ -84,4 +80,23 @@ and their points of contact after substituting the numerical values in \eqref{li
   \label{fig:Tangent lines to circle of radius 3 units.}
 \end{figure}
 %
+\item Draw a  pair of tangents to a circle of radius 5 units  which are inclined to each other at an angle of $60\degree$.
+\\
+\solution  The angle between the tangents from $\vec{P}$ is given by 
+\begin{lemma}
+  Given a circle of radius $r$ and angle $\theta$ between the tangents, the intersection of the tangents and points of contact are
+  given by Lemma   \ref{lemma/linman/circ/contact/final}  where 
+  \begin{align}
+    \implies d &= r\sin \frac{\theta}{2}
+  \end{align}
+%  
+\end{lemma}
+\begin{proof}
+  From Fig.  \ref{fig:Tangent lines to circle of radius 3 units.},
+\begin{align}
+  \sin \frac{\theta}{2} &= \frac{r}{d}
+  \\
+  \implies d &= r\sin \frac{\theta}{2}
+\end{align}
+\end{proof}
 \end{enumerate}
