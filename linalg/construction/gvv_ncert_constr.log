@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  12 JUN 2021 09:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  16 JUN 2021 19:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1853,42 +1853,51 @@ File: solutions/15/Fig.png Graphic file (type png)
 <use solutions/15/Fig.png>
 Package pdftex.def Info: solutions/15/Fig.png  used on input line 8.
 (pdftex.def)             Requested size: 252.0pt x 174.66847pt.
-) (./solutions/triangle/20/Main.tex
-Underfull \vbox (badness 1655) has occurred while \output is active []
-
-<solutions/triangle/20/Figure01.png, id=312, 379.4175pt x 263.98625pt>
+) (./solutions/triangle/16/main.tex
+<solutions/triangle/16/Diagram.png, id=312, 379.4175pt x 262.9825pt>
+File: solutions/triangle/16/Diagram.png Graphic file (type png)
+<use solutions/triangle/16/Diagram.png>
+Package pdftex.def Info: solutions/triangle/16/Diagram.png  used on input line 
+16.
+(pdftex.def)             Requested size: 252.0pt x 174.66847pt.
+)
+(./solutions/triangle/20/Main.tex
+<solutions/triangle/20/Figure01.png, id=314, 379.4175pt x 263.98625pt>
 File: solutions/triangle/20/Figure01.png Graphic file (type png)
 <use solutions/triangle/20/Figure01.png>
 Package pdftex.def Info: solutions/triangle/20/Figure01.png  used on input line
  17.
 (pdftex.def)             Requested size: 252.0pt x 175.33516pt.
-)
-(./solutions/23/main.tex [9 <./solutions/triangle/12/fig.png> <./solutions/15/F
-ig.png> <./solutions/triangle/20/Figure01.png>]
-<solutions/23/RIGHT_TRIANGLE.png, id=342, 390.45876pt x 262.9825pt>
+) (./solutions/23/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./solutions/triangle/12/fig.png> <./solutions/15/Fig.png> <./solutions/tri
+angle/16/Diagram.png>]
+<solutions/23/RIGHT_TRIANGLE.png, id=343, 390.45876pt x 262.9825pt>
 File: solutions/23/RIGHT_TRIANGLE.png Graphic file (type png)
 <use solutions/23/RIGHT_TRIANGLE.png>
 Package pdftex.def Info: solutions/23/RIGHT_TRIANGLE.png  used on input line 50
 .
 (pdftex.def)             Requested size: 252.0pt x 169.72873pt.
-)
-(./solutions/24/Assignment1.tex
-<solutions/24/Figure1.png, id=344, 380.42125pt x 262.9825pt>
+) (./solutions/24/Assignment1.tex
+<solutions/24/Figure1.png, id=345, 380.42125pt x 262.9825pt>
 File: solutions/24/Figure1.png Graphic file (type png)
 <use solutions/24/Figure1.png>
 Package pdftex.def Info: solutions/24/Figure1.png  used on input line 27.
 (pdftex.def)             Requested size: 252.0pt x 174.21101pt.
 ) (./solutions/25/Assignment-1.tex
-<solutions/25/Figures/figure1.png, id=346, 379.4175pt x 262.9825pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./solutions/triangle/20/Figure01.png> <./solutions/23/RIGHT_TRIANGLE.png>
+ <./solutions/24/Figure1.png>]
+<solutions/25/Figures/figure1.png, id=374, 379.4175pt x 262.9825pt>
 File: solutions/25/Figures/figure1.png Graphic file (type png)
 <use solutions/25/Figures/figure1.png>
 Package pdftex.def Info: solutions/25/Figures/figure1.png  used on input line 3
 9.
 (pdftex.def)             Requested size: 252.0pt x 174.66847pt.
-)
-(./solutions/26/ASSIGNMENT1.tex [10 <./solutions/23/RIGHT_TRIANGLE.png> <./solu
-tions/24/Figure1.png> <./solutions/25/Figures/figure1.png>]
-<solutions/26/diagram-1.png, id=377, 576.65437pt x 592.46344pt>
+) (./solutions/26/ASSIGNMENT1.tex
+<solutions/26/diagram-1.png, id=376, 576.65437pt x 592.46344pt>
 File: solutions/26/diagram-1.png Graphic file (type png)
 <use solutions/26/diagram-1.png>
 Package pdftex.def Info: solutions/26/diagram-1.png  used on input line 12.
@@ -1910,18 +1919,25 @@ Overfull \hbox (23.39996pt too wide) in paragraph at lines 158--323
  []
 
 ) (./solutions/triangle/27/2/main.tex
-Underfull \hbox (badness 4013) in paragraph at lines 120--4
+Underfull \hbox (badness 4013) in paragraph at lines 125--4
 []\OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 From the given in-for-ma-tion,
  []
 
-<solutions/triangle/27/2/triangle1.pdf, id=380, 433.62pt x 289.08pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<solutions/triangle/27/2/triangle1.pdf, id=379, 433.62pt x 289.08pt>
 File: solutions/triangle/27/2/triangle1.pdf Graphic file (type pdf)
 <use solutions/triangle/27/2/triangle1.pdf>
 Package pdftex.def Info: solutions/triangle/27/2/triangle1.pdf  used on input l
 ine 15.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
-) (./solutions/triangle/27/3/Assignment-1.tex
-<solutions/triangle/27/3/Triangle_ABC.PNG, id=382, 299.61937pt x 199.49532pt>
+)
+(./solutions/triangle/27/3/Assignment-1.tex
+Underfull \vbox (badness 1242) has occurred while \output is active []
+
+ [11 <./solutions/25/Figures/figure1.png> <./solutions/26/diagram-1.png>]
+<solutions/triangle/27/3/Triangle_ABC.PNG, id=406, 299.61937pt x 199.49532pt>
 File: solutions/triangle/27/3/Triangle_ABC.PNG Graphic file (type png)
 <use solutions/triangle/27/3/Triangle_ABC.PNG>
 Package pdftex.def Info: solutions/triangle/27/3/Triangle_ABC.PNG  used on inpu
@@ -1929,18 +1945,18 @@ t line 25.
 (pdftex.def)             Requested size: 252.0pt x 167.79408pt.
 ))
 (./chapters/constr/quad_geo_const.tex (./solutions/28/Assignment-2.tex
-(./solutions/28/Figs/figure2.tikz) [11 <./solutions/26/diagram-1.png> <./soluti
-ons/triangle/27/2/triangle1.pdf>])
-Underfull \vbox (badness 1264) has occurred while \output is active []
-
-
+(./solutions/28/Figs/figure2.tikz))
 Underfull \hbox (badness 1430) in paragraph at lines 13--14
 []\OT1/txr/m/n/12 Construct a quadri-lat-eral $\OML/txmi/m/it/12 ABCD$ \OT1/txr
 /m/n/12 such that
  []
 
 (./solutions/32/LaTex Codes/Assignment2.tex
-<solutions/32/Figure2.png, id=436, 395.076pt x 234.8775pt>
+Underfull \vbox (badness 5374) has occurred while \output is active []
+
+ [12 <./solutions/triangle/27/2/triangle1.pdf> <./solutions/triangle/27/3/Trian
+gle_ABC.PNG>]
+<solutions/32/Figure2.png, id=461, 395.076pt x 234.8775pt>
 File: solutions/32/Figure2.png Graphic file (type png)
 <use solutions/32/Figure2.png>
 Package pdftex.def Info: solutions/32/Figure2.png  used on input line 44.
@@ -1948,8 +1964,7 @@ Package pdftex.def Info: solutions/32/Figure2.png  used on input line 44.
 ) (./solutions/34/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./solutions/triangle/27/3/Triangle_ABC.PNG>]
-<solutions/34/GOLDfig.png, id=468, 379.4175pt x 262.9825pt>
+<solutions/34/GOLDfig.png, id=464, 379.4175pt x 262.9825pt>
 File: solutions/34/GOLDfig.png Graphic file (type png)
 <use solutions/34/GOLDfig.png>
 Package pdftex.def Info: solutions/34/GOLDfig.png  used on input line 28.
@@ -1959,20 +1974,14 @@ Underfull \hbox (badness 1472) in paragraph at lines 26--27
 []\OT1/txr/m/n/12 Can you con-struct the above quadri-lat-eral
  []
 
-
-Underfull \vbox (badness 6842) has occurred while \output is active []
-
-
+[13 <./solutions/32/Figure2.png> <./solutions/34/GOLDfig.png>]
 Underfull \hbox (badness 2111) in paragraph at lines 29--30
 []\OT1/txr/m/n/12 Construct $\OML/txmi/m/it/12 PLAN$ \OT1/txr/m/n/12 where $\OM
 L/txmi/m/it/12 PL \OT1/txr/m/n/12 = 4\OML/txmi/m/it/12 ; LA \OT1/txr/m/n/12 =
  []
 
 (./solutions/quad/42/LATEX CODES/ASSIGNMENT2/ASSIGNMENT2.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13 <./solutions/32/Figure2.png> <./solutions/34/GOLDfig.png>]
-<solutions/quad/42/FIGURE.png, id=503, 954.56625pt x 1234.6125pt>
+<solutions/quad/42/FIGURE.png, id=496, 954.56625pt x 1234.6125pt>
 File: solutions/quad/42/FIGURE.png Graphic file (type png)
 <use solutions/quad/42/FIGURE.png>
 Package pdftex.def Info: solutions/quad/42/FIGURE.png  used on input line 46.
@@ -1981,78 +1990,93 @@ Package pdftex.def Info: solutions/quad/42/FIGURE.png  used on input line 46.
 (./solutions/quad/43/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/quad/43/download.png, id=511, 409.53pt x 279.0425pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <./solutions/quad/42/FIGURE.png>]
+<solutions/quad/43/download.png, id=540, 409.53pt x 279.0425pt>
 File: solutions/quad/43/download.png Graphic file (type png)
 <use solutions/quad/43/download.png>
 Package pdftex.def Info: solutions/quad/43/download.png  used on input line 50.
 
 (pdftex.def)             Requested size: 252.0pt x 171.71017pt.
-)
-(./solutions/quad/44/main.tex
+) (./solutions/quad/44/main.tex
 Underfull \hbox (badness 1360) in paragraph at lines 41--2
 []\OT1/txr/m/n/12 Construct $\OML/txmi/m/it/12 TRUE$ \OT1/txr/m/n/12 with $\OML
 /txmi/m/it/12 TR \OT1/txr/m/n/12 = 3\OML/txmi/m/it/12 :\OT1/txr/m/n/12 5\OML/tx
 mi/m/it/12 ; RU \OT1/txr/m/n/12 =
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14 <./solutions/quad/42/FIGURE.png>]
-Underfull \vbox (badness 6725) has occurred while \output is active []
-
 <solutions/quad/44/FIG.png, id=542, 397.485pt x 279.0425pt>
 File: solutions/quad/44/FIG.png Graphic file (type png)
 <use solutions/quad/44/FIG.png>
 Package pdftex.def Info: solutions/quad/44/FIG.png  used on input line 52.
 (pdftex.def)             Requested size: 252.0pt x 176.91325pt.
+) (./solutions/quad/45/main.tex
+Underfull \vbox (badness 4353) has occurred while \output is active []
+
+ [15 <./solutions/quad/43/download.png> <./solutions/quad/44/FIG.png>]
+<solutions/quad/45/figure2.png, id=574, 387.4475pt x 262.9825pt>
+File: solutions/quad/45/figure2.png Graphic file (type png)
+<use solutions/quad/45/figure2.png>
+Package pdftex.def Info: solutions/quad/45/figure2.png  used on input line 12.
+(pdftex.def)             Requested size: 252.0pt x 171.04893pt.
 )
 (./solutions/quad/46/Assignment-3.tex
-<solutions/quad/46/Square_READ.PNG, id=544, 286.82156pt x 195.73125pt>
+<solutions/quad/46/Square_READ.PNG, id=576, 286.82156pt x 195.73125pt>
 File: solutions/quad/46/Square_READ.PNG Graphic file (type png)
 <use solutions/quad/46/Square_READ.PNG>
 Package pdftex.def Info: solutions/quad/46/Square_READ.PNG  used on input line 
 14.
 (pdftex.def)             Requested size: 252.0pt x 171.97223pt.
-) [15 <./solutions/quad/43/download.png> <./solutions/quad/44/FIG.png> <./solut
-ions/quad/46/Square_READ.PNG>]
+)
+(./solutions/quad/47/Assignment 3/main.tex
+Underfull \vbox (badness 2980) has occurred while \output is active []
+
+<solutions/quad/47/Assignment 3/figure3.png, id=578, 387.4475pt x 262.9825pt>
+File: solutions/quad/47/Assignment 3/figure3.png Graphic file (type png)
+<use solutions/quad/47/Assignment 3/figure3.png>
+Package pdftex.def Info: solutions/quad/47/Assignment 3/figure3.png  used on in
+put line 12.
+(pdftex.def)             Requested size: 252.0pt x 171.04893pt.
+)
 (./solutions/quad/48/main.tex
-<solutions/quad/48/Assignment 3.png, id=573, 390.45876pt x 262.9825pt>
+<solutions/quad/48/Assignment 3.png, id=580, 390.45876pt x 262.9825pt>
 File: solutions/quad/48/Assignment 3.png Graphic file (type png)
 <use solutions/quad/48/Assignment 3.png>
 Package pdftex.def Info: solutions/quad/48/Assignment 3.png  used on input line
  14.
 (pdftex.def)             Requested size: 252.0pt x 169.72873pt.
-)) (./chapters/constr/circ_const_exer.tex
+) [16 <./solutions/quad/45/figure2.png> <./solutions/quad/46/Square_READ.PNG> <
+./solutions/quad/47/Assignment 3/figure3.png> <./solutions/quad/48/Assignment 3
+.png>]) (./chapters/constr/circ_const_exer.tex
 (./solutions/52/Assignment3.tex
-<solutions/52/Figure3.png, id=576, 387.4475pt x 262.9825pt>
+<solutions/52/Figure3.png, id=604, 387.4475pt x 262.9825pt>
 File: solutions/52/Figure3.png Graphic file (type png)
 <use solutions/52/Figure3.png>
 Package pdftex.def Info: solutions/52/Figure3.png  used on input line 30.
 (pdftex.def)             Requested size: 252.0pt x 171.04893pt.
 ) (./solutions/55/Assignment-3.tex
-<solutions/55/Figures/figure3.png, id=579, 387.4475pt x 262.9825pt>
+<solutions/55/Figures/figure3.png, id=607, 387.4475pt x 262.9825pt>
 File: solutions/55/Figures/figure3.png Graphic file (type png)
 <use solutions/55/Figures/figure3.png>
 Package pdftex.def Info: solutions/55/Figures/figure3.png  used on input line 4
 1.
 (pdftex.def)             Requested size: 252.0pt x 171.04893pt.
-
-Underfull \vbox (badness 1742) has occurred while \output is active []
-
- [16 <./solutions/quad/48/Assignment 3.png> <./solutions/52/Figure3.png>]
+ [17 <./solutions/52/Figure3.png> <./solutions/55/Figures/figure3.png>])
+(./solutions/circle/56/assignment3.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./solutions/circle/56/assignment3.tex [17 <./solutions/55/Figures/figure3.png>
-]
-<solutions/circle/56/TANGENT.png, id=645, 387.4475pt x 262.9825pt>
+<solutions/circle/56/TANGENT.png, id=642, 387.4475pt x 262.9825pt>
 File: solutions/circle/56/TANGENT.png Graphic file (type png)
 <use solutions/circle/56/TANGENT.png>
 Package pdftex.def Info: solutions/circle/56/TANGENT.png  used on input line 72
 .
 (pdftex.def)             Requested size: 252.0pt x 171.04893pt.
-)) [18 <./solutions/circle/56/TANGENT.png>]
+) [18])
+[19
+
+ <./solutions/circle/56/TANGENT.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 333.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 333.
  (./gvv_ncert_constr.aux)
@@ -2063,10 +2087,10 @@ Package rerunfilecheck Info: File `gvv_ncert_constr.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 333.
  ) 
 Here is how much of TeX's memory you used:
- 43623 strings out of 481239
- 996732 string characters out of 5920377
- 1391904 words of memory out of 5000000
- 57456 multiletter control sequences out of 15000+600000
+ 43662 strings out of 481239
+ 997878 string characters out of 5920377
+ 1392064 words of memory out of 5000000
+ 57477 multiletter control sequences out of 15000+600000
  622011 words of font info for 220 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,20n,98p,508b,1594s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2081,10 +2105,10 @@ are/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive
 ts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on gvv_ncert_constr.pdf (18 pages, 507845 bytes).
+Output written on gvv_ncert_constr.pdf (19 pages, 537019 bytes).
 PDF statistics:
- 791 PDF objects out of 1000 (max. 8388607)
- 663 compressed objects within 7 object streams
- 406 named destinations out of 1000 (max. 500000)
- 275 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 814 PDF objects out of 1000 (max. 8388607)
+ 678 compressed objects within 7 object streams
+ 414 named destinations out of 1000 (max. 500000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,62 @@
+Given ellipse is 
+\begin{align}
+    \vec{x}^T\myvec{9 & 0 \\ 0 & 1}\vec{x} = 36 
+\end{align}
+
+On comparing it with standard form
+\begin{align}
+    \vec{c} &= \myvec{0 \\ 0}
+    \\
+    \vec{D} &= \myvec{9 & 0 \\ 0 & 1}
+    \\
+    \vec{u}^T\vec{V}^{-1}\vec{u} - f &= 36
+    \\
+    \lambda_1 &= 9 
+    \\
+    \lambda_2 &= 1
+\end{align}
+
+$\therefore$  Semi major and minor axes of ellipse are
+\begin{align}
+    a &= \sqrt{\frac{ \vec{u}^T\vec{V}^{-1}\vec{u} - f}{\lambda_2}} = \sqrt{\frac{36}{1}} = 6
+    \\
+    b &= \sqrt{\frac{ \vec{u}^T\vec{V}^{-1}\vec{u} - f}{\lambda_1}} = \sqrt{\frac{36}{9}} = 2
+\end{align}
+$\therefore$ Equation of ellipse can be written as
+\begin{align}
+    \frac{x^2}{a^2} + \frac{y^2}{b^2} &= 1
+    \\
+    \implies \frac{x^2}{4} + \frac{y^2}{36} &= 1
+\end{align}
+
+Now,area of ellipse is given by
+\begin{align}
+    A &= \pi ab
+    \\
+    \implies A &= 12\pi
+\end{align}
+
+$\therefore$ Area of a quadrant of ellipse is given by
+\begin{align}
+    A_1 &= A/4 = 3\pi
+\end{align}
+
+Now,from Fig. \ref{quadform/2/99/fig:ellipse} , $AOBA$ is a right angled triangle whose area is given by 
+\begin{align}
+    A_2 &= \frac{1}{2}ab = 6
+\end{align}
+
+$\therefore$ Area between arc $AB$ and chord $AB$ is given by
+\begin{align}
+    A_3 &= A_1 - A_2 = 3\pi -6
+\end{align}
+
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{solutions/su2021/2/99/Figure7.png}
+\caption{Ellipse $\frac{x^2}{4} + \frac{y^2}{36} = 1$}
+\label{quadform/2/99/fig:ellipse}	
+\end{figure}
+
+

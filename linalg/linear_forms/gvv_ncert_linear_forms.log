@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  12 JUN 2021 10:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  18 JUN 2021 07:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3100,50 +3100,195 @@ File: solutions/su2021/2/9/FIGURES/PARALLEL_LINES.png Graphic file (type png)
 Package pdftex.def Info: solutions/su2021/2/9/FIGURES/PARALLEL_LINES.png  used 
 on input line 159.
 (pdftex.def)             Requested size: 252.0pt x 170.16212pt.
-)
+) (./solutions/su2021/2/10/ab/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [60 <./solutions/su2021/2/9/FIGURES/PARALLEL_LINES.png>]
-(./solutions/su2021/2/14/Assignment-2.tex
-<solutions/su2021/2/14/Line_Plot_Part1.PNG, id=2191, 286.82156pt x 191.9672pt>
+<solutions/su2021/2/10/ab/figure1.png, id=2187, 379.4175pt x 262.9825pt>
+File: solutions/su2021/2/10/ab/figure1.png Graphic file (type png)
+<use solutions/su2021/2/10/ab/figure1.png>
+Package pdftex.def Info: solutions/su2021/2/10/ab/figure1.png  used on input li
+ne 31.
+(pdftex.def)             Requested size: 252.0pt x 174.66847pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<solutions/su2021/2/10/ab/figure2.png, id=2189, 389.455pt x 262.9825pt>
+File: solutions/su2021/2/10/ab/figure2.png Graphic file (type png)
+<use solutions/su2021/2/10/ab/figure2.png>
+Package pdftex.def Info: solutions/su2021/2/10/ab/figure2.png  used on input li
+ne 67.
+(pdftex.def)             Requested size: 252.0pt x 170.16212pt.
+)
+(./solutions/su2021/2/10/Assignment 2.tex
+<solutions/su2021/2/10/FIGURES/SAME-LINE.png, id=2191, 387.4475pt x 262.9825pt>
+
+File: solutions/su2021/2/10/FIGURES/SAME-LINE.png Graphic file (type png)
+<use solutions/su2021/2/10/FIGURES/SAME-LINE.png>
+Package pdftex.def Info: solutions/su2021/2/10/FIGURES/SAME-LINE.png  used on i
+nput line 25.
+(pdftex.def)             Requested size: 252.0pt x 171.04893pt.
+
+Underfull \vbox (badness 1028) has occurred while \output is active []
+
+ [61 <./solutions/su2021/2/10/ab/figure1.png> <./solutions/su2021/2/10/ab/figur
+e2.png>]
+<solutions/su2021/2/10/FIGURES/INTERSECTING-LINE.png, id=2216, 379.4175pt x 262
+.9825pt>
+File: solutions/su2021/2/10/FIGURES/INTERSECTING-LINE.png Graphic file (type pn
+g)
+<use solutions/su2021/2/10/FIGURES/INTERSECTING-LINE.png>
+Package pdftex.def Info: solutions/su2021/2/10/FIGURES/INTERSECTING-LINE.png  u
+sed on input line 62.
+(pdftex.def)             Requested size: 252.0pt x 174.66847pt.
+)
+(./solutions/su2021/2/11/ab/main.tex
+<solutions/su2021/2/11/ab/Parallel_ lines (1).png, id=2219, 387.4475pt x 262.98
+25pt>
+File: solutions/su2021/2/11/ab/Parallel_ lines (1).png Graphic file (type png)
+<use solutions/su2021/2/11/ab/Parallel_ lines (1).png>
+Package pdftex.def Info: solutions/su2021/2/11/ab/Parallel_ lines (1).png  used
+ on input line 17.
+(pdftex.def)             Requested size: 252.0pt x 171.04893pt.
+ [62 <./solutions/su2021/2/10/FIGURES/SAME-LINE.png> <./solutions/su2021/2/10/F
+IGURES/INTERSECTING-LINE.png>]
+<solutions/su2021/2/11/ab/Intersecting lines .png, id=2250, 379.4175pt x 262.98
+25pt>
+File: solutions/su2021/2/11/ab/Intersecting lines .png Graphic file (type png)
+<use solutions/su2021/2/11/ab/Intersecting lines .png>
+Package pdftex.def Info: solutions/su2021/2/11/ab/Intersecting lines .png  used
+ on input line 48.
+(pdftex.def)             Requested size: 252.0pt x 174.66847pt.
+)
+(./solutions/su2021/2/11/cd/main.tex
+<solutions/su2021/2/11/cd/assignment2c-1.png, id=2253, 1204.5pt x 803.0pt>
+File: solutions/su2021/2/11/cd/assignment2c-1.png Graphic file (type png)
+<use solutions/su2021/2/11/cd/assignment2c-1.png>
+Package pdftex.def Info: solutions/su2021/2/11/cd/assignment2c-1.png  used on i
+nput line 16.
+(pdftex.def)             Requested size: 252.0pt x 167.99783pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63 <./solutions/su2021/2/11/ab/Parallel_ lines (1).png> <./solutions/su2021/2
+/11/ab/Intersecting lines .png> <./solutions/su2021/2/11/cd/assignment2c-1.png>
+]
+<solutions/su2021/2/11/cd/assignment2d-1.png, id=2277, 1204.5pt x 803.0pt>
+File: solutions/su2021/2/11/cd/assignment2d-1.png Graphic file (type png)
+<use solutions/su2021/2/11/cd/assignment2d-1.png>
+Package pdftex.def Info: solutions/su2021/2/11/cd/assignment2d-1.png  used on i
+nput line 43.
+(pdftex.def)             Requested size: 252.0pt x 167.99783pt.
+
+Underfull \hbox (badness 6978) in paragraph at lines 44--44
+[]\OT1/txr/m/n/12 Fig. 2.11.4: |Lines in-ter-sect-ing only at one
+ []
+
+) (./solutions/su2021/2/14/Assignment-2.tex
+<solutions/su2021/2/14/Line_Plot_Part1.PNG, id=2279, 286.82156pt x 191.9672pt>
 File: solutions/su2021/2/14/Line_Plot_Part1.PNG Graphic file (type png)
 <use solutions/su2021/2/14/Line_Plot_Part1.PNG>
 Package pdftex.def Info: solutions/su2021/2/14/Line_Plot_Part1.PNG  used on inp
 ut line 21.
 (pdftex.def)             Requested size: 252.0pt x 168.66508pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4859) has occurred while \output is active []
 
-<solutions/su2021/2/14/Line_Plot_Part2.PNG, id=2193, 287.57437pt x 194.22563pt>
+ [64 <./solutions/su2021/2/11/cd/assignment2d-1.png> <./solutions/su2021/2/14/L
+ine_Plot_Part1.PNG>]
+<solutions/su2021/2/14/Line_Plot_Part2.PNG, id=2310, 287.57437pt x 194.22563pt>
 
 File: solutions/su2021/2/14/Line_Plot_Part2.PNG Graphic file (type png)
 <use solutions/su2021/2/14/Line_Plot_Part2.PNG>
 Package pdftex.def Info: solutions/su2021/2/14/Line_Plot_Part2.PNG  used on inp
 ut line 45.
 (pdftex.def)             Requested size: 252.0pt x 170.20483pt.
-) [61 <./solutions/su2021/2/14/Line_Plot_Part1.PNG> <./solutions/su2021/2/14/Li
-ne_Plot_Part2.PNG>]
+) (./solutions/su2021/2/14/de/main.tex
+<solutions/su2021/2/14/de/Line_Plot_Part-1 (4).PNG, id=2312, 408.52625pt x 262.
+9825pt>
+File: solutions/su2021/2/14/de/Line_Plot_Part-1 (4).PNG Graphic file (type png)
+
+<use solutions/su2021/2/14/de/Line_Plot_Part-1 (4).PNG>
+Package pdftex.def Info: solutions/su2021/2/14/de/Line_Plot_Part-1 (4).PNG  use
+d on input line 22.
+(pdftex.def)             Requested size: 252.0pt x 162.22482pt.
+<solutions/su2021/2/14/de/Line_Plot_Part-2 (3).PNG, id=2314, 389.455pt x 262.98
+25pt>
+File: solutions/su2021/2/14/de/Line_Plot_Part-2 (3).PNG Graphic file (type png)
+
+<use solutions/su2021/2/14/de/Line_Plot_Part-2 (3).PNG>
+Package pdftex.def Info: solutions/su2021/2/14/de/Line_Plot_Part-2 (3).PNG  use
+d on input line 47.
+(pdftex.def)             Requested size: 252.0pt x 170.16212pt.
+) [65 <./solutions/su2021/2/14/Line_Plot_Part2.PNG> <./solutions/su2021/2/14/de
+/Line_Plot_Part-1 (4).PNG> <./solutions/su2021/2/14/de/Line_Plot_Part-2 (3).PNG
+>] (./solutions/su2021/2/18.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62]
+ [66]
 (./solutions/su2021/2/35/1/Assignment-4.tex
-<solutions/su2021/2/35/1/Plane_plot1.PNG, id=2273, 243.15843pt x 179.92218pt>
+<solutions/su2021/2/35/1/Plane_plot1.PNG, id=2385, 243.15843pt x 179.92218pt>
 File: solutions/su2021/2/35/1/Plane_plot1.PNG Graphic file (type png)
 <use solutions/su2021/2/35/1/Plane_plot1.PNG>
 Package pdftex.def Info: solutions/su2021/2/35/1/Plane_plot1.PNG  used on input
  line 13.
 (pdftex.def)             Requested size: 252.0pt x 186.46399pt.
 )
-Underfull \vbox (badness 6725) has occurred while \output is active []
+(./solutions/su2021/2/35/b/Assignment 4/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 2096) in paragraph at lines 442--446
+<solutions/su2021/2/35/b/Plane_plot.PNG, id=2387, 350.30875pt x 231.86626pt>
+File: solutions/su2021/2/35/b/Plane_plot.PNG Graphic file (type png)
+<use solutions/su2021/2/35/b/Plane_plot.PNG>
+Package pdftex.def Info: solutions/su2021/2/35/b/Plane_plot.PNG  used on input 
+line 13.
+(pdftex.def)             Requested size: 252.0pt x 166.79851pt.
+) [67 <./solutions/su2021/2/35/1/Plane_plot1.PNG> <./solutions/su2021/2/35/b/Pl
+ane_plot.PNG>]
+Underfull \hbox (badness 2096) in paragraph at lines 469--473
 []\OT1/txr/m/n/12 Find the in-ter-cepts cut off by the plane
  []
 
+(./solutions/su2021/2/39/main.tex
+<solutions/su2021/2/39/Plane_plot.png, id=2420, 350.30875pt x 231.86626pt>
+File: solutions/su2021/2/39/Plane_plot.png Graphic file (type png)
+<use solutions/su2021/2/39/Plane_plot.png>
+Package pdftex.def Info: solutions/su2021/2/39/Plane_plot.png  used on input li
+ne 43.
+(pdftex.def)             Requested size: 252.0pt x 166.79851pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./solutions/su2021/2/43/b/main.tex
+<solutions/su2021/2/43/b/assignment4.png, id=2422, 433.62pt x 289.08pt>
+File: solutions/su2021/2/43/b/assignment4.png Graphic file (type png)
+<use solutions/su2021/2/43/b/assignment4.png>
+Package pdftex.def Info: solutions/su2021/2/43/b/assignment4.png  used on input
+ line 18.
+(pdftex.def)             Requested size: 252.0pt x 168.00174pt.
+)
+(./solutions/su2021/2/43/c/ASSIGNMENT 5.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68 <./solutions/su2021/2/39/Plane_plot.png>]
+<solutions/su2021/2/43/c/ASSIGNMENT 5.png, id=2459, 350.30875pt x 231.86626pt>
+File: solutions/su2021/2/43/c/ASSIGNMENT 5.png Graphic file (type png)
+<use solutions/su2021/2/43/c/ASSIGNMENT 5.png>
+Package pdftex.def Info: solutions/su2021/2/43/c/ASSIGNMENT 5.png  used on inpu
+t line 16.
+(pdftex.def)             Requested size: 252.0pt x 166.79851pt.
+) (./solutions/su2021/2/43/d/main.tex
+<solutions/su2021/2/43/d/figure4.png, id=2461, 350.30875pt x 231.86626pt>
+File: solutions/su2021/2/43/d/figure4.png Graphic file (type png)
+<use solutions/su2021/2/43/d/figure4.png>
+Package pdftex.def Info: solutions/su2021/2/43/d/figure4.png  used on input lin
+e 6.
+(pdftex.def)             Requested size: 252.0pt x 166.79851pt.
+)
 (./line/tables/3d_ncert.tex
 \gnumericTableWidth=\skip85
 \gnumericTableWidthComplete=\skip86
@@ -3156,58 +3301,60 @@ Underfull \hbox (badness 2096) in paragraph at lines 442--446
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [63 <./solutions/su2021/2/35/1/Plane_plot1.PNG>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3579) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64]
-Underfull \hbox (badness 1838) in paragraph at lines 647--649
+ [69 <./solutions/su2021/2/43/b/assignment4.png> <./solutions/su2021/2/43/c/ASS
+IGNMENT 5.png> <./solutions/su2021/2/43/d/figure4.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 688--690
 []\OT1/txr/m/n/12 Using in-te-gra-tion find the area of re-gion
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 649--650
+Underfull \hbox (badness 1838) in paragraph at lines 690--691
 []\OT1/txr/m/n/12 Using in-te-gra-tion find the area of re-gion
  []
 
+[70]
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 667.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 667.
+LaTeX Warning: Command \textendash invalid in math mode on input line 708.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [65]
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 821.
+LaTeX Warning: Command \textendash invalid in math mode on input line 708.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 862.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66])
+ [71]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72])
 (./line/line_misc.tex
-Underfull \vbox (badness 4229) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67]
+ [73]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
-[69]) [70
+ [74])
+[75] [76
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 308.
@@ -3221,10 +3368,10 @@ Package rerunfilecheck Info: File `gvv_ncert_linear_forms.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 308.
  ) 
 Here is how much of TeX's memory you used:
- 42800 strings out of 481239
- 967931 string characters out of 5920377
- 1333508 words of memory out of 5000000
- 55403 multiletter control sequences out of 15000+600000
+ 43063 strings out of 481239
+ 975272 string characters out of 5920377
+ 1335169 words of memory out of 5000000
+ 55520 multiletter control sequences out of 15000+600000
  622204 words of font info for 223 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,24n,91p,514b,1299s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3240,10 +3387,10 @@ nts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_linear_forms.pdf (70 pages, 1813382 bytes).
+Output written on gvv_ncert_linear_forms.pdf (76 pages, 2063443 bytes).
 PDF statistics:
- 2970 PDF objects out of 2984 (max. 8388607)
- 2350 compressed objects within 24 object streams
- 1529 named destinations out of 1728 (max. 500000)
- 505 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3156 PDF objects out of 3580 (max. 8388607)
+ 2499 compressed objects within 25 object streams
+ 1625 named destinations out of 1728 (max. 500000)
+ 580 words of extra memory for PDF output out of 10000 (max. 10000000)
 

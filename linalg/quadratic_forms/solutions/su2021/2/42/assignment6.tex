@@ -1,0 +1,43 @@
+Given curve,
+\begin{align}
+y = \sqrt{4x-3}-1\label{quadform/42/2.0.1}\\
+\implies (y+1)^2 =4x-3\\
+\implies y^2-4x+2y+4 =0
+\end{align}
+which has the vector parameters
+\begin{align}
+\vec{V}&=\myvec{0 & 0 \\ 0 & 1},\vec{u}=\myvec{-2 & 1 }, \vec{f} = 4 
+\end{align}
+\begin{align}
+|\vec{V}| = 0
+\end{align}
+$\therefore $ the given curve \eqref{quadform/42/2.0.1} is parabola. In standard form,
+\begin{align}
+\vec{P} =\vec{I}\implies \vec{p_1} = \myvec{1 \\ 0}
+\end{align}
+Since the slope of the tangents is $\frac{2}{3}$, the direction and normal vectors are
+\begin{align}
+\vec{m} &= \myvec{1\\\frac{2}{3}}= \myvec{3\\2},\vec{n} = \myvec{2\\-3}\\
+\text{and }
+\kappa &= \frac{\vec{p_1^T}\vec{u}}{\vec{p_1^T}\vec{n}} = -1
+\end{align}
+$\therefore$ Point of contact for the tangent is
+\begin{align}
+  \myvec{\vec{u}+\kappa \vec{n^T}\\\vec{V} }\vec{q} &= \myvec{\vec{-f}\\\kappa \vec{n} -\vec{u}}\\
+  \implies\myvec{-4 & 4\\0 & 0 \\0 & 1} \vec{q}&= \myvec{-4\\0\\2}\\
+  \implies \vec{q}&=\myvec{3\\2}
+\end{align}
+%$\therefore $ Point of contact for tangent of given curve is
+% \begin{align}
+% \vec{q }= \myvec{3\\2}
+% \end{align}
+which is verified in Fig.     \ref{quadform/42/fig:Tangent to parabola.}
+%
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\columnwidth]{solutions/su2021/2/42/PARABOLA.png}
+    \caption{Tangent to Parabola.}
+    \label{quadform/42/fig:Tangent to parabola.}
+\end{figure}    
+
+
