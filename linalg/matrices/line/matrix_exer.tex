@@ -149,24 +149,44 @@ NaOH + H_2SO_4 \xrightarrow{} Na_2SO_4  +  H_2O
      
     
 
-    \item Two farmers Ramkishan and Gurcharan Singh cultivates only three
-varieties of rice namely Basmati, Permal and Naura. The sale (in Rupees) of these
-varieties of rice by both the farmers in the month of September and October are given
-by the following matrices A and B. \\
-September Sales(in Rupees)\\
-   Basmati Permal Naura\\
-A =$\myvec{10,000 &20,000 &30,000\\50,000 &30,000 &10,000}$$\myvec{Ramakishan\\Gurucharan Singh}$\\
+\item     Two farmers Ramkishan and Gurcharan Singh cultivate only three varieties of rice namely Basmati, Permal and Naura. The sale (in Rupees) of these varieties of rice by both the farmers in the month of September and October are given by the following matrices $\vec{A}$ and $\vec{B}$ .
 
-October sales (in Rupees)\\
-  Basmati Permal Naura\\
-B=$\myvec{5,000 &10,000 &6,000\\20,000 &10,000 &10,000}$$\myvec{Ramkishan\\Gurucharan Singh}$\\
-(i) Find the combined sales in September and October for each farmer in each
-variety.\\
-(ii) Find the decrease in sales from September to October.\\
-(iii) If both farmers receive 2\% profit on gross sales, compute the profit for each
-farmer and for each variety sold in October. \\																																															
+\begin{center}
+September Sales(in Rupees)
+\end{center}
+\begin{align}
+    \vec{A}=
+    \begin{blockarray}{cccc}
+    \text{Basmati} & \text{Permal} & \text{Naura} \\
+    \begin{block}{(ccc)(c)}
+    10000 & 20000 & 30000 & \text{Ramkishan}\\
+    50000 & 30000 & 10000 & \text{Gurucharan} \\
+    \end{block}
+    \end{blockarray}
+\end{align}
+
+\begin{center}
+October Sales(in Rupees)
+\end{center}
+\begin{align}
+    \vec{B} =
+    \begin{blockarray}{cccc}
+    \text{Basmati} & \text{Permal} & \text{Naura} \\
+    \begin{block}{(ccc)(c)}
+    5000 & 10000 & 6000 & \text{Ramkishan}\\
+    20000 & 10000 & 10000 & \text{Gurucharan} \\
+    \end{block}
+    \end{blockarray}
+\end{align}
+
+\begin{enumerate}
+    \item Find the combined sales in September and October for each farmer in each variety.
+    \item Find the decrease in sales from September to October.
+    \item If both farmers receive 2\% profit on gross sales, compute the profit for each farmer and for each variety sold in October.
+\end{enumerate}
+%
 \solution
-\input{solutions/su2021/56/Assignment10/Assignment10.tex}
+\input{solutions/su2021/56/Assignment10.tex}
    
     \item  Find AB, if A=\myvec{6 &9\\2 &3} and B=\myvec{2 &6 &0\\7 &9 &8}.\\
     \item  If A=\myvec{1 &-2 &3\\-4 &2 &5\\} and B=\myvec{2 &3\\4 &5\\2 &1}, then find AB,BA.Show that AB$\neq$BA

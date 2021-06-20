@@ -1,0 +1,60 @@
+The given curve can be expressed as 
+\begin{align}
+ x^2-4y &=0 \label{quadform/45/2.0.2}
+ \\
+%\vec{x}^T\vec{V}\vec{x}+2\vec{u}^T\vec{x}+f=0\\
+\implies \vec{V}=\myvec{1 & 0 \\ 0 & 0},\vec{u}=\myvec{0 \\ -2 }, \vec{f} = 0 
+\end{align}
+$\because$
+\begin{align}
+ \abs{\vec{V}} &= 0
+\end{align}
+the given curve \eqref{quadform/45/2.0.2} represents a parabola.
+The eigenvalues are given by 
+\begin{align}
+\lambda_1 = 0 , \lambda_2 = 1
+\end{align}
+with corresponding eigenvectors
+\begin{align}
+\myvec{1 & 0 \\ 0 & 0}\vec{x} &=0 \implies \vec{p_1} = \myvec{0 \\ 1}
+\\
+\myvec{0 & 0 \\ 0 & -1}\vec{x} &=0 \implies \vec{p_2} = \myvec{1 \\ 0}
+\end{align}
+To find the vertex of the parabola ,
+\begin{align} \myvec{\vec{u^T}+\kappa\vec{p_1^T}\\\vec{V} }\vec{c} &= \myvec{\vec{-f}\\\kappa \vec{p_1} -\vec{u}}
+\\
+\text{where, }  \kappa = \vec{u^T}\vec{p_1} = -2
+\\
+\implies\myvec{0 & -4\\1 & 0 \\0 & 0} \vec{c}&= \myvec{0\\0\\0} \label{quadform/45/eq:b}
+\end{align}
+from the above it can be observed that,
+\begin{align}    
+   \vec{c} &= \myvec{0 \\ 0}
+\end{align}
+Now to evalute the direction vector m,
+\begin{align}
+\vec{m}^T(\vec{V}\vec{q} + \vec{u}) &=0
+\\
+\implies \vec{m}^T\brak{\myvec{1 & 0 \\ 0 & 0}\myvec{1 \\ 2} + \myvec{0 \\ -2}} &=0
+\\
+\implies \vec{m}^T\myvec{1 \\ -2} &=0
+\\
+\implies \vec{m} = \myvec{-2 \\ -1}
+\end{align}
+The normal is obtained as 
+\begin{align}
+\vec{m}^T(\vec{x} - \vec{q}) &=0 
+\\
+\myvec{-2 & -1}\brak{\vec{x}-\myvec{1 \\ 2}} &= 0
+\\
+\myvec{-2 & -1}\vec{x}+ 4 &= 0 
+\end{align}
+%
+The above results are verified in Fig.     \ref{quadform/45/fig:Normal to parabola.}.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\columnwidth]{solutions/su2021/2/45/FIGURE4.png}
+    \caption{Normal to Parabola.}
+    \label{quadform/45/fig:Normal to parabola.}
+\end{figure}    
+
