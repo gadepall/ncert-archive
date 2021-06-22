@@ -206,14 +206,44 @@ October Sales(in Rupees)
     
     
     
-\item In a legislative assembly election, a political group hired a public relations
-firm to promote its candidate in three ways: telephone, house calls, and letters. The
-cost per contact (in paise) is given in matrix A as\\ 
-Cost per contact\\
-A=$\myvec{40 \\100 \\50}\myvec{Telephone \\Housecall \\Letter}$\\
-The number of contacts of each type made in two cities X and Y is given by\\
- Telephone  Housecall  Letter\\
-B=$\myvec{1000 &500 &5000\\3000 &1000 &10000} \myvec{X \\Y}$. Find the total amount spent by the group in the two cities X and Y. 
+\item In a legislative assembly election, a political
+group hired a public relations firm to promote
+its candidate in three ways: telephone, house
+calls, and letters. The cost per contact (in paise)
+is given in matrix $\vec{A}$ as
+\begin{center}
+Cost per Contact(in Paise)
+\end{center}
+\begin{align}
+    \vec{A}=
+    \begin{blockarray}{cc}
+    \text{cost}\\
+    \begin{block}{(c)(c)}
+    40 &\text{Telephone}\\
+    100&\text{Housecall} \\
+    50&\text{Letter}\\
+    \end{block}
+    \end{blockarray}
+\end{align}
+The number of contacts of each type made in
+two cities X and Y is given by matrix $\vec{B}$
+\begin{align}
+    \vec{B} =
+    \begin{blockarray}{cccc}
+    \text{Telephone} & \text{Housecall} & \text{Letter} \\
+    \begin{block}{(ccc)(c)}
+    1000 & 500 & 5000 & \text{X}\\
+    3000 & 1000 & 10000 & \text{Y} \\
+    \end{block}
+    \end{blockarray}
+\end{align}
+Find the total
+amount spent by the group in the two cities
+X and Y
+%
+\solution
+\input{solutions/su2021/64/Assignment-8.tex}
+
 \item If A=$\myvec{3 &\sqrt{3} &2\\4 &2 &0}$ and B=$\myvec{2 &-1 &2\\1 &2 &4}$, verify that\\
 (i) $(A^{'})^{'}=A$\\ (ii)$(A+B)^{'}=A^{'}+B^{'}$,\\ (iii) $(kB)^{'}=kB^{'}$,where k is any constant.\\
 \item If A=$\myvec{-2\\4 \\5}$,B=$\myvec{1 &3 &-6}$, verify that $(AB)^{'}=B^{'}A^{'}$\\
