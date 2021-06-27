@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  23 JUN 2021 09:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  25 JUN 2021 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3418,53 +3418,98 @@ Package pdftex.def Info: solutions/su2021/2/16/Graph.png  used on input line 17
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 45.
 
-
+(./solutions/su2021/2/19/d/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41 <./solutions/su2021/2/1/Figure5.png>]
+<solutions/su2021/2/19/d/download (3).png, id=2643, 387.4475pt x 262.9825pt>
+File: solutions/su2021/2/19/d/download (3).png Graphic file (type png)
+<use solutions/su2021/2/19/d/download (3).png>
+Package pdftex.def Info: solutions/su2021/2/19/d/download (3).png  used on inpu
+t line 23.
+(pdftex.def)             Requested size: 252.0pt x 171.04893pt.
+)
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 50.
+LaTeX Warning: Command \textendash invalid in math mode on input line 55.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 50.
+LaTeX Warning: Command \textendash invalid in math mode on input line 55.
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./solutions/su2021/2/23/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42 <./solutions/su2021/2/16/Graph.png> <./solutions/su2021/2/19/d/download (3
+).png>]
+<solutions/su2021/2/23/figure5(1).png, id=2675, 385.44pt x 265.99374pt>
+File: solutions/su2021/2/23/figure5(1).png Graphic file (type png)
+<use solutions/su2021/2/23/figure5(1).png>
+Package pdftex.def Info: solutions/su2021/2/23/figure5(1).png  used on input li
+ne 45.
+(pdftex.def)             Requested size: 252.0pt x 173.9045pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<solutions/su2021/2/23/figure5(2).png, id=2677, 385.44pt x 266.9975pt>
+File: solutions/su2021/2/23/figure5(2).png Graphic file (type png)
+<use solutions/su2021/2/23/figure5(2).png>
+Package pdftex.def Info: solutions/su2021/2/23/figure5(2).png  used on input li
+ne 94.
+(pdftex.def)             Requested size: 252.0pt x 174.56075pt.
+)
 (./solutions/su2021/2/24/main.tex
-<solutions/su2021/2/24/diagram.png, id=2643, 395.4775pt x 262.9825pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43 <./solutions/su2021/2/23/figure5(1).png> <./solutions/su2021/2/23/figure5(
+2).png>]
+<solutions/su2021/2/24/diagram.png, id=2709, 395.4775pt x 262.9825pt>
 File: solutions/su2021/2/24/diagram.png Graphic file (type png)
 <use solutions/su2021/2/24/diagram.png>
 Package pdftex.def Info: solutions/su2021/2/24/diagram.png  used on input line 
 17.
 (pdftex.def)             Requested size: 252.0pt x 167.57387pt.
 )
-Underfull \vbox (badness 5519) has occurred while \output is active []
+(./solutions/su2021/2/25/main-4.tex
+<solutions/su2021/2/25/download (3).png, id=2711, 385.44pt x 262.9825pt>
+File: solutions/su2021/2/25/download (3).png Graphic file (type png)
+<use solutions/su2021/2/25/download (3).png>
+Package pdftex.def Info: solutions/su2021/2/25/download (3).png  used on input 
+line 41.
+(pdftex.def)             Requested size: 252.0pt x 171.93576pt.
+) (./solutions/su2021/2/30/Assignment-4.tex
+Underfull \vbox (badness 5302) has occurred while \output is active []
 
+ [44 <./solutions/su2021/2/24/diagram.png> <./solutions/su2021/2/25/download (3
+).png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(./solutions/su2021/2/30/Assignment-4.tex
-Underfull \vbox (badness 3088) has occurred while \output is active []
-
- [42 <./solutions/su2021/2/16/Graph.png> <./solutions/su2021/2/24/diagram.png>]
-<solutions/su2021/2/30/figure4.png, id=2684, 391.4625pt x 262.9825pt>
+<solutions/su2021/2/30/figure4.png, id=2748, 391.4625pt x 262.9825pt>
 File: solutions/su2021/2/30/figure4.png Graphic file (type png)
 <use solutions/su2021/2/30/figure4.png>
 Package pdftex.def Info: solutions/su2021/2/30/figure4.png  used on input line 
 74.
 (pdftex.def)             Requested size: 252.0pt x 169.29535pt.
 )
-(./solutions/su2021/2/37/Assignment-5.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43 <./solutions/su2021/2/30/figure4.png>]
-<solutions/su2021/2/37/figure5_1.png, id=2721, 387.4475pt x 262.9825pt>
+(./solutions/su2021/2/37/Assignment-5.tex [45 <./solutions/su2021/2/30/figure4.
+png>]
+<solutions/su2021/2/37/figure5_1.png, id=2785, 387.4475pt x 262.9825pt>
 File: solutions/su2021/2/37/figure5_1.png Graphic file (type png)
 <use solutions/su2021/2/37/figure5_1.png>
 Package pdftex.def Info: solutions/su2021/2/37/figure5_1.png  used on input lin
 e 67.
 (pdftex.def)             Requested size: 252.0pt x 171.04893pt.
-) (./solutions/su2021/2/38/a/main.tex
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44 <./solutions/su2021/2/37/figure5_1.png>]
-<solutions/su2021/2/38/a/hyperbola.png, id=2754, 387.4475pt x 262.9825pt>
+
+(./solutions/su2021/2/38/a/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46 <./solutions/su2021/2/37/figure5_1.png>]
+<solutions/su2021/2/38/a/hyperbola.png, id=2820, 387.4475pt x 262.9825pt>
 File: solutions/su2021/2/38/a/hyperbola.png Graphic file (type png)
 <use solutions/su2021/2/38/a/hyperbola.png>
 Package pdftex.def Info: solutions/su2021/2/38/a/hyperbola.png  used on input l
@@ -3473,24 +3518,24 @@ ine 59.
 ) (./solutions/su2021/2/38/b/Assignment-8.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/su2021/2/38/b/hyperbola.PNG, id=2759, 300.3722pt x 201.00093pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47 <./solutions/su2021/2/38/a/hyperbola.png>]
+<solutions/su2021/2/38/b/hyperbola.PNG, id=2849, 300.3722pt x 201.00093pt>
 File: solutions/su2021/2/38/b/hyperbola.PNG Graphic file (type png)
 <use solutions/su2021/2/38/b/hyperbola.PNG>
 Package pdftex.def Info: solutions/su2021/2/38/b/hyperbola.PNG  used on input l
 ine 45.
 (pdftex.def)             Requested size: 252.0pt x 168.63719pt.
-)
-(./solutions/su2021/2/41/Assignment6.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45 <./solutions/su2021/2/38/a/hyperbola.png>]
+) (./solutions/su2021/2/41/Assignment6.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46 <./solutions/su2021/2/38/b/hyperbola.PNG>]
-<solutions/su2021/2/41/figure6_1.png, id=2818, 388.45125pt x 262.9825pt>
+ [48 <./solutions/su2021/2/38/b/hyperbola.PNG>]
+<solutions/su2021/2/41/figure6_1.png, id=2882, 388.45125pt x 262.9825pt>
 File: solutions/su2021/2/41/figure6_1.png Graphic file (type png)
 <use solutions/su2021/2/41/figure6_1.png>
 Package pdftex.def Info: solutions/su2021/2/41/figure6_1.png  used on input lin
@@ -3499,79 +3544,91 @@ e 97.
 ) (./solutions/su2021/2/42/assignment6.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/su2021/2/42/PARABOLA.png, id=2821, 387.4475pt x 262.9825pt>
+<solutions/su2021/2/42/PARABOLA.png, id=2885, 387.4475pt x 262.9825pt>
 File: solutions/su2021/2/42/PARABOLA.png Graphic file (type png)
 <use solutions/su2021/2/42/PARABOLA.png>
 Package pdftex.def Info: solutions/su2021/2/42/PARABOLA.png  used on input line
  38.
 (pdftex.def)             Requested size: 252.0pt x 171.04893pt.
 )
-(./solutions/su2021/2/45/ASSIGNMENT4.tex [47 <./solutions/su2021/2/41/figure6_1
-.png> <./solutions/su2021/2/42/PARABOLA.png>]
-<solutions/su2021/2/45/FIGURE4.png, id=2856, 387.4475pt x 262.9825pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49 <./solutions/su2021/2/41/figure6_1.png>] (./solutions/su2021/2/45/ASSIGNME
+NT4.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<solutions/su2021/2/45/FIGURE4.png, id=2922, 387.4475pt x 262.9825pt>
 File: solutions/su2021/2/45/FIGURE4.png Graphic file (type png)
 <use solutions/su2021/2/45/FIGURE4.png>
 Package pdftex.def Info: solutions/su2021/2/45/FIGURE4.png  used on input line 
 56.
 (pdftex.def)             Requested size: 252.0pt x 171.04893pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 )
-Underfull \hbox (badness 7796) in paragraph at lines 158--163
+Underfull \hbox (badness 7796) in paragraph at lines 182--187
 []\OT1/txr/m/n/12 Find the area en-closed by the el-lipse
  []
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 170.
+Underfull \vbox (badness 1348) has occurred while \output is active []
+
+ [50 <./solutions/su2021/2/42/PARABOLA.png> <./solutions/su2021/2/45/FIGURE4.pn
+g>]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 194.
 
 
-Underfull \hbox (badness 8132) in paragraph at lines 166--172
+Underfull \hbox (badness 8132) in paragraph at lines 190--196
 []\OT1/txr/m/n/12 Find the area bounded by the el-lipse
  []
 
-[48 <./solutions/su2021/2/45/FIGURE4.png>]
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 243.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 247.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 247.
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 267.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 271.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 271.
 
 ) (./conics/conics_exer.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [51]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
+
 (./solutions/su2021/2/72/k/Assignment-7.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/su2021/2/72/k/ellipse(1).PNG, id=2957, 298.11375pt x 202.50656pt>
+ [52]
+<solutions/su2021/2/72/k/ellipse(1).PNG, id=3056, 298.11375pt x 202.50656pt>
 File: solutions/su2021/2/72/k/ellipse(1).PNG Graphic file (type png)
 <use solutions/su2021/2/72/k/ellipse(1).PNG>
 Package pdftex.def Info: solutions/su2021/2/72/k/ellipse(1).PNG  used on input 
 line 71.
 (pdftex.def)             Requested size: 252.0pt x 171.18274pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [50]
-<solutions/su2021/2/72/k/Ellipse_(I).PNG, id=2998, 295.1025pt x 199.49532pt>
+<solutions/su2021/2/72/k/Ellipse_(I).PNG, id=3061, 295.1025pt x 199.49532pt>
 File: solutions/su2021/2/72/k/Ellipse_(I).PNG Graphic file (type png)
 <use solutions/su2021/2/72/k/Ellipse_(I).PNG>
 Package pdftex.def Info: solutions/su2021/2/72/k/Ellipse_(I).PNG  used on input
  line 135.
 (pdftex.def)             Requested size: 252.0pt x 170.36021pt.
-)
-[51 <./solutions/su2021/2/72/k/ellipse(1).PNG> <./solutions/su2021/2/72/k/Ellip
-se_(I).PNG>] (./solutions/su2021/2/75/assignment8.tex
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/su2021/2/75/HYPERBOLA.png, id=3036, 394.47375pt x 262.9825pt>
+ [53 <./solutions/su2021/2/72/k/ellipse(1).PNG>])
+Underfull \vbox (badness 2393) has occurred while \output is active []
+
+
+(./solutions/su2021/2/75/assignment8.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54 <./solutions/su2021/2/72/k/Ellipse_(I).PNG>]
+<solutions/su2021/2/75/HYPERBOLA.png, id=3133, 394.47375pt x 262.9825pt>
 File: solutions/su2021/2/75/HYPERBOLA.png Graphic file (type png)
 <use solutions/su2021/2/75/HYPERBOLA.png>
 Package pdftex.def Info: solutions/su2021/2/75/HYPERBOLA.png  used on input lin
@@ -3581,45 +3638,50 @@ e 38.
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 159.
 
-[52 <./solutions/su2021/2/75/HYPERBOLA.png>]
 (./solutions/su2021/2/78/Assignment8.tex
+Underfull \vbox (badness 1158) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/su2021/2/78/Figure8.png, id=3076, 387.4475pt x 262.9825pt>
+ [55 <./solutions/su2021/2/75/HYPERBOLA.png>]
+<solutions/su2021/2/78/Figure8.png, id=3171, 387.4475pt x 262.9825pt>
 File: solutions/su2021/2/78/Figure8.png Graphic file (type png)
 <use solutions/su2021/2/78/Figure8.png>
 Package pdftex.def Info: solutions/su2021/2/78/Figure8.png  used on input line 
 97.
 (pdftex.def)             Requested size: 252.0pt x 171.04893pt.
-)
+) (./solutions/su2021/2/79/assignment7.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53]
-(./solutions/su2021/2/79/assignment7.tex
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/su2021/2/79/ELLIPSE.png, id=3116, 387.4475pt x 262.9825pt>
+ [56 <./solutions/su2021/2/78/Figure8.png>]
+<solutions/su2021/2/79/ELLIPSE.png, id=3206, 387.4475pt x 262.9825pt>
 File: solutions/su2021/2/79/ELLIPSE.png Graphic file (type png)
 <use solutions/su2021/2/79/ELLIPSE.png>
 Package pdftex.def Info: solutions/su2021/2/79/ELLIPSE.png  used on input line 
 60.
 (pdftex.def)             Requested size: 252.0pt x 171.04893pt.
-) [54 <./solutions/su2021/2/78/Figure8.png> <./solutions/su2021/2/79/ELLIPSE.pn
-g>]
-(./solutions/su2021/2/82/Assignment-6.tex
+) (./solutions/su2021/2/82/Assignment-6.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/su2021/2/82/Parabola.PNG, id=3148, 328.22626pt x 216.81pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57 <./solutions/su2021/2/79/ELLIPSE.png>]
+<solutions/su2021/2/82/Parabola.PNG, id=3239, 328.22626pt x 216.81pt>
 File: solutions/su2021/2/82/Parabola.PNG Graphic file (type png)
 <use solutions/su2021/2/82/Parabola.PNG>
 Package pdftex.def Info: solutions/su2021/2/82/Parabola.PNG  used on input line
  91.
 (pdftex.def)             Requested size: 252.0pt x 166.4612pt.
-) [55 <./solutions/su2021/2/82/Parabola.PNG>] (./solutions/su2021/2/99/Assignme
-nt7.tex
+) (./solutions/su2021/2/99/Assignment7.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/su2021/2/99/Figure7.png, id=3182, 396.48125pt x 262.9825pt>
+ [58 <./solutions/su2021/2/82/Parabola.PNG>]
+<solutions/su2021/2/99/Figure7.png, id=3272, 396.48125pt x 262.9825pt>
 File: solutions/su2021/2/99/Figure7.png Graphic file (type png)
 <use solutions/su2021/2/99/Figure7.png>
 Package pdftex.def Info: solutions/su2021/2/99/Figure7.png  used on input line 
@@ -3628,28 +3690,29 @@ Package pdftex.def Info: solutions/su2021/2/99/Figure7.png  used on input line
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
+
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 315.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [57 <./solutions/su2021/2/99/Figure7.png>]
+[59 <./solutions/su2021/2/99/Figure7.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58])
-(./app/1/ChallengeProblem3.tex [59pdfTeX warning (ext4): destination with the s
-ame identifier (name{equation.390.1}) has been already used, duplicate ignored
+ [60]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./app/1/ChallengeProblem3.tex [61pdfTeX warning (ext4): destination with the s
+ame identifier (name{equation.392.1}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.103     \end{align}
-                     ]
-<app/1/Figures/ChallengeProblem3_2.png, id=3347, 395.4775pt x 266.9975pt>
+l.53  \item y
+             -coordinate of vertex $\vec{c}$ of parabola needs to be always ...
+]
+<app/1/Figures/ChallengeProblem3_2.png, id=3403, 395.4775pt x 266.9975pt>
 File: app/1/Figures/ChallengeProblem3_2.png Graphic file (type png)
 <use app/1/Figures/ChallengeProblem3_2.png>
 Package pdftex.def Info: app/1/Figures/ChallengeProblem3_2.png  used on input l
@@ -3658,7 +3721,8 @@ ine 109.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<app/1/Figures/ChallengeProblem3_1.png, id=3348, 385.44pt x 264.99pt>
+ [62 <./app/1/Figures/ChallengeProblem3_2.png>]
+<app/1/Figures/ChallengeProblem3_1.png, id=3436, 385.44pt x 264.99pt>
 File: app/1/Figures/ChallengeProblem3_1.png Graphic file (type png)
 <use app/1/Figures/ChallengeProblem3_1.png>
 Package pdftex.def Info: app/1/Figures/ChallengeProblem3_1.png  used on input l
@@ -3667,9 +3731,7 @@ ine 154.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60 <./app/1/Figures/ChallengeProblem3_2.png> <./app/1/Figures/ChallengeProble
-m3_1.png>]
-<app/1/Figures/ChallengeProblem3_3.png, id=3378, 403.5075pt x 266.9975pt>
+<app/1/Figures/ChallengeProblem3_3.png, id=3437, 403.5075pt x 266.9975pt>
 File: app/1/Figures/ChallengeProblem3_3.png Graphic file (type png)
 <use app/1/Figures/ChallengeProblem3_3.png>
 Package pdftex.def Info: app/1/Figures/ChallengeProblem3_3.png  used on input l
@@ -3678,16 +3740,20 @@ ine 196.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<app/1/Figures/ChallengeProblem3_4.png, id=3379, 394.47375pt x 266.9975pt>
+ [63 <./app/1/Figures/ChallengeProblem3_1.png> <./app/1/Figures/ChallengeProble
+m3_3.png>]
+<app/1/Figures/ChallengeProblem3_4.png, id=3465, 394.47375pt x 266.9975pt>
 File: app/1/Figures/ChallengeProblem3_4.png Graphic file (type png)
 <use app/1/Figures/ChallengeProblem3_4.png>
 Package pdftex.def Info: app/1/Figures/ChallengeProblem3_4.png  used on input l
 ine 231.
 (pdftex.def)             Requested size: 252.0pt x 170.5641pt.
-) [61 <./app/1/Figures/ChallengeProblem3_3.png> <./app/1/Figures/ChallengeProbl
-em3_4.png>]
+) [64
+
+ <./app/1/Figures/ChallengeProblem3_4.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 313.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 313.
+
 (./gvv_ncert_quadratic_forms.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 313.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 313.
@@ -3697,10 +3763,10 @@ ed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 313.
  ) 
 Here is how much of TeX's memory you used:
- 43511 strings out of 481239
- 999151 string characters out of 5920377
- 1347091 words of memory out of 5000000
- 55940 multiletter control sequences out of 15000+600000
+ 43606 strings out of 481239
+ 1001239 string characters out of 5920377
+ 1347397 words of memory out of 5000000
+ 55969 multiletter control sequences out of 15000+600000
  619963 words of font info for 218 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,24n,91p,517b,1922s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3715,10 +3781,10 @@ are/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive
 ts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on gvv_ncert_quadratic_forms.pdf (61 pages, 1378404 bytes).
+Output written on gvv_ncert_quadratic_forms.pdf (64 pages, 1424582 bytes).
 PDF statistics:
- 3786 PDF objects out of 4296 (max. 8388607)
- 2732 compressed objects within 28 object streams
- 1657 named destinations out of 1728 (max. 500000)
- 591 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3870 PDF objects out of 4296 (max. 8388607)
+ 2804 compressed objects within 29 object streams
+ 1710 named destinations out of 1728 (max. 500000)
+ 611 words of extra memory for PDF output out of 10000 (max. 10000000)
 
