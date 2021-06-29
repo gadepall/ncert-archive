@@ -1,4 +1,4 @@
 \contentsline {section}{\numberline {1}Examples}{1}{section.1}%
 \contentsline {section}{\numberline {2}Exercises}{40}{section.2}%
-\contentsline {section}{\numberline {3}Appendices}{61}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Examples}{62}{subsection.3.1}%
+\contentsline {section}{\numberline {3}Appendices}{62}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Examples}{63}{subsection.3.1}%

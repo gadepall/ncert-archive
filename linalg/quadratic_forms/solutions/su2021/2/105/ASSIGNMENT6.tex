@@ -1,0 +1,135 @@
+\begin{lemma}
+The points of intersection of \textbf{Line} $L:\vec{x}=\vec{q}+\mu\vec{m}$ with \textbf{parabola},are given by:
+\begin{align}
+\vec{x}_i = \vec{q}+\mu_i\vec{m}
+\end{align}
+%
+where,
+\begin{multline}
+\mu_i = \frac{1}
+{
+\vec{m}^T\vec{V}\vec{m}
+}
+\lbrak{-\vec{m}^T\brak{\vec{V}\vec{q}+\vec{u}}}
+\\
+\pm
+{\small
+\rbrak{\sqrt{
+\sbrak{
+\vec{m}^T\brak{\vec{V}\vec{q}+\vec{u}}
+}^2
+-
+\brak
+{
+\vec{q}^T\vec{V}\vec{q} + 2\vec{u}^T\vec{q} +f
+}
+\brak{\vec{m}^T\vec{V}\vec{m}}
+}
+}
+}\label{quadform/2/105/eq:mu_i}
+\end{multline}
+\end{lemma}
+ The matrix parameters of the parabola are
+\begin{align}
+\vec{V}=\myvec{1&0\\0&0},\vec{u}=\myvec{0\\-\frac{2}{3}},f=0 \label{quadform/2/105/eq:v}
+\end{align}
+with eigen parameters 
+\begin{align}
+\lambda_1 &= 0 , \lambda_2 = 1
+\\
+\vec{p_1} &= \myvec{0 \\ 1},
+\vec{p_2} = \myvec{1 \\ 0}
+\end{align}
+The vertex of the parabola can be expressed as
+\begin{align} \myvec{\vec{u^T}+\eta\vec{p_1^T}\\\vec{V} }\vec{c} &= \myvec{\vec{-f}\\\eta \vec{p_1} -\vec{u}}
+\\
+\text{where, }  \eta = \vec{u^T}\vec{p_1} = \frac{-2}{3}
+\\
+\implies\myvec{0 & \frac{-4}{3}\\1 & 0 \\0 & 0} \vec{c}&= \myvec{0\\0\\0}
+\\
+\text{or, }
+   \vec{c} &= \myvec{0 \\ 0}
+\end{align}
+From  \eqref{quadform/2/105/eq:mu_i},
+\begin{align}
+\mu_i &= \frac{1}{4}
+\brak{10}
+\pm{6}
+\\
+\implies \mu_1 &= 1, \mu_2 =4
+\end{align}
+The given line is
+\begin{align} 
+\myvec{-3&2}\vec{x}&=12
+\end{align}
+ In parametric form, the given  line can be written as:
+\begin{align} 
+L: \vec{x}&=\vec{q}+\mu\vec{m}
+\\
+\implies \vec{x}&=\myvec{-4\\0}+\mu\myvec{2\\3} \label{quadform/2/105/eq:q}
+\end{align}
+Substitutuing $\mu_1$ and $\mu_2$ in \eqref{quadform/2/105/eq:q},the points of intersection
+\begin{align}
+ \vec{K}= \myvec{-2\\3},  
+\vec{L}&= \myvec{4\\12}
+\end{align}
+
+\begin{enumerate}
+  \item Thus, from Fig. \ref{quadform/2/105/Plot of the Parabola and line} the area enclosed by parabola and line can be given as
+\begin{align}
+   A&= \text{Area under line} - \text{Area under parabola}
+     \\
+   A&= Ar(KLMNK)-Ar(KCLMCNK)
+    \\
+    A&= A_1 -A_2 \label{quadform/2/105/eqAREA}
+    \end{align}
+\item Area under the line 2y=3x+12 i.e, $A_1$-
+\begin{align}
+  A_1&= \int_{-2}^{4} y dx
+    \\
+    A_1&= \frac{1}{2}\int_{-2}^{4} \brak{3x+12} dx
+    \end{align}
+    \begin{align}
+    A_1= \frac{3}{2}\int_{-2}^{4} x+\frac{1}{2}\int_{-2}^{4}12 dx
+    \end{align}
+    \begin{align}
+    A_1&= \frac{3}{4}\brak{4^2-2^2} +\frac{12}{2}\brak{4+2}
+   \\
+    A_1&= \frac{3}{4}\brak{12} +\frac{12}{2}\brak{6}
+    \\
+    A_1&= 9 +36
+    \\
+    A_1 &=45 \text{ units} \label{quadform/2/105/eqB}
+\end{align}
+\item Area under the parabola that is $A_2$-
+\begin{align}
+    A_2&= \int_{-2}^{4} y dx
+    \\
+    A_2&= \int_{-2}^{4} \frac{3}{4} x^2 dx
+    \\
+    A_2&= \frac{3}{4} \int_{-2}^{4}  x^2 dx
+    \\
+    A_2&= \frac{3}{4\times3} \brak{4^3-\brak{-2}^3}
+    \\
+    A_2&= \frac{1}{4} \brak{64 +8}
+    \\
+    A_2&= \frac{72}{4} 
+    \\
+    A_2&= 18 \text{ units} \label{quadform/2/105/eqC}
+\end{align}
+\item Putting \eqref{quadform/2/105/eqB} and \eqref{quadform/2/105/eqC} in \eqref{quadform/2/105/eqAREA} we get required area A as:
+\begin{align}
+ A &= A_1 -A_2 
+ \\
+ A &= 45-18
+ \\
+ A &= 27 \text{ units}
+\end{align}
+%
+\end{enumerate}
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\columnwidth]{solutions/su2021/2/105/LINE AND PARABOLA.png}
+\caption{Plot of the parabola and line}
+\label{quadform/2/105/Plot of the Parabola and line}
+\end{figure}

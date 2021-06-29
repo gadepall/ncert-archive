@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.27)  28 JUN 2021 10:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.27)  29 JUN 2021 10:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2848,20 +2848,31 @@ ne 42.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-(./solutions/su2021/2/5/main.tex
-<solutions/su2021/2/5/download (4).png, id=2109, 350.30875pt x 231.86626pt>
+(./solutions/su2021/2/4/Assignment 8 (3).tex
+<solutions/su2021/2/4/Right angle triangle.png, id=2109, 350.30875pt x 231.8662
+6pt>
+File: solutions/su2021/2/4/Right angle triangle.png Graphic file (type png)
+<use solutions/su2021/2/4/Right angle triangle.png>
+Package pdftex.def Info: solutions/su2021/2/4/Right angle triangle.png  used on
+ input line 8.
+(pdftex.def)             Requested size: 252.0pt x 166.79851pt.
+) (./solutions/su2021/2/5/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41 <./solutions/su2021/2/2/TriangleABC.PNG> <./solutions/su2021/2/4/Right ang
+le triangle.png>]
+<solutions/su2021/2/5/download (4).png, id=2135, 350.30875pt x 231.86626pt>
 File: solutions/su2021/2/5/download (4).png Graphic file (type png)
 <use solutions/su2021/2/5/download (4).png>
 Package pdftex.def Info: solutions/su2021/2/5/download (4).png  used on input l
 ine 23.
 (pdftex.def)             Requested size: 252.0pt x 166.79851pt.
-) [41 <./solutions/su2021/2/2/TriangleABC.PNG> <./solutions/su2021/2/5/download
- (4).png>]
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [42 <./solutions/su2021/2/5/download (4).png>]
 
-
-LaTeX Warning: File `./line/figs/11-1/6/6.10.eps' not found on input line 128.
+LaTeX Warning: File `./line/figs/11-1/6/6.10.eps' not found on input line 133.
 
 Package epstopdf Info: Source file: <./line/figs/11-1/6/6.10.eps>
 (epstopdf)             Output file: <./line/figs/11-1/6/6.10-eps-converted-to.p
@@ -2870,52 +2881,43 @@ df>
 (epstopdf)                    size: 16274 bytes
 (epstopdf)             Command: <repstopdf --outfile=./line/figs/11-1/6/6.10-ep
 s-converted-to.pdf ./line/figs/11-1/6/6.10.eps>
-(epstopdf)             \includegraphics on input line 128.
+(epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
-<./line/figs/11-1/6/6.10-eps-converted-to.pdf, id=2137, 389.455pt x 188.705pt>
+<./line/figs/11-1/6/6.10-eps-converted-to.pdf, id=2166, 389.455pt x 188.705pt>
 File: ./line/figs/11-1/6/6.10-eps-converted-to.pdf Graphic file (type pdf)
 <use ./line/figs/11-1/6/6.10-eps-converted-to.pdf>
 Package pdftex.def Info: ./line/figs/11-1/6/6.10-eps-converted-to.pdf  used on 
-input line 128.
+input line 133.
 (pdftex.def)             Requested size: 252.0pt x 122.10106pt.
 (./solutions/su2021/2/24/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
-<solutions/su2021/2/24/figure.png, id=2169, 350.30875pt x 231.86626pt>
+<solutions/su2021/2/24/figure.png, id=2168, 350.30875pt x 231.86626pt>
 File: solutions/su2021/2/24/figure.png Graphic file (type png)
 <use solutions/su2021/2/24/figure.png>
 Package pdftex.def Info: solutions/su2021/2/24/figure.png  used on input line 2
 6.
 (pdftex.def)             Requested size: 252.0pt x 166.79851pt.
-)
-(./solutions/su2021/2/26/main.tex
-<solutions/su2021/2/26/internally.png, id=2171, 388.45125pt x 262.9825pt>
+) [43 <./line/figs/11-1/6/6.10-eps-converted-to.pdf> <./solutions/su2021/2/24/f
+igure.png>] (./solutions/su2021/2/26/main.tex
+<solutions/su2021/2/26/internally.png, id=2198, 388.45125pt x 262.9825pt>
 File: solutions/su2021/2/26/internally.png Graphic file (type png)
 <use solutions/su2021/2/26/internally.png>
 Package pdftex.def Info: solutions/su2021/2/26/internally.png  used on input li
 ne 15.
 (pdftex.def)             Requested size: 252.0pt x 170.60753pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43 <./line/figs/11-1/6/6.10-eps-converted-to.pdf> <./solutions/su2021/2/24/fi
-gure.png>]
-<solutions/su2021/2/26/externally.png, id=2202, 403.5075pt x 262.9825pt>
+<solutions/su2021/2/26/externally.png, id=2200, 403.5075pt x 262.9825pt>
 File: solutions/su2021/2/26/externally.png Graphic file (type png)
 <use solutions/su2021/2/26/externally.png>
 Package pdftex.def Info: solutions/su2021/2/26/externally.png  used on input li
 ne 35.
 (pdftex.def)             Requested size: 252.0pt x 164.23924pt.
 ) (./solutions/su2021/2/27/main.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \hbox (18.87654pt too wide) detected at line 15
 []
  []
 
-<solutions/su2021/2/27/Figure6.png, id=2204, 350.30875pt x 231.86626pt>
+<solutions/su2021/2/27/Figure6.png, id=2202, 350.30875pt x 231.86626pt>
 File: solutions/su2021/2/27/Figure6.png Graphic file (type png)
 <use solutions/su2021/2/27/Figure6.png>
 Package pdftex.def Info: solutions/su2021/2/27/Figure6.png  used on input line 
@@ -2925,13 +2927,22 @@ Package pdftex.def Info: solutions/su2021/2/27/Figure6.png  used on input line
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44 <./solutions/su2021/2/26/internally.png> <./solutions/su2021/2/26/external
-ly.png> <./solutions/su2021/2/27/Figure6.png>]) (./quad/quad_geo.tex) [45
+ly.png>]
+(./solutions/su2021/2/36/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
+<solutions/su2021/2/36/assignment8.png, id=2232, 433.62pt x 289.08pt>
+File: solutions/su2021/2/36/assignment8.png Graphic file (type png)
+<use solutions/su2021/2/36/assignment8.png>
+Package pdftex.def Info: solutions/su2021/2/36/assignment8.png  used on input l
+ine 22.
+(pdftex.def)             Requested size: 252.0pt x 168.00174pt.
+))
+(./quad/quad_geo.tex) [45 <./solutions/su2021/2/27/Figure6.png> <./solutions/su
+2021/2/36/assignment8.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
-
-(./gvv_ncert_vectors.aux)
+ (./gvv_ncert_vectors.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
 Package rerunfilecheck Info: File `gvv_ncert_vectors.out' has not changed.
@@ -2939,10 +2950,10 @@ Package rerunfilecheck Info: File `gvv_ncert_vectors.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
  ) 
 Here is how much of TeX's memory you used:
- 42314 strings out of 481239
- 967833 string characters out of 5920377
- 1335917 words of memory out of 5000000
- 55342 multiletter control sequences out of 15000+600000
+ 42348 strings out of 481239
+ 968790 string characters out of 5920377
+ 1336013 words of memory out of 5000000
+ 55356 multiletter control sequences out of 15000+600000
  617572 words of font info for 207 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,20n,91p,509b,1297s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2958,10 +2969,10 @@ t/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_vectors.pdf (45 pages, 947331 bytes).
+Output written on gvv_ncert_vectors.pdf (45 pages, 983530 bytes).
 PDF statistics:
- 2507 PDF objects out of 2984 (max. 8388607)
- 1728 compressed objects within 18 object streams
- 1046 named destinations out of 1200 (max. 500000)
- 365 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2526 PDF objects out of 2984 (max. 8388607)
+ 1743 compressed objects within 18 object streams
+ 1057 named destinations out of 1200 (max. 500000)
+ 375 words of extra memory for PDF output out of 10000 (max. 10000000)
 

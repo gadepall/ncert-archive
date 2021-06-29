@@ -1,0 +1,35 @@
+
+Given 
+\begin{equation}
+\vec{B} = 
+\begin{pmatrix} 
+2 & -2 & -4 \\  -1 & 3 & 4 \\ 1&-2&-3
+\end{pmatrix}
+\end{equation}
+and \begin{equation}
+\vec{B^\top} = 
+\begin{pmatrix} 
+2 & -1 & 1 \\ -2 & 3 & -2 \\ -4 & 4 & -3
+\end{pmatrix} 
+\end{equation} 
+\begin{align}
+  \vec{C} &= \frac{\vec{B}+\vec{B^\top}}{2} = \begin{pmatrix} 
+2 & -\frac{3}{2} & -\frac{3}{2} \\  -\frac{3}{2} & 3 & 1 \\ -\frac{3}{2}&1&-3
+\end{pmatrix}
+\\
+&=\vec{C^\top}
+\label{eq1}
+\end{align}
+Also,
+
+\begin{align}
+\vec{D} &=\frac{\vec{B} - \vec{B^\top}}{2} =
+\begin{pmatrix} 
+0 & -\frac{1}{2} & -\frac{5}{2} \\  \frac{1}{2} & 0 & 3 \\ \frac{5}{2}&-3&0
+\end{pmatrix}\\
+&= -\vec{D^\top}
+\label{eq2}
+\end{align}
+Hence, $\vec{C}$ is a symmetric matrix and $\vec{D}$ is skew symmetric.
+and $\vec{C} + \vec{D}$ = $\vec{B}$.
+
