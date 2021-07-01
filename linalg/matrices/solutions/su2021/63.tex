@@ -1,0 +1,26 @@
+Given that $\vec{A}$ =$\myvec{1&2&3\\3&-2&1\\4&2&1}$.
+\begin{enumerate}
+\item \textbf{The Characteristic equation} is given by:
+\begin{align}
+  \implies  \abs{\vec{A}-\lambda\vec{I}}&=0
+    \\
+    \implies \mydet{1-\lambda&2&3\\3&-2-\lambda&1\\4&2&1-\lambda}&=0
+    \end{align}
+\begin{multline}
+   \implies\brak{1-\lambda}\brak{\brak{-2-\lambda}\brak{1-\lambda}-2}
+   \\
+   -2\brak{3\brak{1-\lambda}-4}+3\brak{6+4\brak{2+\lambda}}=0
+\end{multline}
+\begin{align}
+ \implies   \lambda^3-23\lambda-40=0
+\end{align}
+The above equation is similar to equation to be proved.
+\item According to \textbf{Cayley-Hamilton Theorem:} 
+\\
+Every square matrix satisfies its own
+\\\textbf{characteristic equation}.
+\begin{align}
+\therefore    \vec{A}^3-23\vec{A}-40\vec{I}=0
+\end{align}
+Hence Proved.
+\end{enumerate}

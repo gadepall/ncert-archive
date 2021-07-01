@@ -1,0 +1,80 @@
+\begin{enumerate}
+    \item Given that
+    \begin{align}
+    \vec{A}& =\myvec {0 & 1 & 2\\1 & 2 & 3\\3 & 1 & 1}
+    \end{align}
+     The augmented matrix $[A | I]$ is as given below:- 
+    \begin{align}
+    \myvec{0 & 1 & 2 & \vrule & 1 & 0 & 0\\1 & 2 & 3 & \vrule & 0 & 1 & 0\\3 & 1 & 1 & \vrule & 0 & 0 & 1}
+    \end{align}
+    We apply the elementary row operations on $[A | I]$ as follows :-
+    \begin{align}
+    [A | I] = \myvec{0 & 1 & 2 & \vrule & 1 & 0 & 0\\1 & 2 & 3 & \vrule & 0 & 1 & 0\\3 & 1 & 1 & \vrule & 0 & 0 & 1}
+    \\
+    \xleftrightarrow{R_1\leftrightarrow R_2}   
+    \myvec{1 & 2 & 3 & \vrule & 0 & 1 & 0\\0 & 1 & 2 & \vrule & 1 & 0 & 0\\3 & 1 & 1 & \vrule & 0 & 0 & 1}
+    \\
+    \xleftrightarrow{R_3\leftarrow R_3-3R_1}   
+    \myvec{1 & 2 & 3 & \vrule & 0 & 1 & 0\\0 & 1 & 2 & \vrule & 1 & 0 & 0\\0 & -5 & -8 & \vrule & 0 & -3 & 1}
+    \\
+    \xleftrightarrow{R_1\leftarrow R_1-2R_2}  
+    \myvec{1 & 0 & -1 & \vrule & -2 & 1 & 0\\0 & 1 & 2 & \vrule & 1 & 0 & 0\\0 & -5 & -8 & \vrule & 0 & -3 & 1}
+    \\
+    \xleftrightarrow{R_3\leftarrow R_3+5R_2}  
+    \myvec{1 & 0 & -1 & \vrule & -2 & 1 & 0\\0 & 1 & 2 & \vrule & 1 & 0 & 0\\0 & 0 & 2 & \vrule & 5 & -3 & 1}
+    \\
+    \xleftrightarrow{R_3\leftarrow R_3/2}
+    \myvec{1 & 0 & -1 & \vrule & -2 & 1 & 0\\ 0 & 1 & 2 & \vrule & 1 & 0 & 0\\0 & 0 & 1 &\vrule &\frac{5}{2} &\frac{-3}{2} &\frac{1}{2}}
+    \\
+    \xleftrightarrow{R_1\leftarrow R_1+R_3}
+    \myvec{1 & 0 & 0 & \vrule & \frac{1}{2} & \frac{-1}{2} & \frac{1}{2}\\ 0 & 1 & 2 & \vrule & 1 & 0 & 0\\0 & 0 & 1 &\vrule &\frac{5}{2} &\frac{-3}{2} &\frac{1}{2}}
+    \\
+    \xleftrightarrow{R_2\leftarrow R_2-2R_3}
+    \myvec{1 & 0 & 0 & \vrule & \frac{1}{2} & \frac{-1}{2} & \frac{1}{2}\\ 0 & 1 & 0 & \vrule & -4 & 3 & -1\\0 & 0 & 1 &\vrule &\frac{5}{2} &\frac{-3}{2} &\frac{1}{2}}
+    \end{align}
+    By performing elementary transformations on augmented matrix$ [A | I]$ , we obtained the augmented matrix in the form $ [I | A]$. 
+    Hence we can conclude that the matrix A is invertible and inverse of the matrix is:-
+    \begin{align}
+    \therefore\vec{A^{-1}}=\myvec { \frac{1}{2} & \frac{-1}{2} & \frac{1}{2} \\  -4 & 3 & -1\\ \frac{5}{2} &\frac{-3}{2} &\frac{1}{2}}
+    \end{align}
+    \item QR decomposition of  \myvec{0  & 1 & 3 \\ 1 & 2 & 3 \\ 2 & 3 & 1}
+    \\
+     Let us use the Gram-schmidt approach to obtain QR decomposition of$ \vec{A}$. Consider rows vectors say $\vec{a_1}$,$\vec{a_2}$ and $\vec{a_3}$ of $\vec{A}$  which is given by
+    \begin{align}
+    \vec{a_1}=\myvec{0 & 1 & 2}\label{matrix/69/eq1}\\
+    \vec{a_2}=\myvec{1 & 2 & 3}\label{matrix/69/eq2}\\
+    \vec{a_3}=\myvec{3 & 1 & 1}\label{matrix/69/eq3}
+    \end{align}
+    we can express these as 
+    \begin{align}
+    \vec{u_1}&=\vec{a_1}=\myvec{0 & 1 & 2}\label{matrix/69/eq4}\\
+    \vec{e_1}&=\frac{\vec{u_1}}{\norm{\vec{u_1}}}\\
+    \vec{e_1}&=\frac{\myvec{0 & 1 & 2}}{\sqrt{0+1+4}}\\
+    \vec{e_1}&=\myvec{0 & \frac{1}{\sqrt{5}} & \frac{2}{\sqrt{5}}}\\
+    \vec{u_2}&=\vec{a_2}-(\vec{a_2}\vec{e_1})\vec{e_1}\\
+    &=\myvec{1 & 2 & 3}-(\myvec{1 & 2 & 3}\myvec{0 & \frac{1}{\sqrt{5}} & \frac{2}{\sqrt{5}}})\myvec{0 & \frac{1}{\sqrt{5}} &  \frac{2}{\sqrt{5}}}\\
+    &=\myvec{1 & \frac{2}{5} & \frac{-1}{5}}\\
+    \vec{e_2}&=\frac{\vec{u_2}}{\norm{\vec{u_2}}}=\frac{\myvec{1 & \frac{2}{5} & \frac{-1}{5}}}{\sqrt{1+\frac{4}{25}+\frac{1}{25}}}\\
+    \vec{e_2}&=\myvec{\frac{5}{\sqrt{30}} & \frac{2}{\sqrt{30}} &\frac{-1}{\sqrt{30}}}\\
+    \vec{u_3}&=\vec{a_3}-(\vec{a_3}\vec{e_1})\vec{e_1}-(\vec{a_3}\vec{e_2})\vec{e_2}
+    \\
+    \vec{u_3}&=\myvec{\frac{1}{3} & \frac{-2}{3} &\frac{1}{3}}\\
+    \vec{e_3}&=\frac{\vec{u_3}}{\norm{\vec{u_3}}}\\
+    &=\frac{\myvec{\frac{1}{3} & \frac{-2}{3} & \frac{1}{4}}}{\sqrt{\frac{1}{9}+\frac{4}{9}+\frac{1}{9}}}\\
+    \vec{e_3}&=\myvec{\frac{1}{\sqrt{6}} & \frac{-2}{\sqrt{6}} &\frac{1}{\sqrt{6}}}
+    \end{align}
+    Thus,
+    \begin{align}
+     \vec{Q}&=(e_1|e_2|----|e_n)\\
+     &=\myvec{0 & \frac{5}{\sqrt{30}} & \frac{1}{\sqrt{6}}\\\frac{1}{\sqrt{5}} & \frac{2}{\sqrt{30}} & \frac{-2}{\sqrt{6}}\\\frac{2}{\sqrt{5}} & \frac{-1}{\sqrt{30}} & \frac{1}{\sqrt{6}}}\label{matrix/69/eq5}      
+    \end{align}
+    Then
+    \begin{align}
+      \vec{R}&=\myvec{a_1e_1 & a_2e_1 & a_3e_1\\ 0 & a_2e_2 & a_3e_2\\0 & 0 & a_3e_3}\\
+      &=\myvec{\frac{5}{\sqrt{5}} & \frac{8}{\sqrt{5}} & \frac{3}{\sqrt{5}}\\0 &  \frac{6}{\sqrt{30}} & \frac{16}{\sqrt{30}}\\0 & 0 & \frac{2}{\sqrt{6}}}\label{matrix/69/eq6} 
+      \end{align}
+    From equations \eqref{matrix/69/eq5} and \eqref{matrix/69/eq6} the obtained $\vec{Q} \vec{R}$ Decomposition is
+    \begin{align}
+     \myvec{0  & 1 & 3 \\ 1 & 2 & 3 \\ 2 & 3 & 1}&= \myvec{0 & \frac{5}{\sqrt{30}} & \frac{1}{\sqrt{6}}\\\frac{1}{\sqrt{5}} & \frac{2}{\sqrt{30}} & \frac{-2}{\sqrt{6}}\\\frac{2}{\sqrt{5}} & \frac{-1}{\sqrt{30}} & \frac{1}{\sqrt{6}}}\myvec{\frac{5}{\sqrt{5}} & \frac{8}{\sqrt{5}} & \frac{3}{\sqrt{5}}\\0 &  \frac{6}{\sqrt{30}} & \frac{16}{\sqrt{30}}\\0 & 0 & \frac{2}{\sqrt{6}}} 
+    \end{align}
+    \end{enumerate}

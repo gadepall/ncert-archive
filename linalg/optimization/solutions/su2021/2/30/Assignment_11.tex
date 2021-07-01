@@ -1,0 +1,104 @@
+\begin{itemize}
+\item All the data can be tabularised as:
+\numberwithin{table}{section}
+\begin{table}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\begin{tabular}{|c|c|c|c|} 
+\hline
+ & \textbf{Brand P }& \textbf{Brand Q } &Amounts Required\\
+\hline
+Nitrogen & 3  & 3.5 & $?$ \\ 
+\hline
+Phosphoric Acid & 1 & 2 &$\geq 240$ kg \\ 
+\hline
+Potash & 3 & 1.5 &$\geq 270$ kg\\ 
+\hline
+Chlorine & 1.5 & 2 &$\leq 310$ kg\\ 
+\hline
+\end{tabular}}
+\caption{Requirements of fertilizers}
+\label{opt/30/tab:table2}
+\end{table}
+\item Let the number of bags of Brand P be $x$ $\And$
+\item The number of bags of Brand Q be $y$ such that : 
+\begin{align}
+    x \geq 0 
+    \\
+    y \geq 0 
+\end{align}
+\item From the data given we have:
+\begin{align}
+    x+2y &\geq 240 \\
+   \implies   -x-2y &\leq -240
+\end{align}
+and,
+\begin{align}
+    3x+1.5y &\geq 270 \\
+    \implies -x-0.5y &\leq -90
+\end{align}
+and,
+\begin{align}
+     1.5x+2y &\leq 310 \\
+\end{align}
+$\therefore$ The minimizing function is:
+\begin{align}
+        \min_{\vec{x}} Z &= \myvec{3& 3.5}\vec{x}\\
+        s.t. \quad 
+        \myvec{-1 & -2\\ -1 & -0.5 \\ 1.5 & 2 }\vec{x} &\preceq \myvec{-240\\-90\\310} \\
+        \vec{-x} &\preceq \vec{0}
+\end{align}
+\item The Lagrangian function can be given as:
+\begin{equation}
+\begin{aligned}
+    &L(\vec{x},\boldsymbol{\lambda}) \\ &= \myvec{3 & 3.5}\vec{x}+\lcbrak{\sbrak{\myvec{-1 & -2}\vec{x}+240}} \\ &+ \sbrak{\myvec{-1 & -0.5}\vec{x}+90} +\sbrak{\myvec{1.5 & 2}\vec{x}-310} \\ &+ \sbrak{\myvec{-1 & 0}\vec{x}} +\rcbrak{\sbrak{\myvec{0 & -1}\vec{x}}}\boldsymbol{\lambda}
+\end{aligned}
+\end{equation}
+where,
+\begin{align}
+    \boldsymbol{\lambda} &= \myvec{\lambda_1 \\ \lambda_2 \\ \lambda_3 \\ \lambda_4 \\ \lambda_5 \\ \lambda_6}
+\end{align}
+\item Now, we have
+\begin{align}
+    \nabla L(\vec{x},\boldsymbol{\lambda}) &= \myvec{3+ \myvec{-1 & -1 & 1.5 & -1 & 0 }\boldsymbol{\lambda}\\ 3.5+\myvec{-2 & -0.5 & 2 & 0 & -1}\boldsymbol{\lambda} \\ \myvec{-1 & -2}\vec{x}+240 \\ \myvec{-1 & -0.5}\vec{x}+90 \\ \myvec{1.5 & 2}\vec{x}-310 \\ \myvec{-1 & 0}\vec{x} \\ \myvec{0 & -1}\vec{x}}
+\end{align}
+$\therefore$ The Lagrangian matrix is given by:-
+\begin{align}
+  \small{\myvec{0 & 0 & -1 & -1 & 1.5 & -1 & 0 \\ 0 & 0 & -2 & -0.5 & 2 & 0 & -1 \\ -1 & -2 & 0 & 0 & 0 & 0 & 0 \\ -1 & -0.5 & 0 & 0 & 0 & 0 & 0 \\ 1.5 & 2 & 0 & 0 & 0 & 0 & 0 \\ -1 & 0 & 0 & 0 & 0 & 0 & 0 \\ 0 & -1 & 0 & 0 & 0 & 0 & 0 }\myvec{\vec{x} \\ \boldsymbol{\lambda} }}= \small{\myvec{-3 \\ -3.5 \\ -240 \\ -90 \\ 310 \\ 0 \\0 }}
+\end{align}
+\item Considering $\lambda_1,\lambda_2$ as only active multiplier,
+\begin{align}
+    \myvec{0 & 0 & -1 & -1  \\ 0 & 0 & -2 & -0.5 \\ -1 & -2 & 0 & 0 \\-1 & -0.5 & 0 & 0}\myvec{\vec{x}\\ \boldsymbol{\lambda}} &= \myvec{-3 \\ -3.5 \\ -240 \\ -90}
+\end{align}
+\begin{align}
+ \implies   \myvec{\vec{x} \\ \boldsymbol{\lambda}} &=  \myvec{0 & 0 & -1 & -1  \\ 0 & 0 & -2 & -0.5 \\ -1 & -2 & 0 & 0 \\-1 & -0.5 & 0 & 0}^{-1}\myvec{-3 \\ -3.5 \\ -240 \\ -90}
+    \\
+    \implies   \myvec{\vec{x} \\ \boldsymbol{\lambda}} &= \myvec{0 & 0 & \frac{1}{3} & \frac{4}{3} \\ 0 & 0 & \frac{-2}{3} & \frac{2}{3} \\ \frac{1}{3} & \frac{-2}{3} & 0 & 0 \\ \frac{-4}{3} & \frac{2}{3} & 0 & 0}\myvec{-3 \\ -3.5 \\ -240 \\ -90}
+    \\
+    \implies \myvec{\vec{x} \\ \boldsymbol{\lambda}} &= \myvec{40 \\100 \\ \frac{4}{3} \\ \frac{5}{3} }
+\end{align}
+$\because \boldsymbol{\lambda}=\myvec{\frac{4}{3} \\ \frac{5}{3}} \succ \vec{0}$
+\\
+\item The Optimal solution is given by:
+\begin{align}
+    \vec{x} &= \myvec{40\\100} \\
+    Z &= \myvec{3&3.5}\vec{x} \\
+   Z &= \myvec{3&3.5}\myvec{40 \\ 100} \\
+    Z&= 470 \text{ units}
+\end{align}
+\item So, we get
+\\
+ Bags of brand \textbf{P} as \boxed{x=40} $\And$
+ \\
+ Bags of brand \textbf{Q} as  \boxed{y=100} so as to minimise the amount of nitrogen added.
+\item The minimum amount of nitrogen required is \boxed{Z=470 \text{ units}} .  Fig. \ref{opt/30/fig}
+verifies this result.
+%
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{solutions/su2021/2/30/Graphical_Solution_2.30.png}
+\caption{Graphical Solution}
+\label{opt/30/fig}
+\end{figure}
+
+\end{itemize}
+

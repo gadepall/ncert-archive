@@ -1,0 +1,57 @@
+\begin{enumerate}
+    \item Given that
+    \begin{align}
+    \vec{A} = \myvec{1 & -1 \\ 2 & 3}
+    \end{align}
+    The augmented matrix $ [A | I]$ is as given below:- 
+    \begin{align}
+    \myvec{1 & -1 & \vrule & 1 & 0 \\ 2 & 3 & \vrule & 0 & 1}
+    \end{align}
+    We apply the elementary row operations on $ [A | I]$ as follows :-
+    \begin{align}
+    [A | I] = \myvec{1 & -1 & \vrule & 1 & 0 \\ 2 & 3 & \vrule & 0 & 1}
+    \\
+    \xleftrightarrow{R_2\leftarrow R_2-2R_1}   
+    \myvec{1 & -1 & \vrule & 1 & 0 \\ 0 & 5 & \vrule & -2 & 1}
+    \\
+    \xleftrightarrow{R_2\leftarrow \frac{R_2}{5}}
+    \myvec{1 & -1 & \vrule & 1 & 0 \\ 0 & 1 & \vrule & \frac {-2}{5} & \frac {1}{5}}
+    \\
+    \xleftrightarrow{R_2\leftarrow R_1+R_2}
+    \myvec{1 & 0 & \vrule & \frac{3}{5} & \frac{1}{5} \\ 0 & 1 & \vrule & \frac{-2}{5} & \frac{1}{5}}
+    \end{align}
+    By performing elementary transformations on augmented matrix$ [A | I]$ , we obtained the augmented matrix in the form $ [I | A]$. 
+    Hence we can conclude that the matrix A is invertible and inverse of the matrix is:-
+    \begin{align}
+    \therefore\vec{A^{-1}}=\myvec {\frac{3}{5} & \frac{1}{5} \\  \frac{-2}{5} & \frac{1}{5}} 
+    \end{align}
+    \item QR decomposition of  \myvec{1 & -1 \\ 2 & 3}
+    \begin{align}
+    \vec{v_1}=\myvec{1 \\ 2},
+    \vec{v_2}=\myvec{-1 \\ 3}
+    \end{align}
+    \begin{align}
+    \vec{r_1{}_1}&=\sqrt{5}
+    \\
+    \vec{q_1}&=\frac{1}{\norm{\vec{v_1}}}{\vec{v_1}}=\myvec{\frac{1}{\sqrt{5}} \\ \frac{2}{\sqrt{5}}}
+    \\
+    \vec{r_1{}_2}&=\vec{v_1}^{T}{\vec{v_2}} 
+    \\
+    &=\myvec{\frac{1}{\sqrt{5}} & \frac{1}{\sqrt{5}}}\myvec{-1 \\ 3 }=\sqrt{5}
+    \\
+    \vec{v_2}&=\vec{v_2}-\vec{r_1{}_2}\vec{q_1} \\
+    &=\myvec{-1 \\ 3}-{\sqrt{5}}\myvec{\frac{1}{\sqrt{5}} \\ \frac{1}{\sqrt{5}}}
+    \\
+    &=\myvec{-2 \\ 1}
+    \\
+    \vec{r_2{}_2}&=\norm{\vec{v_2}}=\sqrt{5}
+    \\
+    \vec{q_2}&=\frac{1}{\norm{v_2}}\vec{v_2}
+    \\
+    &=\frac{1}{\sqrt{5}}\myvec{\frac{-2}{\sqrt{5}} \\ \frac{1}{\sqrt{5}}}=\myvec{\frac{-2}{\sqrt{5}}\\{\frac{1}{\sqrt{5}}}}
+    \end{align}
+    Thus obtained QR decomposition is 
+    \begin{align}
+    \myvec{1 & -1 \\ 2 & 3}=\myvec{\frac{1}{\sqrt{5}} & \frac{-2}{\sqrt{5}} \\ \frac{2}{\sqrt{5}} & \frac{1}{\sqrt{5}}}\myvec{\sqrt{5} & \sqrt{5} \\ 0 & \sqrt{5}}
+    \end{align}
+    \end{enumerate}

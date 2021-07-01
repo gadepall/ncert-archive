@@ -167,26 +167,27 @@ economy class ticket. The airline reserves at least 20 seats for executive class
 However, at least 4 times as many passengers prefer to travel by economy class
 than by the executive class. Determine how many tickets of each type must be
 sold in order to maximise the profit for the airline. What is the maximum profit?\\
-\item Two godowns A and B have grain capacity of 100 quintals and 50 quintals
-respectively. They supply to 3 ration shops, D, E and F whose requirements are
-60, 50 and 40 quintals respectively. The cost of transportation per quintal from
-the godowns to the shops are given in the following table:\\
-\begin{tabular}{|c|c|c|}
+\item Two godowns A and B have grain capacity of 100 quintals and 50 quintals respectively.They supply to 3 ration shops, D, E and F whose requirements are 60, 50 and 40 quintals respectively. The cost of transportation per quintal from the godowns to the shops are given in the following table:
+\numberwithin{table}{section}
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{ |l|l|l|}
 \hline
- \multicolumn{2}{|l}{\textbf{ Transportation cost per qunital (in Rs)}}& \\ \cline{2-3}
+\multicolumn{3}{ |c| }{Transportation cost per quintal (in rupees)} \\
 \hline
-\textbf {From/To}&\textbf{A}&\textbf{B}\\
-\hline
-D&6&4\\
-\hline
- E&3&2\\
- \hline 
- F&2.50&3\\
- \hline
-
-\end{tabular}\\
-
-
+From/To & A & B \\ \hline
+D & 6 & 4  \\ \hline
+E & 3 & 2 \\ \hline
+F & 2.50 & 3 \\ \hline
+\end{tabular}
+\end{center}
+\caption{Transportation table}
+\label{opt/28/tab:table1}
+\end{table}
+How should the supplies be transported in order that the transportation cost is minimum? What is the minimum cost?
+\\
+\solution 
+\input{solutions/su2021/2/28/Assignment-12.tex}
 How should the supplies be transported in order that the transportation cost is
 minimum? What is the minimum cost?\\
 \item An oil company has two depots A and B with capacities of 7000 L and 4000 L
@@ -211,30 +212,29 @@ D&7&3\\
 Assuming that the transportation cost of 10 litres of oil is Re 1 per km, how
 should the delivery be scheduled in order that the transportation cost is minimum?
 What is the minimum cost?\\
-\item A fruit grower can use two types of fertilizer in his garden, brand P and brand Q.
-The amounts (in kg) of nitrogen, phosphoric acid, potash, and chlorine in a bag of
-each brand are given in the table. Tests indicate that the garden needs at least
-240 kg of phosphoric acid, at least 270 kg of potash and at most 310 kg of
-chlorine.
-If the grower wants to minimise the amount of nitrogen added to the garden,
-how many bags of each brand should be used? What is the minimum amount of
-nitrogen added in the garden?\\
-\begin{tabular}{|c|c|c|}
-\hline
- \multicolumn{2}{|r}{\textbf{ kg per bag}}& \\ \cline{1-3}
-\hline
-&\textbf{Brand P}&\textbf{Brand Q}\\
-\hline
-Nitrogen&3&3.5\\
-\hline
-Phospheric acid&1&2\\
-\hline
-Potash&3&1.5\\
-\hline
-Chlorine&1.5&2\\
-\hline
+\item A fruit grower can use two types of fertilizer in his garden, brand P and brand Q.The amounts(in kg) of nitrogen, phosphoric acid,potash and chlorine in a bag of each brand are given in the table.Tests indicate that garden needs atleast 240 kg of phosphoric acid,atleast 270 kg of potash and atmost 310 kg of chlorine. If the grower wants to minimise the amount of nitrogen added to garden, how many bags of each brand should be used?What is the minimum amount of nitrogen added in the ground?
 
-\end{tabular}
+\begin{table}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\begin{tabular}{|c|c|c|} 
+\hline
+ & \textbf{Brand P }& \textbf{Brand Q }\\
+\hline
+Nitrogen & 3  & 3.5  \\ 
+\hline
+Phosphoric Acid & 1 & 2 \\ 
+\hline
+Potash & 3 & 1.5\\ 
+\hline
+Chlorine & 1.5 & 2 \\ 
+\hline
+\end{tabular}}
+\caption{kg per bag}
+\label{opt/30/tab:table1}
+\end{table}
+%
+\solution
+\input{solutions/su2021/2/30/Assignment_11.tex}
 
 \item Refer to Question 29. If the grower wants to maximise the amount of nitrogen
 added to the garden, how many bags of each brand should be added? What is
