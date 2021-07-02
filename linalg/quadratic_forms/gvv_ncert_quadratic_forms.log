@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  2 JUL 2021 07:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  2 JUL 2021 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3794,95 +3794,80 @@ me{equation.406.3}) has been already used, duplicate ignored
                    \relax 
 l.12 \end{align}
                 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [66 <./app/1/Figures/ChallengeProblem3_4.png>]
-<app/2/Figures/ChallengeProblem5_1.png, id=3592, 379.4175pt x 262.9825pt>
-File: app/2/Figures/ChallengeProblem5_1.png Graphic file (type png)
-<use app/2/Figures/ChallengeProblem5_1.png>
-Package pdftex.def Info: app/2/Figures/ChallengeProblem5_1.png  used on input l
-ine 84.
-(pdftex.def)             Requested size: 252.0pt x 174.66847pt.
-<app/2/Figures/ChallengeProblem5_2.png, id=3593, 387.4475pt x 262.9825pt>
+<app/2/Figures/ChallengeProblem5_2.png, id=3563, 387.4475pt x 262.9825pt>
 File: app/2/Figures/ChallengeProblem5_2.png Graphic file (type png)
 <use app/2/Figures/ChallengeProblem5_2.png>
 Package pdftex.def Info: app/2/Figures/ChallengeProblem5_2.png  used on input l
-ine 134.
+ine 69.
 (pdftex.def)             Requested size: 252.0pt x 171.04893pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67 <./app/2/Figures/ChallengeProblem5_1.png> <./app/2/Figures/ChallengeProble
-m5_2.png>]
-<app/2/Figures/ChallengeProblem5_3.png, id=3628, 387.4475pt x 262.9825pt>
+ [66 <./app/1/Figures/ChallengeProblem3_4.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<app/2/Figures/ChallengeProblem5_3.png, id=3598, 387.4475pt x 262.9825pt>
 File: app/2/Figures/ChallengeProblem5_3.png Graphic file (type png)
 <use app/2/Figures/ChallengeProblem5_3.png>
 Package pdftex.def Info: app/2/Figures/ChallengeProblem5_3.png  used on input l
-ine 203.
+ine 136.
 (pdftex.def)             Requested size: 252.0pt x 171.04893pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [68 <./app/2/Figures/ChallengeProblem5_3.png>]
-<app/2/Figures/ChallengeProblem5_4.png, id=3665, 394.47375pt x 262.9825pt>
+ [67 <./app/2/Figures/ChallengeProblem5_2.png> <./app/2/Figures/ChallengeProble
+m5_3.png>]
+<app/2/Figures/ChallengeProblem5_4.png, id=3632, 394.47375pt x 262.9825pt>
 File: app/2/Figures/ChallengeProblem5_4.png Graphic file (type png)
 <use app/2/Figures/ChallengeProblem5_4.png>
 Package pdftex.def Info: app/2/Figures/ChallengeProblem5_4.png  used on input l
-ine 270.
+ine 201.
 (pdftex.def)             Requested size: 252.0pt x 167.99922pt.
 
-Underfull \vbox (badness 2245) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<app/2/Figures/ChallengeProblem5_5.png, id=3666, 388.45125pt x 262.9825pt>
+<app/2/Figures/ChallengeProblem5_5.png, id=3633, 388.45125pt x 262.9825pt>
 File: app/2/Figures/ChallengeProblem5_5.png Graphic file (type png)
 <use app/2/Figures/ChallengeProblem5_5.png>
 Package pdftex.def Info: app/2/Figures/ChallengeProblem5_5.png  used on input l
-ine 320.
+ine 248.
 (pdftex.def)             Requested size: 252.0pt x 170.60753pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69 <./app/2/Figures/ChallengeProblem5_4.png> <./app/2/Figures/ChallengeProble
-m5_5.png>]
-[70
+ [68 <./app/2/Figures/ChallengeProblem5_4.png>]) [69
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 344.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 344.
+ <./app/2/Figures/ChallengeProblem5_5.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
  (./gvv_ncert_quadratic_forms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 344.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 344.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
 Package rerunfilecheck Info: File `gvv_ncert_quadratic_forms.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: 2E8E2ED1EAA832CB363EC7CBFE4E02CF;331.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 344.
- ) ) 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
+ ) 
 Here is how much of TeX's memory you used:
- 43884 strings out of 481239
- 1006363 string characters out of 5920377
- 1348407 words of memory out of 5000000
- 56041 multiletter control sequences out of 15000+600000
+ 43855 strings out of 481239
+ 1005811 string characters out of 5920377
+ 1348339 words of memory out of 5000000
+ 56035 multiletter control sequences out of 15000+600000
  629808 words of font info for 239 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,24n,91p,517b,1922s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texl
-ive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.
-pfb>
-Output written on gvv_ncert_quadratic_forms.pdf (70 pages, 1522044 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
+fonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
+imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on gvv_ncert_quadratic_forms.pdf (69 pages, 1508121 bytes).
 PDF statistics:
- 4137 PDF objects out of 4296 (max. 8388607)
- 3046 compressed objects within 31 object streams
- 1887 named destinations out of 2073 (max. 500000)
- 662 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4105 PDF objects out of 4296 (max. 8388607)
+ 3017 compressed objects within 31 object streams
+ 1865 named destinations out of 2073 (max. 500000)
+ 657 words of extra memory for PDF output out of 10000 (max. 10000000)
 

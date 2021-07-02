@@ -21,71 +21,8 @@ According to the principal axis theorem,
 \end{enumerate}
 
 \end{proof}
-
 {\em Examples: }
-
-\begin{enumerate}
-    \item Parabola
-    \begin{align}
-    9x^2-24xy+16y^2-18x-101y+19 = 0
-    \end{align}
-    
-    Here,
-    \begin{align}
-    \vec{V} &= \myvec{9 & -12 \\ -12 & 16} \\
-    \vec{u} &= \myvec{-9 \\ \frac{-101}{2}} \\
-    f &= 19
-    \end{align}
-
-    Now,
-    \begin{align}
-    \myvec{-39 & -73 \\ 9 & -12 \\ -12 & 16}\vec{c} &= \myvec{-19 \\ -21 \\ 28}
-    \\
-    \implies \vec{c} &= \myvec{\frac{-29}{25} \\ \frac{22}{25}}
-    \end{align}
-    
-    So,
-    \begin{align}
-    \brak{\vec{x}-\vec{c}} &= \myvec{x+\frac{29}{25} \\ y-\frac{22}{25}}=\frac{1}{25}\myvec{25x+29 \\ 25y-22}
-    \end{align}
-    
-    Now,
-    \begin{align}
-        \mydet{\vec{V}-\lambda\vec{I}} &= 0 \\
-        \implies \mydet{9-\lambda & -12 \\ -12 & 16-\lambda} &= 0 \\
-        \implies \lambda^2-25\lambda &= 0 \\
-        \implies \lambda_1 =0,\lambda_2 &= 25
-    \end{align}
-    
-    For $\lambda_1=0$,
-    \begin{align}
-        \vec{V}-\lambda_1\vec{I} &= \myvec{9 & -12 \\ -12 & 16} \\
-        \implies \vec{V}-\lambda_1\vec{I} &= \myvec{1 & \frac{-4}{3} \\ 0 & 0} \\
-        \implies \vec{p_1} &=\frac{3}{5}\myvec{\frac{4}{3} \\ 1}
-    \end{align}
-    
-    Similarly for $\lambda_2=25$,
-    \begin{align}
-        \vec{p_2} &= \frac{4}{5}\myvec{\frac{-3}{4} \\ 1}
-    \end{align}
-    
-    $\because \lambda_1<\lambda_2$ \\
-    Hence,the axis using $\vec{p_1}$ is given by
-    \begin{align}
-        \vec{p_1}^T\myvec{-\vec{e_2} & \vec{e_1}}\brak{\vec{x}-\vec{c}} &= 0 \\
-        \implies \frac{3}{5}\myvec{\frac{4}{3} & 1}\myvec{0 & 1 \\ -1 & 0}\frac{1}{25}\myvec{25x+29 \\ 25y-22} &= 0 \\
-        \implies -3x+4y &= 7 \\
-        \implies \boxed{\myvec{-3 & 4}\vec{x} =7}
-    \end{align}
-    
-    \numberwithin{figure}{section}
-    \begin{figure}[!ht]
-    \centering
-    \includegraphics[width=\columnwidth]{app/2/Figures/ChallengeProblem5_1.png}
-    \caption{9$x^2$-24xy+16$y^2$-18x-101y+19=0}
-    \label{quadform/app/2/ex1}	
-    \end{figure}
-    
+\begin{enumerate}    
     \item Parabola
     \begin{align}
     y^2-4x+2y+4 = 0
@@ -97,14 +34,12 @@ According to the principal axis theorem,
     \vec{u} &= \myvec{-2 \\ 1} \\
     f &= 4
     \end{align}
-
     Now,
     \begin{align}
     \myvec{-4 & 1 \\ 0 & 0 \\ 0 & 1}\vec{c} &= \myvec{-4 \\ 0 \\ -1}
     \\
     \implies \vec{c} &= \myvec{\frac{3}{4} \\ -1}
     \end{align}
-
     So,
     \begin{align}
     \brak{\vec{x}-\vec{c}} &= \myvec{x-\frac{3}{4} \\  y+1}
@@ -128,23 +63,22 @@ According to the principal axis theorem,
         \vec{p_2} &=\myvec{0 \\ 1}
     \end{align}
     
-    \numberwithin{figure}{section}
+    
     \begin{figure}[!ht]
     \centering
     \includegraphics[width=\columnwidth]{app/2/Figures/ChallengeProblem5_2.png}
     \caption{$y^2$-4x+2y+4=0}
-    \label{quadform/app/2/ex2}	
+    \label{quadforms/app/2/ex2}	
     \end{figure}
    
-    $\because \lambda_1<\lambda_2$ \\
-    Hence,the axis using $\vec{p_1}$ is given by
+    $\because \lambda_2>\lambda_1$ \\
+    Hence,the axis using $\vec{p_2}$ is given by
     \begin{align}
-        \vec{p_1}^T\myvec{-\vec{e_2} & \vec{e_1}}\brak{\vec{x}-\vec{c}} &= 0 \\
-        \implies \myvec{1 & 0}\myvec{0 & 1 \\ -1 & 0}\myvec{x-\frac{3}{4} \\ y+1} &= 0 \\
+        \vec{p_2}^T\brak{\vec{x}-\vec{c}} &= 0 \\
+        \implies \myvec{0 & 1}\myvec{x-\frac{3}{4} \\ y+1} &= 0 \\
         \implies y+1 &= 0 \\
         \implies \boxed{\myvec{0 & 1}\vec{x} =-1}
     \end{align}
-
     \item Parabola
     \begin{align}
         y^2 &= 8x
@@ -158,7 +92,6 @@ According to the principal axis theorem,
     \vec{u} &= \myvec{-4 \\ 0} \\
     f &= 0
     \end{align}
-
     Now,
     \begin{align}
     \myvec{-8 & 1 \\ 0 & 0 \\ 0 & 1}\vec{c} &= \myvec{0 \\ 0 \\ 0}
@@ -188,21 +121,21 @@ According to the principal axis theorem,
     \begin{align}
         \vec{p_2} &=\myvec{0 \\ 1}
     \end{align}
-    $\because \lambda_1<\lambda_2$ \\
-    Hence,the axis using $\vec{p_1}$ is given by
+    $\because \lambda_2>\lambda_1$ \\
+    Hence,the axis using $\vec{p_2}$ is given by
     \begin{align}
-        \vec{p_1}^T\myvec{-\vec{e_2} & \vec{e_1}}\brak{\vec{x}-\vec{c}} &= 0 \\
-        \implies \myvec{1 & 0}\myvec{0 & 1 \\ -1 & 0}\myvec{x \\ y} &= 0 \\
+        \vec{p_2}^T\brak{\vec{x}-\vec{c}} &= 0 \\
+        \implies \myvec{0 & 1}\myvec{x \\ y} &= 0 \\
         \implies y &= 0\\
         \implies \boxed{\myvec{0 & 1}\vec{x} =0}
     \end{align}
     
-    \numberwithin{figure}{section}
+    
     \begin{figure}[!ht]
     \centering
     \includegraphics[width=\columnwidth]{app/2/Figures/ChallengeProblem5_3.png}
     \caption{$y^2$=8x}
-    \label{quadform/app/2/ex3}	
+    \label{quadforms/app/2/ex3}	
     \end{figure}
     
     \item Ellipse
@@ -216,13 +149,11 @@ According to the principal axis theorem,
     \vec{u} &= \myvec{0 \\ 0} \\
     f &= -100
     \end{align}
-
     Now,
     \begin{align}
     \vec{c} &= \vec{V}^{-1}\vec{u}\\
     \implies \vec{c} &= \myvec{0 \\ 0}
     \end{align}
-
     So,
     \begin{align}
     \brak{\vec{x}-\vec{c}} &= \myvec{x \\ y}
@@ -247,29 +178,29 @@ According to the principal axis theorem,
         \vec{p_2} &= \frac{1}{\sqrt{2}}\myvec{1 \\ 1}
     \end{align}
     
-    $\because \lambda_1<\lambda_2$ \\
-    Hence,the major axis using $\vec{p_1}$ is given by
+    $\because \lambda_2>\lambda_1$ \\
+    Hence,the major axis using $\vec{p_2}$ is given by
     \begin{align}
-        \vec{p_1}^T\myvec{-\vec{e_2} & \vec{e_1}}\brak{\vec{x}-\vec{c}} &= 0 \\
-        \implies \frac{1}{\sqrt{2}}\myvec{-1 & 1}\myvec{0 & 1 \\ -1 & 0}\myvec{x \\ y} &= 0 \\
+        \vec{p_2}^T\brak{\vec{x}-\vec{c}} &= 0 \\
+        \implies \frac{1}{\sqrt{2}}\myvec{1 & 1}\myvec{x \\ y} &= 0 \\
         \implies x+y &= 0 \\
         \implies \boxed{\myvec{1 & 1}\vec{x} =0}
     \end{align}
     
-    and the minor axis using $\vec{p_2}$ is given by
+    and the minor axis using $\vec{p_1}$ is given by
     \begin{align}
-        \vec{p_2}^T\myvec{-\vec{e_2} & \vec{e_1}}\brak{\vec{x}-\vec{c}} &= 0 \\
-        \implies \frac{1}{\sqrt{2}}\myvec{1 & 1}\myvec{0 & 1 \\ -1 & 0}\myvec{x \\ y} &= 0 \\
+        \vec{p_1}^T\brak{\vec{x}-\vec{c}} &= 0 \\
+        \implies \frac{1}{\sqrt{2}}\myvec{-1 & 1}\myvec{x \\ y} &= 0 \\
         \implies -x+y &= 0 \\
         \implies \boxed{\myvec{-1 & 1}\vec{x} =0}
     \end{align}
     
-    \numberwithin{figure}{section}
+    
     \begin{figure}[!ht]
     \centering
     \includegraphics[width=\columnwidth]{app/2/Figures/ChallengeProblem5_4.png}
     \caption{$x^2$+xy+$y^2$=100}
-    \label{quadform/app/2/ex4}	
+    \label{quadforms/app/2/ex4}	
     \end{figure}
     
     \item Hyperbola
@@ -283,18 +214,15 @@ According to the principal axis theorem,
     \vec{u} &= \frac{-3}{2}\myvec{0 \\ 1} \\
     f &= 2
     \end{align}
-
     Now,
     \begin{align}
     \vec{c} &= \vec{V}^{-1}\vec{u}\\
     \implies \vec{c} &= \myvec{3 \\ 0}
     \end{align}
-
     So,
     \begin{align}
     \brak{\vec{x}-\vec{c}} &= \myvec{x-3 \\ y}
     \end{align}
-
     Now,
     \begin{align}
         \mydet{\vec{V}-\lambda\vec{I}} &= 0 \\
@@ -314,32 +242,32 @@ According to the principal axis theorem,
         \vec{p_2} &= \frac{1}{\sqrt{2}}\myvec{1 \\ 1}
     \end{align}
     
-    \numberwithin{figure}{section}
+    
     \begin{figure}[!ht]
     \centering
     \includegraphics[width=\columnwidth]{app/2/Figures/ChallengeProblem5_5.png}
     \caption{xy-3y+2=0}
-    \label{quadform/app/2/ex5}	
+    \label{quadforms/app/2/ex5}	
     \end{figure}
     
-    $\because \lambda_1<\lambda_2$ \\
-    Hence,the major axis using $\vec{p_1}$ is given by
+    $\because \lambda_2>\lambda_1$ \\
+    Hence,the major axis using $\vec{p_2}$ is given by
     \begin{align}
-        \vec{p_1}^T\myvec{-\vec{e_2} & \vec{e_1}}\brak{\vec{x}-\vec{c}} &= 0 \\
-        \implies \frac{1}{\sqrt{2}}\myvec{-1 & 1}\myvec{0 & 1 \\ -1 & 0}\myvec{x-3 \\ y} &= 0 \\
+        \vec{p_2}^T\brak{\vec{x}-\vec{c}} &= 0 \\
+        \implies \frac{1}{\sqrt{2}}\myvec{1 & 1}\myvec{x-3 \\ y} &= 0 \\
         \implies x+y &= 3 \\
         \implies \boxed{\myvec{1 & 1}\vec{x} =3}
     \end{align}
     
-    and the minor axis using $\vec{p_2}$ is given by
+    and the minor axis using $\vec{p_1}$ is given by
     \begin{align}
-        \vec{p_2}^T\myvec{-\vec{e_2} & \vec{e_1}}\brak{\vec{x}-\vec{c}} &= 0 \\
-        \implies \frac{1}{\sqrt{2}}\myvec{1 & 1}\myvec{0 & 1 \\ -1 & 0}\myvec{x-3 \\ y} &= 0 \\
+        \vec{p_1}^T\brak{\vec{x}-\vec{c}} &= 0 \\
+        \implies \frac{1}{\sqrt{2}}\myvec{-1 & 1}\myvec{x-3 \\ y} &= 0 \\
         \implies x-y &= 3 \\
         \implies \boxed{\myvec{1 & -1}\vec{x} =3}
     \end{align}
     
 \end{enumerate}
 
-\end{document}
+
 
