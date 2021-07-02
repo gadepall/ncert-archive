@@ -1,0 +1,15 @@
+Let X $\in\{0,1,2\}$ be the random variable denoting that item was produced by operator A when X$=$0, X$=$1 denoting that item was produced by operator B ,X$=$2 denoting that item was produced by operator C, and random variable Y $\in\{0,1\}$ be the random variable deoting that item produced was  defective when Y$=$1.
+\begin{align}
+	\pr{X=0} &= 0.5 \\ 
+    \pr{X=1} &= 0.3 \\ 
+    \pr{X=2} &= 0.2 \\ 
+	\pr{Y=1/X=0} &= 0.01\\
+	\pr{Y=1/X=1} &= 0.05\\ 
+	\pr{Y=1/X=2} &= 0.07
+	\end{align}
+	%
+	From conditional probability we say that \\
+	\begin{align*}
+	\pr{X=0/Y=1} &= \frac{\pr{Y=1/X=0}\pr{X=0}}{\sum_{i=0}^{i=2}\pr{Y=1/X=i}\pr{X=i}}\\
+	&=\frac{5}{34}
+	\end{align*}

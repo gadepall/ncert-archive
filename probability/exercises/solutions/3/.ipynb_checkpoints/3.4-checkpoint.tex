@@ -1,0 +1,26 @@
+Let X be random variable which denoting number of bulbs fuses after 150 days of use,among the 5 bulbs.Then by Binomial Distribution.
+\begin{align}
+    \pr{X = r} = {n \choose r} p^r q^{n-r}\\
+    \pr{X \geq k} = \sum_{r = k}^n {n \choose r}p^r q^{n-r}\\
+    \pr{X \leq k} = \sum_{r = 0}^k {n \choose r}p^r q^{n-r}\\
+    \pr{X>k} = \sum_{r=k+1}^{n}{n\choose r}p^r q^{n-r}\\
+    n = 5,\quad p = 0.05,\quad q = 0.95
+\end{align}
+
+\begin{table}[h!]
+\resizebox{\columnwidth}{!}{%
+  \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    n &  5 & 5 & 5& 5\\
+    \hline
+    Condition & \pr{X = 0} & \pr{X\leq1} & \pr{X > 1} & \pr{X \geq1}\\
+    \hline
+    Value & 0.77378 & 0.97740 & 0.02259 & 0.22621\\
+    \hline
+    Case & $(i)$ & $(ii)$ & $(iii)$ & $(iv)$\\
+    \hline
+  \end{tabular}%
+} 
+  \caption{ Probability Vs Condition}
+  \label{tab:label1_test}
+\end{table}  

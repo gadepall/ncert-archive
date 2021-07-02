@@ -1,0 +1,30 @@
+
+\begin{align}\label{3.6:eq1}
+   \pr{X=k} =
+  \begin{cases*}
+    {^n C_k}p^{k}(1-p)^{n-k} & $0 \leq k \leq n$\\
+      0 & otherwise
+  \end{cases*}
+\end{align}
+
+Table \eqref{3.6:Table1} presents the solution to each case.
+
+
+\begin{table}[h!]
+\centering
+\caption{Table of Probability distribution of different cases}
+\resizebox{.5\textwidth}{!}{
+  \begin{tabular}{|c|m{1cm}|m{2cm}|c|c|c|c|c|}
+  \hline
+    Case &  n (no. of coins) & k (no. of required outcomes) & 0 & 1 & 2 & 3 & 4\\
+    \hline
+    $(i)$ & 2 & $\pr{X=k}={^2 C_k}\brak{\frac{1}{2}}^{2}$ & $1/2$& $1/4$ & $1/2$ & $0$ & $0$\\
+    \hline
+    $(ii)$ & 3 & $\pr{X=k}={^3 C_k}\brak{\frac{1}{2}}^{3}$ & $1/8$ & $3/8$ & $3/8$ & $1/8$ & $0$\\
+    \hline
+    $(iii)$ & 4 & $\pr{X=k}={^4 C_k}\brak{\frac{1}{2}}^{4}$ & $1/16$& $1/4$ & $3/8$ & $1/4$ & $1/16$\\
+    \hline
+  \end{tabular}
+  \label{3.6:Table1}
+}
+\end{table}

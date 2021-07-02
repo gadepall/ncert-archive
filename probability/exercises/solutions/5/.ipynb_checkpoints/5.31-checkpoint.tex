@@ -1,0 +1,26 @@
+Let $X \cbrak{ 0, 1, 2 }$ be the  random variable representing the number of kings present in the two cards.
+%
+Then,
+%
+\begin{align}
+\pr{X=0} &= \frac{\comb{48}{2}}{\comb{52}{2}} = \frac{188}{221} 
+\\
+\pr{X=1} &= \frac{\comb{4}{1} \times \comb{48}{1}}{\comb{52}{2}} = \frac{32}{221} 
+\\
+\pr{X=2} &= \frac{\comb{4}{2}}{\comb{52}{2}} = \frac{1}{221}
+\end{align}
+and
+\begin{align}
+E(X) &= \sum_{i=0}^{2} i\pr{X=i} 
+\\
+&= 0\times\frac{188}{221} + \frac{32}{221} + 2\times\frac{1}{221}
+\\
+&= \frac{36}{221}
+\end{align}
+Similarly,
+%
+\begin{align}
+E\brak{X^2} &= \sum_{i=0}^{2} i^2\pr{X=i} = \frac{34}{221}
+\\
+\implies Var\brak{X}&=  E\brak{X^2} - \brak{E\brak{X} }^2 = \frac{6800}{48841}
+\end{align}

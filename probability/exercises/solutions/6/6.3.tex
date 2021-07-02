@@ -1,0 +1,92 @@
+Given 
+\begin{align}
+Pr(B | A)=1. 
+\end{align}
+By definition,
+\begin{align}
+Pr(B|A)=\frac{Pr(AB)}{Pr(A)}
+\end{align}
+\begin{align}
+&\implies\frac{Pr(AB)}{Pr(A)} = 1\\
+&\implies Pr(AB) = Pr(A)\label{1}\\
+&\implies AB= A\label{2}
+\end{align}
+\begin{enumerate}[label={\Alph*)}]
+\item Take any 
+\begin{align}
+    X \in A
+\end{align} . From \eqref{2}, we get
+\begin{align}
+     X \in AB
+\end{align}is also true.\\
+Therefore, for any 
+\begin{align}
+  X \in A \\
+  \implies X \in B   
+\end{align}
+    \begin{align}
+     A \subseteq B 
+\end{align}is also true.\\
+    But, since A and B are two events,
+    \begin{align}
+       A\neq B 
+    \end{align}. Hence,
+    \begin{align}
+    A \subset B
+\end{align}
+Therefore, option (A) is correct.
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=8cm]{venn.png}
+    
+%     \label*{Venn diagram}
+% \end{figure}
+\item If 
+\begin{align}
+  B \subset A  
+\end{align}
+Then, 
+\begin{align}
+AB=B.
+\end{align}
+\begin{align}
+\implies Pr(AB)=Pr(B)
+\end{align}
+But, from \eqref{1}, we have, 
+\begin{align}
+&Pr(AB)=Pr(A)\\
+\implies &Pr(AB)=Pr(A)=Pr(B)
+\end{align}
+But,since A and B are two events, 
+\begin{align}
+    A\neq B
+\end{align}. Hence, option (B) is incorrect.
+ \item If 
+ \begin{align}
+     B=\phi
+ \end{align}
+\begin{align}
+\implies Pr(AB)=0
+\end{align}From \eqref{1}, we know that,
+\begin{align}
+& Pr(AB)=Pr(A)\\
+\implies & Pr(AB)=Pr(A)=0
+\end{align}
+But,from the given data, we know that 
+\begin{align}
+     Pr(A) \neq 0
+ \end{align}
+Therefore,option C is incorrect.
+\item If 
+\begin{align}
+     A=\phi
+ \end{align}
+\begin{align}
+\implies Pr(A)=0
+\end{align}
+But,from the given data, we know that 
+\begin{align}
+     Pr(A) \neq 0
+ \end{align}
+Therefore,option D is incorrect.
+\end{enumerate}

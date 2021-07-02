@@ -1,0 +1,76 @@
+Given, a bag containing 2 white and 1 red balls. Let the random variable $X_{i}\in\{0,1\},i=1,2,$ represent the outcome of the colour of the ball drawn in the first, second attempts. $X_{i}=0,X_{i}=1$ denote a white ball, red ball being drawn respectively, in the $i^{th}$ attempt.
+\begin{comment}
+As the ball drawn in the first attempt is replaced in the bag, for both the attempts, the number of balls of a specified colour, and their probability  mass function's (pmf's) remain the same. i.e, 
+\begin{align}
+    \tag{5.25.1}
+    n(X_{i}=0)=2\\
+    \tag{5.25.2}
+    n(X_{i}=1)=1\\
+    \tag{5.25.3}
+    \therefore n(X_{i}=0)+n(X_{i}=1)=3 
+\end{align}
+and
+\begin{align}
+    \tag{5.25.4}
+    \Pr(X_{i}=j) = 
+	\begin{cases}
+	\dfrac{2}{3}, &j=0 \\~\\[-1em]
+	\dfrac{1}{3}, &j=1 \\~\\[-1em]
+	0, & otherwise
+	\end{cases}
+\end{align}
+\newpage
+\end{comment}
+\newline
+\newline
+Define 
+\begin{align}
+    \tag{5.25.1}
+    X=X_{1}+X_{2}
+\end{align}
+so that $X\in\{0,1,2\}$ represents a random variable denoting the number of red balls drawn in both the attempts. Then, $X$ has a binomial distribution with 
+\begin{align}
+    \tag{5.25.2}
+    Pr(X=k)={\comb{n}{k}}p^{k}q^{n-k}
+    \label{eq:binomialdistr}
+\end{align}
+where,
+\begin{align}
+    \tag{5.25.3}
+    n=2
+\end{align}
+$p =$ probability of success = probability of drawing a red ball = $Pr(X_{i}=1)$
+\begin{align}
+    \tag{5.25.4}
+    p=\frac{1}{3}
+\end{align}
+$q =$ probability of failure = $1-p$
+\begin{align}
+    \tag{5.25.5}
+    q=1-p=1-\frac{1}{3}=\frac{2}{3}
+\end{align}
+\newline
+Hence, on substituting and simplifying, we get
+\begin{align}
+    \tag{5.25.6}
+    Pr(X=0)=\frac{4}{9}\\
+    \tag{5.25.7}
+    Pr(X=1)=\frac{4}{9}\\
+    \tag{5.25.8}
+    Pr(X=2)=\frac{1}{9}
+\end{align}
+\newline
+Using \eqref{eq:binomialdistr}, we get the following probability distribution.
+\begin{table}[h!]
+\centering
+\caption{Probability distribution of X}
+\label{table:1}
+\begin{tabular}{|c||c|c|c|}
+    \hline
+    Condition & $X = 0$& $X =1 $& $X=2$ \\
+    \hline
+    & & &\\
+    Probability & $\comb{2}{0}p^{0}q^{2}$ & $\comb{2}{1}p^{1}q^{1}$ & $\comb{2}{2}p^{2}q^{0}$\\[1ex]
+    \hline
+\end{tabular}
+\end{table}

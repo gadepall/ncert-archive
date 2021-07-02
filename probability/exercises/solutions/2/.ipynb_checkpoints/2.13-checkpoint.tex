@@ -1,0 +1,54 @@
+Let $X_i \in \{1,2,3,4,5,6\}$ where $i=1,2,3$
+be the random variables representing the outcomes of throwing a die three times.\\
+\begin{enumerate}
+\item Probability of event A happening=Probability of $X_3=4$
+\begin{align}
+    \Pr{(A)}=\Pr{(X_3=4)}
+\end{align}
+Since all the outcomes are equally likely their probabilities are same \\
+so
+\begin{align}
+    \Pr{(A)}=\Pr{(X_3=4)}=\frac{1}{6}
+    \label{2.13:eq:0.0.2}
+\end{align}
+\item Probability of event B happening=Probability of $X_1=6,X_2=5$.\\
+so
+\begin{align}
+    \Pr{(B)}=\Pr{(X_1=6,X_2=5)}
+\end{align}
+Random variable $X_1$ depends on first throw of die and random variable $X_2$ depends on second throw of die so $X_1$ and $X_2$ are independent.\\
+so 
+\begin{align}
+\begin{split}
+    \Pr{(X_1=6,X_2=5)} &=\Pr{(X_1=6)} \Pr{(X_2=5)}\\
+   &=\frac{1}{6}\times \frac{1}{6}=\frac{1}{36}
+   \end{split}
+\end{align}
+\begin{align}
+    \Pr{(B)}=\Pr{(X_1=6,X_2=5)}=\frac{1}{36}
+    \label{2.13:eq:0.0.5}
+\end{align}
+Also A,B are also independent events \\
+therefore  from \eqref{2.13:eq:0.0.2} and \eqref{2.13:eq:0.0.5}
+\begin{align}
+    \Pr{(AB)} = \Pr{(A)} \Pr{(B)}
+     =\frac{1}{6} \times \frac{1}{36}
+    \end{align}
+    \begin{align}
+ \implies  \Pr{(AB)}=\frac{1}{216}\label{2.13:eq:0.0.7}
+\end{align}
+Since we have to find probability of A given that B has already happened.\\
+so $\Pr{(A|B)}$\\
+\item By formula of conditional probability
+\begin{align}
+    \Pr{(A|B)}=\frac{\Pr{(AB)}}{\Pr{(B)}}
+    \end{align}
+    From \eqref{2.13:eq:0.0.5} and \eqref{2.13:eq:0.0.7} 
+    \begin{align}  
+    \implies
+    \Pr{(A|B)}=\frac{\frac{1}{216}}{\frac{1}{36}}\\
+    \implies
+    \Pr{(A|B)}=\frac{1}{6}
+    \end{align}
+    So the probability of A given that B has already happened $=\Pr{(A|B)}=\frac{1}{6}$
+\end{enumerate}

@@ -1,0 +1,45 @@
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+
+\item A carton consists of 100 shirts of which 88 are good, 8 have minor defects and 4 have major defects.Jimmy, a trader, will only accept the shirts which are good, but Sujatha, another trader, will only reject the shirts which have major defects.One shirt is drawn at random from the carton. What is the probability that\\
+(i) it is acceptable to Jimmy?\\
+(ii) it is acceptable to Sujatha?
+\\
+\solution
+From the given information, Table \ref{table:5.19} can be generated.
+\begin{table}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{|p{4cm}|p{4cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{A Random variable which has 3 possible values}}\\ \hline
+\multirow{2}{*}{$\pr{X=0}=\frac{4}{100}=0.04$} & out of 100, 4 have major defects shirts
+\\
+\hline
+\multirow{2}{*}{$\pr{X=1}=\frac{8}{100}=0.08$} & out of 100,8 are accepted minor defected shirts\\ \hline
+\multirow{2}{*}{$\pr{X=2}=\frac{88}{100}=0.88$} & out of 100,88 are accepted good shirts\\ \hline
+\end{tabular}
+}
+\caption{Random variables}
+\label{table:5.19}
+\end{table}
+Then
+\begin{enumerate}
+\item The probability that the shirt is acceptable to Jimmy is
+\begin{align}
+\pr{X=2}=\frac{88}{100}
+\end{align}
+%
+\item The probability that the shirt is acceptable to Sujatha is
+\begin{align}
+1-\pr{X=0}=1-\frac{4}{100} = \frac{96}{100}
+\end{align}
+
+\end{enumerate}
+%
+The following code simulates the probability
+\begin{lstlisting}
+codes/misc/discrete.ipynb
+\end{lstlisting}
+\end{enumerate}

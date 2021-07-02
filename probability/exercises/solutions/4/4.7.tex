@@ -1,0 +1,35 @@
+Let $X$ be number marked on ball drawn.
+Since the balls are drawn with replacement, the trials are Bernoulli trials.
+\\
+So $X$ has Binomial Distribution 
+\begin{equation}
+    \pr {X=k}=\comb{n}{k} \times q^{n-k} \times p^{k} 
+\end{equation} 
+
+Here,
+\begin{align}
+& n = \text {number of times we pick the ball}  \\
+& p= \text{Probability of getting ball marked as 0} \\
+& q=1-p
+\end{align}
+
+\begin{table}[h!]
+\centering
+
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Variables} & $n$ & $p$    & $q$    & $k$          \\ \hline
+\textbf{Values}    & 4 & 1/10 & 9/10 & 0 \\ \hline
+\end{tabular}
+\caption{Variables and their values}
+\label{4.7:table:1}
+\end{table}
+
+Now,
+
+\begin{align}
+\pr{X=0} &= \comb{4}{0} \times \brak{\frac{9}{10}}^{(4-0)} \times \brak{\frac{1}{10}}^{0} \\
+&=\frac{4!}{(4-0)! 0!} \times 1 \times \brak{\frac{9}{10}}^{4} \\
+&=\brak { \frac{9}{10} } ^{4} \\
+&= 0.6561
+\end{align}

@@ -1,0 +1,42 @@
+The question can be seen as choosing a number first from 1 to 6 numbers and then choosing one more from the remaining 5 numbers, Let $X_1$ be the $1^{st}$ numbers drawn randomly from 1 to 6 and $X_2$be the $2^{nd}$ number drawn from remaining and $X = \text{max } (X_1,X_2)$
+%
+\begin{align}
+& Pr(X_1=n_1)= \begin{cases}
+\dfrac{1}{6},  \text{ if } 1 \leq n_1 \leq 6\\
+0,  \text{  otherwise }
+\end{cases}\\
+& Pr(X_2=n_2)= \begin{cases}
+\dfrac{1}{5},  \text{ if } 1 \leq n_2 \leq 6 \text{ and }n_2 \neq n_1\\
+0,  \text{  otherwise }
+\end{cases}
+\end{align}
+
+let max $(X_1,X_2)=i$ and $Pr(X=i)$ denotes the probability that $X = \text{max } (X_1,X_2)=i$
+ \begin{multline}
+Pr(X=i)=Pr(X_1=i\text{ and }X_2<i)\\
+ +Pr(X_2=i\text{ and }X_1<i) \label{eqn_(0.0.1)}
+\end{multline}
+ 
+
+since choosing of $X_1,X_2$ are independent events, so we can write 
+$$Pr(X_1 \text{ and }X_2)=Pr(X_1)Pr(X_2)$$
+Substituting this in \eqref{eqn_(0.0.1)} gives us
+\begin{multline}
+Pr(X=i)=Pr(X_1=i)Pr(X_2<i)+\\
+Pr(X_2=i)Pr(X_1<i)
+\end{multline}
+
+\begin{align}
+& \implies Pr(X=i)=\dfrac{1}{6}\times \dfrac{(i-1)}{5}+\dfrac{(i-1)}{6} \times\dfrac{1}{5}\\
+& \implies Pr(X=n)=\dfrac{(i-1)}{15}
+\end{align}
+
+The expectation value of X represented by E(X) is given by
+$$E(X)=\sum_{i=1}^{6} Pr(X=i)\times i$$
+\begin{align}
+& \implies E(X)=\sum_{i=1}^{6} \dfrac{(i-1)}{15}\times i\\
+& \implies E(X)=\sum_{i=1}^{6} \dfrac{(i^2-i)}{15}\\
+& \implies E(X)=\dfrac{1}{15} \sum_{i=1}^{6} i^2-\dfrac{1}{15}\sum_{i=1}^{6} i\\
+& \implies E(X)=\dfrac{1}{15} \times 91-\dfrac{1}{15} \times 21\\
+& \implies E(X)= \textbf{4.6667}
+\end{align}

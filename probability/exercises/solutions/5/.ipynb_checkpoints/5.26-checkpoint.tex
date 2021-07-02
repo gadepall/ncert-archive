@@ -1,0 +1,76 @@
+
+Let $X \in \{0,1,2,3,4,5,6,7,8,9,10,11,12\}$ represent the random variable, where 0 represents an ace card, 1 represents a card numbered '2', 2 represents a card numbered '3'... 9 represents a card numbered '10', 10 represents the J card, 11 represents the Q card, and 12 represents the K card. These are independent of the suit. 
+\begin{align}
+    n(X=i) = 4, i \in \{0, 1, 2\hdots 10, 11, 12\}
+\end{align}
+
+\begin{align}
+    \Pr(X=i) = 
+	\begin{cases}
+	\dfrac{4}{52} = \dfrac{1}{13} &  i \in \{0, 1, 2\hdots 10, 11, 12\}\\ ~\\[-1em]
+	0 & \text{otherwise}
+	\end{cases}
+\end{align}
+Let Y $\in \{0,1,2\}$ represent the random variable, where 0 represents the case where no aces are selected, 1 represents the case where one ace is selected, 2 represents the case where 2 aces are selected.
+\\Let Z $\in \{0,1\}$ represent the random variable, where 0 represents an ace card is picked while 1 represents a non-ace card is picked.
+
+\begin{align}
+    \Pr(Z=0) = \frac{1}{13}
+\end{align}
+
+\begin{align}
+    \Pr(Z=1) = \Sigma_{i=1}^{12} Pr(X=i)
+    \\ = \Sigma_{i=1}^{12}\frac{1}{13}
+    \\ = \frac{12}{13}
+\end{align}
+Now, for finding the probability distribution of the number of aces, 
+\begin{enumerate}
+    
+\item
+\begin{align}
+    \Pr(Y=0) = &\Pr(Z=1) \times \Pr(Z=1)
+    \\ = &\frac{12}{13} \times \frac{12}{13} = \frac{144}{169}
+    \\ = & 0.852071
+\end{align}
+ 
+
+\item 
+\begin{multline}
+    \Pr(Y=1) = \Pr(Z=0) \times \Pr(Z=1) + 
+    \\\Pr(Z=1) \times \Pr(Z=0)
+\end{multline} 
+
+\begin{align}
+    \Pr(Y=1) = &\frac{1}{13} \times \frac{12}{13} + \frac{12}{13} \times \frac{1}{13}
+    \\ = & \frac{24}{169} = 0.142012
+\end{align}    
+   
+
+\item
+\begin{align}
+    \Pr(Y=2) = &\Pr(Z=0) \times \Pr(Z=0)
+    \\ = &\frac{1}{13} \times \frac{1}{13} = \frac{1}{169}
+    \\ = &0.005917
+\end{align}
+\end{enumerate}
+\begin{center}
+\begin{table}[h]
+    \centering
+    \resizebox{\columnwidth}{!}{
+\begin{tabular}{|c|c|c|}
+\hline
+Serial number & Case & Probability of the case \\
+\hline
+1 & $\Pr(Y=0)$ & $\frac{144}{169}$ \\ 
+\hline
+2 & $\Pr(Y=1)$ & $\frac{24}{169}$ \\ 
+\hline
+3 & $\Pr(Y=2)$ & $\frac{1}{169}$ \\
+\hline
+\end{tabular}
+}
+    \caption{Probability distribution table }
+    \label{table 1}
+\end{table}
+\end{center}
+

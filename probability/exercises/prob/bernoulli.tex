@@ -3,43 +3,45 @@
 \numberwithin{equation}{enumi}
 
 
-\item A jar contains 24 marbles, some are green and others are blue. If a marble is drawn at random from the jar, the probability that it is green is $\frac{2}{3}$ Find the number of blue balls in the jar.
+\item A jar contains 24 marbles, some are green and others are blue. If a marble is drawn at random from the jar, the probability that it is green is $\frac{2}{3}$. Find the number of blue balls in the jar.
+\\
+\solution
+\input{solutions/1/1.1.tex}
 \item A bag contains lemon flavoured candies only. Malini takes out one candy without
 looking into the bag. What is the probability that she takes out\\
 (i) an orange flavoured candy?\\
 (ii) a lemon flavoured candy?
-\item In a hurdle race, a player has to cross 10 hurdles. The probability that he will
-clear each hurdle is $\frac{5}{6}$. What is the probability that he will knock down fewer than 2 hurdles?\\
-\solution 
-\input{prob/solutions/1/3/solution.tex}
-\item Suppose that 90$\%$ of people are right-handed. What is the probability that
-at most 6 of a random sample of 10 people are right-handed?\\
-\item The probability that a student is not a swimmer is $\frac{1}{5}$. Then the probability that out of five students, four are swimmers is\\
-\begin{enumerate}
-\item $^5C_4 (\frac{4}{5})^4 \frac{1}{5}$
-\item $(\frac{4}{5})^4 \frac{1}{5}$
-\item $^5C_1 (\frac{4}{5})^4 \frac{1}{5}$
-\item None of these
-\end{enumerate}
-\item In a box containing 100 bulbs, 10 are defective. The probability that out of a
-sample of 5 bulbs, none is defective is
-\begin{enumerate}
-\item $10^{-1}$
-\item $(\frac{1}{2})^5$
-\item $(\frac{9}{10})^5$
-\item $\frac{9}{10}$
-\end{enumerate}
-\item It is known that 10$\%$ of certain articles manufactured are defective. What is the probability that in a random sample of 12 such articles, 9 are defective?\\
+\solution  Let the random variable $X=\{0,1\}$ represent the outcome of the flavour of the candy Malini picks. $X=0$ denotes an orange flavoured candy, while $X=1$ denotes a lemon flavoured candy.  Then 
+\begin{align}
+\pr{X=0} = 1,
+\\
+\pr{X=1} = 0
+\end{align}
+\item 
+\item 
+\item 
+\item 
+\item 
 \item A person buys a lottery ticket in 50 lotteries, in each of which his chance of
 winning a prize is $\frac{1}{100}$.What is the probability that he will win a prize\\
 (a) at least once \\
 (b) exactly once \\
 (c) at least twice?\\
+\input{solutions/1/1.8.tex}
 \item In an examination, 20 questions of true-false type are asked. Suppose a student tosses a fair coin to determine his answer to each question. If the coin falls heads, he answers 'true'; if it falls tails, he answers 'false'. Find the probability that he answers at least 12 questions correctly.\\
+\solution
+\input{solutions/cs21resch01001/1.9.tex}
+
 \item There are 5$\%$ defective items in a large bulk of items. What is the probability
 that a sample of 10 items will include not more than one defective item?\\
+\solution
+\input{solutions/1/1.10.tex}
+
 \item In a meeting, 70$\%$ of the members favour and 30$\%$ oppose a certain proposal.
 A member is selected at random and we take X = 0 if he opposed, and X = 1 if he is in favour. Find E(X) and Var (X).\\
+\solution
+\input{solutions/1/1.11.tex}
+
 \item A coin is biased so that the head is 3 times as likely to occur as tail. If the coin is tossed twice, find the probability distribution of number of tails.\\
 \item From a lot of 30 bulbs which include 6 defectives, a sample of 4 bulbs is drawn at random with replacement. Find the probability distribution of the number of defective bulbs.\\
 \item Probability that A speaks truth is $\frac{4}{5}$. A coin is tossed. A reports that a head appears. The probability that actually there was head is\\
@@ -49,18 +51,35 @@ A member is selected at random and we take X = 0 if he opposed, and X = 1 if he 
 \item $\frac{1}{5}$
 \item $\frac{2}{5}$
 \end{enumerate}
+\solution
+\input{solutions/1/1.14.tex}
+
 \item A box of oranges is inspected by examining three randomly selected oranges drawn without replacement. If all the three oranges are good, the box is approved for sale, otherwise, it is rejected. Find the probability that a box containing 15 oranges out of which 12 are good and 3 are bad ones will be approved for sale.\\
+\solution
+\input{solutions/1/1.15.tex}
+%
 \item Determine P(E/F), if a coin is tossed three times\\
 (i) E : head on third toss , F : heads on first two tosses\\
 (ii) E : at least two heads , F : at most two heads\\
 (iii) E : at most two tails , F : at least one tail\\
+%
+\solution
+\input{solutions/1/1.16.tex}
+
 
 \item Determine P(E/F), if two coins are tossed once, where\\
 (i) E : tail appears on one coin, F : one coin shows head\\
 (ii) E : no tail appears, F : no head appears\\
+%
+\solution
+\input{solutions/1/1.17.tex}
+
 \item Two players, Sangeeta and Reshma, play a tennis match. It is known
 that the probability of Sangeeta winning the match is 0.62. What is the probability of
 Reshma winning the match?
+%
+\\
+\solution The desired probability is $1 - 0.62 = 0.38$.
 \item Harpreet tosses two different coins simultaneously (say, one is of rupee 1
 and other of rupee 2). What is the probability that she gets at least one head?
 
@@ -205,6 +224,24 @@ If 6 more black balls are put in the box, the probability of drawing a black bal
 \\
 \solution
 \input{./solutions/10-1/prob/exer10/solution.tex}
+\item There are 40 students in Class X of a school of whom 25 are girls and 15 are boys. The class teacher has to select one student as a class representative. She writes the name of each student on a separate card, the cards being identical.Then
+she puts cards in a bag and stirs them thoroughly. She then draws one card from the
+bag. What is the probability that the name written on the card is the name of\\
+(i) a girl?\\
+(ii) a boy?
+\\
+\solution 
+Let the random variable X = \{0,1\} represent the outcome whether the picked card has a girl's name or a boy's name.  Then
+\begin{align}
+    \implies \pr{X=0} = \frac{25}{40}\\
+    \implies \pr{X=1} = \frac{15}{40}
+\end{align}
+%
+\item A bag contains 3 red balls and 5 black balls. A ball is drawn at random from the bag.
+What is the probability that the ball drawn is\\ 
+(i) red ? \\
+(ii) not red?
+\input{solutions/5/5.2.tex}
 \end{enumerate}
 %\end{document}
     

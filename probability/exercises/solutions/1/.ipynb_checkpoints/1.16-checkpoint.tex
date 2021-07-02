@@ -1,0 +1,88 @@
+In an experiment of tossing a coin $n$( = 3) times, random variable  $X \in \lbrace 0,1,2,3 \rbrace$ follows binomial distribution.\\
+The binomial distribution formula is:
+\begin{align*}
+ \Pr( X=k ) &= \comb{n}{k} \times p^k \times (1- p)^{n - k}
+\end{align*}
+
+Where:
+
+
+\begin{table}[h]
+
+    \centering
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{|r|c|}\hline
+    $k$ &  total number of “successes” \\ \hline
+    $p$ & probability of a success on an individual trial\\ \hline
+    $n$ & number of trials = 3 \\ \hline
+\end{tabular}}
+\caption{The binomial distribution formula}
+    \label{1.16:table:0}
+\end{table}
+
+
+\begin{enumerate}[label=(\roman*)]
+    \item From table \ref{1.16:table:1}, $\Pr(E|F)$ = 0.5
+    \item $X$ denotes number of heads. From table \ref{1.16:table:2}, $\Pr(E|F)$ = 0.428
+    \item $X$ denotes number of tails. From table \ref{1.16:table:3}, $\Pr(E|F)$ = 0.857
+\end{enumerate}
+
+
+\begin{table}[ht]
+
+    \centering
+     \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{|r|l|} \hline
+    $\Pr$(Event)  & Calculation   \\ \hline
+    $\Pr( F)$    & From product rule , \\ 
+    &= $\frac{1}{2}\times\frac{1}{2}$ \\ 
+    &=  0.25 \\ \hline 
+    $\Pr( EF)$   &  From product rule, \\   
+    &= $\frac{1}{2}\times\frac{1}{2}\times\frac{1}{2}$ \\ 
+    & = 0.125\\ \hline 
+    $\Pr(E|F )$  &= $\frac{\Pr(EF)}{\Pr(F)} $ \\ 
+    &  = 0.5 \\ \hline 
+    \end{tabular} }
+    \caption{Part(i)}
+    \label{1.16:table:1}
+\end{table}
+
+\begin{table}[ht]
+
+    \centering
+    \resizebox{\columnwidth}{!}{%
+     \begin{tabular}{|r|l|}\hline
+      $\Pr$(Event)  & Calculation \\ \hline
+      $\Pr( F)$ 
+      &= $\Pr( X\leq2)$ \\ 
+      &= $ \Pr( X=0) + \Pr( X=1) + \Pr( X=2 )$\\ 
+      &= $\comb{3}{0} \left(\frac{1}{2}\right)^3  + \comb{3}{1} \left(\frac{1}{2}\right)^3 + \comb{3}{2} \left(\frac{1}{2}\right)^3$\\ 
+      &= 0.875 \\ \hline
+    $\Pr( EF)$  &= $\Pr( X=2) $ \\
+    &= 0.375 \\ \hline
+    $\Pr( E|F )$   &=$ \frac{\Pr(EF)}{\Pr(F)} $ \\ 
+    &= 0.428 \\ \hline
+    \end{tabular}}
+    \caption{Part(ii)}
+    \label{1.16:table:2}
+\end{table}
+
+
+\begin{table}[ht]
+
+       \centering
+       \resizebox{\columnwidth}{!}{%
+       \begin{tabular}{|r|l|}\hline
+      $\Pr$(Event)  & Calculation \\ \hline
+       $\Pr( F)$ &= $\Pr( X\geq1)$\\
+        &= $1-\Pr( 0)$ \\
+        &= 0.875 \\ \hline
+        $\Pr( EF)$ &= $\Pr(X= 1) + \Pr(X= 2 )$ \\
+         &= 0.75 \\ \hline
+         $\Pr( E|F)$ &= $\frac{\Pr(EF)}{\Pr(F)} $ \\
+        &= 0.857 \\ \hline
+      \end{tabular} }
+       \caption{Part(iii)}
+       \label{1.16:table:3}
+   \end{table}
+  

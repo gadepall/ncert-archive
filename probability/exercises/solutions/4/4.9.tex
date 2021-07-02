@@ -1,0 +1,65 @@
+When two fare dice are rolled. The sum of the numbers obtained can have the values 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\\
+$\pr{X}$ = probability of obtaining X as the sum and let us represent the case when first dice shows the number $x_1$ and the second dice shows the number $x_2$ as $(x_1,x_2)$.
+\begin{table}[hbt!]
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\multicolumn{1}{|c|}{x} & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 \\ \hline
+$\pr{X}$                   &$\frac{1}{36}$   &$\frac{2}{36}$   &$\frac{3}{36}$   &$\frac{4}{36}$   &$\frac{5}{36}$   &$\frac{6}{36}$   &$\frac{5}{36}$   &$\frac{4}{36}$   &$\frac{3}{36}$    &$\frac{2}{36}$    &$\frac{1}{36}$    \\ \hline
+\end{tabular}
+}
+\caption{Probability Distribution Table of X}
+\label{table:1}
+\end{table}
+For the above problem,we know that.
+\begin{align}
+p_x\brak{n} &= 
+  \begin{cases}
+    0 & \text{if } n \leq 1,\\
+    \frac{n-1}{36} & \text{if } 2 \leq n \leq 7,\\
+    \frac{13-n}{36} & \text{if } 7 < n \leq 12,\\
+    0 & \text{if } n>12.
+  \end{cases}
+\end{align}
+\begin{align}
+    &Mean,E(X) \nonumber\\
+    & =\sum_{k=1}^{12} (k \times p_x\brak{k})\\
+    & = \sum_{k=1}^{6}k\times\frac{1}{36}[k-1] + \sum_{k=7}^{12}k\times\frac{1}{36}[13-k]\\
+    & = \frac{1}{36}\left[\sum_{k=1}^{6}k(k-1) + \sum_{k=7-6}^{12-6}(k+6)\times[13-(k+6)]\right]\\
+    & = \frac{1}{36}\left[\sum_{k=1}^{6}k(k-1) + \sum_{k=1}^{6}(k+6)\times[13-(k+6)]\right]\\
+    &= \frac{1}{36}\sum_{k=1}^{6}\left(k(k-1) + (k+6)(7-k)\right)\\
+    &= \frac{1}{36}\sum_{k=1}^{6}\left((k^2- k)+ (7k-k^2+42-6k)\right)\\
+    &= \frac{1}{36}\sum_{k=1}^{6}\left( 42\right)\\
+    &= \frac{1}{36}\left[ 42 \times 6 \right]
+\end{align}
+Therefore,
+ Mean, $E\brak{X} = 7$
+ 
+\begin{align}
+  Variance,\sigma^2 &= E\brak{X-E\brak{X}}^2 \\
+    &= E\brak{X^2} - \brak{E\brak{X}}^2
+\end{align}
+Let us consider $E\brak{X^2}$,
+\begin{align}
+    & E\brak{X^2} \nonumber\\
+    &= \left(\sum_{k=1}^{12}(k^2\times p_x(k))\right)\\
+    &= \sum_{k=1}^{6}k^2\times\frac{1}{36}[k-1] + 
+    \sum_{k=7}^{12}(k)^2\times[13-k]\\
+    &\text{by rearrangement we get}\\
+    &= \frac{1}{36}\left[\sum_{k=1}^{6}k^2(k-1) + \sum_{k=7-6}^{12-6}(k+6)^2\times[13-(k+6)]\right]\\
+    &= \frac{1}{36}\left[\sum_{k=1}^{6}k^2(k-1) + \sum_{k=1}^{6}(k+6)^2(7-k)\right]\\
+    &= \frac{1}{36}\sum_{k=1}^{6}\left(k^2(k-1) + (k^2+36+12k)(7-k)\right)\\
+    &= \frac{1}{36}\sum_{k=1}^{6}\left((k^3-k^2) + (-k^3-5k^2+48k+252)\right)\\
+    &= \frac{1}{36}\sum_{k=1}^{6}(-6k^2+48k+252)\\
+    &= \frac{1}{6}\sum_{k=1}^{6}(-k^2+8k+42)\\
+    &= \frac{1}{6}\left[ -\frac{(6)(7)(13)}{6} + 8\times\frac{(6)(7)}{2}+ (42)(6) \right]\\
+    &= \frac{1}{6}[-91+168+252]\\
+    &= \frac{329}{6}
+\end{align}
+
+\begin{align}
+    \text{ Variance, }\sigma^2 &=E\brak{X^2} - \brak{E\brak{X}}^2\\
+    &= \frac{329}{6}- ((7)^2)\\
+    &= \frac{329}{6} - 49\\
+   \sigma^2 &= \frac{35}{6}
+\end{align}

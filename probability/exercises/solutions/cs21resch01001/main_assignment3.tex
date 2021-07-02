@@ -1,0 +1,70 @@
+
+
+\title{Assignment 3 -Probability and Random Variable}
+\author{seshikanth CS21RESCH01001\thanks{GVV Sharma sir}}
+\date{\today}
+
+\documentclass[journal,12pt,twocoloums]{IEEEtran}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{mathrsfs}
+\usepackage{txfonts}
+\usepackage{stfloats}
+\usepackage{pgfplots}
+\usepackage{cite}
+\usepackage{cases}
+\usepackage{mathtools}
+\usepackage{caption}
+\usepackage{enumerate}	
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{multicol}
+%\usepackage{xtab}
+\usepackage{longtable}
+\usepackage{multirow}
+%\usepackage{algorithm}
+%\usepackage{algpseudocode}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{hyperref}
+%\usepackage[framemethod=tikz]{mdframed}
+\usepackage{listings}
+    %\usepackage[latin1]{inputenc}                                 %%
+    \usepackage{color}                                            %%
+    \usepackage{array}                                            %%
+    \usepackage{longtable}                                        %%
+    \usepackage{calc}                                             %%
+    \usepackage{multirow}                                         %%
+    \usepackage{hhline}                                           %%
+    \usepackage{ifthen}                                           %%
+  
+ \begin{document}
+ \maketitle
+ 
+
+\title{Assignment 3 -Probability and Random Variable}
+\author{seshikanth CS21RESCH01001\thanks{GVV Sharma sir}}
+\date{\today}
+
+ \textbf{Problem Statement prob 3.2}-An experiment succeeds twice as often
+as it fails. Find the probability that in the next six trials, there will be at least 4 successes.\\
+\textbf{Solutions:}\\
+
+Success: Failure ratio :2:3
+
+It means prob of success = p = $\frac{2}{3}$, 
+
+Prob of failture = q  = $\frac{1}{3}$
+
+Let X be total number of successes in n trails, n = 6
+
+$Pr(X \geq 4) = { 6 \choose 4} p^{4} q^2 + { 6 \choose 5} p^{5} q + { 6 \choose 6} p^{6} q^0,  \\
+              = \textbf{0.6804},  \textbf{is the required probability}
+$
+
+Type of distribution = binomial(n,p) = binomial(6,$\frac{2}{3}$)
+\end{document}
+        

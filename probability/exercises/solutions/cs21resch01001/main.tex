@@ -1,0 +1,89 @@
+
+
+\title{Assignment 2 -Probability and Random Variable}
+\author{seshikanth CS21RESCH01001\thanks{GVV Sharma sir}}
+\date{\today}
+
+\documentclass[journal,12pt,twocoloums]{IEEEtran}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{mathrsfs}
+\usepackage{txfonts}
+\usepackage{stfloats}
+\usepackage{pgfplots}
+\usepackage{cite}
+\usepackage{cases}
+\usepackage{mathtools}
+\usepackage{caption}
+\usepackage{enumerate}	
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{multicol}
+%\usepackage{xtab}
+\usepackage{longtable}
+\usepackage{multirow}
+%\usepackage{algorithm}
+%\usepackage{algpseudocode}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{hyperref}
+%\usepackage[framemethod=tikz]{mdframed}
+\usepackage{listings}
+    %\usepackage[latin1]{inputenc}                                 %%
+    \usepackage{color}                                            %%
+    \usepackage{array}                                            %%
+    \usepackage{longtable}                                        %%
+    \usepackage{calc}                                             %%
+    \usepackage{multirow}                                         %%
+    \usepackage{hhline}                                           %%
+    \usepackage{ifthen}                                           %%
+  
+ \begin{document}
+ \maketitle
+ 
+ \textbf{Problem Statement prob 2.4}-Suppose that 5\% of men and 0.25\% of women
+have grey hair. A grey haired person is selected at random. What is the probability of this person being male? Assume that there are
+equal number of males and females.\\
+\textbf{Solutions:}\\
+Say there are 100 people. Half of them men and half of them women. 5\% of men have grey hair(2.5 men) and 0.25\% of women have grey hair(0.125 women)
+
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c| } 
+\hline
+ & \textbf{Men} & \textbf{Women} & \textbf{Total} \\
+\hline
+ & 50 & 50 & 100 \\ 
+\hline
+\textbf{Greyhair} & 2.5 & 0.125 & \\ 
+ \hline
+\end{tabular}
+\end{center}
+
+
+ Required probability = how many of men have grey hair = $\frac{\textbf{Men with grey hair}}{\textbf{total grey haired persons}} \\ = \frac{2.5}{2.5+0.125} \\ = \frac{2.5}{2.625} \\ = \textbf{0.95238} $ 
+ 
+\textbf{ Another way using Bayes theorem}:
+
+M - number of men, W = number of women , G = number of grey persons
+$P(M) = 0.5 = P(W) \\ P(G|M) =0.05 \\ P(G|W) = 0.0025 \\ P(M|G) \textbf{ is what we need to find } $
+
+ 
+\textbf{By bayes theorem}, 
+%\begin{multline*}
+%\begin{equation} 
+\begin{align*}
+P(M|G) =& \frac{P(M,G)}{P(G)} \\
+   & = \frac{P(G|M)P(M)}{P(G)} \\
+   & = \frac{P(G|M)P(M)}{P(G|M)P(M)+P(G|W)P(W)} \\
+   &    = \frac{0.05*0.5}{0.05*0.5+0.0025*0.5}  \\
+      & = \frac{0.025}{0.02625}  \\
+      & = \textbf{0.95238} 
+\end{align*}
+%\end{equation}
+%\end{multline*}
+\end{document}
+        

@@ -1,0 +1,40 @@
+There are 6 outcomes when we throw a die, which are independent of one another. The probability of getting 5 on the die 
+\begin{align}
+    p = \frac{1}{6}
+\end{align}
+The die is thrown 7 times and are not dependent on one another \begin{align}
+    n = 7
+\end{align}
+Let the Random Variable be $X$ denote the number of 5s in 7 throws
+By Binomial Distribution, we have
+\begin{align}
+    \Pr(X=k) = \binom{n}{k}p^k(1-p)^{n-k}
+\end{align}
+We should get 5 exactly twice, so $ k = 2 $\\
+\begin{center}
+\begin{table}[h]
+\caption{Definition of the variables}
+\centering
+\resizebox{\columnwidth}{!}{%
+    \begin{tabular}{|c|c|}
+        \hline
+         \multicolumn{2}{|c|}{Variables} \\
+        \hline
+        $p$ & Probability that outcome is 5 when we throw the die\\
+        \hline
+        $n$ & No of times the die is thrown\\
+        \hline
+        $X$ & Random Variable denoting the number of 5s out of n number of throws\\
+        \hline
+        $k$ & Required number of times 5s appear on the die which is 2\\
+        \hline
+    \end{tabular}
+    }
+    \label{tab:1}
+\end{table}
+\end{center}
+The probability of getting 5 exactly twice in 7 throws of a die is given by 
+\begin{align}
+    \Pr(X=2) &= \comb{^7}{C}{_2}\brak{\frac{1}{6}}^2 \brak{\frac{5}{6}}^5 \\[7pt]
+    \Pr(X=2) &= 0.234428
+\end{align}

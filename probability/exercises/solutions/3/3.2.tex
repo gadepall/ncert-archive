@@ -1,0 +1,34 @@
+
+
+As per question,
+\begin{align}
+    p=2(1-p) \label{eq:2.0.1}\\
+    \implies p=2/3\label{eq:2.0.2}
+    \end{align}
+For a binomial distribution,
+\begin {align}
+    \pr{X=k}= \comb{n}{k} p^k \brak{1-p}^{n-k}\label{eq:2.0.3}
+    \end{align}
+For the given question,
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+ \textbf{Variable} & $n$ & $p$\\
+ \hline
+ \textbf{Value} & 6 & 2/3\\
+ \hline
+\end{tabular}
+\caption{Value of variables}
+\label{Tab 1}
+\end{center}
+\end{table}
+From \eqref{eq:2.0.3} we have,
+\begin{align}
+\pr{X\geq4}&=\sum_{i=4}^{6}\comb{6}{i} p^i\brak{1-p}^{6-i}
+\label{eq: 2.0.4}\\
+&=\frac{240}{729}+\frac{192}{729}+\frac{64}{729}
+\label{eq: 2.0.5}\\
+&=\frac{496}{729}
+\label{eq:2.0.6}
+\end{align}

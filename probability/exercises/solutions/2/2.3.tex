@@ -1,0 +1,22 @@
+Let $H \in \{ 0, 1\}$ denote the random variable of the patient having a heart attack, $A \in \{ 0, 1\} $ denote the random variable of the patient taking a meditation and yoga course, or the patient taking the drug. ($A=0$ if the patient took a meditation and yoga course, and $A=1$ if the patient took the prescription of the drug.)\\
+Given that,
+\begin{align}
+\text{Pr}(H=1) &= 0.4 \\
+\text{Pr}(A=0) &= \text{Pr}(A=1)\\
+\text{Pr}(H=1|A=0) &= \text{Pr}(H=1)\,(1-0.30)\\
+&= 0.28 \\
+\text{Pr}(H=1|A=1) &= \text{Pr}(H=1)\,(1-0.25)\\
+&= 0.3\\
+\end{align}
+Therefore, by Bayes' Theorem
+\begin{align}
+\text{Pr}(A=0|H=1) = \dfrac{\text{Pr}(H=1|A=0)\,\text{Pr}(A=0)}{\sum_{i=0} ^ 1 \text{Pr}(H=1|A=i)\,\text{Pr}(A=i)} \\
+\end{align}
+We can cancel $\text{Pr}(A=1)$ and $\text{Pr}(A=0)$ from the numerator and denominator as they are given to be equal.\\
+\begin{align}
+\therefore \text{Pr}(A=0|H=1) &= \dfrac{\text{Pr}(H=1|A=0)}{\text{Pr}(H=1|A=0) + \text{Pr}(H=1|A=1)} \\
+&= \dfrac{0.28}{0.28 + 0.3} \\ ~\\[-1em]
+&= \dfrac{0.28}{0.58} \\ ~\\[-1em]
+&= \dfrac{14}{29} \\ ~\\[-1em]
+&\approx 0.48275862069
+\end{align}

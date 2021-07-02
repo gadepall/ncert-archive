@@ -1,0 +1,62 @@
+The description of the random variables is available in Table \ref{table:2.2}.
+\begin{table}[!ht]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+     &A&B&C&D  \\
+     \hline
+     X&0&1&2&3\\
+     \hline
+\end{tabular}\\[5pt]
+\begin{tabular}{|c|c|c|c|}
+\hline
+     &Red&White&Black  \\
+     \hline
+     Y&0&1&2\\
+     \hline
+\end{tabular}\\[5pt]
+\caption{}
+\label{table:2.2}
+\end{table}
+From the given information,
+\begin{align}
+\pr{X\!=\!0} = \pr{X\!=\!1} &= \pr{X\!=\!2} 
+\\
+= \pr{X\!=\!3} &= \frac{1}{4}
+\\
+\pr{Y\!=\!0|X\!=\!0}&=\frac{1}{10}\\
+\\\pr{Y\!=\!0|X\!=\!1}&=\frac{6}{10}\\
+\\\pr{Y\!=\!0|X\!=\!2}&=\frac{8}{10}\\
+\pr{Y\!=\!0|X\!=\!3} &=0
+\end{align}
+Thus,
+\begin{align}
+\pr{Y=0}&= \sum_{i=0}^{3}\pr{Y=0|X=i}\pr{X=i}
+\\
+&=\frac{3}{8}
+\end{align}
+\begin{enumerate}
+\item  
+\begin{multline}
+Pr(X=0|Y=0)
+\\
+=\frac{{Pr(Y=0|X=0)}{Pr(X=0)}}{{Pr(Y=0)}}
+\\
+=\frac{1}{15}
+\end{multline}
+\item 
+\begin{multline}
+Pr(X=1|Y=0)
+\\
+=\frac{{Pr(Y=0|X=1)}{Pr(X=1)}}{{Pr(Y=0)}}
+\\
+=\frac{2}{5}
+\end{multline}
+\item 
+\begin{multline}
+Pr(X=2|Y=0)
+\\=\frac{{Pr(Y=0|X=2)}{Pr(X=2)}}{{Pr(Y=0)}}
+\\
+=\frac{8}{15}
+\end{multline}
+\end{enumerate}

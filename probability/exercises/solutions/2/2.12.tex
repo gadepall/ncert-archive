@@ -1,0 +1,67 @@
+Total number of students : 1000 \\
+Total number of girls : 430  \\
+Total number of girls in Class XII : 10 \% of total girls 
+\begin{align}
+=\frac{10}{100}\times 430 =43
+\end{align}
+Let X $\in$ $\{0,1\}$ be the random variable such that 1 represents girl, 0 represents boy.
+\begin{table}[ht]
+\caption{Probability distribution for values of X}
+\label{2.12:table:0}
+\begin{center}
+\begin{tabular}{|c|c|}
+    \hline
+    X & P(X) \\
+    \hline
+    1 & 430/1000\\
+    \hline
+    0 & 570/100\\
+    \hline
+    \end{tabular} 
+\end{center}   
+\end{table}
+
+Let Y $\in$ $\{0,1\}$ be the random variable such that 1 represents chosen student is in Class XII, 0 represents chosen student is not in Class XII.
+
+\begin{table}[ht]
+\caption{Probability distribution for values of Y}
+\label{2.12:table:1}
+\begin{center}
+    \begin{tabular}{|c|c|}
+    \hline
+    Y & P(Y)\\
+    \hline
+    1 & $\frac{1}{2}$ \\
+    \hline
+    0 & $\frac{1}{2}$\\
+    \hline
+    \end{tabular}
+\end{center} 
+\end{table}
+We require P(Y=1 $\vert$ X=1) (using Baye's theorem)
+\begin{align}
+=\dfrac{P(X=1\vert Y=1)\cdot P(Y=1)}{\sum_{i=0}^{1} P(X=1\vert Y=i)\cdot P(Y=i)}
+\end{align}
+\begin{center} 
+=$\frac{P(X=1 \vert Y=1)P\brak(Y=1)}{\splitfrac{P(X=1\vert Y=0)P(Y=0)}{+P(X=1\vert Y=1)P(Y=1)}}$
+\end{center}
+\begin{table}[ht]
+\caption{Probability for different values of X,Y}
+\label{2.12:table:2}
+\begin{center}
+    \begin{tabular}{|c|c|c|}
+    \hline
+    Probability & Chosen Student & Value\\
+    \hline
+    $P(X=1\vert Y=0)$ & girl not in Class XII & $\frac{387}{1000}$\\
+    \hline
+    $ P(X=1\vert Y=1)$ & girl in Class XII & $\frac{43}{1000}$ \\
+    \hline
+    \end{tabular}
+\end{center}    
+\end{table} 
+\begin{align}
+&=\left[\dfrac{\brak( \frac{43}{1000}\times \frac{1}{2})}{\brak( \frac{387}{1000})\times \frac{1}{2}) + \brak( \frac{43}{1000}\times \frac{1}{2})}\right]\\
+&=\dfrac{1}{10}\\ 
+&=0.1
+\end{align}

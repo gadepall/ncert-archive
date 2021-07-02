@@ -1,0 +1,18 @@
+%
+Let the $i$th inspection be $X_i \in \cbrak{0,1}$, where  1 represents a good orange.  From the given information,
+\begin{align}
+\pr{X_1=1}&=\brak{\frac{12}{15}}\\ 
+\pr{X_2=1|X_1=1}&=\brak{\frac{11}{14}} \\ 
+\pr{X_3=1|X_1=1,X_2=1} &= \brak{\frac{10}{13}}
+\end{align}
+%
+The probability that the box will be approved for sale is
+\begin{multline}
+\pr{X_1=1,X_2=1,X_3=1} 
+\\
+= \pr{X_1=1} \times \pr{X_2=1|X_1=1} 
+\\
+\times \pr{X_3=1|X_1=1,X_2=1} \\ 
+=\frac{12}{15}\times \frac{11}{14} \times \frac{10}{13}\\ 
+=\frac{1320}{2730} =0.483 
+\end{multline}

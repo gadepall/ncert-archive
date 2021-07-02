@@ -1,0 +1,40 @@
+Let $\textbf{X} \in \{0,1\}$ be a random variable where 0 represents a diamond card getting lost and 1 reperesent  a card which is not a diamond becoming lost. \\
+Let $\textbf{Y} \in \{0,1\} $ be a random variable where 0 represents both cards drawn being diamonds and 1 represents the case where atleast 1 of the 2 cards drawn is not a diamond.\\
+The required probability is pr(X=0$|$Y=0).\\
+\\Since there are 13 diamond cards,
+\begin{align}
+    \pr{X=0}=\frac{13}{52}=\frac{1}{4}\\
+    \pr{X=1}=\frac{39}{52}=\frac{3}{4}
+\end{align}
+$(X=0 \cap Y=0)$ is the event of a diamond card getting lost and getting 2 diamond cards in the 2 draws.\\
+Hence,
+\begin{align}
+    \pr{X=0 \cap Y=0}=\frac{\comb{13}{3}}{\comb{52}{3}}
+\end{align}
+Using Total probability theorem,
+\begin{align}
+    \pr{F}=\sum_{i=1}^{n}\pr{F \vert E_{i}}\pr{E_{i}} \label{5.16:eq1}
+\end{align}
+$\pr{Y=0|X=0}$ is probability of selecting 2 diamond cards given that one diamond card is lost.
+\begin{align}
+   \implies \pr{Y=0 \vert X=0}=\frac{\comb{12}{2}}{\comb{51}{2}}
+\end{align}
+$\pr{Y=0|X=1}$ is probability of selecting 2 diamond cards given that the card lost is not a diamond.
+\begin{align}
+    \implies \pr{Y=0 \vert X=1}=\frac{\comb{13}{2}}{\comb{51}{2}}
+\end{align}
+%by using equation \eqref{5:16:eq1},
+Thus,
+\begin{align}
+\begin{split}
+    \pr{Y=0}=\frac{\comb{12}{2}}{\comb{51}{2}}+\frac{\comb{13}{2}}{\comb{51}{2}}
+\end{split}
+\end{align}
+by definition,
+\begin{align}
+\begin{split}
+    \pr{X=0 \vert Y=0}&=\frac{\pr{X=0 \cap Y=0}}{\pr{Y=0}}\\\\
+                     &=\frac{11}{50}\\\\
+                     &=0.22
+\end{split}
+\end{align}

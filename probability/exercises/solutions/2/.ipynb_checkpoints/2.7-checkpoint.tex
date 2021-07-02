@@ -1,0 +1,20 @@
+Let $A \in \cbrak{0,1}$ denote the random variables of an item produced and $D \cbrak{0,1}$ denote it being defective
+%
+From the given information,
+\begin{align}
+P(A=0) = 60 {\%} = 0.6\\
+P(A=1) = 40 {\%} =0.4
+\end{align}
+\begin{align}
+    P(D=1|A=0) = P(1|0) = 2 {\%} =0.02
+   \\P(D=1|A=1) = P(1|1) =  1 {\%} =0.01
+\end{align}
+By Baye's rule,
+\begin{multline}
+    P(A=1|D=1) 
+    \\
+    = \frac{P(1)\times P(1|1)}{P(1)\times P(1|1) + P(0)\times P(1|0)}
+    \\P(A=1|D=1) = \frac{0.4\times 0.01}{0.4\times 0.01 + 0.6\times 0.02}
+    \\P(A=1|D=1) = 0.25
+\end{multline}
+The probability that the defective item selected at random is produced by machine B is 25{\%}

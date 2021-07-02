@@ -1,0 +1,49 @@
+Let X be a binomial random variable which has probability  $p=\frac{1}{2}$ 
+ \begin{align}
+p(X)=\frac{1}{2} \label{3.3:1}
+ \end{align}
+Given number of times event(X) is\\
+ performed$(n)=6$
+ \begin{align}
+ n(x)=6 \label{3.3:2}
+ \end{align}
+Given probability of event$(p)= \frac{1}{2}$\\
+Probability that event(X) does not \\occur is
+$(1-p)=1-\frac{1}{2}=\frac{1}{2} $
+ \begin{align}
+1-p(x)=\frac{1}{2}\label{3.3:3}
+ \end{align}
+We know that binomial probability
+\begin{align}
+\pr{X=k} = \comb{n}{k} p^k({1-p})^{n-k}  \label{3.3:4} 
+\end{align}
+For $\pr{X=k}$ to be most likely outcome(highest probability),
+ $\pr{X=k}$  should be maximum ,where\\
+$ k=\{0,1,2,3,4,5,6\}$\\
+To find maximum of  $\pr{X=k}$  ,let us  apply \\logarithm on both sides for equation \eqref{3.3:4} and then diffenrentiate it with respect
+to $p$.
+\begin{align}
+\log  \pr{X=k} &=\log  \comb{n}{k} \times p^k\times ({1-p})^{n-k} \\
+&=\log \comb{n}{k} +k \times \log p \notag \\
+ &+(n-k)\times log (1-p) \label{3.3:5}
+\end{align}
+Differentaiate eq \eqref{3.3:5} with respect to p
+
+\begin{align}
+\frac{\mathrm{d} \log \pr{X=k} }{\mathrm{d} p}&=\frac{\mathrm{d} \log  \comb{n}{k} }{\mathrm{d}p}+k\times  \frac{\mathrm{d}\log p}{\mathrm{d} p} \\
+     &+(n-k) \times \frac{\mathrm{d}\log (1-p)}{\mathrm{d} p} \notag \\
+     &=0+\frac{k}{p}-\frac{n-k}{ 1-p} \label{3.3:6}
+\end{align}
+To find maximum ,substitute $\frac{\mathrm{d} \log  \pr{X=k} }{\mathrm{d} p}=0$ in \eqref{3.3:6}
+\begin{align}
+\frac{k}{ p}&=\frac{n-k}{1-p}  \\
+\frac{ n-k}{k}&=\frac{1-p}{ p}  \\
+\frac{ n}{k}-1&=\frac{1}{ p}-1  \\
+\frac{n}{ k}&=\frac{ 1}{t p}  \\
+k&=n\times p \label{3.3:7}
+\end{align}
+substituting $n=6,p=1-p=\frac{1}{2}$ in \eqref{3.3:7}\\
+We get $k=6\times \frac{1}{2}=3$
+$\pr{X=3}$ is maximum,\\
+$\therefore\pr{X=3}$ is most likely \\
+outcome.\\

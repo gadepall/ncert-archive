@@ -1,0 +1,43 @@
+Let $X \sim \gauss{\mu}{\sigma^2}$.
+
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+%%
+\item
+Find $M_{X}\brak{s} = E\sbrak{e^{-sX}}$.
+\\
+\solution The MGF of $X$ is
+%
+\begin{align}
+M_{X}(s) &=\int_{-\infty}^{\infty}e^{-s X}p_{X}(x) dx 
+\\
+&=e^{-s\mu}e^{-\frac{s^2\sigma^2}{2}}
+\label{eq:probman_mgf_X}
+\end{align}
+%
+\item
+Let 
+%
+\begin{equation}
+N = n_1 - n_2, \quad   n_1,n_2 \sim \gauss{0}{1}.
+\end{equation}
+%
+Find $M_{N}(s)$, assuming that $n_1$ and $n_2$ are independent.
+\\
+\solution Substituting from \eqref{eq:probman_mgf_X} and using independence,
+\begin{align}
+M_N(s)&=E[e^{-(n_1-n_2)s}]=M_{n_1}(s) M_{n_2}(-s)
+\\
+&= e^{-s^2\sigma^2} = e^{-s^2} \quad \brak{\because \sigma = 1}
+\label{eq:probman_mgf_N}
+\end{align}
+%
+\item
+Show that $N$ is Gaussian. Find its mean and variance.  Comment.
+\\
+\solution From \eqref{eq:probman_mgf_N} and \eqref{eq:probman_mgf_X}, it is obvious that $X \sim \gauss{0}{2}$.  Thus,
+%
+the difference of two Gaussian random variables is also a Gaussian random variable.
+
+\end{enumerate}

@@ -1,0 +1,15 @@
+Let A={0,1} represent the random variable for being male or female and G={0,1} represent having grey hair or not.  Then,\\
+  \begin{align}
+      P(A=0)&=50\%=\frac{1}{2}\\
+      P(A=1)&=50\%=\frac{1}{2}\\
+      P(G=1|A=0)&=5\%=\frac{1}{20}\\
+      P(G=1|A=1)&=0.25\%=\frac{1}{400}
+  \end{align}
+  By Bayes rules,\\
+  \begin{align}
+     P(A=0|G=1)&=\dfrac{P(0)\times P(G=1|0)}{\{\sum}_{i=0}^{1} \pr{G}\\ 
+     \because {\sum}_{i=0}^{1}\pr{G}=&P(0)\times P(G=1|0)+P(1)\times P(G=1|1)\\
+      P(A=0|G=1)&=\dfrac{\dfrac{1}{2}\times \dfrac{1}{20}}{\dfrac{1}{2} \times \dfrac{1}{20} +\dfrac{1}{2} \times \dfrac{1}{400}}\\
+      P(A=0|G=1)&=\dfrac{20}{21}
+  \end{align}
+  which is the desired probability.

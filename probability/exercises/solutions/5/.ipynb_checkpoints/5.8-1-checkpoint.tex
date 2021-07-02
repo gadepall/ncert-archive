@@ -1,0 +1,24 @@
+Let $X_{i} \in (0,1)$ be a random variable which denotes whether spade is drawn at the $i^{th}$ draw.\\
+   \begin{align}  
+      X=\sum_{i=1}^{i=5}X_{i} 
+      \end{align}
+     where X denotes the number of spades obtained. \\
+    \begin{align}
+     Since, \pr{x}=\frac{ \text{number of favourable outcome}}{\text{total number of outcomes}} \notag \\
+      \pr{x}=\frac{\comb{13}{x}\times \comb{39}{5-x}}{\comb{52}{5}} \label{5.8-1:2.0.2}
+      \end{align}
+      
+
+\begin{table}[h]
+\resizebox{\columnwidth}{!}{
+    \begin{tabular}{|l|l|l|l|l|l|l|}
+        \hline
+        X    & 0 & 1 & 2  & 3  & 4  & 5                     \\ \hline 
+
+P(X) & $\frac{\comb{13}{0}\times\comb{39}{5}}{\comb{52}{5}}$ & $\frac{\comb{13}{1}\times\comb{39}{4}}{\comb{52}{5}}$ & $\frac{\comb{13}{2}\times\comb{39}{3}}{\comb{52}{5}}$ & $\frac{\comb{13}{3}\times\comb{39}{2}}{\comb{52}{5}}$ & $\frac{\comb{13}{4}\times\comb{39}{1}}{\comb{52}{5}}$ & $\frac{\comb{13}{5}\times\comb{39}{0}}{\comb{52}{5}}$ \\ 
+\hline
+
+    \end{tabular}
+}
+\caption{Probabilities of each case }    \label{5.8-1:tab:my_label}
+\end{table}

@@ -1,0 +1,14 @@
+Let X be the number of correct answers\\
+n be the number of questions $(n=20)$\\
+p is the probability of correct answer $(p=0.5)$\\
+q is the probability of wrong answer $(q=1-p)$
+From Bernoulli's distribution,
+\begin{align}
+    \pr{X=r}&=\comb{n}{r}p^rq^{n-r}
+\end{align}
+$\therefore$ required probability is
+\begin{align}
+    \pr{X\geq12}&=\sum_{r=12}^{n}\comb{n}{r} p^r q^{n-r}\\
+    &=\sum_{r=12}^{20}\comb{20}{r} p^r (1-p)^{20-r}\\
+    &=0.25172233581
+\end{align}

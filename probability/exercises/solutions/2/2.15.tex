@@ -1,0 +1,43 @@
+Given that a coin is tossed. If coin shows head, it is tossed again. If it shows tail, then a die is thrown.
+\\Let X $\in$ $\{0,1\}$ be the random variable such that 1 represents occurrence of tail,0 represents occurrence of head when coin is tossed.
+\begin{table}[ht]
+\caption{Probability distribution for values of X}
+\begin{center}
+    \begin{tabular}{|c|c|}
+    \hline
+    X & P(X)\\
+    \hline
+    1 & $\frac{1}{2}$ \\
+    \hline
+    0 & $\frac{1}{2}$\\
+    \hline
+    \end{tabular}
+\end{center} 
+\end{table}
+\\Let Y denotes random variable for the getting a number on the die thrown, then the probability distribution is
+\begin{table}[ht]
+\caption{Probability distribution for values of Y}
+\begin{center}
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+    Y & 1 & 2 & 3 & 4 & 5 & 6 \\
+    \hline
+    P(Y) & $\frac{1}{6}$ & $\frac{1}{6}$ & $\frac{1}{6}$ & $\frac{1}{6}$ & $\frac{1}{6}$ & $\frac{1}{6}$  \\
+    \hline
+    \end{tabular}
+\end{center} 
+\end{table}
+\begin{align}
+  \text{Pr}(X=1)
+=& \sum_{i=1}^{6}\text{Pr}(X=1,Y=i)+\text{Pr}(X=0,X=1)\\
+=&\frac{3}{4}
+\end{align}
+\begin{align}
+ \text{Pr}(X=1,Y>4)
+=&\text{Pr}(X=1,Y=5)+\text{Pr}(X=1,Y=6)\\
+=&\frac{1}{6}  
+\end{align}
+\begin{align}
+\text{Pr}(Y>4|X=1)= &\frac{\text{Pr}(Y>4,X=1)}{\text{Pr}(X=1)}\\
+ = &\frac{2}{9}
+\end{align}

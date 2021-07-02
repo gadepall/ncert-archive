@@ -13,8 +13,9 @@
 \contentsline {section}{\numberline {5}Stochastic Geometry}{8}{section.5}%
 \contentsline {section}{\numberline {6}Transformation of Variables}{8}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Using Definition}{8}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Using Jacobian}{8}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Conditional Probability}{8}{section.7}%
-\contentsline {section}{\numberline {8}Two Dimensions}{9}{section.8}%
-\contentsline {section}{\numberline {9}Transform Domain}{9}{section.9}%
-\contentsline {section}{\numberline {10}Uniform to Other}{9}{section.10}%
+\contentsline {subsection}{\numberline {6.2}Using Jacobian}{10}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Conditional Probability}{11}{section.7}%
+\contentsline {section}{\numberline {8}Two Dimensions}{12}{section.8}%
+\contentsline {section}{\numberline {9}Transform Domain: Moment Generating Function}{14}{section.9}%
+\contentsline {section}{\numberline {10}Uniform to Other: Quantile function}{14}{section.10}%
+\contentsline {section}{\numberline {11}Miscellaneous Distributions}{15}{section.11}%

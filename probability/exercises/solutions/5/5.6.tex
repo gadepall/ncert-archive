@@ -1,0 +1,46 @@
+Number of days in a leap year can be written as:\\
+\\366 = $52\times7$ + 2\\
+\\Hence a leap year has 52 weeks and an extra two days.\\
+\\Define a random variable $X=\{0,1\}$ as shown in below table such that $X=0$ and $X=1$ denote the leap year has 52 and 53 Tuesdays respectively.\\
+\\Let us set the number of leap years one chooses from as 4900.
+\begin{align}
+    \tag{5.6.1}
+    \therefore n(Year) = 4900 \label{eq_(0.0.1)}
+\end{align}
+
+\begin{table}[h]
+\caption{}
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+S.No & $X$ & 2 Extra Days & $n(X)$\\
+\hline
+1)  & 0 & (Sun,Mon) & $700$\\
+\hline
+2) & 1 & (Mon,Tue) & $700$\\
+\hline
+3)  & 1 & (Tue,Wed)  & $700$\\
+\hline      
+4)  & 0 & (Wed,Thu) & $700$ \\
+\hline
+5) & 0 & (Thu,Fri)  & $700$ \\
+\hline
+6) & 0 & (Fri,Sat) & $700$\\
+\hline
+7) & 0 &  (Sat,Sun) & $700$\\
+\hline
+\end{tabular}
+\label{table}
+\end{table}
+
+ \begin{align}
+  \tag{5.6.2}
+  \therefore  n(X=1) = 700\times2 = 1400 \label{eq_(0.0.2)}
+\end{align}
+ 
+Probability for the occurrence of the event $X=1$ is given by: (from \eqref{eq_(0.0.1)} and \eqref{eq_(0.0.2)})
+\begin{align}
+    \tag{Ans}
+    \therefore 
+     \pr{X=1} = \frac{n(X=1)}{n(Year)} = \frac{1400}{4900} = \frac{2}{7}
+\end{align}

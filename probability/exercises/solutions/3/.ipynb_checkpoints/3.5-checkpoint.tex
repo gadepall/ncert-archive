@@ -1,0 +1,38 @@
+By observing we can get 4 cases which are 0 heads, 1 heads, 2 heads, 3 heads respectively when 3 fair coins are tossed simultaneously.\\
+Let $X_{i}$ be the number of heads in \textit{i}th case .\\
+So we can get the probability of number of heads each case  as
+\begin{align}
+   \pr{X = k} = 
+  \begin{cases}
+    {^3 C_k}\brak{\frac{1}{2}}^{k}\brak{1-\frac{1}{2}}^{3-k} & 0 \leq k \leq 3\\
+    0 & otherwise
+  \end{cases}
+ \end{align}
+ \begin{align}\label{3.5equation-2}
+   \pr{X = k} = 
+   \begin{cases}
+    {^3 C_k}\brak{\frac{1}{2}}^{3} &  0 \leq k \leq 3  \\
+    0 & otherwise
+  \end{cases}
+\end{align}
+\\The probability distribution table is \\
+\begin{table}[h!]\label{3.5table}
+\centering
+\begin{tabular}{||c||c||c||c||c||}
+\hline\hline
+     \textit{i} & 1 & 2 & 3 & 4  \\
+     \hline\hline
+     $X_{i}$ & 0 & 1 & 2 & 3 \\
+     \hline\hline
+     $\pr{X = X_{i}}$ & $\frac{1}{8}$ & $\frac{3}{8}$ & $\frac{3}{8}$ & $\frac{1}{8}$\\[1ex]
+     \hline\hline
+\end{tabular}
+\caption{Probability distribution table}
+\end{table}
+\\Hence by substituing values of \textit{n} = 3 and \textit{p} = $\frac{1}{2}$, we get 
+\begin{align}
+    E(X) &= np\\
+         &= 3 \times \frac{1}{2} \\
+         &= \frac{3}{2} \\
+         &= 1.5
+\end{align}

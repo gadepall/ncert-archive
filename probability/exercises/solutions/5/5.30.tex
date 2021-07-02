@@ -1,0 +1,50 @@
+Let $X \in \{1,2,3,4,5,6\}$, be the random variable representing outcome of the die.The probability mass function(pmf) can be expressed as
+\begin{align}
+p_X\brak{n} = P\brak{X=n} =  \begin{cases}
+			\frac{1}{6}, & \text{if $1 \leq n\leq 6$}\\
+            0, & \text{otherwise}
+		 \end{cases} 
+\end{align}
+
+
+
+		              
+The variance (Var(X)) of this distribution can be found by definition,\\
+\begin{align}
+Var\brak{X} = E\brak{X^{2}}-\brak{E\brak{X}}^{2} \label{Eq:5.30:1}
+\end{align}
+where,
+\begin{align}
+E\brak{X}=\sum_{k=1}^{k=6} kp_X\brak{k}  \\
+E\brak{X}=\frac{1}{6}\sum_{k=1}^{k=6} k \label{Eq:5.30:2}
+\end{align}
+We know that, sum of natural numbers from 1 to n is,
+\begin{align}
+\sum_{k=1}^{k=n} k = \frac{n\brak{n+1}}{2} \label{Eq:5.30:3}
+\end{align}
+By substituting the formula from \eqref{Eq:5.30:3} in \eqref{Eq:5.30:2} and n=6, We get,
+\begin{align}
+E\brak{X}=\frac{1}{6} \times \frac{6\times7}{2}  \\
+E\brak{X}=\frac{7}{2} \label{Eq:5.30:4}
+\end{align}
+And,
+\begin{align}
+E\brak{X^{2}}=\sum_{k=1}^{k=6} k^{2}p_X\brak{k}  \\
+E\brak{X^{2}}=\frac{1}{6}\sum_{k=1}^{k=6} k^{2} \label{Eq:5.30:5}
+\end{align}
+We know that, sum of squares of natural numbers from 1 to n is,
+\begin{align}
+\sum_{k=1}^{k=n} k^{2} = \frac{n\brak{n+1}\brak{2n+1}}{6} \label{Eq:5.30:6}
+\end{align}
+By substituting the formula from \eqref{Eq:5.30:6} in \eqref{Eq:5.30:5} and n=6, We get,
+\begin{align}
+E\brak{X^{2}}=\frac{1}{6} \times \frac{6\times7\times13}{6}  \\
+E\brak{X^{2}}=\frac{91}{6} \label{Eq:5.30:7}
+\end{align}
+By substituting the values from \eqref{Eq:5.30:7} and \eqref{Eq:5.30:4} in \eqref{Eq:5.30:1}
+\begin{align}
+Var\brak{X} = E\brak{X^{2}}-\brak{E(X)}^{2}  \\
+Var\brak{X} = \frac{91}{6} - \frac{49}{4}  \\
+Var\brak{X} = \frac{70}{12}  \\
+Var\brak{X} = 2.9167 \label{Eq:5.30:8}
+\end{align}

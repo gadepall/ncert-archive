@@ -1,0 +1,18 @@
+Let $X_i \in (0,1)$ be a random variable where $X_i=1$ represents a successful guess and $X_i = 0$ represents unsuccessful guess on the $i^{th}$ question.\\
+\begin{align}
+ p=\frac{1}{3}  \notag \\
+X= \sum_{i=1}^{n}X_{i} 
+\end{align}
+
+where n is the total number of questions. So, X has a binomial distribution.\\
+\begin{align}
+\pr{X \geq r} = \sum_{k=r}^{n} \binom{n}{r}p^k(1-p)^{n-k} \label{1.0.2} 
+\end{align}
+
+Now, in this case n=5 and r=4. From \eqref{1.0.2}\\
+\begin{align}
+\pr{X=4}=\frac{10}{243}  \notag \\ 
+ \pr{X=5}=\frac{1}{243}   \notag \\ 
+ \notag
+ \end{align}
+Hence, required probability= $\frac{11}{243}$ 

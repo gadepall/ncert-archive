@@ -1,0 +1,287 @@
+
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Which of the following cannot be the probability of an event?\\
+(A)$\frac{2}{3}$(B) –1.5 (C) 15 (D) 0.7
+\\
+\solution $0 < \pr{E} < 1$.  Hence, (B) and (C) are the right answer.
+\item If P(E) = 0.05, what is the probability of ‘not E’?
+%
+\solution 
+The desired probability is
+\begin{align}
+\pr{E^{\prime}} = 1 - \pr{E} = 0.95
+\end{align}
+%
+\item If A and B are two events such that P(A) $\neq$ 0 and P(B/A) = 1, then
+(A) A $\subset$ B \\
+(B) B $\subset$ A \\
+(C) B = $\phi$ \\
+(D) A = $\phi$\\
+\solution
+\input{solutions/6/6.3.tex}
+
+\item If P(A/B) $>$ P(A), then which of the following is correct :
+(A) P(B/A) $<$ P(B) \\
+(B) P(A $\cap$ B) $<$ P(A) . P(B)\\
+(C) P(B/A) $>$ P(B) \\
+(D) P(B/A) = P(B)
+\solution
+\input{solutions/6/6.4.tex}
+
+\item If A and B are any two events such that P(A) + P(B) – P(A and B) = P(A), then\\
+(A) P(B/A) = 1 \\
+(B) P(A/B) = 1\\
+(C) P(B/A) = 0 \\
+(D) P(A/B) = 0\\
+\item Complete the following statements:\\
+ (i) Probability of an event E + Probability of the event ‘not E’ =----------- .\\
+ (ii) The probability of an event that cannot happen is---------- . Such an event is called--------- .\\
+ (iii) The probability of an event that is certain to happen is ---------.\\
+ (iv) The sum of the probabilities of all the elementary events of an experiment is----------.\\ 
+ (v) The probability of an event is greater than or equal to and less than or equal to --------------.\\
+ %
+ \solution
+ \begin{enumerate}
+ \item 1
+ \item 0, null
+ \item 1
+ \item 1
+ \item $0 \le \pr{E} \le 1$.
+ \end{enumerate}
+ \item An electronic assembly consists of two subsystems, say, A and B. From previous testing procedures, the following probabilities are assumed to be known:\\
+P(A fails) = 0.2\\
+P(B fails alone) = 0.15\\
+P(A and B fail) = 0.15\\
+\\Evaluate the following probabilities\\
+(i) P(A fails|B has failed) \\
+(ii) P(A fails alone)\\
+\solution
+\input{solutions/6/6.7.tex}
+
+\item A and B are two events such that P (A) $\neq$ 0. Find P(B/A), if\\
+(i) A is a subset of B \\
+(ii) A $\cap$ B = $\phi$\\
+\solution
+\input{solutions/6/6.8.tex}
+\item If A and B are two events such that A $\subset$ B and P(B) $\neq$ 0, then which of the following is correct?\\
+\begin{enumerate}
+\item P(A/B) = $\frac{P(B)}{P(A)}$
+\item $P(A/B) < P(A)$
+\item P(A/B) $\geq$ P(A)
+\item None of these
+\end{enumerate}
+\solution
+\input{solutions/6/6.9.tex}
+\item Let E and F be events with $\pr{E} = \frac{3}{5}$, $\pr{F} = \frac{3}{10}$ and  $\pr{E \cap F} = \frac{1}{5}$. Are E and F independent?
+\\
+\solution 
+\begin{align}
+\pr{E}\pr{F} = \frac{9}{50} \ne \pr{E \cap F}
+\end{align}
+%
+Hence E and F are not independent.
+\item Given that the events A and B are such that P(A) = $\frac{1}{2}$, P(A $\cup B$)= $\frac{3}{5}$ and P(B) = p. Find p if they are\\
+(i) mutually exclusive\\
+(ii) independent.\\
+\solution
+\input{solutions/6/6.11.tex}
+\item Let A and B be independent events with P(A) = 0.3 and P(B) = 0.4. Find\\
+(i) P(A $\cap$ B)\\ 
+(ii) P(A $\cup$ B)\\
+(iii) P(A/B)\\
+(iv) P(B/A)\\
+\solution
+\input{solutions/6/6.12.tex}
+\item If A and B are two events such that P(A) = $\frac{1}{4}$, P(B) = $\frac{1}{2}$ and P(A $\cap$ B) = $\frac{1}{8}$. find P (not A and not B).\\
+\solution
+\input{solutions/6/6.13.tex}
+
+\item Events A and B are such that P (A) = $\frac{1}{2}$, P(B) = $\frac{7}{12}$ and P(not A or not B) = $\frac{1}{4}$. State whether A and B are independent ?\\
+\solution
+\begin{align}
+\pr{not\: A \:or\: not\: B} = \pr{A' + B'} 
+\end{align}
+We know that,\\
+\begin{align} \label{6.14:eq:1}
+ \pr{A' + B'} = \pr{(AB)'}
+\end{align}
+As,\\
+\begin{align}
+(AB)(AB)' = 0 \\
+\pr{AB} + \pr{(AB)'} = 1
+\end{align}
+\begin{align} \label{6.14:eq:2}
+\pr{AB} = 1- \pr{(AB)'}
+\end{align}
+Using ~\ref{6.14:eq:1} in ~\ref{6.14:eq:2}, We get
+\begin{align} \label{6.14:eq:3}
+\pr{AB} = 1- \pr{A' + B'}
+\end{align}
+On substituting the value of $\pr{A' + B'}$ in ~\ref{6.14:eq:3}, we get
+\begin{align}
+\pr{AB} = 1- \frac{1}{4}
+\end{align}
+\begin{align} \label{6.14:eq:4}
+ \implies \pr{AB} = \frac{3}{4}
+\end{align}
+Given,
+$\pr{A} = \frac{1}{2} \:and \:\pr{B} = \frac{7}{12}$
+\begin{align} \label{6.14:eq:5}
+\implies \pr{A}\pr{B} = \frac{7}{24}
+\end{align}
+From ~\ref{6.14:eq:4} and ~\ref{6.14:eq:5},
+\begin{align}
+ \pr{AB}\neq \pr{A}\pr{B}
+\end{align}
+As the events $A$ and $B$ does not satisfy the definition of independent events,
+$\therefore$ Events $A$ and $B$ are dependent.
+%
+\item Given two independent events A and B such that P(A) = 0.3, P(B) = 0.6. Find\\
+(i) P(A and B)\\
+(ii) P(A and not B)\\
+(iii) P(A or B)\\
+(iv) P(neither A nor B)\\
+%
+\solution
+\input{solutions/6/6.15.tex}
+\item A die marked 1, 2, 3 in red and 4, 5, 6 in green is tossed. Let A be the event, 'the number is even,' and B be the event, 'the number is red'. Are A and B
+independent?\\
+\item A person plays a game of tossing a coin thrice. For each head, he is given Rs 2 by the organiser of the game and for each tail, he has to give Rs 1.50 to the organiser. Let X denote the amount gained or lost by the person. Show that X is a random variable and exhibit it as a function on the sample space of the experiment.\\
+\solution
+\input{solutions/6/6.17.tex}
+
+\item If $\pr{A}= \frac{7}{13}, \pr{B}=\frac{9}{13}$ and $\pr{AB}=\frac{4}{13},$ evaluate $\pr{A|B}$.
+\\
+\solution 
+\begin{align}
+\pr{A|B} = \frac{\pr{AB}}{\pr{B}} = \frac{4/13}{9/13} = \frac{4}{9}
+\end{align}
+\item A die is thrown. If E is the event "the number appearing is a multiple of 3" and F be the event "the number appearing is even" then find whether E and F are independent ?\\
+\solution
+\input{solutions/6/6.19.tex}
+
+\item An unbiased die is thrown twice. Let the event A be "odd number on the first throw" and B the event "odd number on the second throw". Check the independence of the events A and B.\\
+\solution
+\input{./solutions/20-30/chapters/prob/examples/docq21.tex}
+
+
+\item Prove that if E and F are independent events, then so are the events E and $F^{'}$.\\
+\solution
+\input{./solutions/20-30/chapters/prob/examples/docq23.tex}
+
+\item If A and B are two independent events, then the probability of occurrence of at least one of A and B is given by 1- $P(A^{'}) P(B^{'})$\\
+\solution
+\input{./solutions/20-30/chapters/prob/examples/docq24.tex}
+\item Given that $E$ and $F$ are events such that $\pr{E} = 0.6, \pr{F} = 0.3$ and $\pr{EF} = 0.2$, find $\pr{E|F}$ and $\pr{F|E}$.\\
+\solution
+By definition, 
+\begin{align}
+\pr{A|B} = \frac{\pr{AB}}{\pr{B}}
+\end{align}
+Thus, we can write:
+\begin{align}
+\pr{E|F} = \frac{\pr{EF}}{\pr{F}} = \frac{0.2}{0.3} = \frac{2}{3}
+\end{align}
+In a similar manner:
+\begin{align}
+\pr{F|E} = \frac{\pr{EF}}{\pr{E}} = \frac{0.2}{0.6} = \frac{1}{3}
+\end{align}
+%
+\item Compute P(A/B), if P(B) = 0.5 and P (A $\cap$ B) = 0.32.\\
+\solution
+For two events A and B, by definition,
+\begin{align}
+\pr{A|B} = \frac{\pr{AB}}{\pr{B}}
+\end{align}
+Given $\pr{B} = 0.5$ and $\pr{AB} = 0.32$
+\begin{align}
+\pr{A | B} = \frac{0.32}{0.5}
+\end{align}
+Thus,
+\begin{align}
+\pr{A | B} = 0.64
+\end{align}
+
+\item If P(A) = 0.8, P(B) = 0.5 and P(B/A) = 0.4, find\\
+(i) P(A $\cap$ B)\\
+(ii) P(A/B)\\ 
+(iii) P(A $\cup$ B)\\
+\solution
+\input{solutions/6/6.25.tex}
+\item Evaluate P(A $\cup$ B), if 2P(A) = P(B)  = $\frac{5}{13}$ and P(A/B) =  $\frac{2}{5}.$\\
+\solution
+By definition,
+\begin{align}
+\Pr\brak{A/B} = \frac{\Pr\brak{AB}}{\Pr\brak{B}}
+\end{align}
+Substituting the values,
+\begin{align}
+\frac{2}{5} = \frac{\Pr\brak{AB}}{5/13}\\
+ \Pr\brak{AB} = \frac{2}{13}
+\end{align}
+\begin{align}
+\Pr\brak{A+B} = \Pr\brak{A} + \Pr\brak{B} - \Pr\brak{AB}
+\end{align}
+Substituting the values,
+\begin{align}
+\Pr\brak{A+B} = \frac{5}{26} + \frac{5}{13} - \frac{2}{13} = \frac{11}{26}
+\end{align}
+
+\item If P(A) = $\frac{6}{11}$, P(B) = $\frac{5}{11}$ and P(A $\cup$ B) = $\frac{11}{7}$ find\\
+(i) P(A $\cap$ B)\\ 
+(ii) P(A/B)\\ 
+(iii) P(B/A)
+\\
+\solution 
+\input{solutions/6/6.27.tex}
+\item A fair die is rolled. Consider the events E =  (1, 3, 5), F = (2, 3) and G = (2, 3, 4, 5) Find\\
+(i) P(E/F) and P(F/E) \\
+(ii) P(E/G) and P(G/E)\\
+(iii) P((E $\cup$ F)/G) and P((E $\cap$ F)/G)\\
+\solution
+\input{./solutions/20-30/chapters/prob/exercises/docq22.tex}
+\item Choose the correct answer, if P(A) = $\frac{1}{2}$, P(B) = 0, then P(A/B) is
+\begin{enumerate}
+\item 0
+\item $\frac{1}{2}$
+\item not defined
+\item 1
+\end{enumerate}
+\solution
+\input{./solutions/20-30/chapters/prob/exercises/docq27.tex}
+
+\item If A and B are events such that P(A/B) = P(B/A), then
+\begin{enumerate}
+\item A $\subset$ B but A $\neq$ B
+\item A = B
+\item A $\cap$ B = $\phi$
+\item P(A) = P(B)
+\end{enumerate}
+\solution
+\input{./solutions/20-30/chapters/prob/exercises/docq28.tex}
+
+\item If P(A) = $\frac{3}{5}$ and P(B) = $\frac{1}{5}$, find P (A $\cap$ B) if A and B are independent events.\\\solution
+\input{./solutions/20-30/chapters/prob/exercises/docq29.tex}
+\item One card is drawn at random from a well shuffled deck of 52 cards. In which of the following cases are the events E and F independent?\\
+(i) E : 'the card drawn is a spade'
+F : 'the card drawn is an ace'\\
+(ii) E : 'the card drawn is black'
+F : 'the card drawn is a king'\\
+(iii) E : 'the card drawn is a king or queen'
+F : 'the card drawn is a queen or jack'.\\
+\solution
+\input{./solutions/40-50/probability/chapters/Q43/solution.tex}
+\item Two events A and B will be independent, if
+\begin{enumerate}
+\item A and B are mutually exclusive
+\item $P(A^{\prime}B^{\prime})$ = [1 – P(A)] [1 – P(B)]
+\item P(A) = P(B)
+\item P(A) + P(B) = 1
+\end{enumerate}
+\solution
+\input{./solutions/40-50/probability/chapters/Q46/solution.tex}
+\end{enumerate}
+

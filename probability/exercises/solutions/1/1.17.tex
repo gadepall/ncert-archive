@@ -1,0 +1,33 @@
+Let X denote the number of heads shown on the coins, where n = 2 and p = 0.5, q = 1-p
+\begin{align}
+p(x) = \Pr(X=x) = \binom{n}{x}\times p^x\times q^{n-x}
+\end{align}
+\begin{table}[!ht]
+\resizebox{\columnwidth}{!} {
+\begin{tabular}{|c|c|c|c|}
+\hline
+     X&0&1&2  \\
+     \hline
+     P(X)&$\binom{2}{0}(0.5)^2=\dfrac{1}{4}$&$\binom{2}{1}(0.5)^2 = \dfrac{1}{2}$&$\binom{2}{2}(0.5)^2 = \dfrac{1}{4}$\\
+     \hline
+\end{tabular}
+}
+\caption{Probability of number of heads shown on the coins }
+\label{1.17:table:1}
+\end{table}
+\begin{enumerate}
+\item 
+\begin{align}
+&\Pr(F) = \Pr(X\geq 1)\\
+&\Pr(F) = \Pr(X = 1) + \Pr(X = 2)\nonumber\\
+       &= \frac{1}{2} + \frac{1}{4} = \frac{3}{4}\\
+&\Pr(EF) = \Pr(X = 1) = \frac{1}{2}\\
+&\Pr(E/F) =\frac{\Pr(EF)}{\Pr(F)} = \frac{2}{3}
+\end{align}
+\item
+\begin{align}
+&\Pr(F) = \Pr(X = 0) = \frac{1}{4}\\
+&\Pr(EF) = 0\\
+&\Pr(E/F) = \frac{\Pr(EF)}{\Pr(F)} = 0
+\end{align} 
+\end{enumerate}

@@ -1,0 +1,576 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item It is given that in a group of 3 students, the probability of 2 students not having the
+same birthday is 0.992. What is the probability that the 2 students have the same
+birthday?
+\\
+\solution 
+We know that two students either have birthday on same date or they don't have same birthday. No other cases are possible.\\
+Therefore, we can consider this as a bernoulli distribution, by defining a random variable X such that,if $X=0$, then they don't have same birthday, if $X=1$, then they have same birthday.
+Therefore,
+\begin{align}
+Pr(X=0)+Pr(X=1)=1\\
+Pr(X=0)=0.992\\
+Pr(X=1)=1-Pr(X=0)\\
+Pr(X=0)=1-0.992\\
+Pr(X=0)=0.008
+\end{align}
+\item 
+
+
+\item A box contains 5 red marbles, 8 white marbles and 4 green marbles. One marble is taken
+out of the box at random. What is the probability that the marble taken out will be\\
+(i) red ?\\
+(ii) white ? \\
+(iii) not green?
+\\
+\solution 
+Total number of marbles = 5 + 8 + 4 = 17 marbles.
+Let $X \in \{0,1,2\}$ represent the random variable, where 0 represents a red marble, 1 represents a white marble, and 2 represents a green marble. From the given information, 
+\begin{align}
+    Pr(X=0) &= \frac{5}{17} \\
+    Pr(X=1) &= \frac{8}{17} \\
+    Pr(X=2) &= \frac{4}{17} \implies \pr{X\ne 2} = \frac{13}{17}
+\end{align}
+
+\item A piggy bank contains hundred 50p coins, fifty rupee 1 coins, twenty rupee 2 coins and ten rupee 5 coins. If it is equally likely that one of the coins will fall out when the bank is turned upside down, what is the probability that the coin \\
+(i) will be a 50 p coin ?\\
+(ii) will not be a rupee5 coin?\item If each element of a second order determinant is either zero or one, what is the
+probability that the value of the determinant is positive? (Assume that the individual entries of the determinant are chosen independently, each value being
+assumed with probability $\frac{1}{2}$).\\
+\item If a leap year is selected at random, what is the chance that it will contain 53
+Tuesdays?\\
+\solution
+\input{solutions/5/5.6.tex}
+\item
+\item
+\item Suppose that two cards are drawn at random from a deck of cards. Let X be the number of aces obtained. Then the value of E(X) is\\
+\begin{enumerate}
+\item $\frac{37}{221}$
+\item $\frac{5}{13}$
+\item $\frac{1}{13}$
+\item $\frac{2}{13}$
+\end{enumerate}
+\solution
+\input{solutions/5/5.9.tex}
+
+\item The mean of the numbers obtained on throwing a die having written 1 on three faces, 2 on two faces and 5 on one face is\\
+\begin{enumerate}
+\item 1
+\item 2
+\item 5
+\item $\frac{8}{3}$
+\end{enumerate}
+\solution
+\input{solutions/5/5.10.tex}
+
+\item A class has 15 students whose ages are 14, 17, 15, 14, 21, 17, 19, 20, 16, 18, 20,
+17, 16, 19 and 20 years. One student is selected in such a manner that each has the same chance of being chosen and the age X of the selected student is recorded. What is the probability distribution of the random variable X? Find mean, variance and standard deviation of X.\\
+\solution  Table \ref{table:5.11} summarizes the given info.
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+{X} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\hline
+{No. of students} & 2 & 1 & 2 & 3 & 1 & 2 & 3 & 1 \\
+\hline
+{P(X)} & $\frac {2}{15}$ & $\frac {1}{15}$ & $\frac {2}{15}$ & $\frac {3}{15}$ & $\frac {1}{15}$ & $\frac {2}{15}$ & $\frac {3}{15}$ & $\frac {1}{15}$
+\\
+\hline 
+\end{tabular}
+\end{center}
+\caption{}
+\label{table:5.11}
+\end{table}
+using which, 
+ \begin{align}
+      E(X) &= \sum_{i=1}^n x_i \pr{X=i} = \frac{263}{15}
+      \\
+    E(X^2) = \sum_{i=1}^n x_i^2 \pr{X=i} =    \frac{4683}{15}
+    \\
+    \implies Var (X) = \frac{4683}{15} - (\frac{263}{15})^2
+    = 4.78
+    \end{align}
+\item A random variable X has the following probability distribution:\\
+\\$\begin{tabular}{||c c c c c c c c c||} 
+ \hline
+ X & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+ \hline
+ P(X) & 0 & k & 2k & 2k & 3k & $k^2$ & 2$k^2$ & 7$k^2$+k \\
+ \hline
+\end{tabular}$\\
+\\Determine\\
+(i) k \\
+(ii) P(X < 3)\\
+(iii) P(X > 6)\\
+(iv) P(0 < X < 3)\\
+%
+\solution
+\input{solutions/5/5.12.tex}
+
+\item Find the probability distribution of the number of successes in two tosses of a die, where a success is defined as\\
+(i) number greater than 4\\
+(ii) six appears on at least one die\\
+\item An urn contains 5 red and 2 black balls. Two balls are randomly drawn. Let X represent the number of black balls. What are the possible values of X? Is X a random variable ?\\
+\item State which of the following are not the probability distributions of a random variable. Give reasons for your answer.\\
+(i) \\$\begin{tabular}{||c c c c||} 
+ \hline
+ X & 0 & 1 & 2 \\
+ \hline
+ P(X) & 0.4 & 0.4 & 0.2 \\
+ \hline
+\end{tabular}$\\
+
+(ii) \\$\begin{tabular}{||c c c c c c||} 
+ \hline
+ X & 0 & 1 & 2 & 3 & 4 \\
+ \hline
+ P(X) & 0.1 & 0.5 & 0.2 & -0.1 & 0.3 \\
+ \hline
+\end{tabular}$\\
+
+(iii) \\$\begin{tabular}{||c c c c||} 
+ \hline
+ X & -1 & 0 & 1 \\
+ \hline
+ P(X) & 0.6 & 0.1 & 0.2 \\
+ \hline
+\end{tabular}$\\
+
+(iv) \\$\begin{tabular}{||c c c c c c||} 
+ \hline
+ X & 3 & 2 & 1 & 0 & -1 \\
+ \hline
+ P(X) & 0.3 & 0.2 & 0.4 & 0.1 & 0.05 \\
+ \hline
+\end{tabular}$\\
+\solution Only (i) is valid.  The remaining do not satisfy one of the following 
+conditions.
+\begin{align}
+0 \le \pr{X = i} \le 1
+\\
+\sum_{i}\pr{X=i} = 1
+\end{align}
+\item A card from a pack of 52 cards is lost. From the remaining cards of the pack, two cards are drawn and are found to be both diamonds. Find the probability of the lost card being a diamond.\\
+\solution 
+\input{solutions/5/5.16.tex}
+\item Suppose a girl throws a die. If she gets a 5 or 6, she tosses a coin three times and notes the number of heads. If she gets 1, 2, 3 or 4, she tosses a coin once and notes whether a head or tail is obtained. If she obtained exactly one head, what is the probability that she threw 1, 2, 3 or 4 with the die?\\
+\solution 
+\input{solutions/5/5.17.tex}
+
+\item An insurance company insured 2000 scooter drivers, 4000 car drivers and 6000 truck drivers. The probability of an accidents are 0.01, 0.03 and 0.15 respectively. One of the insured persons meets with an accident. What is the probability that he is a scooter driver?\\
+\solution 
+\input{solutions/5/5.18.tex}
+\item A carton consists of 100 shirts of which 88 are good, 8 have minor defects and 4 have major defects.Jimmy, a trader, will only accept the shirts which are good, but Sujatha, another trader, will only reject the shirts which have major defects.One shirt is drawn at random from the carton. What is the probability that\\
+(i) it is acceptable to Jimmy?\\
+(ii) it is acceptable to Sujatha?
+\\
+\solution
+\input{solutions/5/5.19.tex}
+\item Two dice, one blue and one grey, are thrown at the same time. Write down all the possible outcomes.What is the probability that the sum of the two numbers appearing on the top of the dice is\\
+(i) 8?\\
+(ii) 13?\\ 
+(iii) less than or equal to 12?
+\\
+\solution
+\input{solutions/5/5.20.tex}
+
+\item Savita and Hamida are friends. What is the probability that both will have \\
+(i) different birthdays? \\
+(ii) the same birthday? (ignoring a leap year).
+%
+\solution
+\input{solutions/5/5.21.tex}
+
+\item 
+\item  A box contains 3 blue, 2 white, and 4 red marbles. If a marble is drawn
+at random from the box, what is the probability that it will be
+(i) white? (ii) blue? (iii) red?
+\\
+\solution 
+input{solutions/5/5.23.tex}
+
+\item One card is drawn from a well-shuffled deck of 52 cards. Calculate the
+probability that the card will\\
+(i) be an ace,\\
+(ii) not be an ace.
+\\
+\solution 
+\input{solutions/5/5.24.tex}
+\item 
+\item Two cards are drawn successively with replacement from a well shuffled deck of 52 cards. Find the probability distribution of the number of aces.\\
+\\
+\solution 
+\input{solutions/5/5.26.tex}
+
+\item Find the probability distribution of number of doublets in three throws of a pair of dice?\\
+\solution 
+\input{solutions/5/5.27.tex}
+\item Let X denote the number of hours you study during a randomly selected school day. The probability that X can take the values x, has the following form, where k is some unknown constant.\\
+\begin{align}
+    P\brak{X=x} =
+    \begin{cases}
+      0.1, & \text{if}\ x=0 \\
+      kx,  & \text{if}\ x= 1 \; \text{or}\ 2 \\
+      k(5-x) & \text{if}\ x= 3 \; \text{or}\ 4 \\
+      0, & \text{otherwise}
+    \end{cases}
+  \end{align}
+%P(X=x)= $\begin{pmatrix} 0.1, if x= 0 \\ kx,if x= 1 or 2 \\ k(5-x), if x= 3 or 4 \\ 0, otherwise \end{pmatrix}$
+\begin{enumerate}
+\item  Find the value of k.
+\item  What is the probability that you study at least two hours ? Exactly two hours? At
+most two hours?
+\end{enumerate}
+\solution
+\input{solutions/5/28/Assignment2.tex}
+
+\item Let a pair of dice be thrown and the random variable X be the sum of the numbers that appear on the two dice. Find the mean or expectation of X.\\
+\solution
+\input{solutions/5/5.29.tex}
+
+\item
+
+\item Two cards are drawn simultaneously (or successively without replacement) from a well shuffled pack of 52 cards. Find the mean, variance and standard deviation of the number of kings.\\
+\solution
+\input{solutions/5/5.31.tex}
+\item A tyre manufacturing company kept a record of the distance covered
+before a tyre needed to be replaced. Table \ref{table:prob_exam6}
+shows the results of 1000 cases.
+\begin{table}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{ |c|c|c|c|c| } 
+ \hline
+ \textbf{Distance(in km)} &$>$ 4000 &4000-9000 &9001-14000 &$<$14000 \\ 
+ \hline
+ \textbf{Frequency} &20 &210 &325 &445\\ 
+ \hline
+\end{tabular}
+}
+\caption{}
+\label{table:prob_exam6}
+\end{table}
+If you buy a tyre of this company, what is the probability that :\\
+(i) it will need to be replaced before it has covered 4000 km?\\
+(ii) it will last more than 9000 km?\\
+(iii) it will need to be replaced after it has covered somewhere between 4000 km and 14000 km?\\
+\solution
+\input{./solutions/1-10/chapters/prob_exm/prob6/solution6.tex}
+
+\item The percentage of marks obtained by a student in the monthly unit tests are given in Table \ref{table:prob_exam7}
+below.
+Based on this data, find the probability that the student gets more than 70$\%$ marks in a unit test.\\
+
+\begin{table}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{ |c|c|c|c|c|c| } 
+ \hline
+ \textbf{Unit test} &I &II &III &IV &V \\ 
+ \hline
+ \textbf{Frequency }&69 &71 &73 &68 &74\\ 
+ \hline
+\end{tabular}
+}
+\caption{}
+\label{table:prob_exam7}
+\end{table}
+\solution
+\input{./solutions/1-10/chapters/prob_exm/prob7/solution7.tex}
+\item Consider the frequency distribution in Table \ref{table:prob_exam9} below which gives the weights of 38 students of a class.
+(i) Find the probability that the weight of a student in the class lies in the interval 46-50 kg.\\
+(ii) Give two events in this context, one having probability 0 and the other having probability 1.
+
+%
+\begin{table}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{ |c|c| } 
+ \hline
+ \textbf{Weights (in kg)} &\textbf{Number of students }\\ 
+ \hline
+ 31-35 &9\\
+ 36-40 &5\\
+ 41-45 &14\\
+ 46-50 &3\\
+ 51-55 &1\\
+ 56-60 &2\\
+ 61-65 &2\\
+ 66-70 &1\\
+ 71-75 &1\\
+ \hline
+ \textbf{Total} &38\\
+ \hline
+\end{tabular}
+}
+\caption{}
+\label{table:prob_exam9}
+\end{table}
+\solution
+\input{./solutions/1-10/chapters/prob_exm/prob9/solution9.tex}
+\item Fifty seeds were selected at random from each of 5 bags of seeds, and were kept under standardised conditions favourable to germination. After 20 days, the
+number of seeds which had germinated in each collection were counted and recorded in Table \ref{table:prob_exam10}
+
+What is the probability of germination of
+(i)more than 40 seeds in a bag?\\
+(ii) 49 seeds in a bag?\\
+(iii) more that 35 seeds in a bag?\\
+
+\begin{table}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{ |c|c|c|c|c|c| } 
+ \hline
+ \textbf{Bag} &1 &2 &3 &4 &5\\ 
+ \hline
+\textbf{No.of seeds germinated} &40 &48 &42 &39 &41 \\ 
+ \hline
+\end{tabular}
+}
+\caption{}
+\label{table:prob_exam10}
+\end{table}
+\solution
+\input{./solutions/1-10/chapters/prob_exm/prob10/solution10.tex}
+    \item 1500 families with 2 children were selected randomly, and the following data in Table \ref{table:1.2.2} were recorded.
+Compute the probability of a family, chosen at random, having
+\begin{enumerate}
+\item 2 girls
+\item  1 girl
+\item  No girl
+\end{enumerate}
+Also check whether the sum of these probabilities is 1.
+\begin{table}[!ht]
+\centering
+\begin{tabular}{ |c|c|c|c| } 
+ \hline
+ \textbf{No.of girls in a family} &2 &1 &0\\ 
+ \hline
+ \textbf{No. of families}  &475 &814 &211\\ 
+ \hline 
+\end{tabular}
+\caption{}
+\label{table:1.2.2}
+\end{table}
+\\
+\solution
+\input{./solutions/1-10/chapters/probabilities/problem2/solution.tex}
+
+\item In a particular section of Class IX, 40 students were asked about the months of their birth and the following graph in Fig. \ref{fig:1.2.3}
+was prepared for the data so obtained.     Find the probability that a student of the class was born in August.
+
+\input{./solutions/1-10/chapters/probabilities/problem3/question.tex}    
+\solution
+\input{./solutions/1-10/chapters/probabilities/problem3/solution.tex}
+
+\item Three coins are tossed simultaneously 200 times with the following frequencies of different outcomeslisted in Table \ref{table:1.2.4}.
+If the three coins are simultaneously tossed again, compute the probability of 2 heads coming up.
+%
+\begin{table}[!ht]
+%\resizebox{\columnwidth}{20pt}{%
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{ |c|c|c|c|c| } 
+ \hline
+ \textbf{Outcome} &3 heads &2 heads &1 head &No head\\ 
+ \hline
+ \textbf{Frequency}  &23 &72 &77 &28\\ 
+ \hline
+\end{tabular}%\\
+}
+\caption{}
+\label{table:1.2.4}
+\end{table}
+\\
+\solution
+\input{./solutions/1-10/chapters/probabilities/problem4/solution.tex}
+\item Refer to Table \ref{table:1.2.5}.
+\begin{enumerate}
+\item  Find the probability that a student obtained less than 20$\%$ in the mathematics test.
+\item  Find the probability that a student obtained marks 60 or above.
+\end{enumerate}
+\begin{table}[!ht]
+\centering
+\begin{tabular}{ |c|c| } 
+ \hline
+ \textbf{Marks} &\textbf{Number of students}\\
+ \hline
+  0-20 &7\\ 
+  20-30 &10\\ 
+  30-40 &10\\ 
+  40-50 &20\\ 
+  50-60 &20\\ 
+  60-70 &15\\ 
+  70-above &8\\ 
+  \hline
+ \textbf{Total}  &90\\ 
+ \hline
+\end{tabular}
+\caption{}
+\label{table:1.2.5}
+\end{table}
+\solution
+\input{./solutions/1-10/chapters/probabilities/problem4/solution.tex}
+\item The distance (in kms) of 40 engineers from their residence to their place of work were found as follows in Table \ref{table:1.2.7}.
+What is the empirical probability that an engineer lives
+\begin{enumerate}
+\item less than 7 km from her place of work?
+\item more than or equal to 7 km from her place of work? 
+\item within $\frac{1}{2}$km from her place of work?
+\end{enumerate}
+
+\begin{table}[!ht]
+\centering
+\begin{tabular}{ cccccccccc} 
+
+ 5 &3 &10 &20 &25 &11 &13 &7 &12 &31\\
+ 19 &10 &12 &17 &18 &11 &32 &17 &16 &2\\
+ 7 &9 &7 &8 &3 &5 &12 &15 &18 &3 \\
+ 12 &14 &2 &9 &6 &15 &15 &7 &6 &12\\ 
+ \end{tabular}\\
+\caption{}
+\label{table:1.2.7}
+\end{table}
+\solution
+\input{./solutions/1-10/chapters/probabilities/problem7/solution.tex}
+
+
+\item An organisation selected 2400 families at random and surveyed them to determine a relationship between income level and the number of vehicles in a family. The information gathered is listed in the Table \ref{table:1.2.8}
+Suppose a family is chosen. Find the probability that the family chosen is
+\begin{enumerate}
+\item  earning \rupee 10000 – \rupee 13000 per month and owning exactly 2 vehicles.
+\item  earning \rupee 16000 or more per month and owning exactly 1 vehicle.
+\item  earning less than \rupee 7000 per month and does not own any vehicle.
+\item  earning \rupee 13000 – \rupee 16000 per month and owning more than 2 vehicles.
+\item owning not more than 1 vehicle.
+\end{enumerate}
+%
+\begin{table}[!ht]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Monthly income} &\multicolumn{4}{c|}{\textbf{vehicles per family }}\\
+\cline{2-5}
+(in \textbf{\rupee}) &\textbf{0} &\textbf{1} &\textbf{2} &\textbf{Above 2}\\
+\hline
+Less than 7000 &10 &160 &25 &0\\
+\hline
+7000-10000 &0 &305 &27 &2\\
+\hline
+10000-13000 &1 &535 &29 &1\\
+\hline
+13000-16000 &2 &469 &59 &25\\
+\hline
+16000 or more  &1 &579 &82 &88 \\
+\hline
+\end{tabular}
+\caption{}
+\label{table:1.2.8}
+\end{table}
+\solution
+\input{./solutions/1-10/chapters/probabilities/problem6/solution.tex}
+
+\item Eleven bags of wheat flour, each marked 5 kg, actually contained the following weights of flour (in kg)\\
+4.97 5.05 5.08 5.03 5.00 5.06 5.08 4.98 5.04 5.07 5.00\\
+Find the probability that any of these bags chosen at random contains more than 5 kg of flour.\\
+\solution
+%\input{./solutions/1-10/chapters/probabilities/problem9/solution.tex}
+
+\item From Table \ref{table:1.2.10}, 
+prepare a frequency distribution table, regarding the concentration of sulphur dioxide in the air in parts per million of a certain city for 30 days.   Using this table, find the probability of the concentration of sulphur dioxide in the interval 0.12 - 0.16 on any of these days.
+%
+\begin{table}[!ht]
+\centering
+\begin{tabular}{ cccccc} 
+
+  0.03 &0.08 &0.08 &0.09 &0.04 &0.17 \\
+ 0.16 &0.05 &0.02 &0.06 &0.18 &0.20 \\
+ 0.11 &0.08 &0.12 &0.13 &0.22 &0.07  \\
+ 0.08 &0.01 &0.10 &0.06 &0.09 &0.18 \\ 
+  0.11 &0.07 &0.05 &0.07 &0.01 &10.04 \\ 
+ \end{tabular}\\
+\caption{}
+\label{table:1.2.10}
+\end{table}
+\solution
+\input{./solutions/1-10/chapters/probabilities/problem10/solution.tex}
+\item  
+A, B, O, O, AB, O, A, O, B, A, O, B, A, O,\\ O,
+A, AB, O, A, A, O, O, AB, B, A, O, B, A, B, O.\\
+prepare a frequency distribution table regarding the blood groups of 30 students of a class. Use this table to determine the probability that a student of this class, selected at random, has blood group AB.\\
+\item Determine P(E/F), if mother, father and son line up at random for a family picture\\
+E : son on one end, F : father in middle\\
+\item Consider the experiment of throwing a die, if a multiple of 3 comes up, throw the die again and if any other number comes, toss a coin. Find the conditional probability of the event 'the coin shows a tail', given that 'at least one die shows a 3'.\\
+\solution
+\input{./solutions/20-30/chapters/prob/exercises/docq26.tex}
+\item One card is drawn from a well-shuffled deck of 52 cards. Find the probability of getting
+(i) a king of red colour\\
+(ii) a face card\\
+(iii) a red face card\\
+(iv) the jack of hearts \\
+(v) a spade \\
+(vi) the queen of diamonds
+\\
+\solution
+\input{./solutions/20-10/prob/chapters/cards125/solution.tex}
+\item Five cards—the ten, jack, queen, king and ace of diamonds, are well-shuffled with their
+face downwards. One card is then picked up at random.\\
+(i) What is the probability that the card is the queen?\\
+(ii) If the queen is drawn and put aside, what is the probability that the second card
+picked up is (a) an ace? (b) a queen?
+\\
+\solution
+\input{./solutions/20-10/prob/chapters/cards126/solution.tex}
+\item A box contains 90 discs which are numbered from 1 to 90. If one disc is drawn at random
+from the box, find the probability that it bears (i) a two-digit number (ii) a perfect
+square number (iii) a number divisible by 5.
+\\
+\solution
+\input{./solutions/20-10/prob/chapters/exer129/solution.tex}
+\item A child has a die whose six faces show the letters as given in Fig. \ref{fig:130_dice}	.
+
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./prob/figs/130.tex}}
+%\resizebox{\columnwidth}{!}{\input{./prob/figs/triangle.tex}}
+\caption{}
+\label{fig:130_dice}	
+\end{figure}
+
+The die is thrown once. What is the probability of getting (i) A? (ii) D?
+\\
+\solution
+\input{./solutions/20-10/prob/chapters/exer130/solution.tex}
+\item Which of the following arguments are correct and which are not correct? Give reasons
+for your answer.\\
+(i) If two coins are tossed simultaneously there are three possible outcomes—two
+heads, two tails or one of each. Therefore, for each of these outcomes, the
+probability is $\frac{1}{3}$ \\
+(ii) If a die is thrown, there are two possible outcomes—an odd number or an even
+number. Therefore, the probability of getting an odd number is $\frac{1}{2}$.
+\\
+\solution
+\input{./solutions/10-1/prob/exer6/solution1.tex}
+\item Two customers Shyam and Ekta are visiting a particular shop in the same week (Tuesday
+to Saturday). Each is equally likely to visit the shop on any day as on another day. What
+is the probability that both will visit the shop on\\
+(i) the same day?\\
+(ii) consecutive days?\\
+(iii) different days?
+\\
+\solution
+\input{./solutions/10-1/prob/exer7/solution.tex}
+\item A die is numbered in such a way that its faces show the numbers 1, 2, 2, 3, 3, 6. It is thrown two times and the total score in two throws is noted. Complete the following
+table which gives a few values of the total score on the two throws:
+\includegraphics[width=\columnwidth]{./prob/figs/rows.eps}\\
+What is the probability that the total score is
+(i) even? (ii) 6? (iii) at least 6?
+\\
+\solution
+\input{./solutions/10-1/prob/exer8/solution.tex}
+
+\end{enumerate}
+

@@ -5,15 +5,36 @@
 \item It is given that in a group of 3 students, the probability of 2 students not having the
 same birthday is 0.992. What is the probability that the 2 students have the same
 birthday?
-\item A bag contains 3 red balls and 5 black balls. A ball is drawn at random from the bag.
-What is the probability that the ball drawn is\\ 
-(i) red ? \\
-(ii) not red?
+\\
+\solution 
+We know that two students either have birthday on same date or they don't have same birthday. No other cases are possible.\\
+Therefore, we can consider this as a bernoulli distribution, by defining a random variable X such that,if $X=0$, then they don't have same birthday, if $X=1$, then they have same birthday.
+Therefore,
+\begin{align}
+Pr(X=0)+Pr(X=1)=1\\
+Pr(X=0)=0.992\\
+Pr(X=1)=1-Pr(X=0)\\
+Pr(X=0)=1-0.992\\
+Pr(X=0)=0.008
+\end{align}
+\item 
+
+
 \item A box contains 5 red marbles, 8 white marbles and 4 green marbles. One marble is taken
 out of the box at random. What is the probability that the marble taken out will be\\
 (i) red ?\\
 (ii) white ? \\
 (iii) not green?
+\\
+\solution 
+Total number of marbles = 5 + 8 + 4 = 17 marbles.
+Let $X \in \{0,1,2\}$ represent the random variable, where 0 represents a red marble, 1 represents a white marble, and 2 represents a green marble. From the given information, 
+\begin{align}
+    Pr(X=0) &= \frac{5}{17} \\
+    Pr(X=1) &= \frac{8}{17} \\
+    Pr(X=2) &= \frac{4}{17} \implies \pr{X\ne 2} = \frac{13}{17}
+\end{align}
+
 \item A piggy bank contains hundred 50p coins, fifty rupee 1 coins, twenty rupee 2 coins and ten rupee 5 coins. If it is equally likely that one of the coins will fall out when the bank is turned upside down, what is the probability that the coin \\
 (i) will be a 50 p coin ?\\
 (ii) will not be a rupee5 coin?\item If each element of a second order determinant is either zero or one, what is the
@@ -21,15 +42,10 @@ probability that the value of the determinant is positive? (Assume that the indi
 assumed with probability $\frac{1}{2}$).\\
 \item If a leap year is selected at random, what is the chance that it will contain 53
 Tuesdays?\\
-\item An urn contains 25 balls of which 10 balls bear a mark 'X' and the remaining 15 bear a mark 'Y'. A ball is drawn at random from the urn, its mark is noted down and it is replaced. If 6 balls are drawn in this way, find the probability that\\
-(i) all will bear 'X' mark.\\
-(ii) not more than 2 will bear 'Y' mark.\\
-(iii) at least one ball will bear 'Y' mark.\\
-(iv) the number of balls with 'X' mark and 'Y' mark will be equal.\\
-\item On a multiple choice examination with three possible answers for each of the five questions, what is the probability that a candidate would get four or more correct answers just by guessing ?\\item Five cards are drawn successively with replacement from a well shuffled deck of 52 cards. What is the probability that\\
-(i) all the five cards are spades?\\
-(ii) only 3 cards are spades?\\
-(iii) none is a spade?\\
+\solution
+\input{solutions/5/5.6.tex}
+\item
+\item
 \item Suppose that two cards are drawn at random from a deck of cards. Let X be the number of aces obtained. Then the value of E(X) is\\
 \begin{enumerate}
 \item $\frac{37}{221}$
@@ -37,6 +53,9 @@ Tuesdays?\\
 \item $\frac{1}{13}$
 \item $\frac{2}{13}$
 \end{enumerate}
+\solution
+\input{solutions/5/5.9.tex}
+
 \item The mean of the numbers obtained on throwing a die having written 1 on three faces, 2 on two faces and 5 on one face is\\
 \begin{enumerate}
 \item 1
@@ -44,8 +63,37 @@ Tuesdays?\\
 \item 5
 \item $\frac{8}{3}$
 \end{enumerate}
+\solution
+\input{solutions/5/5.10.tex}
+
 \item A class has 15 students whose ages are 14, 17, 15, 14, 21, 17, 19, 20, 16, 18, 20,
 17, 16, 19 and 20 years. One student is selected in such a manner that each has the same chance of being chosen and the age X of the selected student is recorded. What is the probability distribution of the random variable X? Find mean, variance and standard deviation of X.\\
+\solution  Table \ref{table:5.11} summarizes the given info.
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+{X} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\hline
+{No. of students} & 2 & 1 & 2 & 3 & 1 & 2 & 3 & 1 \\
+\hline
+{P(X)} & $\frac {2}{15}$ & $\frac {1}{15}$ & $\frac {2}{15}$ & $\frac {3}{15}$ & $\frac {1}{15}$ & $\frac {2}{15}$ & $\frac {3}{15}$ & $\frac {1}{15}$
+\\
+\hline 
+\end{tabular}
+\end{center}
+\caption{}
+\label{table:5.11}
+\end{table}
+using which, 
+ \begin{align}
+      E(X) &= \sum_{i=1}^n x_i \pr{X=i} = \frac{263}{15}
+      \\
+    E(X^2) = \sum_{i=1}^n x_i^2 \pr{X=i} =    \frac{4683}{15}
+    \\
+    \implies Var (X) = \frac{4683}{15} - (\frac{263}{15})^2
+    = 4.78
+    \end{align}
 \item A random variable X has the following probability distribution:\\
 \\$\begin{tabular}{||c c c c c c c c c||} 
  \hline
@@ -58,7 +106,12 @@ Tuesdays?\\
 (i) k \\
 (ii) P(X < 3)\\
 (iii) P(X > 6)\\
-(iv) P(0 < X < 3)\\\item Find the probability distribution of the number of successes in two tosses of a die, where a success is defined as\\
+(iv) P(0 < X < 3)\\
+%
+\solution
+\input{solutions/5/5.12.tex}
+
+\item Find the probability distribution of the number of successes in two tosses of a die, where a success is defined as\\
 (i) number greater than 4\\
 (ii) six appears on at least one die\\
 \item An urn contains 5 red and 2 black balls. Two balls are randomly drawn. Let X represent the number of black balls. What are the possible values of X? Is X a random variable ?\\
@@ -94,54 +147,96 @@ Tuesdays?\\
  P(X) & 0.3 & 0.2 & 0.4 & 0.1 & 0.05 \\
  \hline
 \end{tabular}$\\
-
+\solution Only (i) is valid.  The remaining do not satisfy one of the following 
+conditions.
+\begin{align}
+0 \le \pr{X = i} \le 1
+\\
+\sum_{i}\pr{X=i} = 1
+\end{align}
 \item A card from a pack of 52 cards is lost. From the remaining cards of the pack, two cards are drawn and are found to be both diamonds. Find the probability of the lost card being a diamond.\\
+\solution 
+\input{solutions/5/5.16.tex}
 \item Suppose a girl throws a die. If she gets a 5 or 6, she tosses a coin three times and notes the number of heads. If she gets 1, 2, 3 or 4, she tosses a coin once and notes whether a head or tail is obtained. If she obtained exactly one head, what is the probability that she threw 1, 2, 3 or 4 with the die?\\
-\item An insurance company insured 2000 scooter drivers, 4000 car drivers and 6000 truck drivers. The probability of an accidents are 0.01, 0.03 and 0.15 respectively. One of the insured persons meets with an accident. What is the probability that he is a scooter driver?\\
+\solution 
+\input{solutions/5/5.17.tex}
 
+\item An insurance company insured 2000 scooter drivers, 4000 car drivers and 6000 truck drivers. The probability of an accidents are 0.01, 0.03 and 0.15 respectively. One of the insured persons meets with an accident. What is the probability that he is a scooter driver?\\
+\solution 
+\input{solutions/5/5.18.tex}
 \item A carton consists of 100 shirts of which 88 are good, 8 have minor defects and 4 have major defects.Jimmy, a trader, will only accept the shirts which are good, but Sujatha, another trader, will only reject the shirts which have major defects.One shirt is drawn at random from the carton. What is the probability that\\
 (i) it is acceptable to Jimmy?\\
 (ii) it is acceptable to Sujatha?
+\\
+\solution
+\input{solutions/5/5.19.tex}
 \item Two dice, one blue and one grey, are thrown at the same time. Write down all the possible outcomes.What is the probability that the sum of the two numbers appearing on the top of the dice is\\
 (i) 8?\\
 (ii) 13?\\ 
-(iii) less than or equal to 12?\\\\
+(iii) less than or equal to 12?
+\\
+\solution
+\input{solutions/5/5.20.tex}
+
 \item Savita and Hamida are friends. What is the probability that both will have \\
 (i) different birthdays? \\
 (ii) the same birthday? (ignoring a leap year).
-\item There are 40 students in Class X of a school of whom 25 are girls and 15 are boys. The class teacher has to select one student as a class representative. She writes the name of each student on a separate card, the cards being identical.Then
-she puts cards in a bag and stirs them thoroughly. She then draws one card from the
-bag. What is the probability that the name written on the card is the name of\\
-(i) a girl?\\
-(ii) a boy?
+%
+\solution
+\input{solutions/5/5.21.tex}
+
+\item 
 \item  A box contains 3 blue, 2 white, and 4 red marbles. If a marble is drawn
 at random from the box, what is the probability that it will be
 (i) white? (ii) blue? (iii) red?
 \\
+\solution 
+input{solutions/5/5.23.tex}
+
 \item One card is drawn from a well-shuffled deck of 52 cards. Calculate the
 probability that the card will\\
 (i) be an ace,\\
 (ii) not be an ace.
 \\
-\item A bag contains 2 white and 1 red balls. One ball is drawn at random and then put back in the box after noting its colour. The process is repeated again. If X denotes the number of red balls recorded in the two draws, describe X.\\
-
+\solution 
+\input{solutions/5/5.24.tex}
+\item 
 \item Two cards are drawn successively with replacement from a well shuffled deck of 52 cards. Find the probability distribution of the number of aces.\\
+\\
+\solution 
+\input{solutions/5/5.26.tex}
 
 \item Find the probability distribution of number of doublets in three throws of a pair of dice?\\
-
+\solution 
+\input{solutions/5/5.27.tex}
 \item Let X denote the number of hours you study during a randomly selected school day. The probability that X can take the values x, has the following form, where k is some unknown constant.\\
-P(X=x)= $\begin{pmatrix} 0.1, if x= 0 \\ kx,if x= 1 or 2 \\ k(5-x), if x= 3 or 4 \\ 0, otherwise \end{pmatrix}$
+\begin{align}
+    P\brak{X=x} =
+    \begin{cases}
+      0.1, & \text{if}\ x=0 \\
+      kx,  & \text{if}\ x= 1 \; \text{or}\ 2 \\
+      k(5-x) & \text{if}\ x= 3 \; \text{or}\ 4 \\
+      0, & \text{otherwise}
+    \end{cases}
+  \end{align}
+%P(X=x)= $\begin{pmatrix} 0.1, if x= 0 \\ kx,if x= 1 or 2 \\ k(5-x), if x= 3 or 4 \\ 0, otherwise \end{pmatrix}$
 \begin{enumerate}
 \item  Find the value of k.
 \item  What is the probability that you study at least two hours ? Exactly two hours? At
 most two hours?
 \end{enumerate}
+\solution
+\input{solutions/5/28/Assignment2.tex}
 
 \item Let a pair of dice be thrown and the random variable X be the sum of the numbers that appear on the two dice. Find the mean or expectation of X.\\
+\solution
+\input{solutions/5/5.29.tex}
 
-\item Find the variance of the number obtained on a throw of an unbiased die.\\
+\item
 
 \item Two cards are drawn simultaneously (or successively without replacement) from a well shuffled pack of 52 cards. Find the mean, variance and standard deviation of the number of kings.\\
+\solution
+\input{solutions/5/5.31.tex}
 \item A tyre manufacturing company kept a record of the distance covered
 before a tyre needed to be replaced. Table \ref{table:prob_exam6}
 shows the results of 1000 cases.

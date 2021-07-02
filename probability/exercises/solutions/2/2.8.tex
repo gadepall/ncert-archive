@@ -1,0 +1,44 @@
+let $M \in \{0,1\}$ be a random variable such that $M=0$ represents product is not introduced by winning group and $M=1$ represents product is introduced by the winning group.let $H \in \{0,1\}$ be another random variable such that $H=0$ represents that group A wins,$H=1$ represents that group B wins.
+\begin{table}[h]
+\centering 
+\caption{}
+\begin{tabular}{|c|c|}
+\hline
+variable & description \\
+\hline
+$M = 0$  &not introduced by winning group \\
+\hline
+$M = 1$  &introduced by winning group \\
+\hline
+$H = 0$  & group A wins \\
+\hline
+$H = 1$  & group B wins \\
+\hline
+\end{tabular}
+\label{bayes/2/8/table:}
+\end{table}
+\begin{table}[h]
+\centering 
+\caption{}
+\begin{tabular}{|c|c|c|}
+\hline
+           & $H = 0$  & $H = 1$\\
+\hline
+$M = 0$  & o.18  & 0.28 \\
+\hline
+$M = 1$  & 0.42    &  0.12 \\
+\hline
+\end{tabular}
+\label{bayes/2/8/table:}
+\end{table}
+we know that Bayes theorem:
+\begin{align}
+P(A|B)=\frac{P(A\cap B)}{P(B)} ,ifP(B)\neq 0.
+\end{align}
+so required probability that new product was introduced by group B be P.
+\begin{align}
+ P=Pr(M=0|H=0)+Pr(M=1|H=1)\\
+ =0.18+0.12 \\ 
+ =0.30\\
+\end{align}
+hence the required probability that the product was introduced by the second group is 0.30

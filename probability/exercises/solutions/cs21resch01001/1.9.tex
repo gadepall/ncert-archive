@@ -1,0 +1,18 @@
+Let $X_i \in \cbrak{0,1}$ represent the answer to the $i$th question.  From the given information,
+\begin{align}
+\pr{X=1} = p = \frac{1}{2}
+\\
+\pr{X=0} = q = 1-p
+\end{align}
+%
+Defining 
+\begin{align}
+Y = \sum_{i=1}^{n}X_i,
+\end{align}
+the desire probability is
+\begin{align}
+\pr{Y \ge 12} &= \sum_{i=12}{20} \comb{20}{i}p^i q^{(20-i)} 
+\\
+&= 0.251722
+\end{align}
+$\because Y$  is a Bernoulli distribution with parameters $\brak{20,\frac{1}{2}}$.

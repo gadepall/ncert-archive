@@ -1,0 +1,115 @@
+%\renewcommand{\thefigure}{\theenumi}
+%\renewcommand{\thetable}{\theenumi}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{table}{enumi}
+
+
+\item Two dice, one blue and one grey, are thrown at the same time.  
+\begin{enumerate}
+\item  Complete Table \ref{table:1.2.133}.
+\item  A student argues that there are 11 possible outcomes 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 and 12. Therefore, each of them has a probability $\frac{1}{11}$. Do you agree with this argument? Justify your answer.
+\end{enumerate}
+%
+\begin{table}[ht!]
+\centering
+\input{./solutions/10-1/prob/codes/tables/input.tex}
+\caption{Input Values}
+\label{table:1.2.133}	
+\end{table}
+\item A die is thrown once. Find the probability of getting\\
+(i) a prime number;\\
+(ii) a number lying between 2 and 6;\\
+(iii) an odd number.
+\\
+\solution
+\input{./solutions/20-10/prob/chapters/dice123/solution.tex}
+\item In a game, a man wins a rupee for a six and loses a rupee for any other number when a fair die is thrown. The man decided to throw a die thrice but to quit as and when he gets a six. Find the expected value of the amount he wins / loses.\\
+\item 
+\item Find the probability of getting 5 exactly twice in 7 throws of a die.\\
+\solution
+\input{solutions/4/4.5.tex}
+
+\item 
+
+\item
+\item 
+\item Let X denote the sum of the numbers obtained when two fair dice are rolled. Find the variance and standard deviation of X.\\
+\solution
+\input{solutions/4/4.9.tex}
+%
+\item Two numbers are selected at random (without replacement) from the first six positive integers. Let X denote the larger of the two numbers obtained. Find E(X).\\
+%
+\solution
+\input{solutions/4/4.10.tex}
+\item
+\item Determine P(E/F), if a die is thrown three times,\\
+E : 4 appears on the third toss, F : 6 and 5 appears respectively on first two tosses\\
+
+\item In a musical chair game, the person playing the music has been
+advised to stop playing the music at any time within 2 minutes after she starts playing.What is the probability that the music will stop within the first half-minute after starting?
+\solution
+\input{solutions/4/4.13.tex}
+\item A missing helicopter is reported to have crashed somewhere in the rectangular region shown in Fig. 15.2. What is the probability that it crashed inside the
+lake shown in the figure?
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./prob/figs/lake.eps}
+\caption{}
+\label{fig:lake}
+\end{figure}
+\solution
+\input{solutions/4/4.14.tex}
+
+   \item On one page of a telephone directory, there were 200 telephone numbers.
+The frequency distribution of their unit place digit (for example, in the number 25828573, the unit place digit is 3) is given in Table \ref{table:prob_exam4}
+below
+
+\begin{table}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{ |c|c|c|c|c|c|c|c|c|c|c| } 
+\hline
+ \textbf{Digit} &0 &1 &2 &3 &4 &5 &6 &7 &8 &9 \\ 
+ \hline
+ \textbf{Frequency} &22 &26 &22 &22 &20 &10 &14 &28 &16 &20 \\ 
+ \hline
+\end{tabular}
+}
+\caption{}
+\label{table:prob_exam4}
+\end{table}
+Without looking at the page, the pencil is placed on one of these numbers, i.e., the number is chosen at random. What is the probability that the digit in its unit place is 6?\\
+\solution
+\input{./solutions/1/1/4/solution.tex}
+
+\item Suppose we throw a die once. (i) What is the probability of getting a number greater than 4 ? (ii) What is the probability of getting a number less than or
+equal to 4 ?
+\\
+\solution
+\input{./solutions/20-10/prob/chapters/exam50/solution.tex}
+\item  Given that the two numbers appearing on throwing two dice are different. Find the probability of the event `the sum of numbers on the dice is 4'.\\
+\solution
+\input{./solutions/20-30/chapters/prob/exercises/docq25.tex}
+\item A game of chance consists of spinning an arrow which comes to rest pointing at one of the numbers 1, 2, 3, 4, 5, 6, 7, 8 (see Fig. \ref{fig:122} ), and these are equally likely outcomes. What is the probability that it will point at\\
+(i) 8 ?\\
+(ii) an odd number?\\
+(iii) a number greater than 2?\\
+(iv) a number less than 9?\\
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{./prob/figs/clock.eps}
+\caption{}
+\label{fig:122}
+\end{figure}
+\\
+\solution
+\input{./solutions/20-10/prob/chapters/chance/solution.tex}
+
+\item Find the variance of the number obtained on a throw of an unbiased die.
+\solution
+%\input{solutions/5/5.30.tex}
+\end{enumerate}
+
+

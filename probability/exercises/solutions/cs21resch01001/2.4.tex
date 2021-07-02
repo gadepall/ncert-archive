@@ -1,0 +1,37 @@
+Say there are 100 people. Half of them men and half of them women. 5\% of men have grey hair(2.5 men) and 0.25\% of women have grey hair(0.125 women)
+
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c| } 
+\hline
+ & \textbf{Men} & \textbf{Women} & \textbf{Total} \\
+\hline
+ & 50 & 50 & 100 \\ 
+\hline
+\textbf{Greyhair} & 2.5 & 0.125 & \\ 
+ \hline
+\end{tabular}
+\end{center}
+
+
+ Required probability = how many of men have grey hair = $\frac{\textbf{Men with grey hair}}{\textbf{total grey haired persons}} \\ = \frac{2.5}{2.5+0.125} \\ = \frac{2.5}{2.625} \\ = \textbf{0.95238} $ 
+ 
+\textbf{ Another way using Bayes theorem}:
+
+M - No of men, W = No of women , G = No of grey persons
+$P(M) = 0.5 = P(W) \\ P(G|M) =0.05 \\ P(G|W) = 0.0025 \\ P(M|G) \textbf{ is what we need to find } $
+
+\textbf{By bayes theorem}, 
+\begin{multline*}
+%\begin{equation} 
+\begin{split}
+P(M|G) & = \frac{P(M,G)}{P(G)} \\
+ & = \frac{P(G|M)P(M)}{P(G)} \\
+ & = \frac{P(G|M)P(M)}{P(G|M)P(M)+P(G|W)P(W)} \\
+ & = \frac{0.05*0.5}{0.05*0.5+0.0025*0.5} \\
+ & = \frac{0.025}{0.02625} \\
+ & = \textbf{0.95238}
+\end{split}
+%\end{equation}
+\end{multline*}
+        

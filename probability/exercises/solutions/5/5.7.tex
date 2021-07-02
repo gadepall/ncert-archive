@@ -1,0 +1,24 @@
+Let X be the number of balls which have 'X' mark on them\\
+Using the expression of binomial distribution
+\begin{align}
+    P(X = r) = {n \choose r} p^r q^{n-r}\\
+    P(X \geq k) = \sum_{r = k}^n {n \choose r}p^r q^{n-r}\\
+    P(X \leq k) = \sum_{r = 0}^k {n \choose r}p^r q^{n-r}\\
+    n = 6,\quad p = 0.4,\quad q = 0.6
+\end{align}
+\begin{table}[]
+\resizebox{\columnwidth}{!}{
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        n & 6 & 6 & 6 & 6\\
+        \hline
+        Condition & $P(X = 6)$& $P(X \geq 4)$& $P(X \leq 5)$ & $P(X = 3)$ \\
+        \hline
+        Value & 0.004096 & 0.1792 & 0.995904 & 0.27648\\
+        \hline
+        Case & $(i)$ & $(ii)$ & $(iii)$ & $(iv)$\\
+        \hline
+    \end{tabular}
+}
+\caption{Probabilities of each case }    \label{tab:my_label}
+\end{table}

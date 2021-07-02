@@ -1,0 +1,24 @@
+X - Random variable for number of boys.
+$$X = \{0, 1, 2\}$$
+where $n = 2$ and $p = \frac{1}{2}$
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|}
+         \hline
+        \textbf{X = x}&\textbf{\pr{X = x}} \\
+        \hline    
+         {X = 0} & {${^2 C _0} \times {q^2}$}\\
+         \hline
+         {X = 1} & {${^2 C _1} \times {q} \times {p}$}\\
+         \hline
+         {X = 2} & {${^2 C _2} \times {p^2}$}\\
+         \hline
+    \end{tabular}
+\end{table}
+\\
+To find $\pr{X = 2\, | \,X \geq 1}$.
+\begin{align}
+    \pr{X = 2\, | \,X \geq 1} &= \dfrac{\pr{X = 2}}{\pr{X\geq 1}}\\
+    &= \dfrac{\frac{1}{4}}{\frac{3}{4}}\\
+    &= \dfrac{1}{3}
+\end{align}

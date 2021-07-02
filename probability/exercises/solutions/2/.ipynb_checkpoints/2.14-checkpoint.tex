@@ -1,0 +1,42 @@
+Let $A \in \cbrak{2,3,4,5,6,7,8,9,10,11,12}$ be a random variable representing the sum of outcomes when a die is thrown twice.\\
+Let $B \in \cbrak{0,1,2}$  be a random variable that represents the number of times 4 occurs in two throws.\\
+We need the conditional probability of event $\brak{B \geq 1}$ given that \brak{A=6} has occurred.\\ 
+\begin{equation}
+    \Pr{\brak{\brak{B \geq 1}|\brak{A=6}}}
+    =\frac{\Pr{((A=6)\cap(B \geq 1))}}{\Pr{\brak{A=6}}}\label{eq:0.0.1}
+\end{equation}
+We have that,\\
+\begin{equation}
+\Pr{(A=n)}=
+\begin{cases}
+    0 & n \leq 1\\
+    \frac{n-1}{36} & 2\leq n \leq 7\\
+    \frac{13-n}{36} & 8 \leq n \leq 12\\
+    0 & n \geq 13
+\end{cases}
+\end{equation}
+Therefore using equation (0.0.2) we can write that,
+\begin{equation}
+    \Pr{(A=6)}=\frac{5}{36}\label{eq:0.0.3}
+\end{equation}
+From binomial distribution we can write ,
+\begin{align}
+    \Pr{(B \geq 1)}&=\Pr{(B =1)}+\Pr{(B=2)} \\ &= \binom{2}{1} \brak {\frac{1}{6}}\brak {\frac{5}{6}}+\binom{2}{2} \brak {\frac{1}{6}}^2\\
+    &=\frac{11}{36}
+\end{align}
+
+The event $((A=6) \cap (B\geq 1))$ is such that the sum should be six 6 with atleast one 4.\\
+There are only two possible cases \{4,2\},\{2,4\} out of 36 possible cases.\\
+Hence,\\
+\begin{equation}
+    \Pr{((A=6) \cap (B\geq 1))}=\frac{2}{36}.\label{eq:0.0.7}
+\end{equation}
+Substituting equations \eqref{eq:0.0.3},\eqref{eq:0.0.7} in \eqref{eq:0.0.1} , we get\\
+\begin{equation}
+\begin{split}
+\Pr((B \geq 1)|(A=6
+))&=\frac{\frac{2}{36}}{\frac{5}{36}}\\
+&=\frac{2}{5}.
+\end{split}
+\end{equation}
+Hence the probability of occurring atleast one 4 when the sum of the numbers is 6 when a die is thrown twice is $\frac{2}{5}$. 

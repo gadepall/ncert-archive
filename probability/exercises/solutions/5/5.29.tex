@@ -1,0 +1,38 @@
+Let $X_1$,$X_2$ $\in$ \cbrak{1,2,3,4,5,6} be two random variables associated with event.
+\\ $X=X_1+X_2$, representing sum of outcomes of two dices.
+$$\therefore X\in \{2,3,4,5,6,7,8,9,10,11,12\}$$
+Now
+\begin{align}
+    \pr{X=n} =& \pr{X_1+X_2=n}
+\end{align}   
+\begin{align}
+    P_X{(n)} =&
+    \begin{cases}
+    0 & n<2
+    \\ \frac{n-1}{36} &2 \le n \le 7
+    \\ \frac{13-n}{36} & 7 < n \le 12
+    \\ 0 & 12 < n
+    \end{cases}
+    \label{pmf_equation}
+\end{align}
+\begin{table}[h!]
+    %\centering
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+    \hline
+    n  &2 &3 &4 &5 &6 &7 &8 &9 &10 &11 &12\\[0.2ex]
+    \hline 
+    \pr{X=n}  &$\frac{1}{36}$ &$\frac{1}{18}$ &$\frac{1}{12}$ &$\frac{1}{9}$ &$\frac{5}{36}$ &$\frac{1}{6}$ &$\frac{5}{36}$ &$\frac{1}{9}$ &$\frac{1}{12}$ &$\frac{1}{18}$ &$\frac{1}{36}$ \\[1ex]
+    \hline
+    \end{tabular}
+    }
+    \caption{Probability as a function of n }
+    \label{tab:probability_function}
+\end{table}
+For mean
+\begin{align}
+    \hat X =& \sum_{n=2}^{12}{n\times\pr{X=n}}
+    \\=& \sum_{n=2}^{7}{n\times \brak{\cfrac{n-1}{36}}} + \sum_{n=8}^{12}{n\times \brak{\cfrac{13-n}{36}}}
+    \\[2ex]=& \cfrac{112}{36} + \cfrac{140}{36} \quad = \cfrac{252}{36}
+    \\[2ex] =& 7.0
+\end{align}

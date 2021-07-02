@@ -1,0 +1,29 @@
+Let X represent the number of sixes in six throws of a dice
+\newline
+      X $\in$ \{0,1,2,3,4,5,6\} \\
+By Binomial distribution formula, \newline
+\begin{align}
+P(X=k) = \comb{n}{k}  p^{k} (1-p)^{n-k}
+\end{align}
+Here,
+\begin{table}[!ht]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+Symbol & Meaning  \\ \hline
+k                      &    no. of sixes in six throws of a dice                 \\ \hline
+n                      & no. of throws = 6                    \\ \hline
+p                      &  Pr of getting 6 in single throw=\( \frac{1}{6} \)                  \\ \hline
+\end{tabular}
+
+\caption{This table gives the meaning of each symbol used in the formula}
+\label{tab:Table 5.10}
+\end{table}
+\begin{align}
+\pr{X\leq 2}&=\pr{X=0}+\pr{X=1}+\pr{X=2}\\
+ \pr{X=0}&=\comb{6}{0} \times \brak{\frac{1}{6}}^{0} \times  \brak{\frac{5}{6}} ^{6-0}\\
+\pr{X=1}&=\comb{6}{1} \times \brak{\frac{1}{6}}^{1} \times  \brak{\frac{5}{6}} ^{6-1}\\
+ \pr{X=2}&=\comb{6}{2} \times \brak{\frac{1}{6}}^{2} \times  \brak{\frac{5}{6}} ^{6-2}\\
+\pr{X\leq 2} &= \brak{ \frac{5^6}{6^6} } \times 1 + \brak{ \frac{5^5}{6^6} } \times 6 +  \brak{\frac{5^4}{6^6} } \times 15 \\
+&= 0.937714 \nonumber\\
+\end{align}

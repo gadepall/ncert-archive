@@ -1,0 +1,43 @@
+Given,
+\begin{align*}
+\pr{\text {A fails}}&=\pr{A}&=0.2\\
+\pr{\text{B fails alone}}&=\pr{B-A}&=0.15\\
+\pr{\text{A and B fails}}&=\pr{AB}&=0.15\\
+\end{align*}
+ Now,we need to find \pr{\text{A fails alone}}=\pr{A-B}
+\begin{enumerate}
+\item
+\begin{align}
+    \tag{6.7.1}
+    \pr{A}&=\pr{A-B}+\pr{AB}\\
+    \tag{6.7.2}
+    \implies \pr{A-B}&=\pr{A}-\pr{AB}\\
+    \tag{6.7.3}
+    \implies \pr{A-B}&=0.20-0.15\\
+    \tag{6.7.4}
+    \implies \pr{A-B}&=0.05
+\end{align}
+Therefore, \pr{\text{A fails alone}}=\pr{A-B}=0.05
+\item
+Now,finding the probability of B
+\begin{align}
+    \tag{6.7.5}
+    \pr{B-A}&=\pr{B}-\pr{AB}\\
+    \tag{6.7.6}
+    \implies \pr{B}&=\pr{B-A}+\pr{AB}\\
+    \tag{6.7.7}
+    \implies \pr{B}&=0.15+0.15\\
+    \tag{6.7.8}
+    \implies \pr{B}&=0.30
+\end{align}
+Now, we need to find \pr{\text{A fails$|$B has failed}}=\pr{A|B}
+\begin{align}
+    \tag{6.7.9}
+    \pr{A|B}&=\frac{\pr{AB}}{\pr{B}}\\
+    \tag{6.7.10}
+    \implies \pr{A|B}&=\frac{0.15}{0.30}\\
+    \tag{6.7.11}
+    \implies \pr{A|B}&=0.5
+\end{align}
+Therefore, \pr{\text{A fails$|$ B has failed}}=\pr{A|B}=0.5
+\end{enumerate}

@@ -1,0 +1,44 @@
+Let $X_i \in \{1,2,3,4,5,6\},\ i=1,2$ be the random variables representing the outcomes of each die.
+The probability mass function is given below.
+\begin{align}
+\label{eq:outcomes}
+p_{X_i}(n) = \pr{X_i = n} = 
+\begin{cases}
+\frac{1}{6} & 1 \le n \le 6
+\\
+0 & otherwise
+\end{cases}
+\end{align}
+Desired outcomes
+\begin{align}
+X=X_1+X_2=n
+\end{align}
+We have the following expression for probability
+\begin{align}
+	p_X(n) &=
+\begin{cases}
+0 & n < 1\\
+\frac{n-1}{36} &  2 \le n \le  7 \\
+\frac{13-n}{36} & 7 < n \le 12 \\
+0 & n > 12
+\end{cases}
+\label{eq:final_result}
+\end{align}
+
+Using \eqref{eq:final_result} we get the following answers
+
+\begin{center}
+\begin{table}
+\centering
+  \label{table:answers}
+\caption{answers}
+  \begin{tabular}{|c|c|c|c|}
+    \hline
+    case &  X=8 & X=13 & $X\leq 12$\\
+    \hline
+    $p_X(n)$ & ${\scriptstyle \frac{5}{36}}$ & 0& 1\\
+    \hline
+   
+\end{tabular}
+\end{table}
+\end{center}

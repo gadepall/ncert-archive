@@ -1,0 +1,33 @@
+Let X $\in\{0,1\}$ be the random variable denoting that A tells truth when X=1
+
+\begin{align*}
+\tag{1.14.1}
+     \Pr(X=1)=\frac{4}{5}\\
+      \Pr(X=0)=1-\Pr(X=1)
+\end{align*}
+\begin{align}
+\tag{1.14.2}
+    \Pr(X=0) =\frac{1}{5}
+\end{align}
+Let Y $\in\{0,1\}$ be the random variable denoting that Head appears on the coin when Y=1 \\
+As the coin is unbiased,\\
+\begin{align}
+\tag{1.14.3}
+    \Pr(Y=1|X=1)=\frac{1}{2}
+\end{align}
+\begin{align}
+\tag{1.14.4}
+    \Pr(Y=1|X=0)=\frac{1}{2}
+\end{align}
+Probability that actually there was a head given that A reports a Head\\
+=$\Pr(X=1|Y=1)$
+
+From Bayes Theorm,
+
+\begin{align*}
+    &\Pr(X=1|Y=1)=\frac{\Pr(X=1)\times\Pr(Y=1|X=1)}{\sum_{i=0}^{1}\Pr(X=i)\times\Pr(Y=1|X=i)}\\
+   &=\frac{\frac{4}{5}\times\frac{1}{2}}{\frac{4}{5}\times\frac{1}{2}+\frac{1}{5}\times\frac{1}{2}}\\
+    &=\frac{4}{5}
+\end{align*}
+Probability that  actually there was a head given that A reports a Head=$\frac{4}{5}$\\
+So, option a) is correct.
