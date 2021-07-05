@@ -1,0 +1,44 @@
+Let the input variables $X \in \{0,1\}$ and $Y \in \{0,1\}$ be defined according to the table \ref{bayes/2/1tab:table1} .
+
+\begin{table}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\begin{tabular}{|c|c|c|} 
+\hline
+Input Variable & Value & Description \\
+\hline
+\multirow{2}{*}{X} & 0 & Ball drawn from Bag II is Red \\ \cline{2-3} 
+                   & 1  & Ball drawn from Bag II is Black \\ \hline
+\multirow{2}{*}{Y} & 0 & Transferred ball from Bag I is Red \\ \cline{2-3} 
+                   & 1 & Transferred ball from Bag I is Black \\ \hline
+\end{tabular}}
+\caption{Input Variables}
+\label{bayes/2/1tab:table1}
+\end{table}
+ Given data of the question in terms of probability is presented in the table \ref{bayes/2/1tab:table2} .
+
+\begin{table}[!ht]
+\centering
+\begin{tabular}{|c|c|c|} 
+\hline
+S.No. & Expression & Value \\
+\hline 
+1. &  Pr$(X=0|Y=0)$ & $\frac{1}{2}$ \\ 
+\hline 
+2. & Pr$(X=0|Y=1)$ & $\frac{4}{10} = \frac{2}{5}$ \\ 
+\hline 
+3. & Pr(Y=0) & $\frac{3}{7}$\\ 
+\hline 
+4. & Pr(Y=1) & $\frac{4}{7}$ \\ 
+\hline 
+\end{tabular}
+\caption{Given Data}
+\label{bayes/2/1tab:table2}
+\end{table}
+Hence,probability that the transferred ball from Bag I is Black given that the ball drawn from Bag II is Red is,
+\begin{align}
+    \text{Pr}(Y=1|X=0) &= \frac{\text{Pr}(X=0|Y=1)\text{Pr}(Y=1)}{ \sum_{i=0}^{1}\text{Pr}(X=0|Y=i)\text{Pr}(Y=i)}
+    \\
+    &= \frac{\frac{2}{5} \times \frac{4}{7}}{\frac{1}{2} \times \frac{3}{7} + \frac{2}{5} \times \frac{4}{7}}
+    \\
+    &= \frac{16}{31}
+\end{align}

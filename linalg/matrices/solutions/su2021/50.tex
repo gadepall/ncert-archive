@@ -1,0 +1,84 @@
+Let the balanced version of \eqref{matrix/50/eq1} be
+\begin{align}
+   x_{1}NaOH + x_{2}H_2SO_4 \xrightarrow{} 
+   x_{3}Na_2SO_4 + x_{4}H_2O \label{matrix/50/eq2}
+\end{align}
+which results in the following equations:
+\begin{align}
+    (x_{1}-2x_{3}) Na= 0\\
+    (x_{1}+4x_{2}-4x_{3}-x_{4}) O= 0\\
+    (x_{1}+2x_{2}-2x_{4}) H=0\\
+    (x_{2}-x_{3}) S= 0
+\end{align}
+which can be expressed as
+\begin{align}
+    x_{1}+ 0.x_{2}- 2x_{3}+ 0.x_{4} = 0\\
+    x_{1}+ 4x_{2}- 4x_{3}- x_{4} = 0\\
+    x_{1}+ 2x_{2}+ 0.x_{3}- 2x_{4} = 0\\
+    0.x_{1}+ x_{2}- x_{3}+ 0.x_{4} = 0
+\end{align}
+resulting in the matrix equation
+\begin{align}
+    \myvec{1 & 0 & -2 & 0\\
+           1 & 4 & -4 & -1\\
+           1 & 2 & 0 & -2\\
+           0 & 1 & -1 & 0}\vec{x}
+           =\vec{0}    \label{matrix/50/eq3}
+\end{align}
+where,
+\begin{align}
+   \vec{x}= \myvec{x_{1}\\x_{2}\\x_{3}\\x_{4}}
+\end{align}
+\eqref{matrix/50/eq3} can be reduced as follows:
+\begin{align}
+    \myvec{1 & 0 & -2 & 0\\
+           1 & 4 & -4 & -1\\
+           1 & 2 & 0 & -2\\
+           0 & 1 & -1 & 0}
+    \xleftrightarrow[R_{3}\leftarrow R_3-R_{1}]{R_{2}\leftarrow R_2- R_1}
+    \myvec{1 & 0 & -2 & 0\\
+           0 & 4 & -2 & -1\\
+           0 & 2 & 2 & -2\\
+           0 & 1 & -1 & 0}\\
+    \xleftrightarrow{R_2 \leftarrow \frac{R_2}{4}}
+    \myvec{1 & 0 & -2 & 0\\
+          0 & 1 & -\frac{1}{2} & -\frac{1}{4}\\
+          0 & 2 & 2 & -2\\
+          0 & 1 & -1 & 0}\\
+    \xleftrightarrow[R_4 \leftarrow R_4 - R_2]{R_3 \leftarrow R_3 - 2R_2}
+    \myvec{1 & 0 & -2 & 0\\
+           0 & 1 & -\frac{1}{2} & -\frac{1}{4}\\
+           0 & 0 & 3 & -\frac{3}{2}\\
+           0 & 0 & -\frac{1}{2} & \frac{1}{4}}\\
+    \xleftrightarrow{R_3 \leftarrow \frac{R_3}{3}}
+    \myvec{1 & 0 & -2 & 0\\
+           0 & 1 & -\frac{1}{2} & -\frac{1}{4}\\
+           0 & 0 & 1 & -\frac{1}{2}\\
+           0 & 0 & -\frac{1}{2} & \frac{1}{4}}\\
+    \xleftrightarrow[R_{4}\leftarrow R_4+\frac{R_3}{2}]{R_{2}\leftarrow R_2+ \frac{R_3}{2}}
+    \myvec{1 & 0 & -2 & 0\\
+           0 & 1 & 0 & -\frac{1}{2}\\
+           0 & 0 & 1 & -\frac{1}{2}\\
+           0 & 0 & 0 & 0}\\
+    \xleftrightarrow{R_1 \leftarrow R_1+2R_3}
+    \myvec{1 & 0 & 0 & -1\\
+           0 & 1 & 0 & -\frac{1}{2}\\
+           0 & 0 & 1 & -\frac{1}{2}\\
+           0 & 0 & 0 & 0}
+\end{align}
+Thus,
+\begin{align}
+    x_1=x_4, x_2= \frac{1}{2}x_4, x_3=\frac{1}{2}x_4\\
+    \implies \quad\vec{x}= x_4\myvec{1\\ \frac{1}{2}\\ \frac{1}{2}\\1} 
+\end{align} 
+by substituting $x_4= 2$
+\begin{align}
+    \vec{x}=\myvec{2\\1\\1\\2}
+\end{align}
+Hence, \eqref{matrix/50/eq2} finally becomes
+\hfill\break
+%\vspace{5mm}  finally becomes
+\begin{align}
+    2 NaOH + H_2SO_4 \xrightarrow{} 
+    Na_2SO_4 + 2 H_2O
+\end{align}

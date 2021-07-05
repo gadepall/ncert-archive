@@ -1,0 +1,86 @@
+
+\begin{table}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\begin{tabular}{|c|c|c|c|} 
+\hline
+kind of  cake & No.of cakes & Flour& Fat\\
+\hline
+1st & x & 200g  &  25g \\ 
+\hline
+2nd& y& 100g&  50g  \\ 
+\hline
+Total& x+y& 5 kg=5000g&1kg=1000g \\ 
+\hline
+\end{tabular}}
+\caption{Ingredients used in making the cake is flour and fat }
+\label{opt/13/tab:table1}
+\end{table}
+Let the  1st kind  be $x$ and the 2nd kind be $y$  such that 
+\begin{align}
+x \geq 0 \\
+y \geq 0 
+\end{align}
+According to the question,
+\begin{align}
+2{x} + {y} \leq 50
+\\
+{x} + 2{y} \leq 40
+\end{align}
+$\therefore$ Our problem is
+\begin{align}
+\max_{\vec{x}} Z &= \myvec{1& 1}\vec{x}\\
+s.t. \quad \myvec{2 & 1 \\ 1& 2}\vec{x} &\preceq \myvec{50\\40} 
+\end{align}
+Lagrangian function is given by
+\begin{equation}
+\begin{aligned}
+&L(\vec{x},\boldsymbol{\lambda}) \\ &= \myvec{1 & 1}\vec{x}+\lcbrak{\sbrak{\myvec{2 & 1}\vec{x}-50}} \\ &+ \sbrak{\myvec{1 & 2}\vec{x}-40}\\ &+ \sbrak{\myvec{-1 & 0}\vec{x}} +\rcbrak{\sbrak{\myvec{0 & -1}\vec{x}}}\boldsymbol{\lambda}
+\end{aligned}
+\end{equation}
+where,
+\begin{align}
+\boldsymbol{\lambda} &= \myvec{\lambda_1 \\ \lambda_2 \\ \lambda_3 \\ \lambda_4 \\ \lambda_5 \\ \lambda_6}
+\end{align}
+Now,
+\begin{align}
+\nabla L(\vec{x},\boldsymbol{\lambda}) &= \myvec{1+ \myvec{2 & 1 & -1 & 0 }\boldsymbol{\lambda}\\ 1+\myvec{1 & 2 & 0 & -1}\boldsymbol{\lambda} \\ \myvec{2 & 1}\vec{x}-50\\ \myvec{1& 2}\vec{x}-40 \\  \myvec{-1 & 0}\vec{x} \\ \myvec{0 & -1}\vec{x}}
+\end{align}
+$\therefore$ Lagrangian matrix is given by
+\begin{align}
+\myvec{0 & 0 & 2 & 1& -1 & 0 \\ 0 & 0 & 1 & 2  & 0 & -1 \\ 2 & 1 & 0 & 0 & 0 & 0 \\ 1 & 2 & 0 & 0 & 0 & 0  \\ -1 & 0 & 0 & 0 & 0 & 0  \\ 0 & -1 & 0 & 0 & 0 & 0 }\myvec{\vec{x} \\ \boldsymbol{\lambda} } &= \myvec{-1 \\ -1 \\ 50\\ 4 0\\ 0 \\0 }
+\end{align}
+Considering $\lambda_1,\lambda_2$ as only active multiplier,
+\begin{align}
+\myvec{0 & 0 & 2 & 1 \\ 0 & 0 & 1 & 2 \\ 2 & 1 & 0 & 0 \\ 1 & 2 & 0 & 0}\myvec{\vec{x}\\ \boldsymbol{\lambda}} &= \myvec{-1 \\ -1 \\ 5 0\\ 40}
+\end{align}
+resulting in,
+\begin{align}
+\myvec{\vec{x} \\ \boldsymbol{\lambda}} &= \myvec{0 & 0 & 2 & 1 \\ 0 & 0 & 1 & 2 \\ 2 & 1 & 0 & 0 \\ 1& 2 & 0 & 0}^{-1}\myvec{-1 \\ -1 \\ 50 \\ 40}
+\\
+\implies   \myvec{\vec{x} \\ \boldsymbol{\lambda}} &= \myvec{0 & 0 & \frac{2}{3} & \frac{-1}{3} \\ 0 & 0 & \frac{-1}{3} & \frac{2}{3} \\ \frac{2}{3} & \frac{-1}{3} & 0 & 0 \\ \frac{-1}{3} & \frac{2}{3} & 0 & 0}\myvec{-1 \\ -1 \\ 50 \\ 40}
+\\
+\implies \myvec{\vec{x} \\ \boldsymbol{\lambda}} &= \myvec{20 \\ 10 \\ -0.3 \\ -0.3 }
+\end{align}
+$\because \boldsymbol{\lambda}=\myvec{-0.3 \\ -0.3} \succ \vec{0} $
+\\
+$\therefore$ Optimal solution is given by
+\begin{align}
+    \vec{x} &= \myvec{20\\10} \\
+    Z &= \myvec{1& 1}\vec{x} \\
+    &= \myvec{1 & 1}\myvec{20 \\ 10} \\
+    &= 60
+\end{align}
+By using cvxpy in python ,
+\begin{align}
+    \vec{x}=\myvec{20\\10}\\
+    Z = 60
+\end{align}
+Hence No.of cakes \boxed{x=20} 1st kind and  .of cakes \boxed{y=10} 2nd kind should be used to maximum No. of cakes \boxed{Z=60}.  This is
+verified in Fig. \ref{opt/13/fig: Graphical Solution}.	
+%
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{solutions/su2021/2/13/Figure9.png}
+\caption{Graphical Solution}
+\label{opt/13/fig: Graphical Solution}	
+\end{figure}
