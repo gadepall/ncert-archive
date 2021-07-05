@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.4)  5 JUL 2021 09:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.4)  5 JUL 2021 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3066,37 +3066,28 @@ Overfull \hbox (50.03308pt too wide) detected at line 65
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [77])
-Underfull \hbox (badness 10000) in paragraph at lines 288--290
+(./solutions/su2021/70.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--298
+Underfull \hbox (badness 10000) in paragraph at lines 296--300
 \OT1/txr/m/n/12 (ii)$[] [] \U/txsyc/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--298
+Underfull \hbox (badness 10000) in paragraph at lines 296--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--300
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+Underfull \hbox (badness 10000) in paragraph at lines 300--302
 
  []
 
@@ -3104,17 +3095,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 300--301
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--319
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
+Underfull \hbox (badness 10000) in paragraph at lines 318--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
 
@@ -3122,16 +3118,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 320--321
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [78]
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 358--359
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 359--360
 
  []
@@ -3187,18 +3173,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 369--370
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
+
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [79]
-(./gvv_ncert_matrix.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+
+ []
+
+) [79] (./gvv_ncert_matrix.aux)
 Package rerunfilecheck Info: File `gvv_ncert_matrix.out' has not changed.
 (rerunfilecheck)             Checksum: 7712137A7DC5E6F8789D9B67351AC245;171.
  ) 
 Here is how much of TeX's memory you used:
- 47665 strings out of 478994
- 1044106 string characters out of 5864752
+ 47670 strings out of 478994
+ 1044193 string characters out of 5864752
  1592810 words of memory out of 5000000
- 61914 multiletter control sequences out of 15000+600000
+ 61915 multiletter control sequences out of 15000+600000
  497222 words of font info for 237 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  102i,24n,111p,744b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3214,10 +3209,10 @@ ic/txfonts/txsyc.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on gvv_ncert_matrix.pdf (79 pages, 689286 bytes).
+Output written on gvv_ncert_matrix.pdf (79 pages, 689542 bytes).
 PDF statistics:
- 3204 PDF objects out of 3580 (max. 8388607)
- 2981 compressed objects within 30 object streams
- 2009 named destinations out of 2073 (max. 500000)
+ 3205 PDF objects out of 3580 (max. 8388607)
+ 2982 compressed objects within 30 object streams
+ 2010 named destinations out of 2073 (max. 500000)
  180 words of extra memory for PDF output out of 10000 (max. 10000000)
 

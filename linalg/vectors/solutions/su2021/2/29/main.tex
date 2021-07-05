@@ -1,0 +1,66 @@
+%
+\begin{enumerate}
+\item From the given information,
+\begin{align}
+\norm{\vec{P}-\vec{A}}^2=\norm{\vec{P}-\vec{B}}^2
+\\
+\implies\norm{\vec{P}}^2+\norm{\vec{A}}^2-2\vec{A}^T\vec{P}
+\\
+=\norm{\vec{P}}^2+\norm{\vec{B}}^2-2\vec{B}^T\vec{P}
+\\
+\implies 2\vec{A}^T\vec{P}-2\vec{B}^T\vec{P}=\norm{\vec{A}}^2-\norm{\vec{B}}^2  \label{vec/29/eq1}
+\end{align}
+\item Equation of plane is $\vec{n}^T\vec{P}=\vec{d}$
+\\
+where,$\vec{n}^T$ is the normal vector to the plane 
+\begin{itemize}
+\item From \eqref{vec/29/eq1},
+\begin{align}
+\myvec{2\vec{A}^T-2\vec{B}^T}\vec{P}=\norm{\vec{A}}^2-\norm{\vec{B}}^2 \label{vec/29/eq2}
+\end{align}
+$\vec{P}$ is a plane and it is perpendicular bisector to $\vec{A}-\vec{B}$
+\\
+$\because\vec{P}$ is perpendicular to line joining $\vec{A}$ and $\vec{B}$
+\item Midpoint of $\vec{A}$ and $\vec{B}$
+\begin{align}
+\vec{M}= \frac{\vec{A}+\vec{B}}{2}
+\end{align}
+\item Substitute in \eqref{vec/29/eq2},
+\begin{align}
+\myvec{2\vec{A}^T-2\vec{B}^T}\brak{\frac{\vec{A}+\vec{B}}{2}}
+=\myvec{\vec{A}^T-\vec{B}^T}\myvec{\vec{A}+\vec{B}}
+\\
+=\vec{A}^T\vec{A}+\vec{A}^T\vec{B}-\vec{B}^T\vec{A}-\vec{B}^T\vec{B}
+\end{align}
+\begin{align}
+\because \vec{A}^T\vec{A}=\norm{\vec{A}}^2,
+\\
+\vec{B}^T\vec{B}=\norm{\vec{B}}^2,
+\\
+\vec{A}^T\vec{B}=\vec{B}^T\vec{A}
+\end{align}
+\begin{align}
+\implies\myvec{2\vec{A}^T-2\vec{B}^T}\brak{\frac{\vec{A}+\vec{B}}{2}}=\norm{\vec{A}}^2-\norm{\vec{B}}^2 
+\end{align}
+$\implies \frac{\vec{A}+\vec{B}}{2}$ satisfies \eqref{vec/29/eq1}
+\item $\therefore$ $\vec{P}$ is the plane that is perpendicular bisector of the line joining the given points 
+\end{itemize}
+\item Putting given values $\vec{A}$ and $\vec{B}$ in \eqref{vec/29/eq1},we get 
+\begin{align}
+2\myvec{3 & 4 & -5}\vec{P}-2\myvec{-2 & 1 & 4}\vec{P}
+\\
+=\norm{\myvec{3\\4\\-5}}^2-\norm{\myvec{-2\\1\\4}}^2
+\\
+\implies\myvec{6 & 8 & -10}\vec{P}+\myvec{4 & -2 & -8}\vec{P} 
+\\
+=50-21
+\\
+\implies\myvec{10 & 6 & -18}\vec{P}=29
+\end{align}
+$\therefore$ The required equation is
+\begin{align}
+\myvec{10 & 6 & -18}\vec{P}=29
+\end{align}
+\end{enumerate}
+
+
