@@ -1,0 +1,33 @@
+Let,
+\begin{align}
+ \vec P &=\vec{X};
+\end{align}
+ so,
+ \begin{align}
+ \vec{(PA)}^2&=\norm{\vec P-\vec A}^2\\
+ &=\norm{\vec X-\vec A}^2\\
+ &=\norm{\vec X}^2+\norm{\vec A}^2-2\vec X^T\vec A\label{vec/25/eq1}
+ \end{align}
+ and
+ \begin{align}
+ \vec{(PB)}^2&=\norm{\vec P-\vec B}^2\\
+ &=\norm{\vec X-\vec B}^2\\
+ &=\norm{\vec X}^2+\norm{\vec B}^2-2\vec X^T\vec B\label{vec/25/eq2}
+ \end{align}
+ The given equation is
+\begin{align}
+ \vec{(PA)}^2+ \vec{(PB)}^2 =2k^2\label{vec/25/eq3}
+ \end{align}
+ Sub \eqref{vec/25/eq1} and \eqref{vec/25/eq2}   values in \eqref{vec/25/eq3} 
+\begin{align}
+\norm{\vec X}^2+\norm{\vec A}^2-2\vec X^T\vec A+\norm{\vec X}^2+\norm{\vec B}^2-2\vec X^T\vec B=2k^2\\
+\implies 2\norm{\vec X}^2+\norm{\vec A}^2+\norm{\vec B}^2-2\vec X^T(\vec A+\vec B)=2k^2\label{vec/25/eq4} 
+\end{align}
+sub $\vec A$,$\vec B$ values in equation \eqref{vec/25/eq4} ,we get
+\begin{align}
+ 2\norm{\vec X}^2+\norm{\myvec{3\\4\\5}}^2+\norm{\myvec{-1\\3\\-7}}^2-2\vec X^T\brak{\myvec{3\\4\\5}+\myvec{-1\\3\\-7}}=2k^2
+ \end{align}
+ $\therefore$ the required equation is
+ \begin{align}
+  2\norm{\vec X}^2-2\vec X^T\myvec{2\\7\\-2}+109-2k^2=0
+\end{align}
