@@ -3,4 +3,4 @@
 \contentsline {section}{\numberline {3}Binomial Distribution}{22}{section.3}%
 \contentsline {section}{\numberline {4}Uniform Distribution }{33}{section.4}%
 \contentsline {section}{\numberline {5}Miscellaneous Distributions}{39}{section.5}%
-\contentsline {section}{\numberline {6}Axioms of Probability}{57}{section.6}%
+\contentsline {section}{\numberline {6}Axioms of Probability}{58}{section.6}%

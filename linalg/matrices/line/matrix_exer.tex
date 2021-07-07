@@ -35,12 +35,6 @@ Find each of the following:\\
 \item Given 3\myvec{x &y\\z &w}=\myvec{x &6\\-1 &2w}+\myvec{4 &x+y\\z+w &3},find the values of x,y,z and w.\\
 
 
-\item The bookshop of a particular school has 10 dozen chemistry books, 8 dozen
-physics books, 10 dozen economics books. Their selling prices are \rupee{80}, \rupee{60} and
- \rupee{40} each respectively. Find the total amount the bookshop will receive from
-selling all the books using matrix algebra.\\
-\solution
-\input{solutions/su2021/13.tex}
 Assume X,Y,Z,W and P are matrices of orders $2\times n$,$3 \times k$,$2\times p$,$n\times 3$ and $p\times k$,respectively.\\
 Choose the correct answer in Exercise 31 and 32.\\
 \item The restriction on n,k and p so that PY+WY will be defined are:\\
@@ -74,15 +68,7 @@ Choose the correct answer in Exercise 31 and 32.\\
   (A)Skew symmetric matrix \\(B)Symmetric matrix\\
   (C)Zero matrix \\ (D)Identity matrix\\
   
-  Using elementary transforamtions,find the inverse of each of the matrices,if it exists questions 45-61\\
   
-  \item\myvec{1 &-1\\2 &3}\\
-  \solution
-  \input{solutions/su2021/25.tex}
-  
-  \item \myvec{2 &1\\1 &1}\\
-  \solution
-  \input{solutions/su2021/26.tex}
   \item\myvec{1 &3\\2 &7}\\
   \item\myvec{2 &3\\5 &7}\\
   \item\myvec{2 &1\\7 &4}\\
@@ -103,64 +89,9 @@ Choose the correct answer in Exercise 31 and 32.\\
   \item Let A=\myvec{0 &1\\0 &0},show that \\$(aI+bA)^{n}=a^{n}I+na^{n-1}bA$,where I is the identity matrix of order 2 and $n \epsilon N$\\
 
   \item If A and B are symmetric matrices,prove that AB-BA is a skew symmetric matrix.\\
-  \item Show that the matrix $ B^{\top}AB$ is symmetric or skew symmetric according as A is symmetric or skew symmetric\\
-  \solution
-  \input{solutions/su2021/42.tex}
   
-  \item Find the values of x,y,z if the matrix A=\myvec{0 &2y &z\\x &y &-z\\x &-y &z} satisfy the equation $A^{\top}A$=I\\
-  \solution
-  \input{solutions/su2021/43.tex}
-  
-  \item Find $x$, if $\myvec{x &-5 &-1}\myvec{1 &0 &2\\0 &2 &1\\2 &0 &3}\myvec{x\\4\\1}=0$\\
-\solution
-\input{solutions/su2021/44.tex}
-  \item A manufactrer produces three products x,y,z which he sells in two markets. Annual sales are indicated below:\\
- 
-  \begin{tabular}{cccc}
-  \hline
-  Market & Products\\
-  \hline
-  I &10,000 &2,000 &18,000\\
-  \hline
-  II &6,000 &20,000 &8,000\\
-  \hline
-  \end{tabular}\\
-  (a) If unit sale prices of x,y and z are \rupee{2.50},\rupee{1.50} and \rupee{1.00} respectively,find the total revenue in each market with the help of matrix algebra.\\
-  (b) If the unit cost of the above three commodities are \rupee{2.00},\rupee{1.00} and 50 paise respectively.Find the gross profit.\\
-  \solution
-  \input{solutions/su2021/45/assignment10.tex}
-
   \item If A and B are square matrices of the same order such that AB=BA,then prove by indication that $AB^{n}=B^{n}A$.Further prove that $(AB)^{n}=A^{n}B^{n}$ for all $n \epsilon N$.\\
   Choose the correct answer in the following questions:\\
-  \item If A=$\myvec{\alpha &\beta\\ \gamma &-\alpha}$ is such that $A^{2}=I$,then\\
-  (A)$1+\alpha^{2}+\beta\gamma=0$ (B)$1-\alpha^{}2+\beta\gamma=0$\\
-  (C)$1-\alpha^{2}-\beta\gamma=0$ (D)$1+\alpha^{2}-\beta\gamma=0$\\
-\\
-\solution
-\input{./solutions/matrix/75/solution.tex}
-  \item If the matrix A is both symmetric and skew symmetric,then\\
-  (A) A is a diagonal matrix \\
-  (B) A is a zero matriz\\
-  (C)A is a square matrix \\
-  (D)None of these\\
-  \\
-\solution
-\input{solutions/su2021/48.tex}
-
-
-  \item If A is square matrix such that $A^{2}=A$,then $(I+A)^{3}-7A$ is equal to\\
-  (A)A \\(B)I-A\\ (C)I\\ (D)3A
-\\
-\solution
-\input{./solutions/matrix/77/solution.tex}
-\item Balance the following chemical equation.
-\begin{align}
-  \label{matrix/50/eq1}
-NaOH + H_2SO_4 \xrightarrow{} Na_2SO_4  +  H_2O
-\end{align}
-\\
-\solution
-\input{solutions/su2021/50.tex}
 
 \item Balance the following chemical equation
 \begin{align}\label{1}
@@ -174,44 +105,6 @@ NaOH + H_2SO_4 \xrightarrow{} Na_2SO_4  +  H_2O
      
     
 
-\item     Two farmers Ramkishan and Gurcharan Singh cultivate only three varieties of rice namely Basmati, Permal and Naura. The sale (in Rupees) of these varieties of rice by both the farmers in the month of September and October are given by the following matrices $\vec{A}$ and $\vec{B}$ .
-
-\begin{center}
-September Sales(in Rupees)
-\end{center}
-\begin{align}
-    \vec{A}=
-    \begin{blockarray}{cccc}
-    \text{Basmati} & \text{Permal} & \text{Naura} \\
-    \begin{block}{(ccc)(c)}
-    10000 & 20000 & 30000 & \text{Ramkishan}\\
-    50000 & 30000 & 10000 & \text{Gurucharan} \\
-    \end{block}
-    \end{blockarray}
-\end{align}
-
-\begin{center}
-October Sales(in Rupees)
-\end{center}
-\begin{align}
-    \vec{B} =
-    \begin{blockarray}{cccc}
-    \text{Basmati} & \text{Permal} & \text{Naura} \\
-    \begin{block}{(ccc)(c)}
-    5000 & 10000 & 6000 & \text{Ramkishan}\\
-    20000 & 10000 & 10000 & \text{Gurucharan} \\
-    \end{block}
-    \end{blockarray}
-\end{align}
-
-\begin{enumerate}
-    \item Find the combined sales in September and October for each farmer in each variety.
-    \item Find the decrease in sales from September to October.
-    \item If both farmers receive 2\% profit on gross sales, compute the profit for each farmer and for each variety sold in October.
-\end{enumerate}
-%
-\solution
-\input{solutions/su2021/56/Assignment10.tex}
    
     \item  Find AB, if A=\myvec{6 &9\\2 &3} and B=\myvec{2 &6 &0\\7 &9 &8}.\\
     \item  If A=\myvec{1 &-2 &3\\-4 &2 &5\\} and B=\myvec{2 &3\\4 &5\\2 &1}, then find AB,BA.Show that AB$\neq$BA
@@ -227,68 +120,16 @@ October Sales(in Rupees)
     
      \item If A=\myvec{0 &6 &7\\-6 &0 &8\\7 &-8 &0}, B=\myvec{0 &1 &1\\1 &0 &2\\1 &2 &0},C=\myvec{2\\-2\\3}\\Calculate AC,BC and (A+B)C=AC+BC\\
 
-    \item If A=$\myvec{1 &2 &3\\3 &-2 &1\\4 &2 &1}$,then show that $A^3-23A-40I=0$
-  \\  
-  \solution
-  \input{solutions/su2021/63.tex}
     
     
-\item In a legislative assembly election, a political
-group hired a public relations firm to promote
-its candidate in three ways: telephone, house
-calls, and letters. The cost per contact (in paise)
-is given in matrix $\vec{A}$ as
-\begin{center}
-Cost per Contact(in Paise)
-\end{center}
-\begin{align}
-    \vec{A}=
-    \begin{blockarray}{cc}
-    \text{cost}\\
-    \begin{block}{(c)(c)}
-    40 &\text{Telephone}\\
-    100&\text{Housecall} \\
-    50&\text{Letter}\\
-    \end{block}
-    \end{blockarray}
-\end{align}
-The number of contacts of each type made in
-two cities X and Y is given by matrix $\vec{B}$
-\begin{align}
-    \vec{B} =
-    \begin{blockarray}{cccc}
-    \text{Telephone} & \text{Housecall} & \text{Letter} \\
-    \begin{block}{(ccc)(c)}
-    1000 & 500 & 5000 & \text{X}\\
-    3000 & 1000 & 10000 & \text{Y} \\
-    \end{block}
-    \end{blockarray}
-\end{align}
-Find the total
-amount spent by the group in the two cities
-X and Y
-%
-\solution
-\input{solutions/su2021/64/Assignment-8.tex}
 
 \item If A=$\myvec{3 &\sqrt{3} &2\\4 &2 &0}$ and B=$\myvec{2 &-1 &2\\1 &2 &4}$, verify that\\
 (i) $(A^{'})^{'}=A$\\ (ii)$(A+B)^{'}=A^{'}+B^{'}$,\\ (iii) $(kB)^{'}=kB^{'}$,where k is any constant.\\
 \item If A=$\myvec{-2\\4 \\5}$,B=$\myvec{1 &3 &-6}$, verify that $(AB)^{'}=B^{'}A^{'}$\\
-\item Express the matrix B=$\myvec{2 &-2 &-4\\-1 &3 &4\\1 &-2 &-3}$ as the sum of a symmetric and a skew symmetric matrix.\\
-\solution
-  \input{solutions/su2021/67/main.tex}
   
 \item By using elementary operations,find the inverse of the matrix\\
 A=$\myvec{1 &2\\2 &-1}$.\\
-\item Obtain the inverse of the following matrix using elementary operations\\
-A=$\myvec{0 &1 &2\\1 &2 &3\\3 &1 &1}$.\\
-\solution
-  \input{solutions/su2021/69.tex}
 
-\item Find P$^{-1}$, if it exists, given \\
-P=$\myvec{10 &-2\\-5 &1}$.\\
-\solution
-\input{solutions/su2021/70.tex}
 \item If A=$\myvec{\cos\theta &\sin\theta\\ \-sin\theta &\cos\theta}$,\\then prove that $A^{n}=\myvec{\cos\theta &\sin n\theta\\\-sin n\theta &\cos n\theta}$, n $\in$ N.\\
 \item If A and B are symmetric matrices of the same order, then show that AB is symmetric if and only if A and B commute,that AB = BA.\\
 \item Let A=$\myvec{2 &-1\\3 &4}$, B=$\myvec{5 &2\\7 &4}$, C=$\myvec{2 &5\\3 &8}$. Find a matrix D such that CD-AB=0. 

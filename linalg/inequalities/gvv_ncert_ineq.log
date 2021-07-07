@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.4)  5 JUL 2021 09:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.7)  7 JUL 2021 21:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1620,8 +1620,8 @@ Package pdftex.def Info: ./solutions/5/figs/lines/q6-eps-converted-to.pdf  used
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]))
-(./line/lineaeqn_exer.tex (./solutions/1/chapters/line/line_ineq/solution.tex
+])
+(./solutions/1/chapters/line/line_ineq/solution.tex
 
 LaTeX Warning: File `./solutions/1/figs/line/line_eq.eps' not found on input li
 ne 33.
@@ -1643,7 +1643,10 @@ df)
 Package pdftex.def Info: ./solutions/1/figs/line/line_eq-eps-converted-to.pdf  
 used on input line 33.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./solutions/2/chapters/line_ex/lin_ineq/solution.tex
+) (./solutions/2/chapters/line_ex/lin_ineq/solution.tex [2 <./line/figs/line_in
+eq-eps-converted-to.pdf> <./line/figs/line_ineq_mult-eps-converted-to.pdf> <./s
+olutions/5/figs/lines/q6-eps-converted-to.pdf> <./solutions/1/figs/line/line_eq
+-eps-converted-to.pdf>]
 
 LaTeX Warning: File `./solutions/2/figs/line_ex/lin_ineq/number_line.eps' not f
 ound on input line 15.
@@ -1659,17 +1662,15 @@ _line-eps-converted-to.pdf>
 number_line.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/2/figs/line_ex/lin_ineq/number_line-eps-converted-to.pdf, id=99, 4
-62.52798pt x 346.89601pt>
+<./solutions/2/figs/line_ex/lin_ineq/number_line-eps-converted-to.pdf, id=183, 
+462.52798pt x 346.89601pt>
 File: ./solutions/2/figs/line_ex/lin_ineq/number_line-eps-converted-to.pdf Grap
 hic file (type pdf)
 <use ./solutions/2/figs/line_ex/lin_ineq/number_line-eps-converted-to.pdf>
 Package pdftex.def Info: ./solutions/2/figs/line_ex/lin_ineq/number_line-eps-co
 nverted-to.pdf  used on input line 15.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./solutions/3/chapters/line/ineq/solution.tex [2 <./line/figs/line_ineq-eps-
-converted-to.pdf> <./line/figs/line_ineq_mult-eps-converted-to.pdf> <./solution
-s/5/figs/lines/q6-eps-converted-to.pdf>]
+) (./solutions/3/chapters/line/ineq/solution.tex
 
 LaTeX Warning: File `./solutions/3/codes/line/ineq/pyfigs/ineq.eps' not found o
 n input line 21.
@@ -1685,7 +1686,7 @@ neq/pyfigs/ineq-eps-converted-to.pdf ./solutions/3/codes/line/ineq/pyfigs/ineq.
 eps>
 (epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/3/codes/line/ineq/pyfigs/ineq-eps-converted-to.pdf, id=177, 462.52
+<./solutions/3/codes/line/ineq/pyfigs/ineq-eps-converted-to.pdf, id=185, 462.52
 798pt x 346.89601pt>
 File: ./solutions/3/codes/line/ineq/pyfigs/ineq-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1700,12 +1701,6 @@ Underfull \hbox (badness 1748) in paragraph at lines 20--21
  []
 
 
-Underfull \vbox (badness 1418) has occurred while \output is active []
-
- [3 <./solutions/1/figs/line/line_eq-eps-converted-to.pdf> <./solutions/2/figs/
-line_ex/lin_ineq/number_line-eps-converted-to.pdf> <./solutions/3/codes/line/in
-eq/pyfigs/ineq-eps-converted-to.pdf>]
-
 LaTeX Warning: File `./solutions/5/figs/lines/q15.eps' not found on input line 
 26.
 
@@ -1718,7 +1713,7 @@ Package epstopdf Info: Source file: <./solutions/5/figs/lines/q15.eps>
 15-eps-converted-to.pdf ./solutions/5/figs/lines/q15.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/5/figs/lines/q15-eps-converted-to.pdf, id=276, 462.52798pt x 346.8
+<./solutions/5/figs/lines/q15-eps-converted-to.pdf, id=187, 462.52798pt x 346.8
 9601pt>
 File: ./solutions/5/figs/lines/q15-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1726,7 +1721,9 @@ File: ./solutions/5/figs/lines/q15-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./solutions/5/figs/lines/q15-eps-converted-to.pdf  use
 d on input line 26.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./solutions/6/chapters/line/linear_inequalities/solution.tex
+) (./solutions/6/chapters/line/linear_inequalities/solution.tex [3 <./solutions
+/2/figs/line_ex/lin_ineq/number_line-eps-converted-to.pdf> <./solutions/3/codes
+/line/ineq/pyfigs/ineq-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 20--22
 
  []
@@ -1752,7 +1749,7 @@ inear_inequalities/linear_inequalities-eps-converted-to.pdf ./solutions/6/codes
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 <./solutions/6/codes/line/linear_inequalities/linear_inequalities-eps-converted
--to.pdf, id=278, 526.12558pt x 362.7954pt>
+-to.pdf, id=281, 526.12558pt x 362.7954pt>
 File: ./solutions/6/codes/line/linear_inequalities/linear_inequalities-eps-conv
 erted-to.pdf Graphic file (type pdf)
 <use ./solutions/6/codes/line/linear_inequalities/linear_inequalities-eps-conve
@@ -1776,7 +1773,7 @@ n_ineq/lin_ineq-eps-converted-to.pdf ./solutions/7/figs/line/lin_ineq/lin_ineq.
 eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
-<./solutions/7/figs/line/lin_ineq/lin_ineq-eps-converted-to.pdf, id=280, 252.94
+<./solutions/7/figs/line/lin_ineq/lin_ineq-eps-converted-to.pdf, id=283, 252.94
 5pt x 189.70876pt>
 File: ./solutions/7/figs/line/lin_ineq/lin_ineq-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1784,53 +1781,46 @@ le (type pdf)
 Package pdftex.def Info: ./solutions/7/figs/line/lin_ineq/lin_ineq-eps-converte
 d-to.pdf  used on input line 15.
 (pdftex.def)             Requested size: 252.0pt x 189.00485pt.
-) [4 <./solutions/5/figs/lines/q15-eps-converted-to.pdf> <./solutions/6/codes/l
-ine/linear_inequalities/linear_inequalities-eps-converted-to.pdf> <./solutions/
-7/figs/line/lin_ineq/lin_ineq-eps-converted-to.pdf>]
-(./solutions/su2021/2/58/Assignment10.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<solutions/su2021/2/58/Figures/Figure_2.58.png, id=369, 385.44pt x 262.9825pt>
+) (./solutions/su2021/2/58/Assignment10.tex [4 <./solutions/5/figs/lines/q15-ep
+s-converted-to.pdf> <./solutions/6/codes/line/linear_inequalities/linear_inequa
+lities-eps-converted-to.pdf> <./solutions/7/figs/line/lin_ineq/lin_ineq-eps-con
+verted-to.pdf>]
+<solutions/su2021/2/58/Figures/Figure_2.58.png, id=367, 385.44pt x 262.9825pt>
 File: solutions/su2021/2/58/Figures/Figure_2.58.png Graphic file (type png)
 <use solutions/su2021/2/58/Figures/Figure_2.58.png>
 Package pdftex.def Info: solutions/su2021/2/58/Figures/Figure_2.58.png  used on
  input line 47.
 (pdftex.def)             Requested size: 252.0pt x 171.93576pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5]
-<solutions/su2021/2/58/Figures/2.58(2).png, id=427, 387.4475pt x 262.9825pt>
+<solutions/su2021/2/58/Figures/2.58(2).png, id=369, 387.4475pt x 262.9825pt>
 File: solutions/su2021/2/58/Figures/2.58(2).png Graphic file (type png)
 <use solutions/su2021/2/58/Figures/2.58(2).png>
 Package pdftex.def Info: solutions/su2021/2/58/Figures/2.58(2).png  used on inp
 ut line 54.
 (pdftex.def)             Requested size: 252.0pt x 171.04893pt.
-)
-(./solutions/su2021/2/50/ASSIGNMENT9.tex
+) (./solutions/su2021/2/50/ASSIGNMENT9.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/su2021/2/50/Graphical Solution.png, id=429, 385.44pt x 262.9825pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./solutions/su2021/2/58/Figures/Figure_2.58.png> <./solutions/su2021/2/58/
+Figures/2.58(2).png>]
+<solutions/su2021/2/50/Graphical Solution.png, id=399, 385.44pt x 262.9825pt>
 File: solutions/su2021/2/50/Graphical Solution.png Graphic file (type png)
 <use solutions/su2021/2/50/Graphical Solution.png>
 Package pdftex.def Info: solutions/su2021/2/50/Graphical Solution.png  used on 
 input line 32.
 (pdftex.def)             Requested size: 252.0pt x 171.93576pt.
-)
-(./solutions/su2021/2/51/main.tex) (./solutions/su2021/2/52/main.tex [6 <./solu
-tions/su2021/2/58/Figures/Figure_2.58.png> <./solutions/su2021/2/58/Figures/2.5
-8(2).png> <./solutions/su2021/2/50/Graphical Solution.png>]
-<solutions/su2021/2/52/assignment10.png, id=455, 433.62pt x 289.08pt>
+) (./solutions/su2021/2/51/main.tex)
+(./solutions/su2021/2/52/main.tex
+<solutions/su2021/2/52/assignment10.png, id=401, 433.62pt x 289.08pt>
 File: solutions/su2021/2/52/assignment10.png Graphic file (type png)
 <use solutions/su2021/2/52/assignment10.png>
 Package pdftex.def Info: solutions/su2021/2/52/assignment10.png  used on input 
 line 21.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
-)
-(./solutions/su2021/2/55/Assignment-11.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<solutions/su2021/2/55/Graphical solution region.PNG, id=457, 287.57437pt x 200
+) (./solutions/su2021/2/55/Assignment-11.tex
+<solutions/su2021/2/55/Graphical solution region.PNG, id=403, 287.57437pt x 200
 .24812pt>
 File: solutions/su2021/2/55/Graphical solution region.PNG Graphic file (type pn
 g)
@@ -1840,34 +1830,36 @@ sed on input line 29.
 (pdftex.def)             Requested size: 252.0pt x 175.4825pt.
 )
 (./solutions/su2021/2/56/Assignment-9.tex
-Underfull \vbox (badness 1178) has occurred while \output is active []
+Underfull \vbox (badness 4660) has occurred while \output is active []
 
- [7 <./solutions/su2021/2/52/assignment10.png> <./solutions/su2021/2/55/Graphic
-al solution region.PNG>]
-<solutions/su2021/2/56/Figure9_1.png, id=491, 389.455pt x 262.9825pt>
+ [6 <./solutions/su2021/2/50/Graphical Solution.png> <./solutions/su2021/2/52/a
+ssignment10.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<solutions/su2021/2/56/Figure9_1.png, id=435, 389.455pt x 262.9825pt>
 File: solutions/su2021/2/56/Figure9_1.png Graphic file (type png)
 <use solutions/su2021/2/56/Figure9_1.png>
 Package pdftex.def Info: solutions/su2021/2/56/Figure9_1.png  used on input lin
 e 64.
 (pdftex.def)             Requested size: 252.0pt x 170.16212pt.
-<solutions/su2021/2/56/Figure9_2.png, id=492, 379.4175pt x 262.9825pt>
+<solutions/su2021/2/56/Figure9_2.png, id=436, 379.4175pt x 262.9825pt>
 File: solutions/su2021/2/56/Figure9_2.png Graphic file (type png)
 <use solutions/su2021/2/56/Figure9_2.png>
 Package pdftex.def Info: solutions/su2021/2/56/Figure9_2.png  used on input lin
 e 71.
 (pdftex.def)             Requested size: 252.0pt x 174.66847pt.
-<solutions/su2021/2/56/Figure 9_3.png, id=493, 392.46625pt x 266.9975pt>
+<solutions/su2021/2/56/Figure 9_3.png, id=437, 392.46625pt x 266.9975pt>
 File: solutions/su2021/2/56/Figure 9_3.png Graphic file (type png)
 <use solutions/su2021/2/56/Figure 9_3.png>
 Package pdftex.def Info: solutions/su2021/2/56/Figure 9_3.png  used on input li
 ne 78.
 (pdftex.def)             Requested size: 252.0pt x 171.44002pt.
-) (./solutions/su2021/2/57/Assignment11.tex
+)
+(./solutions/su2021/2/57/Assignment11.tex [7 <./solutions/su2021/2/55/Graphical
+ solution region.PNG> <./solutions/su2021/2/56/Figure9_1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8 <./solutions/su2021/2/56/Figure9_1.png> <./solutions/su2021/2/56/Figure9_2.
-png> <./solutions/su2021/2/56/Figure 9_3.png>]
-<solutions/su2021/2/57/Figures/Figure11_1.png, id=523, 383.4325pt x 262.9825pt>
+<solutions/su2021/2/57/Figures/Figure11_1.png, id=470, 383.4325pt x 262.9825pt>
 
 File: solutions/su2021/2/57/Figures/Figure11_1.png Graphic file (type png)
 <use solutions/su2021/2/57/Figures/Figure11_1.png>
@@ -1875,20 +1867,24 @@ Package pdftex.def Info: solutions/su2021/2/57/Figures/Figure11_1.png  used on
 input line 54.
 (pdftex.def)             Requested size: 252.0pt x 172.83864pt.
 ))
+(./line/lineaeqn_exer.tex [8 <./solutions/su2021/2/56/Figure9_2.png> <./solutio
+ns/su2021/2/56/Figure 9_3.png> <./solutions/su2021/2/57/Figures/Figure11_1.png>
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9 <./solutions/su2021/2/57/Figures/Figure11_1.png>] (./gvv_ncert_ineq.aux)
+) [9]
+(./gvv_ncert_ineq.aux)
 Package rerunfilecheck Info: File `gvv_ncert_ineq.out' has not changed.
 (rerunfilecheck)             Checksum: 7712137A7DC5E6F8789D9B67351AC245;171.
  ) 
 Here is how much of TeX's memory you used:
  44988 strings out of 478994
  1003980 string characters out of 5864752
- 1556542 words of memory out of 5000000
+ 1556536 words of memory out of 5000000
  61323 multiletter control sequences out of 15000+600000
  481697 words of font info for 199 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 102i,16n,111p,506b,1925s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,16n,111p,506b,1313s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/txfonts/rtxmi.pfb></usr/share/texmf-dist/fonts/type1/public/txf
 onts/rtxr.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr
@@ -1898,7 +1894,7 @@ onts/txsya.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
 are/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on gvv_ncert_ineq.pdf (9 pages, 233628 bytes).
+Output written on gvv_ncert_ineq.pdf (9 pages, 233231 bytes).
 PDF statistics:
  639 PDF objects out of 1000 (max. 8388607)
  426 compressed objects within 5 object streams

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.7)  7 JUL 2021 10:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.7)  7 JUL 2021 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1870,28 +1870,20 @@ File: ./solutions/5/1/10/plot.png Graphic file (type png)
 <use ./solutions/5/1/10/plot.png>
 Package pdftex.def Info: ./solutions/5/1/10/plot.png  used on input line 49.
 (pdftex.def)             Requested size: 252.0pt x 127.18427pt.
-))
+)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(./chapters/opt/grad_des.tex
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-
- []
-
-(./solutions/su2021/2/12/ASSIGNMENT10.tex [8 <./solutions/5/1/10/plot.png>]
+(./solutions/su2021/2/12/ASSIGNMENT10.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
-<solutions/su2021/2/12/Graphical Solution_10.png, id=322, 385.44pt x 262.9825pt
+ [8 <./solutions/5/1/10/plot.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<solutions/su2021/2/12/Graphical Solution_10.png, id=296, 385.44pt x 262.9825pt
 >
 File: solutions/su2021/2/12/Graphical Solution_10.png Graphic file (type png)
 <use solutions/su2021/2/12/Graphical Solution_10.png>
@@ -1902,11 +1894,10 @@ on input line 83.
 (./solutions/su2021/2/13/main.tex
 Underfull \vbox (badness 1005) has occurred while \output is active []
 
-
+ [9 <./solutions/su2021/2/12/Graphical Solution_10.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10 <./solutions/su2021/2/12/Graphical Solution_10.png>]
-<solutions/su2021/2/13/Figure9.png, id=348, 393.47pt x 262.9825pt>
+<solutions/su2021/2/13/Figure9.png, id=319, 393.47pt x 262.9825pt>
 File: solutions/su2021/2/13/Figure9.png Graphic file (type png)
 <use solutions/su2021/2/13/Figure9.png>
 Package pdftex.def Info: solutions/su2021/2/13/Figure9.png  used on input line 
@@ -1916,39 +1907,41 @@ Package pdftex.def Info: solutions/su2021/2/13/Figure9.png  used on input line
 (./solutions/su2021/2/14/main-9.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11 <./solutions/su2021/2/13/Figure9.png>]
+ [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/su2021/2/14/download.png, id=377, 393.47pt x 262.9825pt>
+ [11 <./solutions/su2021/2/13/Figure9.png>]
+<solutions/su2021/2/14/download.png, id=366, 393.47pt x 262.9825pt>
 File: solutions/su2021/2/14/download.png Graphic file (type png)
 <use solutions/su2021/2/14/download.png>
 Package pdftex.def Info: solutions/su2021/2/14/download.png  used on input line
  91.
 (pdftex.def)             Requested size: 252.0pt x 168.42859pt.
-)
-(./solutions/su2021/2/15/main.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12]
+) (./solutions/su2021/2/15/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13 <./solutions/su2021/2/14/download.png>]
-<solutions/su2021/2/15/download (2).png, id=422, 383.4325pt x 262.9825pt>
+ [12 <./solutions/su2021/2/14/download.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<solutions/su2021/2/15/download (2).png, id=395, 383.4325pt x 262.9825pt>
 File: solutions/su2021/2/15/download (2).png Graphic file (type png)
 <use solutions/su2021/2/15/download (2).png>
 Package pdftex.def Info: solutions/su2021/2/15/download (2).png  used on input 
 line 83.
 (pdftex.def)             Requested size: 252.0pt x 172.83864pt.
-) (./solutions/su2021/2/16/Assignment 11.tex
+)
+(./solutions/su2021/2/16/Assignment 11.tex [13 <./solutions/su2021/2/15/downloa
+d (2).png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14 <./solutions/su2021/2/15/download (2).png>]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/su2021/2/16/Figure 11.png, id=448, 383.4325pt x 262.9825pt>
+ [14]
+<solutions/su2021/2/16/Figure 11.png, id=439, 383.4325pt x 262.9825pt>
 File: solutions/su2021/2/16/Figure 11.png Graphic file (type png)
 <use solutions/su2021/2/16/Figure 11.png>
 Package pdftex.def Info: solutions/su2021/2/16/Figure 11.png  used on input lin
@@ -1956,19 +1949,19 @@ e 90.
 (pdftex.def)             Requested size: 252.0pt x 172.83864pt.
 )
 (./solutions/su2021/2/17/main.tex
-Underfull \hbox (badness 4024) in paragraph at lines 86--2
+Underfull \hbox (badness 4024) in paragraph at lines 136--2
 []\OT1/txr/m/n/12 A cot-tage in-dus-try man-u-fac-tures pedestal
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 86--2
+Underfull \hbox (badness 1490) in paragraph at lines 136--2
 \OT1/txr/m/n/12 lamps and wooden shades, each re-quir-ing
  []
 
-[15 <./solutions/su2021/2/16/Figure 11.png>]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [15 <./solutions/su2021/2/16/Figure 11.png>]
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 59.
 
@@ -1993,7 +1986,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--73
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
+
 Underfull \hbox (badness 2269) in paragraph at lines 80--83
 \OT1/txr/m/n/12 No. of pedestal lamps man-u-fac-tured is
  []
@@ -2003,16 +1996,17 @@ Underfull \hbox (badness 1803) in paragraph at lines 84--85
 []\OT1/txr/m/n/12 No. of wooden shades man-u-fac-tured is
  []
 
-<solutions/su2021/2/17/assignment11.png, id=490, 433.62pt x 289.08pt>
+<solutions/su2021/2/17/assignment11.png, id=464, 433.62pt x 289.08pt>
 File: solutions/su2021/2/17/assignment11.png Graphic file (type png)
 <use solutions/su2021/2/17/assignment11.png>
 Package pdftex.def Info: solutions/su2021/2/17/assignment11.png  used on input 
 line 89.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
-) (./solutions/su2021/2/18/main.tex
+) (./solutions/su2021/2/18/main.tex [16 <./solutions/su2021/2/17/assignment11.p
+ng>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17 <./solutions/su2021/2/17/assignment11.png>]
+
 Underfull \hbox (badness 2503) in paragraph at lines 82--84
 \OT1/txr/m/n/12 Hence ,[] Sou-venirs of type A and
  []
@@ -2020,99 +2014,35 @@ Underfull \hbox (badness 2503) in paragraph at lines 82--84
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/su2021/2/18/Diagram.png, id=513, 383.4325pt x 262.9825pt>
+ [17]
+<solutions/su2021/2/18/Diagram.png, id=509, 383.4325pt x 262.9825pt>
 File: solutions/su2021/2/18/Diagram.png Graphic file (type png)
 <use solutions/su2021/2/18/Diagram.png>
 Package pdftex.def Info: solutions/su2021/2/18/Diagram.png  used on input line 
 87.
 (pdftex.def)             Requested size: 252.0pt x 172.83864pt.
 )
-Underfull \hbox (badness 5681) in paragraph at lines 107--113
-\OT1/txr/m/n/12 re-spec-tively. He es-ti-mates that the to-tal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--120
-
- []
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 120--126
-\OT1/txr/m/n/12 con-di-tions, a farmer finds that she needs
- []
-
-
-Underfull \hbox (badness 1895) in paragraph at lines 120--126
-\OT1/txr/m/n/12 atleast 14 kg of ni-tro-gen and 14 kg of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--126
-
- []
-
-[18 <./solutions/su2021/2/18/Diagram.png>]
-Underfull \hbox (badness 2521) in paragraph at lines 126--135
-[]\OT1/txr/m/n/12 The cor-ner points of the fea-si-ble re-gion
- []
-
-
-Underfull \hbox (badness 5924) in paragraph at lines 126--135
-\OT1/txr/m/n/12 (0,0), (5,0),(3,4) and (0,5).Let Z=px+qy,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--135
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--146
-
- []
-
-
-Overfull \hbox (6.70403pt too wide) in paragraph at lines 146--162
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--162
+(./solutions/su2021/2/26/main.tex
+Underfull \hbox (badness 10000) in paragraph at lines 174--1
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--184
-
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 184--190
-\OT1/txr/m/n/12 The air-line re-serves at least 20 seats for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--190
-
- []
-
-(./solutions/su2021/2/28/Assignment-12.tex
+ [18 <./solutions/su2021/2/18/Diagram.png>]
+<solutions/su2021/2/26/Figure10.png, id=532, 387.4475pt x 262.9825pt>
+File: solutions/su2021/2/26/Figure10.png Graphic file (type png)
+<use solutions/su2021/2/26/Figure10.png>
+Package pdftex.def Info: solutions/su2021/2/26/Figure10.png  used on input line
+ 76.
+(pdftex.def)             Requested size: 252.0pt x 171.04893pt.
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+
+(./solutions/su2021/2/28/Assignment-12.tex [19 <./solutions/su2021/2/26/Figure1
+0.png>]
 Overfull \hbox (1.73454pt too wide) detected at line 31
 []
  []
@@ -2120,38 +2050,23 @@ Overfull \hbox (1.73454pt too wide) detected at line 31
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/su2021/2/28/graphical solution.PNG, id=555, 294.34969pt x 196.48407p
+<solutions/su2021/2/28/graphical solution.PNG, id=566, 294.34969pt x 196.48407p
 t>
 File: solutions/su2021/2/28/graphical solution.PNG Graphic file (type png)
 <use solutions/su2021/2/28/graphical solution.PNG>
 Package pdftex.def Info: solutions/su2021/2/28/graphical solution.PNG  used on 
 input line 57.
 (pdftex.def)             Requested size: 252.0pt x 168.21747pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20])
-Underfull \hbox (badness 10000) in paragraph at lines 211--213
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--231
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 232--235
-
- []
-
-
-Underfull \hbox (badness 1796) in paragraph at lines 235--236
+)
+Underfull \hbox (badness 1796) in paragraph at lines 203--204
 \OT1/txr/m/n/12 til-izer in his gar-den, brand P and brand
  []
 
-(./solutions/su2021/2/30/Assignment_11.tex [21 <./solutions/su2021/2/28/graphic
-al solution.PNG>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+(./solutions/su2021/2/30/Assignment_11.tex
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 67.
 
@@ -2172,12 +2087,12 @@ Overfull \hbox (11.7445pt too wide) detected at line 67
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [21 <./solutions/su2021/2/28/graphical solution.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 78--81
 
  []
 
-<solutions/su2021/2/30/Graphical_Solution_2.30.png, id=602, 390.45876pt x 262.9
+<solutions/su2021/2/30/Graphical_Solution_2.30.png, id=610, 390.45876pt x 262.9
 825pt>
 File: solutions/su2021/2/30/Graphical_Solution_2.30.png Graphic file (type png)
 
@@ -2185,20 +2100,17 @@ File: solutions/su2021/2/30/Graphical_Solution_2.30.png Graphic file (type png)
 Package pdftex.def Info: solutions/su2021/2/30/Graphical_Solution_2.30.png  use
 d on input line 98.
 (pdftex.def)             Requested size: 252.0pt x 169.72873pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 )
-Underfull \hbox (badness 10000) in paragraph at lines 259--262
-
- []
-
-[22 <./solutions/su2021/2/30/Graphical_Solution_2.30.png>]
 (./solutions/su2021/2/32/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [22 <./solutions/su2021/2/30/Graphical_Solution_2.30.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
-<solutions/su2021/2/32/download.png, id=642, 398.48875pt x 262.9825pt>
+<solutions/su2021/2/32/download.png, id=634, 398.48875pt x 262.9825pt>
 File: solutions/su2021/2/32/download.png Graphic file (type png)
 <use solutions/su2021/2/32/download.png>
 Package pdftex.def Info: solutions/su2021/2/32/download.png  used on input line
@@ -2208,7 +2120,10 @@ Package pdftex.def Info: solutions/su2021/2/32/download.png  used on input line
 (./solutions/su2021/2/35/Assignment-10.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24 <./solutions/su2021/2/32/download.png>]
+ [23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 61.
 
@@ -2224,7 +2139,7 @@ LaTeX Font Warning: Command \small invalid in math mode on input line 61.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [24 <./solutions/su2021/2/32/download.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 72--75
 
  []
@@ -2234,48 +2149,153 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--88
 []\OT1/txr/m/n/12 The max-i-mum profit per week is
  []
 
-<solutions/su2021/2/35/Figure 10_1.png, id=668, 395.4775pt x 262.9825pt>
+<solutions/su2021/2/35/Figure 10_1.png, id=676, 395.4775pt x 262.9825pt>
 File: solutions/su2021/2/35/Figure 10_1.png Graphic file (type png)
 <use solutions/su2021/2/35/Figure 10_1.png>
 Package pdftex.def Info: solutions/su2021/2/35/Figure 10_1.png  used on input l
 ine 91.
 (pdftex.def)             Requested size: 252.0pt x 167.57387pt.
 ) (./solutions/su2021/2/36/Assignment12.tex
-Underfull \hbox (badness 10000) in paragraph at lines 318--20
+Underfull \hbox (badness 10000) in paragraph at lines 247--20
 
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 318--20
+Underfull \hbox (badness 2538) in paragraph at lines 247--20
 \OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 Let the num-ber of pack-ets of
  []
 
-[25 <./solutions/su2021/2/35/Figure 10_1.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
-<solutions/su2021/2/36/Figure12.png, id=714, 383.4325pt x 262.9825pt>
+ [25 <./solutions/su2021/2/35/Figure 10_1.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<solutions/su2021/2/36/Figure12.png, id=703, 383.4325pt x 262.9825pt>
 File: solutions/su2021/2/36/Figure12.png Graphic file (type png)
 <use solutions/su2021/2/36/Figure12.png>
 Package pdftex.def Info: solutions/su2021/2/36/Figure12.png  used on input line
  94.
 (pdftex.def)             Requested size: 252.0pt x 172.83864pt.
 ))
-[27 <./solutions/su2021/2/36/Figure12.png>] (./gvv_ncert_opt.aux)
+(./chapters/opt/grad_des.tex [26]
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \vbox (badness 5217) has occurred while \output is active []
+
+
+Underfull \hbox (badness 5681) in paragraph at lines 36--42
+\OT1/txr/m/n/12 re-spec-tively. He es-ti-mates that the to-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--49
+
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 49--55
+\OT1/txr/m/n/12 con-di-tions, a farmer finds that she needs
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 49--55
+\OT1/txr/m/n/12 atleast 14 kg of ni-tro-gen and 14 kg of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--55
+
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 55--64
+[]\OT1/txr/m/n/12 The cor-ner points of the fea-si-ble re-gion
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 55--64
+\OT1/txr/m/n/12 (0,0), (5,0),(3,4) and (0,5).Let Z=px+qy,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--64
+
+ []
+
+[27 <./solutions/su2021/2/36/Figure12.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 64--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--75
+
+ []
+
+
+Overfull \hbox (6.70403pt too wide) in paragraph at lines 75--91
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--91
+
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 91--97
+\OT1/txr/m/n/12 The air-line re-serves at least 20 seats for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--115
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
+
+ []
+
+) [28] (./gvv_ncert_opt.aux)
 Package rerunfilecheck Info: File `gvv_ncert_opt.out' has not changed.
 (rerunfilecheck)             Checksum: 7712137A7DC5E6F8789D9B67351AC245;171.
  ) 
 Here is how much of TeX's memory you used:
- 47835 strings out of 478994
- 1076716 string characters out of 5864752
- 1610973 words of memory out of 5000000
- 63843 multiletter control sequences out of 15000+600000
+ 47874 strings out of 478994
+ 1077448 string characters out of 5864752
+ 1610067 words of memory out of 5000000
+ 63851 multiletter control sequences out of 15000+600000
  510521 words of font info for 279 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 102i,20n,111p,574b,1316s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,20n,111p,573b,1316s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/txfonts/rtxb.pfb></usr/share/texmf-dist/fonts/type1/public/txfo
 nts/rtxbmi.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
@@ -2287,10 +2307,10 @@ t/fonts/type1/public/txfonts/txsya.pfb></usr/share/texmf-dist/fonts/type1/urw/t
 imes/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/
 share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_opt.pdf (27 pages, 501069 bytes).
+Output written on gvv_ncert_opt.pdf (28 pages, 515866 bytes).
 PDF statistics:
- 884 PDF objects out of 1000 (max. 8388607)
- 771 compressed objects within 8 object streams
- 521 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 924 PDF objects out of 1000 (max. 8388607)
+ 807 compressed objects within 9 object streams
+ 548 named destinations out of 1000 (max. 500000)
+ 230 words of extra memory for PDF output out of 10000 (max. 10000000)
 
