@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.4)  5 JUL 2021 16:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.7)  7 JUL 2021 10:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2191,13 +2191,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 259--262
  []
 
 [22 <./solutions/su2021/2/30/Graphical_Solution_2.30.png>]
-(./solutions/su2021/2/35/Assignment-10.tex
+(./solutions/su2021/2/32/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
+<solutions/su2021/2/32/download.png, id=642, 398.48875pt x 262.9825pt>
+File: solutions/su2021/2/32/download.png Graphic file (type png)
+<use solutions/su2021/2/32/download.png>
+Package pdftex.def Info: solutions/su2021/2/32/download.png  used on input line
+ 80.
+(pdftex.def)             Requested size: 252.0pt x 166.30583pt.
+)
+(./solutions/su2021/2/35/Assignment-10.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24 <./solutions/su2021/2/32/download.png>]
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 61.
 
@@ -2209,6 +2220,9 @@ LaTeX Font Warning: Command \small invalid in math mode on input line 61.
 
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 61.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 72--75
@@ -2216,55 +2230,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--75
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 87--88
 []\OT1/txr/m/n/12 The max-i-mum profit per week is
  []
 
-<solutions/su2021/2/35/Figure 10_1.png, id=643, 395.4775pt x 262.9825pt>
+<solutions/su2021/2/35/Figure 10_1.png, id=668, 395.4775pt x 262.9825pt>
 File: solutions/su2021/2/35/Figure 10_1.png Graphic file (type png)
 <use solutions/su2021/2/35/Figure 10_1.png>
 Package pdftex.def Info: solutions/su2021/2/35/Figure 10_1.png  used on input l
 ine 91.
 (pdftex.def)             Requested size: 252.0pt x 167.57387pt.
 ) (./solutions/su2021/2/36/Assignment12.tex
-Underfull \hbox (badness 10000) in paragraph at lines 314--20
+Underfull \hbox (badness 10000) in paragraph at lines 318--20
 
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 314--20
+Underfull \hbox (badness 2538) in paragraph at lines 318--20
 \OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 Let the num-ber of pack-ets of
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24 <./solutions/su2021/2/35/Figure 10_1.png>]
+[25 <./solutions/su2021/2/35/Figure 10_1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
-<solutions/su2021/2/36/Figure12.png, id=685, 383.4325pt x 262.9825pt>
+ [26]
+<solutions/su2021/2/36/Figure12.png, id=714, 383.4325pt x 262.9825pt>
 File: solutions/su2021/2/36/Figure12.png Graphic file (type png)
 <use solutions/su2021/2/36/Figure12.png>
 Package pdftex.def Info: solutions/su2021/2/36/Figure12.png  used on input line
  94.
 (pdftex.def)             Requested size: 252.0pt x 172.83864pt.
 ))
-[26 <./solutions/su2021/2/36/Figure12.png>] (./gvv_ncert_opt.aux)
+[27 <./solutions/su2021/2/36/Figure12.png>] (./gvv_ncert_opt.aux)
 Package rerunfilecheck Info: File `gvv_ncert_opt.out' has not changed.
 (rerunfilecheck)             Checksum: 7712137A7DC5E6F8789D9B67351AC245;171.
  ) 
 Here is how much of TeX's memory you used:
- 47801 strings out of 478994
- 1076062 string characters out of 5864752
- 1610926 words of memory out of 5000000
- 63836 multiletter control sequences out of 15000+600000
+ 47835 strings out of 478994
+ 1076716 string characters out of 5864752
+ 1610973 words of memory out of 5000000
+ 63843 multiletter control sequences out of 15000+600000
  510521 words of font info for 279 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  102i,20n,111p,574b,1316s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2279,10 +2287,10 @@ t/fonts/type1/public/txfonts/txsya.pfb></usr/share/texmf-dist/fonts/type1/urw/t
 imes/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/
 share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_opt.pdf (26 pages, 486519 bytes).
+Output written on gvv_ncert_opt.pdf (27 pages, 501069 bytes).
 PDF statistics:
- 849 PDF objects out of 1000 (max. 8388607)
- 739 compressed objects within 8 object streams
- 497 named destinations out of 1000 (max. 500000)
- 220 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 884 PDF objects out of 1000 (max. 8388607)
+ 771 compressed objects within 8 object streams
+ 521 named destinations out of 1000 (max. 500000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,28 @@
+Let $X \in \{0,1\}$ and $Y \in \{0,1\}$ where,
+\begin{table}[ht!]
+\begin{tabular}{|l|l|l|}
+\hline
+\multirow{2}{*}{X} & 0 &  Man says truth\\ \cline{2-3} 
+                   & 1 &  Man lie\\ \hline
+\multirow{2}{*}{Y} & 0 &  Die shows six     \\ \cline{2-3} 
+                   & 1 & Die shows number other than 6    \\ \hline
+\end{tabular}
+\caption{}
+\label{bayes/18/table}
+\end{table}
+From the given information we have,
+\begin{align}
+    Pr(X=0) = \frac{3}{4} \\
+    Pr(X=1) = \frac{1}{4} \\
+    Pr(Y=0|X=0) = \frac{1}{6} \\
+    Pr(Y=0|X=1) = \frac{5}{6}
+\end{align}
+The probability that the die shows 6 given the man reports it is six,
+\begin{align}
+Pr(X=0|Y=0)&= \frac{Pr(Y=0|X=0)Pr(X=0)}{\sum_{i=0}^{1}{Pr}(Y=0|X=i)Pr(X=i)} \label{bayes/18/eq:1}
+\end{align}
+Substituting the given values in \eqref{bayes/18/eq:1},
+\begin{align}
+  Pr(X=0|Y=0)&=\frac{\frac{1}{6}\frac{3}{4}}{\frac{1}{6}\frac{3}{4}+\frac{5}{6}\frac{1}{4}} 
+  &= \frac{3}{8}
+\end{align}
