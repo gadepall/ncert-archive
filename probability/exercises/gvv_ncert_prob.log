@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.7)  7 JUL 2021 18:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.7)  8 JUL 2021 03:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2942,65 +2942,55 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-Underfull \hbox (badness 1867) in paragraph at lines 158--160
-\OT1/txr/m/n/12 in green is tossed. Let A be the event,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
-
- []
-
-
+(./solutions/6/6.16.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62]
-(./solutions/6/6.17.tex) (./solutions/6/6.19.tex
-Underfull \vbox (badness 1067) has occurred while \output is active []
+ [62])
+(./solutions/6/6.17.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
+(./solutions/6/6.19.tex) [63]
 (./solutions/20-30/chapters/prob/examples/docq21.tex)
-(./solutions/20-30/chapters/prob/examples/docq23.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [63])
+(./solutions/20-30/chapters/prob/examples/docq23.tex)
 (./solutions/20-30/chapters/prob/examples/docq24.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-(./solutions/6/6.25.tex)
+(./solutions/6/6.25.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64]
-(./solutions/6/6.27.tex) (./solutions/20-30/chapters/prob/exercises/docq22.tex
+ [64])
+(./solutions/6/6.27.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+)
+(./solutions/20-30/chapters/prob/exercises/docq22.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [65])
 (./solutions/20-30/chapters/prob/exercises/docq27.tex)
 (./solutions/20-30/chapters/prob/exercises/docq28.tex)
-(./solutions/20-30/chapters/prob/exercises/docq29.tex)
-(./solutions/40-50/probability/chapters/Q43/solution.tex
+(./solutions/20-30/chapters/prob/exercises/docq29.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/40-50/probability/chapters/Q46/solution.tex
+(./solutions/40-50/probability/chapters/Q43/solution.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]))
-[67
+ [66]
+(./solutions/40-50/probability/chapters/Q46/solution.tex)) [67
 
-] (./gvv_ncert_prob.aux)
+]
+(./gvv_ncert_prob.aux)
 Package rerunfilecheck Info: File `gvv_ncert_prob.out' has not changed.
 (rerunfilecheck)             Checksum: 75BE9A031EE89C0305EBA7C24A660ED2;892.
  ) 
 Here is how much of TeX's memory you used:
- 56171 strings out of 478994
- 1343931 string characters out of 5864752
- 1958722 words of memory out of 5000000
- 70487 multiletter control sequences out of 15000+600000
+ 56182 strings out of 478994
+ 1344095 string characters out of 5864752
+ 1958721 words of memory out of 5000000
+ 70488 multiletter control sequences out of 15000+600000
  502593 words of font info for 253 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  113i,19n,116p,733b,1440s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3017,10 +3007,10 @@ txfonts/txsya.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><
 st/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/time
 s/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sha
 re/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_prob.pdf (67 pages, 621406 bytes).
+Output written on gvv_ncert_prob.pdf (67 pages, 622346 bytes).
 PDF statistics:
- 2638 PDF objects out of 2984 (max. 8388607)
- 2419 compressed objects within 25 object streams
- 1698 named destinations out of 1728 (max. 500000)
+ 2647 PDF objects out of 2984 (max. 8388607)
+ 2428 compressed objects within 25 object streams
+ 1705 named destinations out of 1728 (max. 500000)
  207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
