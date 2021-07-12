@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.7)  9 JUL 2021 17:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.7)  10 JUL 2021 16:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,1532 +6,6 @@ entering extended mode
 (./gvv_ncert_opt.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
-(/usr/share/texmf-dist/tex/latex/base/latexrelease.sty
-LaTeX Info: Redefining \IfTargetDateBefore on input line 274.
-Package: latexrelease 2018/05/08 v1.0k LaTeX release emulation and tests (inclu
-ding releases up to 2020-10-01)
-Applying: [2019/10/01] Final dot for extension on input line 422.
-Already applied: [0000/00/00] Final dot for extension on input line 439.
-Applying: [2015/01/01] Extended Allocation on input line 450.
-Already applied: [0000/00/00] Extended Allocation on input line 488.
-Applying: [2015/01/01] Extended Allocation on input line 502.
-Already applied: [0000/00/00] Extended Allocation on input line 517.
-Applying: [2015/01/01] Extended Allocation on input line 522.
-Already applied: [0000/00/00] Extended Allocation on input line 530.
-Applying: [2015/01/01] Extended Allocation on input line 533.
-Already applied: [0000/00/00] Extended Allocation on input line 541.
-Applying: [2015/10/01] Extended Allocation (checking) on input line 545.
-Already applied: [2015/01/01] Extended Allocation (checking) on input line 559.
-
-Already applied: [0000/00/00] Extended Allocation (checking) on input line 573.
-
-Applying: [2015/01/01] Extra floats on input line 577.
-Already applied: [0000/00/00] Extra floats on input line 610.
-Skipping: [2020/10/01] emulate alloc@ on input line 615.
-Applying: [0000/00/00] emulate alloc@ on input line 619.
-Applying: [2015/10/01] Extended \newinsert  on input line 627.
-Already applied: [0000/00/00] Extended \newinsert  on input line 671.
-Applying: [2015/01/01] etex tracing on input line 682.
-Already applied: [0000/00/00] etex tracing on input line 715.
-Applying: [2015/01/01] turn off etex tracing on input line 723.
-Already applied: [0000/00/00] turn off etex tracing on input line 768.
-Skipping: [2020/10/01] Define kernel enddocument Hooks on input line 983.
-Applying: [0000/00/00] Define kernel enddocument Hooks on input line 988.
-Skipping: [2020/10/01] Roll forward support on input line 993.
-Skipping: [2020/10/01] Pre-load expl3 on input line 1000.
-Applying: [2020/02/02] Pre-load expl3 on input line 1052.
-
-(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.ltx)
-Skipping: [2020/10/01] Emergency loading xparse on input line 1072.
-Skipping: [2020/10/01] expl3 macros added for the 2020-10-01 release on input l
-ine 1080.
-Applying: [0000/00/00] expl3 macros added for the 2020-10-01 release on input l
-ine 1092.
-Skipping: [2020/10/01] Allow "par" in \typeout  on input line 1102.
-Applying: [0000/00/00] Allow "par" in \typeout  on input line 1109.
-Skipping: [2020/10/01] Make \@carcube long on input line 1114.
-Applying: [0000/00/00] Undo: Make \@carcube long on input line 1117.
-Skipping: [2020/10/01] \MakeRobust  on input line 1120.
-Applying: [2019/10/01] \MakeRobust  on input line 1159.
-Already applied: [2015/01/01] \MakeRobust  on input line 1186.
-Already applied: [0000/00/00] \MakeRobust  on input line 1213.
-Skipping: [2020/10/01] Undo robustness on input line 1218.
-Applying: [0000/00/00] Undo robustness on input line 1234.
-Skipping: [2020-10-01] Add \robust@command@act  on input line 1247.
-Applying: [0000-00-00] Add \robust@command@act  on input line 1283.
-Skipping: [2020-10-01] Add \NewCommandCopy , \RenewCommandCopy , and \DeclareCo
-mmandCopy  on input line 1293.
-Applying: [0000-00-00] Undefine \NewCommandCopy , \RenewCommandCopy , and \Decl
-areCommandCopy  on input line 1319.
-Skipping: [2020-10-01] Add \ShowCommand  on input line 1328.
-Applying: [0000-00-00] Undefine \ShowCommand  on input line 1338.
-Skipping: [2020-10-01] Add \@if@DeclareRobustCommand , \@if@newcommand , \@copy
-@DeclareRobustCommand , \@copy@newcommand , \@show@DeclareRobustCommand , \@sho
-w@newcommand  on input line 1345.
-Applying: [0000-00-00] Undefine \@if@DeclareRobustCommand , \@if@newcommand , \
-@copy@DeclareRobustCommand , \@copy@newcommand , \@show@DeclareRobustCommand , 
-\@show@newcommand  on input line 1439.
-Applying: [2018-04-01] Leave commands undefined in \@ifundefined  on input line
- 1451.
-Already applied: [0000-00-00] Leave commands undefined in \@ifundefined  on inp
-ut line 1479.
-Skipping: [2020/10/01] Add \string@makeletter  on input line 1488.
-Applying: [0000/00/00] Undefine \string@makeletter  on input line 1504.
-Skipping: [2020/10/01] Use primitive \- in Lua\LaTeX  on input line 1509.
-Applying: [2017/04/15] Use \hyphenchar in \- on input line 1524.
-LaTeX Info: Redefining \- on input line 1525.
-Already applied: [0000/00/00] Use \hyphenchar in \- on input line 1535.
-Applying: [2019/10/01] Make various commands robust on input line 1540.
-LaTeX Info: The control sequence `\allowbreak' is already robust on input line 
-1541.
-LaTeX Info: The control sequence `\bigbreak' is already robust on input line 15
-42.
-LaTeX Info: The control sequence `\break' is already robust on input line 1543.
-
-LaTeX Info: The control sequence `\dotfill' is already robust on input line 154
-4.
-LaTeX Info: The control sequence `\frenchspacing' is already robust on input li
-ne 1545.
-LaTeX Info: The control sequence `\goodbreak' is already robust on input line 1
-546.
-LaTeX Info: The control sequence `\hrulefill' is already robust on input line 1
-547.
-LaTeX Info: The control sequence `\medbreak' is already robust on input line 15
-48.
-LaTeX Info: The control sequence `\nobreak' is already robust on input line 154
-9.
-LaTeX Info: The control sequence `\nonfrenchspacing' is already robust on input
- line 1550.
-LaTeX Info: The control sequence `\obeylines' is already robust on input line 1
-551.
-LaTeX Info: The control sequence `\obeyspaces' is already robust on input line 
-1552.
-LaTeX Info: The control sequence `\slash' is already robust on input line 1553.
-
-LaTeX Info: The control sequence `\smallbreak' is already robust on input line 
-1554.
-LaTeX Info: The control sequence `\strut' is already robust on input line 1555.
-
-LaTeX Info: The control sequence `\underbar' is already robust on input line 15
-56.
-Already applied: [0000/00/00] Make various commands robust on input line 1559.
-Skipping: [2020/10/01] The hook management on input line 1586.
-Applying: [0000/00/00] The hook management on input line 2698.
-Applying: [2019/10/01] Make commands robust on input line 2732.
-LaTeX Info: Redefining \pagebreak on input line 2733.
-LaTeX Info: Redefining \nopagebreak on input line 2734.
-LaTeX Info: Redefining \linebreak on input line 2735.
-LaTeX Info: Redefining \nolinebreak on input line 2736.
-LaTeX Info: Redefining \samepage on input line 2737.
-Already applied: [0000/00/00] Make commands robust on input line 2747.
-Applying: [2020/02/02] Make robust on input line 2757.
-Already applied: [0000/00/00] Make robust on input line 2767.
-Skipping: [2020/10/01] Add calc support on input line 2780.
-Applying: [0000/00/00] Add calc support on input line 2784.
-Skipping: [2020/10/01] \newline calc support on input line 2789.
-Applying: [0000/00/00] \newline calc support on input line 2794.
-Applying: [2018/10/10] hyphenation and nobreak after space hack on input line 2
-800.
-Already applied: [2015/10/01] hyphenation and nobreak after space hack on input
- line 2818.
-Already applied: [2015/01/01] hyphenation and nobreak after space hack on input
- line 2832.
-Already applied: [0000/00/00] hyphenation and nobreak after space hack on input
- line 2844.
-Applying: [2015/01/01] hyphenation after space hack on input line 2855.
-Already applied: [0000/00/00] hyphenation after space hack on input line 2868.
-Skipping: [2020/10/01] \addvspace calc support on input line 2880.
-Applying: [0000/00/00] \addvspace calc support on input line 2896.
-Applying: [2015/01/01] \addpenalty  on input line 2913.
-Already applied: [0000/00/00] \addpenalty  on input line 2947.
-Skipping: [2020/10/01] Support calc in \vspace  on input line 2969.
-Applying: [0000/00/00] Support calc in \vspace  on input line 3001.
-Applying: [2015/01/01] Space after \@  on input line 3034.
-Already applied: [0000/00/00] Space after \@  on input line 3038.
-Skipping: [2020/10/01] Support calc with \hspace  on input line 3042.
-Applying: [0000/00/00] Support calc with \hspace  on input line 3046.
-Applying: [2018/12/01] Start LR-mode on input line 3052.
-LaTeX Info: Redefining \enspace on input line 3053.
-Already applied: [0000/00/00] Start LR-mode on input line 3057.
-Skipping: [2020/10/01] Added hook to load l3backend code on input line 3066.
-Applying: [2017/04/15] Save language for hyphenation on input line 3138.
-Already applied: [0000/00/00] Save language for hyphenation on input line 3196.
-
-Skipping: [2020/10/01] Spaces in file names on input line 3250.
-Applying: [2019/10/01] Spaces in file names on input line 3286.
-Already applied: [0000/00/00] Spaces in file names on input line 3307.
-Skipping: [2020/10/01] Spaces in file names and hooks on input line 3319.
-Applying: [0000/00/00] Spaces in file names on input line 3359.
-Applying: [2019/10/01] Quote file names on input line 3392.
-LaTeX Info: Redefining \IfFileExists on input line 3396.
-Already applied: [0000/00/00] Quote file names on input line 3427.
-Applying: [2019/10/01] Don't lose the file name on input line 3465.
-Already applied: [0000/00/00] Don't lose the file name on input line 3469.
-Skipping: [2020/10/01] Change in file error handling on input line 3473.
-Applying: [2019/10/01] Quote file names on input line 3486.
-Already applied: [0000/00/00] Quote file names on input line 3497.
-Skipping: [2020/10/01] Do not load missing file immediately on input line 3507.
-
-Applying: [0000/00/00] Do not load missing file immediately on input line 3539.
-
-Applying: [2017/04/15] test for undeclared accent on input line 3567.
-Already applied: [0000/00/00] test for undeclared accent on input line 3592.
-Applying: [2019/10/01] Make commands robust on input line 3612.
-LaTeX Info: Redefining \UseTextAccent on input line 3613.
-LaTeX Info: Redefining \UseTextSymbol on input line 3621.
-Already applied: [0000/00/00] Make commands robust on input line 3632.
-Applying: [2015/10/01] comma accent on input line 3638.
-Already applied: [0000/00/00] comma accent on input line 3644.
-Applying: [2016/02/01] comma above on input line 3665.
-Already applied: [0000/00/00] comma above on input line 3679.
-Applying: [2015/01/01] Reset nested counters on input line 3689.
-Already applied: [0000/00/00] Reset nested counters on input line 3693.
-Applying: [2018-04-01] Add interfaces on input line 3697.
-Already applied: [0000-00-00] Add interfaces on input line 3743.
-Applying: [2015/01/01] Use \TexOrMath  on input line 3753.
-Already applied: [0000/00/00] Use \TexOrMath  on input line 3767.
-Applying: [2015/01/01] \TextOrMath  on input line 3773.
-Already applied: [0000/00/00] \TextOrMath  on input line 3789.
-Applying: [2015/01/01] Using \setlength with \dimen 0 on input line 3794.
-Already applied: [0000/00/00] Using \setlength with \dimen 0 on input line 3798
-.
-Applying: [2020/02/02] Maybe drop one m on input line 3804.
-Already applied: [0000/00/00] Maybe drop one m on input line 3831.
-Applying: [2015/01/01] Arbitrary units in \DeclareMathSizes  on input line 3852
-.
-Already applied: [0000/00/00] Arbitrary units in \DeclareMathSizes  on input li
-ne 3872.
-Applying: [2020/02/02] Drop m in usefont on input line 3889.
-LaTeX Info: Redefining \usefont on input line 3890.
-Already applied: [0000/00/00] Drop m in usefont on input line 3897.
-Applying: [2020/02/02] Loading .fd files on input line 3907.
-Already applied: [0000/00/00] Loading .fd files on input line 3917.
-Applying: [2020/02/02] Provide family substituation on input line 3922.
-Already applied: [0000/00/00] Provide family substituation on input line 3953.
-Applying: [2019/10/01] No side effects please on input line 3958.
-Already applied: [0000/00/00] No side effects please on input line 3970.
-Applying: [2015/01/01] Font substituation in preamble on input line 3988.
-Already applied: [0000/00/00] Font substituation in preamble on input line 4022
-.
-Applying: [2017/01/01] XeTeX support for \showhyphens  on input line 4055.
-LaTeX Info: Redefining \showhyphens on input line 4057.
-Already applied: [0000/00/00] XeTeX support for \showhyphens  on input line 411
-5.
-Applying: [2020/02/02] Series change rules on input line 4129.
-LaTeX Info: Redefining \fontseriesforce on input line 4512.
-LaTeX Info: Redefining \fontseries on input line 4513.
-\series@check@toks=\toks15
-LaTeX Info: Redefining \ulcshape on input line 4576.
-LaTeX Info: Redefining \swshape on input line 4581.
-LaTeX Info: Redefining \sscshape on input line 4586.
-LaTeX Info: Redefining \fontshape on input line 4629.
-LaTeX Info: Redefining \fontshapeforce on input line 4630.
-Already applied: [0000/00/00] Series change rules on input line 4687.
-Skipping: [2020/10/01] NFSS series init on input line 4717.
-Applying: [2020/02/02] NFSS series init on input line 4722.
-Already applied: [0000/00/00] NFSS series init on input line 4726.
-Applying: [2020/02/02] alias size function on input line 4732.
-Already applied: [0000/00/00] alias size function on input line 4740.
-Applying: [2015/01/01] \select@group  on input line 4749.
-Already applied: [0000/00/00] \select@group  on input line 4776.
-Skipping: [2020/10/01] \document@select@group  on input line 4804.
-Applying: [2015/01/01] \document@select@group  on input line 4833.
-Already applied: [0000/00/00] \document@select@group  on input line 4864.
-Applying: [2019/10/01] Make math accents robust on input line 4895.
-Already applied: [0000/00/00] Make math accents robust on input line 4942.
-Applying: [2019/10/01] makemath accents robust on input line 4984.
-Already applied: [0000/00/00] makemath accents robust on input line 4992.
-Applying: [2019/10/01] make delimiters robust on input line 4999.
-Already applied: [0000/00/00] make delimiters robust on input line 5008.
-Applying: [2020/02/02] Custom series on input line 5019.
-Already applied: [0000/00/00] Custom series on input line 5130.
-Skipping: [2020/10/01] Custom series with hooks on input line 5152.
-Applying: [2020/02/02] Custom series with hooks on input line 5234.
-LaTeX Info: Redefining \bfseries on input line 5245.
-LaTeX Info: Redefining \mdseries on input line 5256.
-LaTeX Info: Redefining \rmfamily on input line 5267.
-LaTeX Info: Redefining \sffamily on input line 5272.
-LaTeX Info: Redefining \ttfamily on input line 5277.
-Already applied: [0000/00/00] Custom series with hooks on input line 5286.
-Skipping: [2020/10/01] Font series context on input line 5312.
-Applying: [0000/00/00] Font series context on input line 5346.
-Applying: [2020/02/02] Nested emph on input line 5355.
-LaTeX Info: Redefining \emreset on input line 5361.
-LaTeX Info: Redefining \em on input line 5363.
-Already applied: [2015/01/01] Nested emph on input line 5390.
-Already applied: [0000/00/00] Nested emph on input line 5403.
-Skipping: [2020/10/01] XeTeX change for math on input line 5410.
-Applying: [0000/00/00] XeTeX change for math on input line 5418.
-LaTeX Info: Redefining \symbol on input line 5420.
-Applying: [2020/02/02] Add hook to \normalfont  on input line 5424.
-LaTeX Info: Redefining \normalfont on input line 5425.
-Already applied: [0000/00/00] Add hook to \normalfont  on input line 5436.
-Applying: [2017/01/01] TU encoding default on input line 5451.
-Already applied: [0000/00/00] TU encoding default on input line 5469.
-Applying: [2020/02/02] font defaults change on input line 5479.
-Already applied: [0000/00/00] font defaults change on input line 5487.
-Applying: [2018/12/01] Start LR-mode on input line 5496.
-LaTeX Info: Redefining \big on input line 5497.
-LaTeX Info: Redefining \Big on input line 5499.
-LaTeX Info: Redefining \bigg on input line 5501.
-LaTeX Info: Redefining \Bigg on input line 5503.
-Already applied: [0000/00/00] Start LR-mode on input line 5507.
-Applying: [2020/02/02] Additional text commands on input line 5516.
-LaTeX Info: Redefining \textulc on input line 5517.
-LaTeX Info: Redefining \textsw on input line 5518.
-LaTeX Info: Redefining \textssc on input line 5519.
-Already applied: [0000/00/00] Additional text commands on input line 5522.
-Applying: [2020/02/02] Old style numerals on input line 5529.
-LaTeX Info: Redefining \legacyoldstylenums on input line 5530.
-LaTeX Info: Redefining \oldstylenums on input line 5537.
-Already applied: [0000/00/00] Old style numerals on input line 5568.
-Applying: [2020/02/02] Text companion symbols on input line 5583.
-LaTeX Font Info:    Changing ? sub-encoding to TS1/9 on input line 5844.
-LaTeX Font Info:    Changing ccr sub-encoding to TS1/0 on input line 5845.
-LaTeX Font Info:    Changing cmbr sub-encoding to TS1/0 on input line 5846.
-LaTeX Font Info:    Changing cmr sub-encoding to TS1/0 on input line 5847.
-LaTeX Font Info:    Changing cmss sub-encoding to TS1/0 on input line 5848.
-LaTeX Font Info:    Changing cmtl sub-encoding to TS1/0 on input line 5849.
-LaTeX Font Info:    Changing cmtt sub-encoding to TS1/0 on input line 5850.
-LaTeX Font Info:    Changing cmvtt sub-encoding to TS1/0 on input line 5851.
-LaTeX Font Info:    Changing pxr sub-encoding to TS1/0 on input line 5852.
-LaTeX Font Info:    Changing pxss sub-encoding to TS1/0 on input line 5853.
-LaTeX Font Info:    Changing pxtt sub-encoding to TS1/0 on input line 5854.
-LaTeX Font Info:    Changing qag sub-encoding to TS1/0 on input line 5855.
-LaTeX Font Info:    Changing qbk sub-encoding to TS1/0 on input line 5856.
-LaTeX Font Info:    Changing qcr sub-encoding to TS1/0 on input line 5857.
-LaTeX Font Info:    Changing qcs sub-encoding to TS1/0 on input line 5858.
-LaTeX Font Info:    Changing qhvc sub-encoding to TS1/0 on input line 5859.
-LaTeX Font Info:    Changing qhv sub-encoding to TS1/0 on input line 5860.
-LaTeX Font Info:    Changing qpl sub-encoding to TS1/0 on input line 5861.
-LaTeX Font Info:    Changing qtm sub-encoding to TS1/0 on input line 5862.
-LaTeX Font Info:    Changing qzc sub-encoding to TS1/0 on input line 5863.
-LaTeX Font Info:    Changing txr sub-encoding to TS1/0 on input line 5864.
-LaTeX Font Info:    Changing txss sub-encoding to TS1/0 on input line 5865.
-LaTeX Font Info:    Changing txtt sub-encoding to TS1/0 on input line 5866.
-LaTeX Font Info:    Changing lmr sub-encoding to TS1/1 on input line 5867.
-LaTeX Font Info:    Changing lmdh sub-encoding to TS1/1 on input line 5868.
-LaTeX Font Info:    Changing lmss sub-encoding to TS1/1 on input line 5869.
-LaTeX Font Info:    Changing lmssq sub-encoding to TS1/1 on input line 5870.
-LaTeX Font Info:    Changing lmvtt sub-encoding to TS1/1 on input line 5871.
-LaTeX Font Info:    Changing lmtt sub-encoding to TS1/1 on input line 5872.
-LaTeX Font Info:    Changing ptmx sub-encoding to TS1/2 on input line 5873.
-LaTeX Font Info:    Changing ptmj sub-encoding to TS1/2 on input line 5874.
-LaTeX Font Info:    Changing ul8 sub-encoding to TS1/2 on input line 5875.
-LaTeX Font Info:    Changing bch sub-encoding to TS1/5 on input line 5876.
-LaTeX Font Info:    Changing futj sub-encoding to TS1/5 on input line 5877.
-LaTeX Font Info:    Changing futs sub-encoding to TS1/5 on input line 5878.
-LaTeX Font Info:    Changing futx sub-encoding to TS1/5 on input line 5879.
-LaTeX Font Info:    Changing pag sub-encoding to TS1/5 on input line 5880.
-LaTeX Font Info:    Changing pbk sub-encoding to TS1/5 on input line 5881.
-LaTeX Font Info:    Changing pcr sub-encoding to TS1/5 on input line 5882.
-LaTeX Font Info:    Changing phv sub-encoding to TS1/5 on input line 5883.
-LaTeX Font Info:    Changing pnc sub-encoding to TS1/5 on input line 5884.
-LaTeX Font Info:    Changing pplj sub-encoding to TS1/5 on input line 5885.
-LaTeX Font Info:    Changing pplx sub-encoding to TS1/5 on input line 5886.
-LaTeX Font Info:    Changing ppl sub-encoding to TS1/5 on input line 5887.
-LaTeX Font Info:    Changing ptm sub-encoding to TS1/5 on input line 5888.
-LaTeX Font Info:    Changing pzc sub-encoding to TS1/5 on input line 5889.
-LaTeX Font Info:    Changing ul9 sub-encoding to TS1/5 on input line 5890.
-LaTeX Font Info:    Changing dayroms sub-encoding to TS1/6 on input line 5891.
-LaTeX Font Info:    Changing dayrom sub-encoding to TS1/6 on input line 5892.
-LaTeX Font Info:    Changing augie sub-encoding to TS1/8 on input line 5893.
-LaTeX Font Info:    Changing put sub-encoding to TS1/8 on input line 5894.
-LaTeX Font Info:    Changing uag sub-encoding to TS1/8 on input line 5895.
-LaTeX Font Info:    Changing ugq sub-encoding to TS1/8 on input line 5896.
-LaTeX Font Info:    Changing zi4 sub-encoding to TS1/9 on input line 5897.
-LaTeX Font Info:    Changing hls sub-encoding to TS1/5 on input line 5898.
-LaTeX Font Info:    Changing hlst sub-encoding to TS1/5 on input line 5899.
-LaTeX Font Info:    Changing hlct sub-encoding to TS1/5 on input line 5900.
-LaTeX Font Info:    Changing hlh sub-encoding to TS1/5 on input line 5901.
-LaTeX Font Info:    Changing hlx sub-encoding to TS1/8 on input line 5902.
-LaTeX Font Info:    Changing hlce sub-encoding to TS1/8 on input line 5903.
-LaTeX Font Info:    Changing hlcn sub-encoding to TS1/8 on input line 5904.
-LaTeX Font Info:    Changing hlcw sub-encoding to TS1/8 on input line 5905.
-LaTeX Font Info:    Changing hlcf sub-encoding to TS1/8 on input line 5906.
-LaTeX Font Info:    Changing lato-LF sub-encoding to TS1/0 on input line 5907.
-LaTeX Font Info:    Changing lato-TLF sub-encoding to TS1/0 on input line 5907.
-
-LaTeX Font Info:    Changing lato-OsF sub-encoding to TS1/0 on input line 5907.
-
-LaTeX Font Info:    Changing lato-TOsF sub-encoding to TS1/0 on input line 5907
-.
-LaTeX Font Info:    Changing opensans-LF sub-encoding to TS1/0 on input line 59
-08.
-LaTeX Font Info:    Changing opensans-TLF sub-encoding to TS1/0 on input line 5
-908.
-LaTeX Font Info:    Changing opensans-OsF sub-encoding to TS1/0 on input line 5
-908.
-LaTeX Font Info:    Changing opensans-TOsF sub-encoding to TS1/0 on input line 
-5908.
-LaTeX Font Info:    Changing cantarell-LF sub-encoding to TS1/0 on input line 5
-909.
-LaTeX Font Info:    Changing cantarell-TLF sub-encoding to TS1/0 on input line 
-5909.
-LaTeX Font Info:    Changing cantarell-OsF sub-encoding to TS1/0 on input line 
-5909.
-LaTeX Font Info:    Changing cantarell-TOsF sub-encoding to TS1/0 on input line
- 5909.
-LaTeX Font Info:    Changing fbb-LF sub-encoding to TS1/0 on input line 5910.
-LaTeX Font Info:    Changing fbb-TLF sub-encoding to TS1/0 on input line 5910.
-LaTeX Font Info:    Changing fbb-OsF sub-encoding to TS1/0 on input line 5910.
-LaTeX Font Info:    Changing fbb-TOsF sub-encoding to TS1/0 on input line 5910.
-
-LaTeX Font Info:    Changing tli sub-encoding to TS1/1 on input line 5911.
-LaTeX Font Info:    Changing Alegreya-LF sub-encoding to TS1/2 on input line 59
-12.
-LaTeX Font Info:    Changing Alegreya-TLF sub-encoding to TS1/2 on input line 5
-912.
-LaTeX Font Info:    Changing Alegreya-OsF sub-encoding to TS1/2 on input line 5
-912.
-LaTeX Font Info:    Changing Alegreya-TOsF sub-encoding to TS1/2 on input line 
-5912.
-LaTeX Font Info:    Changing AlegreyaSans-LF sub-encoding to TS1/2 on input lin
-e 5913.
-LaTeX Font Info:    Changing AlegreyaSans-TLF sub-encoding to TS1/2 on input li
-ne 5913.
-LaTeX Font Info:    Changing AlegreyaSans-OsF sub-encoding to TS1/2 on input li
-ne 5913.
-LaTeX Font Info:    Changing AlegreyaSans-TOsF sub-encoding to TS1/2 on input l
-ine 5913.
-LaTeX Font Info:    Changing DejaVuSans-TLF sub-encoding to TS1/2 on input line
- 5914.
-LaTeX Font Info:    Changing DejaVuSansCondensed-TLF sub-encoding to TS1/2 on i
-nput line 5915.
-LaTeX Font Info:    Changing DejaVuSansMono-TLF sub-encoding to TS1/2 on input 
-line 5916.
-LaTeX Font Info:    Changing EBGaramond-LF sub-encoding to TS1/2 on input line 
-5917.
-LaTeX Font Info:    Changing EBGaramond-TLF sub-encoding to TS1/2 on input line
- 5917.
-LaTeX Font Info:    Changing EBGaramond-OsF sub-encoding to TS1/2 on input line
- 5917.
-LaTeX Font Info:    Changing EBGaramond-TOsF sub-encoding to TS1/2 on input lin
-e 5917.
-LaTeX Font Info:    Changing Tempora-TLF sub-encoding to TS1/2 on input line 59
-18.
-LaTeX Font Info:    Changing Tempora-TOsF sub-encoding to TS1/2 on input line 5
-919.
-LaTeX Font Info:    Changing Arimo-TLF sub-encoding to TS1/3 on input line 5920
-.
-LaTeX Font Info:    Changing Carlito-LF sub-encoding to TS1/3 on input line 592
-1.
-LaTeX Font Info:    Changing Carlito-TLF sub-encoding to TS1/3 on input line 59
-21.
-LaTeX Font Info:    Changing Carlito-OsF sub-encoding to TS1/3 on input line 59
-21.
-LaTeX Font Info:    Changing Carlito-TOsF sub-encoding to TS1/3 on input line 5
-921.
-LaTeX Font Info:    Changing FiraSans-LF sub-encoding to TS1/3 on input line 59
-22.
-LaTeX Font Info:    Changing FiraSans-TLF sub-encoding to TS1/3 on input line 5
-922.
-LaTeX Font Info:    Changing FiraSans-OsF sub-encoding to TS1/3 on input line 5
-922.
-LaTeX Font Info:    Changing FiraSans-TOsF sub-encoding to TS1/3 on input line 
-5922.
-LaTeX Font Info:    Changing IBMPlexSans-TLF sub-encoding to TS1/3 on input lin
-e 5923.
-LaTeX Font Info:    Changing Merriweather-OsF sub-encoding to TS1/3 on input li
-ne 5924.
-LaTeX Font Info:    Changing Montserrat-LF sub-encoding to TS1/3 on input line 
-5925.
-LaTeX Font Info:    Changing Montserrat-TLF sub-encoding to TS1/3 on input line
- 5925.
-LaTeX Font Info:    Changing Montserrat-OsF sub-encoding to TS1/3 on input line
- 5925.
-LaTeX Font Info:    Changing Montserrat-TOsF sub-encoding to TS1/3 on input lin
-e 5925.
-LaTeX Font Info:    Changing MontserratAlternates-LF sub-encoding to TS1/3 on i
-nput line 5926.
-LaTeX Font Info:    Changing MontserratAlternates-TLF sub-encoding to TS1/3 on 
-input line 5926.
-LaTeX Font Info:    Changing MontserratAlternates-OsF sub-encoding to TS1/3 on 
-input line 5926.
-LaTeX Font Info:    Changing MontserratAlternates-TOsF sub-encoding to TS1/3 on
- input line 5926.
-LaTeX Font Info:    Changing SourceCodePro-TLF sub-encoding to TS1/3 on input l
-ine 5927.
-LaTeX Font Info:    Changing SourceCodePro-TOsF sub-encoding to TS1/3 on input 
-line 5928.
-LaTeX Font Info:    Changing SourceSansPro-LF sub-encoding to TS1/3 on input li
-ne 5929.
-LaTeX Font Info:    Changing SourceSansPro-TLF sub-encoding to TS1/3 on input l
-ine 5929.
-LaTeX Font Info:    Changing SourceSansPro-OsF sub-encoding to TS1/3 on input l
-ine 5929.
-LaTeX Font Info:    Changing SourceSansPro-TOsF sub-encoding to TS1/3 on input 
-line 5929.
-LaTeX Font Info:    Changing SourceSerifPro-LF sub-encoding to TS1/3 on input l
-ine 5930.
-LaTeX Font Info:    Changing SourceSerifPro-TLF sub-encoding to TS1/3 on input 
-line 5930.
-LaTeX Font Info:    Changing SourceSerifPro-OsF sub-encoding to TS1/3 on input 
-line 5930.
-LaTeX Font Info:    Changing SourceSerifPro-TOsF sub-encoding to TS1/3 on input
- line 5930.
-LaTeX Font Info:    Changing Tinos-TLF sub-encoding to TS1/3 on input line 5931
-.
-LaTeX Font Info:    Changing AccanthisADFStdNoThree-LF sub-encoding to TS1/4 on
- input line 5932.
-LaTeX Font Info:    Changing Cabin-TLF sub-encoding to TS1/4 on input line 5933
-.
-LaTeX Font Info:    Changing Caladea-TLF sub-encoding to TS1/4 on input line 59
-34.
-LaTeX Font Info:    Changing Chivo-LF sub-encoding to TS1/4 on input line 5935.
-
-LaTeX Font Info:    Changing Chivo-TLF sub-encoding to TS1/4 on input line 5935
-.
-LaTeX Font Info:    Changing Chivo-OsF sub-encoding to TS1/4 on input line 5935
-.
-LaTeX Font Info:    Changing Chivo-TOsF sub-encoding to TS1/4 on input line 593
-5.
-LaTeX Font Info:    Changing ClearSans-TLF sub-encoding to TS1/4 on input line 
-5936.
-LaTeX Font Info:    Changing Coelacanth-LF sub-encoding to TS1/4 on input line 
-5937.
-LaTeX Font Info:    Changing CrimsonPro-LF sub-encoding to TS1/4 on input line 
-5938.
-LaTeX Font Info:    Changing CrimsonPro-TLF sub-encoding to TS1/4 on input line
- 5938.
-LaTeX Font Info:    Changing CrimsonPro-OsF sub-encoding to TS1/4 on input line
- 5938.
-LaTeX Font Info:    Changing CrimsonPro-TOsF sub-encoding to TS1/4 on input lin
-e 5938.
-LaTeX Font Info:    Changing FiraMono-TLF sub-encoding to TS1/4 on input line 5
-939.
-LaTeX Font Info:    Changing FiraMono-TOsF sub-encoding to TS1/4 on input line 
-5940.
-LaTeX Font Info:    Changing Go-TLF sub-encoding to TS1/4 on input line 5941.
-LaTeX Font Info:    Changing GoMono-TLF sub-encoding to TS1/4 on input line 594
-2.
-LaTeX Font Info:    Changing InriaSans-LF sub-encoding to TS1/4 on input line 5
-943.
-LaTeX Font Info:    Changing InriaSans-TLF sub-encoding to TS1/4 on input line 
-5943.
-LaTeX Font Info:    Changing InriaSans-OsF sub-encoding to TS1/4 on input line 
-5943.
-LaTeX Font Info:    Changing InriaSans-TOsF sub-encoding to TS1/4 on input line
- 5943.
-LaTeX Font Info:    Changing InriaSerif-LF sub-encoding to TS1/4 on input line 
-5944.
-LaTeX Font Info:    Changing InriaSerif-TLF sub-encoding to TS1/4 on input line
- 5944.
-LaTeX Font Info:    Changing InriaSerif-OsF sub-encoding to TS1/4 on input line
- 5944.
-LaTeX Font Info:    Changing InriaSerif-TOsF sub-encoding to TS1/4 on input lin
-e 5944.
-LaTeX Font Info:    Changing LibertinusSans-LF sub-encoding to TS1/4 on input l
-ine 5945.
-LaTeX Font Info:    Changing LibertinusSans-TLF sub-encoding to TS1/4 on input 
-line 5945.
-LaTeX Font Info:    Changing LibertinusSans-OsF sub-encoding to TS1/4 on input 
-line 5945.
-LaTeX Font Info:    Changing LibertinusSans-TOsF sub-encoding to TS1/4 on input
- line 5945.
-LaTeX Font Info:    Changing LibertinusSerif-LF sub-encoding to TS1/4 on input 
-line 5946.
-LaTeX Font Info:    Changing LibertinusSerif-TLF sub-encoding to TS1/4 on input
- line 5946.
-LaTeX Font Info:    Changing LibertinusSerif-OsF sub-encoding to TS1/4 on input
- line 5946.
-LaTeX Font Info:    Changing LibertinusSerif-TOsF sub-encoding to TS1/4 on inpu
-t line 5946.
-LaTeX Font Info:    Changing LibreBodoni-TLF sub-encoding to TS1/4 on input lin
-e 5947.
-LaTeX Font Info:    Changing LibreFranklin-TLF sub-encoding to TS1/4 on input l
-ine 5948.
-LaTeX Font Info:    Changing LinguisticsPro-LF sub-encoding to TS1/4 on input l
-ine 5949.
-LaTeX Font Info:    Changing LinguisticsPro-OsF sub-encoding to TS1/4 on input 
-line 5950.
-LaTeX Font Info:    Changing LinuxBiolinumT-LF sub-encoding to TS1/4 on input l
-ine 5951.
-LaTeX Font Info:    Changing LinuxBiolinumT-TLF sub-encoding to TS1/4 on input 
-line 5951.
-LaTeX Font Info:    Changing LinuxBiolinumT-OsF sub-encoding to TS1/4 on input 
-line 5951.
-LaTeX Font Info:    Changing LinuxBiolinumT-TOsF sub-encoding to TS1/4 on input
- line 5951.
-LaTeX Font Info:    Changing LinuxLibertineT-LF sub-encoding to TS1/4 on input 
-line 5952.
-LaTeX Font Info:    Changing LinuxLibertineT-TLF sub-encoding to TS1/4 on input
- line 5952.
-LaTeX Font Info:    Changing LinuxLibertineT-OsF sub-encoding to TS1/4 on input
- line 5952.
-LaTeX Font Info:    Changing LinuxLibertineT-TOsF sub-encoding to TS1/4 on inpu
-t line 5952.
-LaTeX Font Info:    Changing MerriweatherSans-OsF sub-encoding to TS1/4 on inpu
-t line 5953.
-LaTeX Font Info:    Changing MintSpirit-LF sub-encoding to TS1/4 on input line 
-5954.
-LaTeX Font Info:    Changing MintSpirit-TLF sub-encoding to TS1/4 on input line
- 5954.
-LaTeX Font Info:    Changing MintSpirit-OsF sub-encoding to TS1/4 on input line
- 5954.
-LaTeX Font Info:    Changing MintSpirit-TOsF sub-encoding to TS1/4 on input lin
-e 5954.
-LaTeX Font Info:    Changing MintSpiritNoTwo-LF sub-encoding to TS1/4 on input 
-line 5955.
-LaTeX Font Info:    Changing MintSpiritNoTwo-TLF sub-encoding to TS1/4 on input
- line 5955.
-LaTeX Font Info:    Changing MintSpiritNoTwo-OsF sub-encoding to TS1/4 on input
- line 5955.
-LaTeX Font Info:    Changing MintSpiritNoTwo-TOsF sub-encoding to TS1/4 on inpu
-t line 5955.
-LaTeX Font Info:    Changing PTMono-TLF sub-encoding to TS1/4 on input line 595
-6.
-LaTeX Font Info:    Changing PTSans-TLF sub-encoding to TS1/4 on input line 595
-7.
-LaTeX Font Info:    Changing PTSansCaption-TLF sub-encoding to TS1/4 on input l
-ine 5958.
-LaTeX Font Info:    Changing PTSansNarrow-TLF sub-encoding to TS1/4 on input li
-ne 5959.
-LaTeX Font Info:    Changing PTSerif-TLF sub-encoding to TS1/4 on input line 59
-60.
-LaTeX Font Info:    Changing PTSerifCaption-TLF sub-encoding to TS1/4 on input 
-line 5961.
-LaTeX Font Info:    Changing Raleway-TLF sub-encoding to TS1/4 on input line 59
-62.
-LaTeX Font Info:    Changing Raleway-TOsF sub-encoding to TS1/4 on input line 5
-963.
-LaTeX Font Info:    Changing Roboto-LF sub-encoding to TS1/4 on input line 5964
-.
-LaTeX Font Info:    Changing Roboto-TLF sub-encoding to TS1/4 on input line 596
-4.
-LaTeX Font Info:    Changing Roboto-OsF sub-encoding to TS1/4 on input line 596
-4.
-LaTeX Font Info:    Changing Roboto-TOsF sub-encoding to TS1/4 on input line 59
-64.
-LaTeX Font Info:    Changing RobotoMono-TLF sub-encoding to TS1/4 on input line
- 5965.
-LaTeX Font Info:    Changing RobotoSlab-TLF sub-encoding to TS1/4 on input line
- 5966.
-LaTeX Font Info:    Changing Rosario-LF sub-encoding to TS1/4 on input line 596
-7.
-LaTeX Font Info:    Changing Rosario-TLF sub-encoding to TS1/4 on input line 59
-67.
-LaTeX Font Info:    Changing Rosario-OsF sub-encoding to TS1/4 on input line 59
-67.
-LaTeX Font Info:    Changing Rosario-TOsF sub-encoding to TS1/4 on input line 5
-967.
-LaTeX Font Info:    Changing SticksTooText-LF sub-encoding to TS1/4 on input li
-ne 5968.
-LaTeX Font Info:    Changing SticksTooText-TLF sub-encoding to TS1/4 on input l
-ine 5968.
-LaTeX Font Info:    Changing SticksTooText-OsF sub-encoding to TS1/4 on input l
-ine 5968.
-LaTeX Font Info:    Changing SticksTooText-TOsF sub-encoding to TS1/4 on input 
-line 5968.
-LaTeX Font Info:    Changing UniversalisADFStd-LF sub-encoding to TS1/4 on inpu
-t line 5969.
-LaTeX Font Info:    Changing Almendra-OsF sub-encoding to TS1/5 on input line 5
-970.
-LaTeX Font Info:    Changing Baskervaldx-LF sub-encoding to TS1/5 on input line
- 5971.
-LaTeX Font Info:    Changing Baskervaldx-TLF sub-encoding to TS1/5 on input lin
-e 5971.
-LaTeX Font Info:    Changing Baskervaldx-OsF sub-encoding to TS1/5 on input lin
-e 5971.
-LaTeX Font Info:    Changing Baskervaldx-TOsF sub-encoding to TS1/5 on input li
-ne 5971.
-LaTeX Font Info:    Changing BaskervilleF-LF sub-encoding to TS1/5 on input lin
-e 5972.
-LaTeX Font Info:    Changing BaskervilleF-TLF sub-encoding to TS1/5 on input li
-ne 5972.
-LaTeX Font Info:    Changing BaskervilleF-OsF sub-encoding to TS1/5 on input li
-ne 5972.
-LaTeX Font Info:    Changing BaskervilleF-TOsF sub-encoding to TS1/5 on input l
-ine 5972.
-LaTeX Font Info:    Changing Bitter-TLF sub-encoding to TS1/5 on input line 597
-3.
-LaTeX Font Info:    Changing Cinzel-LF sub-encoding to TS1/5 on input line 5974
-.
-LaTeX Font Info:    Changing CinzelDecorative-LF sub-encoding to TS1/5 on input
- line 5975.
-LaTeX Font Info:    Changing DejaVuSerif-TLF sub-encoding to TS1/5 on input lin
-e 5976.
-LaTeX Font Info:    Changing DejaVuSerifCondensed-TLF sub-encoding to TS1/5 on 
-input line 5977.
-LaTeX Font Info:    Changing GilliusADF-LF sub-encoding to TS1/5 on input line 
-5978.
-LaTeX Font Info:    Changing GilliusADFCond-LF sub-encoding to TS1/5 on input l
-ine 5979.
-LaTeX Font Info:    Changing GilliusADFNoTwo-LF sub-encoding to TS1/5 on input 
-line 5980.
-LaTeX Font Info:    Changing GilliusADFNoTwoCond-LF sub-encoding to TS1/5 on in
-put line 5981.
-LaTeX Font Info:    Changing LobsterTwo-LF sub-encoding to TS1/5 on input line 
-5982.
-LaTeX Font Info:    Changing OldStandard-TLF sub-encoding to TS1/5 on input lin
-e 5983.
-LaTeX Font Info:    Changing PlayfairDisplay-TLF sub-encoding to TS1/5 on input
- line 5984.
-LaTeX Font Info:    Changing PlayfairDisplay-TOsF sub-encoding to TS1/5 on inpu
-t line 5985.
-LaTeX Font Info:    Changing TheanoDidot-TLF sub-encoding to TS1/5 on input lin
-e 5986.
-LaTeX Font Info:    Changing TheanoDidot-TOsF sub-encoding to TS1/5 on input li
-ne 5987.
-LaTeX Font Info:    Changing TheanoModern-TLF sub-encoding to TS1/5 on input li
-ne 5988.
-LaTeX Font Info:    Changing TheanoModern-TOsF sub-encoding to TS1/5 on input l
-ine 5989.
-LaTeX Font Info:    Changing TheanoOldStyle-TLF sub-encoding to TS1/5 on input 
-line 5990.
-LaTeX Font Info:    Changing TheanoOldStyle-TOsF sub-encoding to TS1/5 on input
- line 5991.
-LaTeX Font Info:    Changing Crimson-TLF sub-encoding to TS1/6 on input line 59
-92.
-LaTeX Font Info:    Changing IBMPlexMono-TLF sub-encoding to TS1/6 on input lin
-e 5993.
-LaTeX Font Info:    Changing IBMPlexSerif-TLF sub-encoding to TS1/6 on input li
-ne 5994.
-LaTeX Font Info:    Changing LibertinusMono-TLF sub-encoding to TS1/6 on input 
-line 5995.
-LaTeX Font Info:    Changing LibertinusSerifDisplay-LF sub-encoding to TS1/6 on
- input line 5996.
-LaTeX Font Info:    Changing LinuxLibertineDisplayT-LF sub-encoding to TS1/6 on
- input line 5997.
-LaTeX Font Info:    Changing LinuxLibertineDisplayT-TLF sub-encoding to TS1/6 o
-n input line 5997.
-LaTeX Font Info:    Changing LinuxLibertineDisplayT-OsF sub-encoding to TS1/6 o
-n input line 5997.
-LaTeX Font Info:    Changing LinuxLibertineDisplayT-TOsF sub-encoding to TS1/6 
-on input line 5997.
-LaTeX Font Info:    Changing LinuxLibertineMonoT-LF sub-encoding to TS1/6 on in
-put line 5998.
-LaTeX Font Info:    Changing LinuxLibertineMonoT-TLF sub-encoding to TS1/6 on i
-nput line 5999.
-LaTeX Font Info:    Changing Overlock-LF sub-encoding to TS1/6 on input line 60
-00.
-LaTeX Font Info:    Changing CormorantGaramond-LF sub-encoding to TS1/7 on inpu
-t line 6001.
-LaTeX Font Info:    Changing CormorantGaramond-TLF sub-encoding to TS1/7 on inp
-ut line 6001.
-LaTeX Font Info:    Changing CormorantGaramond-OsF sub-encoding to TS1/7 on inp
-ut line 6001.
-LaTeX Font Info:    Changing CormorantGaramond-TOsF sub-encoding to TS1/7 on in
-put line 6001.
-LaTeX Font Info:    Changing Heuristica-TLF sub-encoding to TS1/7 on input line
- 6002.
-LaTeX Font Info:    Changing Heuristica-TOsF sub-encoding to TS1/7 on input lin
-e 6003.
-LaTeX Font Info:    Changing IMFELLEnglish-TLF sub-encoding to TS1/7 on input l
-ine 6004.
-LaTeX Font Info:    Changing LibreBaskerville-TLF sub-encoding to TS1/7 on inpu
-t line 6005.
-LaTeX Font Info:    Changing LibreCaslon-LF sub-encoding to TS1/7 on input line
- 6006.
-LaTeX Font Info:    Changing LibreCaslon-TLF sub-encoding to TS1/7 on input lin
-e 6006.
-LaTeX Font Info:    Changing LibreCaslon-OsF sub-encoding to TS1/7 on input lin
-e 6006.
-LaTeX Font Info:    Changing LibreCaslon-TOsF sub-encoding to TS1/7 on input li
-ne 6006.
-LaTeX Font Info:    Changing Marcellus-LF sub-encoding to TS1/7 on input line 6
-007.
-LaTeX Font Info:    Changing NotoSans-LF sub-encoding to TS1/7 on input line 60
-08.
-LaTeX Font Info:    Changing NotoSans-TLF sub-encoding to TS1/7 on input line 6
-008.
-LaTeX Font Info:    Changing NotoSans-OsF sub-encoding to TS1/7 on input line 6
-008.
-LaTeX Font Info:    Changing NotoSans-TOsF sub-encoding to TS1/7 on input line 
-6008.
-LaTeX Font Info:    Changing NotoSansMono-TLF sub-encoding to TS1/7 on input li
-ne 6009.
-LaTeX Font Info:    Changing NotoSansMono-TOsF sub-encoding to TS1/7 on input l
-ine 6010.
-LaTeX Font Info:    Changing NotoSerif-LF sub-encoding to TS1/7 on input line 6
-011.
-LaTeX Font Info:    Changing NotoSerif-TLF sub-encoding to TS1/7 on input line 
-6011.
-LaTeX Font Info:    Changing NotoSerif-OsF sub-encoding to TS1/7 on input line 
-6011.
-LaTeX Font Info:    Changing NotoSerif-TOsF sub-encoding to TS1/7 on input line
- 6011.
-LaTeX Font Info:    Changing Quattrocento-TLF sub-encoding to TS1/7 on input li
-ne 6012.
-LaTeX Font Info:    Changing QuattrocentoSans-TLF sub-encoding to TS1/7 on inpu
-t line 6013.
-LaTeX Font Info:    Changing XCharter-TLF sub-encoding to TS1/7 on input line 6
-014.
-LaTeX Font Info:    Changing XCharter-TOsF sub-encoding to TS1/7 on input line 
-6015.
-LaTeX Font Info:    Changing erewhon-LF sub-encoding to TS1/7 on input line 601
-6.
-LaTeX Font Info:    Changing erewhon-TLF sub-encoding to TS1/7 on input line 60
-16.
-LaTeX Font Info:    Changing erewhon-OsF sub-encoding to TS1/7 on input line 60
-16.
-LaTeX Font Info:    Changing erewhon-TOsF sub-encoding to TS1/7 on input line 6
-016.
-LaTeX Font Info:    Changing ComicNeue-TLF sub-encoding to TS1/7 on input line 
-6017.
-LaTeX Font Info:    Changing ComicNeueAngular-TLF sub-encoding to TS1/7 on inpu
-t line 6018.
-LaTeX Font Info:    Changing Forum-LF sub-encoding to TS1/7 on input line 6019.
-
-LaTeX Font Info:    Changing Cochineal-LF sub-encoding to TS1/8 on input line 6
-020.
-LaTeX Font Info:    Changing Cochineal-TLF sub-encoding to TS1/8 on input line 
-6020.
-LaTeX Font Info:    Changing Cochineal-OsF sub-encoding to TS1/8 on input line 
-6020.
-LaTeX Font Info:    Changing Cochineal-TOsF sub-encoding to TS1/8 on input line
- 6020.
-LaTeX Font Info:    Changing AlgolRevived-TLF sub-encoding to TS1/9 on input li
-ne 6021.
-Already applied: [0000/00/00] Text companion symbols on input line 6055.
-Skipping: [2020/10/01] Add \@currentcounter  on input line 6246.
-Applying: [2019/10/01] Add \labelformat and \Ref  on input line 6258.
-LaTeX Info: Redefining \Ref on input line 6265.
-Already applied: [0000/00/00] Add \labelformat and \Ref  on input line 6269.
-Skipping: [2020/10/01] Use Hooks on input line 6281.
-Applying: [0000/00/00] Use Hooks on input line 6334.
-Applying: [2018/12/01] Mask line endings on input line 6373.
-Already applied: [0000/00/00] Mask line endings on input line 6400.
-Skipping: [2020/10/01] Use hook system on input line 6413.
-Applying: [2019/10/01] Making \begin /\end robust on input line 6462.
-LaTeX Info: Redefining \begin on input line 6463.
-Already applied: [0000/00/00] Making \begin /\end robust on input line 6495.
-Skipping: [2020/10/01] Hooks for environments on input line 6511.
-Applying: [0000/00/00] Hooks for environments on input line 6518.
-Applying: [2020/02/02] Make robust on input line 6527.
-Already applied: [0000/00/00] Make robust on input line 6532.
-Skipping: [2020/10/01] centering, etc support calc on input line 6539.
-Applying: [0000/00/00] centering, etc support calc on input line 6543.
-Skipping: [2020/10/01] Set finaldhypendemerits on input line 6548.
-Applying: [2019/10/01] Make commands robust on input line 6566.
-LaTeX Info: Redefining \centering on input line 6568.
-LaTeX Info: Redefining \raggedright on input line 6572.
-LaTeX Info: Redefining \raggedleft on input line 6576.
-Already applied: [0000/00/00] Make commands robust on input line 6583.
-Applying: [2017-04-15] Disable hyphenation in verbatim on input line 6591.
-Already applied: [0000-00-00] Disable hyphenation in verbatim on input line 661
-2.
-Applying: [2018/12/01] Setup visible space for \verb  on input line 6633.
-LaTeX Info: Redefining \asciispace on input line 6634.
-\@verbvisiblespacebox=\box47
-Already applied: [0000/00/00] Setup visible space for \verb  on input line 6659
-.
-Skipping: [2020/10/01] Drop spaces before \verb delimiter on input line 6669.
-Applying: [2018/12/01] Setup visible space for \verb  on input line 6683.
-Already applied: [0000/00/00] Setup visible space for \verb  on input line 6699
-.
-Applying: [2017-04-15] Disable hyphenation in verb on input line 6710.
-Already applied: [0000-00-00] Disable hyphenation in verb on input line 6719.
-Applying: [2019/10/01] Make commands robust on input line 6728.
-LaTeX Info: Redefining \vphantom on input line 6729.
-LaTeX Info: Redefining \hphantom on input line 6730.
-LaTeX Info: Redefining \phantom on input line 6731.
-LaTeX Info: Redefining \mathstrut on input line 6732.
-Already applied: [0000/00/00] Make commands robust on input line 6735.
-Applying: [2018/12/01] Start LR-mode on input line 6744.
-Already applied: [0000/00/00] Start LR-mode on input line 6752.
-Applying: [2018/12/01] Start LR-mode on input line 6759.
-Already applied: [0000/00/00] Start LR-mode on input line 6763.
-Applying: [2019/10/01] Make commands robust on input line 6767.
-LaTeX Info: Redefining \cases on input line 6768.
-LaTeX Info: Redefining \matrix on input line 6770.
-LaTeX Info: Redefining \pmatrix on input line 6774.
-Already applied: [0000/00/00] Make commands robust on input line 6777.
-Skipping: [2020/10/01] amsmath spacing commands on input line 6785.
-Applying: [0000/00/00] amsmath spacing commands on input line 6801.
-LaTeX Info: Redefining \, on input line 6804.
-LaTeX Info: Redefining \thinspace on input line 6806.
-LaTeX Info: Redefining \negthinspace on input line 6807.
-Applying: [2015/01/01] Make \( robust on input line 6817.
-LaTeX Info: Redefining \( on input line 6818.
-LaTeX Info: Redefining \) on input line 6820.
-Already applied: [0000/00/00] Make \( robust on input line 6823.
-Applying: [2015/01/01] Make \[ robust on input line 6831.
-LaTeX Info: Redefining \[ on input line 6832.
-LaTeX Info: Redefining \] on input line 6843.
-Already applied: [0000/00/00] Make \[ robust on input line 6856.
-Skipping: [2020/10/01] eqnarray support calc syntax on input line 6884.
-Applying: [0000/00/00] eqnarray support calc syntax on input line 6892.
-Applying: [2015/01/01] Make \makebox robust on input line 6903.
-LaTeX Info: Redefining \makebox on input line 6904.
-Already applied: [0000/00/00] Make \makebox robust on input line 6911.
-Skipping: [2020/10/01] default units on input line 6920.
-Applying: [0000/00/00] default units on input line 6939.
-Applying: [2015/01/01] Make \savebox robust on input line 6956.
-LaTeX Info: Redefining \savebox on input line 6957.
-Already applied: [0000/00/00] Make \savebox robust on input line 6962.
-Applying: [2015/01/01] Make \framebox robust on input line 6969.
-LaTeX Info: Redefining \framebox on input line 6970.
-Already applied: [0000/00/00] Make \framebox robust on input line 6975.
-Applying: [2015/01/01] Make \parbox robust on input line 6982.
-LaTeX Info: Redefining \parbox on input line 6983.
-Already applied: [0000/00/00] Make \parbox robust on input line 6989.
-Applying: [2017-04-15] reset \lineskiplimit  on input line 6998.
-Already applied: [0000-00-00] reset \lineskiplimit  on input line 7018.
-Applying: [2015/01/01] Make \rule robust on input line 7035.
-LaTeX Info: Redefining \rule on input line 7036.
-Already applied: [0000/00/00] Make \rule robust on input line 7039.
-Applying: [2015/01/01] Make \raisebox robust on input line 7044.
-LaTeX Info: Redefining \raisebox on input line 7045.
-Already applied: [0000/00/00] Make \raisebox robust on input line 7050.
-Skipping: [2020/10/01] Tabbing calc syntax on input line 7058.
-Applying: [0000/00/00] Tabbing calc syntax on input line 7062.
-Applying: [2019/10/01] Make commands robust on input line 7067.
-LaTeX Info: Redefining \pushtabs on input line 7068.
-LaTeX Info: Redefining \poptabs on input line 7071.
-LaTeX Info: Redefining \kill on input line 7083.
-Already applied: [0000/00/00] Make commands robust on input line 7086.
-Skipping: [2020/10/01] tabular support calc syntax on input line 7094.
-Applying: [0000/00/00] tabular support calc syntax on input line 7098.
-Skipping: [2020/10/01] default units on input line 7104.
-Applying: [0000/00/00] default units on input line 7109.
-Skipping: [2020/10/01] default units on input line 7113.
-Applying: [0000/00/00] default units on input line 7125.
-Skipping: [2020/10/01] default units on input line 7134.
-Applying: [0000/00/00] default units on input line 7147.
-Skipping: [2020/10/01] default units on input line 7155.
-Applying: [0000/00/00] default units on input line 7163.
-Skipping: [2020/10/01] default units on input line 7171.
-Applying: [0000/00/00] default units on input line 7182.
-Skipping: [2020/10/01] \shortstack calc support on input line 7192.
-Applying: [0000/00/00] \shortstack calc support on input line 7196.
-Skipping: [2020/10/01] default units on input line 7201.
-Applying: [0000/00/00] default units on input line 7212.
-Skipping: [2020/10/01] default units on input line 7223.
-Applying: [0000/00/00] default units on input line 7237.
-Skipping: [2020/10/01] default units on input line 7251.
-Applying: [0000/00/00] default units on input line 7308.
-Applying: [2016/03/31] Avoid almost zero length leaders on input line 7366.
-Already applied: [0000/00/00] Avoid almost zero length leaders on input line 73
-72.
-Skipping: [2020/10/01] default units on input line 7377.
-Applying: [2016/03/31] default units on input line 7404.
-Already applied: [0000/00/00] default units on input line 7434.
-Applying: [2016/03/31] Avoid almost zero length leaders on input line 7459.
-Already applied: [0000/00/00] Avoid almost zero length leaders on input line 74
-71.
-Applying: [2016/03/31] Avoid almost zero length leaders on input line 7482.
-Already applied: [0000/00/00] Avoid almost zero length leaders on input line 74
-91.
-Skipping: [2020/10/01] default units on input line 7499.
-Applying: [0000/00/00] default units on input line 7515.
-Skipping: [2020/10/01] default units on input line 7532.
-Applying: [0000/00/00] default units on input line 7538.
-Skipping: [2020/10/01] default units on input line 7542.
-Applying: [0000/00/00] default units on input line 7601.
-Applying: [2019/10/01] Make commands robust on input line 7656.
-LaTeX Info: The control sequence `\bezier' is already robust on input line 7657
-.
-LaTeX Info: The control sequence `\circle' is already robust on input line 7658
-.
-LaTeX Info: The control sequence `\linethickness' is already robust on input li
-ne 7661.
-LaTeX Info: The control sequence `\oval' is already robust on input line 7663.
-LaTeX Info: The control sequence `\qbezier' is already robust on input line 766
-5.
-LaTeX Info: The control sequence `\shortstack' is already robust on input line 
-7666.
-LaTeX Info: The control sequence `\thinlines' is already robust on input line 7
-667.
-Already applied: [0000/00/00] Make commands robust on input line 7671.
-Applying: [2019/10/01] Make commands robust on input line 7690.
-LaTeX Info: Redefining \title on input line 7691.
-LaTeX Info: Redefining \author on input line 7692.
-LaTeX Info: Redefining \date on input line 7693.
-LaTeX Info: Redefining \thanks on input line 7694.
-LaTeX Info: Redefining \and on input line 7698.
-Already applied: [0000/00/00] Make commands robust on input line 7704.
-Skipping: [2020/10/01] fourth argument on input line 7714.
-Applying: [2018/12/01] Mask line endings on input line 7720.
-Already applied: [0000/00/00] Mask line endings on input line 7726.
-Applying: [2018/12/01] Prevent protrusion on input line 7731.
-LaTeX Info: Redefining \noprotrusion on input line 7751.
-Already applied: [0000/00/00] Prevent protrusion on input line 7754.
-Applying: [2015/01/01] Check float options on input line 7777.
-Already applied: [0000/00/00] Check float options on input line 7845.
-Applying: [2015/01/01] float order in 2-column on input line 7913.
-Already applied: [0000/00/00] float order in 2-column on input line 7937.
-Applying: [2015/01/01] float order in 2-column on input line 7952.
-Already applied: [0000/00/00] float order in 2-column on input line 7964.
-Skipping: [2020/10/01] superscript baseline on input line 7977.
-Applying: [0000/00/00] superscript baseline on input line 7982.
-Applying: [2015/01/01] \textsubscript  on input line 7988.
-LaTeX Info: Redefining \textsubscript on input line 7989.
-Already applied: [0000/00/00] \textsubscript  on input line 7993.
-Skipping: [2020/10/01] subscript baseline on input line 7997.
-Applying: [2015/01/01] subscript baseline on input line 8002.
-Already applied: [0000/00/00] subscript baseline on input line 8008.
-Applying: [2019/10/01] Make commands robust on input line 8015.
-LaTeX Info: Redefining \markboth on input line 8016.
-LaTeX Info: Redefining \markright on input line 8024.
-Already applied: [0000/00/00] Make commands robust on input line 8034.
-Skipping: [2020/10/01] Add \@currpath  on input line 8043.
-Applying: [0000/00/00] Add \@currpath  on input line 8047.
-Skipping: [2020/10/01] Add \@expl@push@filename@@ and \@expl@push@filename@aux@
-@  on input line 8052.
-Applying: [2020/02/02] Add \@expl@push@filename@@  on input line 8067.
-Already applied: [0000/00/00] Add \@expl@push@filename@@ and \@expl@push@filena
-me@aux@@  on input line 8079.
-Skipping: [2020/10/01] Add \@expl@pop@filename@@  on input line 8090.
-Applying: [2020/02/02] Add \@expl@push@filename@@  on input line 8098.
-Already applied: [0000/00/00] Add \@expl@push@filename@@ and \@expl@push@filena
-me@aux@@  on input line 8104.
-Skipping: [2020/10/01] Add \@kernel@currpathstack  on input line 8110.
-Applying: [0000/00/00] Add \@kernel@currpathstack  on input line 8118.
-Skipping: [2020/10/01] Test format date on input line 8124.
-Applying: [0000/00/00] Test format date on input line 8133.
-Applying: [2018/04/01] Guard against bad input on input line 8139.
-Already applied: [0000/00/00] Guard against bad input on input line 8150.
-Applying: [2017/01/01] Spaces in option clash check on input line 8161.
-Already applied: [0000/00/00] Spaces in option clash check on input line 8178.
-Skipping: [2020/10/01] Check name with \strcmp  on input line 8195.
-Applying: [0000/00/00] Undo: check name with \strcmp  on input line 8208.
-Skipping: [2020/10/01] Allow for package subsitution on input line 8219.
-Applying: [2020/02/02] Protection for package info on input line 8236.
-Already applied: [0000/00/00] Protection for package info on input line 8249.
-Applying: [0000/00/00] Track \ProvidesPackage  on input line 8262.
-Skipping: [2020/10/01] Add file replacement in \@pass@ptions  on input line 826
-7.
-Applying: [0000/00/00] \@pass@ptions  on input line 8282.
-Skipping: [2020/10/01] Unused options issue on input line 8290.
-Applying: [0000/00/00] Unused options issue on input line 8307.
-Applying: [2017/01/01] Spaces in \ExecuteOptions  on input line 8322.
-Already applied: [0000/00/00] Spaces in \ExecuteOptions  on input line 8332.
-Skipping: [2020/10/01] Unused options issue on input line 8341.
-Applying: [0000/00/00] Unused options issue on input line 8350.
-Applying: [2017/01/01] ifx tests in \@fileswith@pti@ns  on input line 8357.
-Already applied: [0000/00/00] ifx tests in \@fileswith@pti@ns  on input line 83
-84.
-Skipping: [2020/10/01] Hooks and unused options issue on input line 8412.
-Applying: [0000/00/00] Hooks and unused options issue on input line 8535.
-Skipping: [2020/10/01] Use hook system on input line 8592.
-Applying: [0000/00/00] Use hook system on input line 8597.
-LaTeX Info: Redefining \AtBeginDocument on input line 8599.
-LaTeX Info: Redefining \AtEndDocument on input line 8600.
-Skipping: [2020/10/01] Define \q@curr@file directly (gh/220) on input line 8604
-.
-Applying: [2019/10/01] Spaces in file names + optional arg on input line 8734.
-Already applied: [0000/00/00] Spaces in file names + optional arg on input line
- 8864.
-Skipping: [2020/10/01] Hook management file on input line 8960.
-Applying: [0000/00/00] Hook management file on input line 8969.
-Skipping: [2020/10/01] File helpers on input line 8978.
-Skipping: [2020/10/01] Roll forward help on input line 9038.
-Skipping: [2020/10/01] Hook management (files) on input line 9088.
-Applying: [2019/10/01] Hook management (files) on input line 9121.
-LaTeX Info: Redefining \InputIfFileExists on input line 9123.
-Already applied: [0000/00/00] Hook management (files) on input line 9132.
-Skipping: [2020/10/01] Declaring file substitution on input line 9140.
-Skipping: [2020/10/01] File substitution on input line 9179.
-Applying: [0000/00/00] File substitution on input line 9186.
-Skipping: [2020/10/01] Setting current file name on input line 9193.
-Applying: [2019/10/01] Setting current file name on input line 9213.
-Already applied: [0000/00/00] Setting current file name on input line 9226.
-Skipping: [2020/10/01] Make file csname on input line 9230.
-Skipping: [2020/10/01] Set curr file on input line 9249.
-Skipping: [2020/10/01] Replace files detect loops on input line 9264.
-Skipping: [2020/10/01] Tortoise and Hare on input line 9285.
-Skipping: [2020/10/01] Disable packages on input line 9326.
-Applying: [0000/00/00] Disable packages on input line 9337.
-Skipping: [2020/10/01] 2e tmp interfaces on input line 9344.
-Applying: [0000/00/00] 2e tmp interfaces on input line 9370.
-Skipping: [2020/10/01] Hook mangement (shipout) on input line 9381.
-Applying: [0000/00/00] The hook management (shipout) on input line 9716.
-LaTeX Info: Redefining \AtBeginDvi on input line 9732.
-Skipping: [2020/10/01] atenddvi emulation on input line 9758.
-Applying: [0000/00/00] atenddvi emulation on input line 9771.
-Applying: [2015/10/01] Extended float list on input line 9777.
-\bx@S=\insert199
-\bx@T=\insert198
-\bx@U=\insert197
-\bx@V=\insert196
-\bx@W=\insert195
-\bx@X=\insert194
-\bx@Y=\insert193
-\bx@Z=\insert192
-\bx@AA=\insert191
-\bx@BB=\insert190
-\bx@CC=\insert189
-\bx@DD=\insert188
-\bx@EE=\insert187
-\bx@FF=\insert186
-\bx@GG=\insert185
-\bx@HH=\insert184
-\bx@II=\insert183
-\bx@JJ=\insert182
-\bx@KK=\insert181
-\bx@LL=\insert180
-\bx@MM=\insert179
-\bx@NN=\insert252
-\bx@OO=\insert251
-\bx@PP=\insert250
-\bx@QQ=\insert249
-\bx@RR=\insert248
-\bx@SS=\insert247
-\bx@TT=\insert246
-\bx@UU=\insert245
-\bx@VV=\insert244
-\bx@WW=\insert243
-\bx@XX=\insert242
-\bx@YY=\insert241
-\bx@ZZ=\insert240
-Already applied: [0000/00/00] Extended float list on input line 9797.
-Applying: [2017/04/15] Check depth of page on input line 9806.
-Already applied: [0000/00/00] Check depth of page on input line 9832.
-Applying: [2015/01/01] float order in 2-column on input line 9850.
-Already applied: [0000/00/00] float order in 2-column on input line 9859.
-Applying: [2015/01/01] float order in 2-column on input line 9864.
-Already applied: [0000/00/00] float order in 2-column on input line 9907.
-Applying: [2017/04/15] Reset language for hyphenation on input line 9950.
-Already applied: [0000/00/00] Reset language for hyphenation on input line 1000
-8.
-Applying: [2015/01/01] float order in 2-column on input line 10066.
-Already applied: [0000/00/00] float order in 2-column on input line 10081.
-Applying: [2015/01/01] float order in 2-column on input line 10097.
-Already applied: [0000/00/00] float order in 2-column on input line 10116.
-Applying: [2015/01/01] float order in 2-column on input line 10134.
-Already applied: [0000/00/00] float order in 2-column on input line 10156.
-Applying: [2015/01/01] float order in 2-column on input line 10177.
-Already applied: [0000/00/00] float order in 2-column on input line 10244.
-Applying: [2015/01/01] float order in 2-column on input line 10314.
-Already applied: [0000/00/00] float order in 2-column on input line 10347.
-Applying: [2015/01/01] float order in 2-column on input line 10379.
-Already applied: [0000/00/00] float order in 2-column on input line 10426.
-Applying: [2017/01/01] negative height floats on input line 10473.
-Already applied: [0000/00/00] negative height floats on input line 10483.
-Applying: [2015/01/01] 2 column marks on input line 10493.
-Already applied: [0000/00/00] 2 column marks on input line 10534.
-Applying: [2015/01/01] NFSS version1 commands on input line 10569.
-Already applied: [0000/00/00] NFSS version1 commands on input line 10589.
-Applying: [2015/01/01] Extended Allocation on input line 10712.
-Already applied: [0000/00/00] Extended Allocation on input line 10719.
-Applying: [2015/01/01] Extended Allocation on input line 10723.
-Already applied: [0000/00/00] Extended Allocation on input line 10737.
-Applying: [2016/02/01] Start of XeTeX class allocator on input line 10755.
-Already applied: [2015/01/01] Start of XeTeX class allocator on input line 1076
-3.
-Already applied: [0000/00/00] Start of XeTeX class allocator on input line 1077
-0.
-Applying: [2016/02/01] XeTeX character classes on input line 10778.
-Already applied: [0000/00/00] XeTeX character classes on input line 10811.
-Applying: [2017/04/15] Save language for hyphenation on input line 10835.
-Already applied: [0000/00/00] Save language for hyphenation on input line 10839
-.
-Applying: [2018/04/01] UTF-8 default on input line 10843.
-
-(/usr/share/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2019/11/14 v1.2k UTF-8 support for inputenc
-Now handling font encoding OML ...
-... no UTF-8 mapping file for font encoding OML
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
-
-(/usr/share/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-)
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
-
-(/usr/share/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0237 (decimal 567)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+FB00 (decimal 64256)
-   defining Unicode char U+FB01 (decimal 64257)
-   defining Unicode char U+FB02 (decimal 64258)
-   defining Unicode char U+FB03 (decimal 64259)
-   defining Unicode char U+FB04 (decimal 64260)
-   defining Unicode char U+FB05 (decimal 64261)
-   defining Unicode char U+FB06 (decimal 64262)
-)
-Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
-
-(/usr/share/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C4 (decimal 196)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00C7 (decimal 199)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CB (decimal 203)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00CE (decimal 206)
-   defining Unicode char U+00CF (decimal 207)
-   defining Unicode char U+00D0 (decimal 208)
-   defining Unicode char U+00D1 (decimal 209)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D6 (decimal 214)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DB (decimal 219)
-   defining Unicode char U+00DC (decimal 220)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00DE (decimal 222)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E4 (decimal 228)
-   defining Unicode char U+00E5 (decimal 229)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00E7 (decimal 231)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EB (decimal 235)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F0 (decimal 240)
-   defining Unicode char U+00F1 (decimal 241)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F6 (decimal 246)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FB (decimal 251)
-   defining Unicode char U+00FC (decimal 252)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+00FE (decimal 254)
-   defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0100 (decimal 256)
-   defining Unicode char U+0101 (decimal 257)
-   defining Unicode char U+0102 (decimal 258)
-   defining Unicode char U+0103 (decimal 259)
-   defining Unicode char U+0104 (decimal 260)
-   defining Unicode char U+0105 (decimal 261)
-   defining Unicode char U+0106 (decimal 262)
-   defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+0108 (decimal 264)
-   defining Unicode char U+0109 (decimal 265)
-   defining Unicode char U+010A (decimal 266)
-   defining Unicode char U+010B (decimal 267)
-   defining Unicode char U+010C (decimal 268)
-   defining Unicode char U+010D (decimal 269)
-   defining Unicode char U+010E (decimal 270)
-   defining Unicode char U+010F (decimal 271)
-   defining Unicode char U+0110 (decimal 272)
-   defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0112 (decimal 274)
-   defining Unicode char U+0113 (decimal 275)
-   defining Unicode char U+0114 (decimal 276)
-   defining Unicode char U+0115 (decimal 277)
-   defining Unicode char U+0116 (decimal 278)
-   defining Unicode char U+0117 (decimal 279)
-   defining Unicode char U+0118 (decimal 280)
-   defining Unicode char U+0119 (decimal 281)
-   defining Unicode char U+011A (decimal 282)
-   defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011C (decimal 284)
-   defining Unicode char U+011D (decimal 285)
-   defining Unicode char U+011E (decimal 286)
-   defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0120 (decimal 288)
-   defining Unicode char U+0121 (decimal 289)
-   defining Unicode char U+0122 (decimal 290)
-   defining Unicode char U+0123 (decimal 291)
-   defining Unicode char U+0124 (decimal 292)
-   defining Unicode char U+0125 (decimal 293)
-   defining Unicode char U+0128 (decimal 296)
-   defining Unicode char U+0129 (decimal 297)
-   defining Unicode char U+012A (decimal 298)
-   defining Unicode char U+012B (decimal 299)
-   defining Unicode char U+012C (decimal 300)
-   defining Unicode char U+012D (decimal 301)
-   defining Unicode char U+012E (decimal 302)
-   defining Unicode char U+012F (decimal 303)
-   defining Unicode char U+0130 (decimal 304)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0132 (decimal 306)
-   defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0134 (decimal 308)
-   defining Unicode char U+0135 (decimal 309)
-   defining Unicode char U+0136 (decimal 310)
-   defining Unicode char U+0137 (decimal 311)
-   defining Unicode char U+0139 (decimal 313)
-   defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013B (decimal 315)
-   defining Unicode char U+013C (decimal 316)
-   defining Unicode char U+013D (decimal 317)
-   defining Unicode char U+013E (decimal 318)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0143 (decimal 323)
-   defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0145 (decimal 325)
-   defining Unicode char U+0146 (decimal 326)
-   defining Unicode char U+0147 (decimal 327)
-   defining Unicode char U+0148 (decimal 328)
-   defining Unicode char U+014A (decimal 330)
-   defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+014C (decimal 332)
-   defining Unicode char U+014D (decimal 333)
-   defining Unicode char U+014E (decimal 334)
-   defining Unicode char U+014F (decimal 335)
-   defining Unicode char U+0150 (decimal 336)
-   defining Unicode char U+0151 (decimal 337)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0154 (decimal 340)
-   defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0156 (decimal 342)
-   defining Unicode char U+0157 (decimal 343)
-   defining Unicode char U+0158 (decimal 344)
-   defining Unicode char U+0159 (decimal 345)
-   defining Unicode char U+015A (decimal 346)
-   defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015C (decimal 348)
-   defining Unicode char U+015D (decimal 349)
-   defining Unicode char U+015E (decimal 350)
-   defining Unicode char U+015F (decimal 351)
-   defining Unicode char U+0160 (decimal 352)
-   defining Unicode char U+0161 (decimal 353)
-   defining Unicode char U+0162 (decimal 354)
-   defining Unicode char U+0163 (decimal 355)
-   defining Unicode char U+0164 (decimal 356)
-   defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+0168 (decimal 360)
-   defining Unicode char U+0169 (decimal 361)
-   defining Unicode char U+016A (decimal 362)
-   defining Unicode char U+016B (decimal 363)
-   defining Unicode char U+016C (decimal 364)
-   defining Unicode char U+016D (decimal 365)
-   defining Unicode char U+016E (decimal 366)
-   defining Unicode char U+016F (decimal 367)
-   defining Unicode char U+0170 (decimal 368)
-   defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0172 (decimal 370)
-   defining Unicode char U+0173 (decimal 371)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0178 (decimal 376)
-   defining Unicode char U+0179 (decimal 377)
-   defining Unicode char U+017A (decimal 378)
-   defining Unicode char U+017B (decimal 379)
-   defining Unicode char U+017C (decimal 380)
-   defining Unicode char U+017D (decimal 381)
-   defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+01CD (decimal 461)
-   defining Unicode char U+01CE (decimal 462)
-   defining Unicode char U+01CF (decimal 463)
-   defining Unicode char U+01D0 (decimal 464)
-   defining Unicode char U+01D1 (decimal 465)
-   defining Unicode char U+01D2 (decimal 466)
-   defining Unicode char U+01D3 (decimal 467)
-   defining Unicode char U+01D4 (decimal 468)
-   defining Unicode char U+01E2 (decimal 482)
-   defining Unicode char U+01E3 (decimal 483)
-   defining Unicode char U+01E6 (decimal 486)
-   defining Unicode char U+01E7 (decimal 487)
-   defining Unicode char U+01E8 (decimal 488)
-   defining Unicode char U+01E9 (decimal 489)
-   defining Unicode char U+01EA (decimal 490)
-   defining Unicode char U+01EB (decimal 491)
-   defining Unicode char U+01F0 (decimal 496)
-   defining Unicode char U+01F4 (decimal 500)
-   defining Unicode char U+01F5 (decimal 501)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
-   defining Unicode char U+0237 (decimal 567)
-   defining Unicode char U+02D9 (decimal 729)
-   defining Unicode char U+02DB (decimal 731)
-   defining Unicode char U+1E02 (decimal 7682)
-   defining Unicode char U+1E03 (decimal 7683)
-   defining Unicode char U+1E9E (decimal 7838)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2010 (decimal 8208)
-   defining Unicode char U+2011 (decimal 8209)
-   defining Unicode char U+2012 (decimal 8210)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2015 (decimal 8213)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201A (decimal 8218)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+201E (decimal 8222)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
-   defining Unicode char U+FB00 (decimal 64256)
-   defining Unicode char U+FB01 (decimal 64257)
-   defining Unicode char U+FB02 (decimal 64258)
-   defining Unicode char U+FB03 (decimal 64259)
-   defining Unicode char U+FB04 (decimal 64260)
-   defining Unicode char U+FB05 (decimal 64261)
-   defining Unicode char U+FB06 (decimal 64262)
-)
-Now handling font encoding TS1 ...
-... processing UTF-8 mapping file for font encoding TS1
-
-(/usr/share/texmf-dist/tex/latex/base/ts1enc.dfu
-File: ts1enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
-   defining Unicode char U+00A2 (decimal 162)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00A4 (decimal 164)
-   defining Unicode char U+00A5 (decimal 165)
-   defining Unicode char U+00A6 (decimal 166)
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00A8 (decimal 168)
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AC (decimal 172)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00AF (decimal 175)
-   defining Unicode char U+00B0 (decimal 176)
-   defining Unicode char U+00B1 (decimal 177)
-   defining Unicode char U+00B2 (decimal 178)
-   defining Unicode char U+00B3 (decimal 179)
-   defining Unicode char U+00B4 (decimal 180)
-   defining Unicode char U+00B5 (decimal 181)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+00B9 (decimal 185)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+00BC (decimal 188)
-   defining Unicode char U+00BD (decimal 189)
-   defining Unicode char U+00BE (decimal 190)
-   defining Unicode char U+00D7 (decimal 215)
-   defining Unicode char U+00F7 (decimal 247)
-   defining Unicode char U+0192 (decimal 402)
-   defining Unicode char U+02C7 (decimal 711)
-   defining Unicode char U+02D8 (decimal 728)
-   defining Unicode char U+02DD (decimal 733)
-   defining Unicode char U+0E3F (decimal 3647)
-   defining Unicode char U+2016 (decimal 8214)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+203B (decimal 8251)
-   defining Unicode char U+203D (decimal 8253)
-   defining Unicode char U+2044 (decimal 8260)
-   defining Unicode char U+204E (decimal 8270)
-   defining Unicode char U+2052 (decimal 8274)
-   defining Unicode char U+20A1 (decimal 8353)
-   defining Unicode char U+20A4 (decimal 8356)
-   defining Unicode char U+20A6 (decimal 8358)
-   defining Unicode char U+20A9 (decimal 8361)
-   defining Unicode char U+20AB (decimal 8363)
-   defining Unicode char U+20AC (decimal 8364)
-   defining Unicode char U+20B1 (decimal 8369)
-   defining Unicode char U+2103 (decimal 8451)
-   defining Unicode char U+2116 (decimal 8470)
-   defining Unicode char U+2117 (decimal 8471)
-   defining Unicode char U+211E (decimal 8478)
-   defining Unicode char U+2120 (decimal 8480)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2126 (decimal 8486)
-   defining Unicode char U+2127 (decimal 8487)
-   defining Unicode char U+212E (decimal 8494)
-   defining Unicode char U+2190 (decimal 8592)
-   defining Unicode char U+2191 (decimal 8593)
-   defining Unicode char U+2192 (decimal 8594)
-   defining Unicode char U+2193 (decimal 8595)
-   defining Unicode char U+2329 (decimal 9001)
-   defining Unicode char U+232A (decimal 9002)
-   defining Unicode char U+2422 (decimal 9250)
-   defining Unicode char U+25E6 (decimal 9702)
-   defining Unicode char U+25EF (decimal 9711)
-   defining Unicode char U+266A (decimal 9834)
-   defining Unicode char U+27E8 (decimal 10216)
-   defining Unicode char U+27E9 (decimal 10217)
-   defining Unicode char U+FEFF (decimal 65279)
-)
-Now handling font encoding OMX ...
-... no UTF-8 mapping file for font encoding OMX
-Now handling font encoding U ...
-... no UTF-8 mapping file for font encoding U
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+FEFF (decimal 65279)
-)
-Already applied: [0000/00/00] UTF-8 default on input line 10923.
-)
 (/usr/share/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
@@ -1539,10 +13,10 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmpdimenA=\dimen138
 \@IEEEtrantmpdimenB=\dimen139
 \@IEEEtrantmpdimenC=\dimen140
-\@IEEEtrantmpcountA=\count266
-\@IEEEtrantmpcountB=\count267
-\@IEEEtrantmpcountC=\count268
-\@IEEEtrantmptoksA=\toks16
+\@IEEEtrantmpcountA=\count179
+\@IEEEtrantmpcountB=\count180
+\@IEEEtrantmpcountC=\count181
+\@IEEEtrantmptoksA=\toks15
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
 03.
 (/usr/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
@@ -1612,28 +86,28 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEiednormlabelsep=\dimen154
 \IEEEiedmathlabelsep=\dimen155
 \IEEEiedtopsep=\skip47
-\c@section=\count269
-\c@subsection=\count270
-\c@subsubsection=\count271
-\c@paragraph=\count272
-\c@IEEEsubequation=\count273
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@IEEEsubequation=\count186
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
-\c@figure=\count274
-\c@table=\count275
-\@IEEEeqnnumcols=\count276
-\@IEEEeqncolcnt=\count277
-\@IEEEsubeqnnumrollback=\count278
+\c@figure=\count187
+\c@table=\count188
+\@IEEEeqnnumcols=\count189
+\@IEEEeqncolcnt=\count190
+\@IEEEsubeqnnumrollback=\count191
 \@IEEEquantizeheightA=\dimen156
 \@IEEEquantizeheightB=\dimen157
 \@IEEEquantizeheightC=\dimen158
 \@IEEEquantizeprevdepth=\dimen159
-\@IEEEquantizemultiple=\count279
-\@IEEEquantizeboxA=\box48
+\@IEEEquantizemultiple=\count192
+\@IEEEquantizeboxA=\box47
 \@IEEEtmpitemindent=\dimen160
 \IEEEPARstartletwidth=\dimen161
-\c@IEEEbiography=\count280
-\@IEEEtranrubishbin=\box49
+\c@IEEEbiography=\count193
+\@IEEEtranrubishbin=\box48
 ) (/usr/share/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
@@ -1650,7 +124,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
+\@emptytoks=\toks16
 \ex@=\dimen162
 ))
 (/home/user/texmf/tex/latex/tmeslatex/amsbsy.sty
@@ -1660,18 +134,19 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count281
+\inf@bad=\count194
+LaTeX Info: Redefining \tmspace on input line 145.
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count282
-\leftroot@=\count283
+\uproot@=\count195
+\leftroot@=\count196
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count284
-\DOTSCASE@=\count285
+\classnum@=\count197
+\DOTSCASE@=\count198
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box50
-\strutbox@=\box51
+\Mathstrutbox@=\box49
+\strutbox@=\box50
 \big@size=\dimen164
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
@@ -1709,26 +184,26 @@ Package amsmath Warning: Unable to redefine math accent \vec.
 
 Package amsmath Warning: Unable to redefine math accent \mathring.
 
-\macc@depth=\count286
-\c@MaxMatrixCols=\count287
+\macc@depth=\count199
+\c@MaxMatrixCols=\count266
 \dotsspace@=\muskip16
-\c@parentequation=\count288
-\dspbrk@lvl=\count289
-\tag@help=\toks18
-\row@=\count290
-\column@=\count291
-\maxfields@=\count292
-\andhelp@=\toks19
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks17
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks18
 \eqnshift@=\dimen165
 \alignsep@=\dimen166
 \tagshift@=\dimen167
 \tagwidth@=\dimen168
 \totwidth@=\dimen169
 \lineht@=\dimen170
-\@envbody=\toks20
+\@envbody=\toks19
 \multlinegap=\skip51
 \multlinetaggap=\skip52
-\mathdisplay@stack=\toks21
+\mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 ) (/usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
@@ -1737,8 +212,8 @@ Package: expl3 2021-02-18 L3 programming layer (loader)
 
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count293
-\l__pdf_internal_box=\box52
+\l__color_backend_stack_int=\count272
+\l__pdf_internal_box=\box51
 ))
 (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
@@ -1746,60 +221,56 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 Package: siunitx 2021/03/27 v2.8c A comprehensive (SI) units package
 
 (/usr/share/texmf-dist/tex/latex/tools/array.sty
-Rollback for package 'array' requested -> date 2020/02/10.
-         Best approximation is the release introduced on 2020-02-10.
-
-(/usr/share/texmf-dist/tex/latex/tools/array-2020-02-10.sty
-Package: array 2020/02/10 v2.4m Tabular extension package (FMi)
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \col@sep=\dimen171
-\ar@mcellbox=\box53
+\ar@mcellbox=\box52
 \extrarowheight=\dimen172
-\NC@list=\toks22
+\NC@list=\toks21
 \extratabsurround=\skip53
 \backup@length=\skip54
-\ar@cellbox=\box54
-))
+\ar@cellbox=\box53
+)
 (/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box55
+\l__siunitx_tmp_box=\box54
 \l__siunitx_tmp_dim=\dimen173
-\l__siunitx_tmp_int=\count294
-\l__siunitx_number_mantissa_length_int=\count295
-\l__siunitx_number_uncert_length_int=\count296
-\l__siunitx_round_int=\count297
-\l__siunitx_process_decimal_int=\count298
-\l__siunitx_process_uncertainty_int=\count299
-\l__siunitx_process_fixed_int=\count300
-\l__siunitx_process_integer_min_int=\count301
-\l__siunitx_process_precision_int=\count302
-\l__siunitx_group_min_int=\count303
-\l__siunitx_angle_marker_box=\box56
-\l__siunitx_angle_unit_box=\box57
+\l__siunitx_tmp_int=\count273
+\l__siunitx_number_mantissa_length_int=\count274
+\l__siunitx_number_uncert_length_int=\count275
+\l__siunitx_round_int=\count276
+\l__siunitx_process_decimal_int=\count277
+\l__siunitx_process_uncertainty_int=\count278
+\l__siunitx_process_fixed_int=\count279
+\l__siunitx_process_integer_min_int=\count280
+\l__siunitx_process_precision_int=\count281
+\l__siunitx_group_min_int=\count282
+\l__siunitx_angle_marker_box=\box55
+\l__siunitx_angle_unit_box=\box56
 \l__siunitx_angle_marker_dim=\dimen174
 \l__siunitx_angle_unit_dim=\dimen175
-\l__siunitx_unit_int=\count304
-\l__siunitx_unit_denominator_int=\count305
-\l__siunitx_unit_numerator_int=\count306
-\l__siunitx_unit_prefix_int=\count307
-\l__siunitx_unit_prefix_base_int=\count308
-\l__siunitx_unit_prefix_gram_int=\count309
-\l__siunitx_number_product_int=\count310
+\l__siunitx_unit_int=\count283
+\l__siunitx_unit_denominator_int=\count284
+\l__siunitx_unit_numerator_int=\count285
+\l__siunitx_unit_prefix_int=\count286
+\l__siunitx_unit_prefix_base_int=\count287
+\l__siunitx_unit_prefix_gram_int=\count288
+\l__siunitx_number_product_int=\count289
 \c__siunitx_one_fill_skip=\skip55
 \l__siunitx_table_unit_align_skip=\skip56
 \l__siunitx_table_exponent_dim=\dimen176
 \l__siunitx_table_integer_dim=\dimen177
 \l__siunitx_table_mantissa_dim=\dimen178
-\l__siunitx_table_marker_dim=\dimen256
-\l__siunitx_table_result_dim=\dimen257
-\l__siunitx_table_uncert_dim=\dimen258
-\l__siunitx_table_fill_pre_dim=\dimen259
-\l__siunitx_table_fill_post_dim=\dimen260
-\l__siunitx_table_fill_mid_dim=\dimen261
-\l__siunitx_table_pre_box=\box58
-\l__siunitx_table_post_box=\box59
-\l__siunitx_table_mantissa_box=\box60
-\l__siunitx_table_result_box=\box61
+\l__siunitx_table_marker_dim=\dimen179
+\l__siunitx_table_result_dim=\dimen180
+\l__siunitx_table_uncert_dim=\dimen181
+\l__siunitx_table_fill_pre_dim=\dimen182
+\l__siunitx_table_fill_post_dim=\dimen183
+\l__siunitx_table_fill_mid_dim=\dimen184
+\l__siunitx_table_pre_box=\box57
+\l__siunitx_table_post_box=\box58
+\l__siunitx_table_mantissa_box=\box59
+\l__siunitx_table_result_box=\box60
 \l__siunitx_table_number_align_skip=\skip57
 \l__siunitx_table_text_align_skip=\skip58
 
@@ -1808,20 +279,20 @@ Package: translator 2010/06/12 ver 1.10
 
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks23
+\KV@toks@=\toks22
 )
 (/home/user/texmf/tex/latex/gvv-slides/base/translator/translator-language-mapp
 ings.tex))) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks24
-\thm@bodyfont=\toks25
-\thm@headfont=\toks26
-\thm@notefont=\toks27
-\thm@headpunct=\toks28
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
 \thm@preskip=\skip59
 \thm@postskip=\skip60
 \thm@headsep=\skip61
-\dth@everypar=\toks29
+\dth@everypar=\toks28
 )
 (/usr/share/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
@@ -1910,8 +381,8 @@ LaTeX Info: Redefining \openbox on input line 1064.
 (/usr/share/texmf-dist/tex/latex/sttools/stfloats.sty
 Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip sett
 ings
-\@dblbotnum=\count311
-\c@dblbotnumber=\count312
+\@dblbotnum=\count290
+\c@dblbotnumber=\count291
 )
 (/usr/share/texmf-dist/tex/latex/steinmetz/steinmetz.sty
 Package: steinmetz 2009/06/14 v1.0 Steinmetz symbol for electrotechnics
@@ -1935,17 +406,17 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-\pIIe@GRAPH=\toks30
-\@arclen=\dimen262
-\@arcrad=\dimen263
-\pIIe@tempdima=\dimen264
-\pIIe@tempdimb=\dimen265
-\pIIe@tempdimc=\dimen266
-\pIIe@tempdimd=\dimen267
-\pIIe@tempdime=\dimen268
-\pIIe@tempdimf=\dimen269
+\pIIe@GRAPH=\toks29
+\@arclen=\dimen185
+\@arcrad=\dimen186
+\pIIe@tempdima=\dimen187
+\pIIe@tempdimb=\dimen188
+\pIIe@tempdimc=\dimen189
+\pIIe@tempdimd=\dimen190
+\pIIe@tempdime=\dimen191
+\pIIe@tempdimf=\dimen192
 )
-\stm@phasebox=\box62
+\stm@phasebox=\box61
 \stm@phasedp=\skip62
 \stm@phaseht=\skip63
 \stm@phasetot=\skip64
@@ -1958,29 +429,23 @@ Package: cite 2015/02/27  v 5.5
 )
 (/usr/share/texmf-dist/tex/latex/cases/cases.sty
 Package: cases 2020/03/29 ver 3.2
-\numc@numwid=\dimen270
+\numc@numwid=\dimen193
 )
-(/home/user/texmf/tex/latex/tfslatex/subfig.sty
+(/usr/share/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
 (/usr/share/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
-
-LaTeX Warning: Suspicious rollback/min-date date given
-               A minimal date of 2020/10/06 has been specified for package
-               'caption3'.
-               But this is in conflict with a rollback request to 2020/02/10.
-
 (/usr/share/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen271
-\captionmargin@=\dimen272
-\captionwidth=\dimen273
-\caption@tempdima=\dimen274
-\caption@indent=\dimen275
-\caption@parindent=\dimen276
-\caption@hangindent=\dimen277
+\captionmargin=\dimen194
+\captionmargin@=\dimen195
+\captionwidth=\dimen196
+\caption@tempdima=\dimen197
+\caption@indent=\dimen198
+\caption@parindent=\dimen199
+\caption@hangindent=\dimen256
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
@@ -2000,20 +465,20 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count313
-\c@continuedfloat=\count314
+\c@caption@flags=\count292
+\c@continuedfloat=\count293
 )
-\c@KVtest=\count315
+\c@KVtest=\count294
 \sf@farskip=\skip66
-\sf@captopadj=\dimen278
+\sf@captopadj=\dimen257
 \sf@capskip=\skip67
 \sf@nearskip=\skip68
-\c@subfigure=\count316
-\c@subfigure@save=\count317
-\c@lofdepth=\count318
-\c@subtable=\count319
-\c@subtable@save=\count320
-\c@lotdepth=\count321
+\c@subfigure=\count295
+\c@subfigure@save=\count296
+\c@lofdepth=\count297
+\c@subtable=\count298
+\c@subtable@save=\count299
+\c@lotdepth=\count300
 \sf@top=\skip69
 \sf@bottom=\skip70
 ) (/usr/share/texmf-dist/tex/latex/tools/longtable.sty
@@ -2022,56 +487,50 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTright=\skip72
 \LTpre=\skip73
 \LTpost=\skip74
-\LTchunksize=\count322
-\LTcapwidth=\dimen279
-\LT@head=\box63
-\LT@firsthead=\box64
-\LT@foot=\box65
-\LT@lastfoot=\box66
-\LT@cols=\count323
-\LT@rows=\count324
-\c@LT@tables=\count325
-\c@LT@chunks=\count326
-\LT@p@ftn=\toks31
+\LTchunksize=\count301
+\LTcapwidth=\dimen258
+\LT@head=\box62
+\LT@firsthead=\box63
+\LT@foot=\box64
+\LT@lastfoot=\box65
+\LT@cols=\count302
+\LT@rows=\count303
+\c@LT@tables=\count304
+\c@LT@chunks=\count305
+\LT@p@ftn=\toks30
 )
 (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip75
-\multirow@cntb=\count327
+\multirow@cntb=\count306
 \multirow@dima=\skip76
-\bigstrutjot=\dimen280
+\bigstrutjot=\dimen259
 )
 (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip77
-\enit@outerparindent=\dimen281
-\enit@toks=\toks32
-\enit@inbox=\box67
-\enit@count@id=\count328
-\enitdp@description=\count329
+\enit@outerparindent=\dimen260
+\enit@toks=\toks31
+\enit@inbox=\box66
+\enit@count@id=\count307
+\enitdp@description=\count308
 )
 (/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2021/03/18 v1.25 mathematical typesetting tools
 
 (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count330
-\calc@Bcount=\count331
-\calc@Adimen=\dimen282
-\calc@Bdimen=\dimen283
+\calc@Acount=\count309
+\calc@Bcount=\count310
+\calc@Adimen=\dimen261
+\calc@Bdimen=\dimen262
 \calc@Askip=\skip78
 \calc@Bskip=\skip79
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count332
+\calc@Ccount=\count311
 \calc@Cskip=\skip80
 )
-
-LaTeX Warning: Suspicious rollback/min-date date given
-               A minimal date of 2021/03/18 has been specified for package
-               'mhsetup'.
-               But this is in conflict with a rollback request to 2020/02/10.
-
 (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
@@ -2086,40 +545,30 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count333
-\l_MT_multwidth_dim=\dimen284
+\g_MT_multlinerow_int=\count312
+\l_MT_multwidth_dim=\dimen263
 \origjot=\skip81
-\l_MT_shortvdotswithinadjustabove_dim=\dimen285
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen286
-\l_MT_above_intertext_sep=\dimen287
-\l_MT_below_intertext_sep=\dimen288
-\l_MT_above_shortintertext_sep=\dimen289
-\l_MT_below_shortintertext_sep=\dimen290
-\xmathstrut@box=\box68
-\xmathstrut@dim=\dimen291
+\l_MT_shortvdotswithinadjustabove_dim=\dimen264
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen265
+\l_MT_above_intertext_sep=\dimen266
+\l_MT_below_intertext_sep=\dimen267
+\l_MT_above_shortintertext_sep=\dimen268
+\l_MT_below_shortintertext_sep=\dimen269
+\xmathstrut@box=\box67
+\xmathstrut@dim=\dimen270
 ) (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks33
-\pgfutil@tempdima=\dimen292
-\pgfutil@tempdimb=\dimen293
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen271
+\pgfutil@tempdimb=\dimen272
 
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box69
-
-(/usr/share/texmf-dist/tex/latex/everyshi/everyshi.sty
-Package: everyshi 2020/11/18 v4.00 EveryShipout Package
-
-(/usr/share/texmf-dist/tex/latex/everyshi/everyshi-2001-05-15.sty
-
-LaTeX Warning: You have requested package `everyshi',
-               but the package provides `everyshi-2001-05-15'.
-
-Package: everyshi-2001-05-15 2020/11/18 v4.00 EveryShipout Package (fallback me
-chanism)
-))) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+\pgfutil@abb=\box68
+)
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
 ))
@@ -2130,8 +579,6 @@ Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
-Rollback for package 'graphics' requested -> date 2020/02/10.
-         Best approximation is the release introduced on 2019-10-01.
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
@@ -2139,40 +586,40 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen294
-\Gin@req@width=\dimen295
+\Gin@req@height=\dimen273
+\Gin@req@width=\dimen274
 )
 (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks34
-\pgfkeys@temptoks=\toks35
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
 
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks36
+\pgfkeys@tmptoks=\toks35
 ))
-\pgf@x=\dimen296
-\pgf@y=\dimen297
-\pgf@xa=\dimen298
-\pgf@ya=\dimen299
-\pgf@xb=\dimen300
-\pgf@yb=\dimen301
-\pgf@xc=\dimen302
-\pgf@yc=\dimen303
-\pgf@xd=\dimen304
-\pgf@yd=\dimen305
+\pgf@x=\dimen275
+\pgf@y=\dimen276
+\pgf@xa=\dimen277
+\pgf@ya=\dimen278
+\pgf@xb=\dimen279
+\pgf@yb=\dimen280
+\pgf@xc=\dimen281
+\pgf@yc=\dimen282
+\pgf@xd=\dimen283
+\pgf@yd=\dimen284
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count334
-\c@pgf@countb=\count335
-\c@pgf@countc=\count336
-\c@pgf@countd=\count337
-\t@pgf@toka=\toks37
-\t@pgf@tokb=\toks38
-\t@pgf@tokc=\toks39
-\pgf@sys@id@count=\count338
+\c@pgf@counta=\count313
+\c@pgf@countb=\count314
+\c@pgf@countc=\count315
+\c@pgf@countd=\count316
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+\pgf@sys@id@count=\count317
 
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
@@ -2187,8 +634,8 @@ File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count339
-\pgfsyssoftpath@bigbuffer@items=\count340
+\pgfsyssoftpath@smallbuffer@items=\count318
+\pgfsyssoftpath@bigbuffer@items=\count319
 )
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -2217,12 +664,12 @@ Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen306
-\pgfmath@count=\count341
-\pgfmath@box=\box70
-\pgfmath@toks=\toks40
-\pgfmath@stack@operand=\toks41
-\pgfmath@stack@operation=\toks42
+\pgfmath@dimen=\dimen285
+\pgfmath@count=\count320
+\pgfmath@box=\box69
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
 )
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
@@ -2235,51 +682,51 @@ x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
 .code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count342
+\c@pgfmathroundto@lastzeros=\count321
 )) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@picminx=\dimen307
-\pgf@picmaxx=\dimen308
-\pgf@picminy=\dimen309
-\pgf@picmaxy=\dimen310
-\pgf@pathminx=\dimen311
-\pgf@pathmaxx=\dimen312
-\pgf@pathminy=\dimen313
-\pgf@pathmaxy=\dimen314
-\pgf@xx=\dimen315
-\pgf@xy=\dimen316
-\pgf@yx=\dimen317
-\pgf@yy=\dimen318
-\pgf@zx=\dimen319
-\pgf@zy=\dimen320
+\pgf@picminx=\dimen286
+\pgf@picmaxx=\dimen287
+\pgf@picminy=\dimen288
+\pgf@picmaxy=\dimen289
+\pgf@pathminx=\dimen290
+\pgf@pathmaxx=\dimen291
+\pgf@pathminy=\dimen292
+\pgf@pathmaxy=\dimen293
+\pgf@xx=\dimen294
+\pgf@xy=\dimen295
+\pgf@yx=\dimen296
+\pgf@yy=\dimen297
+\pgf@zx=\dimen298
+\pgf@zy=\dimen299
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@path@lastx=\dimen321
-\pgf@path@lasty=\dimen322
+\pgf@path@lastx=\dimen300
+\pgf@path@lasty=\dimen301
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@shorten@end@additional=\dimen323
-\pgf@shorten@start@additional=\dimen324
+\pgf@shorten@end@additional=\dimen302
+\pgf@shorten@start@additional=\dimen303
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfpic=\box71
-\pgf@hbox=\box72
-\pgf@layerbox@main=\box73
-\pgf@picture@serial@count=\count343
+\pgfpic=\box70
+\pgf@hbox=\box71
+\pgf@layerbox@main=\box72
+\pgf@picture@serial@count=\count322
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgflinewidth=\dimen325
+\pgflinewidth=\dimen304
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
 ex
 File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@pt@x=\dimen326
-\pgf@pt@y=\dimen327
-\pgf@pt@temp=\dimen328
+\pgf@pt@x=\dimen305
+\pgf@pt@y=\dimen306
+\pgf@pt@temp=\dimen307
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
@@ -2291,20 +738,20 @@ x
 File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfarrowsep=\dimen329
+\pgfarrowsep=\dimen308
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@max=\dimen330
-\pgf@sys@shading@range@num=\count344
-\pgf@shadingcount=\count345
+\pgf@max=\dimen309
+\pgf@sys@shading@range@num=\count323
+\pgf@shadingcount=\count324
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfexternal@startupbox=\box74
+\pgfexternal@startupbox=\box73
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -2319,15 +766,15 @@ File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfnodeparttextbox=\box75
+\pgfnodeparttextbox=\box74
 )
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@nodesepstart=\dimen331
-\pgf@nodesepend=\dimen332
+\pgf@nodesepstart=\dimen310
+\pgf@nodesepend=\dimen311
 )
 (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
@@ -2341,10 +788,10 @@ Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
 Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen333
-\pgffor@skip=\dimen334
-\pgffor@stack=\toks43
-\pgffor@toks=\toks44
+\pgffor@iter=\dimen312
+\pgffor@skip=\dimen313
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
@@ -2352,32 +799,32 @@ Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
 x
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count346
-\pgfplotmarksize=\dimen335
+\pgf@plot@mark@count=\count325
+\pgfplotmarksize=\dimen314
 )
-\tikz@lastx=\dimen336
-\tikz@lasty=\dimen337
-\tikz@lastxsaved=\dimen338
-\tikz@lastysaved=\dimen339
-\tikz@lastmovetox=\dimen340
-\tikz@lastmovetoy=\dimen341
-\tikzleveldistance=\dimen342
-\tikzsiblingdistance=\dimen343
-\tikz@figbox=\box76
-\tikz@figbox@bg=\box77
-\tikz@tempbox=\box78
-\tikz@tempbox@bg=\box79
-\tikztreelevel=\count347
-\tikznumberofchildren=\count348
-\tikznumberofcurrentchild=\count349
-\tikz@fig@count=\count350
+\tikz@lastx=\dimen315
+\tikz@lasty=\dimen316
+\tikz@lastxsaved=\dimen317
+\tikz@lastysaved=\dimen318
+\tikz@lastmovetox=\dimen319
+\tikz@lastmovetoy=\dimen320
+\tikzleveldistance=\dimen321
+\tikzsiblingdistance=\dimen322
+\tikz@figbox=\box75
+\tikz@figbox@bg=\box76
+\tikz@tempbox=\box77
+\tikz@tempbox@bg=\box78
+\tikztreelevel=\count326
+\tikznumberofchildren=\count327
+\tikznumberofcurrentchild=\count328
+\tikz@fig@count=\count329
  (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count351
-\pgfmatrixcurrentcolumn=\count352
-\pgf@matrix@numberofcolumns=\count353
+\pgfmatrixcurrentrow=\count330
+\pgfmatrixcurrentcolumn=\count331
+\pgf@matrix@numberofcolumns=\count332
 )
-\tikz@expandcount=\count354
+\tikz@expandcount=\count333
 
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 topaths.code.tex
@@ -2392,10 +839,10 @@ File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfarrowinset=\dimen344
-\pgfarrowlength=\dimen345
-\pgfarrowwidth=\dimen346
-\pgfarrowlinewidth=\dimen347
+\pgfarrowinset=\dimen323
+\pgfarrowlength=\dimen324
+\pgfarrowwidth=\dimen325
+\pgfarrowlinewidth=\dimen326
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 bending.code.tex
@@ -2407,36 +854,36 @@ File: pgfmodulebending.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransformation
 s.code.tex
 File: pgfmodulenonlineartransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgftransformnonlinearflatness=\dimen348
+\pgftransformnonlinearflatness=\dimen327
 )
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.code.tex
 File: pgflibrarycurvilinear.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@curvilinear@time@a=\dimen349
-\pgf@curvilinear@length@a=\dimen350
-\pgf@curvilinear@length@b=\dimen351
-\pgf@curvilinear@length@c=\dimen352
-\pgf@curvilinear@length@d=\dimen353
+\pgf@curvilinear@time@a=\dimen328
+\pgf@curvilinear@length@a=\dimen329
+\pgf@curvilinear@length@b=\dimen330
+\pgf@curvilinear@length@c=\dimen331
+\pgf@curvilinear@length@d=\dimen332
 )
-\pgf@arrows@the@rigidity=\dimen354
+\pgf@arrows@the@rigidity=\dimen333
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 fpu.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex))
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
-\pgf@circ@count@a=\count355
-\pgf@circ@count@b=\count356
-\pgf@circ@count@c=\count357
-\pgf@circ@res@up=\dimen355
-\pgf@circ@res@down=\dimen356
-\pgf@circ@res@zero=\dimen357
-\pgf@circ@res@left=\dimen358
-\pgf@circ@res@right=\dimen359
-\pgf@circ@res@other=\dimen360
-\pgf@circ@res@step=\dimen361
-\pgf@circ@res@temp=\dimen362
-\pgf@circ@Rlen=\dimen363
-\pgf@circ@scaled@Rlen=\dimen364
-\pgfstartlinewidth=\dimen365
+\pgf@circ@count@a=\count334
+\pgf@circ@count@b=\count335
+\pgf@circ@count@c=\count336
+\pgf@circ@res@up=\dimen334
+\pgf@circ@res@down=\dimen335
+\pgf@circ@res@zero=\dimen336
+\pgf@circ@res@left=\dimen337
+\pgf@circ@res@right=\dimen338
+\pgf@circ@res@other=\dimen339
+\pgf@circ@res@step=\dimen340
+\pgf@circ@res@temp=\dimen341
+\pgf@circ@Rlen=\dimen342
+\pgf@circ@scaled@Rlen=\dimen343
+\pgfstartlinewidth=\dimen344
 )
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex)
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex)
@@ -2444,20 +891,20 @@ fpu.code.tex
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex)
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex)
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
-\pgf@circ@res@count=\count358
+\pgf@circ@res@count=\count337
 )
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex)
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex)
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
-\pgfcirc@labelshift=\dimen366
+\pgfcirc@labelshift=\dimen345
 )
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
 (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks45
-\verbatim@line=\toks46
+\every@verbatim=\toks44
+\verbatim@line=\toks45
 \verbatim@in@stream=\read3
 )
 (/home/user/texmf/tex/latex/tfrupee/tfrupee.sty
@@ -2506,9 +953,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen367
-\Hy@linkcounter=\count359
-\Hy@pagecounter=\count360
+\@linkdim=\dimen346
+\Hy@linkcounter=\count338
+\Hy@pagecounter=\count339
 
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
@@ -2525,7 +972,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count361
+\Hy@SavedSpaceFactor=\count340
 
 (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
@@ -2540,14 +987,14 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count362
+\c@Hy@tempcnt=\count341
 
 (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen368
+\XeTeXLinkMargin=\dimen347
 
 (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -2556,9 +1003,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count363
-\Field@Width=\dimen369
-\Fld@charsize=\dimen370
+\Fld@menulength=\count342
+\Field@Width=\dimen348
+\Fld@charsize=\dimen349
 Package hyperref Info: Hyper figures OFF on input line 6075.
 Package hyperref Info: Link nesting OFF on input line 6080.
 Package hyperref Info: Hyper index ON on input line 6083.
@@ -2569,24 +1016,27 @@ Package hyperref Info: PDF/A mode OFF on input line 6105.
 LaTeX Info: Redefining \ref on input line 6145.
 LaTeX Info: Redefining \pageref on input line 6149.
 
-(/usr/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+(/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
 )
-\Hy@abspage=\count364
-\c@Item=\count365
-\c@Hfootnote=\count366
+\Hy@abspage=\count343
+\c@Item=\count344
+\c@Hfootnote=\count345
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
 
-(/usr/share/texmf-dist/tex/latex/atveryend/atveryend.sty
-Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
+(/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
 )
-\Fld@listcount=\count367
-\c@bookmark@seq@number=\count368
+\Fld@listcount=\count346
+\c@bookmark@seq@number=\count347
 
 (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -2616,7 +1066,7 @@ File: tikzlibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\arrowsize=\dimen371
+\arrowsize=\dimen350
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 babel.code.tex
@@ -2625,16 +1075,16 @@ File: tikzlibrarybabel.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 decorations.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen372
-\pgfdecoratedremainingdistance=\dimen373
-\pgfdecoratedinputsegmentcompleteddistance=\dimen374
-\pgfdecoratedinputsegmentremainingdistance=\dimen375
-\pgf@decorate@distancetomove=\dimen376
-\pgf@decorate@repeatstate=\count369
-\pgfdecorationsegmentamplitude=\dimen377
-\pgfdecorationsegmentlength=\dimen378
+\pgfdecoratedcompleteddistance=\dimen351
+\pgfdecoratedremainingdistance=\dimen352
+\pgfdecoratedinputsegmentcompleteddistance=\dimen353
+\pgfdecoratedinputsegmentremainingdistance=\dimen354
+\pgf@decorate@distancetomove=\dimen355
+\pgf@decorate@repeatstate=\count348
+\pgfdecorationsegmentamplitude=\dimen356
+\pgfdecorationsegmentlength=\dimen357
 )
-\tikz@lib@dec@box=\box80
+\tikz@lib@dec@box=\box79
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 decorations.markings.code.tex
@@ -2652,9 +1102,9 @@ ons.shapes.code.tex))
 decorations.text.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
 ons.text.code.tex
-\pgf@lib@dec@text@box=\box81
+\pgf@lib@dec@text@box=\box80
 )
-\tikz@lib@dec@te@box=\box82
+\tikz@lib@dec@te@box=\box81
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 decorations.pathmorphing.code.tex
@@ -2664,7 +1114,7 @@ ons.pathmorphing.code.tex))
 intersections.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.t
 ex
-\pgf@intersect@solutions=\count370
+\pgf@intersect@solutions=\count349
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 patterns.code.tex
@@ -2712,23 +1162,23 @@ through.code.tex
 File: tikzlibrarythrough.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (/usr/share/texmf-dist/tex/latex/numprint/numprint.sty
 Package: numprint 2012/08/20 v1.39 Print numbers (HH)
-\c@nprt@mantissa@digitsbefore=\count371
-\c@nprt@mantissa@digitsafter=\count372
-\c@nprt@exponent@digitsbefore=\count373
-\c@nprt@exponent@digitsafter=\count374
+\c@nprt@mantissa@digitsbefore=\count350
+\c@nprt@mantissa@digitsafter=\count351
+\c@nprt@exponent@digitsbefore=\count352
+\c@nprt@exponent@digitsafter=\count353
 \nprt@digitwidth=\skip83
 \nprt@sepwidth=\skip84
 \nprt@decimalwidth=\skip85
 \nprt@blockwidth=\skip86
-\nprt@digittoks=\toks47
-\nprt@pretoks=\toks48
-\nprt@posttoks=\toks49
-\nprt@thisdigit=\count375
-\nprt@curpos=\count376
-\nprt@rndpos=\count377
-\c@nprt@digitsfirstblock=\count378
-\c@nprt@blockcnt=\count379
-\c@nprt@cntprint=\count380
+\nprt@digittoks=\toks46
+\nprt@pretoks=\toks47
+\nprt@posttoks=\toks48
+\nprt@thisdigit=\count354
+\nprt@curpos=\count355
+\nprt@rndpos=\count356
+\c@nprt@digitsfirstblock=\count357
+\c@nprt@blockcnt=\count358
+\c@nprt@cntprint=\count359
 
 No configuration file `numprint.cfg' found.)
 (/usr/share/texmf-dist/tex/latex/l3packages/xfp/xfp.sty
@@ -2740,19 +1190,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/share/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count381
+\actioncount=\count360
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count382
-\FP@xia=\count383
-\FP@xib=\count384
-\FP@xfa=\count385
-\FP@xfb=\count386
-\FP@rega=\count387
-\FP@regb=\count388
-\FP@regs=\count389
-\FP@times=\count390
+\FP@xs=\count361
+\FP@xia=\count362
+\FP@xib=\count363
+\FP@xfa=\count364
+\FP@xfb=\count365
+\FP@rega=\count366
+\FP@regb=\count367
+\FP@regs=\count368
+\FP@times=\count369
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -2771,7 +1221,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count391
+\FPseed=\count370
 )
 (/usr/share/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -2782,26 +1232,26 @@ Package: fp-upn 1996/10/21
 (/usr/share/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 ))
-\tkzRadius=\dimen379
-\tkzLength=\dimen380
-\tkz@radi=\dimen381
-\tkz@ax=\dimen382
-\tkz@ay=\dimen383
-\tkz@bx=\dimen384
-\tkz@by=\dimen385
-\tkz@cx=\dimen386
-\tkz@cy=\dimen387
-\tkz@dx=\dimen388
-\tkz@dy=\dimen389
-\tkz@tax=\dimen390
-\tkz@tay=\dimen391
-\tkz@tbx=\dimen392
-\tkz@tby=\dimen393
-\tkz@tcx=\dimen394
-\tkz@tcy=\dimen395
-\tkz@tdx=\dimen396
-\tkz@tdy=\dimen397
-\tkz@cntmk=\count392
+\tkzRadius=\dimen358
+\tkzLength=\dimen359
+\tkz@radi=\dimen360
+\tkz@ax=\dimen361
+\tkz@ay=\dimen362
+\tkz@bx=\dimen363
+\tkz@by=\dimen364
+\tkz@cx=\dimen365
+\tkz@cy=\dimen366
+\tkz@dx=\dimen367
+\tkz@dy=\dimen368
+\tkz@tax=\dimen369
+\tkz@tay=\dimen370
+\tkz@tbx=\dimen371
+\tkz@tby=\dimen372
+\tkz@tcx=\dimen373
+\tkz@tcy=\dimen374
+\tkz@tdx=\dimen375
+\tkz@tdy=\dimen376
+\tkz@cntmk=\count371
 
 Local configuration file tkz-base.cfg found and used
 (/usr/share/texmf-dist/tex/latex/tkz-base/tkz-base.cfg
@@ -2843,8 +1293,8 @@ File: tkz-tool-arith.tex tkz-tool-arith 3.02 c
 2020/03/18 3.06c tkz-tools-angles.tex
 ) (/usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-angles.tex
 2020/03/18 3.06c tkz-tool-eu-angles.tex
-\tkz@arcsize=\dimen398
-\tkz@fillsize=\dimen399
+\tkz@arcsize=\dimen377
+\tkz@fillsize=\dimen378
 ) (/usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-arcs.tex
 2020/03/23 3.06c tkz-obj-eu-arcs.tex
 ) (/usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-compass.tex
@@ -2881,28 +1331,28 @@ File: tkz-tool-arith.tex tkz-tool-arith 3.02 c
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 math.code.tex
-\tikz@math@for@depth=\count393
-\tikz@math@dimen=\dimen400
-\tikz@math@toks=\toks50
+\tikz@math@for@depth=\count372
+\tikz@math@dimen=\dimen379
+\tikz@math@toks=\toks49
 ) (/usr/share/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count394
-\lst@gtempboxa=\box83
-\lst@token=\toks51
-\lst@length=\count395
-\lst@currlwidth=\dimen401
-\lst@column=\count396
-\lst@pos=\count397
-\lst@lostspace=\dimen402
-\lst@width=\dimen403
-\lst@newlines=\count398
-\lst@lineno=\count399
-\lst@maxwidth=\dimen404
+\lst@mode=\count373
+\lst@gtempboxa=\box82
+\lst@token=\toks50
+\lst@length=\count374
+\lst@currlwidth=\dimen380
+\lst@column=\count375
+\lst@pos=\count376
+\lst@lostspace=\dimen381
+\lst@width=\dimen382
+\lst@newlines=\count377
+\lst@lineno=\count378
+\lst@maxwidth=\dimen383
 
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count400
-\lst@skipnumbers=\count401
-\lst@framebox=\box84
+\c@lstnumber=\count379
+\lst@skipnumbers=\count380
+\lst@framebox=\box83
 )
 (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -2919,35 +1369,34 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
-Rollback for package 'multicol' requested -> date 2020/02/10.
-         Best approximation is the release introduced on 2018-04-01.
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count402
+\c@tracingmulticols=\count381
 
 
 Package multicol Warning: May not work with the twocolumn option on input line 
 141.
 
-\mult@box=\box85
-\multicol@leftmargin=\dimen405
-\c@unbalance=\count403
-\c@collectmore=\count404
-\doublecol@number=\count405
-\multicoltolerance=\count406
-\multicolpretolerance=\count407
-\full@width=\dimen406
-\page@free=\dimen407
-\premulticols=\dimen408
-\postmulticols=\dimen409
+\mult@box=\box84
+\multicol@leftmargin=\dimen384
+\c@unbalance=\count382
+\c@collectmore=\count383
+\doublecol@number=\count384
+\multicoltolerance=\count385
+\multicolpretolerance=\count386
+\full@width=\dimen385
+\page@free=\dimen386
+\premulticols=\dimen387
+\postmulticols=\dimen388
 \multicolsep=\skip87
 \multicolbaselineskip=\skip88
-\partial@page=\box86
-\last@line=\box87
-\maxbalancingoverflow=\dimen410
-\mult@rightbox=\box88
-\mult@grightbox=\box89
-\mult@gfirstbox=\box90
-\mult@firstbox=\box91
+\partial@page=\box85
+\last@line=\box86
+\maxbalancingoverflow=\dimen389
+\mult@rightbox=\box87
+\mult@grightbox=\box88
+\mult@gfirstbox=\box89
+\mult@firstbox=\box90
+\@tempa=\box91
 \@tempa=\box92
 \@tempa=\box93
 \@tempa=\box94
@@ -2984,103 +1433,139 @@ Package multicol Warning: May not work with the twocolumn option on input line
 \@tempa=\box125
 \@tempa=\box126
 \@tempa=\box127
-\@tempa=\box128
-\c@minrows=\count408
-\c@columnbadness=\count409
-\c@finalcolumnbadness=\count410
-\last@try=\dimen411
-\multicolovershoot=\dimen412
-\multicolundershoot=\dimen413
-\mult@nat@firstbox=\box129
-\colbreak@box=\box130
-\mc@col@check@num=\count411
+\c@minrows=\count387
+\c@columnbadness=\count388
+\c@finalcolumnbadness=\count389
+\last@try=\dimen390
+\multicolovershoot=\dimen391
+\multicolundershoot=\dimen392
+\mult@nat@firstbox=\box128
+\colbreak@box=\box129
+\mc@col@check@num=\count390
 ) (/usr/share/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
+)
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9
+5.
+
+(/usr/share/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
 ) (./gvv_ncert_opt.aux)
 \openout1 = `gvv_ncert_opt.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 94.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 95.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-94.
+95.
+
 (/usr/share/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 95.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-94.
+95.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 95.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-94.
+95.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 95.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 9
-4.
+5.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9
-4.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
 
-(/usr/share/texmf-dist/tex/latex/txfonts/ot1txr.fd
-File: ot1txr.fd 2000/12/15 v3.1
-)
 -- Lines per column: 50 (exact).
-LaTeX Info: Redefining \celsius on input line 94.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 94.
+LaTeX Info: Redefining \celsius on input line 95.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 95.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 94.
-Package gensymb Info: Using \Omega for \ohm on input line 94.
+LaTeX Info: Redefining \ohm on input line 95.
+Package gensymb Info: Using \Omega for \ohm on input line 95.
 
 Package gensymb Warning: Not defining \micro.
 
-
+(/usr/share/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+)
 (/home/user/texmf/tex/latex/gvv-slides/base/translator/dicts/translator-basic-d
 ictionary/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-(/usr/share/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
-File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
-)
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count412
-\scratchdimen=\dimen414
-\scratchbox=\box131
-\nofMPsegments=\count413
-\nofMParguments=\count414
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count415
-\MPscratchDim=\dimen415
-\MPnumerator=\count416
-\makeMPintoPDFobject=\count417
-\everyMPtoPDFconversion=\toks53
+\scratchcounter=\count391
+\scratchdimen=\dimen393
+\scratchbox=\box130
+\nofMPsegments=\count392
+\nofMParguments=\count393
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count394
+\MPscratchDim=\dimen394
+\MPnumerator=\count395
+\makeMPintoPDFobject=\count396
+\everyMPtoPDFconversion=\toks52
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -3100,10 +1585,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-
-ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box132
-Package hyperref Info: Link coloring OFF on input line 94.
+Package hyperref Info: Link coloring OFF on input line 95.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -3114,78 +1596,78 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count418
+\c@section@level=\count397
 )
-LaTeX Info: Redefining \ref on input line 94.
-LaTeX Info: Redefining \pageref on input line 94.
-LaTeX Info: Redefining \nameref on input line 94.
+LaTeX Info: Redefining \ref on input line 95.
+LaTeX Info: Redefining \pageref on input line 95.
+LaTeX Info: Redefining \nameref on input line 95.
 
 (./gvv_ncert_opt.out) (./gvv_ncert_opt.out)
 \@outlinefile=\write4
 \openout4 = `gvv_ncert_opt.out'.
 
-\c@lstlisting=\count419
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 94
+\c@lstlisting=\count398
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 95
 .
 
 (/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 9
-4.
+5.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 9
-4.
+5.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 9
-4.
+5.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 9
-4.
+5.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for OT1+txss on input line 
-94.
+95.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 94.
+(Font)              scaled to size 11.39996pt on input line 95.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 94.
+(Font)              scaled to size 7.59998pt on input line 95.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 94.
+(Font)              scaled to size 5.69998pt on input line 95.
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-94.
+95.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 )
-\c@theorem=\count420
-\c@problem=\count421
-\c@proposition=\count422
-\c@lemma=\count423
-\c@example=\count424
-\c@rem=\count425
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 253.
+\c@theorem=\count399
+\c@problem=\count400
+\c@proposition=\count401
+\c@lemma=\count402
+\c@example=\count403
+\c@rem=\count404
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 254.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 13.29996pt on input line 253.
+(Font)              scaled to size 13.29996pt on input line 254.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.30992pt on input line 253.
+(Font)              scaled to size 9.30992pt on input line 254.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 253.
+(Font)              scaled to size 6.64998pt on input line 254.
  (./gvv_ncert_opt.toc)
 \tf@toc=\write5
 \openout5 = `gvv_ncert_opt.toc'.
@@ -3746,95 +2228,51 @@ Underfull \vbox (badness 1371) has occurred while \output is active []
 
  [27 <./solutions/su2021/2/36/Figure12.png> <./solutions/su2021/2/1/a/Figure15.
 png>])
-Underfull \hbox (badness 10000) in paragraph at lines 38--40
+(./solutions/su2021/2/1/b/Assignment14.tex
+Underfull \hbox (badness 2197) in paragraph at lines 34--35
+[]\OT1/txr/m/n/12 Taking $\OML/txmi/m/it/12 x[] \OT1/txr/m/n/12 = \OMS/txsy/m/n
+/12 ^^@\OT1/txr/m/n/12 3\OML/txmi/m/it/12 ;  \OT1/txr/m/n/12 = 0\OML/txmi/m/it
+/12 :\OT1/txr/m/n/12 001$ and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+\OT1/txr/m/n/12 0.00000001,values ob-tained us-ing
+ []
+
+<solutions/su2021/2/1/b/Figure/Figure.png, id=756, 383.4325pt x 262.9825pt>
+File: solutions/su2021/2/1/b/Figure/Figure.png Graphic file (type png)
+<use solutions/su2021/2/1/b/Figure/Figure.png>
+Package pdftex.def Info: solutions/su2021/2/1/b/Figure/Figure.png  used on inpu
+t line 43.
+(pdftex.def)             Requested size: 252.0pt x 172.83864pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+) [28 <./solutions/su2021/2/1/b/Figure/Figure.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
 
-Underfull \vbox (badness 3250) has occurred while \output is active []
-
-
-Underfull \hbox (badness 5681) in paragraph at lines 41--47
+Underfull \hbox (badness 5681) in paragraph at lines 42--48
 \OT1/txr/m/n/12 re-spec-tively. He es-ti-mates that the to-tal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--47
+Underfull \hbox (badness 10000) in paragraph at lines 42--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--54
-
- []
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 54--60
-\OT1/txr/m/n/12 con-di-tions, a farmer finds that she needs
- []
-
-
-Underfull \hbox (badness 1895) in paragraph at lines 54--60
-\OT1/txr/m/n/12 atleast 14 kg of ni-tro-gen and 14 kg of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--60
-
- []
-
-
-Underfull \hbox (badness 2521) in paragraph at lines 60--69
-[]\OT1/txr/m/n/12 The cor-ner points of the fea-si-ble re-gion
- []
-
-
-Underfull \hbox (badness 5924) in paragraph at lines 60--69
-\OT1/txr/m/n/12 (0,0), (5,0),(3,4) and (0,5).Let Z=px+qy,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--69
-
- []
-
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 69--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--80
-
- []
-
-
-Overfull \hbox (6.70403pt too wide) in paragraph at lines 80--96
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--96
-
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 96--102
-\OT1/txr/m/n/12 The air-line re-serves at least 20 seats for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--120
+Underfull \hbox (badness 10000) in paragraph at lines 48--55
 
  []
 
@@ -3842,33 +2280,96 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--120
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--124
+Underfull \hbox (badness 1728) in paragraph at lines 55--61
+\OT1/txr/m/n/12 con-di-tions, a farmer finds that she needs
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 55--61
+\OT1/txr/m/n/12 atleast 14 kg of ni-tro-gen and 14 kg of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--128
+Underfull \hbox (badness 2521) in paragraph at lines 61--70
+[]\OT1/txr/m/n/12 The cor-ner points of the fea-si-ble re-gion
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 61--70
+\OT1/txr/m/n/12 (0,0), (5,0),(3,4) and (0,5).Let Z=px+qy,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--70
 
  []
 
-) [29]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 341.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 341.
- (./gvv_ncert_opt.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 341.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 341.
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--81
+
+ []
+
+
+Overfull \hbox (6.70403pt too wide) in paragraph at lines 81--97
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--97
+
+ []
+
+[29]
+Underfull \hbox (badness 1371) in paragraph at lines 97--103
+\OT1/txr/m/n/12 The air-line re-serves at least 20 seats for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--129
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) [30]
+(./gvv_ncert_opt.aux)
 Package rerunfilecheck Info: File `gvv_ncert_opt.out' has not changed.
 (rerunfilecheck)             Checksum: 7712137A7DC5E6F8789D9B67351AC245;171.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 341.
  ) 
 Here is how much of TeX's memory you used:
- 48051 strings out of 478994
- 1082524 string characters out of 5864752
- 1585647 words of memory out of 5000000
- 63974 multiletter control sequences out of 15000+600000
+ 47920 strings out of 478994
+ 1078884 string characters out of 5864752
+ 1608715 words of memory out of 5000000
+ 63838 multiletter control sequences out of 15000+600000
  510521 words of font info for 279 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 59i,20n,91p,573b,1279s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,20n,111p,573b,1316s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/txfonts/rtxb.pfb></usr/share/texmf-dist/fonts/type1/public/txfo
 nts/rtxbmi.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
@@ -3880,10 +2381,10 @@ exmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texmf-dist/fonts/type
 pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on gvv_ncert_opt.pdf (29 pages, 532256 bytes).
+Output written on gvv_ncert_opt.pdf (30 pages, 546079 bytes).
 PDF statistics:
- 956 PDF objects out of 1000 (max. 8388607)
- 836 compressed objects within 9 object streams
- 570 named destinations out of 1000 (max. 500000)
- 235 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 989 PDF objects out of 1000 (max. 8388607)
+ 866 compressed objects within 9 object streams
+ 591 named destinations out of 1000 (max. 500000)
+ 240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
