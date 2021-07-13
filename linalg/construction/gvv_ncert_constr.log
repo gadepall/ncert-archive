@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.7)  7 JUL 2021 19:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.7)  13 JUL 2021 20:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -114,8 +114,8 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (/usr/share/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/09/23 v2.17i AMS math features
+(/home/user/texmf/tex/latex/tmeslatex/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
@@ -127,28 +127,63 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen162
 ))
-(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+(/home/user/texmf/tex/latex/tmeslatex/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen163
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count194
-LaTeX Info: Redefining \frac on input line 234.
+LaTeX Info: Redefining \tmspace on input line 145.
+LaTeX Info: Redefining \frac on input line 211.
 \uproot@=\count195
 \leftroot@=\count196
-LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \overline on input line 307.
 \classnum@=\count197
 \DOTSCASE@=\count198
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box49
 \strutbox@=\box50
 \big@size=\dimen164
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+
+
+Package amsmath Warning: Unable to redefine math accent \hat.
+
+
+Package amsmath Warning: Unable to redefine math accent \check.
+
+
+Package amsmath Warning: Unable to redefine math accent \tilde.
+
+
+Package amsmath Warning: Unable to redefine math accent \acute.
+
+
+Package amsmath Warning: Unable to redefine math accent \grave.
+
+
+Package amsmath Warning: Unable to redefine math accent \dot.
+
+
+Package amsmath Warning: Unable to redefine math accent \ddot.
+
+
+Package amsmath Warning: Unable to redefine math accent \breve.
+
+
+Package amsmath Warning: Unable to redefine math accent \bar.
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+
+Package amsmath Warning: Unable to redefine math accent \mathring.
+
 \macc@depth=\count199
 \c@MaxMatrixCols=\count266
 \dotsspace@=\muskip16
@@ -169,10 +204,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \multlinegap=\skip51
 \multlinetaggap=\skip52
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2923.
-LaTeX Info: Redefining \] on input line 2924.
-)
-(/usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+) (/usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2021-02-18 L3 programming layer (loader) 
 
@@ -499,6 +533,13 @@ LaTeX Info: Redefining \addtolength on input line 81.
 (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
+
+LaTeX Warning: You have requested, on input line 117, version
+               `2016/11/05' of package amsmath,
+               but only version
+               `2000/07/18 v2.13 AMS math features'
+               is available.
+
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
@@ -514,8 +555,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_shortintertext_sep=\dimen269
 \xmathstrut@box=\box67
 \xmathstrut@dim=\dimen270
-)
-(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+) (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
@@ -534,8 +574,8 @@ Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
 Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+(/home/user/texmf/tex/latex/tmeslatex/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
@@ -866,7 +906,7 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks45
 \verbatim@in@stream=\read3
 )
-(/usr/share/texmf-dist/tex/latex/tfrupee/tfrupee.sty
+(/home/user/texmf/tex/latex/tfrupee/tfrupee.sty
 Package: tfrupee 2010/12/15 LaTeX Support for the TechFat Rupee symbols by Tech
 Fat (http://techfat.blogspot.com/2010/07/new-open-source-india-rupee-font.html)
 . Adapted for use with TeX by Palle Jorgensen, hamselv(a)pallej.dk
@@ -1406,102 +1446,102 @@ Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 )
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 8
-8.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9
+1.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 ) (./gvv_ncert_constr.aux)
 \openout1 = `gvv_ncert_constr.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 88.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 91.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-88.
+91.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 91.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-88.
+91.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 91.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-88.
+91.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 88.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 8
-8.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 91.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 9
+1.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 88.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 91.
 
 -- Lines per column: 50 (exact).
-LaTeX Info: Redefining \celsius on input line 88.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 88.
+LaTeX Info: Redefining \celsius on input line 91.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 91.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 88.
-Package gensymb Info: Using \Omega for \ohm on input line 88.
+LaTeX Info: Redefining \ohm on input line 91.
+Package gensymb Info: Using \Omega for \ohm on input line 91.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1543,7 +1583,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 88.
+Package hyperref Info: Link coloring OFF on input line 91.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1556,59 +1596,59 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count397
 )
-LaTeX Info: Redefining \ref on input line 88.
-LaTeX Info: Redefining \pageref on input line 88.
-LaTeX Info: Redefining \nameref on input line 88.
+LaTeX Info: Redefining \ref on input line 91.
+LaTeX Info: Redefining \pageref on input line 91.
+LaTeX Info: Redefining \nameref on input line 91.
 
 (./gvv_ncert_constr.out) (./gvv_ncert_constr.out)
 \@outlinefile=\write4
 \openout4 = `gvv_ncert_constr.out'.
 
 \c@lstlisting=\count398
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 88
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 91
 .
 
 (/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 8
-8.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 9
+1.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 8
-8.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 9
+1.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 8
-8.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 9
+1.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 8
-8.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 9
+1.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for OT1+txss on input line 
-88.
+91.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 88.
+(Font)              scaled to size 11.39996pt on input line 91.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 88.
+(Font)              scaled to size 7.59998pt on input line 91.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 88.
+(Font)              scaled to size 5.69998pt on input line 91.
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-88.
+91.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
@@ -1619,23 +1659,23 @@ File: ot1txtt.fd 2000/12/15 v3.1
 \c@lemma=\count402
 \c@example=\count403
 \c@rem=\count404
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 244.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 247.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 13.29996pt on input line 244.
+(Font)              scaled to size 13.29996pt on input line 247.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.30992pt on input line 244.
+(Font)              scaled to size 9.30992pt on input line 247.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 244.
+(Font)              scaled to size 6.64998pt on input line 247.
  (./gvv_ncert_constr.toc)
 \tf@toc=\write5
 \openout5 = `gvv_ncert_constr.toc'.
 
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 285.
+(Font)              scaled to size 9.49997pt on input line 288.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 285.
+(Font)              scaled to size 4.74998pt on input line 288.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <7> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 285.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 288.
 
 (./chapters/triangle.tex (./figs/triangle/tri_right_angle.tex)
 (./figs/triangle/tri_polar.tex) (./figs/triangle/tri_sss.tex) [1{/var/lib/texmf
@@ -1669,11 +1709,6 @@ e 25.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (./solutions/triangle/4/assignment1 (2)/main.tex
-Overfull \hbox (14.16324pt too wide) detected at line 7
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 <solutions/triangle/4/assignment1 (2)/Figure1.png, id=128, 380.42125pt x 262.98
@@ -1717,17 +1752,13 @@ Package pdftex.def Info: solutions/7/Fig1.png  used on input line 35.
 (./solutions/8/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (13.03322pt too wide) detected at line 18
-[]
- []
-
 <solutions/8/fig-1.png, id=188, 380.42125pt x 262.9825pt>
 File: solutions/8/fig-1.png Graphic file (type png)
 <use solutions/8/fig-1.png>
 Package pdftex.def Info: solutions/8/fig-1.png  used on input line 67.
 (pdftex.def)             Requested size: 252.0pt x 174.21101pt.
-) (./solutions/9/ASSIGNMENT 1/main.tex
+)
+(./solutions/9/ASSIGNMENT 1/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <./solutions/7/Fig1.png>]
@@ -1871,16 +1902,13 @@ Package pdftex.def Info: solutions/circle/56/TANGENT.png  used on input line 72
 (pdftex.def)             Requested size: 252.0pt x 171.04893pt.
 )
 (./solutions/circle/61/main.tex [13 <./solutions/circle/56/TANGENT.png>]
-Overfull \hbox (1.27248pt too wide) detected at line 37
-[]
- []
-
 <solutions/circle/61/FIG.3.png, id=473, 387.4475pt x 262.9825pt>
 File: solutions/circle/61/FIG.3.png Graphic file (type png)
 <use solutions/circle/61/FIG.3.png>
 Package pdftex.def Info: solutions/circle/61/FIG.3.png  used on input line 43.
 (pdftex.def)             Requested size: 252.0pt x 171.04893pt.
-) (./solutions/28/Assignment-2.tex (./solutions/28/Figs/figure2.tikz))
+)
+(./solutions/28/Assignment-2.tex (./solutions/28/Figs/figure2.tikz))
 (./solutions/32/LaTex Codes/Assignment2.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1969,6 +1997,27 @@ Package pdftex.def Info: solutions/quad/48/Assignment 3.png  used on input line
  14.
 (pdftex.def)             Requested size: 252.0pt x 169.72873pt.
 )) (./chapters/constr/tri_geo_const.tex
+(./solutions/july/2/1/latex1.tex
+<solutions/july/2/1/figure1.png, id=619, 389.455pt x 262.9825pt>
+File: solutions/july/2/1/figure1.png Graphic file (type png)
+<use solutions/july/2/1/figure1.png>
+Package pdftex.def Info: solutions/july/2/1/figure1.png  used on input line 13.
+
+(pdftex.def)             Requested size: 252.0pt x 170.16212pt.
+) (./solutions/july/2/2/Assignment1.tex
+Underfull \vbox (badness 4621) has occurred while \output is active []
+
+ [18 <./solutions/quad/46/Square_READ.PNG> <./solutions/quad/47/Assignment 3/fi
+gure3.png> <./solutions/quad/48/Assignment 3.png> <./solutions/july/2/1/figure1
+.png>]
+<solutions/july/2/2/Figures/Figure 1.png, id=640, 379.4175pt x 262.9825pt>
+File: solutions/july/2/2/Figures/Figure 1.png Graphic file (type png)
+<use solutions/july/2/2/Figures/Figure 1.png>
+Package pdftex.def Info: solutions/july/2/2/Figures/Figure 1.png  used on input
+ line 13.
+(pdftex.def)             Requested size: 252.0pt x 174.66847pt.
+)
+(/usr/share/texmf-dist/tex/latex/tools/.tex File ignored)
 (./chapters/constr/Triangle.tex
 \gnumericTableWidth=\skip89
 \gnumericTableWidthComplete=\skip90
@@ -1985,30 +2034,24 @@ Overfull \hbox (23.39996pt too wide) in paragraph at lines 158--323
  []
 
 ) (./solutions/triangle/27/2/main.tex
-Underfull \hbox (badness 4013) in paragraph at lines 32--4
+Underfull \hbox (badness 4013) in paragraph at lines 40--4
 []\OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 From the given in-for-ma-tion,
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18 <./solutions/quad/46/Square_READ.PNG> <./solutions/quad/47/Assignment 3/fi
-gure3.png> <./solutions/quad/48/Assignment 3.png>]
-<solutions/triangle/27/2/triangle1.pdf, id=642, 433.62pt x 289.08pt>
+<solutions/triangle/27/2/triangle1.pdf, id=643, 433.62pt x 289.08pt>
 File: solutions/triangle/27/2/triangle1.pdf Graphic file (type pdf)
 <use solutions/triangle/27/2/triangle1.pdf>
 Package pdftex.def Info: solutions/triangle/27/2/triangle1.pdf  used on input l
 ine 15.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
-)
-(./solutions/triangle/27/3/Assignment-1.tex
+) (./solutions/triangle/27/3/Assignment-1.tex
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 .
 
 (/usr/share/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-<solutions/triangle/27/3/Triangle_ABC.PNG, id=644, 299.61937pt x 199.49532pt>
+<solutions/triangle/27/3/Triangle_ABC.PNG, id=645, 299.61937pt x 199.49532pt>
 File: solutions/triangle/27/3/Triangle_ABC.PNG Graphic file (type png)
 <use solutions/triangle/27/3/Triangle_ABC.PNG>
 Package pdftex.def Info: solutions/triangle/27/3/Triangle_ABC.PNG  used on inpu
@@ -2021,7 +2064,8 @@ Underfull \hbox (badness 1430) in paragraph at lines 9--10
 /m/n/12 such that
  []
 
-
+[19 <./solutions/july/2/2/Figures/Figure 1.png> <./solutions/triangle/27/2/tria
+ngle1.pdf>]
 Underfull \hbox (badness 1472) in paragraph at lines 14--15
 []\OT1/txr/m/n/12 Can you con-struct the above quadri-lat-eral
  []
@@ -2035,18 +2079,15 @@ L/txmi/m/it/12 PL \OT1/txr/m/n/12 = 4\OML/txmi/m/it/12 ; LA \OT1/txr/m/n/12 =
 ) (./chapters/constr/circ_const_exer.tex
 Underfull \vbox (badness 2635) has occurred while \output is active []
 
- [19 <./solutions/triangle/27/2/triangle1.pdf> <./solutions/triangle/27/3/Trian
-gle_ABC.PNG>]) [20
-
-] (./gvv_ncert_constr.aux)
+) [20 <./solutions/triangle/27/3/Triangle_ABC.PNG>] (./gvv_ncert_constr.aux)
 Package rerunfilecheck Info: File `gvv_ncert_constr.out' has not changed.
 (rerunfilecheck)             Checksum: 7712137A7DC5E6F8789D9B67351AC245;171.
  ) 
 Here is how much of TeX's memory you used:
- 48281 strings out of 478994
- 1087935 string characters out of 5864752
- 1635753 words of memory out of 5000000
- 64287 multiletter control sequences out of 15000+600000
+ 48282 strings out of 478994
+ 1088345 string characters out of 5864752
+ 1635272 words of memory out of 5000000
+ 64271 multiletter control sequences out of 15000+600000
  494793 words of font info for 228 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  102i,22n,111p,508b,1610s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2059,10 +2100,10 @@ onts/txsya.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></us
 r/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/font
 s/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr
 8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_constr.pdf (20 pages, 560777 bytes).
+Output written on gvv_ncert_constr.pdf (20 pages, 582215 bytes).
 PDF statistics:
- 838 PDF objects out of 1000 (max. 8388607)
- 697 compressed objects within 7 object streams
- 426 named destinations out of 1000 (max. 500000)
- 300 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 851 PDF objects out of 1000 (max. 8388607)
+ 706 compressed objects within 8 object streams
+ 432 named destinations out of 1000 (max. 500000)
+ 310 words of extra memory for PDF output out of 10000 (max. 10000000)
 
