@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.7)  10 JUL 2021 16:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.7)  18 JUL 2021 13:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -274,15 +274,14 @@ Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_number_align_skip=\skip57
 \l__siunitx_table_text_align_skip=\skip58
 
-(/home/user/texmf/tex/latex/gvv-slides/base/translator/translator.sty
-Package: translator 2010/06/12 ver 1.10
+(/usr/share/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
 
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
-)
-(/home/user/texmf/tex/latex/gvv-slides/base/translator/translator-language-mapp
-ings.tex))) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+)))
+(/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks23
 \thm@bodyfont=\toks24
@@ -1549,11 +1548,10 @@ Package gensymb Warning: Not defining \micro.
 (/usr/share/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-(/home/user/texmf/tex/latex/gvv-slides/base/translator/dicts/translator-basic-d
-ictionary/translator-basic-dictionary-English.dict
+(/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English
+.dict
 Dictionary: translator-basic-dictionary, Language: English 
-)
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count391
 \scratchdimen=\dimen393
@@ -2251,122 +2249,130 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
-) [28 <./solutions/su2021/2/1/b/Figure/Figure.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 39--41
+) (./solutions/su2021/2/2/main.tex [28 <./solutions/su2021/2/1/b/Figure/Figure.
+png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<solutions/su2021/2/2/assignment14.png, id=791, 433.62pt x 289.08pt>
+File: solutions/su2021/2/2/assignment14.png Graphic file (type png)
+<use solutions/su2021/2/2/assignment14.png>
+Package pdftex.def Info: solutions/su2021/2/2/assignment14.png  used on input l
+ine 65.
+(pdftex.def)             Requested size: 252.0pt x 168.00174pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
 
-Underfull \hbox (badness 5681) in paragraph at lines 42--48
+Underfull \hbox (badness 5681) in paragraph at lines 44--50
 \OT1/txr/m/n/12 re-spec-tively. He es-ti-mates that the to-tal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--48
+Underfull \hbox (badness 10000) in paragraph at lines 44--50
+
+ []
+
+[29 <./solutions/su2021/2/2/assignment14.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 50--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--55
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 55--61
+Underfull \hbox (badness 1728) in paragraph at lines 57--63
 \OT1/txr/m/n/12 con-di-tions, a farmer finds that she needs
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 55--61
+Underfull \hbox (badness 1895) in paragraph at lines 57--63
 \OT1/txr/m/n/12 atleast 14 kg of ni-tro-gen and 14 kg of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--61
+Underfull \hbox (badness 10000) in paragraph at lines 57--63
 
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 61--70
+Underfull \hbox (badness 2521) in paragraph at lines 63--72
 []\OT1/txr/m/n/12 The cor-ner points of the fea-si-ble re-gion
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 61--70
+Underfull \hbox (badness 5924) in paragraph at lines 63--72
 \OT1/txr/m/n/12 (0,0), (5,0),(3,4) and (0,5).Let Z=px+qy,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--70
+Underfull \hbox (badness 10000) in paragraph at lines 63--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--73
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--81
+Underfull \hbox (badness 10000) in paragraph at lines 75--83
 
  []
 
 
-Overfull \hbox (6.70403pt too wide) in paragraph at lines 81--97
+Overfull \hbox (6.70403pt too wide) in paragraph at lines 83--99
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--97
+Underfull \hbox (badness 10000) in paragraph at lines 83--99
 
  []
 
-[29]
-Underfull \hbox (badness 1371) in paragraph at lines 97--103
+
+Underfull \hbox (badness 1371) in paragraph at lines 99--105
 \OT1/txr/m/n/12 The air-line re-serves at least 20 seats for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--103
+Underfull \hbox (badness 10000) in paragraph at lines 99--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--121
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--125
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--129
+Underfull \hbox (badness 10000) in paragraph at lines 105--123
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [30]
-(./gvv_ncert_opt.aux)
+ [30]
+Underfull \hbox (badness 10000) in paragraph at lines 124--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--131
+
+ []
+
+) [31
+
+] (./gvv_ncert_opt.aux)
 Package rerunfilecheck Info: File `gvv_ncert_opt.out' has not changed.
 (rerunfilecheck)             Checksum: 7712137A7DC5E6F8789D9B67351AC245;171.
  ) 
 Here is how much of TeX's memory you used:
- 47920 strings out of 478994
- 1078884 string characters out of 5864752
- 1608715 words of memory out of 5000000
- 63838 multiletter control sequences out of 15000+600000
+ 47950 strings out of 478994
+ 1079103 string characters out of 5864752
+ 1608810 words of memory out of 5000000
+ 63849 multiletter control sequences out of 15000+600000
  510521 words of font info for 279 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  102i,20n,111p,573b,1316s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2381,10 +2387,10 @@ exmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texmf-dist/fonts/type
 pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on gvv_ncert_opt.pdf (30 pages, 546079 bytes).
+Output written on gvv_ncert_opt.pdf (31 pages, 563549 bytes).
 PDF statistics:
- 989 PDF objects out of 1000 (max. 8388607)
- 866 compressed objects within 9 object streams
- 591 named destinations out of 1000 (max. 500000)
- 240 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1018 PDF objects out of 1200 (max. 8388607)
+ 892 compressed objects within 9 object streams
+ 610 named destinations out of 1000 (max. 500000)
+ 245 words of extra memory for PDF output out of 10000 (max. 10000000)
 
