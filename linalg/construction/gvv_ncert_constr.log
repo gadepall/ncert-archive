@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.7)  13 JUL 2021 20:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.7)  20 JUL 2021 19:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2017,8 +2017,37 @@ Package pdftex.def Info: solutions/july/2/2/Figures/Figure 1.png  used on input
  line 13.
 (pdftex.def)             Requested size: 252.0pt x 174.66847pt.
 )
-(/usr/share/texmf-dist/tex/latex/tools/.tex File ignored)
-(./chapters/constr/Triangle.tex
+(./solutions/july/2/3/Latex.tex
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1
+2.
+
+(/usr/share/texmf-dist/tex/latex/txfonts/ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
+)
+Overfull \hbox (63.1285pt too wide) in paragraph at lines 20--20
+[] 
+ []
+
+<solutions/july/2/3/Figure_1.png, id=642, 389.455pt x 262.9825pt>
+File: solutions/july/2/3/Figure_1.png Graphic file (type png)
+<use solutions/july/2/3/Figure_1.png>
+Package pdftex.def Info: solutions/july/2/3/Figure_1.png  used on input line 25
+.
+(pdftex.def)             Requested size: 252.0pt x 170.16212pt.
+) (./solutions/july/2/4/assignment1.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<solutions/july/2/4/Figure 1.jpeg, id=644, 379.4175pt x 262.9825pt>
+File: solutions/july/2/4/Figure 1.jpeg Graphic file (type jpg)
+<use solutions/july/2/4/Figure 1.jpeg>
+Package pdftex.def Info: solutions/july/2/4/Figure 1.jpeg  used on input line 2
+3.
+(pdftex.def)             Requested size: 252.0pt x 174.66847pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./chapters/constr/Triangle.tex
 \gnumericTableWidth=\skip89
 \gnumericTableWidthComplete=\skip90
 \gnumericMultiRowLength=\skip91
@@ -2034,24 +2063,22 @@ Overfull \hbox (23.39996pt too wide) in paragraph at lines 158--323
  []
 
 ) (./solutions/triangle/27/2/main.tex
-Underfull \hbox (badness 4013) in paragraph at lines 40--4
+Underfull \hbox (badness 4013) in paragraph at lines 45--4
 []\OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 From the given in-for-ma-tion,
  []
 
-<solutions/triangle/27/2/triangle1.pdf, id=643, 433.62pt x 289.08pt>
+[19 <./solutions/july/2/2/Figures/Figure 1.png> <./solutions/july/2/3/Figure_1.
+png>]
+<solutions/triangle/27/2/triangle1.pdf, id=675, 433.62pt x 289.08pt>
 File: solutions/triangle/27/2/triangle1.pdf Graphic file (type pdf)
 <use solutions/triangle/27/2/triangle1.pdf>
 Package pdftex.def Info: solutions/triangle/27/2/triangle1.pdf  used on input l
 ine 15.
 (pdftex.def)             Requested size: 252.0pt x 168.00174pt.
 ) (./solutions/triangle/27/3/Assignment-1.tex
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
-.
+Underfull \vbox (badness 1436) has occurred while \output is active []
 
-(/usr/share/texmf-dist/tex/latex/txfonts/ts1txr.fd
-File: ts1txr.fd 2000/12/15 v3.1
-)
-<solutions/triangle/27/3/Triangle_ABC.PNG, id=645, 299.61937pt x 199.49532pt>
+<solutions/triangle/27/3/Triangle_ABC.PNG, id=677, 299.61937pt x 199.49532pt>
 File: solutions/triangle/27/3/Triangle_ABC.PNG Graphic file (type png)
 <use solutions/triangle/27/3/Triangle_ABC.PNG>
 Package pdftex.def Info: solutions/triangle/27/3/Triangle_ABC.PNG  used on inpu
@@ -2064,8 +2091,7 @@ Underfull \hbox (badness 1430) in paragraph at lines 9--10
 /m/n/12 such that
  []
 
-[19 <./solutions/july/2/2/Figures/Figure 1.png> <./solutions/triangle/27/2/tria
-ngle1.pdf>]
+
 Underfull \hbox (badness 1472) in paragraph at lines 14--15
 []\OT1/txr/m/n/12 Can you con-struct the above quadri-lat-eral
  []
@@ -2076,18 +2102,22 @@ Underfull \hbox (badness 2111) in paragraph at lines 17--18
 L/txmi/m/it/12 PL \OT1/txr/m/n/12 = 4\OML/txmi/m/it/12 ; LA \OT1/txr/m/n/12 =
  []
 
-) (./chapters/constr/circ_const_exer.tex
-Underfull \vbox (badness 2635) has occurred while \output is active []
 
-) [20 <./solutions/triangle/27/3/Triangle_ABC.PNG>] (./gvv_ncert_constr.aux)
+Underfull \vbox (badness 1867) has occurred while \output is active []
+
+ [20 <./solutions/july/2/4/Figure 1.jpeg> <./solutions/triangle/27/2/triangle1.
+pdf> <./solutions/triangle/27/3/Triangle_ABC.PNG>]) (./chapters/constr/circ_con
+st_exer.tex) [21
+
+] (./gvv_ncert_constr.aux)
 Package rerunfilecheck Info: File `gvv_ncert_constr.out' has not changed.
 (rerunfilecheck)             Checksum: 7712137A7DC5E6F8789D9B67351AC245;171.
  ) 
 Here is how much of TeX's memory you used:
- 48282 strings out of 478994
- 1088345 string characters out of 5864752
- 1635272 words of memory out of 5000000
- 64271 multiletter control sequences out of 15000+600000
+ 48316 strings out of 478994
+ 1089077 string characters out of 5864752
+ 1635376 words of memory out of 5000000
+ 64285 multiletter control sequences out of 15000+600000
  494793 words of font info for 228 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  102i,22n,111p,508b,1610s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2100,10 +2130,10 @@ onts/txsya.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></us
 r/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/font
 s/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr
 8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_constr.pdf (20 pages, 582215 bytes).
+Output written on gvv_ncert_constr.pdf (21 pages, 603069 bytes).
 PDF statistics:
- 851 PDF objects out of 1000 (max. 8388607)
- 706 compressed objects within 8 object streams
- 432 named destinations out of 1000 (max. 500000)
- 310 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 876 PDF objects out of 1000 (max. 8388607)
+ 726 compressed objects within 8 object streams
+ 444 named destinations out of 1000 (max. 500000)
+ 320 words of extra memory for PDF output out of 10000 (max. 10000000)
 
