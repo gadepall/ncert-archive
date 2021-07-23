@@ -40,7 +40,7 @@ When $\abs{\vec{V}} = 0, \lambda_1 = 0$ and
 \vec{V}\vec{p}_2 = \lambda_2\vec{p}_2.
 \label{eq:conic_parab_eig_prop} 
 \end{align}
-where $\vec{p}_1,\vec{p}_2$ are the eigenvectors of $\vec{V}$such that  \eqref{eq:conic_parmas_eig_def}
+where $\vec{p}_1,\vec{p}_2$ are the eigenvectors of $\vec{V}$ such that  \eqref{eq:conic_parmas_eig_def}
 %
 \begin{align}
 \vec{P} = \myvec{\vec{p}_1 & \vec{p}_2},
@@ -72,11 +72,12 @@ in \eqref{eq:conic_simp},
 +  \vec{c}^T\brak{\vec{V}\vec{c} + \vec{u}}+ \vec{u}^T\vec{c} + f= 0
 \label{eq:conic_parab_foc_len_temp} 
 \end{multline}
-which is the equation of a parabola. From \eqref{eq:conic_parab_foc_len_temp}, by comparing the coefficients of $y_2^2$ and $y_1$, the focal length of the parabola is obtained as 
+which is the equation of a parabola. From \eqref{eq:conic_parab_foc_len_temp}, by comparing the coefficients of $y_2^2$ and $y_1$, the focal length of the parabola is obtained as     \ref{eq:conic_parab_foc_len} 
 \begin{align}
-\mydet{\frac{2\vec{u}^T\vec{p}_1}{\lambda_2}}.
-\label{eq:conic_parab_foc_len} 
-\end{align}
+    \mydet{\frac{2\eta}{\lambda_2}} = \mydet{\frac{2\vec{u}^T\vec{p}_1}{\lambda_2}}.
+    \label{eq:conic_parab_foc_len} 
+    \end{align}    
+  %
 Thus, \eqref{eq:conic_parab_foc_len_temp} 
 can be expressed as \eqref{eq:conic_simp_temp_parab} by choosing
 \begin{align}
@@ -105,7 +106,7 @@ and $\vec{c}$ in \eqref{eq:conic_simp} such that
 \label{eq:conic_parab_two}
 \end{align}
 %we obtain  \eqref{eq:conic_simp_temp_parab}.
-Multiplying \eqref{eq:conic_parab_one} by $\vec{P}$ yields
+are satisfied.  Multiplying \eqref{eq:conic_parab_one} by $\vec{P}$ yields
 \begin{align}
 \label{eq:conic_parab_one_eig}
 \brak{\vec{V}\vec{c}+\vec{u}} &= \eta\vec{p}_1,
