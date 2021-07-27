@@ -2,5 +2,5 @@
 \contentsline {section}{\numberline {2}Exercises}{55}{section.2}%
 \contentsline {section}{\numberline {3}Appendices}{64}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Roots of a quadratic equation}{64}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Examples}{64}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Examples}{65}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Axes of a conic}{67}{subsection.3.3}%
