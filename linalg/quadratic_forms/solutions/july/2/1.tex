@@ -1,0 +1,56 @@
+Let 
+\begin{align}
+ \vec{A}=\myvec{a\\0} ,
+ \vec{B}=\myvec{b\\0},
+ \vec{C}=\myvec{0\\0}
+\end{align}
+Since the circle passes through $\myvec{0\\0}$, the equation of given circle is,
+\begin{align}
+    \vec{x^\top}\vec{x}+2\vec{u^\top}\vec{x}=0 \label{quadform/july/2/1/eq:0}
+\end{align}
+
+The general equation of circle is,
+\begin{align}
+\vec{x^\top}\vec{x}+2\vec{u^\top}\vec{x}+f=0 
+\end{align}
+% Given intercepts are $\myvec{a\\0}$ and $\myvec{0\\b}$ \\
+% \begin{figure}[!h]
+%          \centering
+%          \includegraphics[width=\columnwidth]{figure3.png}
+%          \caption{Plot of the required circle}
+%          \label{quadform/july/2/1/Figure}
+% \end{figure}\\
+Substituting $ \vec{A},  \vec{B}$ in \eqref{quadform/july/2/1/eq:0},
+\begin{align}
+    \vec{A^\top}\vec{A}+2\vec{u^\top}\vec{A}=0 \label{quadform/july/2/1/eq:4}
+    \\
+    \vec{B^\top}\vec{B}+2\vec{u^\top}\vec{B}=0 \label{quadform/july/2/1/eq:5}
+\end{align}
+Simplifying \eqref{quadform/july/2/1/eq:4} and \eqref{quadform/july/2/1/eq:5}
+\begin{align}
+    \myvec{a & 0 \\ 0 & b}\vec{u}^\top= -\frac{1}{2}\myvec{a^2 \\ b^2}
+\end{align}
+\begin{align}
+\implies \myvec{a & 0 & -a^2/2 \\ 0 & b & -b^2/2}
+\\
+\xleftrightarrow [R_1\leftarrow R_1/a]{R_2\leftarrow R_2/b}
+\myvec{1 & 0 & -a/2 \\ 0& 1 & -b/2}
+\end{align}
+\begin{align}
+    \implies \vec{u}=-\frac{1}{2}\myvec{a \\ b}
+     \\
+     \text{or, } \vec{x^\top}\vec{x}-\myvec{a \\ b }\vec{x}=0
+\end{align}
+upon substituting  in \eqref{quadform/july/2/1/eq:0}.
+% \begin{align}
+%     \vec{x^\top}\vec{x}+2\myvec{-a/2 \\ -b/2}\vec{x}=0 
+% \end{align}
+% \begin{align}
+ 
+% \end{align}
+% is the desired equation of the circle.
+% Substituting, $a=6$ and $b=8$,the circle is plotted.
+% Equation of given circle is,
+% \begin{align}
+%    \implies \vec{x^\top}\vec{x}-\myvec{6 \\ 8 }\vec{x}=0
+% \end{align}
