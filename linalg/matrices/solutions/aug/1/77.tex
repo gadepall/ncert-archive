@@ -1,0 +1,35 @@
+Let
+\begin{align}
+   \vec{A} = \myvec{2\\-6} , \vec{B} = \myvec{5 \\ 4}, \vec{C} = \myvec{k\\4} 
+\end{align}
+From the given information,
+%
+\begin{align}
+   \frac{1}{2}\myvec{1 & 1& 1 \\
+   \vec{A}&\vec{B}&\vec{C}}
+   &= \mydet{
+    1 & 1 & 1 \\ 
+    2 & 5 & k \\ 
+    -6 & 4 & 4} \\ &= 35
+\end{align}
+Simplifying the determinant, 
+\begin{align}
+   \mydet{1 & 1 & 1  \\ 
+ 2 & 5 & k \\ 
+-6 & 4 & 4}
+\xleftrightarrow [C_2-C_3\rightarrow C_2]{C_1-C_3\rightarrow C_1}
+ \mydet{0 & 0 & 1  \\ 
+ 2-k & 5-k & k \\ 
+10 & 0 & 4}
+\end{align}
+which upon expanding the cofactor yields
+\begin{align}
+     \mydet{2-k & 5-k \\ 
+10 & 0 } = 10(5-k)
+\end{align}
+Thus, 
+\begin{align}
+   \frac{1}{2}10(5-k) &= 35
+\\
+  \implies  k &= -2
+\end{align}
