@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.8.1)  20 AUG 2021 12:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.8.1)  20 AUG 2021 14:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2999,7 +2999,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [50 <./solutions/aug/2/1/figs/figs.png> <./solutions/aug/2/7/figure/figure.png
 >]
-<solutions/aug/2/9/figures/figure.jpeg, id=2405, 565.11125pt x 340.27126pt>
+<solutions/aug/2/9/figures/figure.jpeg, id=2406, 565.11125pt x 340.27126pt>
 File: solutions/aug/2/9/figures/figure.jpeg Graphic file (type jpg)
 <use solutions/aug/2/9/figures/figure.jpeg>
 Package pdftex.def Info: solutions/aug/2/9/figures/figure.jpeg  used on input l
@@ -3012,7 +3012,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ) (./solutions/aug/2/13/Assignment1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/aug/2/13/figures/figure.png, id=2407, 462.528pt x 346.896pt>
+<solutions/aug/2/13/figures/figure.png, id=2408, 462.528pt x 346.896pt>
 File: solutions/aug/2/13/figures/figure.png Graphic file (type png)
 <use solutions/aug/2/13/figures/figure.png>
 Package pdftex.def Info: solutions/aug/2/13/figures/figure.png  used on input l
@@ -3023,7 +3023,7 @@ Underfull \vbox (badness 5189) has occurred while \output is active []
 
  [51 <./solutions/aug/2/9/figures/figure.jpeg>]) (./solutions/aug/2/14/Assignme
 nt2.tex
-<solutions/aug/2/14/Figures/plot.png, id=2440, 272.4579pt x 258.0039pt>
+<solutions/aug/2/14/Figures/plot.png, id=2441, 272.4579pt x 258.0039pt>
 File: solutions/aug/2/14/Figures/plot.png Graphic file (type png)
 <use solutions/aug/2/14/Figures/plot.png>
 Package pdftex.def Info: solutions/aug/2/14/Figures/plot.png  used on input lin
@@ -3045,7 +3045,7 @@ df>
 s-converted-to.pdf ./line/figs/11-1/6/6.10.eps>
 (epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
-<./line/figs/11-1/6/6.10-eps-converted-to.pdf, id=2442, 389.455pt x 188.705pt>
+<./line/figs/11-1/6/6.10-eps-converted-to.pdf, id=2443, 389.455pt x 188.705pt>
 File: ./line/figs/11-1/6/6.10-eps-converted-to.pdf Graphic file (type pdf)
 <use ./line/figs/11-1/6/6.10-eps-converted-to.pdf>
 Package pdftex.def Info: ./line/figs/11-1/6/6.10-eps-converted-to.pdf  used on 
@@ -3063,9 +3063,9 @@ Package rerunfilecheck Info: File `gvv_ncert_vectors.out' has not changed.
 (rerunfilecheck)             Checksum: 7712137A7DC5E6F8789D9B67351AC245;171.
  ) 
 Here is how much of TeX's memory you used:
- 47148 strings out of 478994
- 1062520 string characters out of 5864752
- 1582370 words of memory out of 5000000
+ 47149 strings out of 478994
+ 1062528 string characters out of 5864752
+ 1582371 words of memory out of 5000000
  62128 multiletter control sequences out of 15000+600000
  493742 words of font info for 225 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -3081,10 +3081,10 @@ sr/share/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texmf-dist
 mes/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/s
 hare/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_vectors.pdf (53 pages, 1202676 bytes).
+Output written on gvv_ncert_vectors.pdf (53 pages, 1202605 bytes).
 PDF statistics:
- 2780 PDF objects out of 2984 (max. 8388607)
- 1972 compressed objects within 20 object streams
- 1220 named destinations out of 1440 (max. 500000)
+ 2781 PDF objects out of 2984 (max. 8388607)
+ 1973 compressed objects within 20 object streams
+ 1221 named destinations out of 1440 (max. 500000)
  415 words of extra memory for PDF output out of 10000 (max. 10000000)
 
