@@ -1,2 +1,2 @@
 \contentsline {section}{\numberline {1}Examples}{1}{section.1}%
-\contentsline {section}{\numberline {2}Exercises}{18}{section.2}%
+\contentsline {section}{\numberline {2}Exercises}{20}{section.2}%
