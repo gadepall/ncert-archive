@@ -1,0 +1,27 @@
+
+Let the given Matrix be
+\begin{equation}
+\vec{A} = \myvec{3&5\\1&1}
+\end{equation}
+Transposing the above matrix gives,
+\begin{equation}
+\vec{A}^{\top} = \myvec{3&1\\5&1}
+\end{equation}
+Now, for Symmetric and Skew Symmetric Matrix,
+\begin{align}
+    \vec{B} &= \frac{\vec{A} + \vec{A}^{\top}}{2} = \myvec{3&3\\3&1} \\
+    &= \vec{B}^{\top}
+\end{align}
+Also,
+\begin{align}
+    \vec{C} &= \frac{\vec{A} - \vec{A}^{\top}}{2} = \myvec{0&2\\-2&0} \\
+    &= -\vec{C}^{\top}
+\end{align}
+
+Hence, $\vec{B}$ is a Symmetric Matrix and $\vec{C}$ is a Skew Symmetric Matrix and $\vec{B} + \vec{C} = \vec{A}$.
+\begin{align}
+    \therefore \myvec{3&5\\1&1} = \myvec{3&3\\3&1} + \myvec{0&2\\-2&0}  
+\end{align}
+
+
+
