@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.8.1)  22 AUG 2021 04:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.20)  22 AUG 2021 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -114,8 +114,8 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (/usr/share/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-(/home/user/texmf/tex/latex/tmeslatex/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
@@ -127,63 +127,28 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen162
 ))
-(/home/user/texmf/tex/latex/tmeslatex/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen163
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count194
-LaTeX Info: Redefining \tmspace on input line 145.
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 234.
 \uproot@=\count195
 \leftroot@=\count196
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 399.
 \classnum@=\count197
 \DOTSCASE@=\count198
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box49
 \strutbox@=\box50
 \big@size=\dimen164
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-
-
-Package amsmath Warning: Unable to redefine math accent \hat.
-
-
-Package amsmath Warning: Unable to redefine math accent \check.
-
-
-Package amsmath Warning: Unable to redefine math accent \tilde.
-
-
-Package amsmath Warning: Unable to redefine math accent \acute.
-
-
-Package amsmath Warning: Unable to redefine math accent \grave.
-
-
-Package amsmath Warning: Unable to redefine math accent \dot.
-
-
-Package amsmath Warning: Unable to redefine math accent \ddot.
-
-
-Package amsmath Warning: Unable to redefine math accent \breve.
-
-
-Package amsmath Warning: Unable to redefine math accent \bar.
-
-
-Package amsmath Warning: Unable to redefine math accent \vec.
-
-
-Package amsmath Warning: Unable to redefine math accent \mathring.
-
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count199
 \c@MaxMatrixCols=\count266
 \dotsspace@=\muskip16
@@ -204,9 +169,10 @@ Package amsmath Warning: Unable to redefine math accent \mathring.
 \multlinegap=\skip51
 \multlinetaggap=\skip52
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
-) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks21
 \thm@bodyfont=\toks22
@@ -364,7 +330,7 @@ Package: cite 2015/02/27  v 5.5
 Package: cases 2020/03/29 ver 3.2
 \numc@numwid=\dimen179
 )
-(/home/user/texmf/tex/latex/tfslatex/subfig.sty
+(/home/user/texmf/tex/latex/tfs/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
@@ -471,13 +437,6 @@ LaTeX Info: Redefining \addtolength on input line 81.
 (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-
-LaTeX Warning: You have requested, on input line 117, version
-               `2016/11/05' of package amsmath,
-               but only version
-               `2000/07/18 v2.13 AMS math features'
-               is available.
-
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
@@ -493,7 +452,8 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_shortintertext_sep=\dimen199
 \xmathstrut@box=\box57
 \xmathstrut@dim=\dimen256
-) (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+)
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
@@ -512,8 +472,8 @@ Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
 Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/home/user/texmf/tex/latex/tmeslatex/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
@@ -1605,7 +1565,7 @@ LaTeX Warning: File `./triangle/figs/triangle_3d.eps' not found on input line 2
 Package epstopdf Info: Source file: <./triangle/figs/triangle_3d.eps>
 (epstopdf)             Output file: <./triangle/figs/triangle_3d-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2021-01-06 18:02:22
+(epstopdf)                    date: 2021-06-27 21:53:54
 (epstopdf)                    size: 10374 bytes
 (epstopdf)             Command: <repstopdf --outfile=./triangle/figs/triangle_3
 d-eps-converted-to.pdf ./triangle/figs/triangle_3d.eps>
@@ -1632,7 +1592,7 @@ LaTeX Warning: File `./triangle/figs/check_tri.eps' not found on input line 83.
 Package epstopdf Info: Source file: <./triangle/figs/check_tri.eps>
 (epstopdf)             Output file: <./triangle/figs/check_tri-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2021-01-06 18:02:22
+(epstopdf)                    date: 2021-06-27 21:53:54
 (epstopdf)                    size: 9489 bytes
 (epstopdf)             Command: <repstopdf --outfile=./triangle/figs/check_tri-
 eps-converted-to.pdf ./triangle/figs/check_tri.eps>
@@ -1661,7 +1621,7 @@ LaTeX Warning: File `./solutions/1/figs/triangle/shaded.eps' not found on input
 Package epstopdf Info: Source file: <./solutions/1/figs/triangle/shaded.eps>
 (epstopdf)             Output file: <./solutions/1/figs/triangle/shaded-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:00:42
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 10802 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/1/figs/triangl
 e/shaded-eps-converted-to.pdf ./solutions/1/figs/triangle/shaded.eps>
@@ -1676,8 +1636,8 @@ Package pdftex.def Info: ./solutions/1/figs/triangle/shaded-eps-converted-to.pd
 f  used on input line 112.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 ) (./solutions/2/chapters/triangle_ex/solution.tex
-Overfull \hbox (12.7384pt too wide) in paragraph at lines 45--45
-[] 
+Overfull \hbox (36.7384pt too wide) detected at line 45
+[]
  []
 
 
@@ -1707,7 +1667,7 @@ Package epstopdf Info: Source file: <./solutions/3/codes/triangle/pyfigs/triang
 le.eps>
 (epstopdf)             Output file: <./solutions/3/codes/triangle/pyfigs/triang
 le-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:01:26
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 14081 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/3/codes/triang
 le/pyfigs/triangle-eps-converted-to.pdf ./solutions/3/codes/triangle/pyfigs/tri
@@ -1735,7 +1695,7 @@ Package epstopdf Info: Source file: <./solutions/4/figures/triangle/triangle.ep
 s>
 (epstopdf)             Output file: <./solutions/4/figures/triangle/triangle-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:01:40
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 11638 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/4/figures/tria
 ngle/triangle-eps-converted-to.pdf ./solutions/4/figures/triangle/triangle.eps>
@@ -1763,7 +1723,7 @@ e 8.
 Package epstopdf Info: Source file: <./solutions/5/figs/triangle/q2.eps>
 (epstopdf)             Output file: <./solutions/5/figs/triangle/q2-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:01:50
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 11563 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/5/figs/triangl
 e/q2-eps-converted-to.pdf ./solutions/5/figs/triangle/q2.eps>
@@ -1788,7 +1748,7 @@ Package epstopdf Info: Source file: <./solutions/6/codes/triangle/triangle1.eps
 >
 (epstopdf)             Output file: <./solutions/6/codes/triangle/triangle1-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:02:06
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 13002 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/6/codes/triang
 le/triangle1-eps-converted-to.pdf ./solutions/6/codes/triangle/triangle1.eps>
@@ -1810,7 +1770,7 @@ Package epstopdf Info: Source file: <./solutions/6/codes/triangle/triangle2.eps
 >
 (epstopdf)             Output file: <./solutions/6/codes/triangle/triangle2-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:02:06
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 13201 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/6/codes/triang
 le/triangle2-eps-converted-to.pdf ./solutions/6/codes/triangle/triangle2.eps>
@@ -1837,7 +1797,7 @@ ut line 18.
 Package epstopdf Info: Source file: <./solutions/7/figs/triangle/triangle.eps>
 (epstopdf)             Output file: <./solutions/7/figs/triangle/triangle-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:02:18
+(epstopdf)                    date: 2021-06-27 21:53:54
 (epstopdf)                    size: 12677 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/7/figs/triangl
 e/triangle-eps-converted-to.pdf ./solutions/7/figs/triangle/triangle.eps>
@@ -1859,7 +1819,7 @@ LaTeX Warning: File `./solutions/8/figs/triangle.eps' not found on input line 5
 Package epstopdf Info: Source file: <./solutions/8/figs/triangle.eps>
 (epstopdf)             Output file: <./solutions/8/figs/triangle-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2021-01-06 18:02:18
+(epstopdf)                    date: 2021-06-27 21:53:54
 (epstopdf)                    size: 24935 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/8/figs/triangl
 e-eps-converted-to.pdf ./solutions/8/figs/triangle.eps>
@@ -1943,8 +1903,13 @@ Package pdftex.def Info: solutions/su2021/2/24/figure.png  used on input line 2
 6.
 (pdftex.def)             Requested size: 252.0pt x 166.79851pt.
 ) (./solutions/su2021/2/25.tex
-Overfull \hbox (0.70332pt too wide) in paragraph at lines 29--29
-[] 
+Overfull \hbox (15.33266pt too wide) detected at line 25
+[]
+ []
+
+
+Overfull \hbox (24.70332pt too wide) detected at line 29
+[]
  []
 
 ) (./solutions/su2021/2/26/main.tex
@@ -1964,15 +1929,28 @@ Package pdftex.def Info: solutions/su2021/2/26/externally.png  used on input li
 ne 35.
 (pdftex.def)             Requested size: 252.0pt x 164.23924pt.
 ) (./solutions/su2021/2/27/main.tex
+Overfull \hbox (18.87654pt too wide) detected at line 15
+[]
+ []
+
 <solutions/su2021/2/27/Figure6.png, id=630, 350.30875pt x 231.86626pt>
 File: solutions/su2021/2/27/Figure6.png Graphic file (type png)
 <use solutions/su2021/2/27/Figure6.png>
 Package pdftex.def Info: solutions/su2021/2/27/Figure6.png  used on input line 
 25.
 (pdftex.def)             Requested size: 252.0pt x 166.79851pt.
-)
-(./solutions/su2021/2/29/main.tex [12 <./solutions/su2021/2/26/internally.png> 
-<./solutions/su2021/2/26/externally.png> <./solutions/su2021/2/27/Figure6.png>]
+) (./solutions/su2021/2/29/main.tex [12 <./solutions/su2021/2/26/internally.png
+> <./solutions/su2021/2/26/externally.png> <./solutions/su2021/2/27/Figure6.png
+>]
+Overfull \hbox (11.59941pt too wide) detected at line 34
+[]
+ []
+
+
+Overfull \hbox (6.82736pt too wide) detected at line 44
+[]
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2041,7 +2019,7 @@ LaTeX Warning: File `./triangle/figs/quad_3d.eps' not found on input line 74.
 Package epstopdf Info: Source file: <./triangle/figs/quad_3d.eps>
 (epstopdf)             Output file: <./triangle/figs/quad_3d-eps-converted-to.p
 df>
-(epstopdf)                    date: 2021-01-06 18:02:22
+(epstopdf)                    date: 2021-06-27 21:53:54
 (epstopdf)                    size: 10704 bytes
 (epstopdf)             Command: <repstopdf --outfile=./triangle/figs/quad_3d-ep
 s-converted-to.pdf ./triangle/figs/quad_3d.eps>
@@ -2066,6 +2044,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17 <./triangle/figs/quad_3d-eps-converted-to.pdf>]
 (./solutions/2/chapters/quadilateral_ex/solution.tex
+Overfull \hbox (16.38625pt too wide) detected at line 30
+[]
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -2077,7 +2060,7 @@ ut line 19.
 Package epstopdf Info: Source file: <./solutions/3/codes/quad/pyfigs/quad.eps>
 (epstopdf)             Output file: <./solutions/3/codes/quad/pyfigs/quad-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:01:26
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 10899 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/3/codes/quad/p
 yfigs/quad-eps-converted-to.pdf ./solutions/3/codes/quad/pyfigs/quad.eps>
@@ -2091,6 +2074,11 @@ ype pdf)
 Package pdftex.def Info: ./solutions/3/codes/quad/pyfigs/quad-eps-converted-to.
 pdf  used on input line 19.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Overfull \hbox (2.71658pt too wide) detected at line 30
+[]
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2109,7 +2097,7 @@ Package epstopdf Info: Source file: <./solutions/4/figures/quadrilateral/quad.e
 ps>
 (epstopdf)             Output file: <./solutions/4/figures/quadrilateral/quad-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:01:40
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 12142 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/4/figures/quad
 rilateral/quad-eps-converted-to.pdf ./solutions/4/figures/quadrilateral/quad.ep
@@ -2137,7 +2125,7 @@ t line 16.
 Package epstopdf Info: Source file: <./solutions/5/figs/quadrilateral/q4.eps>
 (epstopdf)             Output file: <./solutions/5/figs/quadrilateral/q4-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:01:50
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 9665 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/5/figs/quadril
 ateral/q4-eps-converted-to.pdf ./solutions/5/figs/quadrilateral/q4.eps>
@@ -2162,7 +2150,7 @@ Package epstopdf Info: Source file: <./solutions/6/codes/quadrilateral/quad.eps
 >
 (epstopdf)             Output file: <./solutions/6/codes/quadrilateral/quad-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:02:04
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 14854 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/6/codes/quadri
 lateral/quad-eps-converted-to.pdf ./solutions/6/codes/quadrilateral/quad.eps>
@@ -2184,7 +2172,7 @@ LaTeX Warning: File `./solutions/7/figs/quad/quad.eps' not found on input line
 Package epstopdf Info: Source file: <./solutions/7/figs/quad/quad.eps>
 (epstopdf)             Output file: <./solutions/7/figs/quad/quad-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2021-01-06 18:02:18
+(epstopdf)                    date: 2021-06-27 21:53:54
 (epstopdf)                    size: 24813 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/7/figs/quad/qu
 ad-eps-converted-to.pdf ./solutions/7/figs/quad/quad.eps>
@@ -2232,7 +2220,7 @@ Package epstopdf Info: Source file: <./solutions/3/codes/line/towns/pyfigs/town
 s.eps>
 (epstopdf)             Output file: <./solutions/3/codes/line/towns/pyfigs/town
 s-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:01:24
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 8754 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/3/codes/line/t
 owns/pyfigs/towns-eps-converted-to.pdf ./solutions/3/codes/line/towns/pyfigs/to
@@ -2258,7 +2246,7 @@ LaTeX Warning: File `./solutions/5/figs/lines/q9.eps' not found on input line 1
 Package epstopdf Info: Source file: <./solutions/5/figs/lines/q9.eps>
 (epstopdf)             Output file: <./solutions/5/figs/lines/q9-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2021-01-06 18:01:48
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 8969 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/5/figs/lines/q
 9-eps-converted-to.pdf ./solutions/5/figs/lines/q9.eps>
@@ -2284,7 +2272,7 @@ Package epstopdf Info: Source file: <./solutions/6/codes/line/point_vector/poin
 t_vector.eps>
 (epstopdf)             Output file: <./solutions/6/codes/line/point_vector/poin
 t_vector-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:02:04
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 11264 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/6/codes/line/p
 oint_vector/point_vector-eps-converted-to.pdf ./solutions/6/codes/line/point_ve
@@ -2310,7 +2298,7 @@ Package epstopdf Info: Source file: <./solutions/7/figs/line/point_vec/point_ve
 c.eps>
 (epstopdf)             Output file: <./solutions/7/figs/line/point_vec/point_ve
 c-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:02:18
+(epstopdf)                    date: 2021-06-27 21:53:54
 (epstopdf)                    size: 47529 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/7/figs/line/po
 int_vec/point_vec-eps-converted-to.pdf ./solutions/7/figs/line/point_vec/point_
@@ -2341,8 +2329,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 )
 (./solutions/point_vector/9/solution.tex)
 (./solutions/point_vector/10/solution.tex
-Overfull \hbox (35.45677pt too wide) in paragraph at lines 15--15
-[] 
+Overfull \hbox (59.45677pt too wide) detected at line 15
+[]
  []
 
 
@@ -2453,7 +2441,7 @@ LaTeX Warning: File `./line/figs/collinear_3d.eps' not found on input line 263.
 Package epstopdf Info: Source file: <./line/figs/collinear_3d.eps>
 (epstopdf)             Output file: <./line/figs/collinear_3d-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2021-01-06 18:00:30
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 10306 bytes
 (epstopdf)             Command: <repstopdf --outfile=./line/figs/collinear_3d-e
 ps-converted-to.pdf ./line/figs/collinear_3d.eps>
@@ -2482,7 +2470,7 @@ LaTeX Warning: File `./line/figs/line_proj.eps' not found on input line 294.
 Package epstopdf Info: Source file: <./line/figs/line_proj.eps>
 (epstopdf)             Output file: <./line/figs/line_proj-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2021-01-06 18:00:32
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 42767 bytes
 (epstopdf)             Command: <repstopdf --outfile=./line/figs/line_proj-eps-
 converted-to.pdf ./line/figs/line_proj.eps>
@@ -2512,7 +2500,7 @@ LaTeX Warning: File `./line/figs/section.eps' not found on input line 547.
 
 Package epstopdf Info: Source file: <./line/figs/section.eps>
 (epstopdf)             Output file: <./line/figs/section-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:00:32
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 10448 bytes
 (epstopdf)             Command: <repstopdf --outfile=./line/figs/section-eps-co
 nverted-to.pdf ./line/figs/section.eps>
@@ -2539,7 +2527,7 @@ ne 25.
 Package epstopdf Info: Source file: <./solutions/1/figs/line/section.eps>
 (epstopdf)             Output file: <./solutions/1/figs/line/section-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:00:42
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 9701 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/1/figs/line/se
 ction-eps-converted-to.pdf ./solutions/1/figs/line/section.eps>
@@ -2565,7 +2553,7 @@ Package epstopdf Info: Source file: <./solutions/2/figs/line_ex/pts_on_a_line/t
 risection.eps>
 (epstopdf)             Output file: <./solutions/2/figs/line_ex/pts_on_a_line/t
 risection-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:01:04
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 9524 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/2/figs/line_ex
 /pts_on_a_line/trisection-eps-converted-to.pdf ./solutions/2/figs/line_ex/pts_o
@@ -2591,7 +2579,7 @@ Package epstopdf Info: Source file: <./solutions/3/codes/line/section/pyfigs/se
 ction.eps>
 (epstopdf)             Output file: <./solutions/3/codes/line/section/pyfigs/se
 ction-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:01:24
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 9170 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/3/codes/line/s
 ection/pyfigs/section-eps-converted-to.pdf ./solutions/3/codes/line/section/pyf
@@ -2618,7 +2606,7 @@ Package epstopdf Info: Source file: <./solutions/4/figures/line/point_on_line/p
 oint_on_line.eps>
 (epstopdf)             Output file: <./solutions/4/figures/line/point_on_line/p
 oint_on_line-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:01:40
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 9305 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/4/figures/line
 /point_on_line/point_on_line-eps-converted-to.pdf ./solutions/4/figures/line/po
@@ -2647,7 +2635,7 @@ LaTeX Warning: File `./solutions/5/figs/lines/q10.eps' not found on input line
 Package epstopdf Info: Source file: <./solutions/5/figs/lines/q10.eps>
 (epstopdf)             Output file: <./solutions/5/figs/lines/q10-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2021-01-06 18:01:48
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 9515 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/5/figs/lines/q
 10-eps-converted-to.pdf ./solutions/5/figs/lines/q10.eps>
@@ -2672,7 +2660,7 @@ Package epstopdf Info: Source file: <./solutions/6/codes/line/point_line/int_se
 c.eps>
 (epstopdf)             Output file: <./solutions/6/codes/line/point_line/int_se
 c-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:02:04
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 11184 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/6/codes/line/p
 oint_line/int_sec-eps-converted-to.pdf ./solutions/6/codes/line/point_line/int_
@@ -2696,7 +2684,7 @@ Package epstopdf Info: Source file: <./solutions/7/figs/line/point_line/line.ep
 s>
 (epstopdf)             Output file: <./solutions/7/figs/line/point_line/line-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:02:18
+(epstopdf)                    date: 2021-06-27 21:53:54
 (epstopdf)                    size: 12893 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/7/figs/line/po
 int_line/line-eps-converted-to.pdf ./solutions/7/figs/line/point_line/line.eps>
@@ -2794,7 +2782,7 @@ LaTeX Warning: File `./solutions/1/figs/line/speed.eps' not found on input line
 Package epstopdf Info: Source file: <./solutions/1/figs/line/speed.eps>
 (epstopdf)             Output file: <./solutions/1/figs/line/speed-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:00:42
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 14211 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/1/figs/line/sp
 eed-eps-converted-to.pdf ./solutions/1/figs/line/speed.eps>
@@ -2817,7 +2805,7 @@ Package epstopdf Info: Source file: <./solutions/2/figs/line_ex/motion_in_a_pla
 ne/motion_plane.eps>
 (epstopdf)             Output file: <./solutions/2/figs/line_ex/motion_in_a_pla
 ne/motion_plane-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:01:02
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 15055 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/2/figs/line_ex
 /motion_in_a_plane/motion_plane-eps-converted-to.pdf ./solutions/2/figs/line_ex
@@ -2846,7 +2834,7 @@ Package epstopdf Info: Source file: <./solutions/3/codes/line/rain/pyfigs/rain.
 eps>
 (epstopdf)             Output file: <./solutions/3/codes/line/rain/pyfigs/rain-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:01:24
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 8501 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/3/codes/line/r
 ain/pyfigs/rain-eps-converted-to.pdf ./solutions/3/codes/line/rain/pyfigs/rain.
@@ -2875,7 +2863,7 @@ Package epstopdf Info: Source file: <./solutions/4/figures/line/motion/motion.e
 ps>
 (epstopdf)             Output file: <./solutions/4/figures/line/motion/motion-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:01:40
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 10361 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/4/figures/line
 /motion/motion-eps-converted-to.pdf ./solutions/4/figures/line/motion/motion.ep
@@ -2907,7 +2895,7 @@ LaTeX Warning: File `./solutions/5/figs/lines/q12.eps' not found on input line
 Package epstopdf Info: Source file: <./solutions/5/figs/lines/q12.eps>
 (epstopdf)             Output file: <./solutions/5/figs/lines/q12-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2021-01-06 18:01:48
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 10814 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/5/figs/lines/q
 12-eps-converted-to.pdf ./solutions/5/figs/lines/q12.eps>
@@ -2930,7 +2918,7 @@ Package epstopdf Info: Source file: <./solutions/6/codes/line/motion_plane/man_
 river.eps>
 (epstopdf)             Output file: <./solutions/6/codes/line/motion_plane/man_
 river-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:02:04
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 15657 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/6/codes/line/m
 otion_plane/man_river-eps-converted-to.pdf ./solutions/6/codes/line/motion_plan
@@ -2962,7 +2950,7 @@ Package epstopdf Info: Source file: <./solutions/7/figs/line/motion/motion.eps>
 
 (epstopdf)             Output file: <./solutions/7/figs/line/motion/motion-eps-
 converted-to.pdf>
-(epstopdf)                    date: 2021-01-06 18:02:18
+(epstopdf)                    date: 2021-06-27 21:53:54
 (epstopdf)                    size: 12879 bytes
 (epstopdf)             Command: <repstopdf --outfile=./solutions/7/figs/line/mo
 tion/motion-eps-converted-to.pdf ./solutions/7/figs/line/motion/motion.eps>
@@ -3034,22 +3022,26 @@ Package pdftex.def Info: solutions/aug/2/10/Figures/q1b.png  used on input line
  71.
 (pdftex.def)             Requested size: 252.0pt x 165.77187pt.
 )
-(./solutions/aug/2/13/Assignment1.tex [52 <./solutions/aug/2/10/Figures/q1a.png
-> <./solutions/aug/2/10/Figures/q1b.png>]
-<solutions/aug/2/13/figures/figure.png, id=2472, 462.528pt x 346.896pt>
+(./solutions/aug/2/12/main.tex [52 <./solutions/aug/2/10/Figures/q1a.png> <./so
+lutions/aug/2/10/Figures/q1b.png>]
+<solutions/aug/2/12/Figure.png, id=2472, 350.30875pt x 231.86626pt>
+File: solutions/aug/2/12/Figure.png Graphic file (type png)
+<use solutions/aug/2/12/Figure.png>
+Package pdftex.def Info: solutions/aug/2/12/Figure.png  used on input line 31.
+(pdftex.def)             Requested size: 252.0pt x 166.79851pt.
+) (./solutions/aug/2/13/Assignment1.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<solutions/aug/2/13/figures/figure.png, id=2474, 462.528pt x 346.896pt>
 File: solutions/aug/2/13/figures/figure.png Graphic file (type png)
 <use solutions/aug/2/13/figures/figure.png>
 Package pdftex.def Info: solutions/aug/2/13/figures/figure.png  used on input l
 ine 49.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./solutions/aug/2/14/Assignment2.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<solutions/aug/2/14/Figures/plot.png, id=2474, 272.4579pt x 258.0039pt>
+)
+(./solutions/aug/2/14/Assignment2.tex [53 <./solutions/aug/2/12/Figure.png> <./
+solutions/aug/2/13/figures/figure.png>]
+<solutions/aug/2/14/Figures/plot.png, id=2500, 272.4579pt x 258.0039pt>
 File: solutions/aug/2/14/Figures/plot.png Graphic file (type png)
 <use solutions/aug/2/14/Figures/plot.png>
 Package pdftex.def Info: solutions/aug/2/14/Figures/plot.png  used on input lin
@@ -3057,54 +3049,42 @@ e 30.
 (pdftex.def)             Requested size: 252.0pt x 238.63411pt.
 )
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 4168) has occurred while \output is active []
-
- [53 <./solutions/aug/2/13/figures/figure.png>]
-
-LaTeX Warning: File `./line/figs/11-1/6/6.10.eps' not found on input line 85.
+LaTeX Warning: File `./line/figs/11-1/6/6.10.eps' not found on input line 88.
 
 Package epstopdf Info: Source file: <./line/figs/11-1/6/6.10.eps>
 (epstopdf)             Output file: <./line/figs/11-1/6/6.10-eps-converted-to.p
 df>
-(epstopdf)                    date: 2021-01-06 18:00:30
+(epstopdf)                    date: 2021-06-27 21:53:53
 (epstopdf)                    size: 16274 bytes
 (epstopdf)             Command: <repstopdf --outfile=./line/figs/11-1/6/6.10-ep
 s-converted-to.pdf ./line/figs/11-1/6/6.10.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
-<./line/figs/11-1/6/6.10-eps-converted-to.pdf, id=2503, 389.455pt x 188.705pt>
+<./line/figs/11-1/6/6.10-eps-converted-to.pdf, id=2502, 389.455pt x 188.705pt>
 File: ./line/figs/11-1/6/6.10-eps-converted-to.pdf Graphic file (type pdf)
 <use ./line/figs/11-1/6/6.10-eps-converted-to.pdf>
 Package pdftex.def Info: ./line/figs/11-1/6/6.10-eps-converted-to.pdf  used on 
-input line 85.
+input line 88.
 (pdftex.def)             Requested size: 252.0pt x 122.10106pt.
-(./solutions/aug/2/19/main.tex
-<solutions/aug/2/19/figures/figure.png, id=2506, 620.3175pt x 430.60875pt>
+(./solutions/aug/2/19/main.tex [54 <./solutions/aug/2/14/Figures/plot.png> <./l
+ine/figs/11-1/6/6.10-eps-converted-to.pdf>]
+<solutions/aug/2/19/figures/figure.png, id=2531, 620.3175pt x 430.60875pt>
 File: solutions/aug/2/19/figures/figure.png Graphic file (type png)
 <use solutions/aug/2/19/figures/figure.png>
 Package pdftex.def Info: solutions/aug/2/19/figures/figure.png  used on input l
 ine 41.
 (pdftex.def)             Requested size: 252.0pt x 174.9278pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54 <./solutions/aug/2/14/Figures/plot.png> <./line/figs/11-1/6/6.10-eps-conve
-rted-to.pdf>] (./solutions/aug/2/23.tex)) (./quad/quad_geo.tex (./solutions/aug
-/2/27.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)) [55 <./solutions/aug/2/19/figures/figure.png>] (./gvv_ncert_vectors.aux)
+) (./solutions/aug/2/23.tex))
+(./quad/quad_geo.tex (./solutions/aug/2/27.tex)) [55 <./solutions/aug/2/19/figu
+res/figure.png>] (./gvv_ncert_vectors.aux)
 Package rerunfilecheck Info: File `gvv_ncert_vectors.out' has not changed.
 (rerunfilecheck)             Checksum: 7712137A7DC5E6F8789D9B67351AC245;171.
  ) 
 Here is how much of TeX's memory you used:
- 47246 strings out of 478994
- 1064598 string characters out of 5864752
- 1582959 words of memory out of 5000000
- 62165 multiletter control sequences out of 15000+600000
+ 47291 strings out of 478994
+ 1065397 string characters out of 5864751
+ 1583608 words of memory out of 5000000
+ 62202 multiletter control sequences out of 15000+600000
  493742 words of font info for 225 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  102i,20n,111p,509b,1323s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3119,10 +3099,10 @@ sr/share/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texmf-dist
 mes/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/s
 hare/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_vectors.pdf (55 pages, 1866975 bytes).
+Output written on gvv_ncert_vectors.pdf (55 pages, 1895069 bytes).
 PDF statistics:
- 2858 PDF objects out of 2984 (max. 8388607)
- 2039 compressed objects within 21 object streams
- 1262 named destinations out of 1440 (max. 500000)
- 435 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2868 PDF objects out of 2984 (max. 8388607)
+ 2047 compressed objects within 21 object streams
+ 1268 named destinations out of 1440 (max. 500000)
+ 440 words of extra memory for PDF output out of 10000 (max. 10000000)
 

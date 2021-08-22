@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.8.1)  22 AUG 2021 05:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.20)  22 AUG 2021 13:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -114,8 +114,8 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (/usr/share/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-(/home/user/texmf/tex/latex/tmeslatex/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
@@ -127,63 +127,28 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen162
 ))
-(/home/user/texmf/tex/latex/tmeslatex/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen163
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count194
-LaTeX Info: Redefining \tmspace on input line 145.
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 234.
 \uproot@=\count195
 \leftroot@=\count196
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 399.
 \classnum@=\count197
 \DOTSCASE@=\count198
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box49
 \strutbox@=\box50
 \big@size=\dimen164
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-
-
-Package amsmath Warning: Unable to redefine math accent \hat.
-
-
-Package amsmath Warning: Unable to redefine math accent \check.
-
-
-Package amsmath Warning: Unable to redefine math accent \tilde.
-
-
-Package amsmath Warning: Unable to redefine math accent \acute.
-
-
-Package amsmath Warning: Unable to redefine math accent \grave.
-
-
-Package amsmath Warning: Unable to redefine math accent \dot.
-
-
-Package amsmath Warning: Unable to redefine math accent \ddot.
-
-
-Package amsmath Warning: Unable to redefine math accent \breve.
-
-
-Package amsmath Warning: Unable to redefine math accent \bar.
-
-
-Package amsmath Warning: Unable to redefine math accent \vec.
-
-
-Package amsmath Warning: Unable to redefine math accent \mathring.
-
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count199
 \c@MaxMatrixCols=\count266
 \dotsspace@=\muskip16
@@ -204,9 +169,10 @@ Package amsmath Warning: Unable to redefine math accent \mathring.
 \multlinegap=\skip51
 \multlinetaggap=\skip52
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
-) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks21
 \thm@bodyfont=\toks22
@@ -364,7 +330,7 @@ Package: cite 2015/02/27  v 5.5
 Package: cases 2020/03/29 ver 3.2
 \numc@numwid=\dimen179
 )
-(/home/user/texmf/tex/latex/tfslatex/subfig.sty
+(/home/user/texmf/tex/latex/tfs/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
@@ -471,13 +437,6 @@ LaTeX Info: Redefining \addtolength on input line 81.
 (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-
-LaTeX Warning: You have requested, on input line 117, version
-               `2016/11/05' of package amsmath,
-               but only version
-               `2000/07/18 v2.13 AMS math features'
-               is available.
-
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
@@ -493,7 +452,8 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_shortintertext_sep=\dimen199
 \xmathstrut@box=\box57
 \xmathstrut@dim=\dimen256
-) (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+)
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
@@ -512,8 +472,8 @@ Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
 Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/home/user/texmf/tex/latex/tmeslatex/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
@@ -1615,6 +1575,11 @@ File: utxsyc.fd 2000/12/15 v3.1
 
 
 (./line/chem.tex (./solutions/chemistry/6a/solution.tex
+Overfull \hbox (5.57297pt too wide) detected at line 4
+[]
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -1719,19 +1684,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7])
-(./solutions/matrix/18/solution.tex
+ [7]
+Overfull \hbox (11.00417pt too wide) detected at line 49
+[]
+ []
+
+) (./solutions/matrix/18/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./solutions/matrix/23/solution.tex
+
+Overfull \hbox (5.08109pt too wide) detected at line 24
+[]
+ []
+
+) (./solutions/matrix/23/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 211--3
 
  []
 
 
-Overfull \hbox (22.62862pt too wide) in paragraph at lines 42--42
-[] 
+Overfull \hbox (46.62862pt too wide) detected at line 42
+[]
  []
 
 ) (./solutions/matrix/25/solution.tex
@@ -1739,6 +1712,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8])
 (./solutions/matrix/26/Latex/solution.tex) (./solutions/matrix/28/solution.tex
+Overfull \hbox (11.25827pt too wide) detected at line 10
+[]
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1765,7 +1743,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--14
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9])
-(./solutions/matrix/29/solution.tex)
+(./solutions/matrix/29/solution.tex
+Overfull \hbox (15.28737pt too wide) detected at line 22
+[]
+ []
+
+)
 Underfull \hbox (badness 10000) in paragraph at lines 230--232
 []\OT1/txr/m/n/12 For the ma-tri-ces A and B,verify that
  []
@@ -1954,7 +1937,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--81
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19])
+Overfull \hbox (2.93457pt too wide) detected at line 348
+[]
+ []
+
+
+Overfull \hbox (2.27457pt too wide) detected at line 362
+[]
+ []
+
 (./solutions/su2021/56/Assignment10.tex
+Overfull \hbox (3.9238pt too wide) detected at line 15
+[]
+ []
+
+
+Overfull \hbox (3.9238pt too wide) detected at line 27
+[]
+ []
+
+
+Overfull \hbox (2.01056pt too wide) detected at line 39
+[]
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 <solutions/su2021/56/Figures/Figure10_1.png, id=646, 402.50375pt x 279.0425pt>
@@ -2019,8 +2026,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (14.03308pt too wide) in paragraph at lines 65--65
-[] 
+Overfull \hbox (50.03308pt too wide) detected at line 65
+[]
  []
 
 
@@ -2036,8 +2043,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24])
-(./solutions/6/chapters/line/determinants/solution.tex)
-(./solutions/7/chapters/line/det/solution.tex)
+(./solutions/6/chapters/line/determinants/solution.tex
+Overfull \hbox (4.10022pt too wide) detected at line 24
+[]
+ []
+
+) (./solutions/7/chapters/line/det/solution.tex)
 Underfull \vbox (badness 1442) has occurred while \output is active []
 
 
@@ -2047,8 +2058,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--6
  []
 
 ) (./solutions/det/10/solution.tex
-Overfull \hbox (12.58427pt too wide) in paragraph at lines 14--14
-[] 
+Overfull \hbox (36.58427pt too wide) detected at line 14
+[]
  []
 
 ) (./solutions/det/11/latex/solution.tex
@@ -2056,6 +2067,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25])
 (./solutions/det/12/solution.tex) (./solutions/det/13/solution.tex
+Overfull \hbox (5.98691pt too wide) detected at line 9
+[]
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -2072,8 +2088,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (49.62419pt too wide) in paragraph at lines 18--18
-[] 
+Overfull \hbox (73.62419pt too wide) detected at line 18
+[]
+ []
+
+
+Overfull \hbox (7.76872pt too wide) detected at line 30
+[]
  []
 
 ) (./solutions/det/18_1/solution.tex
@@ -2086,8 +2107,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--1
  []
 
 
-Overfull \hbox (0.73921pt too wide) in paragraph at lines 7--7
-[] 
+Overfull \hbox (13.00319pt too wide) detected at line 4
+[]
+ []
+
+
+Overfull \hbox (24.73921pt too wide) detected at line 7
+[]
  []
 
 
@@ -2179,7 +2205,12 @@ Underfull \hbox (badness 4531) in paragraph at lines 281--2
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32 <./solutions/det/54/assignment2.png>]) (./solutions/det/56/solution.tex
+ [32 <./solutions/det/54/assignment2.png>]
+Overfull \hbox (3.81808pt too wide) detected at line 22
+[]
+ []
+
+) (./solutions/det/56/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 285--1
 
  []
@@ -2190,6 +2221,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
+ []
+
+
+Overfull \hbox (18.14474pt too wide) detected at line 40
+[]
+ []
+
+
+Overfull \hbox (18.14474pt too wide) detected at line 52
+[]
  []
 
 ) (./solutions/det/57/solution.tex
@@ -2205,8 +2246,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--2
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33])
-(./solutions/det/58/solution.tex
+ [33]
+Overfull \hbox (7.27968pt too wide) detected at line 45
+[]
+ []
+
+) (./solutions/det/58/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 <./solutions/det/58/Figure_2.png, id=1078, 462.528pt x 346.896pt>
@@ -2282,11 +2327,16 @@ Underfull \hbox (badness 1939) in paragraph at lines 2--3
  []
 
 
-Overfull \hbox (2.14757pt too wide) in paragraph at lines 20--20
-[] 
+Overfull \hbox (26.14757pt too wide) detected at line 20
+[]
  []
 
 ) (./solutions/det/71/solution.tex
+Overfull \hbox (16.74971pt too wide) detected at line 9
+[]
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -2325,7 +2375,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 404--405
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-(./solutions/det/78/solution.tex) (./solutions/det/79/solution.tex
+(./solutions/det/78/solution.tex
+Overfull \hbox (6.8873pt too wide) detected at line 33
+[]
+ []
+
+) (./solutions/det/79/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39])
@@ -2335,8 +2390,8 @@ Overfull \hbox (4.7997pt too wide) in paragraph at lines 415--2
  []
 
 
-Overfull \hbox (25.35669pt too wide) in paragraph at lines 17--17
-[] 
+Overfull \hbox (49.35669pt too wide) detected at line 17
+[]
  []
 
 
@@ -2402,15 +2457,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./solutions/decomp/2/21/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44])
+ [44]
+Overfull \hbox (1.1889pt too wide) detected at line 47
+[]
+ []
+
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 (./solutions/decomp/2/22/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45])
-(./solutions/decomp/2/23/solution.tex
+ [45]
+Overfull \hbox (1.1889pt too wide) detected at line 44
+[]
+ []
+
+) (./solutions/decomp/2/23/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -2503,9 +2567,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Overfull \hbox (7.70909pt too wide) detected at line 64
+[]
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [58]
+Overfull \hbox (5.04509pt too wide) detected at line 87
+[]
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2538,8 +2612,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [63]
-Overfull \hbox (117.09546pt too wide) in paragraph at lines 156--156
-[] 
+Overfull \hbox (141.09546pt too wide) detected at line 156
+[]
  []
 
 
@@ -2566,7 +2640,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--69
  []
 
 
+Overfull \hbox (18.6211pt too wide) detected at line 71
+[]
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (6.62381pt too wide) detected at line 88
+[]
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2634,6 +2718,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [74]
+Overfull \hbox (18.63666pt too wide) detected at line 99
+[]
+ []
+
+
 Overfull \hbox (1.63448pt too wide) detected at line 112
  []$[]   [] \OT1/txr/m/n/12 = []$ 
  []
@@ -2695,7 +2784,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--20
 []\OT1/txr/m/n/12 Let A=$[]$,B=$[]$,C=$[]$ Find
  []
 
-(./solutions/aug/2/4/4/Assignment-2.tex)
+(./solutions/aug/2/4/2/Assignment-2.tex)
+(./solutions/aug/2/4/4/Assignment-2.tex
+Overfull \hbox (6.11401pt too wide) detected at line 4
+[]
+ []
+
+)
 Underfull \hbox (badness 10000) in paragraph at lines 25--29
 \OT1/txr/m/n/12 (i)$[]$+$[]$
  []
@@ -2710,64 +2805,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-(/usr/share/texmf-dist/tex/latex/tools/.tex File ignored)
-(./solutions/aug/1/7.tex
-Underfull \hbox (badness 10000) in paragraph at lines 37--1
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./solutions/aug/2/6/1/Assignment-2.tex
+Overfull \hbox (108.154pt too wide) detected at line 14
+[]
+ []
+
+) (./solutions/aug/1/7.tex
+Underfull \hbox (badness 10000) in paragraph at lines 39--1
 []\OT1/txr/m/n/12 If,A=$[]$,B=$[]$and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--1
+Underfull \hbox (badness 10000) in paragraph at lines 39--1
 \OT1/txr/m/n/12 C=$[]$,then com-pute (A+B) and
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [78])
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 []\OT1/txr/m/n/12 If A=$[]$ and B=$[]$,then
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 (./solutions/aug/1/9.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
 (./solutions/aug/2/11/Assignment2.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/aug/2/11/Figures/plot.png, id=2699, 462.528pt x 346.896pt>
+<solutions/aug/2/11/Figures/plot.png, id=2700, 462.528pt x 346.896pt>
 File: solutions/aug/2/11/Figures/plot.png Graphic file (type png)
 <use solutions/aug/2/11/Figures/plot.png>
 Package pdftex.def Info: solutions/aug/2/11/Figures/plot.png  used on input lin
 e 57.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--60
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
 [79 <./solutions/aug/2/11/Figures/plot.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--62
 
  []
 
@@ -2777,16 +2872,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--64
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 64--68
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 66--70
 []\OT1/txr/m/n/12 If A=$[]$ and B=$[]$,then
  []
 
-(./solutions/aug/2/16/2/Assignment_2.tex)
+(./solutions/aug/2/16/2/Assignment_2.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+)
 (./solutions/aug/2/17/1/Assignment2.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
@@ -2794,52 +2894,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [80])
-Underfull \hbox (badness 10000) in paragraph at lines 86--89
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 []\OT1/txr/m/n/12 Find $[](\OML/txmi/m/it/12 A \OT1/txr/m/n/12 + \OML/txmi/m/it
 /12 A[]\OT1/txr/m/n/12 )$and $[](\OML/txmi/m/it/12 A \OMS/txsy/m/n/12 ^^@ \OML/
 txmi/m/it/12 A[]\OT1/txr/m/n/12 )$,when
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--95
+Underfull \hbox (badness 10000) in paragraph at lines 93--97
 
  []
 
-(./solutions/aug/2/22/1/main.tex
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+(./solutions/aug/2/22/1/main.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
 
-Underfull \hbox (badness 3260) in paragraph at lines 98--101
+Underfull \hbox (badness 3260) in paragraph at lines 100--103
 []\OT1/txr/m/n/12 If A,B are sym-met-ric ma-tri-ces of same
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 100--103
 
  []
 
@@ -2864,6 +2955,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--109
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81]
 Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
@@ -2879,9 +2973,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--112
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [81]
 Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
@@ -2897,12 +2988,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--119
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--121
 
  []
 
@@ -2912,22 +3008,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
  []
 
 
-Underfull \hbox (badness 2326) in paragraph at lines 124--126
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 126--128
 []\OT1/txr/m/n/12 If A and B are square ma-tri-ces of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--126
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
@@ -2937,12 +3028,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--134
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--136
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
@@ -2950,17 +3036,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--141
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 []\OT1/txr/m/n/12 If A=$[]$, B=$[]$ and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
@@ -2968,47 +3069,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--153
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [82])
-Underfull \hbox (badness 10000) in paragraph at lines 161--163
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 []\OT1/txr/m/n/12 If A=$[]$,B=$[]$, ver-ify that
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--167
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
 []\OT1/txr/m/n/12 By us-ing el-e-men-tary op-er-a-tions,find the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--167
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--176
+Underfull \hbox (badness 10000) in paragraph at lines 174--178
 \OT1/txr/m/n/12 (ii)$[] [] \U/txsyc/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--176
+Underfull \hbox (badness 10000) in paragraph at lines 174--178
 
  []
 
@@ -3016,27 +3117,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--176
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--197
+Underfull \hbox (badness 10000) in paragraph at lines 196--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
@@ -3044,16 +3145,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--199
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [83]
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
@@ -3089,12 +3180,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--244
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 245--246
@@ -3111,15 +3202,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
 ) [84] (./gvv_ncert_matrix.aux)
 Package rerunfilecheck Info: File `gvv_ncert_matrix.out' has not changed.
 (rerunfilecheck)             Checksum: 7712137A7DC5E6F8789D9B67351AC245;171.
  ) 
 Here is how much of TeX's memory you used:
- 47848 strings out of 478994
- 1047460 string characters out of 5864752
- 1593114 words of memory out of 5000000
- 61933 multiletter control sequences out of 15000+600000
+ 47887 strings out of 478994
+ 1048113 string characters out of 5864751
+ 1593722 words of memory out of 5000000
+ 61965 multiletter control sequences out of 15000+600000
  497222 words of font info for 237 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  102i,24n,111p,744b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3134,10 +3235,10 @@ e1/public/txfonts/txsyb.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t
 xsyc.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/te
 xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_matrix.pdf (84 pages, 745903 bytes).
+Output written on gvv_ncert_matrix.pdf (84 pages, 746100 bytes).
 PDF statistics:
- 3375 PDF objects out of 3580 (max. 8388607)
- 3139 compressed objects within 32 object streams
- 2119 named destinations out of 2487 (max. 500000)
+ 3379 PDF objects out of 3580 (max. 8388607)
+ 3143 compressed objects within 32 object streams
+ 2123 named destinations out of 2487 (max. 500000)
  195 words of extra memory for PDF output out of 10000 (max. 10000000)
 
