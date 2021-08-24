@@ -1,0 +1,27 @@
+Let,
+\begin{align}
+    \vec{A} &= \myvec{1 & 2 & 3\\ 4 & 5 & 6}\\
+    \vec{B} &= \myvec{-7 & -8 & -9\\ 2 & 4 & 6}
+\end{align}
+Now, multiplying $\vec{A}^\top$ on both sides,
+\begin{align}
+    \vec{X}\vec{A}\vec{A}^\top &= \vec{B}\vec{A}^\top\\
+   \implies \vec{X} &= \vec{B}\vec{A}^\top(\vec{A}\vec{A}^\top)^{-1}
+\end{align}
+Therefore,
+\begin{align}
+    \vec{X} &= \myvec{-7 & -8 & -9\\ 2 & 4 & 6} \myvec{1 & 4\\2 & 5\\3 & 6}(\vec{A}\vec{A}^\top)^{-1}\\
+            &= \myvec{-50 & -122\\ 28 & 64} \left[\myvec{1 & 2 & 3\\ 4 & 5 & 6} \myvec{1 & 4\\2 & 5\\3 & 6}\right]^{-1}\\
+            &= \myvec{-50 & -122\\ 28 & 64}\left[\myvec{14 & 32\\32 & 77}\right]^{-1}\\
+            &= \myvec{-50 & -122\\ 28 & 64}\myvec{\cfrac{77}{54}&\cfrac{-16}{27}\\ \cfrac{-16}{27}& \cfrac{7}{27}}\\
+            &= \myvec{1 & -2\\2 & 0}
+\end{align}
+Now, verifying the solution
+\begin{align}
+    \textit{L.H.S} &= \vec{X}\myvec{1 & 2 & 3\\ 4 & 5 & 6}\\
+                 &= \myvec{1 & -2\\2 & 0}\myvec{1 & 2 & 3\\ 4 & 5 & 6}\\
+                 &= \myvec{1-8 & 2-10 & 3-12\\4+0 & 4+0 & 6+0}\\
+                 &= \myvec{-7 & -8 & -9\\2 & 4 & 6}\\
+                 &= \textit{R.H.S}
+\end{align}
+Hence the matrix $\vec{X}$ is \myvec{1 & -2\\2 & 0}
