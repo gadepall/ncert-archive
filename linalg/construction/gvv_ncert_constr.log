@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.8.1)  19 AUG 2021 14:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.8.1)  23 AUG 2021 08:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2101,29 +2101,43 @@ Underfull \hbox (badness 1430) in paragraph at lines 9--10
 /m/n/12 such that
  []
 
-
-Underfull \hbox (badness 1472) in paragraph at lines 14--15
+(./solutions/aug/2/6/main.tex
+<solutions/aug/2/6/rhombus_BEND.png, id=730, 462.528pt x 346.896pt>
+File: solutions/aug/2/6/rhombus_BEND.png Graphic file (type png)
+<use solutions/aug/2/6/rhombus_BEND.png>
+Package pdftex.def Info: solutions/aug/2/6/rhombus_BEND.png  used on input line
+ 12.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+)
+Underfull \hbox (badness 1472) in paragraph at lines 20--21
 []\OT1/txr/m/n/12 Can you con-struct the above quadri-lat-eral
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 17--18
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 23--24
 []\OT1/txr/m/n/12 Construct $\OML/txmi/m/it/12 PLAN$ \OT1/txr/m/n/12 where $\OM
 L/txmi/m/it/12 PL \OT1/txr/m/n/12 = 4\OML/txmi/m/it/12 ; LA \OT1/txr/m/n/12 =
  []
 
-) (./chapters/constr/circ_const_exer.tex
-Underfull \vbox (badness 2635) has occurred while \output is active []
+) (./chapters/constr/circ_const_exer.tex) [21 <./solutions/triangle/27/3/Triang
+le_ABC.PNG> <./solutions/aug/2/6/rhombus_BEND.png>] [22
 
-) [21 <./solutions/triangle/27/3/Triangle_ABC.PNG>] (./gvv_ncert_constr.aux)
+]
+(./gvv_ncert_constr.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `gvv_ncert_constr.out' has not changed.
 (rerunfilecheck)             Checksum: 7712137A7DC5E6F8789D9B67351AC245;171.
  ) 
 Here is how much of TeX's memory you used:
- 48334 strings out of 478994
- 1089826 string characters out of 5864752
- 1637438 words of memory out of 5000000
- 64290 multiletter control sequences out of 15000+600000
+ 48351 strings out of 478994
+ 1090222 string characters out of 5864752
+ 1637490 words of memory out of 5000000
+ 64297 multiletter control sequences out of 15000+600000
  494793 words of font info for 228 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  102i,22n,111p,508b,1610s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2136,10 +2150,10 @@ onts/txsya.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></us
 r/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/font
 s/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr
 8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_constr.pdf (21 pages, 621670 bytes).
+Output written on gvv_ncert_constr.pdf (22 pages, 646737 bytes).
 PDF statistics:
- 885 PDF objects out of 1000 (max. 8388607)
- 733 compressed objects within 8 object streams
- 449 named destinations out of 1000 (max. 500000)
- 325 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 898 PDF objects out of 1000 (max. 8388607)
+ 743 compressed objects within 8 object streams
+ 455 named destinations out of 1000 (max. 500000)
+ 330 words of extra memory for PDF output out of 10000 (max. 10000000)
 

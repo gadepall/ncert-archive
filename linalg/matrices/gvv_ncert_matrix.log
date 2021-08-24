@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.8.1)  22 AUG 2021 15:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.8.1)  23 AUG 2021 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2956,18 +2956,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+(/usr/share/texmf-dist/tex/latex/tools/.tex File ignored)
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 []\OT1/txr/m/n/12 If A=$[]$, B=$[]$ and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
@@ -2975,47 +2975,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--155
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [82])
-Underfull \hbox (badness 10000) in paragraph at lines 163--165
+Underfull \hbox (badness 10000) in paragraph at lines 166--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 []\OT1/txr/m/n/12 If A=$[]$,B=$[]$, ver-ify that
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--169
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
 []\OT1/txr/m/n/12 By us-ing el-e-men-tary op-er-a-tions,find the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--169
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--178
+Underfull \hbox (badness 10000) in paragraph at lines 177--181
 \OT1/txr/m/n/12 (ii)$[] [] \U/txsyc/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--178
+Underfull \hbox (badness 10000) in paragraph at lines 177--181
 
  []
 
@@ -3023,27 +3023,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--178
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--180
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--199
+Underfull \hbox (badness 10000) in paragraph at lines 199--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
@@ -3051,42 +3051,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--201
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [83]
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+(./solutions/aug/2/70/Assignment2.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
-
- []
-
-
+<solutions/aug/2/70/a_2.png, id=2865, 379.4175pt x 262.9825pt>
+File: solutions/aug/2/70/a_2.png Graphic file (type png)
+<use solutions/aug/2/70/a_2.png>
+Package pdftex.def Info: solutions/aug/2/70/a_2.png  used on input line 26.
+(pdftex.def)             Requested size: 252.0pt x 174.66847pt.
+)
 Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 244--245
@@ -3118,15 +3094,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
-) [84] (./gvv_ncert_matrix.aux)
+[84 <./solutions/aug/2/70/a_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+) [85
+
+] (./gvv_ncert_matrix.aux)
 Package rerunfilecheck Info: File `gvv_ncert_matrix.out' has not changed.
 (rerunfilecheck)             Checksum: 7712137A7DC5E6F8789D9B67351AC245;171.
  ) 
 Here is how much of TeX's memory you used:
- 47858 strings out of 478994
- 1047686 string characters out of 5864752
- 1593115 words of memory out of 5000000
- 61935 multiletter control sequences out of 15000+600000
+ 47879 strings out of 478994
+ 1048167 string characters out of 5864752
+ 1593248 words of memory out of 5000000
+ 61943 multiletter control sequences out of 15000+600000
  497222 words of font info for 237 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  102i,24n,111p,744b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3141,10 +3149,10 @@ e1/public/txfonts/txsyb.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/t
 xsyc.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/te
 xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_matrix.pdf (84 pages, 746125 bytes).
+Output written on gvv_ncert_matrix.pdf (85 pages, 755341 bytes).
 PDF statistics:
- 3379 PDF objects out of 3580 (max. 8388607)
- 3143 compressed objects within 32 object streams
- 2123 named destinations out of 2487 (max. 500000)
- 195 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3396 PDF objects out of 3580 (max. 8388607)
+ 3157 compressed objects within 32 object streams
+ 2130 named destinations out of 2487 (max. 500000)
+ 200 words of extra memory for PDF output out of 10000 (max. 10000000)
 
