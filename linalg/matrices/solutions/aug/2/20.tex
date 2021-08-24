@@ -1,0 +1,50 @@
+    Given,
+    \begin{align}
+    \label{aug/2/2/20/eq:1}
+        \Vec{A}=\myvec{1 & 5\\6 & 7}
+    \end{align}
+    Transposing the matrix,
+    \begin{align}
+        \label{aug/2/2/20/eq:2}
+        \Vec{A}^\top=\myvec{1 & 6 \\5 & 7}
+    \end{align}
+
+    \begin{enumerate}[label=\roman*]
+    \item Using \eqref{aug/2/2/20/eq:1} and \eqref{aug/2/2/20/eq:2} we get,
+    \begin{align}
+    \vec{(\vec{A}+\vec{A}^\top)}=\myvec{1 & 5\\6 & 7}+\myvec{1 & 6 \\5 & 7}\\
+    \label{aug/2/2/20/eq:3}
+    \vec{(\vec{A}+\vec{A}^\top)}=\myvec{2 & 11\\11 & 14}
+    \end{align}
+    Using \eqref{aug/2/2/20/eq:3} we get,
+    \begin{align}
+    \label{aug/2/2/20/eq:4}
+    \vec{(\vec{A}+\vec{A}^\top)}^\top=\myvec{2 & 11\\11 & 14}
+    \end{align}
+    Using \eqref{aug/2/2/20/eq:3} and \eqref{aug/2/2/20/eq:4} we get,
+    \begin{align}
+      \vec{(\vec{A}+\vec{A}^\top)}^\top=\vec{(\vec{A}+\vec{A}^\top)}
+    \end{align}
+    \begin{center}
+        $\therefore \vec{(\vec{A}+\vec{A}^\top)}$ is symmetric matrix. 
+    \end{center}
+    \item
+    Using \eqref{aug/2/2/20/eq:1} and \eqref{aug/2/2/20/eq:2} we get,
+    \begin{align}
+    \vec{(\vec{A}-\vec{A}^\top)}=\myvec{1 & 5\\6 & 7}-\myvec{1 & 6 \\5 & 7}\\
+    \label{aug/2/2/20/eq:5}
+    \vec{(\vec{A}-\vec{A}^\top)}=\myvec{0 & -1\\1 & 0}
+    \end{align}
+    Using \eqref{aug/2/2/20/eq:5} we get,
+    \begin{align}
+    \label{aug/2/2/20/eq:6}
+    \vec{(\vec{A}-\vec{A}^\top)}^\top=\myvec{0 & 1\\-1 & 0}
+    \end{align}
+    Using \eqref{aug/2/2/20/eq:5} and \eqref{aug/2/2/20/eq:6} we get,
+    \begin{align}
+     \vec{(\vec{A}-\vec{A}^\top)}^\top=- \vec{(\vec{A}-\vec{A}^\top)}
+    \end{align}
+    \begin{center}
+        $\therefore \vec{(\vec{A}-\vec{A}^\top)}$ is skew symmetric matrix. 
+    \end{center}
+    \end{enumerate}
