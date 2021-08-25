@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.20)  22 AUG 2021 14:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.20)  25 AUG 2021 11:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2975,19 +2975,24 @@ Package pdftex.def Info: solutions/aug/2/1/figs/figs.png  used on input line 38
 .
 (pdftex.def)             Requested size: 252.0pt x 170.16212pt.
 )
+(./solutions/aug/2/5/EE3900 ASSIGNMENT-1.tex
+<solutions/aug/2/5/FIGURE-1.png, id=2375, 387.4475pt x 262.9825pt>
+File: solutions/aug/2/5/FIGURE-1.png Graphic file (type png)
+<use solutions/aug/2/5/FIGURE-1.png>
+Package pdftex.def Info: solutions/aug/2/5/FIGURE-1.png  used on input line 37.
+
+(pdftex.def)             Requested size: 252.0pt x 171.04893pt.
+)
 (./solutions/aug/2/7/assignment-1.tex
-<solutions/aug/2/7/figure/figure.png, id=2376, 462.528pt x 346.896pt>
+<solutions/aug/2/7/figure/figure.png, id=2377, 462.528pt x 346.896pt>
 File: solutions/aug/2/7/figure/figure.png Graphic file (type png)
 <use solutions/aug/2/7/figure/figure.png>
 Package pdftex.def Info: solutions/aug/2/7/figure/figure.png  used on input lin
 e 22.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-) (./solutions/aug/2/8/main.tex
-Underfull \vbox (badness 1789) has occurred while \output is active []
-
- [50 <./solutions/aug/2/1/figs/figs.png> <./solutions/aug/2/7/figure/figure.png
->]
-<solutions/aug/2/8/Figures/Grid.png, id=2406, 395.4775pt x 262.9825pt>
+) (./solutions/aug/2/8/main.tex [50 <./solutions/aug/2/1/figs/figs.png> <./solu
+tions/aug/2/5/FIGURE-1.png>]
+<solutions/aug/2/8/Figures/Grid.png, id=2412, 395.4775pt x 262.9825pt>
 File: solutions/aug/2/8/Figures/Grid.png Graphic file (type png)
 <use solutions/aug/2/8/Figures/Grid.png>
 Package pdftex.def Info: solutions/aug/2/8/Figures/Grid.png  used on input line
@@ -2997,34 +3002,43 @@ Package pdftex.def Info: solutions/aug/2/8/Figures/Grid.png  used on input line
 (./solutions/aug/2/9/Assignment1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/aug/2/9/figures/figure.jpeg, id=2408, 565.11125pt x 340.27126pt>
+<solutions/aug/2/9/figures/figure.jpeg, id=2414, 565.11125pt x 340.27126pt>
 File: solutions/aug/2/9/figures/figure.jpeg Graphic file (type jpg)
 <use solutions/aug/2/9/figures/figure.jpeg>
 Package pdftex.def Info: solutions/aug/2/9/figures/figure.jpeg  used on input l
 ine 41.
 (pdftex.def)             Requested size: 252.0pt x 151.73434pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 )
-(./solutions/aug/2/10/VECTORS_ASSIGNMENT1.tex [51 <./solutions/aug/2/8/Figures/
-Grid.png> <./solutions/aug/2/9/figures/figure.jpeg>]
-<solutions/aug/2/10/Figures/q1a.png, id=2443, 378.41376pt x 252.945pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51 <./solutions/aug/2/7/figure/figure.png> <./solutions/aug/2/8/Figures/Grid.
+png>]
+(./solutions/aug/2/10/VECTORS_ASSIGNMENT1.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<solutions/aug/2/10/Figures/q1a.png, id=2446, 378.41376pt x 252.945pt>
 File: solutions/aug/2/10/Figures/q1a.png Graphic file (type png)
 <use solutions/aug/2/10/Figures/q1a.png>
 Package pdftex.def Info: solutions/aug/2/10/Figures/q1a.png  used on input line
  34.
 (pdftex.def)             Requested size: 252.0pt x 168.4456pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<solutions/aug/2/10/Figures/q1b.png, id=2448, 378.41376pt x 248.93pt>
+<solutions/aug/2/10/Figures/q1b.png, id=2451, 378.41376pt x 248.93pt>
 File: solutions/aug/2/10/Figures/q1b.png Graphic file (type png)
 <use solutions/aug/2/10/Figures/q1b.png>
 Package pdftex.def Info: solutions/aug/2/10/Figures/q1b.png  used on input line
  71.
 (pdftex.def)             Requested size: 252.0pt x 165.77187pt.
-)
-(./solutions/aug/2/12/main.tex [52 <./solutions/aug/2/10/Figures/q1a.png> <./so
-lutions/aug/2/10/Figures/q1b.png>]
-<solutions/aug/2/12/Figure.png, id=2472, 350.30875pt x 231.86626pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./solutions/aug/2/12/main.tex [52 <./solutions/aug/2/9/figures/figure.jpeg> 
+<./solutions/aug/2/10/Figures/q1a.png>]
+<solutions/aug/2/12/Figure.png, id=2476, 350.30875pt x 231.86626pt>
 File: solutions/aug/2/12/Figure.png Graphic file (type png)
 <use solutions/aug/2/12/Figure.png>
 Package pdftex.def Info: solutions/aug/2/12/Figure.png  used on input line 31.
@@ -3032,16 +3046,21 @@ Package pdftex.def Info: solutions/aug/2/12/Figure.png  used on input line 31.
 ) (./solutions/aug/2/13/Assignment1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/aug/2/13/figures/figure.png, id=2474, 462.528pt x 346.896pt>
+<solutions/aug/2/13/figures/figure.png, id=2478, 462.528pt x 346.896pt>
 File: solutions/aug/2/13/figures/figure.png Graphic file (type png)
 <use solutions/aug/2/13/figures/figure.png>
 Package pdftex.def Info: solutions/aug/2/13/figures/figure.png  used on input l
 ine 49.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-)
-(./solutions/aug/2/14/Assignment2.tex [53 <./solutions/aug/2/12/Figure.png> <./
-solutions/aug/2/13/figures/figure.png>]
-<solutions/aug/2/14/Figures/plot.png, id=2500, 272.4579pt x 258.0039pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./solutions/aug/2/14/Assignment2.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53 <./solutions/aug/2/10/Figures/q1b.png> <./solutions/aug/2/12/Figure.png>]
+<solutions/aug/2/14/Figures/plot.png, id=2505, 272.4579pt x 258.0039pt>
 File: solutions/aug/2/14/Figures/plot.png Graphic file (type png)
 <use solutions/aug/2/14/Figures/plot.png>
 Package pdftex.def Info: solutions/aug/2/14/Figures/plot.png  used on input lin
@@ -3049,7 +3068,14 @@ e 30.
 (pdftex.def)             Requested size: 252.0pt x 238.63411pt.
 )
 
-LaTeX Warning: File `./line/figs/11-1/6/6.10.eps' not found on input line 88.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 3713) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `./line/figs/11-1/6/6.10.eps' not found on input line 91.
 
 Package epstopdf Info: Source file: <./line/figs/11-1/6/6.10.eps>
 (epstopdf)             Output file: <./line/figs/11-1/6/6.10-eps-converted-to.p
@@ -3058,33 +3084,41 @@ df>
 (epstopdf)                    size: 16274 bytes
 (epstopdf)             Command: <repstopdf --outfile=./line/figs/11-1/6/6.10-ep
 s-converted-to.pdf ./line/figs/11-1/6/6.10.eps>
-(epstopdf)             \includegraphics on input line 88.
+(epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
-<./line/figs/11-1/6/6.10-eps-converted-to.pdf, id=2502, 389.455pt x 188.705pt>
+<./line/figs/11-1/6/6.10-eps-converted-to.pdf, id=2507, 389.455pt x 188.705pt>
 File: ./line/figs/11-1/6/6.10-eps-converted-to.pdf Graphic file (type pdf)
 <use ./line/figs/11-1/6/6.10-eps-converted-to.pdf>
 Package pdftex.def Info: ./line/figs/11-1/6/6.10-eps-converted-to.pdf  used on 
-input line 88.
+input line 91.
 (pdftex.def)             Requested size: 252.0pt x 122.10106pt.
-(./solutions/aug/2/19/main.tex [54 <./solutions/aug/2/14/Figures/plot.png> <./l
-ine/figs/11-1/6/6.10-eps-converted-to.pdf>]
-<solutions/aug/2/19/figures/figure.png, id=2531, 620.3175pt x 430.60875pt>
+(./solutions/aug/2/19/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54 <./solutions/aug/2/13/figures/figure.png> <./solutions/aug/2/14/Figures/pl
+ot.png>]
+<solutions/aug/2/19/figures/figure.png, id=2533, 620.3175pt x 430.60875pt>
 File: solutions/aug/2/19/figures/figure.png Graphic file (type png)
 <use solutions/aug/2/19/figures/figure.png>
 Package pdftex.def Info: solutions/aug/2/19/figures/figure.png  used on input l
 ine 41.
 (pdftex.def)             Requested size: 252.0pt x 174.9278pt.
-) (./solutions/aug/2/23.tex))
-(./quad/quad_geo.tex (./solutions/aug/2/27.tex)) [55 <./solutions/aug/2/19/figu
-res/figure.png>] (./gvv_ncert_vectors.aux)
+)
+(./solutions/aug/2/23.tex)) (./quad/quad_geo.tex (./solutions/aug/2/27.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55 <./line/figs/11-1/6/6.10-eps-converted-to.pdf> <./solutions/aug/2/19/figur
+es/figure.png>])) [56
+
+] (./gvv_ncert_vectors.aux)
 Package rerunfilecheck Info: File `gvv_ncert_vectors.out' has not changed.
 (rerunfilecheck)             Checksum: 7712137A7DC5E6F8789D9B67351AC245;171.
  ) 
 Here is how much of TeX's memory you used:
- 47291 strings out of 478994
- 1065397 string characters out of 5864751
- 1583608 words of memory out of 5000000
- 62202 multiletter control sequences out of 15000+600000
+ 47312 strings out of 478994
+ 1065894 string characters out of 5864751
+ 1583783 words of memory out of 5000000
+ 62212 multiletter control sequences out of 15000+600000
  493742 words of font info for 225 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  102i,20n,111p,509b,1323s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3099,10 +3133,10 @@ sr/share/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texmf-dist
 mes/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/s
 hare/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on gvv_ncert_vectors.pdf (55 pages, 1895069 bytes).
+Output written on gvv_ncert_vectors.pdf (56 pages, 1905898 bytes).
 PDF statistics:
- 2868 PDF objects out of 2984 (max. 8388607)
- 2047 compressed objects within 21 object streams
- 1268 named destinations out of 1440 (max. 500000)
- 440 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2880 PDF objects out of 2984 (max. 8388607)
+ 2056 compressed objects within 21 object streams
+ 1274 named destinations out of 1440 (max. 500000)
+ 445 words of extra memory for PDF output out of 10000 (max. 10000000)
 
