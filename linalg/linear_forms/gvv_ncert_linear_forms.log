@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.8.1)  20 AUG 2021 09:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.8.1)  25 AUG 2021 13:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3357,68 +3357,79 @@ e 6.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(./solutions/aug/2/34/Assignment4.tex
+Underfull \vbox (badness 1609) has occurred while \output is active []
 
  [72 <./solutions/su2021/2/43/b/assignment4.png> <./solutions/su2021/2/43/c/ASS
 IGNMENT 5.png> <./solutions/su2021/2/43/d/figure4.png>]
+<solutions/aug/2/34/figs/Assignment4.png, id=2379, 350.30875pt x 231.86626pt>
+File: solutions/aug/2/34/figs/Assignment4.png Graphic file (type png)
+<use solutions/aug/2/34/figs/Assignment4.png>
+Package pdftex.def Info: solutions/aug/2/34/figs/Assignment4.png  used on input
+ line 14.
+(pdftex.def)             Requested size: 252.0pt x 166.79851pt.
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1838) in paragraph at lines 416--418
+ [73 <./solutions/aug/2/34/figs/Assignment4.png>]
+Underfull \hbox (badness 1838) in paragraph at lines 418--420
 []\OT1/txr/m/n/12 Using in-te-gra-tion find the area of re-gion
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 418--419
+Underfull \hbox (badness 1838) in paragraph at lines 420--421
 []\OT1/txr/m/n/12 Using in-te-gra-tion find the area of re-gion
  []
 
-[73]
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 436.
+LaTeX Warning: Command \textendash invalid in math mode on input line 438.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 436.
+LaTeX Warning: Command \textendash invalid in math mode on input line 438.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 590.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [74]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 592.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [75])
 (./line/line_misc.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6842) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [76]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 (./solutions/july/110.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [77]
+[78]) [79
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [77])
-[78] (./gvv_ncert_linear_forms.aux)
+] (./gvv_ncert_linear_forms.aux)
 Package rerunfilecheck Info: File `gvv_ncert_linear_forms.out' has not changed.
 
 (rerunfilecheck)             Checksum: 7712137A7DC5E6F8789D9B67351AC245;171.
  ) 
 Here is how much of TeX's memory you used:
- 47521 strings out of 478994
- 1064159 string characters out of 5864752
- 1555513 words of memory out of 5000000
- 62291 multiletter control sequences out of 15000+600000
+ 47537 strings out of 478994
+ 1064606 string characters out of 5864752
+ 1555580 words of memory out of 5000000
+ 62298 multiletter control sequences out of 15000+600000
  493296 words of font info for 226 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  102i,24n,111p,514b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3433,10 +3444,10 @@ mf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texmf-dist/fonts/type1
 fb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/tim
 es/utmri8a.pfb>
-Output written on gvv_ncert_linear_forms.pdf (78 pages, 2198346 bytes).
+Output written on gvv_ncert_linear_forms.pdf (79 pages, 2220405 bytes).
 PDF statistics:
- 3018 PDF objects out of 3580 (max. 8388607)
- 2344 compressed objects within 24 object streams
- 1485 named destinations out of 1728 (max. 500000)
- 620 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3031 PDF objects out of 3580 (max. 8388607)
+ 2354 compressed objects within 24 object streams
+ 1490 named destinations out of 1728 (max. 500000)
+ 625 words of extra memory for PDF output out of 10000 (max. 10000000)
 
