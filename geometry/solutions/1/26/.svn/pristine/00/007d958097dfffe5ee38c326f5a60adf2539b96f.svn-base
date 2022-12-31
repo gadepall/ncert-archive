@@ -1,6 +1,0 @@
-Line l is the bisector of $\angle{A}$ and $\vec{B}$ is any point on l. $\vec{BP}$ and $\vec{BQ}$ are perpendiculars from $\vec{B}$ to the arms of $\angle{A}$
- show that :
-\begin{enumerate}[label = (\alph*)]
-\item$\Delta APB \cong \Delta AQB$ 
-\item $\vec{BP} = \vec{BQ}$
-\end{enumerate}
