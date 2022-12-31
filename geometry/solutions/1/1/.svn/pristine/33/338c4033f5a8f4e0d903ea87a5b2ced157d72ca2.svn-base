@@ -1,7 +1,0 @@
-\renewcommand{\theequation}{\theenumi}
-\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
-\numberwithin{equation}{enumi}
-
-\item Show that each angle in an equilateral triangle is $60\degree$.
-\end{enumerate}
-
