@@ -1,7 +1,0 @@
-$\triangle ABC \cong \triangle ABD$ by SAS congruence:
-\begin{align*}
-AD &= AC \\
-\angle{DAB} &= \angle{BAC} \\
-DB\ &is\ common
-\end{align*}
-$\implies BC = BD$
